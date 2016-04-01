@@ -5,13 +5,13 @@
  -------- | ----- 
  Total Files | 382
 [ Handoff Failed Files ](#handoff-failed-list)| 0
-[ Handoff Success Files ](#handoff-success-list)| 248
+[ Handoff Success Files ](#handoff-success-list)| 247
 [ Archive Failed Files ](#archive-failed-list)| 0
 [ Archive Success Files ](#archive-success-list)| 0
 [ Handback Failed Files ](#handback-failed-list)| 0
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 0
 [ In Sync Handback Files ](#insync-handback-success-list)| 0
-[ Ignored Files ](#ignored-list)| 134
+[ Ignored Files ](#ignored-list)| 135
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
 
@@ -214,7 +214,6 @@
  [EMDocs\Solutions\Sample.md](https://github.com/Microsoft/EMDocs-pr/blob/07a9c79010ee985cd57a115503267bc3d8dea225/EMDocs/Solutions/Sample.md) | HandedOffSuccess | [Details](#80f16e5851e574014594e4d93ba194beb2cc9653326)
  [EMDocs\Solutions\Secure-access-to-company-resources-from-any-location-on-any-device.md](https://github.com/Microsoft/EMDocs-pr/blob/07a9c79010ee985cd57a115503267bc3d8dea225/EMDocs/Solutions/Secure-access-to-company-resources-from-any-location-on-any-device.md) | HandedOffSuccess | [Details](#95e060275eb6ad08cc794b6211240f6dce7912bb327)
  [EMDocs\Solutions\Step-3---Plan-for-enhancing-mobile-devices-protection.md](https://github.com/Microsoft/EMDocs-pr/blob/07a9c79010ee985cd57a115503267bc3d8dea225/EMDocs/Solutions/Step-3---Plan-for-enhancing-mobile-devices-protection.md) | HandedOffSuccess | [Details](#5c726e56fa7675c0cfceaf10b9fa8644dd843836328)
- [EMDocs\Solutions\TOC.md](https://github.com/Microsoft/EMDocs-pr/blob/8e9b828518dd74b0666397d7824b39a3b477fa25/EMDocs/Solutions/TOC.md) | HandedOffSuccess | [Details](#a892e077467393fd2928d010816aac08218fe7e1329)
  [EMDocs\Solutions\v-craic_test_Use-conditional-access-with-Intune-and-Configuration-Manager.md](https://github.com/Microsoft/EMDocs-pr/blob/c372eeb4603efa18943ab25c71b10c5cdde9e4c0/EMDocs/Solutions/v-craic_test_Use-conditional-access-with-Intune-and-Configuration-Manager.md) | HandedOffSuccess | [Details](#7e4080021b94ff56b8f4d670e4302886f417805e330)
  [EMDocs\Token\Active-Directory.md](https://github.com/Microsoft/EMDocs-pr/blob/07a9c79010ee985cd57a115503267bc3d8dea225/EMDocs/Token/Active-Directory.md) | HandedOffSuccess | [Details](#55514466f7f2092dbc8cf35057d4978ca9247ae6333)
  [EMDocs\Token\Active-Directory-Federation-Services.md](https://github.com/Microsoft/EMDocs-pr/blob/07a9c79010ee985cd57a115503267bc3d8dea225/EMDocs/Token/Active-Directory-Federation-Services.md) | HandedOffSuccess | [Details](#5b72cde38cf4fd1e3675899bccdd7a1f61a4539b332)
@@ -413,6 +412,7 @@
  [EMDocs\Solutions\media\WSE_SG_RAProblem.png](https://github.com/Microsoft/EMDocs-pr/blob/8e9b828518dd74b0666397d7824b39a3b477fa25/EMDocs/Solutions/media/WSE_SG_RAProblem.png) | Ignored | [Details](#b52789a46874ed019ff8dea05bfefdebdf549cbd321)
  [EMDocs\Solutions\media\WSE_SG_SMBDataProtectProblem.png](https://github.com/Microsoft/EMDocs-pr/blob/8e9b828518dd74b0666397d7824b39a3b477fa25/EMDocs/Solutions/media/WSE_SG_SMBDataProtectProblem.png) | Ignored | [Details](#17a8303c7ef0995ef393588b69250a0f4184df38322)
  [EMDocs\Solutions\media\WSE_SG_SMBDataProtectSolution.png](https://github.com/Microsoft/EMDocs-pr/blob/8e9b828518dd74b0666397d7824b39a3b477fa25/EMDocs/Solutions/media/WSE_SG_SMBDataProtectSolution.png) | Ignored | [Details](#0e1ba1f9f6fc258f4640be651285366d453d4e1a323)
+ [EMDocs\Solutions\TOC.md](https://github.com/Microsoft/EMDocs-pr/blob/8e9b828518dd74b0666397d7824b39a3b477fa25/EMDocs/Solutions/TOC.md) | Ignored | [Details](#ce144b9f9b9a6464da8c6ce5e33a98e208dda1ea329)
  [EMDocs\toc.yml](https://github.com/Microsoft/EMDocs-pr/blob/8e9b828518dd74b0666397d7824b39a3b477fa25/EMDocs/toc.yml) | Ignored | [Details](#363b603713ce2ddcfecc61ae819635b4168139c2331)
 
 ## Item Details
@@ -4463,12 +4463,12 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='a892e077467393fd2928d010816aac08218fe7e1329'></a> Source: [EMDocs\Solutions\TOC.md](https://github.com/Microsoft/EMDocs-pr/blob/8e9b828518dd74b0666397d7824b39a3b477fa25/EMDocs/Solutions/TOC.md)
-* Status: HandedOffSuccess
+##### <a name='ce144b9f9b9a6464da8c6ce5e33a98e208dda1ea329'></a> Source: [EMDocs\Solutions\TOC.md](https://github.com/Microsoft/EMDocs-pr/blob/8e9b828518dd74b0666397d7824b39a3b477fa25/EMDocs/Solutions/TOC.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [TOC.e29f8b07f05eb535130e3e140ad0aff9a4134726.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/24bf95281c54109f6ada0fd20e6e272f6f266777/ol-handoff/Microsoft/EMDocs-pr.it-it/master/TOC.e29f8b07f05eb535130e3e140ad0aff9a4134726.it-it.xlf)
-* Handoff Datetime: 2016-04-01 16:22:55
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
