@@ -6,14 +6,14 @@
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [EMDocs\Solutions\BYOD-Envisioning-the-BYOD-Infrastructure-Solution.md](https://github.com/Microsoft/EMDocs-pr/blob/c372eeb4603efa18943ab25c71b10c5cdde9e4c0/EMDocs/Solutions/BYOD-Envisioning-the-BYOD-Infrastructure-Solution.md) | HandedOffSuccess | [Details](#2b646efc3028e3e92f64963b1d6753fbf1ad38d170)
+ [EMDocs\Solutions\Envisioning-the-BYOD-Infrastructure-Solution.md](https://github.com/Microsoft/EMDocs-pr/blob/2057972a87ae20ca17dafc2d75f2ed986ce40e2a/EMDocs/Solutions/Envisioning-the-BYOD-Infrastructure-Solution.md) | HandedOffSuccess | [Details](#351ed4bfc1d19b0d22a9bf755ba518ff3107f45891)
 
 ## Item Details
-##### <a name='2b646efc3028e3e92f64963b1d6753fbf1ad38d170'></a> Source: [EMDocs\Solutions\BYOD-Envisioning-the-BYOD-Infrastructure-Solution.md](https://github.com/Microsoft/EMDocs-pr/blob/c372eeb4603efa18943ab25c71b10c5cdde9e4c0/EMDocs/Solutions/BYOD-Envisioning-the-BYOD-Infrastructure-Solution.md)
+##### <a name='351ed4bfc1d19b0d22a9bf755ba518ff3107f45891'></a> Source: [EMDocs\Solutions\Envisioning-the-BYOD-Infrastructure-Solution.md](https://github.com/Microsoft/EMDocs-pr/blob/2057972a87ae20ca17dafc2d75f2ed986ce40e2a/EMDocs/Solutions/Envisioning-the-BYOD-Infrastructure-Solution.md)
 * Status: HandedOffSuccess
 * Target File: 
-* Handoff File: [BYOD-Envisioning-the-BYOD-Infrastructure-Solution.843e6fb4734de7447d0318d14144cf9f51e241c9.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/59e56ac425d2c2e48eb7f4ec4f0b08e9217f8720/ol-handoff/Microsoft/EMDocs-pr.it-it/master/BYOD-Envisioning-the-BYOD-Infrastructure-Solution.843e6fb4734de7447d0318d14144cf9f51e241c9.it-it.xlf)
-* Handoff Datetime: 2016-04-04 18:57:09
+* Handoff File: [BYOD-Envisioning-the-BYOD-Infrastructure-Solution.843e6fb4734de7447d0318d14144cf9f51e241c9.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/c1c8b14371930c6c86866f1fc71d14aab497cc43/ol-handoff/Microsoft/EMDocs-pr.it-it/master/BYOD-Envisioning-the-BYOD-Infrastructure-Solution.843e6fb4734de7447d0318d14144cf9f51e241c9.it-it.xlf)
+* Handoff Datetime: 2016-04-04 20:21:38
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
