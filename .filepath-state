@@ -1385,12 +1385,12 @@
   "2e96017cee5dfb3a87d86e56fde978d6260c7ff5": [
     "EMDocs\\Solutions\\media\\Microsoft-Intune-onboarding-remediate-phase-1.png"
   ],
-  "770efcbbecf28eb388099a3cf1498ff2bda5d143": [
-    "EMDocs\\Solutions\\conditional-access-intune.md"
-  ],
   "10ffbadc91a3d31bd1889fdd7fc1af2cf99dafc2": [
     "EMDocs\\Solutions\\conditional-access-intune.md",
     "EMDocs\\MyBackupFiles\\conditional-access-intune.md"
+  ],
+  "770efcbbecf28eb388099a3cf1498ff2bda5d143": [
+    "EMDocs\\Solutions\\conditional-access-intune.md"
   ],
   "274c86ea05ad6517e92c81ee815db31c68946323": [
     "EMDocs\\Solutions\\conditional-access-intune.md"
@@ -1482,12 +1482,12 @@
   "cd7c0cd38b947c6198abdd1e0a10a2fbb6b87b5c": [
     "EMDocs\\Solutions\\conditional-access-intune-configmgr-exchange-online.md"
   ],
-  "c9caeb817bcbaf144bcdd3f20dc24a9941476ffd": [
-    "EMDocs\\Solutions\\conditional-access-intune-exchange.md"
-  ],
   "a5e09c971d27296a7cac3b624a96f14259d4de77": [
     "EMDocs\\Solutions\\conditional-access-intune-exchange.md",
     "EMDocs\\MyBackupFiles\\conditional-access-intune-exchange.md"
+  ],
+  "c9caeb817bcbaf144bcdd3f20dc24a9941476ffd": [
+    "EMDocs\\Solutions\\conditional-access-intune-exchange.md"
   ],
   "ce5d9564947687e4c87c231360c99b28a3eef9ba": [
     "EMDocs\\Solutions\\conditional-access-intune-exchange.md"
@@ -1658,22 +1658,22 @@
   "24aa9591db0acfc2dba984def3c0cb8027ea92d6": [
     "EMDocs\\Solutions\\implement-solution.md"
   ],
-  "3c1d7bb1e3575e7cd55a17ad36f9ffdeaf552b27": [
-    "EMDocs\\Solutions\\protect-corporate-email-documents.md"
-  ],
   "6e0eeb243a8f84237820042c1cc92fe9bfd90b0c": [
     "EMDocs\\Solutions\\protect-corporate-email-documents.md",
     "EMDocs\\MyBackupFiles\\protect-corporate-email-documents.md"
   ],
-  "36dbd0d2ff9d3f198be5f66d49962640c5d405aa": [
+  "3c1d7bb1e3575e7cd55a17ad36f9ffdeaf552b27": [
     "EMDocs\\Solutions\\protect-corporate-email-documents.md"
   ],
-  "0a1127d61635321eb101d70c529cb90cc8d49314": [
-    "EMDocs\\Solutions\\protect-email-attachments.md"
+  "36dbd0d2ff9d3f198be5f66d49962640c5d405aa": [
+    "EMDocs\\Solutions\\protect-corporate-email-documents.md"
   ],
   "54d051ef6ef57bfa78bf9f5ba373e55ec04821b6": [
     "EMDocs\\Solutions\\protect-email-attachments.md",
     "EMDocs\\MyBackupFiles\\protect-email-attachments.md"
+  ],
+  "0a1127d61635321eb101d70c529cb90cc8d49314": [
+    "EMDocs\\Solutions\\protect-email-attachments.md"
   ],
   "03f7b701df165b0dd817ff85eeea487b40a271f1": [
     "EMDocs\\Solutions\\protect-email-attachments.md"
@@ -1782,5 +1782,8 @@
   ],
   "e20d4360034408b2251da41c0e3f26ae41c0adba": [
     "EMDocs\\Solutions\\secure-access-to-company-resources-from-any-location-on-any-device.md"
+  ],
+  "e9910bb0660af265f3cf7e7d6c5c7c242e06a867": [
+    "EMDocs\\index - newdesign.md"
   ]
 }
