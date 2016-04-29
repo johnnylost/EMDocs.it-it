@@ -1,45 +1,19 @@
 # <a name='report-top'></a> Localization Handoff Report
 
 ## Summary
- Total Files | 3
+ Total Files | 1
 
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [EMDocs\Solutions\fasttrack-center-benefit-process-for-ems-overview.md](https://github.com/Microsoft/EMDocs-pr/blob/400ced9c0710d90ce0a4ffa5eed34c894ceea5a6/EMDocs/Solutions/fasttrack-center-benefit-process-for-ems-overview.md) | HandedOffSuccess | [Details](#d321d82b0f34f7b89497970691b4974b5addcaac90)
- [EMDocs\Solutions\fasttrack-center-benefit-process-for-ems-phases.md](https://github.com/Microsoft/EMDocs-pr/blob/400ced9c0710d90ce0a4ffa5eed34c894ceea5a6/EMDocs/Solutions/fasttrack-center-benefit-process-for-ems-phases.md) | HandedOffSuccess | [Details](#03432aeedc1c0db19d5eeecdfe84f05168ac1df091)
- [EMDocs\toc.yml](https://github.com/Microsoft/EMDocs-pr/blob/714233f3b2a7573fc662c6b3bbb16dcd33c8fa3e/EMDocs/toc.yml) | HandedOffSuccess | [Details](#b18d6beadc58195258675d46f89def4cd4f74efe330)
+ [EMDocs\index.md](https://github.com/Microsoft/EMDocs-pr/blob/b2fcd670ef87d44389d2dd01aa27eb4d8fec2ad9/EMDocs/index.md) | HandedOffSuccess | [Details](#e38c92a05d94ec0257965e44af0bee244ca5750959)
 
 ## Item Details
-##### <a name='d321d82b0f34f7b89497970691b4974b5addcaac90'></a> Source: [EMDocs\Solutions\fasttrack-center-benefit-process-for-ems-overview.md](https://github.com/Microsoft/EMDocs-pr/blob/400ced9c0710d90ce0a4ffa5eed34c894ceea5a6/EMDocs/Solutions/fasttrack-center-benefit-process-for-ems-overview.md)
+##### <a name='e38c92a05d94ec0257965e44af0bee244ca5750959'></a> Source: [EMDocs\index.md](https://github.com/Microsoft/EMDocs-pr/blob/b2fcd670ef87d44389d2dd01aa27eb4d8fec2ad9/EMDocs/index.md)
 * Status: HandedOffSuccess
 * Target File: 
-* Handoff File: [fasttrack-center-benefit-process-for-ems-overview.e956d51b6fcce58eb53dace8c29c2bafa286d254.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/caa2cb60f6e3f4b1b8014c1d8676869864effd96/ol-handoff/Microsoft/EMDocs-pr.it-it/master/fasttrack-center-benefit-process-for-ems-overview.e956d51b6fcce58eb53dace8c29c2bafa286d254.it-it.xlf)
-* Handoff Datetime: 2016-04-29 17:43:32
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* [Back to Top](#report-top)
-
-##### <a name='03432aeedc1c0db19d5eeecdfe84f05168ac1df091'></a> Source: [EMDocs\Solutions\fasttrack-center-benefit-process-for-ems-phases.md](https://github.com/Microsoft/EMDocs-pr/blob/400ced9c0710d90ce0a4ffa5eed34c894ceea5a6/EMDocs/Solutions/fasttrack-center-benefit-process-for-ems-phases.md)
-* Status: HandedOffSuccess
-* Target File: 
-* Handoff File: [fasttrack-center-benefit-process-for-ems-phases.fc223ce9feb08741b3340cf27c87d86b74dddef2.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/caa2cb60f6e3f4b1b8014c1d8676869864effd96/ol-handoff/Microsoft/EMDocs-pr.it-it/master/fasttrack-center-benefit-process-for-ems-phases.fc223ce9feb08741b3340cf27c87d86b74dddef2.it-it.xlf)
-* Handoff Datetime: 2016-04-29 17:43:32
-* Handoff Reason: Include
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* [Back to Top](#report-top)
-
-##### <a name='b18d6beadc58195258675d46f89def4cd4f74efe330'></a> Source: [EMDocs\toc.yml](https://github.com/Microsoft/EMDocs-pr/blob/714233f3b2a7573fc662c6b3bbb16dcd33c8fa3e/EMDocs/toc.yml)
-* Status: HandedOffSuccess
-* Target File: 
-* Handoff File: [toc.a910960291aeeb7b80ff16cc12adc02a09c33921.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/caa2cb60f6e3f4b1b8014c1d8676869864effd96/ol-handoff/Microsoft/EMDocs-pr.it-it/master/toc.a910960291aeeb7b80ff16cc12adc02a09c33921.it-it.xlf)
-* Handoff Datetime: 2016-04-29 17:43:32
+* Handoff File: [index.5016e8f1c9a2569dc2c08f69089f31e31bac8b3d.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/dbdfe709510195323e396bcb1bf1ca68a8df2c87/ol-handoff/Microsoft/EMDocs-pr.it-it/master/index.5016e8f1c9a2569dc2c08f69089f31e31bac8b3d.it-it.xlf)
+* Handoff Datetime: 2016-04-29 19:14:10
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
