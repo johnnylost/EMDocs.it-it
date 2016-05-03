@@ -6,19 +6,20 @@
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [EMDocs\index.md](https://github.com/Microsoft/EMDocs-pr/blob/93671e92efd12dd186d6cf9357e209e3943df3c1/EMDocs/index.md) | HandedOffSuccess | [Details](#b7e98da5d2c544603ae3acc18270d7932a44b6e759)
+ [README.md](https://github.com/Microsoft/EMDocs-pr/blob/0505304fcd6745f9c2d60ef20e383d7093c03e02/README.md) | HandedOffSuccess | [Details](#d49a3ab9c35d4a862ea8c8d828eb983a2aec0197380)
 
 ## Item Details
-##### <a name='b7e98da5d2c544603ae3acc18270d7932a44b6e759'></a> Source: [EMDocs\index.md](https://github.com/Microsoft/EMDocs-pr/blob/93671e92efd12dd186d6cf9357e209e3943df3c1/EMDocs/index.md)
+##### <a name='d49a3ab9c35d4a862ea8c8d828eb983a2aec0197380'></a> Source: [README.md](https://github.com/Microsoft/EMDocs-pr/blob/0505304fcd6745f9c2d60ef20e383d7093c03e02/README.md)
 * Status: HandedOffSuccess
 * Target File: 
-* Handoff File: [index.5016e8f1c9a2569dc2c08f69089f31e31bac8b3d.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/5fc056f1a9cea42a909a9e999e2c71fdda15a93c/ol-handoff/Microsoft/EMDocs-pr.it-it/master/index.5016e8f1c9a2569dc2c08f69089f31e31bac8b3d.it-it.xlf)
-* Handoff Datetime: 2016-04-29 20:42:53
-* Handoff Reason: Include
+* Handoff File: [README.8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/c5900354b5bd8180d5fd99960484328d3179b3e2/ol-handoff/Microsoft/EMDocs-pr.it-it/master/README.8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d.it-it.xlf)
+* Handoff Datetime: 2016-05-03 09:21:52
+* Handoff Reason: IsDependency
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
+* Dependency From: contributor-guide\create-tables-markdown.md
 * [Back to Top](#report-top)
 
 
