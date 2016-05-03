@@ -1,27 +1,11 @@
 # <a name='report-top'></a> Localization Handoff Report
 
 ## Summary
- Total Files | 1
+ Total Files | 0
 
 ## File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [README.md](https://github.com/Microsoft/EMDocs-pr/blob/0505304fcd6745f9c2d60ef20e383d7093c03e02/README.md) | HandedOffSuccess | [Details](#d49a3ab9c35d4a862ea8c8d828eb983a2aec0197380)
 
 ## Item Details
-##### <a name='d49a3ab9c35d4a862ea8c8d828eb983a2aec0197380'></a> Source: [README.md](https://github.com/Microsoft/EMDocs-pr/blob/0505304fcd6745f9c2d60ef20e383d7093c03e02/README.md)
-* Status: HandedOffSuccess
-* Target File: 
-* Handoff File: [README.8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/c5900354b5bd8180d5fd99960484328d3179b3e2/ol-handoff/Microsoft/EMDocs-pr.it-it/master/README.8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d.it-it.xlf)
-* Handoff Datetime: 2016-05-03 09:21:52
-* Handoff Reason: IsDependency
-* Archive File: 
-* Archive Datetime: 0001-01-01 00:00:00
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Dependency From: contributor-guide\create-tables-markdown.md
-* [Back to Top](#report-top)
-
 
 ## Error Details
 
