@@ -53,7 +53,7 @@ I prodotti, le tecnologie e i servizi Microsoft per una soluzione di infrastrutt
 - Servizio Microsoft Rights Management
 - Azure Rights Management 
 - Crittografia SMB
-- Single Sign-On (SS)
+- Single Sign-On (SSO)
 - Cartelle di lavoro
 - Proxy applicazione Web (WAP)
 
@@ -87,6 +87,6 @@ Il progetto di infrastruttura per il supporto di BYOD riunisce le risposte alle 
 
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 
