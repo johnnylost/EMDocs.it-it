@@ -9,8 +9,8 @@
 [ Archive Failed Files ](#archive-failed-list)| 0
 [ Archive Success Files ](#archive-success-list)| 0
 [ Handback Failed Files ](#handback-failed-list)| 0
-[ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 42
-[ In Sync Handback Files ](#insync-handback-success-list)| 97
+[ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 40
+[ In Sync Handback Files ](#insync-handback-success-list)| 99
 [ Ignored Files ](#ignored-list)| 136
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
@@ -144,7 +144,6 @@
  [EMDocs\Solutions\byod-app-reqs.md](https://github.com/Microsoft/EMDocs-pr/blob/7585b9924aabd63114657a99552af9b3e47b0a80/EMDocs/Solutions/byod-app-reqs.md) | OutofSyncHandedBackSuccess | [Details](#a6a4a73495776c85a5288791a835d065460a928e63)
  [EMDocs\Solutions\byod-data-access-and-protection-considerations.md](https://github.com/Microsoft/EMDocs-pr/blob/02c3a16dfeaef55ff7747f565311c8492875da64/EMDocs/Solutions/byod-data-access-and-protection-considerations.md) | OutofSyncHandedBackSuccess | [Details](#1b284ec12663422308fb6a44a82fec732d7e9dfa64)
  [EMDocs\Solutions\byod-data-access-protection-reqs.md](https://github.com/Microsoft/EMDocs-pr/blob/cb703f289e86c832f8594e016193cfe1f55cb6df/EMDocs/Solutions/byod-data-access-protection-reqs.md) | OutofSyncHandedBackSuccess | [Details](#d926b1b512928021c6660a07f2383aad038d8f6965)
- [EMDocs\Solutions\byod-design-considerations.md](https://github.com/Microsoft/EMDocs-pr/blob/f752f75206cb37cbe565e44a00f20fcdad13ddb5/EMDocs/Solutions/byod-design-considerations.md) | OutofSyncHandedBackSuccess | [Details](#d2bd169a1b475588bd28ab4a8f8172aafdc362cb67)
  [EMDocs\Solutions\byod-design-considerations-guide.md](https://github.com/Microsoft/EMDocs-pr/blob/31ba2bb9bf95d3b21ba08f7874f12cae790f9af0/EMDocs/Solutions/byod-design-considerations-guide.md) | OutofSyncHandedBackSuccess | [Details](#eb797534050cdc101f5ab3bb2cc0d3b18bcc4c2066)
  [EMDocs\Solutions\byod-envisioning-the-byod-infrastructure-solution.md](https://github.com/Microsoft/EMDocs-pr/blob/31ba2bb9bf95d3b21ba08f7874f12cae790f9af0/EMDocs/Solutions/byod-envisioning-the-byod-infrastructure-solution.md) | OutofSyncHandedBackSuccess | [Details](#0eb7b6558a0b8e92d5b1e0e50f90a23d49f5757f68)
  [EMDocs\Solutions\byod-management-considerations.md](https://github.com/Microsoft/EMDocs-pr/blob/f752f75206cb37cbe565e44a00f20fcdad13ddb5/EMDocs/Solutions/byod-management-considerations.md) | OutofSyncHandedBackSuccess | [Details](#91deaf9d02b27182353cbe511ff86a01582dc60a69)
@@ -162,7 +161,6 @@
  [EMDocs\Solutions\end-user-experience-conditional-access-android.md](https://github.com/Microsoft/EMDocs-pr/blob/5f1c98cc916bee9bb83249a16a52a5fdd3810142/EMDocs/Solutions/end-user-experience-conditional-access-android.md) | OutofSyncHandedBackSuccess | [Details](#5efa0fd3567b3f91e0edcddae929bdb494f013da82)
  [EMDocs\Solutions\end-user-experience-conditional-access-ios.md](https://github.com/Microsoft/EMDocs-pr/blob/5f1c98cc916bee9bb83249a16a52a5fdd3810142/EMDocs/Solutions/end-user-experience-conditional-access-ios.md) | OutofSyncHandedBackSuccess | [Details](#6ff6f8c66e5b4ed838c72dd06f200118c6461cb083)
  [EMDocs\Solutions\end-user-experience-conditional-access-winphone.md](https://github.com/Microsoft/EMDocs-pr/blob/5f1c98cc916bee9bb83249a16a52a5fdd3810142/EMDocs/Solutions/end-user-experience-conditional-access-winphone.md) | OutofSyncHandedBackSuccess | [Details](#1527f382ab35dd47d1342eb6e320048f76d62e6084)
- [EMDocs\Solutions\enterprise-mobility-fasttrack-program.md](https://github.com/Microsoft/EMDocs-pr/blob/31ba2bb9bf95d3b21ba08f7874f12cae790f9af0/EMDocs/Solutions/enterprise-mobility-fasttrack-program.md) | OutofSyncHandedBackSuccess | [Details](#a32ec33be4ea8ea3ece93fe026480de43790af4e86)
  [EMDocs\Solutions\fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md](https://github.com/Microsoft/EMDocs-pr/blob/f85208c13caab7eb91e9db5e7baafb37cdd5244c/EMDocs/Solutions/fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) | OutofSyncHandedBackSuccess | [Details](#f77f4025d1ab704a81571ea51b3692ffcc25c89987)
  [EMDocs\Solutions\fasttrack-center-benefit-process-for-ems-environment-expectations.md](https://github.com/Microsoft/EMDocs-pr/blob/f85208c13caab7eb91e9db5e7baafb37cdd5244c/EMDocs/Solutions/fasttrack-center-benefit-process-for-ems-environment-expectations.md) | OutofSyncHandedBackSuccess | [Details](#736a41dbd28028248e47ec1c07a6822b6179e89c88)
  [EMDocs\Solutions\fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md](https://github.com/Microsoft/EMDocs-pr/blob/f85208c13caab7eb91e9db5e7baafb37cdd5244c/EMDocs/Solutions/fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md) | OutofSyncHandedBackSuccess | [Details](#5728ed625981ba5c4c72757210fcc01fb4f7075189)
@@ -191,7 +189,9 @@
  [contributor-guide\tools-and-setup.md](https://github.com/Microsoft/EMDocs-pr/blob/faf6d07bb4d61ce1dc28b1ca15aa7b298e74074b/contributor-guide/tools-and-setup.md) | InSyncHandedBackSuccess | [Details](#24edd27bbe1280c3401eaa78e6ed88d1758d82f243)
  [contributor-guide\work-with-git.md](https://github.com/Microsoft/EMDocs-pr/blob/faf6d07bb4d61ce1dc28b1ca15aa7b298e74074b/contributor-guide/work-with-git.md) | InSyncHandedBackSuccess | [Details](#66931315b777c7f7659088ca00eea24db16b8e4f44)
  [EMDocs\Solutions\byod-app-considerations.md](https://github.com/Microsoft/EMDocs-pr/blob/d43860e838a40de05bdec73b00b6721ee634d7e5/EMDocs/Solutions/byod-app-considerations.md) | InSyncHandedBackSuccess | [Details](#8bbc91330f63b38b7f9b9c0578385701a4293edb62)
+ [EMDocs\Solutions\byod-design-considerations.md](https://github.com/Microsoft/EMDocs-pr/blob/f752f75206cb37cbe565e44a00f20fcdad13ddb5/EMDocs/Solutions/byod-design-considerations.md) | InSyncHandedBackSuccess | [Details](#d2bd169a1b475588bd28ab4a8f8172aafdc362cb67)
  [EMDocs\Solutions\byod-summary-and-additional-resources.md](https://github.com/Microsoft/EMDocs-pr/blob/d43860e838a40de05bdec73b00b6721ee634d7e5/EMDocs/Solutions/byod-summary-and-additional-resources.md) | InSyncHandedBackSuccess | [Details](#88ebdc0082c1aa3e06394313e970d15db4cc3cea71)
+ [EMDocs\Solutions\enterprise-mobility-fasttrack-program.md](https://github.com/Microsoft/EMDocs-pr/blob/31ba2bb9bf95d3b21ba08f7874f12cae790f9af0/EMDocs/Solutions/enterprise-mobility-fasttrack-program.md) | InSyncHandedBackSuccess | [Details](#a32ec33be4ea8ea3ece93fe026480de43790af4e86)
  [EMDocs\Solutions\lp_selector.md](https://github.com/Microsoft/EMDocs-pr/blob/d43860e838a40de05bdec73b00b6721ee634d7e5/EMDocs/Solutions/lp_selector.md) | InSyncHandedBackSuccess | [Details](#77f50da8a7dfc5a6fae15fa4c3eecab61caa99ab98)
  [EMDocs\Solutions\lp-selector1.md](https://github.com/Microsoft/EMDocs-pr/blob/d43860e838a40de05bdec73b00b6721ee634d7e5/EMDocs/Solutions/lp-selector1.md) | InSyncHandedBackSuccess | [Details](#09287f291cab2a6e4474751c8e59d6a76c0ccaec96)
  [EMDocs\Solutions\lp-selector2.md](https://github.com/Microsoft/EMDocs-pr/blob/d43860e838a40de05bdec73b00b6721ee634d7e5/EMDocs/Solutions/lp-selector2.md) | InSyncHandedBackSuccess | [Details](#669c4652255c8fd5c27dfd4a7822032c922efb8b97)
@@ -1257,18 +1257,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='d2bd169a1b475588bd28ab4a8f8172aafdc362cb67'></a> Source: [EMDocs\Solutions\byod-design-considerations.md](https://github.com/Microsoft/EMDocs-pr/blob/f752f75206cb37cbe565e44a00f20fcdad13ddb5/EMDocs/Solutions/byod-design-considerations.md)
-* Status: OutofSyncHandedBackSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [EMDocs\Solutions\byod-design-considerations.md](https://github.com/Microsoft/EMDocs-pr.it-it/blob/8803247cb3f1232ce776ec87610c67e1e0fac17c/EMDocs/Solutions/byod-design-considerations.md)
 * Handoff File: [byod-design-considerations.07afe9d29e034eb4a4e3dcbe803a14afbe3f73d7.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/0b22fc5335c80489aafd164a42302e5d9b319c84/ol-handoff/Microsoft/EMDocs-pr.it-it/master/byod-design-considerations.07afe9d29e034eb4a4e3dcbe803a14afbe3f73d7.it-it.xlf)
 * Handoff Datetime: 2016-04-22 16:46:12
 * Handoff Reason: Include
 * Archive File: [byod-design-considerations.07afe9d29e034eb4a4e3dcbe803a14afbe3f73d7.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/b8fff1352d3431a5215fa7aeed8e1950ebaa2e1e/ol-handoff/Microsoft/EMDocs-pr.it-it/master/archive/byod-design-considerations.07afe9d29e034eb4a4e3dcbe803a14afbe3f73d7.it-it.xlf)
 * Archive Datetime: 2016-05-19 21:30:20
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [EMDocs\Solutions\byod-design-considerations.md](https://github.com/Microsoft/EMDocs-pr.it-it/blob/2ec45084606e21c30bded9871953ebdbb0fefdd1/EMDocs/Solutions/byod-design-considerations.md)
-* Current Handback File: [byod-design-considerations.07afe9d29e034eb4a4e3dcbe803a14afbe3f73d7.it-it.xlf](https://github.com/Microsoft/EM.handback/blob/89f3ba0239b067b6ab96048d85cc0e0731f06b9c/ol-handback/Microsoft/EMDocs-pr.it-it/master/byod-design-considerations.07afe9d29e034eb4a4e3dcbe803a14afbe3f73d7.it-it.xlf)
-* Current Handback Datetime: 2016-05-03 13:41:54
+* Handback File: [byod-design-considerations.07afe9d29e034eb4a4e3dcbe803a14afbe3f73d7.it-it.xlf](https://github.com/Microsoft/EM.handback/blob/c4050488ece745bb9acc127613500dad9160fc5e/ol-handback/Microsoft/EMDocs-pr.it-it/master/byod-design-considerations.07afe9d29e034eb4a4e3dcbe803a14afbe3f73d7.it-it.xlf)
+* Handback Datetime: 2016-05-20 13:55:39
 * [Back to Top](#report-top)
 
 ##### <a name='eb797534050cdc101f5ab3bb2cc0d3b18bcc4c2066'></a> Source: [EMDocs\Solutions\byod-design-considerations-guide.md](https://github.com/Microsoft/EMDocs-pr/blob/31ba2bb9bf95d3b21ba08f7874f12cae790f9af0/EMDocs/Solutions/byod-design-considerations-guide.md)
@@ -1551,18 +1548,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='a32ec33be4ea8ea3ece93fe026480de43790af4e86'></a> Source: [EMDocs\Solutions\enterprise-mobility-fasttrack-program.md](https://github.com/Microsoft/EMDocs-pr/blob/31ba2bb9bf95d3b21ba08f7874f12cae790f9af0/EMDocs/Solutions/enterprise-mobility-fasttrack-program.md)
-* Status: OutofSyncHandedBackSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [EMDocs\Solutions\enterprise-mobility-fasttrack-program.md](https://github.com/Microsoft/EMDocs-pr.it-it/blob/8803247cb3f1232ce776ec87610c67e1e0fac17c/EMDocs/Solutions/enterprise-mobility-fasttrack-program.md)
 * Handoff File: [enterprise-mobility-fasttrack-program.8fdf6ae6ebc6b7bfa3caf5d1c761a648ac221c49.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/148fe41e203d0c7e2e33741cb107644cb76e5d79/ol-handoff/Microsoft/EMDocs-pr.it-it/master/enterprise-mobility-fasttrack-program.8fdf6ae6ebc6b7bfa3caf5d1c761a648ac221c49.it-it.xlf)
 * Handoff Datetime: 2016-04-25 22:25:49
 * Handoff Reason: Include
 * Archive File: [enterprise-mobility-fasttrack-program.8fdf6ae6ebc6b7bfa3caf5d1c761a648ac221c49.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/b8fff1352d3431a5215fa7aeed8e1950ebaa2e1e/ol-handoff/Microsoft/EMDocs-pr.it-it/master/archive/enterprise-mobility-fasttrack-program.8fdf6ae6ebc6b7bfa3caf5d1c761a648ac221c49.it-it.xlf)
 * Archive Datetime: 2016-05-19 21:30:20
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [EMDocs\Solutions\enterprise-mobility-fasttrack-program.md](https://github.com/Microsoft/EMDocs-pr.it-it/blob/2ec45084606e21c30bded9871953ebdbb0fefdd1/EMDocs/Solutions/enterprise-mobility-fasttrack-program.md)
-* Current Handback File: [enterprise-mobility-fasttrack-program.8fdf6ae6ebc6b7bfa3caf5d1c761a648ac221c49.it-it.xlf](https://github.com/Microsoft/EM.handback/blob/89f3ba0239b067b6ab96048d85cc0e0731f06b9c/ol-handback/Microsoft/EMDocs-pr.it-it/master/enterprise-mobility-fasttrack-program.8fdf6ae6ebc6b7bfa3caf5d1c761a648ac221c49.it-it.xlf)
-* Current Handback Datetime: 2016-05-03 13:41:54
+* Handback File: [enterprise-mobility-fasttrack-program.8fdf6ae6ebc6b7bfa3caf5d1c761a648ac221c49.it-it.xlf](https://github.com/Microsoft/EM.handback/blob/c4050488ece745bb9acc127613500dad9160fc5e/ol-handback/Microsoft/EMDocs-pr.it-it/master/enterprise-mobility-fasttrack-program.8fdf6ae6ebc6b7bfa3caf5d1c761a648ac221c49.it-it.xlf)
+* Handback Datetime: 2016-05-20 13:55:39
 * [Back to Top](#report-top)
 
 ##### <a name='f77f4025d1ab704a81571ea51b3692ffcc25c89987'></a> Source: [EMDocs\Solutions\fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md](https://github.com/Microsoft/EMDocs-pr/blob/f85208c13caab7eb91e9db5e7baafb37cdd5244c/EMDocs/Solutions/fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md)

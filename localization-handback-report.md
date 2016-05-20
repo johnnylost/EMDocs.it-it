@@ -1,11 +1,39 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 0
+ Total Files | 2
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [EMDocs\Solutions\byod-design-considerations.md](https://github.com/Microsoft/EMDocs-pr/blob/f752f75206cb37cbe565e44a00f20fcdad13ddb5/EMDocs/Solutions/byod-design-considerations.md) | InSyncHandedBackSuccess | [Details](#d2bd169a1b475588bd28ab4a8f8172aafdc362cb67)
+ [EMDocs\Solutions\enterprise-mobility-fasttrack-program.md](https://github.com/Microsoft/EMDocs-pr/blob/31ba2bb9bf95d3b21ba08f7874f12cae790f9af0/EMDocs/Solutions/enterprise-mobility-fasttrack-program.md) | InSyncHandedBackSuccess | [Details](#a32ec33be4ea8ea3ece93fe026480de43790af4e86)
 
 ## Item Details
+##### <a name='d2bd169a1b475588bd28ab4a8f8172aafdc362cb67'></a> Source: [EMDocs\Solutions\byod-design-considerations.md](https://github.com/Microsoft/EMDocs-pr/blob/f752f75206cb37cbe565e44a00f20fcdad13ddb5/EMDocs/Solutions/byod-design-considerations.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [EMDocs\Solutions\byod-design-considerations.md](https://github.com/Microsoft/EMDocs-pr.it-it/blob/8803247cb3f1232ce776ec87610c67e1e0fac17c/EMDocs/Solutions/byod-design-considerations.md)
+* Handoff File: [byod-design-considerations.07afe9d29e034eb4a4e3dcbe803a14afbe3f73d7.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/0b22fc5335c80489aafd164a42302e5d9b319c84/ol-handoff/Microsoft/EMDocs-pr.it-it/master/byod-design-considerations.07afe9d29e034eb4a4e3dcbe803a14afbe3f73d7.it-it.xlf)
+* Handoff Datetime: 2016-04-22 16:46:12
+* Handoff Reason: Include
+* Archive File: [byod-design-considerations.07afe9d29e034eb4a4e3dcbe803a14afbe3f73d7.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/b8fff1352d3431a5215fa7aeed8e1950ebaa2e1e/ol-handoff/Microsoft/EMDocs-pr.it-it/master/archive/byod-design-considerations.07afe9d29e034eb4a4e3dcbe803a14afbe3f73d7.it-it.xlf)
+* Archive Datetime: 2016-05-19 21:30:20
+* Handback File: [byod-design-considerations.07afe9d29e034eb4a4e3dcbe803a14afbe3f73d7.it-it.xlf](https://github.com/Microsoft/EM.handback/blob/c4050488ece745bb9acc127613500dad9160fc5e/ol-handback/Microsoft/EMDocs-pr.it-it/master/byod-design-considerations.07afe9d29e034eb4a4e3dcbe803a14afbe3f73d7.it-it.xlf)
+* Handback Datetime: 2016-05-20 13:55:39
+* [Back to Top](#report-top)
+
+##### <a name='a32ec33be4ea8ea3ece93fe026480de43790af4e86'></a> Source: [EMDocs\Solutions\enterprise-mobility-fasttrack-program.md](https://github.com/Microsoft/EMDocs-pr/blob/31ba2bb9bf95d3b21ba08f7874f12cae790f9af0/EMDocs/Solutions/enterprise-mobility-fasttrack-program.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [EMDocs\Solutions\enterprise-mobility-fasttrack-program.md](https://github.com/Microsoft/EMDocs-pr.it-it/blob/8803247cb3f1232ce776ec87610c67e1e0fac17c/EMDocs/Solutions/enterprise-mobility-fasttrack-program.md)
+* Handoff File: [enterprise-mobility-fasttrack-program.8fdf6ae6ebc6b7bfa3caf5d1c761a648ac221c49.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/148fe41e203d0c7e2e33741cb107644cb76e5d79/ol-handoff/Microsoft/EMDocs-pr.it-it/master/enterprise-mobility-fasttrack-program.8fdf6ae6ebc6b7bfa3caf5d1c761a648ac221c49.it-it.xlf)
+* Handoff Datetime: 2016-04-25 22:25:49
+* Handoff Reason: Include
+* Archive File: [enterprise-mobility-fasttrack-program.8fdf6ae6ebc6b7bfa3caf5d1c761a648ac221c49.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/b8fff1352d3431a5215fa7aeed8e1950ebaa2e1e/ol-handoff/Microsoft/EMDocs-pr.it-it/master/archive/enterprise-mobility-fasttrack-program.8fdf6ae6ebc6b7bfa3caf5d1c761a648ac221c49.it-it.xlf)
+* Archive Datetime: 2016-05-19 21:30:20
+* Handback File: [enterprise-mobility-fasttrack-program.8fdf6ae6ebc6b7bfa3caf5d1c761a648ac221c49.it-it.xlf](https://github.com/Microsoft/EM.handback/blob/c4050488ece745bb9acc127613500dad9160fc5e/ol-handback/Microsoft/EMDocs-pr.it-it/master/enterprise-mobility-fasttrack-program.8fdf6ae6ebc6b7bfa3caf5d1c761a648ac221c49.it-it.xlf)
+* Handback Datetime: 2016-05-20 13:55:39
+* [Back to Top](#report-top)
+
 
 ## Error Details
 
