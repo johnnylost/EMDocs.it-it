@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Processo FastTrack Center Benefit per Enterprise Mobility Suite: responsabilità del cliente
+title: Processo FastTrack Center Benefit per Enterprise Mobility Suite: responsabilità dell'utente
 description:
 keywords:
 author: 
@@ -25,10 +25,11 @@ ms.suite: ems
 
 ---
 
-# Processo FastTrack Center Benefit per Enterprise Mobility Suite: responsabilità del cliente
+# Processo FastTrack Center Benefit per Enterprise Mobility Suite: responsabilità dell'utente
+
 Quando si usa [FastTrack Center Benefit per Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) per ottenere Azure Active Directory Premium, Microsoft Intune e/o Azure Rights Management pronti all'uso, l'organizzazione deve assumersi alcune responsabilità durante il processo. Le sezioni seguenti descrivono le responsabilità dell'organizzazione in ogni fase del processo di caricamento.
 
-Per altre informazioni sul processo di caricamento FastTrack, vedere [Processo FastTrack Center Benefit per Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
+Per altre informazioni sul processo di caricamento FastTrack, vedere [Processo FastTrack Center Benefit per Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)..
 
 ## Responsabilità generali
 
@@ -114,15 +115,13 @@ Per altre informazioni sul processo di caricamento FastTrack, vedere [Processo F
 
 -   Abilitare i vari servizi in base alle linee guida di Microsoft.
 
->[!div class="step-by-step"]
-[Responsabilità FastTrack di Microsoft](fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md)
-
+Questa è l'ultima parte del processo di caricamento di FastTrack.
 
 ### Altre informazioni
 Vedere [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
 
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 

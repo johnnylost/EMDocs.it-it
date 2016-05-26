@@ -26,7 +26,7 @@ ms.suite: ems
 ---
 
 # Distribuire Exchange Online con Microsoft Intune e Configuration Manager
-Ora che si è letto con attenzione il [materiale sussidiario sull'architettura per la protezione dei documenti e dei messaggi di posta elettronica aziendali](../Solutions/architecture-guidance-for-protecting-company-email-and-documents.md) è possibile procedere alla distribuzione di una soluzione.
+Ora che si sono lette con attenzione le [indicazioni sull'architettura per la protezione di documenti e messaggi di posta elettronica aziendali](architecture-guidance-for-protecting-company-email-and-documents.md) è possibile procedere alla distribuzione di una soluzione.
 
 Se si usano già System Center Configuration Manager ed Exchange Online, è possibile incorporare Intune in modo da gestire l'accesso alla posta elettronica e proteggere i dati di posta elettronica nei dispositivi mobili. Il processo di alto livello per l'implementazione di questa soluzione è il seguente:
 
@@ -99,7 +99,7 @@ Se si vuole avere la possibilità di rimuovere tutti i messaggi di posta elettro
 
 ![Screenshot che illustra la pagina "Regole" della Creazione guidata criteri di conformità in cui è possibile specificare che un profilo di posta elettronica deve essere gestito da Intune](./media/ProtectEmail/Hybrid-Onprem-ExchSrvr-Wizard6.PNG)
 
-Se si specificano questi criteri di conformità, un utente che ha già configurato il proprio account di posta elettronica dovrà rimuoverlo manualmente. Intune quindi lo aggiungerà nuovamente attraverso il processo di registrazione descritto in [Esperienza utente finale di accesso condizionale](../Solutions/end-user-experience-conditional-access.md).
+Se si specificano questi criteri di conformità, un utente che ha già configurato il proprio account di posta elettronica dovrà rimuoverlo manualmente. Intune quindi lo aggiungerà nuovamente attraverso il processo di registrazione descritto in [Esperienza utente finale di accesso condizionale](end-user-experience-conditional-access.md).
 
 Dopo aver creato i criteri di conformità, selezionare il nome del criterio di conformità nell'elenco e fare clic su **Distribuisci**.
 
@@ -153,9 +153,9 @@ Di seguito viene illustrato lo stato della distribuzione dei criteri di configur
 Ai dispositivi che usano l'autenticazione moderna l'accesso condizionale viene applicato immediatamente. Per i dispositivi connessi tramite il protocollo EAS, può verificarsi un ritardo massimo di sei ore prima che venga applicata l'accesso condizionale, in base all'impostazione predefinita. Durante questo periodo, un dispositivo può essere considerato conforme.
 
 ## Come proseguire
-Dopo aver distribuito una soluzione per la protezione della posta elettronica aziendale e dei dati di questa all'interno dei dispositivi mobili, è possibile scoprire di più sull'[esperienza dell'utente finale relativa all'accesso condizionale](../Solutions/end-user-experience-conditional-access.md). Ciò consente di prepararsi ad affrontare i problemi che potrebbero verificarsi quando gli utenti finali registrano dispositivi specifici.
+Dopo aver distribuito una soluzione per la protezione della posta elettronica aziendale e dei dati di questa all'interno dei dispositivi mobili, è possibile scoprire di più sull'[esperienza dell'utente finale relativa all'accesso condizionale](end-user-experience-conditional-access.md). Ciò consente di prepararsi ad affrontare i problemi che potrebbero verificarsi quando gli utenti finali registrano dispositivi specifici.
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 

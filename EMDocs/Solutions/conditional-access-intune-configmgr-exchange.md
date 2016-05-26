@@ -26,7 +26,7 @@ ms.suite: ems
 ---
 
 # Distribuire Exchange Server locale con Microsoft Intune e Configuration Manager
-Ora che si è letto con attenzione il [materiale sussidiario sull'architettura per la protezione dei documenti e dei messaggi di posta elettronica aziendali](../Solutions/architecture-guidance-for-protecting-company-email-and-documents.md) è possibile procedere alla distribuzione di una soluzione.
+Ora che si sono lette con attenzione le [indicazioni sull'architettura per la protezione di documenti e messaggi di posta elettronica aziendali](architecture-guidance-for-protecting-company-email-and-documents.md) è possibile procedere alla distribuzione di una soluzione.
 
 Se si usano già System Center Configuration Manager ed Exchange nell'infrastruttura locale, è possibile incorporare Intune in modo da gestire l'accesso alla posta elettronica e proteggere i dati di posta elettronica nei dispositivi mobili. Il processo di alto livello per l'implementazione di questa soluzione è il seguente:
 
@@ -55,9 +55,9 @@ Questo diagramma mostra il flusso di controllo per i client che provano ad acced
 Assicurarsi che l'ambiente presenti questi requisiti per l'implementazione di questa soluzione.
 
 > [!NOTE]
-> Se è già stato configurato Configuration Manager per gestire i dispositivi mobili con il servizio Intune, è possibile procedere con la [Passaggi per la distribuzione](#DeploySteps).
+> Se Configuration Manager è già stato configurato per gestire i dispositivi mobili con il servizio Intune, è possibile passare a [Passaggi per la distribuzione](#deployment-steps).
 
--   Verificare che i [requisiti hardware per On-Premises Connector](https://stage.docs.microsoft.com/en-us/intune/getstarted/network-infrastructure-requirements-for-microsoft-intune) siano soddisfatti.
+-   Verificare che i [requisiti hardware per On-Premises Connector](/intune/get-started/network-infrastructure-requirements-for-microsoft-intune) siano soddisfatti.
 
 -   Verificare che sia in esecuzione System Center 2012 R2 Configuration Manager SP1 con aggiornamento cumulativo 1 o versione successiva.
 
@@ -100,7 +100,7 @@ Assicurarsi che l'ambiente presenti questi requisiti per l'implementazione di qu
 > [!IMPORTANT]
 > Se si prova a installare o a usare il connettore Exchange Server senza i cmdlet necessari, viene visualizzato un errore, che viene registrato con il messaggio _Chiamata del cmdlet &lt;cmdlet&gt; non riuscita nel file EasDisc.log nel computer del server del sito_.
 
-## <a name="DeploySteps"></a>Passaggi per la distribuzione
+## Passaggi per la distribuzione
 Seguire questi passaggi per distribuire la soluzione Exchange locale:
 
 ### Passaggio 1: Verificare che sia installato il ruolo del connettore Intune.
@@ -140,7 +140,7 @@ Se si vuole avere la possibilità di rimuovere tutti i messaggi di posta elettro
 
 ![Screenshot che illustra la pagina "Regole" della Creazione guidata criteri di conformità in cui è possibile specificare che un profilo di posta elettronica deve essere gestito da Intune](./media/ProtectEmail/Hybrid-Onprem-ExchSrvr-Wizard6.PNG)
 
-Se si specificano questi criteri di conformità, un utente che ha già configurato il proprio account di posta elettronica dovrà rimuoverlo manualmente. Intune quindi lo aggiungerà nuovamente attraverso il processo di registrazione descritto in [Esperienza utente finale di accesso condizionale](../Solutions/end-user-experience-conditional-access.md).
+Se si specificano questi criteri di conformità, un utente che ha già configurato il proprio account di posta elettronica dovrà rimuoverlo manualmente. Intune quindi lo aggiungerà nuovamente attraverso il processo di registrazione descritto in [Esperienza utente finale di accesso condizionale](end-user-experience-conditional-access.md).
 
 Dopo aver creato i criteri di conformità, selezionare il nome del criterio di conformità nell'elenco e fare clic su **Distribuisci**.
 
@@ -150,7 +150,7 @@ Prima di tutto, decidere come e quando si vuole applicare l'accesso condizionale
 ### Passaggio 7: Monitorare le registrazioni e applicare l'accesso condizionale.
 Se si ha già un numero significativo di utenti iscritti a Intune e conformi, è possibile avviare l'applicazione dell'accesso condizionale distribuendolo a circa 500 utenti al giorno. Ciò richiederà circa 4-5 mesi per 70.000 utenti e consente di ordinare gli eventuali problemi che potrebbero verificarsi senza limitare l'accesso alla posta elettronica a troppi utenti nello stesso momento.
 
-Se il numero di utenti già registrati in Intune non è elevato, l'accesso condizionale offre una procedura di registrazione guidata, come descritto in [Esperienza utente finale di accesso condizionale](../Solutions/end-user-experience-conditional-access.md).
+Se il numero di utenti già registrati in Intune non è elevato, l'accesso condizionale offre una procedura di registrazione guidata, come descritto in [Esperienza utente finale di accesso condizionale](end-user-experience-conditional-access.md).
 
 ## Passaggi di verifica
 Usando lo strumento di registro traccia di Configuration Manager, aprire il file EasDisc.og (nella cartella Microsoft Configuration Manager/Logs in cui è installato Configuration Manager). Cercare il file di log "Exchange Connector" per trovare informazioni sull'eventuale esecuzione dei Exchange Connector e sul numero di dispositivi connessi.
@@ -188,9 +188,9 @@ Di seguito viene illustrato lo stato della distribuzione dei criteri di configur
 Un dispositivo viene bloccato non appena viene individuato da Exchange Connector. La latenza di blocco dipende dagli intervalli configurati per la sincronizzazione completa e la sincronizzazione delta e dal tempo trascorso tra questi intervalli quando il dispositivo si connette al server di Exchange. Per impostazione predefinita, una sincronizzazione completa avviene ogni 24 ore mentre una sincronizzazione delta avviene ogni 240 minuti. Durante questo periodo di latenza, un dispositivo può essere considerato conforme.
 
 ## Come proseguire
-Dopo aver distribuito una soluzione per la protezione della posta elettronica aziendale e dei dati di questa all'interno dei dispositivi mobili, è possibile scoprire di più sull'[esperienza dell'utente finale relativa all'accesso condizionale](../Solutions/end-user-experience-conditional-access.md). Ciò consente di prepararsi ad affrontare i problemi che potrebbero verificarsi quando gli utenti finali registrano dispositivi specifici.
+Dopo aver distribuito una soluzione per la protezione della posta elettronica aziendale e dei dati di questa all'interno dei dispositivi mobili, è possibile scoprire di più sull'[esperienza dell'utente finale relativa all'accesso condizionale](end-user-experience-conditional-access.md). Ciò consente di prepararsi ad affrontare i problemi che potrebbero verificarsi quando gli utenti finali registrano dispositivi specifici.
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 

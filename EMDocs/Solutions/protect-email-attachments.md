@@ -1,17 +1,32 @@
 ---
+# required metadata
+
 title: Proteggere gli allegati della posta elettronica aziendale
-ms.custom: na
-ms.reviewer: na
-ms.service: microsoft-intune
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid: fc9c7d79-d2ca-4cb2-8456-c7a88cbbf6fd
+description:
+keywords:
 author: karthikaraman
+manager: swadhwa
+ms.date: 04/28/2016
+ms.topic: article
+ms.prod:
+ms.service:
+ms.technology:
+ms.assetid: a1e630c1-7190-4ba9-b71d-ed9c2e93a6cc
+
+# optional metadata
+
+#ROBOTS:
+#audience:
+#ms.devlang:
+ms.reviewer:
+ms.suite: ems
+#ms.tgt_pltfrm:
+#ms.custom:
+
 ---
 
 # Proteggere la posta elettronica e gli allegati dalla fuga di dati
-La sezione [Protezione dei messaggi di posta elettronica e dei documenti aziendali](../Solutions/protect-corporate-email-documents.md) ha illustrato come è possibile assicurarsi che solo i dispositivi compatibili possano accedere alla posta elettronica aziendale. Tuttavia, proteggere l'accesso non garantisce anche la protezione del contenuto dei messaggi di posta elettronica e dei relativi allegati. Il contenuto può essere copiato, spostato e salvato in un percorso diverso o condiviso con un altro utente. EMS risolve questo problema usando i criteri di gestione delle applicazioni mobili (MAM).
+La sezione [Protezione dei messaggi di posta elettronica e dei documenti aziendali](protect-corporate-email-documents.md) ha illustrato come assicurarsi che solo i dispositivi conformi possano accedere alla posta elettronica aziendale. Tuttavia, proteggere l'accesso non garantisce anche la protezione del contenuto dei messaggi di posta elettronica e dei relativi allegati. Il contenuto può essere copiato, spostato e salvato in un percorso diverso o condiviso con un altro utente. EMS risolve questo problema usando i criteri di gestione delle applicazioni mobili (MAM).
 
 Le app gestite sono app conformi ai requisiti di sicurezza dell'azienda che vengono distribuite dall'amministratore IT. Con queste app il reparto IT ha il controllo diretto sulla distribuzione, la gestione continuativa come inventario o aggiornamenti e sulla cancellazione selettiva delle app e dei relativi dati associati. Con un set di criteri di gestione delle applicazioni mobili (MAM), Intune consente anche di modificare la funzionalità delle app e di limitare la condivisione dei dati:
 
@@ -58,9 +73,9 @@ L'amministratore IT crea i criteri di gestione delle applicazioni mobili, associ
 Gli utenti finali possono installare le app gestite e usarle per svolgere il proprio lavoro. Potranno solo spostare o condividere i dati tra le app gestite. Qualsiasi tentativo di spostare i dati all'esterno dell'ecosistema di app gestite verrà bloccato.
 
 ## Come proseguire
-Dopo avere acquisito le informazioni sulla [protezione dei documenti e dei messaggi di posta elettronica aziendali](../Solutions/protect-corporate-email-documents.md) e degli allegati, leggere le informazioni su come [implementare una soluzione per la protezione della posta elettronica aziendale](../Solutions/implement-solution.md).
+Dopo avere acquisito le informazioni sulla [protezione dei documenti e dei messaggi di posta elettronica aziendali](protect-corporate-email-documents.md) e degli allegati, leggere le informazioni su come [implementare una soluzione per la protezione della posta elettronica aziendale](implement-solution.md).
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 

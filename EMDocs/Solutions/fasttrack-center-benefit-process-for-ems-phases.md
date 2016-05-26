@@ -28,13 +28,13 @@ ms.suite: ems
 # Processo FastTrack Center Benefit per Enterprise Mobility Suite: fasi
 Quando si usa [FastTrack Center Benefit per Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) per ottenere Azure Active Directory Premium, Microsoft Intune e/o Azure Rights Management pronti all'uso, sono implicate nel processo varie fasi. Le sezioni seguenti descrivono ogni fase del processo di caricamento.
 
-Per altre informazioni sul processo di caricamento FastTrack, vedere [Processo FastTrack Center Benefit per Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
+Per altre informazioni sul processo di caricamento FastTrack, vedere [Processo FastTrack Center Benefit per Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)..
 
 
 Il processo di caricamento è costituito da quattro fasi principali, come illustrato nella figura seguente:
 
 
-![](./media/Intune-onboarding-phases-9-15-15.png)
+![Le quattro fasi del processo di caricamento di FastTrack](./media/ft-2-onboarding-phases.png)
 
 
 ## Fase di avvio
@@ -43,7 +43,7 @@ Dopo aver acquistato il numero appropriato di licenze, attenersi alle istruzioni
 
 Durante questa fase verrà illustrato il processo di onboarding, verranno verificati i dati e verrà impostata la riunione iniziale.
 
-![](./media/Intune-initiate-phase-9-15-15-v2.png)
+![Fase di avvio del caricamento](./media/ft-3-initiate-phase.png)
 
 ## Fase di valutazione
 
@@ -53,12 +53,12 @@ Microsoft offrirà anche informazioni aggiuntive su come adottare correttamente 
 
 In base all'installazione corrente, verrà suggerito un piano di correzione in modo che l'ambiente di origine sia conforme ai requisiti minimi per garantire il caricamento di EMS o dei sui singoli servizi cloud. Verranno inoltre stabilite delle chiamate di controllo appropriate per la fase di correzione.
 
-![](./media/Intune-assess-phase-9-15-15.png)
+![Fase di valutazione del caricamento](./media/ft-4-assess-phase.png)
 
 ## Fase di correzione
 Se necessario, l'utente eseguirà le attività previste nel piano di correzione nell'ambiente di origine, in modo da soddisfare i requisiti per il caricamento e l'adozione di ogni servizio.
 
-![](./media/Microsoft-Intune-onboarding-remediate-phase-1.png)
+![Fase di correzione del caricamento](./media/ft-5-remediate-phase.png)
 
 Prima di iniziare la fase di abilitazione, verranno verificati i risultati delle attività di correzione per essere certi che l'utente sia pronto a procedere.
 
@@ -69,7 +69,7 @@ Dopo aver completato tutte le attività di correzione, il progetto passa alla co
 
 L'onboarding di base prevede il provisioning di servizi e l'integrazione di identità e tenant. Include anche la procedura per definire una base adatta al caricamento di servizi online, ad esempio Azure Active Directory Premium, Microsoft Intune e Azure Rights Management Premium.
 
-![](./media/Intune-enable-phase-core-9-15-15.png)
+![Fase di abilitazione del caricamento: funzionalità di base](./media/ft-6-enable-phase-core.png)
 
 ###Fase di abilitazione: Azure Active Directory Premium
 
@@ -83,13 +83,13 @@ L'installazione di Azure Active Directory Premium include l'abilitazione delle f
 
 -   Azure Multi-Factor Authentication (MFA)
 
--   Applicazione software come un servizio (SaaS): configurazione di un'applicazione SaaS da [Azure Active Directory Marketplace](https://azure.microsoft.com/marketplace/active-directory/).
+-   Applicazione software come un servizio (SaaS): configurazione di un'applicazione SaaS da [Azure Active Directory Marketplace](https://azure.microsoft.com/marketplace/active-directory/)..
 
 -   Gestione di gruppi self-service (SSGM)
 
 -   Report amministrativi
 
-![](./media/Microsoft-Azure-AD-Premium-enable-phase-2.png)
+![Fase di abilitazione del caricamento: AADP](./media/ft-7-enable-phase-aadp.png)
 
 ###Fase di abilitazione – Microsoft Intune
 
@@ -144,7 +144,7 @@ In base alle esigenze di gestione dei dispositivi mobili e delle applicazioni mo
 
 Microsoft offrirà anche informazioni aggiuntive su come adottare correttamente i servizi idonei.
 
-![](./media/Enable-phase-Intune-11-20-15.png)
+![Fase di abilitazione del caricamento: Intune](./media/ft-8-enable-phase-intune.png)
 
 ###Fase di abilitazione: Azure Right Management Premium
 
@@ -162,18 +162,15 @@ La configurazione di AzRMS include l'abilitazione delle funzionalità seguenti:
 
 -   Applicazione di condivisione RMS per dispositivi Windows e non Windows
 
-![](./media/Microsoft-Azure-AD-Premium-enable-phase-2.png)
+![Fase di abilitazione del caricamento: Azure RMS](./media/ft-7-enable-phase-aadp.png)
 
-
->[!div class="step-by-step"]
-[Ambiente di origine FastTrack](fasttrack-center-benefit-process-for-ems-environment-expectations.md)
-[Responsabilità FastTrack del cliente](fasttrack-center-benefit-process-for-ems-your-responsibilities.md)
+Leggere la parte successiva del processo di caricamento di FastTrack: [responsabilità di Microsoft](fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md)
 
 ### Altre informazioni
 Vedere [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
 
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO5-->
 
 

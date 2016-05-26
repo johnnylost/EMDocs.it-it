@@ -27,7 +27,7 @@ ms.suite: ems
 
 # Requisiti delle app
 
-Ogni organizzazione usa una serie di funzionalità tecniche per consentire al personale di eseguire le attività in modo ottimizzato e quasi sempre lo strumento principale è un'app. Queste funzionalità possono essere combinate in un approccio multipiattaforma in cui vengono usate diverse tecnologie per raggiungere un determinato obiettivo o tramite la creazione di un'app personalizzata in grado di eseguire un'attività o di automatizzare alcuni processi. Le app sono importanti da considerare per la progettazione della strategia BYOD. Gli utenti useranno diversi fattori di forma per l'impiego queste app. Pertanto, è necessario considerare la varietà di funzionalità che tali app devono supportare. La figura 5 mostra il modo in cui utenti e dispositivi usano le app per l'impiego dei dati e le considerazioni per ogni componente del sottodominio App.
+Ogni organizzazione usa una serie di funzionalità tecniche per consentire al personale di eseguire le attività in modo ottimizzato e quasi sempre lo strumento principale è un'app. Queste funzionalità possono essere combinate in un approccio multipiattaforma in cui vengono usate diverse tecnologie per raggiungere un determinato obiettivo o tramite la creazione di un'app personalizzata in grado di eseguire un'attività o di automatizzare alcuni processi. Le app sono importanti da considerare per la progettazione della strategia BYOD. Gli utenti useranno diversi fattori di forma per l'impiego queste app. Pertanto, è necessario considerare la varietà di funzionalità che tali app devono supportare. La figura sottostante illustra il modo in cui utenti e dispositivi usano le app per l'impiego dei dati e le considerazioni per ogni componente del sottodominio Apps.
 
 ![Requisiti delle app](./media/BYOD_Figure5.png)
 
@@ -117,7 +117,7 @@ I requisiti delle app sono classificati in sei aree:
 - C'è un sottosistema comune di purificazione o di convalida dell'input che elabora i dati dall'esterno del sistema?
 - Le app utilizzano una libreria esterna come la libreria JavaScript?
     - In tal caso, è stata eseguita una valutazione dei rischi di sicurezza per le chiamate esterne?
-- Le app sono state convalidate con il metodo [STRIDE](https://msdn.microsoft.com/library/ee823878(v=cs.20).aspx) (Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege), ovvero spoofing, manomissione, ripudio, diffusione di informazioni, Denial of Service ed elevazione dei privilegi?
+- Le app sono state convalidate in base al modello [STRIDE](https://msdn.microsoft.com/library/ee823878.aspx) (Spoofing, Tampering, Repudiation, Information disclosure, Denial of service, Elevation of privilege) contro spoofing, manomissione, ripudio, diffusione di informazioni, Denial of Service ed elevazione dei privilegi?
 - Le app gestiranno dati contenenti informazioni personali?
 - È stata eseguita un'analisi della privacy per queste app?
 - Le app useranno riquadri animati?
@@ -125,6 +125,6 @@ I requisiti delle app sono classificati in sei aree:
 
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO3-->
 
 

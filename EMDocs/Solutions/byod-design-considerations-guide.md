@@ -11,7 +11,7 @@ ms.topic: article
 ms.prod:
 ms.service:
 ms.technology:
-ms.assetid: ae82e1d8-b623-4e60-b533-31810c0a02bf
+ms.assetid: ed940ba8-866c-477f-a59b-beb620300a79
 
 # optional metadata
 
@@ -41,25 +41,25 @@ Questa guida offre all'architetto di sistema e al responsabile della progettazio
 
 ## Destinatari
 
-I principali destinatari di questo documento sono gli architetti o i progettisti di sistema interessati alla comprensione dei problemi che è necessario considerare prima di implementare un'infrastruttura BYOD. Altri possibili destinatari del documento includono i responsabili dell'implementazione IT, gli addetti alla sicurezza aziendale e gli esperti di gestione dei dispositivi.</para>
+I principali destinatari di questa guida sono gli architetti o i progettisti di sistema interessati alla comprensione dei problemi da prendere in considerazione prima di implementare un'infrastruttura BYOD. Altri possibili destinatari della guida sono i responsabili dell'implementazione IT, gli addetti alla sicurezza aziendale e gli esperti di gestione dei dispositivi.</para>
     
 ## Scopo
   
-Questo documento ha un duplice scopo:
+Lo scopo di questa guida è:
 
 1. Fornire agli architetti o progettisti di sistema una serie di problemi e domande a cui rispondere per definire i requisiti per la progettazione di un'infrastruttura BYOD.
 2. Fornire agli architetti o progettisti di sistema un insieme di opzioni di progettazione che possono essere valutate e scelte in base ai requisiti identificati. 
 
 Le domande proposte possono essere usate per qualsiasi fornitore, ma gli esempi di opzioni disponibili si basano sulle funzionalità di Windows Server 2012 R2, System Center 2012 R2 e Microsoft Intune.
 
-Questo documento include anche:
+Questa guida include anche:
 
 - Considerazioni di progettazione indipendenti dal fornitore per adattare un'infrastruttura per il modello BYOD. 
 - Considerazioni di progettazione per gli utenti, i dispositivi, le piattaforme di gestione, le app e l'accesso ai dati e la relativa protezione.
 
 Prima di adottare un modello BYOD in un ambiente di produzione, è necessario considerare i problemi di sicurezza, disponibilità, prestazioni e scalabilità per aree quali le connessioni di rete, l'archiviazione, il calcolo e la gestione delle identità. Si tende spesso a voler passare al modello BYOD prima di avere effettuato un'analisi concreta dell'ambiente corrente e delle operazioni da eseguire per permettere agli utenti di lavorare in modo sicuro da qualsiasi dispositivo ovunque.
 
-Questo documento *non* ha lo scopo di:
+*Non* è tra gli scopi di questa guida:
 
 - Fornire indicazioni sulle prestazioni per i componenti dell'infrastruttura di un modello BYOD. 
 - Suggerire ottimizzazioni delle prestazioni e procedure consigliate per i componenti dell'infrastruttura BYOD.
@@ -76,12 +76,12 @@ I problemi o le perplessità seguenti sono in genere quelli incontrati dalle azi
 - Gli utenti stanno adottando nuove tecnologie e richiedono l'accesso alle risorse aziendali per svolgere il proprio lavoro.
 - I responsabili delle decisioni aziendali comprendono i vantaggi che il BYOD apporta all'azienda, principalmente nella produttività dell'utente consentendo di ridurre i costi operativi. Tuttavia, responsabili delle decisioni aziendali non sono sicuri di come adottare il BYOD rimanendo conformi alle regole e alle normative.
 
-Le organizzazioni con un'infrastruttura di grandi dimensioni devono stabilire i requisiti prima di passare dalla gestione dei dispositivi stessi, in cui si presume che il reparto IT abbia il controllo totale dei dispositivi, a un modello in cui si presume che il reparto IT abbia meno controllo dei dispositivi ma allo stesso tempo debba soddisfare le esigenze degli utenti per l'accesso ai dati aziendali. Questo modello viene spesso definito come passaggio da un approccio IT incentrato sui dispositivi a uno incentrato sugli utenti. È necessario inoltre pianificare attentamente le stesse considerazioni e gli stessi requisiti per le app nuove ed esistenti o per lo spostamento delle app esistenti in un ambiente cloud. La Figura 1 include un diagramma concettuale del dominio del problema BYOD e delle aree trattate in questo documento.
+Le organizzazioni con un'infrastruttura di grandi dimensioni devono stabilire i requisiti prima di passare dalla gestione dei dispositivi stessi, in cui si presume che il reparto IT abbia il controllo totale dei dispositivi, a un modello in cui si presume che il reparto IT abbia meno controllo dei dispositivi ma allo stesso tempo debba soddisfare le esigenze degli utenti per l'accesso ai dati aziendali. Questo modello viene spesso definito come passaggio da un approccio IT incentrato sui dispositivi a uno incentrato sugli utenti. È necessario inoltre pianificare attentamente le stesse considerazioni e gli stessi requisiti per le app nuove ed esistenti o per lo spostamento delle app esistenti in un ambiente cloud. La Figura 1 include un diagramma concettuale del dominio del problema BYOD e delle aree trattate in questa guida.
 
 ![Dominio problematico](./media/BYOD_Figure1.png)
 
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 

@@ -94,11 +94,10 @@ Le domande sui requisiti di protezione e accesso ai dati sono suddivise in tre a
 - L'azienda prevede dei criteri per definire il modo in cui viene classificato l'accesso ai dati?
 - L'azienda deve essere conforme a delle norme per la privacy e la gestione dei dati?
     - In tal caso, in che modo queste norme regolano i criteri esistenti di accesso ai dati per le risorse locali?
-- L'azienda prevede dei criteri per la [gestione dei dispositivi mobili](http://aka.ms/mdmdcg) e la gestione delle applicazioni mobili?
+- L'azienda prevede criteri per la [gestione di dispositivi mobili (MDM, Mobile Device Management)](mdm-design-considerations-guide.md) e la [gestione di applicazioni mobili (MAM, Mobile Application Management) ](https://blogs.technet.microsoft.com/cbernier/2016/01/05/microsoft-intune-mobile-application-management-mam-standalone/)?
 - L'azienda prevede dei criteri per la confisca dei dispositivi in caso di controversia legale o indagine investigativa?
 
 
-
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO3-->
 
 

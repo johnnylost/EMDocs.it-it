@@ -60,7 +60,7 @@ Come si vede nella tabella precedente, quando si progetta la soluzione di infras
 
 Se l'azienda sceglie di supportare diversi tipi di dispositivi, è necessario comprendere le funzionalità dei dispositivi, ad esempio la crittografia di archiviazione, le opzioni di connettività VPN e i linguaggi di programmazione supportati. Valutare ciò che è possibile implementare per mantenere la conformità ai criteri aziendali. Il monitoraggio dei dispositivi per rispettare la conformità può essere eseguito con l'applicazione dei criteri. Provare ad abilitare la crittografia dei dispositivi mentre i dati sono inattivi nei dispositivi degli utenti. In questo modo sì può semplificare la strategia di prevenzione della perdita dei dati. L'applicazione di criteri, come ad esempio lo sblocco delle password, la cronologia delle password e le password complesse, può fornire una sicurezza simile nei dispositivi locali e mobili.
 
-Le impostazioni di conformità in Configuration Manager consentono al reparto IT di gestire la configurazione e la conformità di server, computer portatili, computer desktop e dispositivi mobile all'interno dell'azienda. Provare a usare le impostazioni di conformità predefinite incorporate in Configuration Manager per i dispositivi mobili come punto di partenza e da lì personalizzare in base alle esigenze dell'azienda. Per altre informazioni sulle impostazioni di conformità in Configuration Manager, vedere Introduzione alle impostazioni di conformità in Configuration Manager.
+Le impostazioni di conformità in Configuration Manager consentono al reparto IT di gestire la configurazione e la conformità di server, computer portatili, computer desktop e dispositivi mobile all'interno dell'azienda. Provare a usare le impostazioni di conformità predefinite incorporate in Configuration Manager per i dispositivi mobili come punto di partenza e da lì personalizzare in base alle esigenze dell'azienda. Per altre informazioni sulle impostazioni di conformità in Configuration Manager, vedere [Introduzione alle impostazioni di conformità in Configuration Manager](https://technet.microsoft.com/en-us/library/gg682139.aspx).
 
 Con la cancellazione selettiva di Windows il reparto IT può proteggere i dati aziendali dell'organizzazione dislocati nei dispositivi personali o aziendali. Gli sviluppatori possono creare delle app per usare un criterio di cancellazione selettiva di Windows sui dati proteggendoli in un dominio Internet di proprietà dell'organizzazione. Per altre informazioni sulla cancellazione selettiva di Windows, vedere Cancellazione selettiva di Windows per la gestione dei dati del dispositivo.
 
@@ -184,9 +184,12 @@ La soluzione di gestione che verrà adottata dall'azienda dovrà essere orientat
 
 Una sfida in quest'area è poter gestire diverse piattaforme mantenendo un'interfaccia di gestione centralizzata che consenta al reparto IT di identificare rapidamente i dispositivi connessi in locale e nel cloud. È necessario prendere in considerazione l'adozione di una piattaforma di gestione che consenta di consolidare entrambe le soluzione (in locali e nel cloud), nonché una piattaforma di gestione che sia in grado di gestire sistemi Windows e non Windows.
 
-Per la gestione centralizzata in locale, è possibile usare Configuration Manager. Con questa opzione il reparto IT può sfruttare la funzionalità di registrazione aziendale per registrare i dispositivi con il server di Configuration Manager dell'azienda. Per altre informazioni sulla gestione dei dispositivi con Configuration Manager, vedere la procedura per la gestione dei dispositivi mobili con Configuration Manager e Microsoft Intune.
+Per la gestione centralizzata in locale, è possibile usare Configuration Manager. Con questa opzione il reparto IT può sfruttare la funzionalità di registrazione aziendale per registrare i dispositivi con il server di Configuration Manager dell'azienda. Per altre informazioni sulla gestione dei dispositivi con Configuration Manager, vedere [Gestire i dispositivi mobili con Configuration Manager e Microsoft Intune](https://technet.microsoft.com/en-us/library/jj884158.aspx).
 
-Per gestire altre piattaforme che non sono dispositivi basati su Windows, è possibile usare il servizio cloud di Microsoft Intune. Il portale aziendale di Microsoft Intune consente di registrare, gestire e installare le app concesse in licenza. Gli utenti possono accedere facilmente alle app e installarle sui propri dispositivi. Per altre informazioni su Microsoft Intune, vedere [Gestione diretta di Microsoft Intune](https://technet.microsoft.com/library/jj733620.aspx). Per altre informazioni sul portale aziendale di Microsoft Intune, vedere [Portale aziendale di Microsoft Intune](https://technet.microsoft.com/library/jj676642.aspx).
+Per gestire altre piattaforme che non sono dispositivi basati su Windows, è possibile usare il servizio cloud di Microsoft Intune. Il portale aziendale di Microsoft Intune consente di registrare, gestire e installare le app concesse in licenza. Gli utenti possono accedere facilmente alle app e installarle sui propri dispositivi. 
+
+>[!TIP] 
+>Per altre informazioni su Microsoft Intune, vedere [Introduction to Intune](/intune/understand-explore/introduction-to-microsoft-intune) (Introduzione a Intune). 
 
 Sebbene si tratti di due opzioni distinte, è possibile integrarle per fornire la distribuzione delle app e il provisioning da un'unica posizione. Usare la tabella seguente per identificare l'opzione appropriata al progetto BYOD.
 
@@ -199,6 +202,6 @@ Sebbene si tratti di due opzioni distinte, è possibile integrarle per fornire l
                                                                     
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 

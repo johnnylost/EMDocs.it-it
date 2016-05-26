@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Processo FastTrack Center Benefit per Enterprise Mobility Suite (EMS)
+title: FastTrack Center Benefit per Enterprise Mobility Suite (EMS)
 description:
 keywords:
 author: 
@@ -11,11 +11,11 @@ ms.topic: article
 ms.prod:
 ms.service:
 ms.technology:
-ms.assetid: 484156c7-c3c4-469d-b718-9fa33d9d0ec2
+ms.assetid: dd221c87-6bf7-4af8-845a-dc4c3a4f2334
 
 # optional metadata
 
-ROBOTS: noindex
+#ROBOTS:
 #audience:
 #ms.devlang:
 ms.reviewer: 
@@ -26,7 +26,7 @@ ms.suite: ems
 ---
 
 # Processo FastTrack Center Benefit per Enterprise Mobility Suite (EMS)
-Se l'organizzazione è idonea per FastTrack Center Benefit per EMS, è possibile lavorare in remoto con gli specialisti Microsoft per ottenere Azure Active Directory Premium, Microsoft Intune e/o Azure Rights Management pronti all'uso. Per sapere se l'organizzazione è idonea, vedere [FastTrack Center Benefit per Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md).
+Se l'organizzazione è idonea per FastTrack Center Benefit per EMS, è possibile lavorare in remoto con gli specialisti Microsoft per ottenere Azure Active Directory Premium, Microsoft Intune e/o Azure Rights Management pronti all'uso. Per sapere se l'organizzazione è idonea, vedere [FastTrack Center Benefit per Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md)..
 
 
 Gli elementi che costituiscono il processo FastTrack Center Benefit sono i seguenti: 
@@ -57,13 +57,13 @@ Ecco cosa aspettarsi una volta completato il processo di onboarding:
 
     -   Federati con Windows Server 2012 R2 Active Directory Federation Services (AD FS) 2.0 o versione successiva da Active Directory locale.
 
-
+Leggere la parte successiva del processo di caricamento di FastTrack: [Processo FastTrack Center Benefit per Enterprise Mobility Suite: panoramica](fasttrack-center-benefit-process-for-ems-overview.md)
 
 ### Altre informazioni
 Vedere [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
 
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 

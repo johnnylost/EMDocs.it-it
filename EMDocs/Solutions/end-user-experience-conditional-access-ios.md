@@ -11,14 +11,14 @@ ms.topic: article
 ms.prod:
 ms.service:
 ms.technology:
-ms.assetid: 3e186dd2-e17c-40d8-b160-48038b2c6593
+ms.assetid: 3c641ea8-2c0e-490e-b1de-831336f46d19
 
 # optional metadata
 
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: 
+ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -33,37 +33,37 @@ Il processo di registrazione e le schermate visualizzate dall'utente saranno leg
 
 1.  Se un utente è già registrato in Intune ed è conforme, non vedrà alcuna differenza nei dispositivi iOS e continuerà ad avere accesso alla posta elettronica. Se l'utente non è ancora registrato, visualizzerà un messaggio di quarantena simile al seguente quando avvia la sua applicazione di posta elettronica:
 
-    ![](./media/EUX-iOS-Get-Started.PNG)
+    ![Screenshot che illustra il messaggio di posta elettronica di quarantena ricevuto in un dispositivo iOS](./media/ProtectEmail/EUX-iOS-Get-Started.PNG)
 
     L'utente fa clic su **Per iniziare** per iniziare a registrare il dispositivo.
 
 2.  All'utente viene richiesto di installare l'app Portale aziendale di Intune dall'App Store corrispondente.
 
-    ![](./media/ProtectEmail/EUX-iOS-intune-Company-Portal.png)
+    ![Screenshot che illustra il portale aziendale di Intune in un dispositivo iOS](./media/ProtectEmail/EUX-iOS-intune-Company-Portal.png)
 
     Dopo l'installazione, l'utente apre l'app ed esegue l'accesso con le credenziali della società.
 
 3.  Nella schermata Configurazione dell'accesso aziendale, l'utente fa clic su **Inizia** per cominciare a configurare il dispositivo e verificarne la conformità.
 
-    ![](./media/ProtectEmail/EUX-iOS-company-AccessSetup.png)
+    ![Screenshot che illustra la schermata Configurazione dell'accesso aziendale in un dispositivo iOS](./media/ProtectEmail/EUX-iOS-company-AccessSetup.png)
 
 4.  Nella schermata Registrazione del dispositivo, l'utente fa clic su **Registra** per iniziare a registrare il suo dispositivo.
 
-    ![](./media/ProtectEmail/EUX-iOS-device-Enrollment.png)
+    ![Screenshot che illustra la schermata Registrazione del dispositivo in un dispositivo iOS](./media/ProtectEmail/EUX-iOS-device-Enrollment.png)
 
     Durante la registrazione, verrà installato il profilo di gestione dei dispositivi mobili per consentire all'amministratore IT di gestire in remoto il dispositivo. L'utente immette la sua password, se richiesta.
 
 5.  Nella schermata Configurazione dell'accesso aziendale, l'utente fa clic su **Continua** per iniziare a verificare la conformità nel dispositivo.
 
-    ![](./media/ProtectEmail/EUX-iOS-device-Compliance-Check.png)
+    ![Screenshot che illustra il completamento della registrazione del dispositivo per un dispositivo iOS e la richiesta di verifica della conformità](./media/ProtectEmail/EUX-iOS-device-Compliance-Check.png)
 
     Se si verifica un problema di conformità, all'utente viene richiesto di risolvere il problema (ad esempio creando una password valida) e quindi di fare clic su **Controlla conformità** per continuare.
 
-    ![](./media/ProtectEmail/EUX-iOS-device-Compliance-Check.png)
+    ![Screenshot che illustra la richiesta di risoluzione di problemi di conformità in un dispositivo iOS](./media/ProtectEmail/EUX-iOS-check-Compliance.png)
 
 6.  Quando il dispositivo sarà completamente compatibile, l'utente fa clic su **Continua** per continuare.
 
-    ![](./media/ProtectEmail/EUX-iOS-compliance-Check-Completed.png)
+    ![Screenshot che illustra la notifica della conformità del dispositivo iOS e il completamento della configurazione](./media/ProtectEmail/EUX-iOS-compliance-Check-Completed.png)
 
     Dopo che l'utente è stato registrato e la conformità è stata verificata, l'accesso alla posta elettronica dovrebbe diventare disponibile entro pochi minuti.
 
@@ -82,24 +82,24 @@ Ogni 8 ore per impostazione predefinita, i dispositivi vengono controllati per v
 
 2.  Se l'utente prova ad accedere alla posta elettronica, viene reindirizzato alla schermata Configurazione dell'accesso aziendale dal portale aziendale di Intune che indica che l'utente non è conforme.
 
-    ![](./media/ProtectEmail/EUX-iOS-fallOut-Compliance.png)
+    ![Screenshot che illustra la notifica della mancata conformità del dispositivo iOS](./media/ProtectEmail/EUX-iOS-fallOut-Compliance.png)
 
 3.  L'utente fa clic su **Continua** e visualizza il problema di conformità che gli impedisce di accedere alla posta elettronica.
 
-    ![](./media/ProtectEmail/EUX-iOS-check-Compliance.png)
+    ![Screenshot che illustra la richiesta di risoluzione di problemi di conformità in un dispositivo iOS](./media/ProtectEmail/EUX-iOS-check-Compliance.png)
 
 4.  Dopo la correzione del problema, l'utente fa clic su **Controlla conformità** per verificare che il problema è risolto.
 
 5.  Se il problema viene risolto, l'utente fa clic su **Continua** per completare il processo.
 
-    ![](./media/ProtectEmail/EUX-iOS-compliance-Check-Completed.png)
+    ![Screenshot che illustra la notifica della conformità del dispositivo iOS e il completamento della configurazione](./media/ProtectEmail/EUX-iOS-compliance-Check-Completed.png)
 
     L'accesso alla posta elettronica dovrebbe diventare disponibile entro pochi minuti.
 
 ### Come proseguire
-L'esperienza dell'utente finale è leggermente diversa in altri dispositivi mobili. Altre informazioni sull'esperienza dell'utente finale per [Android](../Solutions/end-user-experience-conditional-access-android.md) e [Windows Phone](../Solutions/end-user-experience-conditional-access-winphone.md).
+L'esperienza dell'utente finale è leggermente diversa in altri dispositivi mobili. Altre informazioni sull'esperienza dell'utente finale per [Android](end-user-experience-conditional-access-android.md) e [Windows Phone](end-user-experience-conditional-access-winphone.md).
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 

@@ -18,7 +18,7 @@ ms.assetid: fc9c7d79-d2ca-4cb2-8456-c7a88cbbf6fd
 #ROBOTS:
 #audience:
 #ms.devlang:
-ms.reviewer: 
+ms.reviewer:
 ms.suite: ems
 #ms.tgt_pltfrm:
 #ms.custom:
@@ -28,18 +28,20 @@ ms.suite: ems
 # Indicazioni sull'architettura per la protezione di documenti e messaggi di posta elettronica aziendali
 Questo argomento contiene una panoramica che illustra come garantire la protezione dei dati della società con un'esperienza utente semplice e senza impatto sulla produttività. Descrive inoltre come fornire accesso sicuro alla posta elettronica aziendale e proteggere i dati aziendali nei messaggi di posta elettronica e negli allegati usando la soluzione Microsoft Enterprise Mobility Suite.
 
+Questa sezione descrive l'architettura per la protezione di documenti e messaggi di posta elettronica aziendali. Per indicazioni per la distribuzione di una soluzione, vedere [Informazioni su come distribuire una soluzione per la protezione di documenti e messaggi di posta elettronica aziendali](learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md).
+
 > [!TIP]
 > È possibile scaricare una copia di questo argomento nella raccolta [TechNet](https://gallery.technet.microsoft.com/Managing-Access-and-Help-b7a05d0d/file/140056/1/Managing%20Access%20and%20Help%20Protect%20Corporate%20Email%20Data%20on%20Mobile%20Devices.pdf).
 
-I dipendenti vogliono poter usare i propri dispositivi per accedere alle risorse aziendali e agli strumenti di produttività. Il reparto IT deve assicurarsi che i dipendenti abbiano questa possibilità proteggendo al contempo i dati sensibili aziendali. BYOD ([Bring your own device](../Solutions/byod-design-considerations-guide.md)) pone un problema specifico in ciò che deve essere una separazione tra dati personali e dati di lavoro nei dispositivi personali impedendo la condivisione intenzionale o accidentale dei dati aziendali.
+I dipendenti vogliono poter usare i propri dispositivi per accedere alle risorse aziendali e agli strumenti di produttività. Il reparto IT deve assicurarsi che i dipendenti abbiano questa possibilità proteggendo al contempo i dati sensibili aziendali. BYOD ([Bring your own device](byod-design-considerations-guide.md)) pone un problema specifico in ciò che deve essere una separazione tra dati personali e dati di lavoro nei dispositivi personali, impedendo la condivisione intenzionale o accidentale dei dati aziendali.
 
-**Gli studi mostrano che:**
+**Alcuni studi hanno dimostrato che:**
 
--   il 37% della forza lavoro del mondo è mobile&#42;
+-   il 37% della forza lavoro del mondo è mobile
 
--   il 53% dei messaggi di posta elettronica totali è stato aperto in un telefono cellulare o un tablet nel terzo trimestre del 2014&#42;&#42;
+-   il 53% dei messaggi di posta elettronica totali è stato aperto in un telefono cellulare o un tablet nel terzo trimestre del 2014
 
--   il 61% dei lavoratori combina attività personali e lavorative nei propri dispositivi&#42;&#42;&#42;
+-   il 61% dei lavoratori combina attività personali e lavorative nei propri dispositivi
 
 Tenere presente che:
 
@@ -82,38 +84,26 @@ Il terzo livello è il **livello gestione delle app** con l'ecosistema di app ge
 *Azure Rights Management (Azure RMS)* completa il modello di sicurezza proteggendo i dati a livello file. I criteri di sicurezza che vengono applicati ai dati si spostano con i dati, consentendo di proteggere i dati in transito e i dati archiviati, indipendentemente dal dispositivo usato per accedervi. Questo è il **livello dati** del modello di sicurezza.
 
 ## Come proseguire
-[Guardare](https://www.youtube.com/watch?v=ltcZvm4VOFU) questo video per informazioni su come iscriversi per ottenere un account di prova e iniziare.
+- [Guardare](https://www.youtube.com/watch?v=ltcZvm4VOFU) questo video per informazioni su come iscriversi per ottenere un account di prova e iniziare.
 
-Per capire meglio quali sono i requisiti di progettazione della gestione dei dispositivi mobili, vedere la [Guida alle considerazioni sulla progettazione per la gestione dei dispositivi mobili](../Solutions/mdm-design-considerations-guide.md).
+- Per capire meglio quali sono i requisiti di progettazione della gestione dei dispositivi mobili, vedere [Mobile Device Management Design Considerations Guide](mdm-design-considerations-guide.md) (Guida alle considerazioni sulla progettazione per la gestione dei dispositivi mobili).
 
-[Altre informazioni su come distribuire una soluzione per la protezione di documenti e messaggi di posta elettronica dell'azienda](../Solutions/learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md).
+- [Informazioni su come distribuire una soluzione per la protezione di documenti e messaggi di posta elettronica aziendali](learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md).
 
-Note a piè di pagina:
+Se, poi, si vuole approfondire la conoscenza di EMS e Azure Active Directory, è possibile ottenere altre informazioni da questi articoli:
+- [Architettura EMS](https://azure.microsoft.com/en-us/documentation/infographics/enterprise-mobility/)
 
-&#42; IDC: "Worldwide Mobile Worker Population 2011–2015 Forecast"
+- [Informazioni su Azure Active Directory](https://azure.microsoft.com/en-us/documentation/articles/active-directory-whatis/)
 
-&#42;&#42; Experian "Quarterly email benchmark report" (terzo trimestre 2014)
+- [Come Azure Active Directory supporta Office 365, Microsoft Intune e altri servizi Microsoft?](https://azure.microsoft.com/en-us/documentation/articles/active-directory-administer/#what-is-an-azure-ad-tenant)
 
-&#42;&#42;&#42; Forrester Research: "BT Futures Report: Info workers will erase boundary between enterprise &amp; consumer technologies," 21 febbraio 2013
+- [Come Azure Active Directory consente di gestire le identità](https://azure.microsoft.com/en-us/documentation/articles/active-directory-administer/)
 
-### Vedere anche
-[Architettura EMS](https://azure.microsoft.com/en-us/documentation/infographics/enterprise-mobility/)
+- [Informazioni su Microsoft Azure Rights Management](https://technet.microsoft.com/en-us/library/jj585026.aspx)
 
-[Iniziare a usare Intune](https://stage.docs.microsoft.com/en-us/intune/understand/introduction-to-microsoft-intune)
-
-[Informazioni su Azure Active Directory](https://azure.microsoft.com/en-us/documentation/articles/active-directory-whatis/)
-
-[Come Azure Active Directory supporta Office 365, Microsoft Intune e altri servizi Microsoft?](https://azure.microsoft.com/en-us/documentation/articles/active-directory-administer/#what-is-an-azure-ad-tenant)
-
-[Come Azure Active Directory consente di gestire le identità](https://azure.microsoft.com/en-us/documentation/articles/active-directory-administer/)
-
-[Informazioni su Microsoft Azure Rights Management](https://technet.microsoft.com/en-us/library/jj585026.aspx)
-
-[Supporto di Microsoft Azure Rights Management da parte delle applicazioni](https://technet.microsoft.com/en-us/library/jj585004.aspx)
-
-[Protezione automatica della posta elettronica con Exchange Online e criteri di prevenzione della perdita di dati](https://technet.microsoft.com/en-us/library/jj585026.aspx#BKMK_Example_DLP)
+- [Supporto di Microsoft Azure Rights Management da parte delle applicazioni](https://technet.microsoft.com/en-us/library/jj585004.aspx)
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 

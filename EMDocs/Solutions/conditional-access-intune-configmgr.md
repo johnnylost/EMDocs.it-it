@@ -53,14 +53,14 @@ Il servizio AAD DRS verrà attivato automaticamente per i clienti di Intune e Of
 
 -   È necessario usare una sottoscrizione a Office 365 che include Exchange Online (ad esempio E3) e gli utenti devono avere una licenza per Exchange Online.
 
--   L'opzione facoltativa **Microsoft Intune Service to Service Connector** connette Intune a Microsoft Exchange Online e consente di gestire le informazioni sui dispositivi tramite la console di Intune. Vedere [Configurare la gestione di dispositivi mobili tramite Exchange ActiveSync in Microsoft Intune](https://stage.docs.microsoft.com/en-us/intune/deployuse/mobile-device-management-with-exchange-activesync-and-microsoft-intune). Non è necessario usare il connettore per i criteri di conformità o i criteri di accesso condizionale, ma è obbligatorio eseguire i report per valutare l'impatto dell'accesso condizionale.
+-   L'opzione facoltativa **Microsoft Intune Service to Service Connector** connette Intune a Microsoft Exchange Online e consente di gestire le informazioni sui dispositivi tramite la console di Intune. Vedere [Gestione dei dispositivi mobili con Exchange ActiveSync e Microsoft Intune](/intune/deploy-use/mobile-device-management-with-exchange-activesync-and-microsoft-intune). Non è necessario usare il connettore per i criteri di conformità o i criteri di accesso condizionale, ma è obbligatorio eseguire i report per valutare l'impatto dell'accesso condizionale.
 
     Se si configura il connettore, alcuni criteri di Exchange ActiveSync di Intune potrebbero essere visualizzati nella console di Office ma non vengono impostati come criteri predefiniti e non interessano i dispositivi.
 
     > [!IMPORTANT]
     > Non configurare Service to Service Connector se si prevede di usare l'accesso condizionale sia per Exchange Online che per Exchange locale.
 
-    È ora possibile scoprire come [distribuire Exchange Online con Intune](../Solutions/conditional-access-intune-exchange-online.md).
+    È ora possibile scoprire come [distribuire Exchange Online con Intune](conditional-access-intune-exchange-online.md).
 
 ## Per Exchange Server locale
 L'accesso condizionale a Exchange locale supporta:
@@ -82,16 +82,16 @@ Inoltre:
 
 -   È possibile configurare Exchange ActiveSync per l'autenticazione basata su certificati o l'immissione di credenziali utente.
 
--   È necessario usare **On-Premises Exchange Connector** che connette Intune a Microsoft Exchange Server locale. Ciò consente di gestire i dispositivi tramite la console di Intune. Vedere [Configurare la gestione di dispositivi mobili tramite Exchange ActiveSync in Microsoft Intune](https://stage.docs.microsoft.com/en-us/intune/deployuse/mobile-device-management-with-exchange-activesync-and-microsoft-intune).
+-   È necessario usare **On-Premises Exchange Connector** che connette Intune a Microsoft Exchange Server locale. Ciò consente di gestire i dispositivi tramite la console di Intune. Vedere [Gestione dei dispositivi mobili con Exchange ActiveSync e Microsoft Intune](/intune/deploy-use/mobile-device-management-with-exchange-activesync-and-microsoft-intune).
 
   > [!IMPORTANT]
 > Accertarsi di usare la versione più recente di Exchange Connector locale. Exchange Connector locale, disponibile nella console di Intune, è specifico del tenant di Intune e non può essere usato con un altro tenant. È inoltre necessario assicurarsi che Exchange Connector per il tenant sia installato in un solo computer.
 
-  È ora possibile scoprire come [distribuire Exchange Server locale con Intune](../Solutions/conditional-access-intune-exchange.md).
+  È ora possibile scoprire come [distribuire Exchange Server locale con Intune](conditional-access-intune-exchange.md).
 
-Se l'ambiente include sia Exchange Online Exchange locale, è possibile leggere l'articolo sulla [distribuzione di Exchange Online ed Exchange locale con Microsoft Intune e Configuration Manager](../Solutions/conditional-access-intune-configmgr-coexist.md).
+Se l'ambiente include sia Exchange Online che Exchange locale, è possibile leggere l'articolo sulla [distribuzione di Exchange Online ed Exchange locale con Microsoft Intune e Configuration Manager](conditional-access-intune-configmgr-coexist.md).
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 

@@ -11,9 +11,9 @@ ms.topic: article
 ms.prod:
 ms.service:
 ms.technology:
-ms.assetid: e7838e5f-8946-4e69-b287-9e53f97f136c
+ms.assetid: d1653116-3922-40d3-bc4f-3d845b6aaecb
 
-# optional metadata
+# optional metadataco
 
 #ROBOTS:
 #audience:
@@ -28,7 +28,8 @@ ms.suite: ems
 # Considerazioni su utenti e dispositivi
 
 Il primo problema relativo a utenti e dispositivi da affrontare è come le tecnologie esistenti influiranno sull'esperienza utente per l'accesso sicuro alle risorse aziendali. Indirizzare l'esperienza utente in diversi dispositivi può essere difficile, non solo da un punto di vista della sicurezza, ma anche dal punto di vista dello sviluppo delle app. Il canale di comunicazione tra il dispositivo e le risorse aziendali deve essere valutato in base al livello di sicurezza di rete appropriato necessario per evitare la perdita di dati durane il trasferimento.
-Le sezioni seguenti sono basate sui componenti per il sottodominio utenti e dispositivi illustrato nella figura 1 in Definizione del problema BYOD, ovvero il diagramma concettuale per il dominio dei problemi BYOD.
+
+Le sezioni seguenti sono basate sui componenti per il sottodominio Utenti e dispositivi illustrato nella sezione [Problem Definition](byod-design-considerations-guide.md#problem-definition) (Definizione del problema) di questa guida, contenente il diagramma concettuale per il dominio del problema BYOD.
 
 ## Profiles
 
@@ -113,11 +114,11 @@ Usare l'elenco che segue per comprendere i vantaggi e gli svantaggi delle opzion
 
 In Windows Server 2012 R2 il nuovo concetto di [aggiunta all'area di lavoro](https://technet.microsoft.com/library/dn280945.aspx) consente al reparto IT di cambiare lo stato del dispositivo da sconosciuto a noto. Il dispositivo può anche essere usato come autenticazione a due fattori e Single Sign-On per le risorse e le app dell'area di lavoro. L'aggiunta all'area di lavoro è disponibile in modo nativo in Windows 10, ma è supportata anche in altre piattaforme come iOS e Android. L'aggiunta all'area di lavoro sfrutta il servizio DRS (Device Registration). Per altre informazioni su DRS, vedere [Configurare un server federativo con Device Registration Service](https://technet.microsoft.com/library/dn486831.aspx). L'aggiunta all'area di lavoro è una nuova tecnologia e funziona con specifici casi di utilizzo. Per altre informazioni su una soluzione che sfrutti l'aggiunta all'area di lavoro con Single Sign-On, vedere [Accesso protetto alle risorse aziendali ovunque e con qualsiasi dispositivo](https://technet.microsoft.com/library/dn550982.aspx).
 
-Se si prevede di usare DRS, tenere presente che questa funzione non fornisce funzionalità di gestione. Se l'azienda necessita di più controlli di sicurezza per avere a disposizione più opzioni per controllare i dispositivi degli utenti, è consigliabile usare DRS insieme alla [registrazione dei dispositivi mobili](https://technet.microsoft.com/library/jj733620.aspx) come soluzione di agente di gestione. Se si sceglie questa opzione, tuttavia è necessario avere una sottoscrizione a Windows Intune. Per altre informazioni su Microsoft Intune, vedere [Iniziare a usare Microsoft Intune](https://technet.microsoft.com/library/dn646953.aspx).
+Se si prevede di usare DRS, tenere presente che questa funzione non fornisce funzionalità di gestione. Se l'azienda necessita di più controlli di sicurezza per avere a disposizione più opzioni per controllare i dispositivi degli utenti, è consigliabile usare DRS insieme alla [registrazione dei dispositivi mobili](https://technet.microsoft.com/library/jj733620.aspx) come soluzione di agente di gestione. Se si sceglie questa opzione, tuttavia è necessario avere una sottoscrizione a Windows Intune. Per altre informazioni su Microsoft Intune, vedere [Introduction to Intune](/intune/understand-explore/introduction-to-microsoft-intune) (Introduzione a Intune).
 
 ## Rete
 
-Prendere in esame l'accesso alla rete aziendale dal punto di vista dell'utente e da quello del dispositivo. Come possono gli utenti accedere dati aziendali dai propri dispositivi? La maggior parte delle soluzioni di infrastruttura BYOD è concentrata solo minimamente sull'accesso remoto dai dispositivi degli utenti. Tuttavia, da un approccio incentrato sugli utenti, è necessario considerare dove si trovano fisicamente gli utenti. È consigliabile concentrarsi non solo sull'accesso remoto, ma anche sul modo in cui gli utenti potranno accedere ai dati in locale. Inoltre, sarà necessario prendere in considerazione i problemi normativi specifici dell'allineamento geopolitico dell'organizzazione. Ad esempio, come possono gli utenti che si trovano fisicamente in un altro paese aver personalizzato l'accesso alla rete?
+Prendere in esame l'accesso alla rete aziendale dal punto di vista dell'utente e da quello del dispositivo. Come possono gli utenti accedere dati aziendali dai propri dispositivi? La maggior parte delle soluzioni di infrastruttura BYOD è concentrata solo minimamente sull'accesso remoto dai dispositivi degli utenti. Tuttavia, da un approccio incentrato sugli utenti, è necessario considerare dove si trovano fisicamente gli utenti. È consigliabile concentrarsi non solo sull'accesso remoto, ma anche sul modo in cui gli utenti potranno accedere ai dati in locale. Inoltre, sarà necessario prendere in considerazione i problemi normativi specifici dell'allineamento geopolitico dell'organizzazione. Ad esempio, come si può consentire agli utenti che si trovano fisicamente in un altro paese o in un'altra area l'accesso personalizzato alla rete?
 
 Se l'azienda ha delle risorse nel cloud pubblico accessibile tramite Internet dai dispositivi degli utenti, è necessario considerare il modo in cui viene gestito il traffico. Valutare la possibilità di usare la crittografia durante il trasferimento dei dati dai dispositivi degli utenti al provider dei servizi cloud. È consigliabile usare la crittografia dei dati anche quando gli utenti accedono alle risorse interne.
 
@@ -175,7 +176,7 @@ Dopo aver definito la progettazione per l'accesso alla rete remota, valutare il 
 
 È anche possibile segmentare i dispositivi che si connetteranno alla rete Wi-Fi a seconda della piattaforma di esecuzione. Valutare inoltre come proteggere le comunicazioni e l'autorizzazione durante l'accesso in locale alle risorse aziendali.
 
-È possibile scegliere una segmentazione fisica sul punto di accesso wireless e sui componenti di rete (commutatori e router) per isolare gli utenti che si connettono con i propri dispositivi. È anche possibile implementare questo tipo di segmentazione usando i [profili Wi-Fi in Configuration Manager](https://technet.microsoft.com/library/dn261221.aspx). È disponibile una vasta gamma di impostazioni di sicurezza, ad esempio certificati per la convalida del server e per l'autenticazione client di cui è stato eseguito il provisioning con i [profili certificati in Configuration Manager](https://technet.microsoft.com/library/dn270540.aspx).
+È possibile scegliere una segmentazione fisica sul punto di accesso wireless e sui componenti di rete (commutatori e router) per isolare gli utenti che si connettono con i propri dispositivi. È anche possibile implementare questo tipo di segmentazione usando i [profili Wi-Fi in Configuration Manager](https://technet.microsoft.com/library/dn261221.aspx). È disponibile una vasta gamma di impostazioni di sicurezza, ad esempio certificati per la convalida del server e per l'autenticazione client di cui è stato eseguito il provisioning con i [profili certificati in Configuration Manager](https://technet.microsoft.com/library/dn270540.aspx)..
 
 
 ### Opzioni di segmentazione della rete Wi-Fi: vantaggi e svantaggi
@@ -207,12 +208,12 @@ Usare l'elenco che segue per comprendere i vantaggi e gli svantaggi delle opzion
     - Svantaggi
         - Richiede IPsec per l'implementazione con la funzionalità [Protezione accesso alla rete Microsoft](https://technet.microsoft.com/library/cc731276(v=ws.10).aspx), che può rappresentare un problema in uno scenario BYOD che richiede il supporto per "qualsiasi dispositivo"
 
-> [!NOTE]Per altre informazioni sui profili Wi-Fi in Configuration Manager, vedere [Introduzione ai profili Wi-Fi in Configuration Manager](https://technet.microsoft.com/library/dn261224.aspx).
+> [!NOTE] Per altre informazioni sui profili Wi-Fi in Configuration Manager, vedere [Introduzione ai profili Wi-Fi in Configuration Manager](https://technet.microsoft.com/library/dn261224.aspx)..
 
 Il percorso di rete svolge un ruolo importante per le considerazioni sugli utenti e i dispositivi. È possibile sfruttare il controllo degli accessi a più fattori in ADFS per abilitare i criteri di autorizzazione per applicazione, con i quali è possibile consentire o negare l'accesso in base a utente, dispositivo e percorso di rete. Per altre informazioni su come configurare un ambiente per convalidare questa funzionalità, vedere [Gestire i rischi con il controllo degli accessi a più fattori](https://technet.microsoft.com/library/dn280936.aspx).
 
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 

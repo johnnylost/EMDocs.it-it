@@ -28,7 +28,7 @@ ms.suite: ems
 # Processo FastTrack Center Benefit per Enterprise Mobility Suite: responsabilità di Microsoft
 Le sezioni seguenti spiegano le responsabilità di Microsoft se si usa [FastTrack Center Benefit per Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) per ottenere Azure Active Directory Premium, Microsoft Intune e/o Azure Rights Management pronti all'uso.
 
-Per altre informazioni sul processo di caricamento FastTrack, vedere [Processo FastTrack Center Benefit per Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
+Per altre informazioni sul processo di caricamento FastTrack, vedere [Processo FastTrack Center Benefit per Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)..
 
 
 ## Generale
@@ -120,11 +120,11 @@ Fornire indicazioni su:
 
     -   Configurare la sincronizzazione tra le foreste locali di Active Directory e la directory di Microsoft Azure Active Directory Premium (Azure Active Directory).
 
-        > [!NOTE] Sviluppo e implementazione di estensioni di regole personalizzate sono esterni all'ambito.
+        > [!NOTE] Sviluppo e implementazione per estensioni di regole personalizzate non rientrano nell'ambito.
 
 -   Per una singola foresta se la destinazione sono le identità federate: installazione e configurazione di Active Directory Federation Services (AD FS) per l'autenticazione di domini locali con Microsoft Azure AD Premium in una configurazione con un solo sito a tolleranza di errore, se necessario.
 
-    > [!NOTE] Per tutte le configurazioni a più foreste, le distribuzioni di AD FS sono esterne all'ambito.
+    > [!NOTE] Per tutte le configurazioni di più foreste le distribuzioni di AD FS non rientrano nell'ambito.
 
 -   Test della funzionalità SSO (Single Sign-On), se distribuita.
 
@@ -169,7 +169,7 @@ Fornire indicazioni su:
 
     -   Se è presente un'implementazione esistente di System Center Configuration Manager e si vogliono espandere le funzionalità di gestione con Microsoft Intune, impostare Configuration Manager come autorità MDM.
 
-        > [!NOTE] Se si vuole usare Gestione di applicazioni mobili solo in dispositivi di proprietà degli utenti finali, in dispositivi condivisi o di tipo chiosco multimediale, non è necessario configurare un'autorità MDM.
+        > [!NOTE] Per usare Gestione di applicazioni mobili solo nei dispositivi di proprietà degli utenti finali, nei dispositivi condivisi o nei dispositivi di tipo chiosco multimediale, la configurazione di un'autorità MDM non è necessaria.
 
 -   Se Gestione di dispositivi mobili rientra nel proprio ambito, verranno fornite istruzioni su:
 
@@ -239,16 +239,13 @@ Fornire indicazioni su:
 
 -   Configurazione dell'applicazione di condivisione RMS per dispositivi Windows e non Windows.
 
-
->[!div class="step-by-step"]
-[Fasi di FastTrack](fasttrack-center-benefit-process-for-ems-phases.md)
-[Responsabilità FastTrack del cliente](fasttrack-center-benefit-process-for-ems-your-responsibilitiesmd)
+Leggere la parte successiva del processo di caricamento di FastTrack: [Processo FastTrack Center Benefit per Enterprise Mobility Suite: responsabilità dell'utente](fasttrack-center-benefit-process-for-ems-your-responsibilities.md)
 
 ### Altre informazioni
 Vedere [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
 
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 

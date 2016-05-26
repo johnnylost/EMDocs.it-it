@@ -29,7 +29,7 @@ ms.suite: ems
 
 È possibile usare [FastTrack Center Benefit per Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) per ottenere Azure Active Directory Premium, Microsoft Intune e/o Azure Rights Management pronti all'uso. Le informazioni contenute in questa sezione illustrano una panoramica del processo di caricamento.
 
-Per altre informazioni sul processo di caricamento FastTrack, vedere [Processo FastTrack Center Benefit per Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
+Per altre informazioni sul processo di caricamento FastTrack, vedere [Processo FastTrack Center Benefit per Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)..
 
 
 I componenti principali del processo di onboarding sono due:
@@ -40,7 +40,7 @@ I componenti principali del processo di onboarding sono due:
 
 Il diagramma seguente illustra le fasi di caricamento di alto livello se si usa FastTrack Center Benefit.
 
-![](./media/1-rms-onboarding-process.png)
+![Fasi di caricamento di alto livello se si usa FastTrack Center Benefit](./media/ft-1-onboarding-process.png)
 
 Il processo di base è il seguente:
 
@@ -54,19 +54,17 @@ Tutto il supporto tecnico di onboarding verrà fornito in remoto da personale Mi
 
 -   Il supporto tecnico di onboarding viene fornito da FastTrack Center ed è disponibile durante il normale orario di ufficio in base all'area geografica.
 
--   Il supporto tecnico di onboarding è disponibile in cinese tradizionale, inglese, francese, tedesco, italiano, giapponese, portoghese (Brasile) o spagnolo.
+-   Il supporto tecnico per il caricamento è disponibile in cinese tradizionale, cinese semplificato, inglese, francese, tedesco, italiano, giapponese, coreano, portoghese (Brasile), spagnolo, thai e vietnamita.
 
 -   Il team di Microsoft può lavorare direttamente con l'utente oppure con il rappresentante.
 
->[!div class="step-by-step"]
-[Introduzione del processo FastTrack](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)
-[Ambiente di origine FastTrack](fasttrack-center-benefit-process-for-ems-environment-expectations.md)
+Leggere la parte successiva del processo di caricamento di FastTrack: [Previsioni per l'ambiente di origine](fasttrack-center-benefit-process-for-ems-environment-expectations.md)
 
 ### Altre informazioni
 Vedere [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
 
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=May16_HO1-->
 
 

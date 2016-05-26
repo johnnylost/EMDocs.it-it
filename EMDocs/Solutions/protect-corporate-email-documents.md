@@ -1,13 +1,28 @@
 ---
+# required metadata
+
 title: Proteggere messaggi di posta elettronica e documenti aziendali
-ms.custom: na
-ms.reviewer: na
-ms.service: microsoft-intune
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid: fc9c7d79-d2ca-4cb2-8456-c7a88cbbf6fd
+description:
+keywords:
 author: karthikaraman
+manager: swadhwa
+ms.date: 04/28/2016
+ms.topic: article
+ms.prod:
+ms.service:
+ms.technology:
+ms.assetid: 78d8368e-1bfe-4ac4-991d-467321a76ed7
+
+# optional metadata
+
+#ROBOTS:
+#audience:
+#ms.devlang:
+ms.reviewer:
+ms.suite: ems
+#ms.tgt_pltfrm:
+#ms.custom:
+
 ---
 
 # Protezione dei messaggi di posta elettronica e dei documenti aziendali
@@ -35,7 +50,7 @@ I**criteri di accesso condizionale** sono configurati per un determinato servizi
 ## Esperienza generale dell'utente finale:
 Dopo aver implementato la soluzione, gli utenti finali potranno accedere alla posta elettronica aziendale solo sui dispositivi gestiti e conformi. Quando accedono alla posta elettronica sui dispositivi, i dati dell'azienda sono protetti e contenuti all'interno dell'ecosistema di app e sono disponibili unicamente agli utenti previsti. L'accesso potrà essere revocato in qualsiasi momento se il dispositivo risulta non conforme.
 
-In particolare, i criteri di accesso condizionale configurati in Intune fanno sì che i dispositivi possano accedere alla posta elettronica solo se sono conformi ai criteri di conformità impostati. Alcune azioni, ad esempio le operazioni Copia e Incolla oppure il salvataggio nei servizi di archiviazione cloud personale, possono essere limitate usando i criteri di gestione delle applicazioni mobili. Il servizio di Azure Rights Management può essere usato per fare in modo che i dati sensibili di posta elettronica e gli allegati inoltrati possano essere letti solo dai destinatari. L'esperienza dell'utente finale è descritta in dettaglio in [Esperienza utente finale di accesso condizionale](../Solutions/end-user-experience-conditional-access.md).
+In particolare, i criteri di accesso condizionale configurati in Intune fanno sì che i dispositivi possano accedere alla posta elettronica solo se sono conformi ai criteri di conformità impostati. Alcune azioni, ad esempio le operazioni Copia e Incolla oppure il salvataggio nei servizi di archiviazione cloud personale, possono essere limitate usando i criteri di gestione delle applicazioni mobili. Il servizio di Azure Rights Management può essere usato per fare in modo che i dati sensibili di posta elettronica e gli allegati inoltrati possano essere letti solo dai destinatari. L'esperienza dell'utente finale è descritta in dettaglio in [Esperienza utente finale di accesso condizionale](end-user-experience-conditional-access.md).
 
 
 Guardare [questo](https://www.youtube.com/watch?feature=player_embedded&v=lYx3YIezccg) video di quattro minuti per vedere come l'accesso condizionale influisce sugli utenti finali.
@@ -109,9 +124,9 @@ Quando l'utente prova ad accedere alla posta elettronica sul dispositivo per la 
 Una volta che il dispositivo viene considerato registrato e conforme, entro pochi minuti dovrebbe essere eseguita la sincronizzazione della posta elettronica.
 
 ## Come proseguire
-Dopo avere acquisito le informazioni sulla protezione di documenti e messaggi di posta elettronica aziendali, è possibile leggere le procedure di [protezione degli allegati di posta elettronica](../Solutions/protect-email-attachments.md). Oppure, se si è pronti, vedere altre informazioni sull'[implementazione di una soluzione per la protezione della posta elettronica aziendale](../Solutions/implement-solution.md).
+Dopo avere acquisito le informazioni sulla protezione di documenti e messaggi di posta elettronica aziendali, è possibile leggere le procedure di [protezione degli allegati di posta elettronica](protect-email-attachments.md). In alternativa, se si è pronti, approfondire l'[implementazione di una soluzione per la protezione della posta elettronica aziendale](implement-solution.md).
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 

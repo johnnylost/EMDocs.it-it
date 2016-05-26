@@ -11,7 +11,7 @@ ms.topic: article
 ms.prod:
 ms.service:
 ms.technology:
-ms.assetid: 69020f79-4ce2-4984-b127-4520503fb729
+ms.assetid: a6319952-e9cd-4308-b9b9-b2e6005e6506
 
 # optional metadata
 
@@ -27,7 +27,7 @@ ms.suite: ems
 
 # Requisiti di utenti e dispositivi
 
-Prima di consentire agli utenti di accedere alle risorse aziendali dai propri dispositivi, rispondere alle domande nelle sezioni seguenti in collaborazione con gli utilizzatori di queste risorse nell'ambiente usato e con il reparto IT. La figura 2 mostra le interazioni tra utenti e dispositivi, con l'obiettivo finale di accedere ai dati e di utilizzarli. Si noti che il diagramma non valuta la posizione geografica. Sebbene la posizione geografica sia un aspetto importante, che verrà trattato più avanti in questo documento, lo scopo della figura 2 è illustrare i componenti principali di utenti e dispositivi. Fare le dovute considerazioni di progettazione per consentire questa comunicazione.
+Prima di consentire agli utenti di accedere alle risorse aziendali dai propri dispositivi, rispondere alle domande nelle sezioni seguenti in collaborazione con gli utilizzatori di queste risorse nell'ambiente usato e con il reparto IT. La figura sottostante illustra le interazioni tra utenti e dispositivi, con l'obiettivo finale di accedere ai dati e di usarli. Si noti che il diagramma non valuta la posizione geografica. Sebbene la posizione geografica sia un aspetto importante, che verrà trattato più avanti in questa guida, lo scopo di questa figura è illustrare i componenti principali di utenti e dispositivi. Fare le dovute considerazioni di progettazione per consentire questa comunicazione.
 
 ![Utenti, dispositivi e dati](./media/BYOD_Figure2.png)
 
@@ -66,8 +66,15 @@ I requisiti di utenti e dispositivi sono suddivisi in tre aree:
     - In tal caso, l'elenco esistente dei dispositivi supportati supporta il protocollo di crittografia che verrà usato?
 - È prevista la segmentazione della rete?
     - In tal caso, tutti i dispositivi degli utenti verranno connessi a una rete separata per isolarli dalla rete di produzione?
+- Chi lavora sia da casa che in ufficio come deve connettersi alla rete? Con una connessione cablata, wireless o di entrambi i tipi?
+    - Nel caso della connessione wireless, come si intende gestire l'autenticazione, l'autorizzazione e l'accounting (AAA) dei dispositivi in modo che i dispositivi non registrati o non autorizzati non siano in grado di usare risorse di rete senza autorizzazioni appropriate?
+
+### Supporto tecnico
+- Il team responsabile della rete e della sicurezza è pronto a inserire tra le proprie mansioni lo svolgimento a intervalli regolari di controlli di conformità sui dispositivi?
+- Sono in vigore criteri e procedure di gestione delle modifiche a supporto dell'implementazione di BYOD?
 
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=May16_HO1-->
 
 

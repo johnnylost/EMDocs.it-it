@@ -26,7 +26,7 @@ ms.suite: ems
 ---
 
 # Distribuire Exchange Online locale con Microsoft Intune e Configuration Manager
-Ora che si è letto con attenzione il [materiale sussidiario sull'architettura per la protezione dei documenti e dei messaggi di posta elettronica aziendali](../Solutions/architecture-guidance-for-protecting-company-email-and-documents.md) è possibile procedere alla distribuzione di una soluzione.
+Ora che si sono lette con attenzione le [indicazioni sull'architettura per la protezione di documenti e messaggi di posta elettronica aziendali](architecture-guidance-for-protecting-company-email-and-documents.md) è possibile procedere alla distribuzione di una soluzione.
 
 Un ambiente in cui viene usato sia Exchange locale che Exchange Online per gestire i profili di posta elettronica offre alle aziende la possibilità di estendere l'esperienza ricca di funzionalità e il controllo amministrativo che hanno con la propria organizzazione di Microsoft Exchange locale nel cloud. Questo tipo "ibrido" di distribuzione fornisce l'aspetto semplice di una singola organizzazione di Exchange tra un'organizzazione di Exchange Server 2013 locale ed Exchange Online in Microsoft Office 365. Inoltre, questo tipo di distribuzione può essere usato come un passaggio intermedio per lo spostamento completo in un'organizzazione di Exchange Online.
 
@@ -38,12 +38,12 @@ Per configurare un tipo di coesistenza di ambiente che implementi Exchange local
 Per esaminare i requisiti per la creazione e la configurazione di questo tipo di ambiente, vedere [Prerequisiti per la distribuzione ibrida](https://technet.microsoft.com/en-us/library/hh534377.aspx) .
 
 ## Passaggi per la distribuzione
-Per distribuire una soluzione di coesistenza, seguire i passaggi precedenti, che consentono la distribuzione sia della soluzione [Exchange Server locale](../Solutions/conditional-access-intune-configmgr-exchange.md) che della soluzione [Exchange Online](../Solutions/conditional-access-intune-configmgr-exchange-online.md).
+Per distribuire una soluzione di coesistenza, seguire i passaggi precedenti, che consentono la distribuzione sia della soluzione [Exchange Server locale](conditional-access-intune-configmgr-exchange.md) che della soluzione [Exchange Online](conditional-access-intune-configmgr-exchange-online.md).
 
 ## Come proseguire
-Dopo aver distribuito una soluzione per la protezione della posta elettronica aziendale e dei dati di questa all'interno dei dispositivi mobili, è possibile scoprire di più sull'[esperienza dell'utente finale relativa all'accesso condizionale](../Solutions/end-user-experience-conditional-access.md). Ciò consente di prepararsi ad affrontare i problemi che potrebbero verificarsi quando gli utenti finali registrano dispositivi specifici.
+Dopo aver distribuito una soluzione per la protezione della posta elettronica aziendale e dei dati di questa all'interno dei dispositivi mobili, è possibile scoprire di più sull'[esperienza dell'utente finale relativa all'accesso condizionale](end-user-experience-conditional-access.md). Ciò consente di prepararsi ad affrontare i problemi che potrebbero verificarsi quando gli utenti finali registrano dispositivi specifici.
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 

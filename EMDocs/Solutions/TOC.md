@@ -1,5 +1,3 @@
-# [Scenari e guide](scenarios-guides.md)
-
 # [Introduzione a FastTrack](enterprise-mobility-fasttrack-program.md)
 ## [FastTrack Benefit per EMS](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md)
 ## [Processo di FastTrack Benefit per EMS](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)
@@ -24,7 +22,7 @@
 # [Guida alla progettazione della gestione di dispositivi mobili](mdm-design-considerations-guide.md)
 ## [Passaggio 1: Identificare i requisiti](mdm-step-1-identify-your-mobile-device-management-requirements.md)
 ### [Identificare le esigenze aziendali](mdm-identify-business-needs.md)
-### [Specificare i requisiti di percorso](mdm-specify-mdm-location-requirements.md)
+### [Definizione dei requisiti di percorso](mdm-specify-mdm-location-requirements.md)
 ### [Sviluppare una strategia di adozione](mdm-develop-mdm-adoption-strategy.md)
 ## [Passaggio 2: Pianificare per il software MDM](mdm-step-2-plan-for-mobile-device-management.md)
 ### [Informazioni sul ciclo di vita del software MDM](mdm-understand-mdm-lifecycle.md)
@@ -43,8 +41,8 @@
 ### [Specificare i requisiti di privacy](mdm-specify-privacy-requirements.md)
 ### [Specificare i requisiti di accesso](mdm-specify-your-access-requirements.md)
 ### [Sviluppare i requisiti di risposta agli eventi imprevisti](mdm-develop-incident-response-requirements.md)
-### [Pianificare per la crittografia dei dati](mdm-data-encryption.md)
-### [Pianificare per la separazione dei dati](mdm-data-segregation.md)
+### [Pianificare la crittografia dei dati](mdm-data-encryption.md)
+### [Pianificare la separazione dei dati](mdm-data-segregation.md)
 ### [Protezione avanzata dei dispositivi mobili](mdm-hardening-mobile-devices.md)
 ### [Privacy del client](mdm-client-privacy.md)
 ### [Classificazione dei dati](mdm-data-classification.md)
@@ -75,6 +73,6 @@
 ### [iOS](end-user-experience-conditional-access-ios.md)
 ### [Windows Phone](end-user-experience-conditional-access-winphone.md)
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Apr16_HO4-->
 
 
