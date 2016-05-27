@@ -1,197 +1,180 @@
 ---
 asset_id: 961350ed-a3f1-44f1-b239-b46345b8f620
 layout: HubPage
+
+title: Documentazione di Enterprise Mobility  
+description: Documentazione tecnica di Microsoft Enterprise Mobility  
+keywords: microsoft docs, enterprise mobility documentation, Learn enterprise mobility, enterprise mobility guide, enterprise mobility technical documentation  
+author: msswadhwa  
+manager: swadhwa  
+ms.date: 04/28/2016  
+ms.topic: hubpage  
+ms.prod:   
+ms.service:   
+ms.technology:   
+ms.suite: ems  
+ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620  
+
 ---
 # Documentazione di Microsoft Enterprise Mobility
 <article id="main">
     <section id="hero-content" class="graph">
         <h1>Documentazione di Microsoft Enterprise Mobility</h1>
-        <h2>Grazie ai servizi di Microsoft Enterprise Mobility le organizzazioni possono consentire ai dipendenti di rimanere produttivi usando app e dispositivi, garantendo allo stesso tempo la protezione dei dati aziendali</h2>
-        <!-- <ol id="actions" class="action-list">
-        <li><a href="" class="button button-bordered">Learn More</a></li>
-        </ol> -->
-        <h3>Se la mobilità aziendale è un concetto nuovo <a href="https://www.microsoft.com/server-cloud/enterprise-mobility/overview.aspx" target="_blank">Visitare la pagina di Enterprise Mobility & rarr;</a></h3>
+        <h2>Benvenuti nella documentazione tecnica di Microsoft Enterprise Mobility. Questi articoli consentono di comprendere ed esplorare le soluzioni e i prodotti compresi all'interno di Enterprise Mobility, di acquisire informazioni introduttive ai servizi e di pianificare l'implementazione. Sono disponibili anche contenuti tecnici approfonditi per la distribuzione e l'uso dei servizi, lo sviluppo di applicazioni e la risoluzione dei problemi.</h2>
+        <h3>Per i nuovi utenti di Enterprise Mobility: <a href="https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx" target="_blank">visitare la pagina dedicata a Microsoft Enterprise Mobility &rarr;</a></h3>
     </section>
-
     <aside class="alert section-border">
-        <p>Sign up for a 30-day trial</p>
+        <p>È possibile iscriversi per un periodo di valutazione di 30 giorni di Enterprise Mobility Suite</p>
         <ol class="action-list">
-        <li><a href="https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/ems-trial.aspx" target="_blank" class="button-bordered button-translucent">Free Trial</a></li>
+        <li><a href="https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/ems-trial.aspx" target="_blank" class="button-bordered button-translucent">Versione di valutazione gratuita</a></li>
         </ol>
     </aside>
-
     <section id="featured" class="container">
-        <h2 class="section-heading"><span class="icon icon-lightbulb-checked"></span> Featured Articles</h2>
+        <h2 class="section-heading"><span class="icon icon-lightbulb-checked"></span> Contenuti in primo piano</h2>
         <div class="features row">
-        <ul class="column-half">
-            <li><a href="/em/solutions/fasttrack-center-benefit-for-enterprise-mobility-suite-ems">FastTrack Benefit for EMS</a></li>
-            <li><a href="/intune/understand/introduction-to-microsoft-intune">What is Microsoft Intune?</a></li>
-            <li><a href="/advanced-threat-analytics/understand/what-is-ata">What is Advanced Threat Analytics?</a></li>
-        </ul>
-        <ul class="column-half">
-            <li><a href="/microsoft-identity-manager/understand/microsoft-identity-manager-2016">What is Microsoft Identity Manager?</a></li>
-            <li><a href="/rights-management/understand-explore/what-is-azure-rights-management">What is Azure Right Management Service?</a></li>
-            <li><a href="https://www.microsoft.com/itshowcase/Article/Content/588/Mobile-device-management-at-Microsoft" target="_blank">Mobile device management at Microsoft</a></li>
-        </ul>
+            <ul class="column-half">
+                <li><a href="/enterprise-mobility/solutions/fasttrack-center-benefit-for-enterprise-mobility-suite-ems">FastTrack Benefit per EMS</a></li>
+                <li><a href="/intune/understand-explore/introduction-to-microsoft-intune">Informazioni su Microsoft Intune</a></li>
+                <li><a href="/advanced-threat-analytics/understand-explore/what-is-ata">Informazioni su Advanced Threat Analytics</a></li>
+            </ul>
+            <ul class="column-half">
+                <li><a href="/microsoft-identity-manager/understand-explore/microsoft-identity-manager-2016">Informazioni su Microsoft Identity Manager</a></li>
+                <li><a href="/rights-management/understand-explore/what-is-azure-rms">Informazioni su Microsoft Azure Rights Management</a></li>
+                <li><a href="https://www.microsoft.com/itshowcase/Article/Content/588/Mobile-device-management-at-Microsoft" target="_blank">Gestione dei dispositivi mobili con Microsoft</a></li>
+            </ul>
         </div>
     </section>
-
     <div id="journeys">
         <section class="container">
-        <h2 class="section-heading"><span class="icon icon-inheritance"></span> Solutions &amp; Products</h2>
-        <ul class="journeys-list">
-            <li class="journey-step">
-
-            <header class="journey-step-header expander row">
-                <div class="title column-third">
-                <span class="icon icon-connect"></span>
-                <p>Identity &amp; Access Management</p>
-                </div>
-                <p class="description column-two-thirds">Enterprise-grade identity and access management for nearly any app or device, cloud, or on-premises. Delivers single sign-on, multi-factor authentication, self-service passwords, and more.
-                </p>
-            </header>
-
-            <section class="journey-step-elements content">
-                <ul class="row">
-                <li class="column column-third">
-                    <a href="/active-directory/">
-                    <h3>Azure Active Directory</h3>
-                    <p>Synchronize on-premises directories and enable single sign-on.</p>
-                    <h4>...</h4>
-                    </a>
+            <h2 class="section-heading"><span class="icon icon-inheritance"></span> Soluzioni e prodotti</h2>
+            <ul class="journeys-list">
+                <li class="journey-step">
+                    <header class="journey-step-header row">
+                            <div class="title column-third">
+                                <span class="icon icon-connect"></span>
+                                <p>Gestione degli accessi e delle identità</p>
+                            </div>
+                            <p class="description column-two-thirds">Gestione delle identità e degli accessi di livello aziendale per la maggior parte delle app e dei dispositivi, nel cloud o a livello locale. Offre accesso Single Sign-On, autenticazione a più fattori, password self-service e altro ancora
+                            </p>
+                    </header>
+                    <section class="journey-step-elements content">
+                        <ul class="row">
+                            <li class="column column-third">
+                                <a href="/active-directory/">
+                                <h3>Azure Active Directory</h3>
+                                <p>Sincronizzazione delle directory locali e abilitazione di Single Sign-On.</p>
+                                </a>
+                            </li>
+                            <li class="column column-third">
+                                <a href="/multi-factor-authentication/">
+                                <h3>Multi-Factor Authentication</h3>
+                                <p>Protezione dell'accesso a dati e applicazioni con un livello di autenticazione aggiuntivo.</p>
+                                </a>
+                            </li>
+                            <li class="column column-third">
+                                <a href="/microsoft-identity-manager/">
+                                <h3>Microsoft Identity Manager</h3>
+                                <p>Configurazione della gestione di identità e accessi protetta, flessibile e predisposta per il cloud.</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </section>
                 </li>
-                <li class="column column-third">
-                    <a href="/multi-factor-authentication/">
-                    <h3>Azure Multi-factor Authentication</h3>
-                    <p>Safeguard access to your data and apps with an extra level of auth.</p>
-                    <h4>...</h4>
-                    </a>
+                <li class="journey-step">
+                    <header class="journey-step-header row">
+                            <div class="title column-third">
+                                <span class="icon icon-mobile"></span>
+                                <p>Gestione di applicazioni e dispositivi mobili</p>
+                            </div>
+                            <p class="description column-two-thirds">Soluzione di gestione della mobilità aziendale basata su cloud che consente di controllare l'accesso dei dipendenti alle applicazioni e ai dati aziendali su qualsiasi dispositivo.
+                            </p>
+                    </header>
+                    <section class="journey-step-elements content">
+                        <ul class="row">
+                            <li class="column column-third">
+                                <a href="/intune/">
+                                <h3>Intune</h3>
+                                <p>Gestire e proteggere le applicazioni e i dati aziendali nei dispositivi con le funzionalità MDM e MAM di Intune.</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </section>
                 </li>
-                <li class="column column-third">
-                    <a href="/microsoft-identity-manager/">
-                    <h3>Microsoft Identity Manager</h3>
-                    <p>Configure identity and access management that is secure, flexible, and cloud ready.</p>
-                    <h4>...</h4>
-                    </a>
+                <li class="journey-step">
+                    <header class="journey-step-header row">
+                            <div class="title column-third">
+                                <span class="icon icon-shield"></span>
+                                <p>Protezione delle informazioni e sicurezza</p>
+                            </div>
+                            <p class="description column-two-thirds">Protezione dei dati aziendali grazie a una maggiore sicurezza dell'accesso alle risorse della società e all'abilitazione della condivisione protetta delle informazioni riservate, all'interno e all'esterno dell'organizzazione.
+                            </p>
+                    </header>
+                    <section class="journey-step-elements content">
+                        <ul class="row">
+                            <li class="column column-third">
+                                <a href="/rights-management/">
+                                <h3>Azure Rights Management</h3>
+                                <p>Protezione delle informazioni dall'accesso non autorizzato e controllo del modo in cui vengono usate le informazioni.</p>
+                                </a>
+                            </li>
+                            <li class="column column-third">
+                                <a href="/advanced-threat-analytics/">
+                                <h3>Advanced Threat Analytics</h3>
+                                <p>Identificazione delle violazioni e delle minacce attraverso l'analisi del comportamento e creazione di report con un'intuitiva sequenza temporale degli attacchi.</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </section>
                 </li>
-                </ul>
-            </section>
-
-            </li>
-
-            <li class="journey-step">
-
-            <header class="journey-step-header expander row">
-                <div class="title column-third">
-                <span class="icon icon-mobile"></span>
-                <p>Mobile Device &amp; Application Management</p>
-                </div>
-                <p class="description column-two-thirds">Cloud-based enterprise mobility management that helps you control employee access to corporate applications and data on virtually any device.
-                </p>
-            </header>
-
-            <section class="journey-step-elements content">
-                <ul class="row">
-                <li class="column column-third">
-                    <a href="/intune/">
-                    <h3>Intune</h3>
-                    <p>Manage &amp; protect corporate apps &amp; data on devices using Intune's MDM &amp; MAM capabilities.</p>
-                    <h4>...</h4>
-                    </a>
+                <li class="journey-step">
+                    <header class="journey-step-header row">
+                        <div class="title column-third">
+                        <span class="icon icon-desktops"></span>
+                        <p>Virtualizzazione desktop</p>
+                        </div>
+                        <p class="description column-two-thirds">Applicazioni in streaming dal centro dati o dal cloud, per garantire la produttività degli utenti e una maggiore protezione dei dati ovunque e in qualsiasi dispositivo.
+                        </p>
+                    </header>
+                    <section class="journey-step-elements content">
+                        <ul class="row">
+                        <li class="column column-third">
+                            <a href="/remoteapp/">
+                            <h3>Azure RemoteApp</h3>
+                            <p>Distribuzione delle applicazioni cloud di Windows nel cloud ed esecuzione in qualsiasi dispositivo.</p>
+                            </a>
+                        </li>
+                        </ul>
+                    </section>
                 </li>
-                </ul>
-            </section>
-
-            </li>
-
-            <li class="journey-step">
-
-            <header class="journey-step-header expander row">
-                <div class="title column-third">
-                <span class="icon icon-shield"></span>
-                <p>Information Protection &amp; Security</p>
-                </div>
-                <p class="description column-two-thirds">Protect corporate data by allowing more secure access to company resources and enabling safe sharing of sensitive information inside and outside your organization.
-                </p>
-            </header>
-
-            <section class="journey-step-elements content">
-                <ul class="row">
-                <li class="column column-third">
-                    <a href="/rights-management/">
-                    <h3>Azure Rights Management</h3>
-                    <p>Protect your information from unauthorized access, and control how information is used.</p>
-                    <h4>...</h4>
-                    </a>
-                </li>
-                <li class="column column-third">
-                    <a href="/advanced-threat-analytics/">
-                    <h3>Advanced Thread Analytics</h3>
-                    <p>Identify breaches &amp; threats using behavioral analysis, and create reports on an attack timeline.</p>
-                    <h4>...</h4>
-                    </a>
-                </li>
-                </ul>
-            </section>
-
-            </li>
-
-            <li class="journey-step">
-
-            <header class="journey-step-header expander row">
-                <div class="title column-third">
-                <span class="icon icon-desktops"></span>
-                <p>Desktop Virtualization</p>
-                </div>
-                <p class="description column-two-thirds">Stream applications from your datacenter or the cloud to keep users productive anywhere, on any device, and your data more secure.
-                </p>
-            </header>
-
-            <section class="journey-step-elements content">
-                <ul class="row">
-                <li class="column column-third">
-                    <a href="/remoteapp/">
-                    <h3>Azure RemoteApp</h3>
-                    <p>Deploy Windows cloud apps in the cloud and run them on any device.</p>
-                    <h4>...</h4>
-                    </a>
-                </li>
-                </ul>
-            </section>
-
-            </li>
-            
-        </ul>
+            </ul>
         </section>
     </div>
-
     <div class="section-border">
         <section class="resources container">
-        <h2 class="section-heading"><span class="icon icon-note"></span> Scenarios &amp; Guides</h2>
-        <div class="resource-list row">
-            <ul class="column-half">
-            <li><a href="/em/solutions/mdm-design-considerations-guide">Mobile Device Management Design Considerations Guide</a></li>
-            <li><a href="/em/solutions/byod-design-considerations-guide">BYOD Design Considerations Guide</a></li>
-            <li><a href="/active-directory/active-directory-hybrid-identity-design-considerations-overview">Hybrid Identity Design Considerations Guide</a></li>
-            </ul>
-            <ul class="column-half">
-            <li><a href="/em/solutions/conditional-access-intune.md">Conditional access with Intune</a></li>
-            <li><a href="/em/solutions/architecture-guidance-for-protecting-company-email-and-documents">Protect Company Email and Documents</a></li>
-            <li><a href="/em/solutions/scenarios-guides">Learn more about scenarios and guides</a></li>
-            </ul>
-        </div>
+            <h2 class="section-heading"><span class="icon icon-note"></span> Scenari e guide</h2>
+            <div class="resource-list row">
+                <ul class="column-half">
+                    <li><a href="./solutions/mdm-design-considerations-guide.md">Guida alle considerazioni sulla progettazione per la gestione dei dispositivi mobili</a></li>
+                    <li><a href="./solutions/byod-design-considerations-guide.md">Guida alle considerazioni di progettazione per BYOD</a></li>
+                    <li><a href="/active-directory/active-directory-hybrid-identity-design-considerations-overview">Guida alle considerazioni di progettazione per le identità ibride</a></li>
+                </ul>
+                <ul class="column-half">
+                    <li><a href="./solutions/conditional-access-intune.md">Usare l'accesso condizionale con Microsoft Intune</a></li>
+                    <li><a href="./solutions/architecture-guidance-for-protecting-company-email-and-documents.md">Indicazioni sull'architettura per la protezione di documenti e messaggi di posta elettronica aziendali</a></li>
+                </ul>
+            </div>
         </section>
     </div>
-
     <aside class="alert alert-social">
-        <p>Keep up with the latest news</p>
+        <p>Ultime notizie</p>
         <ol class="action-list">
-        <li><a href="https://blogs.technet.microsoft.com/in_the_cloud/" target="_blank" class="button-bordered button-translucent">In The Cloud Blog</a></li>
+            <li><a href="https://blogs.technet.microsoft.com/enterprisemobility/" target="_blank" class="button-bordered button-translucent">Blog di Enterprise Mobility</a></li>
+            <li><a href="https://blogs.technet.microsoft.com/in_the_cloud/" target="_blank" class="button-bordered button-translucent">Blog di In The Cloud</a></li>
         </ol>
     </aside>
 </article>
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=May16_HO3-->
 
 
