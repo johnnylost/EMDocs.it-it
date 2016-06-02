@@ -4,9 +4,9 @@
 title: Opzioni di gestione dei certificati
 description:
 keywords:
-author: robmazz
+author: andredm7
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
 ms.prod:
 ms.service:
@@ -89,6 +89,6 @@ Gli elenchi che seguono sono utili per comprendere i vantaggi e gli svantaggi de
 
 Per altre informazioni sulle opzioni di gestione dei certificati per dispositivi mobili, leggere la procedura per [abilitare i profili dei certificati](/Intune/deployuse/secure-resource-access-with-certificate-profiles) in Intune e confrontare questi requisiti e procedure con l'[abilitazione dei profili dei certificati](https://technet.microsoft.com/library/dn261202.aspx) in System Center 2012 R2 Configuration Manager.
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Jun16_HO1-->
 
 

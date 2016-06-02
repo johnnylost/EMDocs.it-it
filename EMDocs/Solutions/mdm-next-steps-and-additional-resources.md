@@ -4,9 +4,9 @@
 title: Passaggi successivi e risorse aggiuntive
 description:
 keywords:
-author: robmazz
+author: andredm7
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
 ms.prod:
 ms.service:
@@ -61,6 +61,6 @@ Il monitoraggio delle risorse seguenti fornisce le informazioni e gli aggiorname
 - [Blog](http://blogs.office.com/office365forbusiness/) di Microsoft Office 365
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Jun16_HO1-->
 
 
