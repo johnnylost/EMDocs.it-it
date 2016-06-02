@@ -1,11 +1,39 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 0
+ Total Files | 2
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [EMDocs\Solutions\mdm-certificate-management-options.md](https://github.com/Microsoft/EMDocs-pr/blob/73c37109735567642ff1dc11f9729e3ab3affd3b/EMDocs/Solutions/mdm-certificate-management-options.md) | InSyncHandedBackSuccess | [Details](#d00421d4d27d8d8ed5efd29a82ccb9b115802611103)
+ [EMDocs\Solutions\mdm-next-steps-and-additional-resources.md](https://github.com/Microsoft/EMDocs-pr/blob/73c37109735567642ff1dc11f9729e3ab3affd3b/EMDocs/Solutions/mdm-next-steps-and-additional-resources.md) | InSyncHandedBackSuccess | [Details](#453de29d00e5fef9ac210059ea62e07f16f4998a126)
 
 ## Item Details
+##### <a name='d00421d4d27d8d8ed5efd29a82ccb9b115802611103'></a> Source: [EMDocs\Solutions\mdm-certificate-management-options.md](https://github.com/Microsoft/EMDocs-pr/blob/73c37109735567642ff1dc11f9729e3ab3affd3b/EMDocs/Solutions/mdm-certificate-management-options.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [EMDocs\Solutions\mdm-certificate-management-options.md](https://github.com/Microsoft/EMDocs-pr.it-it/blob/be1f491e26c00ee0a0efbd82f59e87972b89b3db/EMDocs/Solutions/mdm-certificate-management-options.md)
+* Handoff File: [mdm-certificate-management-options.a289bfb09276cc8fbd4966774a1969355a83afea.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/9cf87a147b045553d416d09b5bc09438f05b9041/ol-handoff/Microsoft/EMDocs-pr.it-it/master/mdm-certificate-management-options.a289bfb09276cc8fbd4966774a1969355a83afea.it-it.xlf)
+* Handoff Datetime: 2016-06-01 22:45:38
+* Handoff Reason: Include
+* Archive File: [mdm-certificate-management-options.a289bfb09276cc8fbd4966774a1969355a83afea.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/645e301137d272ebfbe0fa4dccf16ecb2f33e3f2/ol-handoff/Microsoft/EMDocs-pr.it-it/master/archive/mdm-certificate-management-options.a289bfb09276cc8fbd4966774a1969355a83afea.it-it.xlf)
+* Archive Datetime: 2016-06-02 00:23:04
+* Handback File: [mdm-certificate-management-options.a289bfb09276cc8fbd4966774a1969355a83afea.it-it.xlf](https://github.com/Microsoft/EM.handback/blob/d8447b6a9638cca0ff34d6c3129e04b1c12b3eb2/ol-handback/Microsoft/EMDocs-pr.it-it/master/mdm-certificate-management-options.a289bfb09276cc8fbd4966774a1969355a83afea.it-it.xlf)
+* Handback Datetime: 2016-06-02 23:07:59
+* [Back to Top](#report-top)
+
+##### <a name='453de29d00e5fef9ac210059ea62e07f16f4998a126'></a> Source: [EMDocs\Solutions\mdm-next-steps-and-additional-resources.md](https://github.com/Microsoft/EMDocs-pr/blob/73c37109735567642ff1dc11f9729e3ab3affd3b/EMDocs/Solutions/mdm-next-steps-and-additional-resources.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [EMDocs\Solutions\mdm-next-steps-and-additional-resources.md](https://github.com/Microsoft/EMDocs-pr.it-it/blob/be1f491e26c00ee0a0efbd82f59e87972b89b3db/EMDocs/Solutions/mdm-next-steps-and-additional-resources.md)
+* Handoff File: [mdm-next-steps-and-additional-resources.92e9864926bf22f2c192196d17315f0d519a3d34.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/9cf87a147b045553d416d09b5bc09438f05b9041/ol-handoff/Microsoft/EMDocs-pr.it-it/master/mdm-next-steps-and-additional-resources.92e9864926bf22f2c192196d17315f0d519a3d34.it-it.xlf)
+* Handoff Datetime: 2016-06-01 22:45:38
+* Handoff Reason: Include
+* Archive File: [mdm-next-steps-and-additional-resources.92e9864926bf22f2c192196d17315f0d519a3d34.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/645e301137d272ebfbe0fa4dccf16ecb2f33e3f2/ol-handoff/Microsoft/EMDocs-pr.it-it/master/archive/mdm-next-steps-and-additional-resources.92e9864926bf22f2c192196d17315f0d519a3d34.it-it.xlf)
+* Archive Datetime: 2016-06-02 00:23:04
+* Handback File: [mdm-next-steps-and-additional-resources.92e9864926bf22f2c192196d17315f0d519a3d34.it-it.xlf](https://github.com/Microsoft/EM.handback/blob/d8447b6a9638cca0ff34d6c3129e04b1c12b3eb2/ol-handback/Microsoft/EMDocs-pr.it-it/master/mdm-next-steps-and-additional-resources.92e9864926bf22f2c192196d17315f0d519a3d34.it-it.xlf)
+* Handback Datetime: 2016-06-02 23:07:59
+* [Back to Top](#report-top)
+
 
 ## Error Details
 
