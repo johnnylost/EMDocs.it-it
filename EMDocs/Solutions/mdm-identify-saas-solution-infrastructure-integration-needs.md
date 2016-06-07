@@ -4,9 +4,9 @@
 title: Identificare i requisiti di integrazione dell'infrastruttura della soluzione SaaS
 description:
 keywords:
-author: robmazz
+author: andredm7
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
 ms.prod:
 ms.service:
@@ -41,7 +41,7 @@ Le decisioni prese in queste due aree avranno un impatto notevole sulla distribu
 
 La connessione e la sincronizzazione della directory locale degli account di utenti e dispositivi con la soluzione SaaS sono passaggi fondamentali che consentono realmente di connettere gli utenti, i dispositivi mobili, le applicazioni mobili e la gestione dei dispositivi mobili. Conoscere l'identità di un utente e poterla associare a specifici dispositivi mobili è essenziale per gestire l'accesso alle risorse e ai dati aziendali dal dispositivo mobile. Per molti versi, l'ottimizzazione della modalità di connessione di queste aree con la soluzione SaaS determina il vantaggio complessivo per l'organizzazione e per gli utenti di dispositivi mobili.  La connettività universale consente a utenti e dispositivi di usare dispositivi e applicazioni da postazioni remote ed è essenziale che la gestione delle identità utente soddisfi le esigenze di questo tipo di connettività. È importante sottolineare che la modalità di gestione delle identità e dell'autenticazione utente è fondamentale per il successo della soluzione di gestione dei dispositivi mobili.
 
-La sincronizzazione dei servizi della directory locale alla soluzione SaaS è un'altra area chiave da considerare quando si definisce la strategia di gestione dei dispositivi mobili. Molte organizzazioni preferiscono mantenere un'infrastruttura di directory locale di utenti e dispositivi, ma devono estendere gli account a vari servizi basati su cloud. Tali servizi possono includere solo una soluzione di gestione dei dispositivi mobili basata su SaaS, ma nella maggior parte dei casi le organizzazioni devono integrare gli account di utenti e dispositivi in diversi tipi di servizi basati su cloud. Può trattarsi di applicazioni, dati o servizi Web di terze parti basati su cloud. Mantenere sincronizzati gli account di utenti e dispositivi della directory è la base di una soluzione di gestione delle identità ben progettata. Dopo aver integrato la directory locale con la directory cloud, è inoltre possibile abilitare Single Sign-On (SSO) per consentire agli utenti di accedere a tutti i servizi tramite le credenziali locali. Entrambi <token>Intune</token> e Office 365 possono usare l'integrazione per abilitare Single Sign-On con le app SaaS che l'organizzazione potrebbe usare.
+La sincronizzazione dei servizi della directory locale alla soluzione SaaS è un'altra area chiave da considerare quando si definisce la strategia di gestione dei dispositivi mobili. Molte organizzazioni preferiscono mantenere un'infrastruttura di directory locale di utenti e dispositivi, ma devono estendere gli account a vari servizi basati su cloud. Tali servizi possono includere solo una soluzione di gestione dei dispositivi mobili basata su SaaS, ma nella maggior parte dei casi le organizzazioni devono integrare gli account di utenti e dispositivi in diversi tipi di servizi basati su cloud. Può trattarsi di applicazioni, dati o servizi Web di terze parti basati su cloud. Mantenere sincronizzati gli account di utenti e dispositivi della directory è la base di una soluzione di gestione delle identità ben progettata. Dopo aver integrato la directory locale con la directory cloud, è inoltre possibile abilitare Single Sign-On (SSO) per consentire agli utenti di accedere a tutti i servizi tramite le credenziali locali. <token>Intune</token> e Office 365 possono usare l'integrazione per abilitare Single Sign-On (SSO) con le app SaaS che l'organizzazione potrebbe usare.
 
 ### Domande su identità e connettività alla directory
 
@@ -83,6 +83,6 @@ Come parte della pianificazione del ciclo di vita della gestione SaaS, è necess
 >[!TIP]
 >Assicurarsi di prendere appunti per ogni risposta e di comprendere la logica alla base della risposta. Le attività successive esamineranno le opzioni disponibili e i vantaggi e svantaggi di ogni opzione.  Rispondere a queste domande consentirà di selezionare l'opzione più adatta alle esigenze aziendali.
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Jun16_HO1-->
 
 

@@ -4,9 +4,9 @@
 title: Opzioni di gestione della connettività di rete
 description:
 keywords:
-author: robmazz
+author: andredm7
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
 ms.prod:
 ms.service:
@@ -36,7 +36,7 @@ Usando [Intune](/Intune/deployuse/wi-fi-connections-in-microsoft-intune) o una [
 
 [Intune](/Intune/deployuse/vpn-connections-in-microsoft-intune) e [Configuration Manager](https://technet.microsoft.com/library/dn261217.aspx) possono anche distribuire profili VPN direttamente ai dispositivi mobili, per consentire agli utenti di accedere alle risorse aziendali interne senza ulteriori operazioni di configurazione o interventi manuali. Intune è anche in grado di configurare i dispositivi mobili per avviare automaticamente una connessione VPN in base al tipo di risorsa o al metodo di accesso. Tenere presente, tuttavia, che i requisiti di configurazione sono diversi per l'esecuzione di questa operazione per diversi tipi di sistemi operativi per dispositivi mobili.
 
-Le risposte alle domande nell'attività 3 aiutano a decidere in che modo si desidera gestire i dispositivi da connettere alle risorse aziendali. Tenere presente che attualmente <token>Gestione dei dispositivi mobili per Office 365</token> non supporta la gestione delle risorse di rete wireless e VPN per i dispositivi mobili.
+Le risposte alle domande nell'attività 3 aiutano a decidere in che modo si desidera gestire i dispositivi da connettere alle risorse aziendali. Tenere presente che attualmente <token>MDM per Office 365</token> non supporta la gestione delle risorse di rete wireless e VPN per i dispositivi mobili.
 
 Gli elenchi che seguono descrivono i vantaggi e gli svantaggi della gestione delle reti wireless e VPN usando Intune autonomo e Intune ibrido con Configuration Manager.
 
@@ -77,6 +77,6 @@ Esaminare i dettagli sulle opzioni di gestione della configurazione della posta 
 - Intune: abilitare i profili [wireless](/Intune/deployuse/wi-fi-connections-in-microsoft-intune) e [VPN](/Intune/deployuse/vpn-connections-in-microsoft-intune)
 - Configuration Manager: abilitare i profili [wireless](https://technet.microsoft.com/library/dn261221.aspx) e [VPN](https://technet.microsoft.com/library/dn261217.aspx)
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Jun16_HO1-->
 
 

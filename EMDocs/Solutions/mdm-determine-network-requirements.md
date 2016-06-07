@@ -4,9 +4,9 @@
 title: Determinare i requisiti di rete
 description:
 keywords:
-author: robmazz
+author: andredm7
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
 ms.prod:
 ms.service:
@@ -30,7 +30,7 @@ ms.suite: ems
 >[!NOTE]
 >Questo argomento fa parte di una guida più ampia dedicata alle considerazioni di progettazione. Per leggere la guida dall'inizio, vedere l'[argomento principale](mdm-design-considerations-guide.md). Per scaricare una copia della versione integrale della guida, visitare la raccolta [TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
-Garantire l'accesso sicuro e gestito a un'ampia gamma di risorse aziendali dai dispositivi mobili è un'importante funzione di una soluzione di gestione dei dispositivi mobili. Sebbene queste risorse si trovino solitamente sulle reti locali, è ora più comune ospitare le risorse anche su servizi Web basati sul cloud e su reti esterne.</para><para>Il modo in cui i dispositivi mobili si connettono alle piattaforme di posta elettronica, alle reti private virtuali (VPN) e alle reti wireless (Wi-Fi) aziendali gioca un ruolo importante per la prevenzione dell'accesso non autorizzato ai dati e alle altre risorse aziendali. È ugualmente importante fare in modo che l'accesso a queste risorse sia semplice e pratico per gli utenti di dispositivi mobili, per evitare che gli utenti cerchino un metodo più pratico ma non sicuro per l'archiviazione o l'accesso alle risorse.</para></content>
+Garantire l'accesso sicuro e gestito a un'ampia gamma di risorse aziendali dai dispositivi mobili è un'importante funzione di una soluzione di gestione dei dispositivi mobili. Sebbene queste risorse si trovino solitamente su reti locali, è ora comune ospitare le risorse anche su servizi Web basati sul cloud e reti esterne.</para><para>La modalità di connessione dei dispositivi mobili alle piattaforme di posta elettronica aziendali, alle reti private virtuali (VPN) e alle reti wireless (Wi-Fi) aziendali svolge un ruolo importante nella prevenzione dell'accesso non autorizzato ai dati e ad altre risorse aziendali. È ugualmente importante fare in modo che l'accesso a queste risorse sia semplice e pratico per gli utenti di dispositivi mobili, per evitare che gli utenti cerchino un metodo più pratico ma non sicuro per l'archiviazione o l'accesso alle risorse.</para></content>
 
 
 ## Gestione della posta elettronica
@@ -94,7 +94,7 @@ Rispondere alle domande seguenti relative alla pianificazione della gestione del
 
 ## Gestione dei certificati
 
-È possibile usare i certificati digitali, autofirmati o emessi da un'autorità di certificazione (CA) di terze parti, per autenticare i dispositivi mobili per le connessioni di rete o per risorse di rete specifiche. Per semplificare la gestione dei certificati digitali, gli amministratori solitamente gestiscono tali certificati usando i profili dei certificati. Questo consente un metodo uniforme e centralizzato per la gestione dei certificati, tra cui il metodo di creazione, rilascio e rinnovo. Questo aiuta anche gli utenti a connettersi alla risorsa aziendale senza dover richiedere e installare i certificati manualmente o mediante un processo di sicurezza non approvato.</para><para>Tuttavia, l'uso dei certificati per questo tipo di autenticazione spesso richiede requisiti dell'infrastruttura locale aggiuntivi, che potrebbero comprendere tutti o alcuni dei componenti di rete seguenti, a seconda del livello di integrazione supportato dalla soluzione di gestione dei dispositivi mobili:
+È possibile usare i certificati digitali, autofirmati o emessi da un'autorità di certificazione (CA) di terze parti, per autenticare i dispositivi mobili per le connessioni di rete o per risorse di rete specifiche. Per semplificare la gestione dei certificati digitali, gli amministratori solitamente gestiscono tali certificati usando i profili dei certificati. Questo consente un metodo uniforme e centralizzato per la gestione dei certificati, tra cui il metodo di creazione, rilascio e rinnovo. Ciò consente anche agli utenti di connettersi alla risorsa aziendale senza dover richiedere e installare i certificati manualmente o tramite un processo di sicurezza non approvato.</para><para>Tuttavia, l'uso di certificati per questo tipo di autenticazione richiede spesso requisiti dell'infrastruttura aziendali aggiuntivi. che potrebbero comprendere tutti o alcuni dei componenti di rete seguenti, a seconda del livello di integrazione supportato dalla soluzione di gestione dei dispositivi mobili:
 
 - **Servizi directory:** i servizi come, ad esempio, Microsoft Active Directory in genere sono necessari per connettere e gestire in modo sicuro tutti gli altri componenti della rete.
 - **Server dell'autorità di certificazione (CA):** se si rilasciano certificati autofirmati per l'organizzazione, è necessaria un'autorità di certificazione per creare, rilasciare, gestire e rinnovare i certificati digitali.
@@ -115,6 +115,6 @@ Rispondere alle domande seguenti relative alla pianificazione della gestione dei
 >[!TIP]
 >Assicurarsi di prendere appunti per ogni risposta e di comprendere la logica alla base della risposta. Le attività successive esamineranno le opzioni disponibili e i vantaggi e svantaggi di ogni opzione.  Rispondere a queste domande consentirà di selezionare l'opzione più adatta alle esigenze aziendali.
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Jun16_HO1-->
 
 

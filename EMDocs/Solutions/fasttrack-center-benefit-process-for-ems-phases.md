@@ -28,7 +28,7 @@ ms.suite: ems
 # Processo FastTrack Center Benefit per Enterprise Mobility Suite: fasi
 Quando si usa [FastTrack Center Benefit per Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) per ottenere Azure Active Directory Premium, Microsoft Intune e/o Azure Rights Management pronti all'uso, sono implicate nel processo varie fasi. Le sezioni seguenti descrivono ogni fase del processo di caricamento.
 
-Per altre informazioni sul processo di caricamento FastTrack, vedere [Processo FastTrack Center Benefit per Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)..
+Per altre informazioni sul processo di caricamento FastTrack, vedere [Processo FastTrack Center Benefit per Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
 
 
 Il processo di caricamento è costituito da quattro fasi principali, come illustrato nella figura seguente:
@@ -83,7 +83,7 @@ L'installazione di Azure Active Directory Premium include l'abilitazione delle f
 
 -   Azure Multi-Factor Authentication (MFA)
 
--   Applicazione software come un servizio (SaaS): configurazione di un'applicazione SaaS da [Azure Active Directory Marketplace](https://azure.microsoft.com/marketplace/active-directory/)..
+-   Applicazione software come un servizio (SaaS): configurazione di un'applicazione SaaS da [Azure Active Directory Marketplace](https://azure.microsoft.com/marketplace/active-directory/).
 
 -   Gestione di gruppi self-service (SSGM)
 
@@ -107,8 +107,7 @@ In base alle esigenze di gestione dei dispositivi mobili e delle applicazioni mo
 
     -   Se è presente un'implementazione esistente di System Center Configuration Manager e si vogliono espandere le funzionalità di gestione con Microsoft Intune, impostare Configuration Manager come autorità MDM.
 
-        > [!NOTE]
-        > Per usare Gestione di applicazioni mobili solo nei dispositivi di proprietà degli utenti finali, nei dispositivi condivisi o nei dispositivi di tipo chiosco multimediale, la configurazione di un'autorità MDM non è necessaria.
+        > [!NOTE] Per usare Gestione di applicazioni mobili solo nei dispositivi di proprietà degli utenti finali, nei dispositivi condivisi o nei dispositivi di tipo chiosco multimediale, la configurazione di un'autorità MDM non è necessaria.
 
 -   Se Gestione di dispositivi mobili rientra nel proprio ambito, verranno fornite istruzioni su:
 
@@ -120,7 +119,7 @@ In base alle esigenze di gestione dei dispositivi mobili e delle applicazioni mo
 
         -   Criteri di accesso condizionale.
 
-        -   Distribuzione dei profili di posta elettronica.
+        -   Distribuzione di profili di posta elettronica, Wi-Fi e VPN.
 
         -   Configurazione di Microsoft Intune Exchange Connector, quando applicabile.
 
@@ -171,6 +170,6 @@ Vedere [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/
 
 
 
-<!--HONumber=Apr16_HO5-->
+<!--HONumber=May16_HO4-->
 
 

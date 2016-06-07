@@ -4,9 +4,9 @@
 title: Guida alle considerazioni sulla progettazione per la gestione dei dispositivi mobili
 description:
 keywords:
-author: robmazz
+author: andredm7
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
 ms.prod:
 ms.service:
@@ -43,8 +43,8 @@ In particolare, questa guida consente dir rispondere alle domande seguenti:
 
 **Finalità della guida.** Questa guida è utile per comprendere come progettare una soluzione di gestione dei dispositivi mobili in grado di gestire i dispositivi di proprietà dell'azienda e i dispositivi personali degli utenti in diversi fattori di forma.
 
-![Esempio di soluzione MDM ibrida con Intune e System Center Configuration Manager](./media/MDM_Figure_01.png)
-**Esempio di soluzione MDM ibrida con Intune e System Center Configuration Manager**
+![Esempio di una soluzione MDM ibrida con Intune e System Center Configuration Manager](./media/MDM_Figure_01.png)
+**Esempio di una soluzione MDM ibrida con Intune e System Center Configuration Manager**
 
 La figura precedente illustra un esempio di soluzione di gestione ibrida, che usa i servizi cloud per l'integrazione con funzionalità locali allo scopo di gestire tutti i tipi di dispositivi, indipendentemente dalla loro posizione. Sebbene si tratti di uno scenario molto comune, la progettazione di gestione dei dispositivi mobili di ogni organizzazione potrebbe essere diversa dall'esempio per via dei requisiti di gestione specifici di ogni organizzazione.
  
@@ -69,6 +69,6 @@ Per sviluppare una progettazione per la gestione dei dispositivi mobili adatta a
 È possibile scaricare una copia della versione integrale della guida dalla raccolta [TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Jun16_HO1-->
 
 

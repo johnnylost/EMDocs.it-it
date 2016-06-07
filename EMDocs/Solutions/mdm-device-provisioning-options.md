@@ -4,9 +4,9 @@
 title: Opzioni di provisioning dei dispositivi
 description:
 keywords:
-author: robmazz
+author: andredm7
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
 ms.prod:
 ms.service:
@@ -87,6 +87,6 @@ In base alle risposte date alle domande del passaggio 1, l'utente dovrebbe esser
 
 Per altre informazioni sulle opzioni di registrazione e provisioning dei dispositivi mobili, assicurarsi di esaminare le procedure di [attivazione delle registrazioni dei dispositivi mobili](/Intune/deployuse/enroll-devices-in-microsoft-intune) in Intune e di confrontare requisiti e procedure per [attivare le registrazioni dei dispositivi mobili](https://technet.microsoft.com/library/jj884158.aspx) in Configuration Manager e MDM per Office 365.
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Jun16_HO1-->
 
 
