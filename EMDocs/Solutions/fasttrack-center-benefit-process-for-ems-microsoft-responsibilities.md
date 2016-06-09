@@ -4,8 +4,8 @@
 title: Processo FastTrack Center Benefit per Enterprise Mobility Suite: responsabilità di Microsoft
 description:
 keywords:
-author: 
-manager: swadhwa
+author: staciebarker
+manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod:
@@ -28,7 +28,7 @@ ms.suite: ems
 # Processo FastTrack Center Benefit per Enterprise Mobility Suite: responsabilità di Microsoft
 Le sezioni seguenti spiegano le responsabilità di Microsoft se si usa [FastTrack Center Benefit per Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) per ottenere Azure Active Directory Premium, Microsoft Intune e/o Azure Rights Management pronti all'uso.
 
-Per altre informazioni sul processo di caricamento FastTrack, vedere [Processo FastTrack Center Benefit per Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)..
+Per altre informazioni sul processo di caricamento FastTrack, vedere [Processo FastTrack Center Benefit per Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
 
 
 ## Generale
@@ -86,13 +86,11 @@ Fornire indicazioni su:
 
     -   Configurazione della sincronizzazione delle password (hash della password) in Microsoft Intune (Azure Active Directory) con lo strumento Azure Active Directory Connect.
 
-        > [!NOTE]
-        > Sviluppo e implementazione per estensioni di regole personalizzate non rientrano nell'ambito.
+        > [!NOTE] Sviluppo e implementazione di estensioni di regole personalizzate sono esterni all'ambito.
 
 -   Per una singola foresta se la destinazione sono le identità federate: installazione e configurazione di Active Directory Federation Services (AD FS) per l'autenticazione di domini locali con Microsoft Intune in un solo sito e configurazione a tolleranza di errore, se necessario.
 
-    > [!NOTE]
-    > Per tutte le configurazioni di più foreste, le distribuzioni di AD FS non rientrano nell'ambito.
+    > [!NOTE] Per tutte le configurazioni a più foreste, le distribuzioni di AD FS sono esterne all'ambito.
 
 -   Test della funzionalità SSO (Single Sign-On) se distribuita.
 
@@ -246,6 +244,6 @@ Vedere [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/
 
 
 
-<!--HONumber=Apr16_HO4-->
+<!--HONumber=Jun16_HO1-->
 
 

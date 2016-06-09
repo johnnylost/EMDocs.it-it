@@ -30,8 +30,18 @@ ms.suite: ems
 >[!NOTE]
 >Questo argomento fa parte di una guida più ampia dedicata alle considerazioni di progettazione. Per leggere la guida dall'inizio, vedere l'[argomento principale](mdm-design-considerations-guide.md). Per scaricare una copia della versione integrale della guida, visitare la raccolta [TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
-Ogni società dispone di requisiti diversi. Anche se le società appartengono allo stesso settore, i requisiti aziendali effettivi possono variare. È possibile sfruttare le procedure consigliate del settore, ma in definitiva sono le esigenze aziendali che identificano i requisiti della soluzione più adatta per la gestione dei dispositivi mobili. 
-Per identificare più facilmente le esigenze aziendali, rispondere alle domande seguenti:
+Ogni società dispone di requisiti diversi. Anche se le società appartengono allo stesso settore, i requisiti aziendali effettivi possono variare. È possibile sfruttare le procedure consigliate del settore, ma in definitiva sono le esigenze aziendali che identificano i requisiti della soluzione più adatta per la gestione dei dispositivi mobili. Per identificare più facilmente le esigenze aziendali, rispondere alle domande seguenti:
+
+- **Utenti:** uno degli elementi fondamentali dell'adozione della mobilità consiste nel mettere l'utente al centro della soluzione di mobilità e consentirgli di essere più produttivo, assicurando allo stesso tempo la protezione e la disponibilità dei dati della società. Questo è importante per comprendere quali sono i requisiti dell'utente.
+    - L'utente sarà in grado di portare il proprio dispositivo e accedere alle risorse della società?
+        - In caso affermativo, quali sono i requisiti per accedere alle risorse della società?
+    - La società ha esigenze diverse per gli utenti?
+        - In caso affermativo, in che modo il profilo di ciascun utente avrà un impatto sulla strategia di mobilità?
+    - Gli utenti saranno in grado di accedere tramite il dispositivo mobile a tutte le app a cui hanno accesso nell'ambiente locale?
+        - In caso contrario, quali app saranno disponibili per gli utenti?
+            - Queste app sono disponibili per tutte le piattaforme per dispositivi mobili supportate?
+            - Sarà necessario modificare o aggiornare eventuali app per eseguirle su tutte le piattaforme per dispositivi mobili supportate?
+    - Gli utenti hanno solo bisogno di accesso di base alle funzionalità di posta elettronica (inclusi calendario, contatti e attività)?
 
 - **Proprietà dei dispositivi:** è necessario comprendere i criteri di proprietà dei dispositivi per la società.
     - Chi è proprietario del dispositivo mobile? 
@@ -69,24 +79,14 @@ Per identificare più facilmente le esigenze aziendali, rispondere alle domande 
     - Le app funzionano in una rete a bassa latenza? 
     - Le app forniscono le funzionalità di autenticazione?
         - In tal caso, quale metodo di autenticazione usano le app?
-- **Utenti:** uno degli elementi fondamentali dell'adozione della mobilità consiste nel mettere l'utente al centro della soluzione di mobilità e consentirgli di essere più produttivo, assicurando allo stesso tempo la protezione e la disponibilità dei dati della società. Questo è importante per comprendere quali sono i requisiti dell'utente.
-    - L'utente sarà in grado di portare il proprio dispositivo e accedere alle risorse della società?
-        - In caso affermativo, quali sono i requisiti per accedere alle risorse della società?
-    - La società ha esigenze diverse per gli utenti?
-        - In caso affermativo, in che modo il profilo di ciascun utente avrà un impatto sulla strategia di mobilità?
-    - Gli utenti saranno in grado di accedere tramite il dispositivo mobile a tutte le app a cui hanno accesso nell'ambiente locale?
-        - In caso contrario, quali app saranno disponibili per gli utenti?
-            - Queste app sono disponibili per tutte le piattaforme per dispositivi mobili supportate?
-            - Sarà necessario modificare o aggiornare eventuali app per eseguirle su tutte le piattaforme per dispositivi mobili supportate?
-    - Gli utenti hanno solo bisogno di accesso di base alle funzionalità di posta elettronica (inclusi calendario, contatti e attività)?
 
 Durante questa attività, è anche necessario valutare se la società dispone di criteri di gestione e conformità esistenti per dispositivi mobili e in che modo questi criteri possono influire sulla scelta della soluzione di gestione dei dispositivi mobili.
 
->[!TIP] Assicurarsi di annotare ogni risposta e di comprendere la logica alla base della risposta. La sezione successiva esaminerà le opzioni disponibili e i vantaggi e svantaggi di ogni opzione.  Avendo risposto a queste domande, sarà possibile selezionare la soluzione più adatta a soddisfare le esigenze aziendali.
+>[!TIP] Assicurarsi di prendere appunti per ogni risposta e di comprendere la logica alla base della risposta. La sezione successiva esaminerà le opzioni disponibili e i vantaggi e svantaggi di ogni opzione.  Avendo risposto a queste domande, sarà possibile selezionare la soluzione più adatta a soddisfare le esigenze aziendali.
 
 
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Jun16_HO1-->
 
 

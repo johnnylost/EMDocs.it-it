@@ -4,8 +4,8 @@
 title: Processo FastTrack Center Benefit per Enterprise Mobility Suite: panoramica
 description:
 keywords:
-author: 
-manager: swadhwa
+author: staciebarker
+manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod:
@@ -29,7 +29,7 @@ ms.suite: ems
 
 È possibile usare [FastTrack Center Benefit per Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) per ottenere Azure Active Directory Premium, Microsoft Intune e/o Azure Rights Management pronti all'uso. Le informazioni contenute in questa sezione illustrano una panoramica del processo di caricamento.
 
-Per altre informazioni sul processo di caricamento FastTrack, vedere [Processo FastTrack Center Benefit per Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)..
+Per altre informazioni sul processo di caricamento FastTrack, vedere [Processo FastTrack Center Benefit per Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
 
 
 I componenti principali del processo di onboarding sono due:
@@ -65,6 +65,6 @@ Vedere [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/
 
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO1-->
 
 
