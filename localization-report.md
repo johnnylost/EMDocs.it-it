@@ -9,8 +9,8 @@
 [ Archive Failed Files ](#archive-failed-list)| 0
 [ Archive Success Files ](#archive-success-list)| 1
 [ Handback Failed Files ](#handback-failed-list)| 0
-[ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 23
-[ In Sync Handback Files ](#insync-handback-success-list)| 115
+[ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 16
+[ In Sync Handback Files ](#insync-handback-success-list)| 122
 [ Ignored Files ](#ignored-list)| 137
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
@@ -143,12 +143,6 @@
  [contributor-guide\content-channel-guidance.md](https://github.com/Microsoft/EMDocs-pr/blob/7d45a824cab9ab82e6abc62c1a4dfa170add953a/contributor-guide/content-channel-guidance.md) | OutofSyncHandedBackSuccess | [Details](#ba1e846d4ce3029f3315fbbc381bf45544e010607)
  [contributor-guide\custom-markdown-extensions.md](https://github.com/Microsoft/EMDocs-pr/blob/7d45a824cab9ab82e6abc62c1a4dfa170add953a/contributor-guide/custom-markdown-extensions.md) | OutofSyncHandedBackSuccess | [Details](#c274ae4daf071245387599772945067b03dd9d8210)
  [EMDocs\Solutions\fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md](https://github.com/Microsoft/EMDocs-pr/blob/a92fcc56cea75adb6c3db4eeb197dba77d2b63b7/EMDocs/Solutions/fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) | OutofSyncHandedBackSuccess | [Details](#7e0e7e61bdf2dbc38c56c4e768e7b3e511c74eeb87)
- [EMDocs\Solutions\fasttrack-center-benefit-process-for-ems-environment-expectations.md](https://github.com/Microsoft/EMDocs-pr/blob/a92fcc56cea75adb6c3db4eeb197dba77d2b63b7/EMDocs/Solutions/fasttrack-center-benefit-process-for-ems-environment-expectations.md) | OutofSyncHandedBackSuccess | [Details](#5f1ab589594ccd846686e51612fe54f4ffd226b688)
- [EMDocs\Solutions\fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md](https://github.com/Microsoft/EMDocs-pr/blob/a92fcc56cea75adb6c3db4eeb197dba77d2b63b7/EMDocs/Solutions/fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md) | OutofSyncHandedBackSuccess | [Details](#59710c77266e9c20697012208bba5ee468ee0f3889)
- [EMDocs\Solutions\fasttrack-center-benefit-process-for-ems-overview.md](https://github.com/Microsoft/EMDocs-pr/blob/a92fcc56cea75adb6c3db4eeb197dba77d2b63b7/EMDocs/Solutions/fasttrack-center-benefit-process-for-ems-overview.md) | OutofSyncHandedBackSuccess | [Details](#6d93a086bc86864d677327b37eaff39bdfd495fd90)
- [EMDocs\Solutions\fasttrack-center-benefit-process-for-ems-phases.md](https://github.com/Microsoft/EMDocs-pr/blob/a92fcc56cea75adb6c3db4eeb197dba77d2b63b7/EMDocs/Solutions/fasttrack-center-benefit-process-for-ems-phases.md) | OutofSyncHandedBackSuccess | [Details](#7f89f613d40daf3472685d0bce12767f35ee65c891)
- [EMDocs\Solutions\fasttrack-center-benefit-process-for-ems-your-responsibilities.md](https://github.com/Microsoft/EMDocs-pr/blob/a92fcc56cea75adb6c3db4eeb197dba77d2b63b7/EMDocs/Solutions/fasttrack-center-benefit-process-for-ems-your-responsibilities.md) | OutofSyncHandedBackSuccess | [Details](#2dd5e54fe1348cc23274afc735759c92fbf81e2892)
- [EMDocs\Solutions\fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md](https://github.com/Microsoft/EMDocs-pr/blob/a92fcc56cea75adb6c3db4eeb197dba77d2b63b7/EMDocs/Solutions/fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md) | OutofSyncHandedBackSuccess | [Details](#42a320985cf1062a5e239bf55317f10b46062ee893)
  [EMDocs\Solutions\mdm-application-management-options.md](https://github.com/Microsoft/EMDocs-pr/blob/73c37109735567642ff1dc11f9729e3ab3affd3b/EMDocs/Solutions/mdm-application-management-options.md) | OutofSyncHandedBackSuccess | [Details](#2d8c4371a06ab1e006083f91f814028573b46141101)
  [EMDocs\Solutions\mdm-design-considerations-guide.md](https://github.com/Microsoft/EMDocs-pr/blob/4764d8c3ad679c5096c0de6d9ff51ea0aa6d7c06/EMDocs/Solutions/mdm-design-considerations-guide.md) | OutofSyncHandedBackSuccess | [Details](#e654e802c25d7806536c8192850cab7329fca9bb108)
  [EMDocs\Solutions\mdm-develop-saas-mdm-strategy.md](https://github.com/Microsoft/EMDocs-pr/blob/73c37109735567642ff1dc11f9729e3ab3affd3b/EMDocs/Solutions/mdm-develop-saas-mdm-strategy.md) | OutofSyncHandedBackSuccess | [Details](#91d1498db006b387ff524b2b26c715c3a109dd8a112)
@@ -157,7 +151,6 @@
  [EMDocs\Solutions\mdm-device-monitoring-options.md](https://github.com/Microsoft/EMDocs-pr/blob/73c37109735567642ff1dc11f9729e3ab3affd3b/EMDocs/Solutions/mdm-device-monitoring-options.md) | OutofSyncHandedBackSuccess | [Details](#38ce8928cc9ebca3ac8a092fcb031abbfd989d91115)
  [EMDocs\Solutions\mdm-email-management-options.md](https://github.com/Microsoft/EMDocs-pr/blob/73c37109735567642ff1dc11f9729e3ab3affd3b/EMDocs/Solutions/mdm-email-management-options.md) | OutofSyncHandedBackSuccess | [Details](#208b478068e7757673edb76ff6f21b488c4559e2117)
  [EMDocs\Solutions\mdm-gather-monitoring-requirements.md](https://github.com/Microsoft/EMDocs-pr/blob/73c37109735567642ff1dc11f9729e3ab3affd3b/EMDocs/Solutions/mdm-gather-monitoring-requirements.md) | OutofSyncHandedBackSuccess | [Details](#3a387d8e83431f5fd3fdd4e7466323f2d768edf1119)
- [EMDocs\Solutions\mdm-identify-business-needs.md](https://github.com/Microsoft/EMDocs-pr/blob/4764d8c3ad679c5096c0de6d9ff51ea0aa6d7c06/EMDocs/Solutions/mdm-identify-business-needs.md) | OutofSyncHandedBackSuccess | [Details](#b43a8e20d485c970bb90f4ce619518377423b6db121)
  [EMDocs\Solutions\mdm-identify-saas-connectivity-requirements.md](https://github.com/Microsoft/EMDocs-pr/blob/73c37109735567642ff1dc11f9729e3ab3affd3b/EMDocs/Solutions/mdm-identify-saas-connectivity-requirements.md) | OutofSyncHandedBackSuccess | [Details](#d5e660e87a80b7703a09214b1d1f07e41e8f5483122)
  [EMDocs\Solutions\mdm-identify-saas-requirements.md](https://github.com/Microsoft/EMDocs-pr/blob/73c37109735567642ff1dc11f9729e3ab3affd3b/EMDocs/Solutions/mdm-identify-saas-requirements.md) | OutofSyncHandedBackSuccess | [Details](#949a049f3cfdae84b0203898f7c0a5f7e38fdb98123)
  [EMDocs\Solutions\mdm-step-2-plan-for-mobile-device-management.md](https://github.com/Microsoft/EMDocs-pr/blob/1436fa1665f34fc8cb0d53d3c4ac52d52e1e5afb/EMDocs/Solutions/mdm-step-2-plan-for-mobile-device-management.md) | OutofSyncHandedBackSuccess | [Details](#4e3f6c3bf9f75a3be46b64413db91ad5e398e01d131)
@@ -200,6 +193,12 @@
  [EMDocs\Solutions\end-user-experience-conditional-access-ios.md](https://github.com/Microsoft/EMDocs-pr/blob/5f1c98cc916bee9bb83249a16a52a5fdd3810142/EMDocs/Solutions/end-user-experience-conditional-access-ios.md) | InSyncHandedBackSuccess | [Details](#6ff6f8c66e5b4ed838c72dd06f200118c6461cb083)
  [EMDocs\Solutions\end-user-experience-conditional-access-winphone.md](https://github.com/Microsoft/EMDocs-pr/blob/5f1c98cc916bee9bb83249a16a52a5fdd3810142/EMDocs/Solutions/end-user-experience-conditional-access-winphone.md) | InSyncHandedBackSuccess | [Details](#1527f382ab35dd47d1342eb6e320048f76d62e6084)
  [EMDocs\Solutions\enterprise-mobility-fasttrack-program.md](https://github.com/Microsoft/EMDocs-pr/blob/31ba2bb9bf95d3b21ba08f7874f12cae790f9af0/EMDocs/Solutions/enterprise-mobility-fasttrack-program.md) | InSyncHandedBackSuccess | [Details](#a32ec33be4ea8ea3ece93fe026480de43790af4e86)
+ [EMDocs\Solutions\fasttrack-center-benefit-process-for-ems-environment-expectations.md](https://github.com/Microsoft/EMDocs-pr/blob/a92fcc56cea75adb6c3db4eeb197dba77d2b63b7/EMDocs/Solutions/fasttrack-center-benefit-process-for-ems-environment-expectations.md) | InSyncHandedBackSuccess | [Details](#5f1ab589594ccd846686e51612fe54f4ffd226b688)
+ [EMDocs\Solutions\fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md](https://github.com/Microsoft/EMDocs-pr/blob/a92fcc56cea75adb6c3db4eeb197dba77d2b63b7/EMDocs/Solutions/fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md) | InSyncHandedBackSuccess | [Details](#59710c77266e9c20697012208bba5ee468ee0f3889)
+ [EMDocs\Solutions\fasttrack-center-benefit-process-for-ems-overview.md](https://github.com/Microsoft/EMDocs-pr/blob/a92fcc56cea75adb6c3db4eeb197dba77d2b63b7/EMDocs/Solutions/fasttrack-center-benefit-process-for-ems-overview.md) | InSyncHandedBackSuccess | [Details](#6d93a086bc86864d677327b37eaff39bdfd495fd90)
+ [EMDocs\Solutions\fasttrack-center-benefit-process-for-ems-phases.md](https://github.com/Microsoft/EMDocs-pr/blob/a92fcc56cea75adb6c3db4eeb197dba77d2b63b7/EMDocs/Solutions/fasttrack-center-benefit-process-for-ems-phases.md) | InSyncHandedBackSuccess | [Details](#7f89f613d40daf3472685d0bce12767f35ee65c891)
+ [EMDocs\Solutions\fasttrack-center-benefit-process-for-ems-your-responsibilities.md](https://github.com/Microsoft/EMDocs-pr/blob/a92fcc56cea75adb6c3db4eeb197dba77d2b63b7/EMDocs/Solutions/fasttrack-center-benefit-process-for-ems-your-responsibilities.md) | InSyncHandedBackSuccess | [Details](#2dd5e54fe1348cc23274afc735759c92fbf81e2892)
+ [EMDocs\Solutions\fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md](https://github.com/Microsoft/EMDocs-pr/blob/a92fcc56cea75adb6c3db4eeb197dba77d2b63b7/EMDocs/Solutions/fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md) | InSyncHandedBackSuccess | [Details](#42a320985cf1062a5e239bf55317f10b46062ee893)
  [EMDocs\Solutions\implement-solution.md](https://github.com/Microsoft/EMDocs-pr/blob/5f1c98cc916bee9bb83249a16a52a5fdd3810142/EMDocs/Solutions/implement-solution.md) | InSyncHandedBackSuccess | [Details](#eec74f54e6e6265d53f62fdccead61bff917450394)
  [EMDocs\Solutions\learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md](https://github.com/Microsoft/EMDocs-pr/blob/5f1c98cc916bee9bb83249a16a52a5fdd3810142/EMDocs/Solutions/learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md) | InSyncHandedBackSuccess | [Details](#a90da0adacec67e1e5264a4848829336f2996c5095)
  [EMDocs\Solutions\lp_selector.md](https://github.com/Microsoft/EMDocs-pr/blob/d43860e838a40de05bdec73b00b6721ee634d7e5/EMDocs/Solutions/lp_selector.md) | InSyncHandedBackSuccess | [Details](#77f50da8a7dfc5a6fae15fa4c3eecab61caa99ab98)
@@ -218,6 +217,7 @@
  [EMDocs\Solutions\mdm-device-provisioning-options.md](https://github.com/Microsoft/EMDocs-pr/blob/73c37109735567642ff1dc11f9729e3ab3affd3b/EMDocs/Solutions/mdm-device-provisioning-options.md) | InSyncHandedBackSuccess | [Details](#e2b95366b6459690392afe5cc0acfeec8e47392c116)
  [EMDocs\Solutions\mdm-gather-data-protection-requirements.md](https://github.com/Microsoft/EMDocs-pr/blob/d43860e838a40de05bdec73b00b6721ee634d7e5/EMDocs/Solutions/mdm-gather-data-protection-requirements.md) | InSyncHandedBackSuccess | [Details](#ac9808463acd811e53135dd7ce60844c12d46439118)
  [EMDocs\Solutions\mdm-hardening-mobile-devices.md](https://github.com/Microsoft/EMDocs-pr/blob/d43860e838a40de05bdec73b00b6721ee634d7e5/EMDocs/Solutions/mdm-hardening-mobile-devices.md) | InSyncHandedBackSuccess | [Details](#27bb02a1273fc0bef733d5478faaa810f049a803120)
+ [EMDocs\Solutions\mdm-identify-business-needs.md](https://github.com/Microsoft/EMDocs-pr/blob/4764d8c3ad679c5096c0de6d9ff51ea0aa6d7c06/EMDocs/Solutions/mdm-identify-business-needs.md) | InSyncHandedBackSuccess | [Details](#b43a8e20d485c970bb90f4ce619518377423b6db121)
  [EMDocs\Solutions\mdm-identify-saas-solution-infrastructure-integration-needs.md](https://github.com/Microsoft/EMDocs-pr/blob/73c37109735567642ff1dc11f9729e3ab3affd3b/EMDocs/Solutions/mdm-identify-saas-solution-infrastructure-integration-needs.md) | InSyncHandedBackSuccess | [Details](#7e43f590182e6a2eacfa60114290848de0b24baa124)
  [EMDocs\Solutions\mdm-network-connectivity-management-options.md](https://github.com/Microsoft/EMDocs-pr/blob/73c37109735567642ff1dc11f9729e3ab3affd3b/EMDocs/Solutions/mdm-network-connectivity-management-options.md) | InSyncHandedBackSuccess | [Details](#92b3fcb41ca39e9deb4f04f2ac0d9dd15eb87a8c125)
  [EMDocs\Solutions\mdm-next-steps-and-additional-resources.md](https://github.com/Microsoft/EMDocs-pr/blob/73c37109735567642ff1dc11f9729e3ab3affd3b/EMDocs/Solutions/mdm-next-steps-and-additional-resources.md) | InSyncHandedBackSuccess | [Details](#453de29d00e5fef9ac210059ea62e07f16f4998a126)
@@ -1512,93 +1512,75 @@
 * [Back to Top](#report-top)
 
 ##### <a name='5f1ab589594ccd846686e51612fe54f4ffd226b688'></a> Source: [EMDocs\Solutions\fasttrack-center-benefit-process-for-ems-environment-expectations.md](https://github.com/Microsoft/EMDocs-pr/blob/a92fcc56cea75adb6c3db4eeb197dba77d2b63b7/EMDocs/Solutions/fasttrack-center-benefit-process-for-ems-environment-expectations.md)
-* Status: OutofSyncHandedBackSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [EMDocs\Solutions\fasttrack-center-benefit-process-for-ems-environment-expectations.md](https://github.com/Microsoft/EMDocs-pr.it-it/blob/c1f2b7e06334eafbc3fdc9e0597852f84fdbf9f5/EMDocs/Solutions/fasttrack-center-benefit-process-for-ems-environment-expectations.md)
 * Handoff File: [fasttrack-center-benefit-process-for-ems-environment-expectations.f302b9f171eccebb1a199bdb66392027790ffabb.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/a235a782bf923f7478f863f8c8fed2d937d79f1f/ol-handoff/Microsoft/EMDocs-pr.it-it/master/fasttrack-center-benefit-process-for-ems-environment-expectations.f302b9f171eccebb1a199bdb66392027790ffabb.it-it.xlf)
 * Handoff Datetime: 2016-06-07 19:04:59
 * Handoff Reason: Include
 * Archive File: [fasttrack-center-benefit-process-for-ems-environment-expectations.f302b9f171eccebb1a199bdb66392027790ffabb.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/8f7f659f5f55671e08b71c5458b077e8f962433f/ol-handoff/Microsoft/EMDocs-pr.it-it/master/archive/fasttrack-center-benefit-process-for-ems-environment-expectations.f302b9f171eccebb1a199bdb66392027790ffabb.it-it.xlf)
 * Archive Datetime: 2016-06-09 00:28:55
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [EMDocs\Solutions\fasttrack-center-benefit-process-for-ems-environment-expectations.md](https://github.com/Microsoft/EMDocs-pr.it-it/blob/0d59bf1179061a871c6516dedc41c677c3fa2ec1/EMDocs/Solutions/fasttrack-center-benefit-process-for-ems-environment-expectations.md)
-* Current Handback File: [fasttrack-center-benefit-process-for-ems-environment-expectations.f302b9f171eccebb1a199bdb66392027790ffabb.it-it.xlf](https://github.com/Microsoft/EM.handback/blob/4cca3e5310f327e8069cb15ee6dcedd72fa95a1d/ol-handback/Microsoft/EMDocs-pr.it-it/master/fasttrack-center-benefit-process-for-ems-environment-expectations.f302b9f171eccebb1a199bdb66392027790ffabb.it-it.xlf)
-* Current Handback Datetime: 2016-05-26 17:28:16
+* Handback File: [fasttrack-center-benefit-process-for-ems-environment-expectations.f302b9f171eccebb1a199bdb66392027790ffabb.it-it.xlf](https://github.com/Microsoft/EM.handback/blob/3ac49fcb0090431a8e2f3369f2d40ccf1e09d884/ol-handback/Microsoft/EMDocs-pr.it-it/master/fasttrack-center-benefit-process-for-ems-environment-expectations.f302b9f171eccebb1a199bdb66392027790ffabb.it-it.xlf)
+* Handback Datetime: 2016-06-09 03:51:58
 * [Back to Top](#report-top)
 
 ##### <a name='59710c77266e9c20697012208bba5ee468ee0f3889'></a> Source: [EMDocs\Solutions\fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md](https://github.com/Microsoft/EMDocs-pr/blob/a92fcc56cea75adb6c3db4eeb197dba77d2b63b7/EMDocs/Solutions/fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md)
-* Status: OutofSyncHandedBackSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [EMDocs\Solutions\fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md](https://github.com/Microsoft/EMDocs-pr.it-it/blob/c1f2b7e06334eafbc3fdc9e0597852f84fdbf9f5/EMDocs/Solutions/fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md)
 * Handoff File: [fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.6090efa36a485414676b1fb6da1ddf93f37c5910.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/a235a782bf923f7478f863f8c8fed2d937d79f1f/ol-handoff/Microsoft/EMDocs-pr.it-it/master/fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.6090efa36a485414676b1fb6da1ddf93f37c5910.it-it.xlf)
 * Handoff Datetime: 2016-06-07 19:04:59
 * Handoff Reason: Include
 * Archive File: [fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.6090efa36a485414676b1fb6da1ddf93f37c5910.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/8f7f659f5f55671e08b71c5458b077e8f962433f/ol-handoff/Microsoft/EMDocs-pr.it-it/master/archive/fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.6090efa36a485414676b1fb6da1ddf93f37c5910.it-it.xlf)
 * Archive Datetime: 2016-06-09 00:28:55
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [EMDocs\Solutions\fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md](https://github.com/Microsoft/EMDocs-pr.it-it/blob/0d59bf1179061a871c6516dedc41c677c3fa2ec1/EMDocs/Solutions/fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md)
-* Current Handback File: [fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.6090efa36a485414676b1fb6da1ddf93f37c5910.it-it.xlf](https://github.com/Microsoft/EM.handback/blob/4cca3e5310f327e8069cb15ee6dcedd72fa95a1d/ol-handback/Microsoft/EMDocs-pr.it-it/master/fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.6090efa36a485414676b1fb6da1ddf93f37c5910.it-it.xlf)
-* Current Handback Datetime: 2016-05-26 17:28:16
+* Handback File: [fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.6090efa36a485414676b1fb6da1ddf93f37c5910.it-it.xlf](https://github.com/Microsoft/EM.handback/blob/3ac49fcb0090431a8e2f3369f2d40ccf1e09d884/ol-handback/Microsoft/EMDocs-pr.it-it/master/fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.6090efa36a485414676b1fb6da1ddf93f37c5910.it-it.xlf)
+* Handback Datetime: 2016-06-09 03:51:58
 * [Back to Top](#report-top)
 
 ##### <a name='6d93a086bc86864d677327b37eaff39bdfd495fd90'></a> Source: [EMDocs\Solutions\fasttrack-center-benefit-process-for-ems-overview.md](https://github.com/Microsoft/EMDocs-pr/blob/a92fcc56cea75adb6c3db4eeb197dba77d2b63b7/EMDocs/Solutions/fasttrack-center-benefit-process-for-ems-overview.md)
-* Status: OutofSyncHandedBackSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [EMDocs\Solutions\fasttrack-center-benefit-process-for-ems-overview.md](https://github.com/Microsoft/EMDocs-pr.it-it/blob/c1f2b7e06334eafbc3fdc9e0597852f84fdbf9f5/EMDocs/Solutions/fasttrack-center-benefit-process-for-ems-overview.md)
 * Handoff File: [fasttrack-center-benefit-process-for-ems-overview.e956d51b6fcce58eb53dace8c29c2bafa286d254.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/a235a782bf923f7478f863f8c8fed2d937d79f1f/ol-handoff/Microsoft/EMDocs-pr.it-it/master/fasttrack-center-benefit-process-for-ems-overview.e956d51b6fcce58eb53dace8c29c2bafa286d254.it-it.xlf)
 * Handoff Datetime: 2016-06-07 19:04:59
 * Handoff Reason: Include
 * Archive File: [fasttrack-center-benefit-process-for-ems-overview.e956d51b6fcce58eb53dace8c29c2bafa286d254.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/8f7f659f5f55671e08b71c5458b077e8f962433f/ol-handoff/Microsoft/EMDocs-pr.it-it/master/archive/fasttrack-center-benefit-process-for-ems-overview.e956d51b6fcce58eb53dace8c29c2bafa286d254.it-it.xlf)
 * Archive Datetime: 2016-06-09 00:28:55
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [EMDocs\Solutions\fasttrack-center-benefit-process-for-ems-overview.md](https://github.com/Microsoft/EMDocs-pr.it-it/blob/0d59bf1179061a871c6516dedc41c677c3fa2ec1/EMDocs/Solutions/fasttrack-center-benefit-process-for-ems-overview.md)
-* Current Handback File: [fasttrack-center-benefit-process-for-ems-overview.e956d51b6fcce58eb53dace8c29c2bafa286d254.it-it.xlf](https://github.com/Microsoft/EM.handback/blob/4cca3e5310f327e8069cb15ee6dcedd72fa95a1d/ol-handback/Microsoft/EMDocs-pr.it-it/master/fasttrack-center-benefit-process-for-ems-overview.e956d51b6fcce58eb53dace8c29c2bafa286d254.it-it.xlf)
-* Current Handback Datetime: 2016-05-26 17:28:16
+* Handback File: [fasttrack-center-benefit-process-for-ems-overview.e956d51b6fcce58eb53dace8c29c2bafa286d254.it-it.xlf](https://github.com/Microsoft/EM.handback/blob/3ac49fcb0090431a8e2f3369f2d40ccf1e09d884/ol-handback/Microsoft/EMDocs-pr.it-it/master/fasttrack-center-benefit-process-for-ems-overview.e956d51b6fcce58eb53dace8c29c2bafa286d254.it-it.xlf)
+* Handback Datetime: 2016-06-09 03:51:58
 * [Back to Top](#report-top)
 
 ##### <a name='7f89f613d40daf3472685d0bce12767f35ee65c891'></a> Source: [EMDocs\Solutions\fasttrack-center-benefit-process-for-ems-phases.md](https://github.com/Microsoft/EMDocs-pr/blob/a92fcc56cea75adb6c3db4eeb197dba77d2b63b7/EMDocs/Solutions/fasttrack-center-benefit-process-for-ems-phases.md)
-* Status: OutofSyncHandedBackSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [EMDocs\Solutions\fasttrack-center-benefit-process-for-ems-phases.md](https://github.com/Microsoft/EMDocs-pr.it-it/blob/c1f2b7e06334eafbc3fdc9e0597852f84fdbf9f5/EMDocs/Solutions/fasttrack-center-benefit-process-for-ems-phases.md)
 * Handoff File: [fasttrack-center-benefit-process-for-ems-phases.fc223ce9feb08741b3340cf27c87d86b74dddef2.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/a235a782bf923f7478f863f8c8fed2d937d79f1f/ol-handoff/Microsoft/EMDocs-pr.it-it/master/fasttrack-center-benefit-process-for-ems-phases.fc223ce9feb08741b3340cf27c87d86b74dddef2.it-it.xlf)
 * Handoff Datetime: 2016-06-07 19:04:59
 * Handoff Reason: Include
 * Archive File: [fasttrack-center-benefit-process-for-ems-phases.fc223ce9feb08741b3340cf27c87d86b74dddef2.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/8f7f659f5f55671e08b71c5458b077e8f962433f/ol-handoff/Microsoft/EMDocs-pr.it-it/master/archive/fasttrack-center-benefit-process-for-ems-phases.fc223ce9feb08741b3340cf27c87d86b74dddef2.it-it.xlf)
 * Archive Datetime: 2016-06-09 00:28:55
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [EMDocs\Solutions\fasttrack-center-benefit-process-for-ems-phases.md](https://github.com/Microsoft/EMDocs-pr.it-it/blob/e37def717d2da11a37c2112e9fabd8c569f65869/EMDocs/Solutions/fasttrack-center-benefit-process-for-ems-phases.md)
-* Current Handback File: [fasttrack-center-benefit-process-for-ems-phases.fc223ce9feb08741b3340cf27c87d86b74dddef2.it-it.xlf](https://github.com/Microsoft/EM.handback/blob/c489b7fd176095bf69b351d8a08a2d8883ae0087/ol-handback/Microsoft/EMDocs-pr.it-it/master/fasttrack-center-benefit-process-for-ems-phases.fc223ce9feb08741b3340cf27c87d86b74dddef2.it-it.xlf)
-* Current Handback Datetime: 2016-06-07 01:48:37
+* Handback File: [fasttrack-center-benefit-process-for-ems-phases.fc223ce9feb08741b3340cf27c87d86b74dddef2.it-it.xlf](https://github.com/Microsoft/EM.handback/blob/3ac49fcb0090431a8e2f3369f2d40ccf1e09d884/ol-handback/Microsoft/EMDocs-pr.it-it/master/fasttrack-center-benefit-process-for-ems-phases.fc223ce9feb08741b3340cf27c87d86b74dddef2.it-it.xlf)
+* Handback Datetime: 2016-06-09 03:51:58
 * [Back to Top](#report-top)
 
 ##### <a name='2dd5e54fe1348cc23274afc735759c92fbf81e2892'></a> Source: [EMDocs\Solutions\fasttrack-center-benefit-process-for-ems-your-responsibilities.md](https://github.com/Microsoft/EMDocs-pr/blob/a92fcc56cea75adb6c3db4eeb197dba77d2b63b7/EMDocs/Solutions/fasttrack-center-benefit-process-for-ems-your-responsibilities.md)
-* Status: OutofSyncHandedBackSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [EMDocs\Solutions\fasttrack-center-benefit-process-for-ems-your-responsibilities.md](https://github.com/Microsoft/EMDocs-pr.it-it/blob/c1f2b7e06334eafbc3fdc9e0597852f84fdbf9f5/EMDocs/Solutions/fasttrack-center-benefit-process-for-ems-your-responsibilities.md)
 * Handoff File: [fasttrack-center-benefit-process-for-ems-your-responsibilities.0fc5677407275aba8ab97a050557abd968b1230c.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/a235a782bf923f7478f863f8c8fed2d937d79f1f/ol-handoff/Microsoft/EMDocs-pr.it-it/master/fasttrack-center-benefit-process-for-ems-your-responsibilities.0fc5677407275aba8ab97a050557abd968b1230c.it-it.xlf)
 * Handoff Datetime: 2016-06-07 19:04:59
 * Handoff Reason: Include
 * Archive File: [fasttrack-center-benefit-process-for-ems-your-responsibilities.0fc5677407275aba8ab97a050557abd968b1230c.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/8f7f659f5f55671e08b71c5458b077e8f962433f/ol-handoff/Microsoft/EMDocs-pr.it-it/master/archive/fasttrack-center-benefit-process-for-ems-your-responsibilities.0fc5677407275aba8ab97a050557abd968b1230c.it-it.xlf)
 * Archive Datetime: 2016-06-09 00:28:55
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [EMDocs\Solutions\fasttrack-center-benefit-process-for-ems-your-responsibilities.md](https://github.com/Microsoft/EMDocs-pr.it-it/blob/0d59bf1179061a871c6516dedc41c677c3fa2ec1/EMDocs/Solutions/fasttrack-center-benefit-process-for-ems-your-responsibilities.md)
-* Current Handback File: [fasttrack-center-benefit-process-for-ems-your-responsibilities.0fc5677407275aba8ab97a050557abd968b1230c.it-it.xlf](https://github.com/Microsoft/EM.handback/blob/4cca3e5310f327e8069cb15ee6dcedd72fa95a1d/ol-handback/Microsoft/EMDocs-pr.it-it/master/fasttrack-center-benefit-process-for-ems-your-responsibilities.0fc5677407275aba8ab97a050557abd968b1230c.it-it.xlf)
-* Current Handback Datetime: 2016-05-26 17:28:16
+* Handback File: [fasttrack-center-benefit-process-for-ems-your-responsibilities.0fc5677407275aba8ab97a050557abd968b1230c.it-it.xlf](https://github.com/Microsoft/EM.handback/blob/3ac49fcb0090431a8e2f3369f2d40ccf1e09d884/ol-handback/Microsoft/EMDocs-pr.it-it/master/fasttrack-center-benefit-process-for-ems-your-responsibilities.0fc5677407275aba8ab97a050557abd968b1230c.it-it.xlf)
+* Handback Datetime: 2016-06-09 03:51:58
 * [Back to Top](#report-top)
 
 ##### <a name='42a320985cf1062a5e239bf55317f10b46062ee893'></a> Source: [EMDocs\Solutions\fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md](https://github.com/Microsoft/EMDocs-pr/blob/a92fcc56cea75adb6c3db4eeb197dba77d2b63b7/EMDocs/Solutions/fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)
-* Status: OutofSyncHandedBackSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [EMDocs\Solutions\fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md](https://github.com/Microsoft/EMDocs-pr.it-it/blob/c1f2b7e06334eafbc3fdc9e0597852f84fdbf9f5/EMDocs/Solutions/fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)
 * Handoff File: [fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.d38cb185a0d9f2f3fc5e75af3eaee5c385a63d14.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/a235a782bf923f7478f863f8c8fed2d937d79f1f/ol-handoff/Microsoft/EMDocs-pr.it-it/master/fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.d38cb185a0d9f2f3fc5e75af3eaee5c385a63d14.it-it.xlf)
 * Handoff Datetime: 2016-06-07 19:04:59
 * Handoff Reason: Include
 * Archive File: [fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.d38cb185a0d9f2f3fc5e75af3eaee5c385a63d14.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/8f7f659f5f55671e08b71c5458b077e8f962433f/ol-handoff/Microsoft/EMDocs-pr.it-it/master/archive/fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.d38cb185a0d9f2f3fc5e75af3eaee5c385a63d14.it-it.xlf)
 * Archive Datetime: 2016-06-09 00:28:55
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [EMDocs\Solutions\fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md](https://github.com/Microsoft/EMDocs-pr.it-it/blob/0d59bf1179061a871c6516dedc41c677c3fa2ec1/EMDocs/Solutions/fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)
-* Current Handback File: [fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.d38cb185a0d9f2f3fc5e75af3eaee5c385a63d14.it-it.xlf](https://github.com/Microsoft/EM.handback/blob/4cca3e5310f327e8069cb15ee6dcedd72fa95a1d/ol-handback/Microsoft/EMDocs-pr.it-it/master/fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.d38cb185a0d9f2f3fc5e75af3eaee5c385a63d14.it-it.xlf)
-* Current Handback Datetime: 2016-05-26 17:28:16
+* Handback File: [fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.d38cb185a0d9f2f3fc5e75af3eaee5c385a63d14.it-it.xlf](https://github.com/Microsoft/EM.handback/blob/3ac49fcb0090431a8e2f3369f2d40ccf1e09d884/ol-handback/Microsoft/EMDocs-pr.it-it/master/fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.d38cb185a0d9f2f3fc5e75af3eaee5c385a63d14.it-it.xlf)
+* Handback Datetime: 2016-06-09 03:51:58
 * [Back to Top](#report-top)
 
 ##### <a name='eec74f54e6e6265d53f62fdccead61bff917450394'></a> Source: [EMDocs\Solutions\implement-solution.md](https://github.com/Microsoft/EMDocs-pr/blob/5f1c98cc916bee9bb83249a16a52a5fdd3810142/EMDocs/Solutions/implement-solution.md)
@@ -1950,18 +1932,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='b43a8e20d485c970bb90f4ce619518377423b6db121'></a> Source: [EMDocs\Solutions\mdm-identify-business-needs.md](https://github.com/Microsoft/EMDocs-pr/blob/4764d8c3ad679c5096c0de6d9ff51ea0aa6d7c06/EMDocs/Solutions/mdm-identify-business-needs.md)
-* Status: OutofSyncHandedBackSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [EMDocs\Solutions\mdm-identify-business-needs.md](https://github.com/Microsoft/EMDocs-pr.it-it/blob/c1f2b7e06334eafbc3fdc9e0597852f84fdbf9f5/EMDocs/Solutions/mdm-identify-business-needs.md)
 * Handoff File: [mdm-identify-business-needs.53faf0cec8a61848cbb0e191c18b5a2524f1edaf.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/827c5f066749f3c1ca30e4aa38de8f992831fdb0/ol-handoff/Microsoft/EMDocs-pr.it-it/master/mdm-identify-business-needs.53faf0cec8a61848cbb0e191c18b5a2524f1edaf.it-it.xlf)
 * Handoff Datetime: 2016-06-07 00:20:06
 * Handoff Reason: Include
 * Archive File: [mdm-identify-business-needs.53faf0cec8a61848cbb0e191c18b5a2524f1edaf.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/8f7f659f5f55671e08b71c5458b077e8f962433f/ol-handoff/Microsoft/EMDocs-pr.it-it/master/archive/mdm-identify-business-needs.53faf0cec8a61848cbb0e191c18b5a2524f1edaf.it-it.xlf)
 * Archive Datetime: 2016-06-09 00:28:55
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [EMDocs\Solutions\mdm-identify-business-needs.md](https://github.com/Microsoft/EMDocs-pr.it-it/blob/2ec45084606e21c30bded9871953ebdbb0fefdd1/EMDocs/Solutions/mdm-identify-business-needs.md)
-* Current Handback File: [mdm-identify-business-needs.53faf0cec8a61848cbb0e191c18b5a2524f1edaf.it-it.xlf](https://github.com/Microsoft/EM.handback/blob/89f3ba0239b067b6ab96048d85cc0e0731f06b9c/ol-handback/Microsoft/EMDocs-pr.it-it/master/mdm-identify-business-needs.53faf0cec8a61848cbb0e191c18b5a2524f1edaf.it-it.xlf)
-* Current Handback Datetime: 2016-05-03 13:41:54
+* Handback File: [mdm-identify-business-needs.53faf0cec8a61848cbb0e191c18b5a2524f1edaf.it-it.xlf](https://github.com/Microsoft/EM.handback/blob/3ac49fcb0090431a8e2f3369f2d40ccf1e09d884/ol-handback/Microsoft/EMDocs-pr.it-it/master/mdm-identify-business-needs.53faf0cec8a61848cbb0e191c18b5a2524f1edaf.it-it.xlf)
+* Handback Datetime: 2016-06-09 03:51:58
 * [Back to Top](#report-top)
 
 ##### <a name='d5e660e87a80b7703a09214b1d1f07e41e8f5483122'></a> Source: [EMDocs\Solutions\mdm-identify-saas-connectivity-requirements.md](https://github.com/Microsoft/EMDocs-pr/blob/73c37109735567642ff1dc11f9729e3ab3affd3b/EMDocs/Solutions/mdm-identify-saas-connectivity-requirements.md)
