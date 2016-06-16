@@ -4,8 +4,8 @@
 title: Processo FastTrack Center Benefit per Enterprise Mobility Suite (EMS)
 description:
 keywords:
-author: 
-manager: swadhwa
+author: staciebarker
+manager: jeffgilb
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod:
@@ -30,9 +30,9 @@ ms.suite: ems
 
 Questo articolo fornisce informazioni dettagliate sull'idoneità di piani e servizi per il service benefit.
 
-Per informazioni sul processo di caricamento, sui ruoli e sulle responsabilità, vedere [Processo FastTrack Center Benefit per Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)..
+Per informazioni sul processo di caricamento, sui ruoli e sulle responsabilità, vedere [Processo FastTrack Center Benefit per Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
 
-Per informazioni su Microsoft FastTrack per Office 365, vedere[Vantaggio FastTrack Center per Office 365](https://technet.microsoft.com/library/office-365-onboarding-benefit.aspx)..
+Per informazioni su Microsoft FastTrack per Office 365, Vedere [Vantaggio FastTrack Center per Office 365](https://technet.microsoft.com/library/office-365-onboarding-benefit.aspx).
 
 ## Servizi idonei
 Se si acquista uno dei servizi online Microsoft seguenti tramite un piano idoneo, Microsoft contatterà l'utente per offrire l'assistenza necessaria al caricamento di tali servizi. È anche possibile richiedere assistenza da parte di [FastTrack Center](http://fasttrack.microsoft.com/) se si è pronti per distribuire questi servizi per l'organizzazione. Per richiedere assistenza, accedere a [FastTrack Center](http://fasttrack.microsoft.com/) (http://fasttrack.microsoft.com), andare nel dashboard, selezionare la scheda contenente le offerte e quindi scegliere l'opzione per richiedere assistenza per Microsoft Intune, Azure Active Directory Premium o Azure Rights Management Premiu Una volta contattata l'assistenza per il processo di caricamento, verrà definita una programmazione di riunioni online
@@ -51,6 +51,6 @@ Enterprise Mobility Suite, o uno dei suoi servizi cloud inclusi in FastTrack Cen
 |Microsoft Azure RMS)|Sì|
 
 
-<!--HONumber=Apr16_HO4-->
+<!--HONumber=Jun16_HO1-->
 
 
