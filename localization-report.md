@@ -9,9 +9,9 @@
 [ Archive Failed Files ](#archive-failed-list)| 0
 [ Archive Success Files ](#archive-success-list)| 0
 [ Handback Failed Files ](#handback-failed-list)| 0
-[ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 14
+[ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 13
 [ In Sync Handback Files ](#insync-handback-success-list)| 125
-[ Ignored Files ](#ignored-list)| 137
+[ Ignored Files ](#ignored-list)| 138
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
 
@@ -150,7 +150,6 @@
  [EMDocs\Solutions\mdm-identify-saas-requirements.md](https://github.com/Microsoft/EMDocs-pr/blob/73c37109735567642ff1dc11f9729e3ab3affd3b/EMDocs/Solutions/mdm-identify-saas-requirements.md) | OutofSyncHandedBackSuccess | [Details](#949a049f3cfdae84b0203898f7c0a5f7e38fdb98123)
  [EMDocs\Solutions\mdm-step-2-plan-for-mobile-device-management.md](https://github.com/Microsoft/EMDocs-pr/blob/1436fa1665f34fc8cb0d53d3c4ac52d52e1e5afb/EMDocs/Solutions/mdm-step-2-plan-for-mobile-device-management.md) | OutofSyncHandedBackSuccess | [Details](#4e3f6c3bf9f75a3be46b64413db91ad5e398e01d131)
  [EMDocs\Solutions\mdm-step-4-plan-for-software-as-a-service-mobile-device-management.md](https://github.com/Microsoft/EMDocs-pr/blob/73c37109735567642ff1dc11f9729e3ab3affd3b/EMDocs/Solutions/mdm-step-4-plan-for-software-as-a-service-mobile-device-management.md) | OutofSyncHandedBackSuccess | [Details](#ee44a4de3b09d2380bcabaa0380f8e2968184b62133)
- [EMDocs\Solutions\TOC.md](https://github.com/Microsoft/EMDocs-pr/blob/d5dc5088057d46b2e6bbf4f6af79c68b49a83d6b/EMDocs/Solutions/TOC.md) | OutofSyncHandedBackSuccess | [Details](#62208574cadac312cdd414900b02c3a2244b7852329)
 
 ## <a name='insync-handback-success-list'></a> In Sync Handback File Success List
  Source File | Status | Details 
@@ -418,6 +417,7 @@
  [EMDocs\Solutions\media\WSE_SG_RAProblem.png](https://github.com/Microsoft/EMDocs-pr/blob/cfc9add16948b8636ea6a61ea44a790c9fdff2d9/EMDocs/Solutions/media/WSE_SG_RAProblem.png) | Ignored | [Details](#b52789a46874ed019ff8dea05bfefdebdf549cbd323)
  [EMDocs\Solutions\media\WSE_SG_SMBDataProtectProblem.png](https://github.com/Microsoft/EMDocs-pr/blob/cfc9add16948b8636ea6a61ea44a790c9fdff2d9/EMDocs/Solutions/media/WSE_SG_SMBDataProtectProblem.png) | Ignored | [Details](#17a8303c7ef0995ef393588b69250a0f4184df38324)
  [EMDocs\Solutions\media\WSE_SG_SMBDataProtectSolution.png](https://github.com/Microsoft/EMDocs-pr/blob/cfc9add16948b8636ea6a61ea44a790c9fdff2d9/EMDocs/Solutions/media/WSE_SG_SMBDataProtectSolution.png) | Ignored | [Details](#0e1ba1f9f6fc258f4640be651285366d453d4e1a325)
+ [EMDocs\Solutions\TOC.md](https://github.com/Microsoft/EMDocs-pr/blob/cfc9add16948b8636ea6a61ea44a790c9fdff2d9/EMDocs/Solutions/TOC.md) | Ignored | [Details](#2c5defa4889e23cce4a2081b463c2e5ec530c2cb329)
  [license.md](https://github.com/Microsoft/EMDocs-pr/blob/cfc9add16948b8636ea6a61ea44a790c9fdff2d9/license.md) | Ignored | [Details](#809238560522a73c05e57b9f5b6637c224245927382)
  [README.md](https://github.com/Microsoft/EMDocs-pr/blob/cfc9add16948b8636ea6a61ea44a790c9fdff2d9/README.md) | Ignored | [Details](#8b38ac1bf813dc8840b1522ce23fddf8de3997c3383)
  [template.md](https://github.com/Microsoft/EMDocs-pr/blob/cfc9add16948b8636ea6a61ea44a790c9fdff2d9/template.md) | Ignored | [Details](#e6106b0b5a5aa1039f7cbf5a35589216c5e540f3384)
@@ -4518,19 +4518,16 @@
 * Handback Datetime: 2016-05-03 13:41:54
 * [Back to Top](#report-top)
 
-##### <a name='62208574cadac312cdd414900b02c3a2244b7852329'></a> Source: [EMDocs\Solutions\TOC.md](https://github.com/Microsoft/EMDocs-pr/blob/d5dc5088057d46b2e6bbf4f6af79c68b49a83d6b/EMDocs/Solutions/TOC.md)
-* Status: OutofSyncHandedBackSuccess
+##### <a name='2c5defa4889e23cce4a2081b463c2e5ec530c2cb329'></a> Source: [EMDocs\Solutions\TOC.md](https://github.com/Microsoft/EMDocs-pr/blob/cfc9add16948b8636ea6a61ea44a790c9fdff2d9/EMDocs/Solutions/TOC.md)
+* Status: Ignored
 * Target File: 
-* Handoff File: [TOC.e29f8b07f05eb535130e3e140ad0aff9a4134726.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/05d03aa5de8aee162bea71ed881714edb8c9cb32/ol-handoff/Microsoft/EMDocs-pr.it-it/master/TOC.e29f8b07f05eb535130e3e140ad0aff9a4134726.it-it.xlf)
-* Handoff Datetime: 2016-06-17 17:00:48
-* Handoff Reason: Include
+* Handoff File: 
+* Handoff Datetime: 0001-01-01 00:00:00
+* Handoff Reason: Ignored
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [EMDocs\Solutions\TOC.md](https://github.com/Microsoft/EMDocs-pr.it-it/blob/0d59bf1179061a871c6516dedc41c677c3fa2ec1/EMDocs/Solutions/TOC.md)
-* Current Handback File: [TOC.e29f8b07f05eb535130e3e140ad0aff9a4134726.it-it.xlf](https://github.com/Microsoft/EM.handback/blob/4cca3e5310f327e8069cb15ee6dcedd72fa95a1d/ol-handback/Microsoft/EMDocs-pr.it-it/master/TOC.e29f8b07f05eb535130e3e140ad0aff9a4134726.it-it.xlf)
-* Current Handback Datetime: 2016-05-26 17:28:16
 * [Back to Top](#report-top)
 
 ##### <a name='22bb62ab2ba5d0c3f36cccbb0a12b3a8cab8e609330'></a> Source: [EMDocs\subscription-might-include-downloadable-software.md](https://github.com/Microsoft/EMDocs-pr/blob/7ba1b97328f25203cbdfd86c654337cc0e2c7ab3/EMDocs/subscription-might-include-downloadable-software.md)
