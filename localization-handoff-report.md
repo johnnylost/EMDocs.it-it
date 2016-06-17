@@ -6,19 +6,22 @@
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [EMDocs\subscription-might-include-downloadable-software.md](https://github.com/Microsoft/EMDocs-pr/blob/7ba1b97328f25203cbdfd86c654337cc0e2c7ab3/EMDocs/subscription-might-include-downloadable-software.md) | HandedOffSuccess | [Details](#22bb62ab2ba5d0c3f36cccbb0a12b3a8cab8e609330)
+ [EMDocs\Solutions\TOC.md](https://github.com/Microsoft/EMDocs-pr/blob/d5dc5088057d46b2e6bbf4f6af79c68b49a83d6b/EMDocs/Solutions/TOC.md) | OutofSyncHandedBackSuccess | [Details](#62208574cadac312cdd414900b02c3a2244b7852329)
 
 ## Item Details
-##### <a name='22bb62ab2ba5d0c3f36cccbb0a12b3a8cab8e609330'></a> Source: [EMDocs\subscription-might-include-downloadable-software.md](https://github.com/Microsoft/EMDocs-pr/blob/7ba1b97328f25203cbdfd86c654337cc0e2c7ab3/EMDocs/subscription-might-include-downloadable-software.md)
-* Status: HandedOffSuccess
+##### <a name='62208574cadac312cdd414900b02c3a2244b7852329'></a> Source: [EMDocs\Solutions\TOC.md](https://github.com/Microsoft/EMDocs-pr/blob/d5dc5088057d46b2e6bbf4f6af79c68b49a83d6b/EMDocs/Solutions/TOC.md)
+* Status: OutofSyncHandedBackSuccess
 * Target File: 
-* Handoff File: [subscription-might-include-downloadable-software.b76f8a50c3b251f698496d464fbc73275ec9ff8e.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/5b00d7da541783d379b8309e8805496641664264/ol-handoff/Microsoft/EMDocs-pr.it-it/master/subscription-might-include-downloadable-software.b76f8a50c3b251f698496d464fbc73275ec9ff8e.it-it.xlf)
-* Handoff Datetime: 2016-06-16 22:17:54
+* Handoff File: [TOC.e29f8b07f05eb535130e3e140ad0aff9a4134726.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/05d03aa5de8aee162bea71ed881714edb8c9cb32/ol-handoff/Microsoft/EMDocs-pr.it-it/master/TOC.e29f8b07f05eb535130e3e140ad0aff9a4134726.it-it.xlf)
+* Handoff Datetime: 2016-06-17 17:00:48
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
+* Current Target File: [EMDocs\Solutions\TOC.md](https://github.com/Microsoft/EMDocs-pr.it-it/blob/0d59bf1179061a871c6516dedc41c677c3fa2ec1/EMDocs/Solutions/TOC.md)
+* Current Handback File: [TOC.e29f8b07f05eb535130e3e140ad0aff9a4134726.it-it.xlf](https://github.com/Microsoft/EM.handback/blob/4cca3e5310f327e8069cb15ee6dcedd72fa95a1d/ol-handback/Microsoft/EMDocs-pr.it-it/master/TOC.e29f8b07f05eb535130e3e140ad0aff9a4134726.it-it.xlf)
+* Current Handback Datetime: 2016-05-26 17:28:16
 * [Back to Top](#report-top)
 
 
