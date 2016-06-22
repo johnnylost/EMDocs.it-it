@@ -1,5 +1,5 @@
 {
-  "LastProcessedCommit": "fcaea93bcdc3480cd0bdbc187b52fb3cc1c45132",
+  "LastProcessedCommit": "ce67c35911ce822c9e34a97e83b13d86c307a7ad",
   "LastTranslatedCommit": "df98de9f5bca303b42219a42838e339b8e01334c",
   "Items": {
     "da63fda594055f3647cc04e6954675a9558776db": {
@@ -32549,6 +32549,40 @@
       "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.it-it\\master\\TOC.e29f8b07f05eb535130e3e140ad0aff9a4134726.it-it.xlf",
       "HandoffFileCommit": "9dcd9866c102a888f7d14746d6d2dcd5ccb2e136",
       "HandoffDateTime": "2016-06-22T00:48:11.7657707Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null,
+      "BilingualFilePath": null,
+      "BilingualFileCommit": null,
+      "BilingualDateTime": "0001-01-01T00:00:00",
+      "BilingualException": null
+    },
+    "4ec52ecc73c4e76f3712050e37dbe42205b1f693": {
+      "FileHash": "4ec52ecc73c4e76f3712050e37dbe42205b1f693",
+      "SourceFileCommit": "ce67c35911ce822c9e34a97e83b13d86c307a7ad",
+      "SourceFilePath": "EMDocs\\Solutions\\TOC.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "EMDocs\\Solutions\\TOC.md"
+      ],
+      "HasMetadata": false,
+      "HandoffFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.it-it\\master\\TOC.e29f8b07f05eb535130e3e140ad0aff9a4134726.it-it.xlf",
+      "HandoffFileCommit": "df037f434589e3afd96ef48e5f97db41fc0db49b",
+      "HandoffDateTime": "2016-06-22T03:18:51.8420017Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
