@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Passaggio 4: Piano per la gestione dei dispositivi mobili SaaS (Software as a Service)
+title: "Passaggio 4: Piano per la gestione dei dispositivi mobili SaaS (Software as a Service)"
 description:
 keywords:
 author: robmazz

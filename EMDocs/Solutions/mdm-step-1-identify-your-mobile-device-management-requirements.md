@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Passaggio 1: Identificare i requisiti di gestione dei dispositivi mobili
+title: "Passaggio 1: Identificare i requisiti di gestione dei dispositivi mobili"
 description:
 keywords:
 author: YuriDio

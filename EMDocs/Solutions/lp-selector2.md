@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Opzione 2: Procedura di creazione dei selettori
+title: "Opzione 2: Procedura di creazione dei selettori"
 description:
 keywords:
 author: 
