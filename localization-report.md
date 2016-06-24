@@ -9,8 +9,8 @@
 [ Archive Failed Files ](#archive-failed-list)| 0
 [ Archive Success Files ](#archive-success-list)| 0
 [ Handback Failed Files ](#handback-failed-list)| 0
-[ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 15
-[ In Sync Handback Files ](#insync-handback-success-list)| 124
+[ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 14
+[ In Sync Handback Files ](#insync-handback-success-list)| 125
 [ Ignored Files ](#ignored-list)| 137
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
@@ -140,7 +140,6 @@
  [contributor-guide\article-metadata.md](https://github.com/Microsoft/EMDocs-pr/blob/7d45a824cab9ab82e6abc62c1a4dfa170add953a/contributor-guide/article-metadata.md) | OutofSyncHandedBackSuccess | [Details](#bd870713d29cfef3d07c2650bd0ba668fe94a52e5)
  [contributor-guide\content-channel-guidance.md](https://github.com/Microsoft/EMDocs-pr/blob/7d45a824cab9ab82e6abc62c1a4dfa170add953a/contributor-guide/content-channel-guidance.md) | OutofSyncHandedBackSuccess | [Details](#ba1e846d4ce3029f3315fbbc381bf45544e010607)
  [contributor-guide\custom-markdown-extensions.md](https://github.com/Microsoft/EMDocs-pr/blob/7d45a824cab9ab82e6abc62c1a4dfa170add953a/contributor-guide/custom-markdown-extensions.md) | OutofSyncHandedBackSuccess | [Details](#c274ae4daf071245387599772945067b03dd9d8210)
- [EMDocs\index.md](https://github.com/Microsoft/EMDocs-pr/blob/e10a2cb8001935d27c54689230385528df9c8caf/EMDocs/index.md) | OutofSyncHandedBackSuccess | [Details](#2086870cbad8d5981f461793857cb62f49ce230b59)
  [EMDocs\Solutions\mdm-application-management-options.md](https://github.com/Microsoft/EMDocs-pr/blob/73c37109735567642ff1dc11f9729e3ab3affd3b/EMDocs/Solutions/mdm-application-management-options.md) | OutofSyncHandedBackSuccess | [Details](#2d8c4371a06ab1e006083f91f814028573b46141101)
  [EMDocs\Solutions\mdm-develop-saas-mdm-strategy.md](https://github.com/Microsoft/EMDocs-pr/blob/73c37109735567642ff1dc11f9729e3ab3affd3b/EMDocs/Solutions/mdm-develop-saas-mdm-strategy.md) | OutofSyncHandedBackSuccess | [Details](#91d1498db006b387ff524b2b26c715c3a109dd8a112)
  [EMDocs\Solutions\mdm-device-management-options.md](https://github.com/Microsoft/EMDocs-pr/blob/73c37109735567642ff1dc11f9729e3ab3affd3b/EMDocs/Solutions/mdm-device-management-options.md) | OutofSyncHandedBackSuccess | [Details](#ce1d66225043cafdfb0b7658b288e8e7855c24a1114)
@@ -164,6 +163,7 @@
  [contributor-guide\style-and-voice.md](https://github.com/Microsoft/EMDocs-pr/blob/faf6d07bb4d61ce1dc28b1ca15aa7b298e74074b/contributor-guide/style-and-voice.md) | InSyncHandedBackSuccess | [Details](#887b1294b2e63998084a5598858aad0c4469cd6d42)
  [contributor-guide\tools-and-setup.md](https://github.com/Microsoft/EMDocs-pr/blob/faf6d07bb4d61ce1dc28b1ca15aa7b298e74074b/contributor-guide/tools-and-setup.md) | InSyncHandedBackSuccess | [Details](#24edd27bbe1280c3401eaa78e6ed88d1758d82f243)
  [contributor-guide\work-with-git.md](https://github.com/Microsoft/EMDocs-pr/blob/faf6d07bb4d61ce1dc28b1ca15aa7b298e74074b/contributor-guide/work-with-git.md) | InSyncHandedBackSuccess | [Details](#66931315b777c7f7659088ca00eea24db16b8e4f44)
+ [EMDocs\index.md](https://github.com/Microsoft/EMDocs-pr/blob/e10a2cb8001935d27c54689230385528df9c8caf/EMDocs/index.md) | InSyncHandedBackSuccess | [Details](#2086870cbad8d5981f461793857cb62f49ce230b59)
  [EMDocs\Solutions\architecture-guidance-for-protecting-company-email-and-documents.md](https://github.com/Microsoft/EMDocs-pr/blob/5f1c98cc916bee9bb83249a16a52a5fdd3810142/EMDocs/Solutions/architecture-guidance-for-protecting-company-email-and-documents.md) | InSyncHandedBackSuccess | [Details](#aaf8e9c07d87798d4945ff3156ac8425a49b1d3961)
  [EMDocs\Solutions\byod-app-considerations.md](https://github.com/Microsoft/EMDocs-pr/blob/d43860e838a40de05bdec73b00b6721ee634d7e5/EMDocs/Solutions/byod-app-considerations.md) | InSyncHandedBackSuccess | [Details](#8bbc91330f63b38b7f9b9c0578385701a4293edb62)
  [EMDocs\Solutions\byod-app-reqs.md](https://github.com/Microsoft/EMDocs-pr/blob/7585b9924aabd63114657a99552af9b3e47b0a80/EMDocs/Solutions/byod-app-reqs.md) | InSyncHandedBackSuccess | [Details](#a6a4a73495776c85a5288791a835d065460a928e63)
@@ -1160,18 +1160,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='2086870cbad8d5981f461793857cb62f49ce230b59'></a> Source: [EMDocs\index.md](https://github.com/Microsoft/EMDocs-pr/blob/e10a2cb8001935d27c54689230385528df9c8caf/EMDocs/index.md)
-* Status: OutofSyncHandedBackSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [EMDocs\index.md](https://github.com/Microsoft/EMDocs-pr.it-it/blob/19fb5a9293061dfdff2a1fc54d7d7d82a7698bf8/EMDocs/index.md)
 * Handoff File: [index.5016e8f1c9a2569dc2c08f69089f31e31bac8b3d.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/88b947cc0d3056d52b1e3d177e01cba87bc25ab5/ol-handoff/Microsoft/EMDocs-pr.it-it/master/index.5016e8f1c9a2569dc2c08f69089f31e31bac8b3d.it-it.xlf)
 * Handoff Datetime: 2016-06-23 18:19:54
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [EMDocs\index.md](https://github.com/Microsoft/EMDocs-pr.it-it/blob/a5087f5f1eab6dd6662529a8ebceff17ecfcb7e3/EMDocs/index.md)
-* Current Handback File: [index.5016e8f1c9a2569dc2c08f69089f31e31bac8b3d.it-it.xlf](https://github.com/Microsoft/EM.handback/blob/e978f053eb089a80057edce0fda04989823880d4/ol-handback/Microsoft/EMDocs-pr.it-it/master/index.5016e8f1c9a2569dc2c08f69089f31e31bac8b3d.it-it.xlf)
-* Current Handback Datetime: 2016-06-02 23:23:36
+* Handback File: [index.5016e8f1c9a2569dc2c08f69089f31e31bac8b3d.it-it.xlf](https://github.com/Microsoft/EM.handback/blob/795fb3fb6298d5b0eda23f0a2281fc9468de517c/ol-handback/Microsoft/EMDocs-pr.it-it/master/index.5016e8f1c9a2569dc2c08f69089f31e31bac8b3d.it-it.xlf)
+* Handback Datetime: 2016-06-24 16:43:41
 * [Back to Top](#report-top)
 
 ##### <a name='755db60abb7859af5065e2c5ddfbfc6cfb7aeeda60'></a> Source: [EMDocs\md.style](https://github.com/Microsoft/EMDocs-pr/blob/2bb2cb00e74cfbd9954dc5bb2e23ae3caad22f11/EMDocs/md.style)
