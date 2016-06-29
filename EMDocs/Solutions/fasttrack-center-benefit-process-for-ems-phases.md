@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Processo FastTrack Center Benefit per Enterprise Mobility Suite: fasi
+title: "Processo FastTrack Center Benefit per Enterprise Mobility Suite: fasi"
 description:
 keywords:
 author: staciebarker

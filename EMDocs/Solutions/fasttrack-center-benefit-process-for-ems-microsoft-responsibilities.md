@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Processo FastTrack Center Benefit per Enterprise Mobility Suite: responsabilità di Microsoft
+title: "Processo FastTrack Center Benefit per Enterprise Mobility Suite: responsabilità di Microsoft"
 description:
 keywords:
 author: staciebarker

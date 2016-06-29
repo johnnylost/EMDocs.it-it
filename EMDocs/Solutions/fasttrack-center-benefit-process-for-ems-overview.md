@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Processo FastTrack Center Benefit per Enterprise Mobility Suite: panoramica
+title: "Processo FastTrack Center Benefit per Enterprise Mobility Suite: panoramica"
 description:
 keywords:
 author: staciebarker

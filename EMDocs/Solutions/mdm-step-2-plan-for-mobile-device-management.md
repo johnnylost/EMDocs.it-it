@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Passaggio 2: Preparare la gestione dei dispositivi mobili
+title: "Passaggio 2: Preparare la gestione dei dispositivi mobili"
 description:
 keywords:
 author: robmazz

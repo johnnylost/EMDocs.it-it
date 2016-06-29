@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Processo FastTrack Center Benefit per Enterprise Mobility Suite: requisiti dell'ambiente di origine
+title: "Processo FastTrack Center Benefit per Enterprise Mobility Suite: requisiti dell'ambiente di origine"
 description:
 keywords:
 author: staciebarker
