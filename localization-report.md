@@ -1838,9 +1838,9 @@
 * Archive Datetime: 2016-06-02 00:23:04
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [EMDocs\Solutions\mdm-develop-saas-mdm-strategy.md](https://github.com/Microsoft/EMDocs-pr.it-it/blob/2ec45084606e21c30bded9871953ebdbb0fefdd1/EMDocs/Solutions/mdm-develop-saas-mdm-strategy.md)
-* Current Handback File: [mdm-develop-saas-mdm-strategy.539340dc90dc0987bc97cb083760cc2e0e570a88.it-it.xlf](https://github.com/Microsoft/EM.handback/blob/89f3ba0239b067b6ab96048d85cc0e0731f06b9c/ol-handback/Microsoft/EMDocs-pr.it-it/master/mdm-develop-saas-mdm-strategy.539340dc90dc0987bc97cb083760cc2e0e570a88.it-it.xlf)
-* Current Handback Datetime: 2016-05-03 13:41:54
+* Current Target File: [EMDocs\Solutions\mdm-develop-saas-mdm-strategy.md](https://github.com/Microsoft/EMDocs-pr.it-it/blob/cee1a65b63ed2f5ff403e3c4c8b0785e14996359/EMDocs/Solutions/mdm-develop-saas-mdm-strategy.md)
+* Current Handback File: [mdm-develop-saas-mdm-strategy.539340dc90dc0987bc97cb083760cc2e0e570a88.it-it.xlf](https://github.com/Microsoft/EM.handback/blob/b4bde782de2ade422ad57aee5adb7b254be842bd/ol-handback/Microsoft/EMDocs-pr.it-it/master/mdm-develop-saas-mdm-strategy.539340dc90dc0987bc97cb083760cc2e0e570a88.it-it.xlf)
+* Current Handback Datetime: 2016-06-30 19:37:17
 * [Back to Top](#report-top)
 
 ##### <a name='90604329992f8ecb881ac1b83358af16de5b65cb113'></a> Source: [EMDocs\Solutions\mdm-device-enrollment-options.md](https://github.com/Microsoft/EMDocs-pr/blob/a16e90093c7571f3c098ce815a2b70ae03c080e3/EMDocs/Solutions/mdm-device-enrollment-options.md)

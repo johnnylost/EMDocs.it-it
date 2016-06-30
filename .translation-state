@@ -1,6 +1,6 @@
 {
   "LastProcessedCommit": "f60fd3c515a3951663c50628ef6bcdfd21ac8942",
-  "LastTranslatedCommit": "19fb5a9293061dfdff2a1fc54d7d7d82a7698bf8",
+  "LastTranslatedCommit": "cee1a65b63ed2f5ff403e3c4c8b0785e14996359",
   "Items": {
     "da63fda594055f3647cc04e6954675a9558776db": {
       "FileHash": "da63fda594055f3647cc04e6954675a9558776db",
@@ -26505,14 +26505,14 @@
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
-      "TargetFileCommit": "2ec45084606e21c30bded9871953ebdbb0fefdd1",
+      "TargetFileCommit": "cee1a65b63ed2f5ff403e3c4c8b0785e14996359",
       "TargetFilePath": "EMDocs\\Solutions\\mdm-develop-saas-mdm-strategy.md",
       "HandbackFilePath": "ol-handback\\Microsoft\\EMDocs-pr.it-it\\master\\mdm-develop-saas-mdm-strategy.539340dc90dc0987bc97cb083760cc2e0e570a88.it-it.xlf",
-      "HandbackFileCommit": "89f3ba0239b067b6ab96048d85cc0e0731f06b9c",
-      "HandbackDateTime": "2016-05-03T13:41:54.0023923Z",
+      "HandbackFileCommit": "b4bde782de2ade422ad57aee5adb7b254be842bd",
+      "HandbackDateTime": "2016-06-30T19:37:17.6144897Z",
       "HandbackException": null,
       "HandbackFailureTimes": 0,
-      "UpdatedDateTime": "2016-05-03T13:41:54.0023923Z",
+      "UpdatedDateTime": "2016-06-30T19:37:17.6144897Z",
       "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.it-it\\master\\archive\\mdm-develop-saas-mdm-strategy.539340dc90dc0987bc97cb083760cc2e0e570a88.it-it.xlf",
       "ArchiveFileCommit": "4621fe52df8841d9eb87e103142cef54dc982cf2",
       "ArchiveFileDateTime": "2016-04-15T08:40:35.8631107Z",
