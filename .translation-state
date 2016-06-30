@@ -1,6 +1,6 @@
 {
   "LastProcessedCommit": "f60fd3c515a3951663c50628ef6bcdfd21ac8942",
-  "LastTranslatedCommit": "cee1a65b63ed2f5ff403e3c4c8b0785e14996359",
+  "LastTranslatedCommit": "8bd449afbc4cdba6c138964eb09d3350aa57333b",
   "Items": {
     "da63fda594055f3647cc04e6954675a9558776db": {
       "FileHash": "da63fda594055f3647cc04e6954675a9558776db",
@@ -32343,14 +32343,14 @@
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
-      "TargetFileCommit": null,
-      "TargetFilePath": null,
-      "HandbackFilePath": null,
-      "HandbackFileCommit": null,
-      "HandbackDateTime": "0001-01-01T00:00:00",
+      "TargetFileCommit": "8bd449afbc4cdba6c138964eb09d3350aa57333b",
+      "TargetFilePath": "EMDocs\\Solutions\\mdm-application-management-options.md",
+      "HandbackFilePath": "ol-handback\\Microsoft\\EMDocs-pr.it-it\\master\\mdm-application-management-options.fd32765af405835db10f98e606f1073e4877a80b.it-it.xlf",
+      "HandbackFileCommit": "37bddd254fadd7b530ef0237c8d005b5e994996e",
+      "HandbackDateTime": "2016-06-30T23:03:23.1271998Z",
       "HandbackException": null,
       "HandbackFailureTimes": 0,
-      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "UpdatedDateTime": "2016-06-30T23:03:23.1271998Z",
       "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.it-it\\master\\archive\\mdm-application-management-options.fd32765af405835db10f98e606f1073e4877a80b.it-it.xlf",
       "ArchiveFileCommit": "645e301137d272ebfbe0fa4dccf16ecb2f33e3f2",
       "ArchiveFileDateTime": "2016-06-02T00:23:04.4585906Z",

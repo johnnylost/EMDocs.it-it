@@ -1,11 +1,26 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 0
+ Total Files | 1
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [EMDocs\Solutions\mdm-application-management-options.md](https://github.com/Microsoft/EMDocs-pr/blob/73c37109735567642ff1dc11f9729e3ab3affd3b/EMDocs/Solutions/mdm-application-management-options.md) | InSyncHandedBackSuccess | [Details](#2d8c4371a06ab1e006083f91f814028573b46141101)
 
 ## Item Details
+##### <a name='2d8c4371a06ab1e006083f91f814028573b46141101'></a> Source: [EMDocs\Solutions\mdm-application-management-options.md](https://github.com/Microsoft/EMDocs-pr/blob/73c37109735567642ff1dc11f9729e3ab3affd3b/EMDocs/Solutions/mdm-application-management-options.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [EMDocs\Solutions\mdm-application-management-options.md](https://github.com/Microsoft/EMDocs-pr.it-it/blob/8bd449afbc4cdba6c138964eb09d3350aa57333b/EMDocs/Solutions/mdm-application-management-options.md)
+* Handoff File: [mdm-application-management-options.fd32765af405835db10f98e606f1073e4877a80b.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/9cf87a147b045553d416d09b5bc09438f05b9041/ol-handoff/Microsoft/EMDocs-pr.it-it/master/mdm-application-management-options.fd32765af405835db10f98e606f1073e4877a80b.it-it.xlf)
+* Handoff Datetime: 2016-06-01 22:45:38
+* Handoff Reason: Include
+* Archive File: [mdm-application-management-options.fd32765af405835db10f98e606f1073e4877a80b.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/645e301137d272ebfbe0fa4dccf16ecb2f33e3f2/ol-handoff/Microsoft/EMDocs-pr.it-it/master/archive/mdm-application-management-options.fd32765af405835db10f98e606f1073e4877a80b.it-it.xlf)
+* Archive Datetime: 2016-06-02 00:23:04
+* Handback File: [mdm-application-management-options.fd32765af405835db10f98e606f1073e4877a80b.it-it.xlf](https://github.com/Microsoft/EM.handback/blob/37bddd254fadd7b530ef0237c8d005b5e994996e/ol-handback/Microsoft/EMDocs-pr.it-it/master/mdm-application-management-options.fd32765af405835db10f98e606f1073e4877a80b.it-it.xlf)
+* Handback Datetime: 2016-06-30 23:03:23
+* [Back to Top](#report-top)
+
 
 ## Error Details
 

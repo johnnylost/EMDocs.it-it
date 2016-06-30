@@ -9,8 +9,8 @@
 [ Archive Failed Files ](#archive-failed-list)| 0
 [ Archive Success Files ](#archive-success-list)| 0
 [ Handback Failed Files ](#handback-failed-list)| 0
-[ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 131
-[ In Sync Handback Files ](#insync-handback-success-list)| 8
+[ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 130
+[ In Sync Handback Files ](#insync-handback-success-list)| 9
 [ Ignored Files ](#ignored-list)| 137
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
@@ -179,7 +179,6 @@
  [EMDocs\Solutions\lp-selector1.md](https://github.com/Microsoft/EMDocs-pr/blob/d43860e838a40de05bdec73b00b6721ee634d7e5/EMDocs/Solutions/lp-selector1.md) | OutofSyncHandedBackSuccess | [Details](#09287f291cab2a6e4474751c8e59d6a76c0ccaec96)
  [EMDocs\Solutions\lp-selector2.md](https://github.com/Microsoft/EMDocs-pr/blob/d43860e838a40de05bdec73b00b6721ee634d7e5/EMDocs/Solutions/lp-selector2.md) | OutofSyncHandedBackSuccess | [Details](#669c4652255c8fd5c27dfd4a7822032c922efb8b97)
  [EMDocs\Solutions\mdm-access-control-resources.md](https://github.com/Microsoft/EMDocs-pr/blob/a16e90093c7571f3c098ce815a2b70ae03c080e3/EMDocs/Solutions/mdm-access-control-resources.md) | OutofSyncHandedBackSuccess | [Details](#35a01a69e89762da314905c58a4868c6443d32e8100)
- [EMDocs\Solutions\mdm-application-management-options.md](https://github.com/Microsoft/EMDocs-pr/blob/73c37109735567642ff1dc11f9729e3ab3affd3b/EMDocs/Solutions/mdm-application-management-options.md) | OutofSyncHandedBackSuccess | [Details](#2d8c4371a06ab1e006083f91f814028573b46141101)
  [EMDocs\Solutions\mdm-authentication-authorization.md](https://github.com/Microsoft/EMDocs-pr/blob/d43860e838a40de05bdec73b00b6721ee634d7e5/EMDocs/Solutions/mdm-authentication-authorization.md) | OutofSyncHandedBackSuccess | [Details](#65c01f8fe084446d1635eee20d130d4de0c8f7f9102)
  [EMDocs\Solutions\mdm-certificate-management-options.md](https://github.com/Microsoft/EMDocs-pr/blob/a16e90093c7571f3c098ce815a2b70ae03c080e3/EMDocs/Solutions/mdm-certificate-management-options.md) | OutofSyncHandedBackSuccess | [Details](#fed75819dbc13755b5ef28cbe3abe008d46c8473103)
  [EMDocs\Solutions\mdm-client-privacy.md](https://github.com/Microsoft/EMDocs-pr/blob/d43860e838a40de05bdec73b00b6721ee634d7e5/EMDocs/Solutions/mdm-client-privacy.md) | OutofSyncHandedBackSuccess | [Details](#f21804685d123161b83ba6ba1d4ffe2ad457bded104)
@@ -280,6 +279,7 @@
  [contributor-guide\style-and-voice.md](https://github.com/Microsoft/EMDocs-pr/blob/faf6d07bb4d61ce1dc28b1ca15aa7b298e74074b/contributor-guide/style-and-voice.md) | InSyncHandedBackSuccess | [Details](#887b1294b2e63998084a5598858aad0c4469cd6d42)
  [contributor-guide\tools-and-setup.md](https://github.com/Microsoft/EMDocs-pr/blob/faf6d07bb4d61ce1dc28b1ca15aa7b298e74074b/contributor-guide/tools-and-setup.md) | InSyncHandedBackSuccess | [Details](#24edd27bbe1280c3401eaa78e6ed88d1758d82f243)
  [contributor-guide\work-with-git.md](https://github.com/Microsoft/EMDocs-pr/blob/faf6d07bb4d61ce1dc28b1ca15aa7b298e74074b/contributor-guide/work-with-git.md) | InSyncHandedBackSuccess | [Details](#66931315b777c7f7659088ca00eea24db16b8e4f44)
+ [EMDocs\Solutions\mdm-application-management-options.md](https://github.com/Microsoft/EMDocs-pr/blob/73c37109735567642ff1dc11f9729e3ab3affd3b/EMDocs/Solutions/mdm-application-management-options.md) | InSyncHandedBackSuccess | [Details](#2d8c4371a06ab1e006083f91f814028573b46141101)
 
 ## <a name='ignored-list'></a> Ignored File List
  Source File | Status | Details 
@@ -1685,18 +1685,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='2d8c4371a06ab1e006083f91f814028573b46141101'></a> Source: [EMDocs\Solutions\mdm-application-management-options.md](https://github.com/Microsoft/EMDocs-pr/blob/73c37109735567642ff1dc11f9729e3ab3affd3b/EMDocs/Solutions/mdm-application-management-options.md)
-* Status: OutofSyncHandedBackSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [EMDocs\Solutions\mdm-application-management-options.md](https://github.com/Microsoft/EMDocs-pr.it-it/blob/8bd449afbc4cdba6c138964eb09d3350aa57333b/EMDocs/Solutions/mdm-application-management-options.md)
 * Handoff File: [mdm-application-management-options.fd32765af405835db10f98e606f1073e4877a80b.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/9cf87a147b045553d416d09b5bc09438f05b9041/ol-handoff/Microsoft/EMDocs-pr.it-it/master/mdm-application-management-options.fd32765af405835db10f98e606f1073e4877a80b.it-it.xlf)
 * Handoff Datetime: 2016-06-01 22:45:38
 * Handoff Reason: Include
 * Archive File: [mdm-application-management-options.fd32765af405835db10f98e606f1073e4877a80b.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/645e301137d272ebfbe0fa4dccf16ecb2f33e3f2/ol-handoff/Microsoft/EMDocs-pr.it-it/master/archive/mdm-application-management-options.fd32765af405835db10f98e606f1073e4877a80b.it-it.xlf)
 * Archive Datetime: 2016-06-02 00:23:04
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [EMDocs\Solutions\mdm-application-management-options.md](https://github.com/Microsoft/EMDocs-pr.it-it/blob/2ec45084606e21c30bded9871953ebdbb0fefdd1/EMDocs/Solutions/mdm-application-management-options.md)
-* Current Handback File: [mdm-application-management-options.fd32765af405835db10f98e606f1073e4877a80b.it-it.xlf](https://github.com/Microsoft/EM.handback/blob/89f3ba0239b067b6ab96048d85cc0e0731f06b9c/ol-handback/Microsoft/EMDocs-pr.it-it/master/mdm-application-management-options.fd32765af405835db10f98e606f1073e4877a80b.it-it.xlf)
-* Current Handback Datetime: 2016-05-03 13:41:54
+* Handback File: [mdm-application-management-options.fd32765af405835db10f98e606f1073e4877a80b.it-it.xlf](https://github.com/Microsoft/EM.handback/blob/37bddd254fadd7b530ef0237c8d005b5e994996e/ol-handback/Microsoft/EMDocs-pr.it-it/master/mdm-application-management-options.fd32765af405835db10f98e606f1073e4877a80b.it-it.xlf)
+* Handback Datetime: 2016-06-30 23:03:23
 * [Back to Top](#report-top)
 
 ##### <a name='65c01f8fe084446d1635eee20d130d4de0c8f7f9102'></a> Source: [EMDocs\Solutions\mdm-authentication-authorization.md](https://github.com/Microsoft/EMDocs-pr/blob/d43860e838a40de05bdec73b00b6721ee634d7e5/EMDocs/Solutions/mdm-authentication-authorization.md)
