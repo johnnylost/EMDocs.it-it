@@ -1,6 +1,6 @@
 {
   "LastProcessedCommit": "7188a091b71f192b148493beaba95e276cd93db1",
-  "LastTranslatedCommit": "d346be59f296d324bd54a371b8e654d6bee826a7",
+  "LastTranslatedCommit": "7604042adb7016c633e5d0a8c432da2fb4ab66cc",
   "Items": {
     "da63fda594055f3647cc04e6954675a9558776db": {
       "FileHash": "da63fda594055f3647cc04e6954675a9558776db",
@@ -2951,14 +2951,14 @@
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
-      "TargetFileCommit": "be37369c9679a50ceba11049eb97396ff8add2b5",
+      "TargetFileCommit": "7604042adb7016c633e5d0a8c432da2fb4ab66cc",
       "TargetFilePath": "EMDocs\\Token\\Microsoft-Intune.md",
       "HandbackFilePath": "ol-handback\\Microsoft\\EMDocs-pr.it-it\\master\\Microsoft-Intune.88fcb267052b215dff67c9006e75b415140f2fec.it-it.xlf",
-      "HandbackFileCommit": "70491d6509fbb27690388474c0b14a96eb8cd068",
-      "HandbackDateTime": "2016-04-19T01:38:36.4014277Z",
+      "HandbackFileCommit": "24c5f8e8b0c2a8e8dfdb1fb5b4bb059bb9e61a26",
+      "HandbackDateTime": "2016-07-02T18:09:16.9597482Z",
       "HandbackException": null,
       "HandbackFailureTimes": 0,
-      "UpdatedDateTime": "2016-04-19T01:38:36.4014277Z",
+      "UpdatedDateTime": "2016-07-02T18:09:16.9597482Z",
       "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.it-it\\master\\archive\\Microsoft-Intune.88fcb267052b215dff67c9006e75b415140f2fec.it-it.xlf",
       "ArchiveFileCommit": "31cd89741b6cb77d9ff9f9189ec91541115e5a07",
       "ArchiveFileDateTime": "2016-07-02T00:39:29.6932107Z",
