@@ -1,7 +1,7 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 10
+ Total Files | 9
 
 ## File List
  Source File | Status | Details 
@@ -15,7 +15,6 @@
  [EMDocs\Solutions\lp-selector2.md](https://github.com/Microsoft/EMDocs-pr/blob/d43860e838a40de05bdec73b00b6721ee634d7e5/EMDocs/Solutions/lp-selector2.md) | InSyncHandedBackSuccess | [Details](#669c4652255c8fd5c27dfd4a7822032c922efb8b98)
  [EMDocs\Solutions\mdm-step-1-identify-your-mobile-device-management-requirements.md](https://github.com/Microsoft/EMDocs-pr/blob/d43860e838a40de05bdec73b00b6721ee634d7e5/EMDocs/Solutions/mdm-step-1-identify-your-mobile-device-management-requirements.md) | InSyncHandedBackSuccess | [Details](#75179ab51b1c990aa612d74b494a2aef35a7c616133)
  [EMDocs\Solutions\mdm-step-2-plan-for-mobile-device-management.md](https://github.com/Microsoft/EMDocs-pr/blob/95eeb4decc5408d9f4f22cbb44f5bccc14968fb3/EMDocs/Solutions/mdm-step-2-plan-for-mobile-device-management.md) | HandedBackFailed | [Details](#f5223794a8dbb9a9318de90965fd01bd3e98bcaf134)
- [EMDocs\Solutions\mdm-understand-mdm-lifecycle.md](https://github.com/Microsoft/EMDocs-pr/blob/73c37109735567642ff1dc11f9729e3ab3affd3b/EMDocs/Solutions/mdm-understand-mdm-lifecycle.md) | InSyncHandedBackSuccess | [Details](#68a291a3b26d73f5300251e23bbd214378a5a312137)
 
 ## Item Details
 ##### <a name='5f1ab589594ccd846686e51612fe54f4ffd226b689'></a> Source: [EMDocs\Solutions\fasttrack-center-benefit-process-for-ems-environment-expectations.md](https://github.com/Microsoft/EMDocs-pr/blob/a92fcc56cea75adb6c3db4eeb197dba77d2b63b7/EMDocs/Solutions/fasttrack-center-benefit-process-for-ems-environment-expectations.md)
@@ -27,7 +26,7 @@
 * Archive File: [fasttrack-center-benefit-process-for-ems-environment-expectations.f302b9f171eccebb1a199bdb66392027790ffabb.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/31cd89741b6cb77d9ff9f9189ec91541115e5a07/ol-handoff/Microsoft/EMDocs-pr.it-it/master/archive/fasttrack-center-benefit-process-for-ems-environment-expectations.f302b9f171eccebb1a199bdb66392027790ffabb.it-it.xlf)
 * Archive Datetime: 2016-07-02 00:39:29
 * Handback File: [fasttrack-center-benefit-process-for-ems-environment-expectations.f302b9f171eccebb1a199bdb66392027790ffabb.it-it.xlf](https://github.com/Microsoft/EM.handback/blob/872d58a8981d059368c3e799efe5ec5d86ac45af/ol-handback/Microsoft/EMDocs-pr.it-it/master/fasttrack-center-benefit-process-for-ems-environment-expectations.f302b9f171eccebb1a199bdb66392027790ffabb.it-it.xlf)
-* Handback Datetime: 2016-07-02 11:28:36
+* Handback Datetime: 2016-07-02 11:41:50
 * Handback Error: [handback_transform_failed](#5f1ab589594ccd846686e51612fe54f4ffd226b689handback_transform_failed)
 * [Back to Top](#report-top)
 
@@ -40,7 +39,7 @@
 * Archive File: [fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.6090efa36a485414676b1fb6da1ddf93f37c5910.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/31cd89741b6cb77d9ff9f9189ec91541115e5a07/ol-handoff/Microsoft/EMDocs-pr.it-it/master/archive/fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.6090efa36a485414676b1fb6da1ddf93f37c5910.it-it.xlf)
 * Archive Datetime: 2016-07-02 00:39:29
 * Handback File: [fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.6090efa36a485414676b1fb6da1ddf93f37c5910.it-it.xlf](https://github.com/Microsoft/EM.handback/blob/872d58a8981d059368c3e799efe5ec5d86ac45af/ol-handback/Microsoft/EMDocs-pr.it-it/master/fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.6090efa36a485414676b1fb6da1ddf93f37c5910.it-it.xlf)
-* Handback Datetime: 2016-07-02 11:28:36
+* Handback Datetime: 2016-07-02 11:41:50
 * Handback Error: [handback_transform_failed](#59710c77266e9c20697012208bba5ee468ee0f3890handback_transform_failed)
 * [Back to Top](#report-top)
 
@@ -53,7 +52,7 @@
 * Archive File: [fasttrack-center-benefit-process-for-ems-overview.e956d51b6fcce58eb53dace8c29c2bafa286d254.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/31cd89741b6cb77d9ff9f9189ec91541115e5a07/ol-handoff/Microsoft/EMDocs-pr.it-it/master/archive/fasttrack-center-benefit-process-for-ems-overview.e956d51b6fcce58eb53dace8c29c2bafa286d254.it-it.xlf)
 * Archive Datetime: 2016-07-02 00:39:29
 * Handback File: [fasttrack-center-benefit-process-for-ems-overview.e956d51b6fcce58eb53dace8c29c2bafa286d254.it-it.xlf](https://github.com/Microsoft/EM.handback/blob/872d58a8981d059368c3e799efe5ec5d86ac45af/ol-handback/Microsoft/EMDocs-pr.it-it/master/fasttrack-center-benefit-process-for-ems-overview.e956d51b6fcce58eb53dace8c29c2bafa286d254.it-it.xlf)
-* Handback Datetime: 2016-07-02 11:28:36
+* Handback Datetime: 2016-07-02 11:41:50
 * Handback Error: [handback_transform_failed](#6d93a086bc86864d677327b37eaff39bdfd495fd91handback_transform_failed)
 * [Back to Top](#report-top)
 
@@ -66,7 +65,7 @@
 * Archive File: [fasttrack-center-benefit-process-for-ems-phases.fc223ce9feb08741b3340cf27c87d86b74dddef2.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/31cd89741b6cb77d9ff9f9189ec91541115e5a07/ol-handoff/Microsoft/EMDocs-pr.it-it/master/archive/fasttrack-center-benefit-process-for-ems-phases.fc223ce9feb08741b3340cf27c87d86b74dddef2.it-it.xlf)
 * Archive Datetime: 2016-07-02 00:39:29
 * Handback File: [fasttrack-center-benefit-process-for-ems-phases.fc223ce9feb08741b3340cf27c87d86b74dddef2.it-it.xlf](https://github.com/Microsoft/EM.handback/blob/872d58a8981d059368c3e799efe5ec5d86ac45af/ol-handback/Microsoft/EMDocs-pr.it-it/master/fasttrack-center-benefit-process-for-ems-phases.fc223ce9feb08741b3340cf27c87d86b74dddef2.it-it.xlf)
-* Handback Datetime: 2016-07-02 11:28:36
+* Handback Datetime: 2016-07-02 11:41:50
 * Handback Error: [handback_transform_failed](#7f89f613d40daf3472685d0bce12767f35ee65c892handback_transform_failed)
 * [Back to Top](#report-top)
 
@@ -79,7 +78,7 @@
 * Archive File: [fasttrack-center-benefit-process-for-ems-your-responsibilities.0fc5677407275aba8ab97a050557abd968b1230c.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/31cd89741b6cb77d9ff9f9189ec91541115e5a07/ol-handoff/Microsoft/EMDocs-pr.it-it/master/archive/fasttrack-center-benefit-process-for-ems-your-responsibilities.0fc5677407275aba8ab97a050557abd968b1230c.it-it.xlf)
 * Archive Datetime: 2016-07-02 00:39:29
 * Handback File: [fasttrack-center-benefit-process-for-ems-your-responsibilities.0fc5677407275aba8ab97a050557abd968b1230c.it-it.xlf](https://github.com/Microsoft/EM.handback/blob/872d58a8981d059368c3e799efe5ec5d86ac45af/ol-handback/Microsoft/EMDocs-pr.it-it/master/fasttrack-center-benefit-process-for-ems-your-responsibilities.0fc5677407275aba8ab97a050557abd968b1230c.it-it.xlf)
-* Handback Datetime: 2016-07-02 11:28:36
+* Handback Datetime: 2016-07-02 11:41:50
 * Handback Error: [handback_transform_failed](#2dd5e54fe1348cc23274afc735759c92fbf81e2893handback_transform_failed)
 * [Back to Top](#report-top)
 
@@ -92,7 +91,7 @@
 * Archive File: [lp-selector1.8693de3b6853e05ac4ce4a70e5fdcab83c864107.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/31cd89741b6cb77d9ff9f9189ec91541115e5a07/ol-handoff/Microsoft/EMDocs-pr.it-it/master/archive/lp-selector1.8693de3b6853e05ac4ce4a70e5fdcab83c864107.it-it.xlf)
 * Archive Datetime: 2016-07-02 00:39:29
 * Handback File: [lp-selector1.8693de3b6853e05ac4ce4a70e5fdcab83c864107.it-it.xlf](https://github.com/Microsoft/EM.handback/blob/872d58a8981d059368c3e799efe5ec5d86ac45af/ol-handback/Microsoft/EMDocs-pr.it-it/master/lp-selector1.8693de3b6853e05ac4ce4a70e5fdcab83c864107.it-it.xlf)
-* Handback Datetime: 2016-07-02 11:28:36
+* Handback Datetime: 2016-07-02 11:41:50
 * Handback Error: [handback_transform_failed](#09287f291cab2a6e4474751c8e59d6a76c0ccaec97handback_transform_failed)
 * [Back to Top](#report-top)
 
@@ -105,7 +104,7 @@
 * Archive File: [lp-selector2.72641c76e259d1ef2fb769e328fe20f73fe287b2.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/31cd89741b6cb77d9ff9f9189ec91541115e5a07/ol-handoff/Microsoft/EMDocs-pr.it-it/master/archive/lp-selector2.72641c76e259d1ef2fb769e328fe20f73fe287b2.it-it.xlf)
 * Archive Datetime: 2016-07-02 00:39:29
 * Handback File: [lp-selector2.72641c76e259d1ef2fb769e328fe20f73fe287b2.it-it.xlf](https://github.com/Microsoft/EM.handback/blob/872d58a8981d059368c3e799efe5ec5d86ac45af/ol-handback/Microsoft/EMDocs-pr.it-it/master/lp-selector2.72641c76e259d1ef2fb769e328fe20f73fe287b2.it-it.xlf)
-* Handback Datetime: 2016-07-02 11:28:36
+* Handback Datetime: 2016-07-02 11:41:50
 * Handback Error: [handback_transform_failed](#669c4652255c8fd5c27dfd4a7822032c922efb8b98handback_transform_failed)
 * [Back to Top](#report-top)
 
@@ -118,7 +117,7 @@
 * Archive File: [mdm-step-1-identify-your-mobile-device-management-requirements.f0e4033cec0b45abc377de9726de8ce3445ee6a3.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/31cd89741b6cb77d9ff9f9189ec91541115e5a07/ol-handoff/Microsoft/EMDocs-pr.it-it/master/archive/mdm-step-1-identify-your-mobile-device-management-requirements.f0e4033cec0b45abc377de9726de8ce3445ee6a3.it-it.xlf)
 * Archive Datetime: 2016-07-02 00:39:29
 * Handback File: [mdm-step-1-identify-your-mobile-device-management-requirements.f0e4033cec0b45abc377de9726de8ce3445ee6a3.it-it.xlf](https://github.com/Microsoft/EM.handback/blob/872d58a8981d059368c3e799efe5ec5d86ac45af/ol-handback/Microsoft/EMDocs-pr.it-it/master/mdm-step-1-identify-your-mobile-device-management-requirements.f0e4033cec0b45abc377de9726de8ce3445ee6a3.it-it.xlf)
-* Handback Datetime: 2016-07-02 11:28:36
+* Handback Datetime: 2016-07-02 11:41:50
 * Handback Error: [handback_transform_failed](#75179ab51b1c990aa612d74b494a2aef35a7c616133handback_transform_failed)
 * [Back to Top](#report-top)
 
@@ -133,18 +132,6 @@
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
 * Handback Error: [handback_transform_failed](#f5223794a8dbb9a9318de90965fd01bd3e98bcaf134handback_transform_failed)
-* [Back to Top](#report-top)
-
-##### <a name='68a291a3b26d73f5300251e23bbd214378a5a312137'></a> Source: [EMDocs\Solutions\mdm-understand-mdm-lifecycle.md](https://github.com/Microsoft/EMDocs-pr/blob/73c37109735567642ff1dc11f9729e3ab3affd3b/EMDocs/Solutions/mdm-understand-mdm-lifecycle.md)
-* Status: InSyncHandedBackSuccess
-* Target File: [EMDocs\Solutions\mdm-understand-mdm-lifecycle.md](https://github.com/Microsoft/EMDocs-pr.it-it/blob/9be1333860144be3e0cb18d7cd8a43d8d9f7ac7a/EMDocs/Solutions/mdm-understand-mdm-lifecycle.md)
-* Handoff File: [mdm-understand-mdm-lifecycle.e617b14feae36cb3710a6f1cffbfd2e8403f1c5a.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/b8557e927541baeeddd69b0fd7d684b0d3808e7c/ol-handoff/Microsoft/EMDocs-pr.it-it/master/mdm-understand-mdm-lifecycle.e617b14feae36cb3710a6f1cffbfd2e8403f1c5a.it-it.xlf)
-* Handoff Datetime: 2016-06-27 10:07:18
-* Handoff Reason: Include
-* Archive File: [mdm-understand-mdm-lifecycle.e617b14feae36cb3710a6f1cffbfd2e8403f1c5a.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/31cd89741b6cb77d9ff9f9189ec91541115e5a07/ol-handoff/Microsoft/EMDocs-pr.it-it/master/archive/mdm-understand-mdm-lifecycle.e617b14feae36cb3710a6f1cffbfd2e8403f1c5a.it-it.xlf)
-* Archive Datetime: 2016-07-02 00:39:29
-* Handback File: [mdm-understand-mdm-lifecycle.e617b14feae36cb3710a6f1cffbfd2e8403f1c5a.it-it.xlf](https://github.com/Microsoft/EM.handback/blob/22511a6c35fdeadd3585247ca99cad3a463cd2e9/ol-handback/Microsoft/EMDocs-pr.it-it/master/mdm-understand-mdm-lifecycle.e617b14feae36cb3710a6f1cffbfd2e8403f1c5a.it-it.xlf)
-* Handback Datetime: 2016-07-02 11:28:36
 * [Back to Top](#report-top)
 
 
