@@ -1,26 +1,11 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 1
+ Total Files | 0
 
 ## File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [EMDocs\Solutions\protect-corporate-email-documents.md](https://github.com/Microsoft/EMDocs-pr/blob/5f1c98cc916bee9bb83249a16a52a5fdd3810142/EMDocs/Solutions/protect-corporate-email-documents.md) | InSyncHandedBackSuccess | [Details](#5911fc980156316c3b2466dae78d72801bf08934330)
 
 ## Item Details
-##### <a name='5911fc980156316c3b2466dae78d72801bf08934330'></a> Source: [EMDocs\Solutions\protect-corporate-email-documents.md](https://github.com/Microsoft/EMDocs-pr/blob/5f1c98cc916bee9bb83249a16a52a5fdd3810142/EMDocs/Solutions/protect-corporate-email-documents.md)
-* Status: InSyncHandedBackSuccess
-* Target File: [EMDocs\Solutions\protect-corporate-email-documents.md](https://github.com/Microsoft/EMDocs-pr.it-it/blob/d346be59f296d324bd54a371b8e654d6bee826a7/EMDocs/Solutions/protect-corporate-email-documents.md)
-* Handoff File: [protect-corporate-email-documents.7df859550118d68b674b8fc43b88af0acf77b9ec.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/b8557e927541baeeddd69b0fd7d684b0d3808e7c/ol-handoff/Microsoft/EMDocs-pr.it-it/master/protect-corporate-email-documents.7df859550118d68b674b8fc43b88af0acf77b9ec.it-it.xlf)
-* Handoff Datetime: 2016-06-27 10:07:18
-* Handoff Reason: Include
-* Archive File: [protect-corporate-email-documents.7df859550118d68b674b8fc43b88af0acf77b9ec.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/31cd89741b6cb77d9ff9f9189ec91541115e5a07/ol-handoff/Microsoft/EMDocs-pr.it-it/master/archive/protect-corporate-email-documents.7df859550118d68b674b8fc43b88af0acf77b9ec.it-it.xlf)
-* Archive Datetime: 2016-07-02 00:39:29
-* Handback File: [protect-corporate-email-documents.7df859550118d68b674b8fc43b88af0acf77b9ec.it-it.xlf](https://github.com/Microsoft/EM.handback/blob/901c93a741743cca9e9b10524617876532378b11/ol-handback/Microsoft/EMDocs-pr.it-it/master/protect-corporate-email-documents.7df859550118d68b674b8fc43b88af0acf77b9ec.it-it.xlf)
-* Handback Datetime: 2016-07-02 11:58:36
-* [Back to Top](#report-top)
-
 
 ## Error Details
 
