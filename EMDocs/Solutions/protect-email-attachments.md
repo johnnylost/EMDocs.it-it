@@ -1,27 +1,21 @@
 ---
-# required metadata
-
 title: Proteggere gli allegati della posta elettronica aziendale
-description:
-keywords:
+description: 
+keywords: 
 author: karthikaraman
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: a1e630c1-7190-4ba9-b71d-ed9c2e93a6cc
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-ms.reviewer:
+ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 5f1c98cc916bee9bb83249a16a52a5fdd3810142
+ms.openlocfilehash: 0bf455c24808f6dec237acb20150dd6bf129be70
+
 
 ---
 
@@ -76,6 +70,7 @@ Gli utenti finali possono installare le app gestite e usarle per svolgere il pro
 Dopo avere acquisito le informazioni sulla [protezione dei documenti e dei messaggi di posta elettronica aziendali](protect-corporate-email-documents.md) e degli allegati, leggere le informazioni su come [implementare una soluzione per la protezione della posta elettronica aziendale](implement-solution.md).
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

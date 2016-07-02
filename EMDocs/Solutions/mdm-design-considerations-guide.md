@@ -1,27 +1,21 @@
 ---
-# required metadata
-
 title: Guida alle considerazioni sulla progettazione per la gestione dei dispositivi mobili
-description:
-keywords:
+description: 
+keywords: 
 author: andredm7
 manager: swadhwa
 ms.date: 05/31/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 7083b6b8-27a3-427b-b505-25d007d63cdd
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 4764d8c3ad679c5096c0de6d9ff51ea0aa6d7c06
+ms.openlocfilehash: e654e802c25d7806536c8192850cab7329fca9bb
+
 
 ---
 
@@ -71,6 +65,7 @@ Per sviluppare una progettazione per la gestione dei dispositivi mobili adatta a
 È possibile scaricare una copia della versione integrale della guida dalla raccolta [TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
 
-<!--HONumber=Jun16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 
