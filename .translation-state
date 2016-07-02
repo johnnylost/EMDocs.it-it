@@ -1,6 +1,6 @@
 {
   "LastProcessedCommit": "7188a091b71f192b148493beaba95e276cd93db1",
-  "LastTranslatedCommit": "ab6d3697b61002cf7488f2d2a634c3f557edf470",
+  "LastTranslatedCommit": "d346be59f296d324bd54a371b8e654d6bee826a7",
   "Items": {
     "da63fda594055f3647cc04e6954675a9558776db": {
       "FileHash": "da63fda594055f3647cc04e6954675a9558776db",
@@ -30346,14 +30346,14 @@
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
-      "TargetFileCommit": "0d59bf1179061a871c6516dedc41c677c3fa2ec1",
+      "TargetFileCommit": "d346be59f296d324bd54a371b8e654d6bee826a7",
       "TargetFilePath": "EMDocs\\Solutions\\protect-corporate-email-documents.md",
       "HandbackFilePath": "ol-handback\\Microsoft\\EMDocs-pr.it-it\\master\\protect-corporate-email-documents.7df859550118d68b674b8fc43b88af0acf77b9ec.it-it.xlf",
-      "HandbackFileCommit": "4cca3e5310f327e8069cb15ee6dcedd72fa95a1d",
-      "HandbackDateTime": "2016-05-26T17:28:16.5566607Z",
+      "HandbackFileCommit": "901c93a741743cca9e9b10524617876532378b11",
+      "HandbackDateTime": "2016-07-02T11:58:36.2243198Z",
       "HandbackException": null,
       "HandbackFailureTimes": 0,
-      "UpdatedDateTime": "2016-05-26T17:28:16.5566607Z",
+      "UpdatedDateTime": "2016-07-02T11:58:36.2243198Z",
       "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.it-it\\master\\archive\\protect-corporate-email-documents.7df859550118d68b674b8fc43b88af0acf77b9ec.it-it.xlf",
       "ArchiveFileCommit": "31cd89741b6cb77d9ff9f9189ec91541115e5a07",
       "ArchiveFileDateTime": "2016-07-02T00:39:29.6932107Z",
