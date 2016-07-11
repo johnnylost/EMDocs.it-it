@@ -1,27 +1,21 @@
 ---
-# required metadata
-
 title: Considerazioni su utenti e dispositivi
-description:
-keywords:
+description: 
+keywords: 
 author: YuriDio
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: d1653116-3922-40d3-bc4f-3d845b6aaecb
-
-# optional metadataco
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 3a95624c9092dba51e515bd294bd13beb4071510
+ms.openlocfilehash: 8d5c06c66102c21adcb26b86e4f8ed3550c3aca0
+
 
 ---
 
@@ -176,7 +170,7 @@ Dopo aver definito la progettazione per l'accesso alla rete remota, valutare il 
 
 È anche possibile segmentare i dispositivi che si connetteranno alla rete Wi-Fi a seconda della piattaforma di esecuzione. Valutare inoltre come proteggere le comunicazioni e l'autorizzazione durante l'accesso in locale alle risorse aziendali.
 
-È possibile scegliere una segmentazione fisica sul punto di accesso wireless e sui componenti di rete (commutatori e router) per isolare gli utenti che si connettono con i propri dispositivi. È anche possibile implementare questo tipo di segmentazione usando i [profili Wi-Fi in Configuration Manager](https://technet.microsoft.com/library/dn261221.aspx). È disponibile una vasta gamma di impostazioni di sicurezza, ad esempio certificati per la convalida del server e per l'autenticazione client di cui è stato eseguito il provisioning con i [profili certificati in Configuration Manager](https://technet.microsoft.com/library/dn270540.aspx)..
+È possibile scegliere una segmentazione fisica sul punto di accesso wireless e sui componenti di rete (commutatori e router) per isolare gli utenti che si connettono con i propri dispositivi. È anche possibile implementare questo tipo di segmentazione usando i [profili Wi-Fi in Configuration Manager](https://technet.microsoft.com/library/dn261221.aspx). È disponibile una vasta gamma di impostazioni di sicurezza, ad esempio certificati per la convalida del server e per l'autenticazione client di cui è stato eseguito il provisioning con i [profili certificati in Configuration Manager](https://technet.microsoft.com/library/dn270540.aspx).
 
 
 ### Opzioni di segmentazione della rete Wi-Fi: vantaggi e svantaggi
@@ -208,12 +202,13 @@ Usare l'elenco che segue per comprendere i vantaggi e gli svantaggi delle opzion
     - Svantaggi
         - Richiede IPsec per l'implementazione con la funzionalità [Protezione accesso alla rete Microsoft](https://technet.microsoft.com/library/cc731276(v=ws.10).aspx), che può rappresentare un problema in uno scenario BYOD che richiede il supporto per "qualsiasi dispositivo"
 
-> [!NOTE] Per altre informazioni sui profili Wi-Fi in Configuration Manager, vedere [Introduzione ai profili Wi-Fi in Configuration Manager](https://technet.microsoft.com/library/dn261224.aspx)..
+> [!NOTE] Per altre informazioni sui profili Wi-Fi in Configuration Manager, vedere [Introduzione ai profili Wi-Fi in Configuration Manager](https://technet.microsoft.com/library/dn261224.aspx).
 
 Il percorso di rete svolge un ruolo importante per le considerazioni sugli utenti e i dispositivi. È possibile sfruttare il controllo degli accessi a più fattori in ADFS per abilitare i criteri di autorizzazione per applicazione, con i quali è possibile consentire o negare l'accesso in base a utente, dispositivo e percorso di rete. Per altre informazioni su come configurare un ambiente per convalidare questa funzionalità, vedere [Gestire i rischi con il controllo degli accessi a più fattori](https://technet.microsoft.com/library/dn280936.aspx).
 
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

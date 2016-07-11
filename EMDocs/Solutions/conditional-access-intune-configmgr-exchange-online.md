@@ -1,27 +1,21 @@
 ---
-# required metadata
-
 title: Usare l'accesso condizionale con Exchange Online, Microsoft Intune e Configuration Manager
-description:
-keywords:
+description: 
+keywords: 
 author: craigcaseyMSFT
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 06921361-9475-46e6-9368-3cc44c84b22f
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 5f1c98cc916bee9bb83249a16a52a5fdd3810142
+ms.openlocfilehash: b2772f555ac064a286b084c1ef50ef5449083d90
+
 
 ---
 
@@ -34,8 +28,7 @@ Se si usano già System Center Configuration Manager ed Exchange Online, è poss
 
 -   Avviare l'applicazione dell'accesso condizionale.
 
--   Facoltativamente, configurare il connettore Exchange Server per Exchange Online
-    Questo connettore è necessario solo a scopo di report. Non è necessario per applicare l'accesso condizionale.
+-   Facoltativamente, configurare il connettore Exchange Server per Exchange Online. Questo connettore è necessario solo a scopo di report. Non è necessario per applicare l'accesso condizionale.
 
 ## Flusso di controllo accesso condizionale per Exchange Online
 Questo diagramma mostra il flusso di controllo per i client che provano ad accedere alla posta elettronica di Exchange Online. A e B possono essere eseguiti prima dell'applicazione dell'accesso condizionale.
@@ -137,7 +130,7 @@ Se si esegue SQL Server Reporting Services (SSRS), è possibile visualizzare un 
 
 Per visualizzare i report SSRS, è necessario aver installato un ruolo report nel server primario:
 
-1.  In Configuration Manager, fare clic su **Amministrazione &gt; Configurazione della gerarchia &gt; Configurazione del sito &gt; Server e ruoli del sistema del sito**.
+1.  In Configuration Manager fare clic su **Amministrazione &gt; Configurazione della gerarchia &gt; Configurazione del sito &gt; Server e ruoli del sistema del sito**.
 
 2.  Selezionare un server e fare clic su **Aggiungi ruoli del sistema del sito** per aprire l'aggiunta guidata ruoli del sistema del sito.
 
@@ -156,6 +149,7 @@ Ai dispositivi che usano l'autenticazione moderna l'accesso condizionale viene a
 Dopo aver distribuito una soluzione per la protezione della posta elettronica aziendale e dei dati di questa all'interno dei dispositivi mobili, è possibile scoprire di più sull'[esperienza dell'utente finale relativa all'accesso condizionale](end-user-experience-conditional-access.md). Ciò consente di prepararsi ad affrontare i problemi che potrebbero verificarsi quando gli utenti finali registrano dispositivi specifici.
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

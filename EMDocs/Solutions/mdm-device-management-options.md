@@ -1,27 +1,21 @@
 ---
-# required metadata
-
 title: Opzioni di gestione dei dispositivi
-description:
-keywords:
-author: robmazz
+description: 
+keywords: 
+author: andredm7
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: a25f7407-92a0-4588-b5f7-a7bad9cdd070
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: ef523f44cd9d51e59fc8d94bbb8d7aa388120945
+ms.openlocfilehash: 3393393abd35b0f61e371325c3e15f67123599f6
+
 
 ---
 
@@ -43,7 +37,7 @@ La gestione dei dispositivi mobili con Intune e Configuration Manager è incentr
  2. Creazione di [linee di base di configurazione](https://technet.microsoft.com/library/gg712268.aspx?WT.mc_id=Blog_EntMob_Showcase_PCIT)
  3. Distribuzione delle [linee di base di configurazione](https://technet.microsoft.com/library/hh219289.aspx?WT.mc_id=Blog_EntMob_Showcase_PCIT) a raccolte di utenti o dispositivi di Configuration Manager
 
-- **Criteri di accesso condizionale:** definiscono il modo in cui viene gestito l'accesso alla posta elettronica e possono essere usati separatamente o in combinazione con i criteri di conformità. È necessario configurare le connessioni al servizio Exchange Server o Exchange Online locale in [Intune](/Intune/deployuse/restrict-access-to-email-and-o365-services-with-microsoft-intune) o in [Configuration Manager](https://technet.microsoft.com/library/dn919655.aspx) per poter distribuire i criteri di accesso condizionale. L'accesso condizionale può anche essere configurato per servizi di Office 365 e SharePoint Online.
+- **Criteri di accesso condizionale:** definiscono il modo in cui viene gestito l'accesso alla posta elettronica e possono essere usati separatamente o in combinazione con i criteri di conformità. È necessario configurare le connessioni al servizio Exchange Server o Exchange Online locale in [Intune](/Intune/deploy-use/restrict-access-to-email-and-o365-services-with-microsoft-intune) o in [Configuration Manager](https://technet.microsoft.com/library/dn919655.aspx) per poter distribuire i criteri di accesso condizionale. L'accesso condizionale può anche essere configurato per servizi di Office 365 e SharePoint Online.
 
 Le risposte alle domande nel passaggio 1 aiutano a decidere in che modo verranno registrati i dispositivi nella soluzione adottata per la gestione dei dispositivi mobili. La tabella seguente aiuta a comprendere i vantaggi e gli svantaggi di ogni scenario di gestione.
 
@@ -52,7 +46,7 @@ Le risposte alle domande nel passaggio 1 aiutano a decidere in che modo verranno
 **Vantaggi**
 
 - Supporta il controllo dei criteri semplificato per la gestione di utenti e dispositivi, ora separati dalla piattaforma per dispositivi.
-- Supporta le piattaforme Android, iOS, Windows 10https://technet.microsoft.com/library/mt147406.aspx, Windows 8.x e Windows Phone, nonché Exchange ActiveSync.
+- Supporta le piattaforme Android, iOS, [Windows 10](https://technet.microsoft.com/library/mt147406.aspx), Windows 8. x e Windows Phone, nonché Exchange ActiveSync.
 - Offre una console di amministrazione e gestione semplice e basata sul Web, accessibile da qualsiasi posizione
 - Supporta i criteri basati su gruppo, rendendo più semplice la gestione di un numero elevato e di tipi diversi di dispositivi mobili
 - Supporta caratteristiche e funzionalità avanzate di conformità dei dispositivi mobili, tra cui il rilevamento root e jailbreak dei dispositivi
@@ -101,6 +95,7 @@ Le risposte alle domande nel passaggio 1 aiutano a decidere in che modo verranno
 - I profili di posta elettronica e le reti VPN per i dispositivi Android non sono attualmente supportati
 - I browser gestiti non sono attualmente supportati
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jul16_HO1-->
 
 

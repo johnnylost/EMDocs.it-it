@@ -1,27 +1,20 @@
 ---
-# required metadata
-
 title: Classificazione dei dati
-description:
-keywords:
+description: 
+keywords: 
 author: YuriDio
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: f3486381-66d5-469a-93a3-013eaaa17c07
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: a16e90093c7571f3c098ce815a2b70ae03c080e3
+ms.openlocfilehash: b2025b8b3d976b7a14c050c095d199c5a4c73cb8
+
 
 ---
 
@@ -36,7 +29,7 @@ Office 365 offre alcune funzionalità di classificazione automatica dei dati del
 
 La classificazione dei dati non è integrata in Intune e Configuration Manager, che quindi si affidano alla classificazione basata su cloud con Azure RMS o alla classificazione locale con ADRMS. Un'altra opzione consiste nell'uso di [Enterprise Mobility Suite (EMS)](http://www.microsoft.com/server-cloud/enterprise-mobility/overview.aspx) come soluzione MDM. Con EMS sarà possibile accedere ad [Azure AD Premium](https://msdn.microsoft.com/library/azure/dn532272.aspx) e [Azure RMS](https://technet.microsoft.com/library/jj585026.aspx), che possono essere usati per la classificazione dei dati. La classificazione dei dati con Azure RMS può essere integrata con una soluzione di gestione locale in un ambiente ibrido. 
 
-Intune consente al reparto IT di assicurare la conformità usando criteri costituiti da regole e impostazioni che un dispositivo deve soddisfare per essere considerato conforme ai criteri di accesso condizionale. È inoltre possibile usare tali criteri per monitorare e correggere i problemi di conformità con i dispositivi, indipendentemente dall'accesso condizionale. Per altre informazioni, vedere [Gestire i criteri di conformità del dispositivo per Microsoft Intune](/intune/deploy/introduction-to-device-compliance-policies-in-microsoft-intune).
+Intune consente al reparto IT di assicurare la conformità usando criteri costituiti da regole e impostazioni che un dispositivo deve soddisfare per essere considerato conforme ai criteri di accesso condizionale. È inoltre possibile usare tali criteri per monitorare e correggere i problemi di conformità con i dispositivi, indipendentemente dall'accesso condizionale. Per altre informazioni, vedere [Gestire i criteri di conformità del dispositivo per Microsoft Intune](/intune/deploy-use/introduction-to-device-compliance-policies-in-microsoft-intune).
 
 Usare la tabella seguente come riferimento per la scelta dell'opzione MDM più adatta ai requisiti aziendali relativi alla *classificazione dei dati*.
 
@@ -86,6 +79,7 @@ Usare la tabella seguente come riferimento per la scelta dell'opzione MDM più a
 - Non è disponibile per i clienti che non adottano una soluzione basata su cloud
 
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

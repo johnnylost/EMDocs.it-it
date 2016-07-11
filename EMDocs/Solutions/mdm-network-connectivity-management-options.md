@@ -1,27 +1,20 @@
 ---
-# required metadata
-
-title: Opzioni di gestione della connettività di rete
-description:
-keywords:
+title: "Opzioni di gestione della connettività di rete"
+description: 
+keywords: 
 author: andredm7
 manager: swadhwa
 ms.date: 05/31/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: bc7cdb8f-3485-45ae-9493-f840ad9ed3ea
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: a16e90093c7571f3c098ce815a2b70ae03c080e3
+ms.openlocfilehash: 675953e58a32e6c609380f10dd19008338a128c5
+
 
 ---
 
@@ -32,9 +25,9 @@ ms.suite: ems
 
 A seconda dell'infrastruttura, i dispositivi mobili potrebbero essere in grado di connettersi alle risorse aziendali da una varietà di servizi di connettività Internet, la cui sicurezza è spesso garantita da endpoint protetti tramite VPN.
 
-Usando [Intune](/Intune/deployuse/wi-fi-connections-in-microsoft-intune) o una [distribuzione ibrida](https://technet.microsoft.com/library/dn261221.aspx) con Configuration Manager, è possibile distribuire profili Wi-Fi per il provisioning di reti Wi-Fi, in modo che un dispositivo possa connettersi automaticamente alla rete quando si trova nel campo. Ad esempio, i dispositivi mobili possono essere configurati per connettersi a una rete Wi-Fi segmentata in una sala conferenze, ma connettersi a un altro segmento della rete Wi-Fi in caso di roaming in una posizione diversa. Gli utenti non devono immettere le password o scegliere una rete, la connessione avviene automaticamente.
+Usando [Intune](/Intune/deploy-use/wi-fi-connections-in-microsoft-intune) o una [distribuzione ibrida](https://technet.microsoft.com/library/dn261221.aspx) con Configuration Manager, è possibile distribuire profili Wi-Fi per il provisioning di reti Wi-Fi, in modo che un dispositivo possa connettersi automaticamente alla rete quando si trova nel campo. Ad esempio, i dispositivi mobili possono essere configurati per connettersi a una rete Wi-Fi segmentata in una sala conferenze, ma connettersi a un altro segmento della rete Wi-Fi in caso di roaming in una posizione diversa. Gli utenti non devono immettere le password o scegliere una rete, la connessione avviene automaticamente.
 
-[Intune](/Intune/deployuse/vpn-connections-in-microsoft-intune) e [Configuration Manager](https://technet.microsoft.com/library/dn261217.aspx) possono anche distribuire profili VPN direttamente ai dispositivi mobili, per consentire agli utenti di accedere alle risorse aziendali interne senza ulteriori operazioni di configurazione o interventi manuali. Intune è anche in grado di configurare i dispositivi mobili per avviare automaticamente una connessione VPN in base al tipo di risorsa o al metodo di accesso. Tenere presente, tuttavia, che i requisiti di configurazione sono diversi per l'esecuzione di questa operazione per diversi tipi di sistemi operativi per dispositivi mobili.
+[Intune](/Intune/deploy-use/vpn-connections-in-microsoft-intune) e [Configuration Manager](https://technet.microsoft.com/library/dn261217.aspx) sono anche in grado di distribuire profili VPN direttamente ai dispositivi mobili, per consentire agli utenti di accedere alle risorse aziendali interne senza ulteriori operazioni di configurazione o interventi manuali. Intune è anche in grado di configurare i dispositivi mobili per avviare automaticamente una connessione VPN in base al tipo di risorsa o al metodo di accesso. Tenere presente, tuttavia, che i requisiti di configurazione sono diversi per l'esecuzione di questa operazione per diversi tipi di sistemi operativi per dispositivi mobili.
 
 Le risposte alle domande nell'attività 3 aiutano a decidere in che modo si desidera gestire i dispositivi da connettere alle risorse aziendali. Tenere presente che attualmente <token>MDM per Office 365</token> non supporta la gestione delle risorse di rete wireless e VPN per i dispositivi mobili.
 
@@ -74,9 +67,10 @@ Il supporto per i criteri per Wi-Fi e VPN non è previsto in MDM per Office 365.
 
 Esaminare i dettagli sulle opzioni di gestione della configurazione della posta elettronica per dispositivi mobili prendendo in considerazione gli elementi seguenti:
 
-- Intune: abilitare i profili [wireless](/Intune/deployuse/wi-fi-connections-in-microsoft-intune) e [VPN](/Intune/deployuse/vpn-connections-in-microsoft-intune)
+- Intune: abilitare i profili [wireless](/Intune/deploy-use/wi-fi-connections-in-microsoft-intune) e [VPN](/Intune/deploy-use/vpn-connections-in-microsoft-intune)
 - Configuration Manager: abilitare i profili [wireless](https://technet.microsoft.com/library/dn261221.aspx) e [VPN](https://technet.microsoft.com/library/dn261217.aspx)
 
-<!--HONumber=Jun16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 

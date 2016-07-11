@@ -1,27 +1,21 @@
 ---
-# required metadata
-
 title: Usare l'accesso condizionale con Exchange Server locale, Microsoft Intune e Configuration Manager
-description:
-keywords:
+description: 
+keywords: 
 author: craigcaseyMSFT
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 56b6cd2d-3dea-468b-9f1c-92717c9ec5f5
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: da76ba04d70ece8f20fdbe0fb19ad310f1fb8d28
+ms.openlocfilehash: ca38c22f5de2a33e399d7d7a7a9beafdc49e5686
+
 
 ---
 
@@ -98,7 +92,7 @@ Assicurarsi che l'ambiente presenti questi requisiti per l'implementazione di qu
     Remove-ActiveSyncDevice
 
 > [!IMPORTANT]
-> Se si prova a installare o a usare il connettore Exchange Server senza i cmdlet necessari, viene visualizzato un errore, che viene registrato con il messaggio _Chiamata del cmdlet &lt;cmdlet&gt; non riuscita nel file EasDisc.log nel computer del server del sito_.
+> Se si prova a installare o usare il connettore Exchange Server senza i cmdlet necessari, verrà visualizzato un errore registrato con il messaggio _Invoking cmdlet &lt;cmdlet&gt; failed in the EasDisc.log file on the site server computer_ (Chiamata al cmdlet non riuscita nel file EasDisc.log nel computer server del sito).
 
 ## Passaggi per la distribuzione
 Seguire questi passaggi per distribuire la soluzione Exchange locale:
@@ -191,6 +185,7 @@ Un dispositivo viene bloccato non appena viene individuato da Exchange Connector
 Dopo aver distribuito una soluzione per la protezione della posta elettronica aziendale e dei dati di questa all'interno dei dispositivi mobili, è possibile scoprire di più sull'[esperienza dell'utente finale relativa all'accesso condizionale](end-user-experience-conditional-access.md). Ciò consente di prepararsi ad affrontare i problemi che potrebbero verificarsi quando gli utenti finali registrano dispositivi specifici.
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

@@ -1,27 +1,21 @@
 ---
-# required metadata
-
 title: Sviluppare i requisiti di risposta agli eventi imprevisti
-description:
-keywords:
+description: 
+keywords: 
 author: YuriDio
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 6f9fd9b3-492b-48e1-871c-e5abefe1293a
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: d43860e838a40de05bdec73b00b6721ee634d7e5
+ms.openlocfilehash: 3be59381d215da3a6c1e7e33bae592d02201c196
+
 
 ---
 
@@ -30,10 +24,9 @@ ms.suite: ems
 >[!NOTE]
 >Questo argomento fa parte di una guida più ampia dedicata alle considerazioni di progettazione. Per leggere la guida dall'inizio, vedere l'[argomento principale](mdm-design-considerations-guide.md). Per scaricare una copia della versione integrale della guida, visitare la raccolta [TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
-Sebbene molte organizzazioni abbiano già adottato un piano di risposta agli eventi imprevisti, è importante comprendere se il piano attuale include i dispositivi mobili e quali sono le operazioni da eseguire in caso di evento imprevisto su tali dispositivi. Se la società sta appena iniziando ad adottare una soluzione di mobilità, probabilmente il piano di risposta agli eventi imprevisti in uso non copre gli aspetti specifici relativi ai dispositivi mobili. 
-Se l'organizzazione non ha ancora un piano di risposta agli eventi imprevisti, è importante collaborare strettamente con il team addetto alla sicurezza per comprendere i requisiti mentre si elabora il piano, in modo da sapere quali sono le domande da porre per scegliere la soluzione MDM più adatta alle proprie esigenze. 
+Sebbene molte organizzazioni abbiano già adottato un piano di risposta agli eventi imprevisti, è importante comprendere se il piano attuale include i dispositivi mobili e quali sono le operazioni da eseguire in caso di evento imprevisto su tali dispositivi. Se la società sta appena iniziando ad adottare una soluzione di mobilità, probabilmente il piano di risposta agli eventi imprevisti in uso non copre gli aspetti specifici relativi ai dispositivi mobili. Se l'organizzazione non ha ancora un piano di risposta agli eventi imprevisti, è importante collaborare strettamente con il team addetto alla sicurezza per comprendere i requisiti mentre si elabora il piano, in modo da sapere quali sono le domande da porre per scegliere la soluzione MDM più adatta alle proprie esigenze. 
  
->[!TIP] Leggere l'articolo relativo alla [risposta agli eventi che riguardano la sicurezza IT](https://technet.microsoft.com/library/cc700825.aspx) per comprendere meglio quali sono i requisiti minimi per lo sviluppo di un piano di risposta.
+>[!TIP] [Leggere l'articolo relativo alla risposta agli eventi che riguardano la sicurezza IT](https://technet.microsoft.com/library/cc700825.aspx) per comprendere meglio quali sono i requisiti minimi per lo sviluppo di un piano di risposta.
 
 Quando si progetta la soluzione MDM, assicurarsi di porre le domande seguenti per verificare di poter gestire i dispositivi mobili in caso di evento imprevisto.
 
@@ -52,6 +45,7 @@ Quando si progetta la soluzione MDM, assicurarsi di porre le domande seguenti pe
 
 
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

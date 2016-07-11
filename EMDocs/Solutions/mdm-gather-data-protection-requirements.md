@@ -1,27 +1,21 @@
 ---
-# required metadata
-
 title: Raccogliere informazioni sui requisiti di protezione dei dati
-description:
-keywords:
+description: 
+keywords: 
 author: YuriDio
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 98f7bd00-4be7-478e-82ea-6046813f1556
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: d43860e838a40de05bdec73b00b6721ee634d7e5
+ms.openlocfilehash: ac9808463acd811e53135dd7ce60844c12d46439
+
 
 ---
 
@@ -67,8 +61,9 @@ L'elenco seguente include le opzioni comuni che devono essere supportate dalla s
 - Obbligo di crittografia nelle schede di memoria
 - Restituzione inattiva senza password consentita
 
->[!TIP] In Windows Phone 8.1, il criterio che consente la restituzione inattiva senza password può essere configurato usando [Windows Phone 8.1 Enterprise Device Management Protocol](http://download.microsoft.com/download/C/A/0/CA091018-1A43-4063-B70B-20B9901F4D10/Windows Phone 8.1 MDM Protocol.pdf).
+>[!TIP] In Windows 8.1 il criterio Consentire la restituzione inattiva senza password può essere configurato usando il [protocollo di gestione dei dispositivi di Windows Phone 8.1 Enterprise](http://download.microsoft.com/download/C/A/0/CA091018-1A43-4063-B70B-20B9901F4D10/Windows Phone 8.1 MDM Protocol.pdf).
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

@@ -1,27 +1,21 @@
 ---
-# required metadata
-
 title: Sviluppare i requisiti di risposta agli eventi imprevisti
-description:
-keywords:
+description: 
+keywords: 
 author: YuriDio
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 1072858e-dc0a-44ad-a512-d938f20310b6
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: d43860e838a40de05bdec73b00b6721ee634d7e5
+ms.openlocfilehash: bfeb1fd4cceacf225093d3a5c2d808ebeb21c825
+
 
 ---
 
@@ -40,7 +34,7 @@ Dopo aver risposto alle domande nell'Attività 1 riguardanti i requisiti per la 
 
 Windows 10 Mobile usa la crittografia del dispositivo, basata sulla tecnologia BitLocker, per crittografare tutta l'archiviazione interna, inclusi il sistema operativo e le partizioni di archiviazione dei dati. L'utente può attivare la crittografia del dispositivo oppure il reparto IT può attivare e applicare la crittografia per i dispositivi gestiti dall'azienda usando gli strumenti di MDM. Quando è attivata la crittografia del dispositivo, tutti i dati archiviati nel telefono vengono automaticamente crittografati. Un dispositivo Windows 10 Mobile con crittografia attivata consente di proteggere la riservatezza dei dati archiviati se il dispositivo viene smarrito o rubato. Per altre informazioni, leggere l'articolo sulla protezione di Windows 10 Mobile.
 
->[!TIP]Per altre informazioni sui dispositivi mobili in cui è possibile abilitare la crittografia usando Configuration Manager, vedere [Impostazioni generali per i dispositivi mobili in Configuration Manager](https://technet.microsoft.com/library/dn376523.aspx).
+>[!TIP] Per altre informazioni sui dispositivi mobili in cui è possibile abilitare la crittografia usando Configuration Manager, vedere [Impostazioni generali per i dispositivi mobili in Configuration Manager](https://technet.microsoft.com/library/dn376523.aspx).
 
 Per le app associate ai criteri di gestione delle applicazioni mobili di Intune, la crittografia viene fornita da Microsoft. I dati vengono crittografati in modo sincrono durante le operazioni di I/O dei file in base all'impostazione nei criteri di gestione delle applicazioni mobili. Nei dispositivi Android le app gestite usano la crittografia AES-128 in modalità Cipher Block Chaining (CBC) tramite le librerie di crittografia della piattaforma, crittografia non certificata FIPS 140-2. 
 
@@ -86,6 +80,7 @@ La maggior parte delle soluzioni MDM usano SSL per proteggere i dati in transito
 Per altre informazioni sulla combinazione delle funzionalità di Intune e Configuration Manager per aumentare la protezione dei dati e configurare la crittografia, leggere l'articolo relativo alla [gestione della crittografia nei dispositivi mobili con Configuration Manager e Intune](http://blogs.technet.com/b/pauljones/archive/2014/08/04/managing-encryption-on-mobile-devices-with-configuration-manager-and-intune.aspx).
 
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 
