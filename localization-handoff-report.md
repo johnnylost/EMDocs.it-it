@@ -6,21 +6,21 @@
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [EMDocs\Solutions\mdm-data-encryption.md](https://github.com/Microsoft/EMDocs-pr/blob/4993391889b87512cda6b9c170960b156c32e163/EMDocs/Solutions/mdm-data-encryption.md) | OutofSyncHandedBackSuccess | [Details](#3d80b531c02a4b2a85082d2070e20129d51eeeee105)
+ [EMDocs\toc.yml](https://github.com/Microsoft/EMDocs-pr/blob/1991abafadaebd80587e60656956285506e8d0f3/EMDocs/toc.yml) | OutofSyncHandedBackSuccess | [Details](#ca118fb986539857cb44a1b062407df3e8f364ce332)
 
 ## Item Details
-##### <a name='3d80b531c02a4b2a85082d2070e20129d51eeeee105'></a> Source: [EMDocs\Solutions\mdm-data-encryption.md](https://github.com/Microsoft/EMDocs-pr/blob/4993391889b87512cda6b9c170960b156c32e163/EMDocs/Solutions/mdm-data-encryption.md)
+##### <a name='ca118fb986539857cb44a1b062407df3e8f364ce332'></a> Source: [EMDocs\toc.yml](https://github.com/Microsoft/EMDocs-pr/blob/1991abafadaebd80587e60656956285506e8d0f3/EMDocs/toc.yml)
 * Status: OutofSyncHandedBackSuccess
 * Target File: 
-* Handoff File: [mdm-data-encryption.63496fdcfe83e58c965a65195a5c114f2c709062.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/74f75734654fd2b71530b26e1380f5a9ff422a99/ol-handoff/Microsoft/EMDocs-pr.it-it/master/mdm-data-encryption.63496fdcfe83e58c965a65195a5c114f2c709062.it-it.xlf)
-* Handoff Datetime: 2016-07-12 18:02:11
+* Handoff File: [toc.a910960291aeeb7b80ff16cc12adc02a09c33921.it-it.xlf](https://github.com/Microsoft/EM.handoff/blob/048c64c1c11a3698d68afaf3e88b54cee5e1eacf/ol-handoff/Microsoft/EMDocs-pr.it-it/master/toc.a910960291aeeb7b80ff16cc12adc02a09c33921.it-it.xlf)
+* Handoff Datetime: 2016-07-13 22:40:33
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [EMDocs\Solutions\mdm-data-encryption.md](https://github.com/Microsoft/EMDocs-pr.it-it/blob/9b6b1e06d586964f8c5023ee53f285b9f06791dd/EMDocs/Solutions/mdm-data-encryption.md)
-* Current Handback File: [mdm-data-encryption.63496fdcfe83e58c965a65195a5c114f2c709062.it-it.xlf](https://github.com/Microsoft/EM.handback/blob/be906dcec371ce600745040ade32814a227042d1/ol-handback/Microsoft/EMDocs-pr.it-it/master/mdm-data-encryption.63496fdcfe83e58c965a65195a5c114f2c709062.it-it.xlf)
+* Current Target File: [EMDocs\toc.yml](https://github.com/Microsoft/EMDocs-pr.it-it/blob/9b6b1e06d586964f8c5023ee53f285b9f06791dd/EMDocs/toc.yml)
+* Current Handback File: [toc.a910960291aeeb7b80ff16cc12adc02a09c33921.it-it.xlf](https://github.com/Microsoft/EM.handback/blob/be906dcec371ce600745040ade32814a227042d1/ol-handback/Microsoft/EMDocs-pr.it-it/master/toc.a910960291aeeb7b80ff16cc12adc02a09c33921.it-it.xlf)
 * Current Handback Datetime: 2016-07-11 19:41:56
 * [Back to Top](#report-top)
 
