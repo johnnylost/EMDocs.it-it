@@ -1,6 +1,6 @@
 {
   "LastProcessedCommit": "9e733d2ccf7420e1ca82efc8bd44f85d6e926dad",
-  "LastTranslatedCommit": "e26a7f02e50c09b616ce2819706fadb9ff34006f",
+  "LastTranslatedCommit": "6e9edaa2f30ce509c7a84e9813244456d61eca52",
   "Items": {
     "da63fda594055f3647cc04e6954675a9558776db": {
       "FileHash": "da63fda594055f3647cc04e6954675a9558776db",
@@ -27155,7 +27155,7 @@
       "TargetFilePath": "EMDocs\\Solutions\\mdm-step-1-identify-your-mobile-device-management-requirements.md",
       "HandbackFilePath": "ol-handback\\Microsoft\\EMDocs-pr.it-it\\master\\mdm-step-1-identify-your-mobile-device-management-requirements.f0e4033cec0b45abc377de9726de8ce3445ee6a3.it-it.xlf",
       "HandbackFileCommit": "872d58a8981d059368c3e799efe5ec5d86ac45af",
-      "HandbackDateTime": "2016-07-13T22:16:05.8656327Z",
+      "HandbackDateTime": "2016-07-13T22:31:20.5331156Z",
       "HandbackException": {
         "internal_error_code": "handback_transform_failed",
         "internal_error_message": "Handback file: C:\\ol\\master\\EM.handback\\d2bba5\\ol-handback\\Microsoft\\EMDocs-pr.it-it\\master\\mdm-step-1-identify-your-mobile-device-management-requirements.f0e4033cec0b45abc377de9726de8ce3445ee6a3.it-it.xlf failed.",
@@ -27165,7 +27165,7 @@
         "stack_trace": "   at Microsoft.OpenLocalization.Transformer.TransformerClient.XliffToMarkdown(Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\TransformerClient.cs:line 119\r\n   at Microsoft.OpenLocalization.Helper.XliffTransformUtil.XliffToMarkdown(String skeletonFile, String xliffFile, String mdfile, Boolean useJavascriptTransformer) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Helper\\XliffTransformUtil.cs:line 92\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass5_0.<GetHandbackFiles>b__0(String file) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Localization\\HandbackCore.cs:line 406",
         "extended_information": null
       },
-      "HandbackFailureTimes": 2,
+      "HandbackFailureTimes": 3,
       "UpdatedDateTime": "2016-06-22T08:53:11.9223293Z",
       "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.it-it\\master\\archive\\mdm-step-1-identify-your-mobile-device-management-requirements.f0e4033cec0b45abc377de9726de8ce3445ee6a3.it-it.xlf",
       "ArchiveFileCommit": "31cd89741b6cb77d9ff9f9189ec91541115e5a07",
@@ -33176,7 +33176,7 @@
       "TargetFilePath": "EMDocs\\Solutions\\fasttrack-center-benefit-process-for-ems-environment-expectations.md",
       "HandbackFilePath": "ol-handback\\Microsoft\\EMDocs-pr.it-it\\master\\fasttrack-center-benefit-process-for-ems-environment-expectations.f302b9f171eccebb1a199bdb66392027790ffabb.it-it.xlf",
       "HandbackFileCommit": "872d58a8981d059368c3e799efe5ec5d86ac45af",
-      "HandbackDateTime": "2016-07-13T22:16:05.8656327Z",
+      "HandbackDateTime": "2016-07-13T22:31:20.5331156Z",
       "HandbackException": {
         "internal_error_code": "handback_transform_failed",
         "internal_error_message": "Handback file: C:\\ol\\master\\EM.handback\\d2bba5\\ol-handback\\Microsoft\\EMDocs-pr.it-it\\master\\fasttrack-center-benefit-process-for-ems-environment-expectations.f302b9f171eccebb1a199bdb66392027790ffabb.it-it.xlf failed.",
@@ -33186,7 +33186,7 @@
         "stack_trace": "   at Microsoft.OpenLocalization.Transformer.TransformerClient.XliffToMarkdown(Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\TransformerClient.cs:line 119\r\n   at Microsoft.OpenLocalization.Helper.XliffTransformUtil.XliffToMarkdown(String skeletonFile, String xliffFile, String mdfile, Boolean useJavascriptTransformer) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Helper\\XliffTransformUtil.cs:line 92\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass5_0.<GetHandbackFiles>b__0(String file) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Localization\\HandbackCore.cs:line 406",
         "extended_information": null
       },
-      "HandbackFailureTimes": 3,
+      "HandbackFailureTimes": 4,
       "UpdatedDateTime": "2016-06-22T08:53:11.9223293Z",
       "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.it-it\\master\\archive\\fasttrack-center-benefit-process-for-ems-environment-expectations.f302b9f171eccebb1a199bdb66392027790ffabb.it-it.xlf",
       "ArchiveFileCommit": "31cd89741b6cb77d9ff9f9189ec91541115e5a07",
@@ -33219,7 +33219,7 @@
       "TargetFilePath": "EMDocs\\Solutions\\fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md",
       "HandbackFilePath": "ol-handback\\Microsoft\\EMDocs-pr.it-it\\master\\fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.6090efa36a485414676b1fb6da1ddf93f37c5910.it-it.xlf",
       "HandbackFileCommit": "872d58a8981d059368c3e799efe5ec5d86ac45af",
-      "HandbackDateTime": "2016-07-13T22:16:05.8656327Z",
+      "HandbackDateTime": "2016-07-13T22:31:20.5331156Z",
       "HandbackException": {
         "internal_error_code": "handback_transform_failed",
         "internal_error_message": "Handback file: C:\\ol\\master\\EM.handback\\d2bba5\\ol-handback\\Microsoft\\EMDocs-pr.it-it\\master\\fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.6090efa36a485414676b1fb6da1ddf93f37c5910.it-it.xlf failed.",
@@ -33229,7 +33229,7 @@
         "stack_trace": "   at Microsoft.OpenLocalization.Transformer.TransformerClient.XliffToMarkdown(Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\TransformerClient.cs:line 119\r\n   at Microsoft.OpenLocalization.Helper.XliffTransformUtil.XliffToMarkdown(String skeletonFile, String xliffFile, String mdfile, Boolean useJavascriptTransformer) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Helper\\XliffTransformUtil.cs:line 92\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass5_0.<GetHandbackFiles>b__0(String file) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Localization\\HandbackCore.cs:line 406",
         "extended_information": null
       },
-      "HandbackFailureTimes": 3,
+      "HandbackFailureTimes": 4,
       "UpdatedDateTime": "2016-06-22T08:53:11.9223293Z",
       "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.it-it\\master\\archive\\fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.6090efa36a485414676b1fb6da1ddf93f37c5910.it-it.xlf",
       "ArchiveFileCommit": "31cd89741b6cb77d9ff9f9189ec91541115e5a07",
@@ -33262,7 +33262,7 @@
       "TargetFilePath": "EMDocs\\Solutions\\fasttrack-center-benefit-process-for-ems-overview.md",
       "HandbackFilePath": "ol-handback\\Microsoft\\EMDocs-pr.it-it\\master\\fasttrack-center-benefit-process-for-ems-overview.e956d51b6fcce58eb53dace8c29c2bafa286d254.it-it.xlf",
       "HandbackFileCommit": "872d58a8981d059368c3e799efe5ec5d86ac45af",
-      "HandbackDateTime": "2016-07-13T22:16:05.8656327Z",
+      "HandbackDateTime": "2016-07-13T22:31:20.5331156Z",
       "HandbackException": {
         "internal_error_code": "handback_transform_failed",
         "internal_error_message": "Handback file: C:\\ol\\master\\EM.handback\\d2bba5\\ol-handback\\Microsoft\\EMDocs-pr.it-it\\master\\fasttrack-center-benefit-process-for-ems-overview.e956d51b6fcce58eb53dace8c29c2bafa286d254.it-it.xlf failed.",
@@ -33272,7 +33272,7 @@
         "stack_trace": "   at Microsoft.OpenLocalization.Transformer.TransformerClient.XliffToMarkdown(Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\TransformerClient.cs:line 119\r\n   at Microsoft.OpenLocalization.Helper.XliffTransformUtil.XliffToMarkdown(String skeletonFile, String xliffFile, String mdfile, Boolean useJavascriptTransformer) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Helper\\XliffTransformUtil.cs:line 92\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass5_0.<GetHandbackFiles>b__0(String file) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Localization\\HandbackCore.cs:line 406",
         "extended_information": null
       },
-      "HandbackFailureTimes": 2,
+      "HandbackFailureTimes": 3,
       "UpdatedDateTime": "2016-06-22T08:53:11.9223293Z",
       "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.it-it\\master\\archive\\fasttrack-center-benefit-process-for-ems-overview.e956d51b6fcce58eb53dace8c29c2bafa286d254.it-it.xlf",
       "ArchiveFileCommit": "31cd89741b6cb77d9ff9f9189ec91541115e5a07",
@@ -34301,7 +34301,7 @@
       "TargetFilePath": null,
       "HandbackFilePath": null,
       "HandbackFileCommit": null,
-      "HandbackDateTime": "2016-07-13T22:16:05.8656327Z",
+      "HandbackDateTime": "2016-07-13T22:31:20.5331156Z",
       "HandbackException": {
         "internal_error_code": "handback_transform_failed",
         "internal_error_message": "Handback file: C:\\ol\\master\\EM.handback\\d2bba5\\ol-handback\\Microsoft\\EMDocs-pr.it-it\\master\\mdm-step-2-plan-for-mobile-device-management.6cd0f32e125ad2c468f1ac81df399531df9f5a2d.it-it.xlf failed.",
@@ -34311,7 +34311,7 @@
         "stack_trace": "   at Microsoft.OpenLocalization.Transformer.TransformerClient.XliffToMarkdown(Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\TransformerClient.cs:line 119\r\n   at Microsoft.OpenLocalization.Helper.XliffTransformUtil.XliffToMarkdown(String skeletonFile, String xliffFile, String mdfile, Boolean useJavascriptTransformer) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Helper\\XliffTransformUtil.cs:line 92\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass5_0.<GetHandbackFiles>b__0(String file) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Localization\\HandbackCore.cs:line 406",
         "extended_information": null
       },
-      "HandbackFailureTimes": 3,
+      "HandbackFailureTimes": 4,
       "UpdatedDateTime": "0001-01-01T00:00:00",
       "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.it-it\\master\\archive\\mdm-step-2-plan-for-mobile-device-management.6cd0f32e125ad2c468f1ac81df399531df9f5a2d.it-it.xlf",
       "ArchiveFileCommit": "31cd89741b6cb77d9ff9f9189ec91541115e5a07",
