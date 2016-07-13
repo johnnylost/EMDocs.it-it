@@ -44,6 +44,6 @@ Le risposte alle domande del passaggio 1 aiutano a decidere in che modo verranno
 L'organizzazione potrebbe voler consentire entrambi gli scenari di registrazione, adottando un approccio flessibile per impiegare metodi diversi per reparti o situazioni diverse. In tal caso, la soluzione di gestione dei dispositivi mobili deve essere in grado di supportare entrambi gli scenari.
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO2-->
 
 
