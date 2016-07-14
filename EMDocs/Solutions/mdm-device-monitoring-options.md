@@ -99,6 +99,6 @@ Le risposte alle domande nell'attività 2 aiutano a determinare le esigenze di m
 - MDM per Office 365: [Panoramica e attività di gestione dei dispositivi](https://technet.microsoft.com/en-us/library/ms.o365.cc.devicepolicy.aspx)
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO2-->
 
 
