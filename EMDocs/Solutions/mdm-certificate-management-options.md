@@ -83,6 +83,6 @@ Gli elenchi che seguono sono utili per comprendere i vantaggi e gli svantaggi de
 Per altre informazioni sulle opzioni di gestione dei certificati per dispositivi mobili, leggere la procedura per [abilitare i profili dei certificati](/Intune/deploy-use/secure-resource-access-with-certificate-profiles) in Intune e confrontare questi requisiti e procedure con [l'abilitazione dei profili dei certificati](https://technet.microsoft.com/library/dn261202.aspx) in System Center 2012 R2 Configuration Manager.
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO2-->
 
 
