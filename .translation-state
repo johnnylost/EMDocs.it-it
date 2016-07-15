@@ -1,6 +1,6 @@
 {
   "LastProcessedCommit": "ba4abc6f62d5ae077ded7bb04fc93168847ea2a0",
-  "LastTranslatedCommit": "3fe93fef771d617c940ebe82af98b2e7f7adb223",
+  "LastTranslatedCommit": "7d5ff7dc4c1d2e6529dcfdf138f36d2009ec5999",
   "Items": {
     "da63fda594055f3647cc04e6954675a9558776db": {
       "FileHash": "da63fda594055f3647cc04e6954675a9558776db",
@@ -33348,7 +33348,7 @@
       "TargetFilePath": "EMDocs\\Solutions\\fasttrack-center-benefit-process-for-ems-your-responsibilities.md",
       "HandbackFilePath": "ol-handback\\Microsoft\\EMDocs-pr.it-it\\master\\fasttrack-center-benefit-process-for-ems-your-responsibilities.0fc5677407275aba8ab97a050557abd968b1230c.it-it.xlf",
       "HandbackFileCommit": "872d58a8981d059368c3e799efe5ec5d86ac45af",
-      "HandbackDateTime": "2016-07-15T03:45:42.5914576Z",
+      "HandbackDateTime": "2016-07-15T04:03:46.8013895Z",
       "HandbackException": {
         "internal_error_code": "handback_transform_failed",
         "internal_error_message": "Handback file: C:\\ol\\master\\EM.handback\\d2bba5\\ol-handback\\Microsoft\\EMDocs-pr.it-it\\master\\fasttrack-center-benefit-process-for-ems-your-responsibilities.0fc5677407275aba8ab97a050557abd968b1230c.it-it.xlf failed.",
@@ -33358,7 +33358,7 @@
         "stack_trace": "   at Microsoft.OpenLocalization.Transformer.TransformerClient.XliffToMarkdown(Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\TransformerClient.cs:line 119\r\n   at Microsoft.OpenLocalization.Helper.XliffTransformUtil.XliffToMarkdown(String skeletonFile, String xliffFile, String mdfile, Boolean useJavascriptTransformer) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Helper\\XliffTransformUtil.cs:line 92\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass5_0.<GetHandbackFiles>b__0(String file) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Localization\\HandbackCore.cs:line 406",
         "extended_information": null
       },
-      "HandbackFailureTimes": 2,
+      "HandbackFailureTimes": 3,
       "UpdatedDateTime": "2016-06-22T08:53:11.9223293Z",
       "ArchiveFilePath": "ol-handoff\\Microsoft\\EMDocs-pr.it-it\\master\\archive\\fasttrack-center-benefit-process-for-ems-your-responsibilities.0fc5677407275aba8ab97a050557abd968b1230c.it-it.xlf",
       "ArchiveFileCommit": "31cd89741b6cb77d9ff9f9189ec91541115e5a07",
