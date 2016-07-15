@@ -81,6 +81,6 @@ In base alle risposte date alle domande del passaggio 1, l'utente dovrebbe esser
 Per altre informazioni sulle opzioni di registrazione e provisioning dei dispositivi mobili, assicurarsi di esaminare le procedure di [attivazione delle registrazioni dei dispositivi mobili](/Intune/deploy-use/enroll-devices-in-microsoft-intune) in Intune e di confrontare requisiti e procedure per [attivare le registrazioni dei dispositivi mobili](https://technet.microsoft.com/library/jj884158.aspx) in Configuration Manager e MDM per Office 365.
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO2-->
 
 

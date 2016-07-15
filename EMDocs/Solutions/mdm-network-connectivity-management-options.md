@@ -71,6 +71,6 @@ Esaminare i dettagli sulle opzioni di gestione della configurazione della posta 
 - Configuration Manager: abilitare i profili [wireless](https://technet.microsoft.com/library/dn261221.aspx) e [VPN](https://technet.microsoft.com/library/dn261217.aspx)
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO2-->
 
 
