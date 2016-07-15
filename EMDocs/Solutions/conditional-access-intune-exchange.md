@@ -1,27 +1,20 @@
 ---
-# required metadata
-
 title: Usare l'accesso condizionale con Microsoft Intune ed Exchange Server locale
-description:
-keywords:
+description: 
+keywords: 
 author: craigcaseyMSFT
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 2a64e898-4c60-48bf-ae14-b05e091e0533
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: a16e90093c7571f3c098ce815a2b70ae03c080e3
+ms.openlocfilehash: 6ed28a5ec5449dbca6e4f885dd0fa60bf30c3d91
+
 
 ---
 
@@ -44,7 +37,7 @@ Seguire i passaggi in [Install the Intune on-premises Exchange Connector](/intun
 > È possibile impostare solo una connessione di Exchange per account di Intune. Se si tenta di configurare una connessione aggiuntiva, la connessione originale sarà sostituita da quella nuova.
 
 ### Passaggio 2: Creare criteri di conformità e distribuirli agli utenti.
-I criteri di conformità definiscono le regole e le impostazioni che un dispositivo deve soddisfare per essere considerato conforme ai criteri di accesso condizionale. Seguire i passaggi in [Create a device compliance policy in Microsoft Intune](/intune/deployuse/create-a-device-compliance-policy-in-microsoft-intune) (Creare criteri di conformità in Microsoft Intune) per creare e distribuire criteri di conformità.
+I criteri di conformità definiscono le regole e le impostazioni che un dispositivo deve soddisfare per essere considerato conforme ai criteri di accesso condizionale. Seguire i passaggi in [Creare criteri di conformità dei dispositivi in Microsoft Intune](/intune/deploy-use/create-a-device-compliance-policy-in-microsoft-intune) per creare e distribuire criteri di conformità.
 
 Se si vuole avere la possibilità di rimuovere tutti i messaggi di posta elettronica aziendale da un dispositivo iOS quando non fa più parte dell'azienda, è necessario creare e distribuire un profilo di posta elettronica e quindi impostare i criteri di conformità che specificano che i profili di posta elettronica sono gestiti da Intune. È necessario distribuire il profilo di posta elettronica allo stesso set di utenti a cui sono destinati questi criteri di conformità.
 ![Screenshot che illustra la pagina "Regole" della Creazione guidata criteri di conformità in cui è possibile specificare che un profilo di posta elettronica deve essere gestito da Intune](./media/ProtectEmail/Hybrid-Onprem-ExchSrvr-Wizard6.PNG)
@@ -70,7 +63,7 @@ Il flusso seguente viene usato dai criteri di accesso condizionale perché un am
 
 ![Diagramma di flusso che illustra come i criteri di accesso condizionale per Exchange Server locale valutano se consentire o bloccare i dispositivi.](./media/ProtectEmail/conditional-access-8-2.png)
 
-Per configurare i criteri di accesso condizionale, seguire le indicazioni in [Configurare i criteri di accesso condizionale](/intune/deploy-use/restrict-access-to-exchange-onpremises-with-microsoft-intune#-a-name-bkmk_enablexchngonprem-a-configure-a-conditional-access-policy).
+Per configurare i criteri di accesso condizionale, seguire le indicazioni in [Configurare l'accesso condizionale](/intune/deploy-use/restrict-access-to-exchange-online-with-microsoft-intune#configure-conditional-access).
 
 ## Reporting
 
@@ -84,6 +77,7 @@ Nel dashboard di Intune fare clic sul riquadro **Dispositivi bloccati da Exchang
 Dopo aver distribuito una soluzione per la protezione della posta elettronica aziendale e dei dati di questa all'interno dei dispositivi mobili, è possibile scoprire di più sull'[esperienza dell'utente finale relativa all'accesso condizionale](end-user-experience-conditional-access.md). Ciò consente di prepararsi ad affrontare i problemi che potrebbero verificarsi quando gli utenti finali registrano dispositivi specifici.
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jul16_HO2-->
 
 

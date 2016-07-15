@@ -1,27 +1,21 @@
 ---
-# required metadata
-
 title: Implementazione di una soluzione per proteggere la posta elettronica e gli allegati aziendali
-description:
-keywords:
+description: 
+keywords: 
 author: karthikaraman
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: edc744d8-97d9-42e0-8906-6f0dedd8d629
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 5f1c98cc916bee9bb83249a16a52a5fdd3810142
+ms.openlocfilehash: eec74f54e6e6265d53f62fdccead61bff9174503
+
 
 ---
 
@@ -46,8 +40,7 @@ Questo articolo aiuta a preparare e implementare una soluzione per proteggere i 
 
 -   **Criteri**: la soluzione EMS e i relativi componenti includono diversi criteri tramite cui vengono gestiti la sicurezza e l'accesso. Stabilire i criteri che devono essere configurati dall'amministratore IT. I tre criteri chiavi da usare per la ricerca e la pianificazione per la protezione dell'accesso alla posta elettronica e ai relativi dati:
 
-    -   **Criteri di conformità del dispositivo**: determinare il significato del termine conformità per la società. Intune include diverse regole che è possibile impostare, ma non tutte le regole potrebbero essere valide per un'azienda. È possibile modificare i criteri in qualsiasi momento, ma è buona norma
-        determinare un set di criteri di base per la società. I criteri di conformità sono orientati ai gruppi di utenti e di dispositivi di Intune.
+    -   **Criteri di conformità del dispositivo**: determinare il significato del termine conformità per la società. Intune include diverse regole che è possibile impostare, ma non tutte le regole potrebbero essere valide per un'azienda. È possibile modificare i criteri in qualsiasi momento, ma è consigliabile stabilire un set di criteri di base per l'azienda. I criteri di conformità sono orientati ai gruppi di utenti e di dispositivi di Intune.
 
     -   **Criteri di accesso condizionale**: i criteri di accesso condizionale sono orientati ai gruppi di sicurezza di Azure AD. Stabilire gli utenti a cui i criteri devono essere indirizzati e se ci sono utenti che devono essere esenti. L'accesso condizionale è supportato sia dalla soluzione basata su cloud che dall'implementazione ibrida.
 
@@ -104,6 +97,7 @@ Per istruzioni dettagliate su come distribuire una soluzione per proteggere i co
 - [Usare l'accesso condizionale con Microsoft Intune e Configuration Manager](conditional-access-intune-configmgr.md)
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

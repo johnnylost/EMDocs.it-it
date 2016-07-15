@@ -1,27 +1,21 @@
 ---
-# required metadata
-
 title: Specificare i requisiti di privacy
-description:
-keywords:
+description: 
+keywords: 
 author: YuriDio
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: d02d3ec2-706a-4e03-977c-b7c06cbd4ebd
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: d43860e838a40de05bdec73b00b6721ee634d7e5
+ms.openlocfilehash: 519482cadc7f0054883b70dd0de20e25380ec1a6
+
 
 ---
 
@@ -58,6 +52,7 @@ Prima di scegliere una soluzione di gestione di dispositivi mobili, considerare 
 
 Leggere l'[informativa sulla privacy di Microsoft Online Services](http://www.microsoft.com/server-cloud/products/intune-trust-center/privacy.aspx) per comprendere meglio in che modo i servizi di Microsoft Cloud, tra cui Intune, gestiscono la privacy dell'utente.
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

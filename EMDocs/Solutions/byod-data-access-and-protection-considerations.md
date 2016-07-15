@@ -1,27 +1,21 @@
 ---
-# required metadata
-
 title: Considerazioni su protezione e accesso ai dati
-description:
-keywords:
+description: 
+keywords: 
 author: YuriDio
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 181eb917-119d-4e56-8ead-1182b1dc5cab
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 02c3a16dfeaef55ff7747f565311c8492875da64
+ms.openlocfilehash: 1b284ec12663422308fb6a44a82fec732d7e9dfa
+
 
 ---
 
@@ -117,8 +111,7 @@ Usare l'elenco riportato di seguito per comprendere le considerazioni sulla prot
     - VPN da sito a sito: nel caso di un'[infrastruttura cloud ibrida](http://blogs.technet.com/b/cloudsolutions/archive/2013/08/22/hybrid-it-infrastructure-solution-for-enterprise-it-overview.aspx) connessa a Servizi cloud, è consigliabile usare una rete VPN da sito a sito per assicurare la disponibilità del canale sicuro per l'uso da parte delle app presenti nei dispositivi degli utenti
 - (3.2) Dati inattivi nel centro dati del provider di servizi cloud (facoltativo: si applica solo se l'azienda usa servizi cloud per BYOD)
     - Provider di servizi cloud: considerare le opzioni che il provider di servizi cloud può offrire per crittografare i dati inattivi
-    - Gestione delle chiavi: verificare come il provider di servizi cloud gestisce le chiavi ed esegue il processo di backup. Considerare anche l'integrazione tra i servizi cloud e un sistema di gestione delle chiavi locale
-(4) Dati inattivi nei dispositivi degli utenti
+    - Gestione delle chiavi: verificare come il provider di servizi cloud gestisce le chiavi ed esegue il processo di backup. Considerare anche l'integrazione tra i servizi cloud e un sistema di gestione delle chiavi locale (4) Dati inattivi nei dispositivi degli utenti
     - Crittografia di archiviazione: considerare una soluzione di archiviazione che supporta la crittografia
     - Gestione delle chiavi: eseguire il backup della chiave usata per crittografare l'archiviazione e garantire la disponibilità di un Key Recovery Agent, in caso di necessità
     - Cancellazione remota: i dati che si trovano nei dispositivi degli utenti possono essere eliminati in remoto, se necessario
@@ -255,6 +248,7 @@ Quando si sfruttando le funzionalità di Controllo dinamico degli accessi, è po
 Controllo dinamico degli accessi, una funzione del ruolo File server, garantisce ai reparti IT le funzionalità elencate nella tabella precedente. Per altre informazioni su Controllo dinamico degli accessi, vedere [Controllo dinamico degli accessi: panoramica dello scenario](https://technet.microsoft.com/library/hh831717.aspx).
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

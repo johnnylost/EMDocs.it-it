@@ -1,27 +1,21 @@
 ---
-# required metadata
-
 title: Esperienza utente finale di accesso condizionale in Windows Phone
-description:
-keywords:
+description: 
+keywords: 
 author: craigcaseyMSFT
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 906566e0-f05e-4af5-b4d5-0efb083dca76
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-ms.reviewer:
+ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 5f1c98cc916bee9bb83249a16a52a5fdd3810142
+ms.openlocfilehash: 1527f382ab35dd47d1342eb6e320048f76d62e60
+
 
 ---
 
@@ -103,10 +97,10 @@ Ogni 8 ore per impostazione predefinita, i dispositivi vengono controllati per v
 5.  Se il problema viene risolto, l'utente fa clic su **Continua** per completare il processo. L'accesso alla posta elettronica dovrebbe diventare disponibile entro pochi minuti.
 
 ### Come proseguire
-L'esperienza dell'utente finale è leggermente diversa in altri dispositivi mobili. Altre informazioni sull'esperienza dell'utente finale per [Android](end-user-experience-conditional-access-android.md) e
-[iOS](end-user-experience-conditional-access-ios.md).
+L'esperienza dell'utente finale è leggermente diversa in altri dispositivi mobili. Sono disponibili altre informazioni sull'esperienza dell'utente finale per [Android](end-user-experience-conditional-access-android.md) e [iOS](end-user-experience-conditional-access-ios.md).
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

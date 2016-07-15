@@ -1,27 +1,21 @@
 ---
-# required metadata
-
 title: Informazioni su come distribuire una soluzione per la protezione di documenti e messaggi di posta elettronica aziendali
-description:
-keywords:
+description: 
+keywords: 
 author: craigcaseyMSFT
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 2e10af43-3138-45c0-b2f7-14a1d2bfb237
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-ms.reviewer:
+ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: c965f619511720175393f91ba49d019ba4bcff4f
+ms.openlocfilehash: 2dc585131b1897109afeb3ace9f8b9f6a245a313
+
 
 ---
 
@@ -30,7 +24,7 @@ Sono sempre di più le aziende che permettono ai propri dipendenti di aumentare 
 
 Questa guida è rivolta ai professionisti IT e si propone di agevolare la definizione e quindi la distribuzione della soluzione ottimale per consentire all'azienda di applicare l'accesso condizionale in una delle configurazioni descritte di seguito. In questo modo, i dipendenti potranno usare i propri dispositivi mobili per accedere alla posta elettronica aziendale, proteggendo al contempo i dati dell'azienda.
 
-Questa sezione illustra come distribuire una soluzione per la protezione di documenti e messaggi di posta elettronica aziendali. Per informazioni dettagliate sull'architettura di queste soluzioni, vedere [Indicazioni sull'architettura per la protezione di documenti e messaggi di posta elettronica aziendali](architecture-guidance-for-protecting-company-email-and-documents).
+Questa sezione illustra come distribuire una soluzione per la protezione di documenti e messaggi di posta elettronica aziendali. Per informazioni dettagliate sull'architettura di queste soluzioni, vedere [Indicazioni sull'architettura per la protezione di documenti e messaggi di posta elettronica aziendali](architecture-guidance-for-protecting-company-email-and-documents.md).
 
 > [!TIP]
 > È possibile scaricare una copia di questo argomento nella [Raccolta TechNet](https://gallery.technet.microsoft.com/Deploying-Enterprise-16499404).
@@ -46,7 +40,7 @@ La protezione dei messaggi di posta elettronica aziendali prevede due obiettivi 
 
 -   **Proteggere il contenuto nei messaggi di posta elettronica e negli allegati:** mentre l'accesso condizionale assicura che solo i dispositivi conformi possano accedere alla posta elettronica, resta il problema di proteggere il contenuto dei messaggi e degli allegati di posta elettronica.  Il contenuto può essere copiato, spostato e salvato in un percorso diverso o condiviso con un altro utente.  EMS risolve questo problema usando i criteri di gestione delle applicazioni mobili.
 
-    Le app gestite sono app a cui sono applicati criteri di gestione delle applicazioni mobili per renderle conformi ai requisiti di sicurezza aziendali. Queste app offrono il controllo diretto sulla distribuzione, sulla gestione continuativa, ad esempio di inventari o aggiornamenti, e sulla cancellazione selettiva delle app e dei relativi dati associati. Inoltre, con un set di criteri di gestione delle applicazioni mobili (MAM), Intune permette di modificare la funzionalità delle app e di limitare la condivisione dei dati. Per altri dettagli sul funzionamento di questa soluzione, compresi i dettagli sull'architettura, vedere [Indicazioni sull'architettura per la protezione di documenti e messaggi di posta elettronica aziendali](architecture-guidance-for-protecting-company-email-and-documents).
+    Le app gestite sono app a cui sono applicati criteri di gestione delle applicazioni mobili per renderle conformi ai requisiti di sicurezza aziendali. Queste app offrono il controllo diretto sulla distribuzione, sulla gestione continuativa, ad esempio di inventari o aggiornamenti, e sulla cancellazione selettiva delle app e dei relativi dati associati. Inoltre, con un set di criteri di gestione delle applicazioni mobili (MAM), Intune permette di modificare la funzionalità delle app e di limitare la condivisione dei dati. Per altri dettagli sul funzionamento di questa soluzione, compresi i dettagli sull'architettura, vedere [Indicazioni sull'architettura per la protezione di documenti e messaggi di posta elettronica aziendali](architecture-guidance-for-protecting-company-email-and-documents.md).
 
     > [!NOTE]
     > È possibile creare e distribuire un profilo di posta elettronica, quindi impostare un criterio di conformità che specifica che i profili di posta elettronica devono essere gestiti da Intune (scelta consigliata). Questo permette di cancellare i messaggi di posta elettronica dai dispositivi dismessi e, per iOS, assicura che gli allegati possano essere aperti solo in applicazioni gestite da Intune. Vedere il [Passaggio 5: Creare criteri di conformità e distribuirli agli utenti.](conditional-access-intune-configmgr-exchange.md) per ulteriori informazioni.
@@ -75,6 +69,7 @@ Una volta letto questo argomento, è possibile acquisire altre informazioni sull
 - [Usare l'accesso condizionale con Microsoft Intune e Configuration Manager](conditional-access-intune-configmgr.md)
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

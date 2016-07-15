@@ -1,27 +1,20 @@
 ---
-# required metadata
-
 title: Opzioni di provisioning dei dispositivi
-description:
-keywords:
+description: 
+keywords: 
 author: andredm7
 manager: swadhwa
 ms.date: 05/31/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 991cd722-089c-4e8c-80b9-b82e405cc891
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: a16e90093c7571f3c098ce815a2b70ae03c080e3
+ms.openlocfilehash: 8185d89d5be464a902aa56f30f15cc6d8f59dff5
+
 
 ---
 
@@ -37,7 +30,7 @@ Quando un utente può usare e registrare il proprio dispositivo, aumentano i req
 **Panoramica del processo di registrazione per dispositivi mobili usando una distribuzione ibrida di Intune e ConfigMgr**
 
 1. Con <token>Windows Server 2012 R2, è stato introdotto un nuovo concetto noto come registrazione del dispositivo.  Gli utenti possono registrare i propri dispositivi per l'accesso Single Sign-On e l'accesso ai dati aziendali tramite l'aggiunta all'area di lavoro.  Durante il processo di registrazione viene installato un certificato sul dispositivo. Dopo aver registrato il dispositivo e averlo reso noto alla soluzione di gestione dei dispositivi, l'utente ottiene l'accesso alle risorse aziendali che in precedenza non erano disponibili al di fuori del PC appartenente al dominio.
-2. Gli utenti possono registrare dispositivi e configurarli per la gestione con Intune [usando il portale aziendale](/Intune/deployuse/enroll-devices-in-microsoft-intune) e quindi sfruttare il Portale aziendale di Microsoft Intune per facilitare l'accesso ad applicazioni e dati aziendali ed essere in grado di gestire i propri dispositivi, eseguendo attività come la cancellazione remota in caso di smarrimento, furto o sostituzione.
+2. Gli utenti possono registrare dispositivi e configurarli per la gestione con Intune [usando il portale aziendale](/Intune/deploy-use/enroll-devices-in-microsoft-intune) e quindi sfruttare il Portale aziendale di Microsoft Intune per facilitare l'accesso ad applicazioni e dati aziendali ed essere in grado di gestire i propri dispositivi, eseguendo attività come la cancellazione remota in caso di smarrimento, furto o sostituzione.
 3. È possibile pubblicare l'accesso alle risorse aziendali con la funzionalità integrata [Proxy applicazione Web](https://technet.microsoft.com/library/dn584107.aspx), disponibile in Windows Server 2012 R2, in base alle informazioni sulla presenza del dispositivo (ossia se è registrato) e all'identità dell'utente. Se si usa Enterprise Mobility Suite, è anche possibile pubblicare applicazioni con il proxy di applicazione di AD Azure. È possibile usare l'autenticazione a più fattori tramite l'[autenticazione attiva di Azure](https://azure.microsoft.com/documentation/articles/multi-factor-authentication-get-started-cloud/).
 4. Per offrire agli amministratori una visualizzazione unificata dell'intero ambiente, i dati di Intune vengono sincronizzati con Configuration Manager per consentire la gestione unificata sia in locale che nel cloud.
 5. Durante il processo di registrazione viene creato un nuovo oggetto dispositivo in Active Directory.  Tale oggetto dispositivo stabilisce un collegamento tra l'utente e il dispositivo, rendendolo noto alla soluzione di gestione dei dispositivi e consentendo al dispositivo di eseguire l'autenticazione. In sostanza, si tratta di una semplice autenticazione a due fattori.
@@ -85,8 +78,9 @@ In base alle risposte date alle domande del passaggio 1, l'utente dovrebbe esser
 - Le organizzazioni che per il momento non hanno configurato un'infrastruttura di Configuration Manager dovranno pianificarla, installarla e configurarla prima dell'integrazione con Intune
 - Richiede requisiti di configurazione aggiuntivi per la connessione di Intune all'infrastruttura di Configuration Manager locale
 
-Per altre informazioni sulle opzioni di registrazione e provisioning dei dispositivi mobili, assicurarsi di esaminare le procedure di [attivazione delle registrazioni dei dispositivi mobili](/Intune/deployuse/enroll-devices-in-microsoft-intune) in Intune e di confrontare requisiti e procedure per [attivare le registrazioni dei dispositivi mobili](https://technet.microsoft.com/library/jj884158.aspx) in Configuration Manager e MDM per Office 365.
+Per altre informazioni sulle opzioni di registrazione e provisioning dei dispositivi mobili, assicurarsi di esaminare le procedure di [attivazione delle registrazioni dei dispositivi mobili](/Intune/deploy-use/enroll-devices-in-microsoft-intune) in Intune e di confrontare requisiti e procedure per [attivare le registrazioni dei dispositivi mobili](https://technet.microsoft.com/library/jj884158.aspx) in Configuration Manager e MDM per Office 365.
 
-<!--HONumber=Jun16_HO1-->
+
+<!--HONumber=Jul16_HO2-->
 
 

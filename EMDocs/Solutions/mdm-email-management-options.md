@@ -1,27 +1,21 @@
 ---
-# required metadata
-
 title: Opzioni di gestione della posta elettronica
-description:
-keywords:
-author: robmazz
+description: 
+keywords: 
+author: andredm7
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 9b89da63-039f-4831-b204-28c0681478fe
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: ef523f44cd9d51e59fc8d94bbb8d7aa388120945
+ms.openlocfilehash: 13749f7100df8a157ae8204641442aadfa3c7f16
+
 
 ---
 
@@ -87,10 +81,11 @@ Le risposte alle domande nel passaggio 1 aiutano a decidere in che modo verranno
 
 Esaminare i dettagli sulle opzioni di gestione della configurazione della posta elettronica per dispositivi mobili prendendo in considerazione gli elementi seguenti:
 
-- Intune: Come [abilitare i profili di posta elettronica](/Intune/deployuse/configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune) e l'[accesso condizionale alla posta elettronica](/Intune/deployuse/restrict-access-to-email-and-o365-services-with-microsoft-intune)
+- Intune: Come [abilitare i profili di posta elettronica](/Intune/deploy-use/configure-access-to-corporate-email-using-email-profiles-with-microsoft-intune) e l'[accesso condizionale alla posta elettronica](/Intune/deploy-use/restrict-access-to-email-and-o365-services-with-microsoft-intune)
 - Configuration Manager: Abilitazione dei [profili di posta elettronica](https://technet.microsoft.com/library/dn554227.aspx) e dell'[accesso condizionale alla posta elettronica](https://technet.microsoft.com/library/dn919655.aspx)
 - MDM per Office 365: [Funzionalità di gestione dei dispositivi mobili](https://technet.microsoft.com/library/ms.o365.cc.devicepolicysupporteddevice.aspx)
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jul16_HO1-->
 
 

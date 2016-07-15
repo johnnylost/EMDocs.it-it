@@ -1,27 +1,20 @@
 ---
-# required metadata
-
 title: Protezione avanzata dei dispositivi mobili
-description:
-keywords:
+description: 
+keywords: 
 author: YuriDio
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: ade57c73-a8a2-497f-ad8d-5dfc3cba9e70
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: a16e90093c7571f3c098ce815a2b70ae03c080e3
+ms.openlocfilehash: 1a8b4be857a8fede2df37db1eabd7b95cea1dba9
+
 
 ---
 
@@ -39,11 +32,11 @@ Un possibile approccio alla protezione avanzata dei dispositivi mobili consiste 
 
 ## Aree diverse di protezione avanzata dei dispositivi mobili
 
-È possibile usare ogni livello per raggruppare le aree che devono essere conformi ai requisiti di sicurezza aziendali. Ad esempio, è possibile configurare Intune per distribuire [criteri di sicurezza](/intune/deployuse/manage-settings-and-features-on-your-devices-with-microsoft-intune-policies) per i dispositivi che riguardino in modo specifico la protezione avanzata delle impostazioni di sistema e l'abilitazione della crittografia. I criteri consentono anche di garantire che sono disponibili per l'installazione nei dispositivi mobili solo le [app conformi](https://technet.microsoft.com/library/dn818906.aspx), creando un elenco di accessi approvati.
+È possibile usare ogni livello per raggruppare le aree che devono essere conformi ai requisiti di sicurezza aziendali. Ad esempio, è possibile configurare Intune per distribuire [criteri di sicurezza](/intune/deploy-use/manage-settings-and-features-on-your-devices-with-microsoft-intune-policies) per i dispositivi che riguardino in modo specifico la protezione avanzata delle impostazioni di sistema e l'abilitazione della crittografia. I criteri consentono anche di garantire che sono disponibili per l'installazione nei dispositivi mobili solo le [app conformi](https://technet.microsoft.com/library/dn818906.aspx), creando un elenco di accessi approvati.
 
 Sui dispositivi BYOD che eseguono Windows 8.1 Enterprise, con AppLocker è possibile consentire o bloccare un'applicazione in base a percorso del file, hash o proprietà che vengono mantenute nei vari aggiornamenti dell'applicazione, ad esempio nome dell'autore, nome del prodotto, nome del file e versione del file. In Windows 10 è stato aggiunto un nuovo provider di servizi di configurazione AppLocker per consentire l'abilitazione delle regole di AppLocker usando un server MDM. Per altre informazioni su questa nuova funzionalità di Windows 10, vedere [CSP di AppLocker](https://msdn.microsoft.com/library/windows/hardware/dn920019(v=vs.85).aspx).
 
-Un'altra area che deve essere controllata è l'esperienza di esplorazione degli utenti sui dispositivi mobili. Un criterio di Managed Browser include un elenco di elementi consentiti o bloccati che limita i siti Web che possono essere visitati dagli utenti del browser. Per altre informazioni su come configurare questi criteri in Intune, vedere [Gestire l'accesso a Internet usando i criteri di Managed Browser con Microsoft Intune](/intune/deployuse/manage-internet-access-using-managed-browser-policies).
+Un'altra area che deve essere controllata è l'esperienza di esplorazione degli utenti sui dispositivi mobili. Un criterio di Managed Browser include un elenco di elementi consentiti o bloccati che limita i siti Web che possono essere visitati dagli utenti del browser. Per altre informazioni su come configurare questi criteri in Intune, vedere [Gestire l'accesso a Internet usando i criteri di Managed Browser con Microsoft Intune](/intune/deploy-use/manage-internet-access-using-managed-browser-policies).
 
 In un ambiente ibrido con Configuration Manager in locale, è possibile creare una [linea di base di configurazione](https://technet.microsoft.com/library/gg712268.aspx?WT.mc_id=Blog_EntMob_Showcase_PCIT) per impostare uno stato di protezione avanzata di base per i dispositivi mobili. È possibile personalizzare la linea di base in modo da includere tutte le impostazioni necessarie e distribuirla ai dispositivi mobili. Le opzioni delle impostazioni di conformità variano in base al fornitore della piattaforma dei dispositivi mobili, pertanto per altre informazioni sulle opzioni disponibili per ogni dispositivo, vedere [Impostazioni generali per i dispositivi mobili in Configuration Manager](https://technet.microsoft.com/library/dn376523.aspx).
 
@@ -98,6 +91,7 @@ La protezione avanzata della piattaforma per dispositivi mobili svolge un ruolo 
 >[!TIP] Per altre informazioni sulle impostazioni di gestione dei dispositivi mobili che è possibile configurare in un criterio di sicurezza per dispositivi mobili di Microsoft Intune, vedere [Impostazioni dei criteri di sicurezza dei dispositivi mobili in Microsoft Intune](https://technet.microsoft.com/library/dn913730.aspx). 
 
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

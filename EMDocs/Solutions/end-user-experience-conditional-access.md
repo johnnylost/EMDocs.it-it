@@ -1,27 +1,21 @@
 ---
-# required metadata
-
 title: Esperienza utente finale di accesso condizionale
-description:
-keywords:
+description: 
+keywords: 
 author: craigcaseyMSFT
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 3e186dd2-e17c-40d8-b160-48038b2c6593
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-ms.reviewer:
+ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 5f1c98cc916bee9bb83249a16a52a5fdd3810142
+ms.openlocfilehash: e0843fc9808963fcc61d48abdc58953f57dcc471
+
 
 ---
 
@@ -47,6 +41,7 @@ Una volta che il dispositivo viene considerato registrato e conforme, entro poch
 [Questo argomento ](end-user-experience-conditional-access-winphone.md) descrive l'esperienza utente finale quando si prova ad accedere alla posta elettronica nel proprio Windows Phone dopo l'abilitazione dell'accesso condizionale.
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

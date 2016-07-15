@@ -1,27 +1,21 @@
 ---
-# required metadata
-
 title: Indicazioni sull'architettura per la protezione di documenti e messaggi di posta elettronica aziendali
-description:
-keywords:
+description: 
+keywords: 
 author: karthikaraman
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: fc9c7d79-d2ca-4cb2-8456-c7a88cbbf6fd
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-ms.reviewer:
+ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 60b9891fcf0e81bc0b5b2d0418a244af231bc8d2
+ms.openlocfilehash: a6cfc88ab59bf31eaeca2ad96327fb66ba23d44f
+
 
 ---
 
@@ -91,19 +85,20 @@ Il terzo livello è il **livello gestione delle app** con l'ecosistema di app ge
 - [Informazioni su come distribuire una soluzione per la protezione di documenti e messaggi di posta elettronica aziendali](learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md).
 
 Se, poi, si vuole approfondire la conoscenza di EMS e Azure Active Directory, è possibile ottenere altre informazioni da questi articoli:
-- [Architettura EMS](https://azure.microsoft.com/en-us/documentation/infographics/enterprise-mobility/)
+- [Architettura EMS](https://azure.microsoft.com/documentation/infographics/enterprise-mobility/)
 
-- [Informazioni su Azure Active Directory](https://azure.microsoft.com/en-us/documentation/articles/active-directory-whatis/)
+- [Informazioni su Azure Active Directory](/active-directory/active-directory-whatis)
 
-- [Come Azure Active Directory supporta Office 365, Microsoft Intune e altri servizi Microsoft?](https://azure.microsoft.com/en-us/documentation/articles/active-directory-administer/#what-is-an-azure-ad-tenant)
+- [Come Azure Active Directory supporta Office 365, Microsoft Intune e altri servizi Microsoft?](/active-directory/active-directory-administer#what-is-an-azure-ad-tenant)
 
-- [Come Azure Active Directory consente di gestire le identità](https://azure.microsoft.com/en-us/documentation/articles/active-directory-administer/)
+- [Come Azure Active Directory consente di gestire le identità](/active-directory/active-directory-administer)
 
-- [Informazioni su Microsoft Azure Rights Management](https://technet.microsoft.com/en-us/library/jj585026.aspx)
+- [Informazioni su Microsoft Azure Rights Management](/rights-management/understand-explore/what-is-azure-rms)
 
-- [Supporto di Microsoft Azure Rights Management da parte delle applicazioni](https://technet.microsoft.com/en-us/library/jj585004.aspx)
+- [Supporto di Microsoft Azure Rights Management da parte delle applicazioni](/rights-management/understand-explore/applications-support)
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jul16_HO1-->
 
 
