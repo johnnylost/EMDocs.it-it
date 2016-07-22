@@ -1,27 +1,21 @@
 ---
-# required metadata
-
 title: Sviluppare la strategia di adozione della gestione dei dispositivi mobili
-description:
-keywords:
+description: 
+keywords: 
 author: YuriDio
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 10172816-b52d-4a55-8803-6a6805126fab
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: d43860e838a40de05bdec73b00b6721ee634d7e5
+ms.openlocfilehash: 8670e37bc847485053009db781cabac54e9bc922
+
 
 ---
 
@@ -171,11 +165,12 @@ In base ai requisiti definiti nell'attività 1, è possibile scegliere quale sol
 
 Comprendere il comportamento degli utenti e identificarne la posizione sono fattori importanti da includere nella strategia di gestione dei dispositivi mobili. Le modalità di rilevamento dei dispositivi variano a seconda delle esigenze e dei requisiti aziendali.  Sono disponibili funzionalità di rilevamento diverse in ogni sistema operativo mobile, pertanto le piattaforme per dispositivi mobili che si sceglie di supportare avranno un impatto sulle opzioni disponibili. Ad esempio, i requisiti di conformità possono indurre a dare la priorità all'adozione di piattaforme per dispositivi mobili che consentono di tenere traccia della posizione dell'utente e di ricorrere al geofencing.
 
->[!TIP] I recinti virtuali consentono di monitorare la posizione geografica di un dispositivo mobile e di abilitare o disabilitare il dispositivo e le risorse di rete in base a tale posizione. Ad esempio, Windows 8.1 consente a un'app di definire un'area geografica e fa in modo che il sistema avverta l'app quando il dispositivo su cui è in esecuzione entra o esce da tale area. Per altre informazioni su questa funzionalità in Windows 8.1, leggere l'articolo [Recinti virtuali, dall'inizio alla fine (XAML)](https://msdn.microsoft.com/library/windows/apps/xaml/dn342943.aspx). 
+>[!TIP] Il geofencing consente di monitorare la posizione geografica di un dispositivo mobile e di abilitare o disabilitare il dispositivo e le risorse di rete in base a tale posizione. Ad esempio, Windows 8.1 consente a un'app di definire un'area geografica e fa in modo che il sistema avverta l'app quando il dispositivo su cui è in esecuzione entra o esce da tale area. Per altre informazioni su questa funzionalità in Windows 8.1, leggere l'articolo [Recinti virtuali, dall'inizio alla fine (XAML)](https://msdn.microsoft.com/library/windows/apps/xaml/dn342943.aspx). 
 
 
 
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

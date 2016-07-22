@@ -1,27 +1,21 @@
 ---
-# required metadata
-
 title: Considerazioni sulle app
-description:
-keywords:
+description: 
+keywords: 
 author: YuriDio
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 4b871c74-fec8-45e2-8b45-6ef0e62f7cc6
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 95eeb4decc5408d9f4f22cbb44f5bccc14968fb3
+ms.openlocfilehash: 4c9422a04ac855b8e1b97445e7f84685be0dba77
+
 
 ---
 
@@ -234,7 +228,7 @@ L'esperienza di archiviazione per l'infrastruttura VDI in Windows Server 2012 R2
 
 Per altre informazioni su VDI in Windows Server 2012 R2, vedere [Novità di Servizi Desktop remoto in Windows Server 2012 R2](https://technet.microsoft.com/library/dn283323.aspx).
 
-La decisione di quale esperienza e distribuzione delle app verrà usata per il progetto di infrastruttura BYOD deve essere bilanciata con il costo totale di proprietà. Per comprendere meglio il costo totale di proprietà per l'adozione di VDI, è consigliabile leggere [VDI TCO Analysis for Office Worker Environments](http://download.microsoft.com/download/7/9/A/79AAA903-25B4-4D76-8580-BC47D5700433/Microsoft VDI TCO whitepaper customer ready v1 2.pdf).
+La decisione di quale esperienza e distribuzione delle app verrà usata per il progetto di infrastruttura BYOD deve essere bilanciata con il costo totale di proprietà. Per comprendere meglio il costo totale di proprietà per l'adozione dell'infrastruttura VDI, è consigliabile leggere il white paper [VDI TCO Analysis for Office Worker Environments](http://www.intel.in/content/www/in/en/data-center-efficiency/data-center-efficiency-vdi-tco-analysis-for-office-worker-environments-report.html) (Analisi del costo totale di proprietà dell'infrastruttura VDI per ambienti di ufficio).
 
 ## Sicurezza
 
@@ -243,6 +237,7 @@ Valutare di usare un ciclo di vita dello sviluppo della sicurezza per tutte le a
 Le considerazioni sulla sicurezza sono importanti per le app che verranno utilizzate dagli utenti sui propri dispositivi. È consigliabile usare raccolte personalizzate in base ai gruppi di sicurezza di Active Directory per restringere l'accesso degli utenti ad alcune app con requisiti di accesso specifici, limitando in tal modo gli utenti che possono installarle. La sicurezza può anche essere sfruttata per migliorare l'esperienza utente consentendo l'uso dello stesso nome utente e della stessa password per accedere alle risorse aziendali, che possono essere eseguite con AD FS. La sicurezza è importante anche per la progettazione della distribuzione delle app. È consigliabile acquisire e distribuire i certificati e le chiavi di sideload prima di abilitare la registrazione degli utenti. Lavorare insieme ad altri team per semplificare il processo di certificazione delle app.
 
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

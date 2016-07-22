@@ -1,27 +1,21 @@
 ---
-# required metadata
-
 title: Considerazioni di progettazione
-description:
-keywords:
+description: 
+keywords: 
 author: YuriDio
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 639dfd46-33ea-4cfd-918d-f3d8e57645ed
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: f752f75206cb37cbe565e44a00f20fcdad13ddb5
+ms.openlocfilehash: d2bd169a1b475588bd28ab4a8f8172aafdc362cb
+
 
 ---
 
@@ -87,6 +81,7 @@ Il progetto di infrastruttura per il supporto di BYOD riunisce le risposte alle 
 
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

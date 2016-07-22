@@ -1,27 +1,21 @@
 ---
-# required metadata
-
 title: Identificare i requisiti di integrazione dell'infrastruttura della soluzione SaaS
-description:
-keywords:
+description: 
+keywords: 
 author: andredm7
 manager: swadhwa
 ms.date: 05/31/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 26b15471-b496-4404-934d-67e621655bca
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 73c37109735567642ff1dc11f9729e3ab3affd3b
+ms.openlocfilehash: 7e43f590182e6a2eacfa60114290848de0b24baa
+
 
 ---
 
@@ -83,6 +77,7 @@ Come parte della pianificazione del ciclo di vita della gestione SaaS, è necess
 >[!TIP]
 >Assicurarsi di prendere appunti per ogni risposta e di comprendere la logica alla base della risposta. Le attività successive esamineranno le opzioni disponibili e i vantaggi e svantaggi di ogni opzione.  Rispondere a queste domande consentirà di selezionare l'opzione più adatta alle esigenze aziendali.
 
-<!--HONumber=Jun16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 

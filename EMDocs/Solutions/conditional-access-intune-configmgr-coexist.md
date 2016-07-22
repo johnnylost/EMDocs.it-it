@@ -1,27 +1,21 @@
 ---
-# required metadata
-
 title: Usare l'accesso condizionale in Exchange Online e in locale con Microsoft Intune e Configuration Manager
-description:
-keywords:
+description: 
+keywords: 
 author: craigcaseyMSFT
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 5ccd033f-bc31-4fae-b6bf-9e1c2722627f
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 5f1c98cc916bee9bb83249a16a52a5fdd3810142
+ms.openlocfilehash: 2323ad99cdec31419c71c7dfc5133d3144806ecf
+
 
 ---
 
@@ -44,6 +38,7 @@ Per distribuire una soluzione di coesistenza, seguire i passaggi precedenti, che
 Dopo aver distribuito una soluzione per la protezione della posta elettronica aziendale e dei dati di questa all'interno dei dispositivi mobili, è possibile scoprire di più sull'[esperienza dell'utente finale relativa all'accesso condizionale](end-user-experience-conditional-access.md). Ciò consente di prepararsi ad affrontare i problemi che potrebbero verificarsi quando gli utenti finali registrano dispositivi specifici.
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

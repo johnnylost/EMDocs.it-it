@@ -1,27 +1,20 @@
 ---
-# required metadata
-
 title: Separazione dei dati
-description:
-keywords:
+description: 
+keywords: 
 author: YuriDio
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 50bd37fe-30b5-4a45-9c36-0b907dd13cc2
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: a16e90093c7571f3c098ce815a2b70ae03c080e3
+ms.openlocfilehash: 19ddd4da5796af41b84b979e1382a78856646a6b
+
 
 ---
 
@@ -38,7 +31,7 @@ La separazione dei dati non solo è importante per l'organizzazione, ma anche pe
 
 Mantenendo separate tutte le app, i dati aziendali e i criteri distribuiti dalla soluzione MDM, è possibile se necessario rimuoverli dal dispositivo tramite la cancellazione selettiva, senza alcun effetto sui contenuti e sulle app personali dell'utente. 
 
->[!TIP] Per informazioni sul funzionamento della cancellazione remota in altre piattaforme, ad esempio iOS e Android, vedere [Proteggere i dati con Cancellazione remota, Blocco remoto o Reimpostazione passcode usando Microsoft Intune](/intune/deployuse/help-protect-your-data-with-remote-wipe,-remote-lock,-or-passcode-reset-using-microsoft-intune). 
+>[!TIP] Per informazioni sul funzionamento della cancellazione remota in altre piattaforme, ad esempio iOS e Android, vedere [Proteggere i dati con la cancellazione selettiva o completa tramite Microsoft Intune](/intune/deploy-use/use-remote-wipe-to-help-protect-data-using-microsoft-intune). 
 
 La cancellazione selettiva per la gestione dei dati dei dispositivi mobili è inclusa in Windows Server 2012 R2 e in Windows 8.1. Può essere usata collegando le risorse che consentono agli amministratori di Exchange Server e Microsoft Intune di gestire i dati aziendali nei dispositivi e di sviluppare app in grado di usare le funzionalità della [cancellazione selettiva di Windows](https://technet.microsoft.com/library/dn486874.aspx).  Windows Phone 8 e versioni successive supporta la separazione dei dati nell'archiviazione interna.
 
@@ -52,7 +45,7 @@ La funzionalità Protezione dei dati aziendali (EDP, Enterprise Data Protection)
 
 EDP esegue la separazione dei dati crittografando i dati aziendali. Per altre informazioni, vedere l'[introduzione a Protezione dei dati aziendali (EDP)](https://technet.microsoft.com/library/dn985838.aspx). I criteri EDP di Intune gestiscono l'elenco di app protette da EDP, i percorsi di rete aziendali, il livello di protezione e le impostazioni di crittografia.
 
-Quando un utente installa e accede a un'app che supporta più identità (multi-identità) su un dispositivo gestito da Intune, ad esempio Outlook, Intune verifica se l'account in uso corrisponde all'account gestito sul dispositivo. Se l'account è gestito ed è disponibile un criterio per l'app e per l'utente, le impostazioni del criterio proteggono i dati in tale account. Quando l'utente aggiunge account personali all'app, tali account non rientrano nella gestione e nella protezione di Intune. Ciò consente l'uso personale dell'applicazione senza compromettere la protezione aziendale. Per altre informazioni sulle funzionalità multi-identità in Intune, vedere [Proteggere i dati usando i criteri di gestione delle applicazioni mobili con Microsoft Intune](/intune/deployuse/configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console). 
+Quando un utente installa e accede a un'app che supporta più identità (multi-identità) su un dispositivo gestito da Intune, ad esempio Outlook, Intune verifica se l'account in uso corrisponde all'account gestito sul dispositivo. Se l'account è gestito ed è disponibile un criterio per l'app e per l'utente, le impostazioni del criterio proteggono i dati in tale account. Quando l'utente aggiunge account personali all'app, tali account non rientrano nella gestione e nella protezione di Intune. Ciò consente l'uso personale dell'applicazione senza compromettere la protezione aziendale. Per altre informazioni sulle funzionalità multi-identità in Intune, vedere [Proteggere i dati delle app usando i criteri di gestione delle app per dispositivi mobili con Microsoft Intune](/intune/deploy-use/configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console). 
 
 Nella tabella che segue vengono confrontate le funzionalità di cancellazione selettiva disponibili con diverse soluzioni MDM in modo da poter scegliere la soluzione più adatta ai requisiti di separazione dei dati dell'organizzazione.
 
@@ -93,8 +86,9 @@ Nella tabella che segue vengono confrontate le funzionalità di cancellazione se
 
 - Se l'organizzazione attualmente non usa un'infrastruttura locale di Configuration Manager, è necessario pianificare, installare e configurare questa piattaforma prima dell'integrazione
 
-Leggere l'articolo [Proteggere i dati con Cancellazione remota, Blocco remoto o Reimpostazione passcode usando Microsoft Intune](/intune/deployuse/help-protect-your-data-with-remote-wipe,-remote-lock,-or-passcode-reset-using-microsoft-intune) per sapere in che modo i dati vengono rimossi e mantenuti dopo una cancellazione selettiva per ogni piattaforma per dispositivi mobili. Se si usa un ambiente ibrido, vedere l'articolo [Proteggere i dati con Cancellazione remota, Blocco remoto o Reimpostazione passcode usando Configuration Manager](https://technet.microsoft.com/library/dn956981.aspx) per capire come si usa Configuration Manager per eseguire questa operazione.
+Leggere l'articolo [Proteggere i dati con la cancellazione selettiva o completa tramite Microsoft Intune](/intune/deploy-use/use-remote-wipe-to-help-protect-data-using-microsoft-intune) per sapere in che modo i dati vengono rimossi e mantenuti dopo una cancellazione selettiva per ogni piattaforma per dispositivi mobili. Se si usa un ambiente ibrido, vedere l'articolo [Proteggere i dati con Cancellazione remota, Blocco remoto o Reimpostazione passcode usando Configuration Manager](https://technet.microsoft.com/library/dn956981.aspx) per capire come si usa Configuration Manager per eseguire questa operazione.
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

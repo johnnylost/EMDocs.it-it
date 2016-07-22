@@ -1,27 +1,20 @@
 ---
-# required metadata
-
 title: Opzioni di monitoraggio dei dispositivi
-description:
-keywords:
-author: robmazz
+description: 
+keywords: 
+author: andredm7
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 23cfc12a-fa96-4fb3-8de1-af4569e8cb71
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+ms.sourcegitcommit: a16e90093c7571f3c098ce815a2b70ae03c080e3
+ms.openlocfilehash: f543376b1e850c7d6e868c91d942aa8058e11b41
+
 
 ---
 
@@ -32,7 +25,7 @@ ms.suite: ems
 
 Il monitoraggio e la comprensione dello stato e della configurazione di tutti i dispositivi mobili gestiti dall'organizzazione aiuta a rilevare problemi e mancanza di conformità, nonché a gestire l'inventario dei dispositivi. In assenza di report dettagliati su hardware, software e stato della conformità, è impossibile assicurarsi che i criteri dei dispositivi siano effettivamente applicati e funzionino correttamente. Il monitoraggio proattivo consente di ridurre l'impatto di piccoli problemi prima che diventino più complessi e più costosi da risolvere.
 
-[Intune](/Intune/deployuse/monitoring-and-reports-with-microsoft-intune), [MDM per Office 365](https://technet.microsoft.com/library/faa7d8e5-645d-4d59-839c-c8d4c1869e4a(v=technet.10).aspx) e una [distribuzione ibrida](https://technet.microsoft.com/library/gg699377.aspx) di Intune e Configuration Manager includono tutti il monitoraggio e la creazione di report per agevolare la gestione di dispositivi, utenti e conformità ai criteri e alle procedure dell'organizzazione. Usando report incorporati e report personalizzati, è possibile monitorare la gestione dei dispositivi mobili in aree quali:
+[Intune](/Intune/deploy-use/monitoring-and-reports-with-microsoft-intune), [MDM per Office 365](https://technet.microsoft.com/library/faa7d8e5-645d-4d59-839c-c8d4c1869e4a(v=technet.10).aspx) e una [distribuzione ibrida](https://technet.microsoft.com/library/gg699377.aspx) di Intune e Configuration Manager includono tutti il monitoraggio e la creazione di report per agevolare la gestione di dispositivi, utenti e conformità ai criteri e alle procedure dell'organizzazione. Usando report incorporati e report personalizzati, è possibile monitorare la gestione dei dispositivi mobili in aree quali:
 
 - Report di aggiornamento per il software
 - Report sull'inventario del software
@@ -101,10 +94,11 @@ Le risposte alle domande nell'attività 2 aiutano a determinare le esigenze di m
 
 È possibile esaminare i dettagli sulle opzioni di monitoraggio dei dispositivi mobili prendendo in considerazione gli elementi seguenti:
 
-- Intune: **[Come monitorare i dispositivi mobili](https://technet.microsoft.com/library/jj733634.aspx)** e [gestire i report](/Intune/deployuse/monitoring-and-reports-with-microsoft-intune)
+- Intune: **[Come monitorare i dispositivi mobili](https://technet.microsoft.com/library/jj733634.aspx)** e [gestire i report](/Intune/deploy-use/monitoring-and-reports-with-microsoft-intune)
 - Configuration Manager: [Monitoraggio dei dispositivi mobili](https://technet.microsoft.com/library/gg682128.aspx) e [gestione dei report](https://technet.microsoft.com/library/gg699377.aspx)
 - MDM per Office 365: [Panoramica e attività di gestione dei dispositivi](https://technet.microsoft.com/en-us/library/ms.o365.cc.devicepolicy.aspx)
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jul16_HO2-->
 
 

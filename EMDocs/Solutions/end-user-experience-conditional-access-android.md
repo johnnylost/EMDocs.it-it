@@ -1,27 +1,21 @@
 ---
-# required metadata
-
 title: Esperienza utente finale di accesso condizionale nei dispositivi Android
-description:
-keywords:
+description: 
+keywords: 
 author: craigcaseyMSFT
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 0b5e4330-6fa5-445c-b73e-86ce5b9c7964
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
-ms.reviewer:
+ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 5f1c98cc916bee9bb83249a16a52a5fdd3810142
+ms.openlocfilehash: 5efa0fd3567b3f91e0edcddae929bdb494f013da
+
 
 ---
 
@@ -112,6 +106,7 @@ Ogni 8 ore per impostazione predefinita, i dispositivi vengono controllati per v
 L'esperienza dell'utente finale è leggermente diversa in altri dispositivi mobili. Altre informazioni sull'esperienza dell'utente finale per [iOS](end-user-experience-conditional-access-ios.md) e [Windows Phone](end-user-experience-conditional-access-winphone.md).
 
 
-<!--HONumber=Apr16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 
