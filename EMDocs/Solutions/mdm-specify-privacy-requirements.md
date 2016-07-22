@@ -4,7 +4,7 @@ description:
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 07/07/2016
 ms.topic: article
 ms.prod: 
 ms.service: 
@@ -13,8 +13,8 @@ ms.assetid: d02d3ec2-706a-4e03-977c-b7c06cbd4ebd
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d43860e838a40de05bdec73b00b6721ee634d7e5
-ms.openlocfilehash: 519482cadc7f0054883b70dd0de20e25380ec1a6
+ms.sourcegitcommit: 1e23cdad577738a72b6dc8423a5ba6cf7af29bfb
+ms.openlocfilehash: b4564a1f537a2c4f299bcedf986338f4a18b5f0c
 
 
 ---
@@ -27,7 +27,8 @@ ms.openlocfilehash: 519482cadc7f0054883b70dd0de20e25380ec1a6
 
 Nel passaggio precedente si sono definite le attività di gestione dei dispositivi, inclusa la gestione dei dispositivi e della distribuzione dei contenuti. L'obiettivo di questa attività consiste nel definire i requisiti di privacy per i contenuti aziendali presenti nel dispositivo mobile. 
 
->[!TIP] Per altre informazioni sulla distribuzione dei contenuti per i dispositivi mobili, leggere la soluzione Gestione semplificata per dispositivi mobili e computer in un ambiente ibrido.
+>[!TIP] 
+> Per altre informazioni sulla distribuzione dei contenuti per i dispositivi mobili, leggere la soluzione Gestione semplificata per dispositivi mobili e computer in un ambiente ibrido.
 
 I requisiti aziendali relativi a privacy e conformità variano in base al settore, alle normative applicabili e al tipo di azienda. Può essere utile, ad esempio, che la soluzione MDM consenta di eseguire inventari hardware di base, inventari software, raccolte di file e distribuzione di software su dispositivi mobili. La distribuzione di software e l'inventario hardware in genere sono supportati per impostazione predefinita. 
 
@@ -53,6 +54,6 @@ Prima di scegliere una soluzione di gestione di dispositivi mobili, considerare 
 Leggere l'[informativa sulla privacy di Microsoft Online Services](http://www.microsoft.com/server-cloud/products/intune-trust-center/privacy.aspx) per comprendere meglio in che modo i servizi di Microsoft Cloud, tra cui Intune, gestiscono la privacy dell'utente.
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

@@ -4,7 +4,7 @@ description:
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 07/07/2016
 ms.topic: article
 ms.prod: 
 ms.service: 
@@ -12,8 +12,9 @@ ms.technology:
 ms.assetid: 50bd37fe-30b5-4a45-9c36-0b907dd13cc2
 ms.reviewer: 
 ms.suite: ems
-ms.sourcegitcommit: a16e90093c7571f3c098ce815a2b70ae03c080e3
-ms.openlocfilehash: 19ddd4da5796af41b84b979e1382a78856646a6b
+translationtype: Human Translation
+ms.sourcegitcommit: 1e23cdad577738a72b6dc8423a5ba6cf7af29bfb
+ms.openlocfilehash: 64cd77f7930216f38786451b56037f49d97b095a
 
 
 ---
@@ -31,7 +32,8 @@ La separazione dei dati non solo è importante per l'organizzazione, ma anche pe
 
 Mantenendo separate tutte le app, i dati aziendali e i criteri distribuiti dalla soluzione MDM, è possibile se necessario rimuoverli dal dispositivo tramite la cancellazione selettiva, senza alcun effetto sui contenuti e sulle app personali dell'utente. 
 
->[!TIP] Per informazioni sul funzionamento della cancellazione remota in altre piattaforme, ad esempio iOS e Android, vedere [Proteggere i dati con la cancellazione selettiva o completa tramite Microsoft Intune](/intune/deploy-use/use-remote-wipe-to-help-protect-data-using-microsoft-intune). 
+>[!TIP] 
+> Per informazioni sul funzionamento della cancellazione remota in altre piattaforme, ad esempio iOS e Android, vedere [Proteggere i dati con la cancellazione selettiva o completa tramite Microsoft Intune](/intune/deploy-use/use-remote-wipe-to-help-protect-data-using-microsoft-intune). 
 
 La cancellazione selettiva per la gestione dei dati dei dispositivi mobili è inclusa in Windows Server 2012 R2 e in Windows 8.1. Può essere usata collegando le risorse che consentono agli amministratori di Exchange Server e Microsoft Intune di gestire i dati aziendali nei dispositivi e di sviluppare app in grado di usare le funzionalità della [cancellazione selettiva di Windows](https://technet.microsoft.com/library/dn486874.aspx).  Windows Phone 8 e versioni successive supporta la separazione dei dati nell'archiviazione interna.
 
@@ -89,6 +91,6 @@ Nella tabella che segue vengono confrontate le funzionalità di cancellazione se
 Leggere l'articolo [Proteggere i dati con la cancellazione selettiva o completa tramite Microsoft Intune](/intune/deploy-use/use-remote-wipe-to-help-protect-data-using-microsoft-intune) per sapere in che modo i dati vengono rimossi e mantenuti dopo una cancellazione selettiva per ogni piattaforma per dispositivi mobili. Se si usa un ambiente ibrido, vedere l'articolo [Proteggere i dati con Cancellazione remota, Blocco remoto o Reimpostazione passcode usando Configuration Manager](https://technet.microsoft.com/library/dn956981.aspx) per capire come si usa Configuration Manager per eseguire questa operazione.
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

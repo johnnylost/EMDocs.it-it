@@ -86,6 +86,6 @@ Esaminare i dettagli sulle opzioni di gestione della configurazione della posta 
 - MDM per Office 365: [Funzionalità di gestione dei dispositivi mobili](https://technet.microsoft.com/library/ms.o365.cc.devicepolicysupporteddevice.aspx)
 
 
-<!--HONumber=Jul16_HO1-->
+<!--HONumber=Jul16_HO3-->
 
 

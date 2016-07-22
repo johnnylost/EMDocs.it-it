@@ -2,9 +2,9 @@
 title: Sviluppare una strategia di gestione dei dispositivi mobili SaaS
 description: 
 keywords: 
-author: robmazz
+author: andredm7
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
 ms.prod: 
 ms.service: 
@@ -12,8 +12,9 @@ ms.technology:
 ms.assetid: b3cefcc5-b045-48f9-91f5-6d282a4428f3
 ms.reviewer: 
 ms.suite: ems
-ms.sourcegitcommit: d43860e838a40de05bdec73b00b6721ee634d7e5
-ms.openlocfilehash: 1f193851c08d5fae5d3093e0470921e28a04b5b6
+translationtype: Human Translation
+ms.sourcegitcommit: 73c37109735567642ff1dc11f9729e3ab3affd3b
+ms.openlocfilehash: 91d1498db006b387ff524b2b26c715c3a109dd8a
 
 
 ---
@@ -75,6 +76,6 @@ Assicurarsi di leggere l'articolo **[Proteggere i dati con Cancellazione remota,
 Per altre informazioni sui requisiti e le funzionalità della soluzione SaaS, assicurarsi di esaminare la **[descrizione del servizio Microsoft Intune](https://technet.microsoft.com/library/dn600286.aspx)** per comprendere le differenze del supporto SaaS in [MDM per Office 365](https://technet.microsoft.com/library/faa7d8e5-645d-4d59-839c-c8d4c1869e4a(v=technet.10).aspx) e in un'infrastruttura [ibrida](https://technet.microsoft.com/library/jj884158.aspx) con Intune e Configuration Manager.
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=Jul16_HO3-->
 
 

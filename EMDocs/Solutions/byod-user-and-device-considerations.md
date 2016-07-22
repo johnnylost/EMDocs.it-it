@@ -4,7 +4,7 @@ description:
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 07/07/2016
 ms.topic: article
 ms.prod: 
 ms.service: 
@@ -13,8 +13,8 @@ ms.assetid: d1653116-3922-40d3-bc4f-3d845b6aaecb
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 3a95624c9092dba51e515bd294bd13beb4071510
-ms.openlocfilehash: 8d5c06c66102c21adcb26b86e4f8ed3550c3aca0
+ms.sourcegitcommit: 1e23cdad577738a72b6dc8423a5ba6cf7af29bfb
+ms.openlocfilehash: a3aa062b36a4563c3166d7ce68f616049049034f
 
 
 ---
@@ -202,13 +202,14 @@ Usare l'elenco che segue per comprendere i vantaggi e gli svantaggi delle opzion
     - Svantaggi
         - Richiede IPsec per l'implementazione con la funzionalità [Protezione accesso alla rete Microsoft](https://technet.microsoft.com/library/cc731276(v=ws.10).aspx), che può rappresentare un problema in uno scenario BYOD che richiede il supporto per "qualsiasi dispositivo"
 
-> [!NOTE] Per altre informazioni sui profili Wi-Fi in Configuration Manager, vedere [Introduzione ai profili Wi-Fi in Configuration Manager](https://technet.microsoft.com/library/dn261224.aspx).
+> [!NOTE] 
+> Per altre informazioni sui profili Wi-Fi in Configuration Manager, vedere [Introduzione ai profili Wi-Fi in Configuration Manager](https://technet.microsoft.com/library/dn261224.aspx).
 
 Il percorso di rete svolge un ruolo importante per le considerazioni sugli utenti e i dispositivi. È possibile sfruttare il controllo degli accessi a più fattori in ADFS per abilitare i criteri di autorizzazione per applicazione, con i quali è possibile consentire o negare l'accesso in base a utente, dispositivo e percorso di rete. Per altre informazioni su come configurare un ambiente per convalidare questa funzionalità, vedere [Gestire i rischi con il controllo degli accessi a più fattori](https://technet.microsoft.com/library/dn280936.aspx).
 
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

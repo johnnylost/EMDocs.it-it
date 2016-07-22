@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: Identificare i requisiti di connettività SaaS
-description:
-keywords:
-author: robmazz
+title: "Identificare i requisiti di connettività SaaS"
+description: 
+keywords: 
+author: andredm7
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 6afbce4c-7500-4387-a19c-dff52c152097
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 73c37109735567642ff1dc11f9729e3ab3affd3b
+ms.openlocfilehash: d5e660e87a80b7703a09214b1d1f07e41e8f5483
+
 
 ---
 
@@ -78,6 +72,7 @@ A seconda delle risposte fornite alle domande nell'Attività 2, dovrebbe essere 
 - Le organizzazioni che per il momento non hanno configurato un'infrastruttura di Configuration Manager dovranno pianificarla, installarla e configurarla prima dell'integrazione con Intune
 - Richiede requisiti aggiuntivi per la distribuzione locale e modifiche della configurazione per le organizzazioni con Configuration Manager.
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jul16_HO3-->
 
 

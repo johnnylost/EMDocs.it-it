@@ -1,27 +1,22 @@
 ---
-# required metadata
-
 title: "Processo FastTrack Center Benefit per Enterprise Mobility Suite: responsabilità di Microsoft"
-description:
-keywords:
+description: 
+keywords: 
 author: staciebarker
 manager: jeffgilb
-ms.date: 04/28/2016
+ms.date: 07/07/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: c8fd871e-f1bc-43ec-a5f3-ad025df9b026
-
-# optional metadata
-
 ROBOTS: noindex
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 1e23cdad577738a72b6dc8423a5ba6cf7af29bfb
+ms.openlocfilehash: 5aa145639d7f38beb0a9b684cd70227edccccf42
+
 
 ---
 
@@ -86,11 +81,13 @@ Fornire indicazioni su:
 
     -   Configurazione della sincronizzazione delle password (hash della password) in Microsoft Intune (Azure Active Directory) con lo strumento Azure Active Directory Connect.
 
-        > [!NOTE] Sviluppo e implementazione di estensioni di regole personalizzate sono esterni all'ambito.
+        > [!NOTE]
+        > Sviluppo e implementazione per estensioni di regole personalizzate non rientrano nell'ambito.
 
 -   Per una singola foresta se la destinazione sono le identità federate: installazione e configurazione di Active Directory Federation Services (AD FS) per l'autenticazione di domini locali con Microsoft Intune in un solo sito e configurazione a tolleranza di errore, se necessario.
 
-    > [!NOTE] Per tutte le configurazioni a più foreste, le distribuzioni di AD FS sono esterne all'ambito.
+    > [!NOTE]
+    > Per tutte le configurazioni di più foreste, le distribuzioni di AD FS non rientrano nell'ambito.
 
 -   Test della funzionalità SSO (Single Sign-On) se distribuita.
 
@@ -118,11 +115,13 @@ Fornire indicazioni su:
 
     -   Configurare la sincronizzazione tra le foreste locali di Active Directory e la directory di Microsoft Azure Active Directory Premium (Azure Active Directory).
 
-        > [!NOTE] Sviluppo e implementazione per estensioni di regole personalizzate non rientrano nell'ambito.
+        > [!NOTE] 
+        > Sviluppo e implementazione per estensioni di regole personalizzate non rientrano nell'ambito.
 
 -   Per una singola foresta se la destinazione sono le identità federate: installazione e configurazione di Active Directory Federation Services (AD FS) per l'autenticazione di domini locali con Microsoft Azure AD Premium in una configurazione con un solo sito a tolleranza di errore, se necessario.
 
-    > [!NOTE] Per tutte le configurazioni di più foreste le distribuzioni di AD FS non rientrano nell'ambito.
+    > [!NOTE] 
+    > Per tutte le configurazioni di più foreste le distribuzioni di AD FS non rientrano nell'ambito.
 
 -   Test della funzionalità SSO (Single Sign-On), se distribuita.
 
@@ -167,7 +166,8 @@ Fornire indicazioni su:
 
     -   Se è presente un'implementazione esistente di System Center Configuration Manager e si vogliono espandere le funzionalità di gestione con Microsoft Intune, impostare Configuration Manager come autorità MDM.
 
-        > [!NOTE] Per usare Gestione di applicazioni mobili solo nei dispositivi di proprietà degli utenti finali, nei dispositivi condivisi o nei dispositivi di tipo chiosco multimediale, la configurazione di un'autorità MDM non è necessaria.
+        > [!NOTE] 
+        > Per usare Gestione di applicazioni mobili solo nei dispositivi di proprietà degli utenti finali, nei dispositivi condivisi o nei dispositivi di tipo chiosco multimediale, la configurazione di un'autorità MDM non è necessaria.
 
 -   Se Gestione di dispositivi mobili rientra nel proprio ambito, verranno fornite istruzioni su:
 
@@ -244,6 +244,7 @@ Vedere [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/
 
 
 
-<!--HONumber=Jun16_HO1-->
+
+<!--HONumber=Jul16_HO3-->
 
 

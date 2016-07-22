@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: "Passaggio 2: Preparare la gestione dei dispositivi mobili"
-description:
-keywords:
-author: robmazz
+title: 'Passaggio 2: Preparare la gestione dei dispositivi mobili'
+description: 
+keywords: 
+author: andredm7
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 05/20/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: 3cdc1318-50a2-4280-b051-1e009620816e
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 95eeb4decc5408d9f4f22cbb44f5bccc14968fb3
+ms.openlocfilehash: f5223794a8dbb9a9318de90965fd01bd3e98bcaf
+
 
 ---
 
@@ -37,17 +31,18 @@ La gestione dei dispositivi mobili, sia di proprietà della società che dell'ut
 Questa sezione della guida include 11 passaggi. Il tempo totale necessario per leggere le sezioni è circa 38 minuti, ma è possibile passare direttamente a una sezione specifica:
 
 - [Informazioni sul ciclo di vita di MDM](mdm-understand-mdm-lifecycle.md)
-- [Raccogliere i requisiti di monitoraggio](mdm-gather-monitoring-requirements.md)
+- [Raccogliere informazioni sui requisiti di monitoraggio](mdm-gather-monitoring-requirements.md)
 - [Determinare i requisiti di rete](mdm-determine-network-requirements.md)
 - [Opzioni di registrazione dei dispositivi](mdm-device-enrollment-options.md)
 - [Opzioni di provisioning dei dispositivi](mdm-device-provisioning-options.md)
 - [Opzioni di gestione dei dispositivi](mdm-device-management-options.md)
-- [Opzioni di gestione delle applicazioni](mdm-application-management-options)
+- [Opzioni di gestione delle applicazioni](mdm-application-management-options.md)
 - [Opzioni di monitoraggio dei dispositivi](mdm-device-monitoring-options.md)
 - [Opzioni di gestione della posta elettronica](mdm-email-management-options.md)
-- [Opzioni di gestione della connettività di rete](mdm-network-connectivity-management-options)
+- [Opzioni di gestione della connettività di rete](mdm-network-connectivity-management-options.md)
 - [Opzioni di gestione dei certificati](mdm-certificate-management-options.md)
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jul16_HO3-->
 
 

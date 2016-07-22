@@ -1,27 +1,21 @@
 ---
-# required metadata
-
-title: "Passaggio 4: Piano per la gestione dei dispositivi mobili SaaS (Software as a Service)"
-description:
-keywords:
-author: robmazz
+title: 'Passaggio 4: Piano per la gestione dei dispositivi mobili SaaS (Software as a Service)'
+description: 
+keywords: 
+author: andredm7
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 05/31/2016
 ms.topic: article
-ms.prod:
-ms.service:
-ms.technology:
+ms.prod: 
+ms.service: 
+ms.technology: 
 ms.assetid: ab50bf43-0014-4d55-a52d-12e0428adc12
-
-# optional metadata
-
-#ROBOTS:
-#audience:
-#ms.devlang:
 ms.reviewer: 
 ms.suite: ems
-#ms.tgt_pltfrm:
-#ms.custom:
+translationtype: Human Translation
+ms.sourcegitcommit: 73c37109735567642ff1dc11f9729e3ab3affd3b
+ms.openlocfilehash: ee44a4de3b09d2380bcabaa0380f8e2968184b62
+
 
 ---
 
@@ -45,6 +39,7 @@ Questa sezione della guida include 4 passaggi. Il tempo totale necessario per le
 - [Sviluppare una strategia di gestione dei dispositivi mobili SaaS](mdm-develop-saas-mdm-strategy.md)
 - [Identificare i requisiti di connettività SaaS](mdm-identify-saas-connectivity-requirements.md)
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=Jul16_HO3-->
 
 
