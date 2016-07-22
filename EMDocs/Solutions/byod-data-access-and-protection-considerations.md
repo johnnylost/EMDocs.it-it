@@ -4,7 +4,7 @@ description:
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 07/07/2016
 ms.topic: article
 ms.prod: 
 ms.service: 
@@ -13,8 +13,8 @@ ms.assetid: 181eb917-119d-4e56-8ead-1182b1dc5cab
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 02c3a16dfeaef55ff7747f565311c8492875da64
-ms.openlocfilehash: 1b284ec12663422308fb6a44a82fec732d7e9dfa
+ms.sourcegitcommit: 1e23cdad577738a72b6dc8423a5ba6cf7af29bfb
+ms.openlocfilehash: 1d6f468df0675a410d53241ae23014712be2fee4
 
 
 ---
@@ -217,7 +217,8 @@ Per applicare Multi-Factor Authentication, le società possono usare le funziona
 
 Per imporre l'autorizzazione per le app per gli utenti che vi accedono da una rete esterna o interna, il reparto IT può sfruttare Proxy applicazione Web, che consente di creare regole specifiche per applicare l'autenticazione e l'autorizzazione in combinazione con AD FS. La pubblicazione di Proxy applicazione Web funziona per qualsiasi dispositivo dell'utente: computer portatili personali, tablet o smartphone. Inoltre, gli utenti non devono installare software aggiuntivo nei loro dispositivi per accedere alle app pubblicate. Proxy applicazione Web funge da proxy inverso per qualsiasi app da esso pubblicata e, di conseguenza, l'esperienza utente è la stessa che si avrebbe se i dispositivi degli utenti fossero collegati direttamente alle app. Per informazioni sul Proxy applicazione Web, vedere [Guida alla distribuzione di Proxy applicazione Web](https://technet.microsoft.com/library/dn280944.aspx).
 
->[!NOTE] Nota: in caso di scenario ibrido, se è necessaria un'esperienza utente ottimale in termini di autenticazione e autorizzazione, leggere [Considerazioni di progettazione dell'identità ibrida di Azure Active Directory](http://aka.ms/azhidcg).
+>[!NOTE] 
+> Nota: in caso di scenario ibrido, se è necessaria un'esperienza utente ottimale in termini di autenticazione e autorizzazione, leggere [Considerazioni di progettazione dell'identità ibrida di Azure Active Directory](http://aka.ms/azhidcg).
 
 ## Criteri e conformità
 
@@ -249,6 +250,6 @@ Controllo dinamico degli accessi, una funzione del ruolo File server, garantisce
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

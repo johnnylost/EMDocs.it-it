@@ -4,7 +4,7 @@ description:
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 07/07/2016
 ms.topic: article
 ms.prod: 
 ms.service: 
@@ -13,8 +13,8 @@ ms.assetid: 85783069-14fb-4ead-a159-657d694eb1a7
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 4764d8c3ad679c5096c0de6d9ff51ea0aa6d7c06
-ms.openlocfilehash: b43a8e20d485c970bb90f4ce619518377423b6db
+ms.sourcegitcommit: 1e23cdad577738a72b6dc8423a5ba6cf7af29bfb
+ms.openlocfilehash: 6a30eede24c320b5f68e84f6df1a133dd3885b11
 
 
 ---
@@ -76,12 +76,13 @@ Ogni società dispone di requisiti diversi. Anche se le società appartengono al
 
 Durante questa attività, è anche necessario valutare se la società dispone di criteri di gestione e conformità esistenti per dispositivi mobili e in che modo questi criteri possono influire sulla scelta della soluzione di gestione dei dispositivi mobili.
 
->[!TIP] Assicurarsi di prendere appunti per ogni risposta e di comprendere la logica alla base della risposta. La sezione successiva esaminerà le opzioni disponibili e i vantaggi e svantaggi di ogni opzione.  Avendo risposto a queste domande, sarà possibile selezionare la soluzione più adatta a soddisfare le esigenze aziendali.
+>[!TIP] 
+> Assicurarsi di prendere appunti per ogni risposta e di comprendere la logica alla base della risposta. La sezione successiva esaminerà le opzioni disponibili e i vantaggi e svantaggi di ogni opzione.  Avendo risposto a queste domande, sarà possibile selezionare la soluzione più adatta a soddisfare le esigenze aziendali.
 
 
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

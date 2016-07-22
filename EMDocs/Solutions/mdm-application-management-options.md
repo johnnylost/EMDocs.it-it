@@ -72,6 +72,6 @@ In base alle risposte date alle domande del passaggio 1, l'utente dovrebbe esser
 Per informazioni dettagliate sulle opzioni di gestione delle applicazioni mobili, vedere la sezione relativa alla configurazione e alla distribuzione dei criteri di gestione delle applicazioni per dispositivi mobili per Intune e Configuration Manager nella console di Microsoft Intune. È importante controllare anche l'elenco delle applicazioni Microsoft che possono essere usate con i criteri di MAM di Intune, nonché l'elenco più ampio delle app dei partner compatibili di Intune.
 
 
-<!--HONumber=Jul16_HO1-->
+<!--HONumber=Jul16_HO3-->
 
 

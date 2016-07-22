@@ -4,7 +4,7 @@ description:
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 07/07/2016
 ms.topic: article
 ms.prod: 
 ms.service: 
@@ -13,8 +13,8 @@ ms.assetid: c8824726-082e-417a-8522-183a69328ae4
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d43860e838a40de05bdec73b00b6721ee634d7e5
-ms.openlocfilehash: 541b3a4cbb200558d527a14ce6cc691d74431f0b
+ms.sourcegitcommit: 1e23cdad577738a72b6dc8423a5ba6cf7af29bfb
+ms.openlocfilehash: 3ff89e864ebb0bb20aec623f1e04c874ab7ad7c3
 
 
 ---
@@ -36,11 +36,12 @@ I requisiti di posizione sono uno dei numerosi fattori da tenere in considerazio
         - In caso contrario, può essere ibrida?
     - La società necessita di un modello decentralizzato in cui sedi diverse hanno autonomia nell'amministrazione della gestione dei dispositivi?
 
->[!TIP] Assicurarsi di prendere appunti per ogni risposta e di comprendere la logica alla base della risposta. La sezione successiva esaminerà le opzioni disponibili e i vantaggi e svantaggi di ogni opzione.  Avendo risposto a queste domande, sarà possibile selezionare la soluzione più adatta a soddisfare le esigenze aziendali.
+>[!TIP] 
+> Assicurarsi di prendere appunti per ogni risposta e di comprendere la logica alla base della risposta. La sezione successiva esaminerà le opzioni disponibili e i vantaggi e svantaggi di ogni opzione.  Avendo risposto a queste domande, sarà possibile selezionare la soluzione più adatta a soddisfare le esigenze aziendali.
 
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

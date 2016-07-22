@@ -4,7 +4,7 @@ description:
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 07/07/2016
 ms.topic: article
 ms.prod: 
 ms.service: 
@@ -12,8 +12,9 @@ ms.technology:
 ms.assetid: ade57c73-a8a2-497f-ad8d-5dfc3cba9e70
 ms.reviewer: 
 ms.suite: ems
-ms.sourcegitcommit: a16e90093c7571f3c098ce815a2b70ae03c080e3
-ms.openlocfilehash: 1a8b4be857a8fede2df37db1eabd7b95cea1dba9
+translationtype: Human Translation
+ms.sourcegitcommit: 1e23cdad577738a72b6dc8423a5ba6cf7af29bfb
+ms.openlocfilehash: 15a02b34861c57659310491d744bd3bc953ed449
 
 
 ---
@@ -88,10 +89,11 @@ La protezione avanzata della piattaforma per dispositivi mobili svolge un ruolo 
 
 - Se l'azienda attualmente non ha un'infrastruttura locale di Configuration Manager, le risorse dovranno pianificare, installare e configurare Configuration Manager prima dell'integrazione
 
->[!TIP] Per altre informazioni sulle impostazioni di gestione dei dispositivi mobili che è possibile configurare in un criterio di sicurezza per dispositivi mobili di Microsoft Intune, vedere [Impostazioni dei criteri di sicurezza dei dispositivi mobili in Microsoft Intune](https://technet.microsoft.com/library/dn913730.aspx). 
+>[!TIP] 
+> Per altre informazioni sulle impostazioni di gestione dei dispositivi mobili che è possibile configurare in un criterio di sicurezza per dispositivi mobili di Microsoft Intune, vedere [Impostazioni dei criteri di sicurezza dei dispositivi mobili in Microsoft Intune](https://technet.microsoft.com/library/dn913730.aspx). 
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

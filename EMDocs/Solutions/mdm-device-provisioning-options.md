@@ -12,6 +12,7 @@ ms.technology:
 ms.assetid: 991cd722-089c-4e8c-80b9-b82e405cc891
 ms.reviewer: 
 ms.suite: ems
+translationtype: Human Translation
 ms.sourcegitcommit: a16e90093c7571f3c098ce815a2b70ae03c080e3
 ms.openlocfilehash: 8185d89d5be464a902aa56f30f15cc6d8f59dff5
 
@@ -81,6 +82,6 @@ In base alle risposte date alle domande del passaggio 1, l'utente dovrebbe esser
 Per altre informazioni sulle opzioni di registrazione e provisioning dei dispositivi mobili, assicurarsi di esaminare le procedure di [attivazione delle registrazioni dei dispositivi mobili](/Intune/deploy-use/enroll-devices-in-microsoft-intune) in Intune e di confrontare requisiti e procedure per [attivare le registrazioni dei dispositivi mobili](https://technet.microsoft.com/library/jj884158.aspx) in Configuration Manager e MDM per Office 365.
 
 
-<!--HONumber=Jul16_HO2-->
+<!--HONumber=Jul16_HO3-->
 
 
