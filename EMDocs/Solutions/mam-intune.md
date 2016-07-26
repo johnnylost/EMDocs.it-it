@@ -1,6 +1,6 @@
 ---
-title: Uso dei criteri di gestione delle applicazioni mobili in Intune
-description: 
+title: Uso dei criteri di gestione delle app mobili in Intune
+description: Creare e distribuire un'app in Intune con i criteri di gestione delle app mobili.
 keywords: 
 author: craigcaseyMSFT
 manager: swadhwa
@@ -13,27 +13,27 @@ ms.assetid: 6d7c4104-b85f-407e-8832-0e6bbac934f5
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 276a4ee6ceab6b39b9add2ea844cdf03f142a253
-ms.openlocfilehash: 6e1c55e17c37c5e470c4b391cc8aea4ea777856f
+ms.sourcegitcommit: 135aedbdd08ed6b98d8296c484168398f9a1d59e
+ms.openlocfilehash: 6e1141ea69d92e0afcaa36f8b29d4d5000019769
 
 
 ---
 
-# Usare i criteri di gestione delle applicazioni mobili in Intune
+# Usare i criteri di gestione delle app mobili in Intune
 Uno dei motivi principali per cui molte aziende usano Microsoft Intune è la possibilità di distribuire le app che servono agli utenti per completare il proprio lavoro. Prima di distribuire le app, sarà necessario [gestire i dispositivi](https://docs.microsoft.com/en-us/intune/deploy-use/enroll-devices-in-microsoft-intune).
 
 Se, ad esempio, la società usa Microsoft Word, sono disponibili versioni per Windows, iOS, Android e altri sistemi ancora. La sfida che gli amministratori IT devono affrontare è riuscire a gestire la grande varietà di app disponibili per le diverse piattaforme di dispositivi e computer, per consentire agli utenti di lavorare garantendo al tempo stesso la sicurezza dei dati aziendali.
 
 Se si usa Intune con Configuration Manager, vedere [Come controllare le app usando i criteri di gestione delle applicazioni mobili in Configuration Manager](https://technet.microsoft.com/library/mt131414.aspx?f=255&MSPPError=-2147217396).
 
-I criteri di gestione delle applicazioni mobili supportano:
+I criteri di gestione delle app mobili (MAM) supportano:
 - Dispositivi che eseguono Android 4 e versioni successive
 - Dispositivi che eseguono iOS 7 e versioni successive
 
 > [!NOTE]
-> I criteri di gestione delle applicazioni mobili supportano i dispositivi registrati con Intune. Per informazioni su come creare criteri di gestione delle app per i dispositivi non gestiti da Intune, vedere [Proteggere i dati delle app usando i criteri di gestione delle app per dispositivi mobili con Microsoft Intune](https://docs.microsoft.com/en-us/intune/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune).
+> I criteri MAM supportano i dispositivi registrati con Intune. Per informazioni su come creare criteri di gestione delle app per i dispositivi non gestiti da Intune, vedere [Proteggere i dati delle app usando i criteri di gestione delle app per dispositivi mobili con Microsoft Intune](https://docs.microsoft.com/en-us/intune/deploy-use/protect-app-data-using-mobile-app-management-policies-with-microsoft-intune).
 
-A differenza degli altri criteri di Intune, i criteri di gestione delle applicazioni mobili non vengono distribuiti direttamente ma, al contrario, è possibile associare i criteri all'app che si vuole limitare. Le impostazioni specificate diventeranno effettive quando l'app viene distribuita e installata nei dispositivi.
+A differenza di altri criteri di Intune, i criteri MAM non vengono distribuiti direttamente. ma, al contrario, è possibile associare i criteri all'app che si vuole limitare. Le impostazioni specificate diventeranno effettive quando l'app viene distribuita e installata nei dispositivi.
 
 Per applicare restrizioni a un'app, questa deve includere Microsoft Intune App Software Development Kit (SDK). Esistono due metodi per ottenere questo tipo di app:
 
@@ -51,12 +51,12 @@ Ad esempio, utilizzando Outlook app:
 
 Anche Word, Excel e PowerPoint supportano più identità, ma le restrizioni per i criteri vengono applicate solo in caso di gestione e modifica dei dati aziendali riservati da parte di un servizio, ad esempio OneDrive o SharePoint.
 
-## Creare e distribuire un'app con criterio di gestione delle applicazioni mobili
+## Creare e distribuire un'app in Intune con i criteri di gestione delle app mobili
 
 - Passaggio 1: Ottenere il collegamento a un'app gestita da criteri o creare un'app di cui è stato eseguito il wrapping.
 - Passaggio 2: Pubblicare l'app nello spazio di archiviazione cloud.
-- Passaggio 3: Creare criteri di gestione delle applicazioni mobili.
-- Passaggio 4: Distribuire l'app, selezionando l'opzione per associarla con i criteri di gestione delle applicazioni mobili.
+- Passaggio 3:Creare i criteri di gestione delle app mobili.
+- Passaggio 4: Distribuire l'app selezionando l'opzione per associarla ai criteri di gestione delle app mobili.
 - Passaggio 5: Monitorare la distribuzione dell'app
 
 ### Passaggio 1: Ottenere il collegamento a un'app gestita da criteri o creare un'app di cui è stato eseguito il wrapping
@@ -69,7 +69,7 @@ Quando si pubblica un'app gestita, le procedure possono essere diverse a seconda
 
 Vedere [Aggiungere App per dispositivi mobili in Microsoft Intune](https://docs.microsoft.com/en-us/intune/deploy-use/add-apps-for-mobile-devices-in-microsoft-intune#add-the-app) per la procedura necessaria per caricare un'app nello spazio di archiviazione cloud.
 
-### Passaggio 3: Creare criteri di gestione delle applicazioni mobili
+### Passaggio 3: Creare i criteri di gestione delle app mobili
 Il portale di Azure è la console di amministrazione consigliata per la creazione dei criteri MAM. Il portale di Azure supporta gli scenari MAM seguenti:
 - Dispositivi registrati in Intune
 - Dispositivi gestiti da una soluzione MDM di terze parti
@@ -83,7 +83,7 @@ Se si sta usando la console di amministrazione di Intune per la gestione dei dis
 ### Passaggio 4: Distribuire l'app, selezionando l'opzione per associarla con i criteri di gestione delle applicazioni mobili
 Se si usa il portale di Azure, [distribuire il criterio MAM agli utenti](https://docs.microsoft.com/en-us/intune/deploy-use/create-and-deploy-mobile-app-management-policies-with-microsoft-intune#deploy-a-policy-to-users).
 
-Se si sta usando il portale di Intune, [distribuire l'app](https://docs.microsoft.com/en-us/intune/deploy-use/deploy-apps-in-microsoft-intune#deploy-an-app) assicurandosi di selezionare i criteri di gestione delle applicazioni mobili nella pagina Gestione delle app mobili per associare i criteri all'app.
+Se si sta usando il portale di Intune, [distribuire l'app](https://docs.microsoft.com/en-us/intune/deploy-use/deploy-apps-in-microsoft-intune#deploy-an-app) assicurandosi di selezionare i criteri di gestione delle app mobili nella pagina Gestione delle app mobili per associare i criteri all'app.
 
 Se viene annullata la registrazione del dispositivo da Intune, i criteri non verranno rimossi dalle app. Tutte le app a cui erano stati applicati i criteri conserveranno le impostazioni dei criteri anche dopo la disinstallazione e reinstallazione dell'app.
 
@@ -93,7 +93,7 @@ Potrebbero esserci situazioni in cui si distribuisce un'app e un utente o un dis
 
 In questo caso, è necessario chiedere all'utente di disinstallare manualmente la versione non gestita in modo da poter installare la versione gestita che è stata configurata.
 
-Tuttavia, per i dispositivi che eseguono iOS 9 e versioni successive, Intune chiederà automaticamente all'utente l'autorizzazione ad assumere la gestione dell'app esistente. Se l'utente accetta, l'app verrà gestita da Intune e verranno anche applicati tutti i criteri di gestione delle applicazione mobili associati all'app.
+Tuttavia, per i dispositivi che eseguono iOS 9 e versioni successive, Intune chiederà automaticamente all'utente l'autorizzazione ad assumere la gestione dell'app esistente. Se l'utente accetta, l'app verrà gestita da Intune e verranno applicati anche tutti i criteri MAM associati all'app.
 
 
 ### Passaggio 5: Monitorare la distribuzione dell'app con i criteri MAM
@@ -103,9 +103,9 @@ Usare le procedure seguenti per monitorare la distribuzione dell'app dalla conso
 2. Eseguire uno dei passaggi seguenti:
   -  Fare clic su **Tutti gli utenti**, quindi fare doppio clic sull'utente di cui si vuole esaminare i dispositivi. Nella pagina Proprietà utente fare clic su **Dispositivi**, quindi fare doppio clic sul dispositivo da esaminare.
   -  Fare clic su **Tutti i dispositivi > Tutti i dispositivi mobili**. Nella pagina Proprietà gruppo dispositivi fare clic su **Dispositivi**, quindi fare doppio clic sul dispositivo da esaminare.
-3. Nella pagina Proprietà del dispositivo mobile fare clic su **Criteri** per visualizzare un elenco dei criteri di gestione delle applicazioni mobili che sono stati distribuiti nel dispositivo.
-4. Selezionare i criteri di gestione delle applicazioni mobili di cui si vuole visualizzare lo stato. È possibile visualizzare i dettagli dei criteri nel riquadro inferiore ed espandere il relativo nodo per visualizzarne le impostazioni.
-5.  Nella colonna Stato dei criteri di gestione delle applicazioni mobili apparirà Conforme, È conforme (in sospeso) o Errore. Se una o più impostazioni dei criteri selezionati sono in conflitto, in questo campo verrà visualizzato Errore.
+3. Nella pagina Proprietà del dispositivo mobile fare clic su **Criteri** per visualizzare un elenco dei criteri MAM che sono stati distribuiti nel dispositivo.
+4. Selezionare i criteri MAM di cui si vuole visualizzare lo stato. È possibile visualizzare i dettagli dei criteri nel riquadro inferiore ed espandere il relativo nodo per visualizzarne le impostazioni.
+5.  Nella colonna Stato dei criteri MAM viene visualizzato lo stato Conforme, È conforme (in sospeso) o Errore. Se una o più impostazioni dei criteri selezionati sono in conflitto, in questo campo verrà visualizzato Errore.
 6.  Dopo aver identificato un conflitto, è possibile modificare le impostazioni dei criteri in conflitto per usare la stessa impostazione o distribuire un solo criterio per l'app e l'utente.
 
 > [!NOTE]
@@ -117,6 +117,6 @@ Dopo aver creato e distribuito un'app associata a un criterio MAM, sarà possibi
 
 
 
-<!--HONumber=Jul16_HO1-->
+<!--HONumber=Jul16_HO3-->
 
 

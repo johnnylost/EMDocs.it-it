@@ -1,6 +1,6 @@
 ---
 title: Usare l'accesso condizionale con Microsoft Intune
-description: 
+description: Usare l'accesso condizionale in Intune per proteggere la posta elettronica e altri servizi.
 keywords: 
 author: craigcaseyMSFT
 manager: swadhwa
@@ -12,8 +12,9 @@ ms.technology:
 ms.assetid: 28662db2-faea-425f-ada9-04cf1d976fc2
 ms.reviewer: 
 ms.suite: ems
-ms.sourcegitcommit: a16e90093c7571f3c098ce815a2b70ae03c080e3
-ms.openlocfilehash: 8968af180d2006465227853ccfd66ca673a2510c
+translationtype: Human Translation
+ms.sourcegitcommit: 7c389de59d0ca6b33fbd4d872cb77236930d55bf
+ms.openlocfilehash: 4cdcef9c5c38cf4b4294dde581a0c2864b5ba043
 
 
 ---
@@ -98,6 +99,6 @@ Inoltre:
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

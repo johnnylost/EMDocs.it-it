@@ -1,6 +1,6 @@
 ---
 title: Esperienza utente finale di accesso condizionale nei dispositivi Android
-description: 
+description: Esperienza dell'utente finale con la registrazione di un dispositivo Android.
 keywords: 
 author: craigcaseyMSFT
 manager: swadhwa
@@ -13,15 +13,15 @@ ms.assetid: 0b5e4330-6fa5-445c-b73e-86ce5b9c7964
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 5f1c98cc916bee9bb83249a16a52a5fdd3810142
-ms.openlocfilehash: 5efa0fd3567b3f91e0edcddae929bdb494f013da
+ms.sourcegitcommit: 7c389de59d0ca6b33fbd4d872cb77236930d55bf
+ms.openlocfilehash: 19ea25ed17121c8310024e0dcfd1b1a048486eca
 
 
 ---
 
 # Android
 
-Il processo di registrazione e le schermate visualizzate dall'utente saranno leggermente diverse a seconda della versione del sistema operativo in esecuzione sul dispositivo dell'utente finale. In questo argomento viene descritta l'esperienza dell'utente finale per i dispositivi Android.
+Il processo di registrazione e le schermate visualizzate dall'utente saranno leggermente diverse a seconda della versione del sistema operativo in esecuzione sul dispositivo dell'utente finale. In questo argomento viene descritta l'esperienza dell'utente finale con la registrazione di dispositivi Android.
 
 ## Registrazione
 
@@ -107,6 +107,6 @@ L'esperienza dell'utente finale è leggermente diversa in altri dispositivi mobi
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

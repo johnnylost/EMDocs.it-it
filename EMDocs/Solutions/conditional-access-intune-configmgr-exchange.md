@@ -1,6 +1,6 @@
 ---
 title: Usare l'accesso condizionale con Exchange Server locale, Microsoft Intune e Configuration Manager
-description: 
+description: Usare Configuration Manager, Exchange Server locale e Intune per gestire l'accesso alla posta elettronica e proteggere i dati di posta elettronica nei dispositivi mobili.
 keywords: 
 author: craigcaseyMSFT
 manager: swadhwa
@@ -13,8 +13,8 @@ ms.assetid: 56b6cd2d-3dea-468b-9f1c-92717c9ec5f5
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: da76ba04d70ece8f20fdbe0fb19ad310f1fb8d28
-ms.openlocfilehash: ca38c22f5de2a33e399d7d7a7a9beafdc49e5686
+ms.sourcegitcommit: 7c389de59d0ca6b33fbd4d872cb77236930d55bf
+ms.openlocfilehash: df34cb6357c56e88bc55b40cfb254bbcad31a41f
 
 
 ---
@@ -186,6 +186,6 @@ Dopo aver distribuito una soluzione per la protezione della posta elettronica az
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

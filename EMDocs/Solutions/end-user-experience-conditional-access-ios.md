@@ -1,6 +1,6 @@
 ---
 title: Esperienza utente finale di accesso condizionale nei dispositivi iOS
-description: 
+description: Esperienza dell'utente finale con la registrazione di un dispositivo iOS.
 keywords: 
 author: craigcaseyMSFT
 manager: swadhwa
@@ -13,15 +13,15 @@ ms.assetid: 3c641ea8-2c0e-490e-b1de-831336f46d19
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 5f1c98cc916bee9bb83249a16a52a5fdd3810142
-ms.openlocfilehash: 6ff6f8c66e5b4ed838c72dd06f200118c6461cb0
+ms.sourcegitcommit: 7c389de59d0ca6b33fbd4d872cb77236930d55bf
+ms.openlocfilehash: 0c1731b9acc8dc6f959702d218a9e59ce70a4e6e
 
 
 ---
 
 # iOS
 
-Il processo di registrazione e le schermate visualizzate dall'utente saranno leggermente diverse a seconda della versione del sistema operativo in esecuzione sul dispositivo dell'utente finale. In questo argomento viene descritta l'esperienza dell'utente finale per i dispositivi iOS.
+Il processo di registrazione e le schermate visualizzate dall'utente saranno leggermente diverse a seconda della versione del sistema operativo in esecuzione sul dispositivo dell'utente finale. In questo argomento viene descritta l'esperienza dell'utente finale con la registrazione di dispositivi iOS.
 
 ## Registrazione
 
@@ -95,6 +95,6 @@ L'esperienza dell'utente finale è leggermente diversa in altri dispositivi mobi
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 

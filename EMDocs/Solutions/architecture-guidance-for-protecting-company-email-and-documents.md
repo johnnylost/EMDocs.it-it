@@ -1,8 +1,8 @@
 ---
 title: Indicazioni sull'architettura per la protezione di documenti e messaggi di posta elettronica aziendali
-description: 
+description: "Proteggere i dati aziendali assicurando al tempo stesso un'esperienza utente semplice e senza impatto sulla produttività."
 keywords: 
-author: karthikaraman
+author: craigcaseyMSFT
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
@@ -13,8 +13,8 @@ ms.assetid: fc9c7d79-d2ca-4cb2-8456-c7a88cbbf6fd
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 60b9891fcf0e81bc0b5b2d0418a244af231bc8d2
-ms.openlocfilehash: a6cfc88ab59bf31eaeca2ad96327fb66ba23d44f
+ms.sourcegitcommit: 7c389de59d0ca6b33fbd4d872cb77236930d55bf
+ms.openlocfilehash: dc610b43b0f4b79a8a86cf87f722bd4d066602c1
 
 
 ---
@@ -99,6 +99,6 @@ Se, poi, si vuole approfondire la conoscenza di EMS e Azure Active Directory, è
 
 
 
-<!--HONumber=Jul16_HO1-->
+<!--HONumber=Jul16_HO3-->
 
 

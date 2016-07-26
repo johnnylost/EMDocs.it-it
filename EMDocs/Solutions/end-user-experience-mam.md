@@ -1,6 +1,6 @@
 ---
 title: Esperienza dell'utente finale con MAM
-description: 
+description: Esperienza dell'utente finale con i criteri di gestione delle app mobili.
 keywords: 
 author: craigcaseyMSFT
 manager: swadhwa
@@ -13,13 +13,13 @@ ms.assetid: bbc9f6ea-fc92-468d-bb5b-60c67949ca28
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 276a4ee6ceab6b39b9add2ea844cdf03f142a253
-ms.openlocfilehash: 4d1db666c95ef845802952369eb0d505ef4a3dd0
+ms.sourcegitcommit: 135aedbdd08ed6b98d8296c484168398f9a1d59e
+ms.openlocfilehash: 3fc1303f0db0a9db7d3d4d37c703e2d4ec168ecb
 
 
 ---
 
-# Esperienza dell'utente finale con i criteri di gestione dell'accesso mobile
+# Esperienza dell'utente finale con i criteri di gestione delle app mobili
 I criteri MAM si applicano solo quando le app vengono usate in un contesto professionale. Leggere gli scenari di esempio seguenti che consentono di informare gli utenti in modo che comprendano il funzionamento delle app gestite.
 
 In questa sezione vengono illustrati gli esempi seguenti di esperienza degli utenti finali:
@@ -66,6 +66,6 @@ Sono disponibili ulteriori informazioni su altre esperienze dell'utente finale, 
 
 
 
-<!--HONumber=Jul16_HO1-->
+<!--HONumber=Jul16_HO3-->
 
 

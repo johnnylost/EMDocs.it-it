@@ -1,8 +1,8 @@
 ---
 title: Proteggere gli allegati della posta elettronica aziendale
-description: 
+description: Proteggere il contenuto e gli allegati dei messaggi di posta elettronica usando i criteri di gestione di applicazioni mobili (MAM).
 keywords: 
-author: karthikaraman
+author: craigcaseyMSFT
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
@@ -13,8 +13,8 @@ ms.assetid: a1e630c1-7190-4ba9-b71d-ed9c2e93a6cc
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 5f1c98cc916bee9bb83249a16a52a5fdd3810142
-ms.openlocfilehash: 0bf455c24808f6dec237acb20150dd6bf129be70
+ms.sourcegitcommit: 7c389de59d0ca6b33fbd4d872cb77236930d55bf
+ms.openlocfilehash: 43f9ccd3fe546fa7b708ed2cc6215536501db54b
 
 
 ---
@@ -71,6 +71,6 @@ Dopo avere acquisito le informazioni sulla [protezione dei documenti e dei messa
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO3-->
 
 
