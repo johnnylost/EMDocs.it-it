@@ -70,6 +70,6 @@ I requisiti di utenti e dispositivi sono suddivisi in tre aree:
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO1-->
 
 
