@@ -4,17 +4,17 @@ description:
 keywords: 
 author: andredm7
 manager: swadhwa
-ms.date: 05/31/2016
+ms.date: 8/1/2016
 ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 54082b94-1d21-44d5-9fba-af6e04397def
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: a16e90093c7571f3c098ce815a2b70ae03c080e3
-ms.openlocfilehash: 90604329992f8ecb881ac1b83358af16de5b65cb
+ms.sourcegitcommit: 0b77c2b49180c3871a1885d8faa232b412bac384
+ms.openlocfilehash: 4d0f666d469a2cdd52e1d6eddc6125068a7ac7d8
 
 
 ---
@@ -45,6 +45,7 @@ Le risposte alle domande del passaggio 1 aiutano a decidere in che modo verranno
 L'organizzazione potrebbe voler consentire entrambi gli scenari di registrazione, adottando un approccio flessibile per impiegare metodi diversi per reparti o situazioni diverse. In tal caso, la soluzione di gestione dei dispositivi mobili deve essere in grado di supportare entrambi gli scenari.
 
 
-<!--HONumber=Jul16_HO3-->
+
+<!--HONumber=Aug16_HO1-->
 
 
