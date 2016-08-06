@@ -13,8 +13,8 @@ ms.assetid: 6c7088a9-ca88-4ff2-97a6-f842691fd3c7
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 135aedbdd08ed6b98d8296c484168398f9a1d59e
-ms.openlocfilehash: 5a58ea05ce49f0d135d8a5ca3ad2e52c312f4490
+ms.sourcegitcommit: 55a3dbe32e3b5e10e21a6d99bc101ec76fc51f5e
+ms.openlocfilehash: 8e1b6153191727fba11366f6907ae3f70e11d246
 
 
 ---
@@ -29,7 +29,7 @@ Questa guida è incentrata sull'abilitazione delle applicazioni gestite in relaz
 
 In questo modo è possibile creare e distribuire le app con i criteri di gestione delle app per dispositivi mobili (MAM) per proteggere meglio i dati aziendali.
 
-Questo documento illustra la creazione dei criteri basati su MAM quando il dispositivo dell'utente finale viene registrato in Intune per MDM. Vedere [Proteggere app e dati line-of-business su dispositivi non registrati](https://docs.microsoft.com/en-us/intune/deploy-use/protect-line-of-business-apps-and-data-on-devices-not-enrolled-in-microsoft-intune) per informazioni sulla configurazione dei criteri MAM quando il dispositivo non è registrato in Intune per MDM.
+Questo documento illustra la creazione dei criteri basati su MAM quando il dispositivo dell'utente finale viene registrato in Intune per MDM. Vedere [Proteggere app e dati line-of-business su dispositivi non registrati](https://docs.microsoft.com/intune/deploy-use/protect-line-of-business-apps-and-data-on-devices-not-enrolled-in-microsoft-intune) per informazioni sulla configurazione dei criteri MAM quando il dispositivo non è registrato in Intune per MDM.
 
 > [!TIP]
 > È possibile scaricare una copia dell'intero argomento nella [Raccolta TechNet](https://gallery.technet.microsoft.com/Protect-Company-Data-on-d972f4f4/file/154240/1/Protect%20Company%20Data%20on%20Mobile%20Devices%20through%20Application%20Management%20Policies.pdf).
@@ -43,23 +43,23 @@ Le app gestite sono app a cui sono applicati criteri MAM per renderle conformi a
   - Richiedere l'autenticazione quando si accede a un'app
   - Cancellare i dati aziendali da un'app gestita da Intune
 
-  Vedere [Panoramica di Intune App SDK](https://docs.microsoft.com/en-us/intune/develop/intune-app-sdk) per una descrizione di tutte le funzionalità SDK.
+  Vedere [Panoramica di Intune App SDK](https://docs.microsoft.com/intune/develop/intune-app-sdk) per una descrizione di tutte le funzionalità dell'SDK.
 
 ## Prima di iniziare
-- **Informazioni sulla distribuzione di applicazioni con Microsoft Intune:**  [nozioni di base](https://docs.microsoft.com/en-us/intune/understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune) sulla distribuzione delle app di Intune.
+- **Informazioni sulla distribuzione di app con Microsoft Intune:**  [nozioni di base](https://docs.microsoft.com/intune/understand-explore/get-started-with-a-30-day-trial-of-microsoft-intune) sulla distribuzione delle app di Intune.
 
-- **Valutare l'implementazione da eseguire:** tra tutte le opzioni di progettazione e configurazione per la gestione dei dispositivi mobili, è difficile determinare quale combinazione soddisfi meglio le esigenze dell'azienda. L'articolo [Guida alle considerazioni sulla progettazione per la gestione dei dispositivi mobili](https://docs.microsoft.com/en-us/enterprise-mobility/Solutions/mdm-design-considerations-guide) indica in dettaglio i passaggi e le attività che è possibile eseguire per progettare una soluzione adatta alle esigenze tecnologiche e di business dell'azienda.
+- **Valutare l'implementazione da eseguire:** tra tutte le opzioni di progettazione e configurazione per la gestione dei dispositivi mobili, è difficile determinare quale combinazione soddisfi meglio le esigenze dell'azienda. L'articolo [Guida alle considerazioni sulla progettazione per la gestione dei dispositivi mobili](https://docs.microsoft.com/enterprise-mobility/Solutions/mdm-design-considerations-guide) consente di comprendere i requisiti per la progettazione di una soluzione di gestione dei dispositivi mobili e indica in dettaglio i passaggi e le attività che è possibile eseguire per progettare una soluzione adatta alle esigenze tecnologiche e di business dell'azienda.
 - **Comprendere l'esperienza dell'utente finale di alto livello:** dopo aver implementato la soluzione, si sarà in grado di proteggere i dati sui dispositivi anche se l'azienda non li gestisce. È sufficiente implementare criteri a livello di app per limitare l'accesso alle risorse aziendali e mantenere i dati all'interno del reparto IT.
 
    > [!NOTE]
    > L'esperienza dell'utente finale di questa soluzione è descritta in dettaglio nell'articolo [Esperienza dell'utente finale](end-user-experience-mam.md).
 
-- **Conoscere il ciclo di vita dell'app:** come nel caso della gestione dei dispositivi, anche le app hanno un ciclo di vita che va dalla preparazione alla distribuzione, al monitoraggio, all'aggiornamento, fino al ritiro. Intune può risultare utile in tutte le fasi di questo ciclo di vita. Per informazioni dettagliate sul ciclo di vita delle app, vedere [Panoramica del ciclo di vita dell'app](https://docs.microsoft.com/en-us/intune/deploy-use/overview-of-app-lifecycle-in-microsoft-intune).
+- **Conoscere il ciclo di vita dell'app:** come nel caso della gestione dei dispositivi, anche le app hanno un ciclo di vita che va dalla preparazione alla distribuzione, al monitoraggio, all'aggiornamento, fino al ritiro. Intune può risultare utile in tutte le fasi di questo ciclo di vita. Per informazioni dettagliate sul ciclo di vita delle app, vedere [Panoramica del ciclo di vita dell'app](https://docs.microsoft.com/intune/deploy-use/overview-of-app-lifecycle-in-microsoft-intune).
 - **Conoscere le app Microsoft che si possono usare con i criteri MAM:** la pagina dei [partner delle applicazioni di Microsoft Intune](https://www.microsoft.com/en-us/cloud-platform/microsoft-intune-partners) contiene le informazioni più recenti sulle app Microsoft e di altre società che è possibile usare con i criteri di gestione delle app mobili.
 
   È possibile usare lo strumento di wrapping delle app di Microsoft Intune per Android per modificare il comportamento delle app interne in modo da configurare le funzionalità dell'app senza modificare il codice dell'app stessa. Per informazioni più specifiche, vedere gli argomenti seguenti:
- - [Preparare le app per iOS per la gestione delle applicazioni mobili con lo strumento di wrapping delle app di Microsoft Intune](https://docs.microsoft.com/en-us/intune/deploy-use/prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool)
- - [Preparare le app per Android per la gestione di applicazioni per dispositivi mobili con lo strumento per la disposizione testo per app di Intune](https://docs.microsoft.com/en-us/intune/deploy-use/prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool)
+ - [Preparare le app per iOS per la gestione delle applicazioni mobili con lo strumento di wrapping delle app di Microsoft Intune](https://docs.microsoft.com/intune/deploy-use/prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool)
+ - [Preparare le app per Android per la gestione di applicazioni per dispositivi mobili con lo strumento per la disposizione testo per app di Intune](https://docs.microsoft.com/intune/deploy-use/prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool)
 
 - **Sapere come vengono risolti i conflitti di criteri:** in caso di conflitto di criteri di gestione delle app mobili nella prima distribuzione all'utente o al dispositivo, il valore di impostazione specifico in conflitto verrà rimosso dai criteri distribuiti all'app e l'app userà un valore predefinito. Il valore predefinito è quello **più restrittivo**.
 
@@ -74,6 +74,6 @@ Dopo aver acquisito una certa familiarità con il processo generale di MAM, è p
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO1-->
 
 

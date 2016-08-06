@@ -13,8 +13,8 @@ ms.assetid: a1e630c1-7190-4ba9-b71d-ed9c2e93a6cc
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 7c389de59d0ca6b33fbd4d872cb77236930d55bf
-ms.openlocfilehash: 43f9ccd3fe546fa7b708ed2cc6215536501db54b
+ms.sourcegitcommit: 55a3dbe32e3b5e10e21a6d99bc101ec76fc51f5e
+ms.openlocfilehash: 3a3631e454323226958b2f1db003883d1ace562e
 
 
 ---
@@ -34,7 +34,7 @@ Le app gestite sono app conformi ai requisiti di sicurezza dell'azienda che veng
 
 -   Cancellare in modo selettivo solo i dati associati all'app gestita. Quando un dispositivo viene perso, rubato o non viene più gestito dal reparto IT, una cancellazione selettiva può rimuovere tutti i dati aziendali dalle app, lasciando solo i dati personali delle app. Processo noto come multi-identità.
 
-Con [Azure Rights Management Services](https://technet.microsoft.com/en-us/library/jj585026.aspx)è possibile estendere la protezione della posta elettronica nei modi seguenti:
+Con [Azure Rights Management Services](https://docs.microsoft.com/rights-management/understand-explore/what-is-azure-rms)è possibile estendere la protezione della posta elettronica nei modi seguenti:
 
 -   È possibile crittografare i messaggi di posta elettronica in modo che solo gli utenti appropriati possano leggere o visualizzare il contenuto sia all'interno dell'azienda che all'esterno.
 
@@ -59,7 +59,7 @@ Con [Azure Rights Management Services](https://technet.microsoft.com/en-us/libra
 ## Esperienza dell'amministratore IT:
 L'amministratore IT crea i criteri di gestione delle applicazioni mobili, associa i criteri all'app e distribuisce l'app a utenti o dispositivi. Quando l'app gestita viene installata nel dispositivo, le restrizioni dell'app diventano effettive. La creazione e la distribuzione delle app gestite non implicano altre attività se non minime:
 
--   Sono disponibili delle app esistenti che includono già l'App SDK che consente di applicare le restrizioni all'app. Tali app non richiedono altre attività di elaborazione ma solo di aggiungere un collegamento che punta a un App Store come iTunes o Google Play. Leggere [questo](https://technet.microsoft.com/en-us/library/dn708489.aspx) articolo per vedere l'elenco di app gestite.
+-   Sono disponibili delle app esistenti che includono già l'App SDK che consente di applicare le restrizioni all'app. Tali app non richiedono altre attività di elaborazione ma solo di aggiungere un collegamento che punta a un App Store come iTunes o Google Play. Leggere [questo](https://www.microsoft.com/en-us/cloud-platform/microsoft-intune-partners) articolo per vedere l'elenco di app gestite.
 
 -   Se si vogliono gestire le app create internamente, è possibile riassemblare le app con lo strumento di wrapping delle app di Microsoft Intune. Lo strumento riassembla l'app consentendo di applicare le restrizioni all'app.
 
@@ -71,6 +71,6 @@ Dopo avere acquisito le informazioni sulla [protezione dei documenti e dei messa
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Aug16_HO1-->
 
 

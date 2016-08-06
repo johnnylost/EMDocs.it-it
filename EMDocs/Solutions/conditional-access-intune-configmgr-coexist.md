@@ -13,8 +13,8 @@ ms.assetid: 5ccd033f-bc31-4fae-b6bf-9e1c2722627f
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 026e6701b635a3b05753404fd064fee5bf10147e
-ms.openlocfilehash: 8d1e7f6bf8d798dee570d970c30e98974f9bd5be
+ms.sourcegitcommit: 55a3dbe32e3b5e10e21a6d99bc101ec76fc51f5e
+ms.openlocfilehash: 9f783b0faf8da0beaffbfd2e5dd9d7bfcdc08ac2
 
 
 ---
@@ -29,7 +29,7 @@ Se si usa già Configuration Manager assieme a Exchange locale ed Exchange Onlin
 ## Prerequisiti
 Per configurare un tipo di coesistenza di ambiente che implementi Exchange locale ed Exchange Online, l'organizzazione di Exchange esistente deve soddisfare determinati requisiti. Se si non soddisfano questi requisiti, non sarà possibile completare i passaggi necessari per configurare una distribuzione ibrida tra l'organizzazione di Exchange locale e l'organizzazione di Exchange Online in Microsoft Office 365.
 
-Per esaminare i requisiti per la creazione e la configurazione di questo tipo di ambiente, vedere [Prerequisiti per la distribuzione ibrida](https://technet.microsoft.com/en-us/library/hh534377.aspx) .
+Per esaminare i requisiti per la creazione e la configurazione di questo tipo di ambiente, vedere [Prerequisiti per la distribuzione ibrida](https://technet.microsoft.com/library/hh534377.aspx) .
 
 ## Passaggi per la distribuzione
 Per distribuire una soluzione di coesistenza, seguire i passaggi precedenti, che consentono la distribuzione sia della soluzione [Exchange Server locale](conditional-access-intune-configmgr-exchange.md) che della soluzione [Exchange Online](conditional-access-intune-configmgr-exchange-online.md).

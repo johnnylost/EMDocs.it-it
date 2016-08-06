@@ -13,8 +13,8 @@ ms.assetid: 06921361-9475-46e6-9368-3cc44c84b22f
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 026e6701b635a3b05753404fd064fee5bf10147e
-ms.openlocfilehash: ba0f4a56a8802e15b77bfd41bd0c5e1dc6f7c0bf
+ms.sourcegitcommit: ed846db95330ad4e4ed8e9ad0a9eaeb1c7882b70
+ms.openlocfilehash: 39ad4388a0573d8529f6cbeeb2f7dbf47a1914ce
 
 
 ---
@@ -86,7 +86,7 @@ Assicurarsi che l'ambiente presenti questi requisiti per l'implementazione di qu
 Seguire questi passaggi per distribuire la soluzione Exchange Online:
 
 ### Passaggio 1: Creare criteri di conformità e distribuirli agli utenti.
-I criteri di conformità definiscono le regole e le impostazioni che un dispositivo deve soddisfare per essere considerato conforme ai criteri di accesso condizionale. Per creare i criteri di conformità, seguire i passaggi in [Criteri di conformità in Configuration Manager](https://technet.microsoft.com/en-us/library/mt131417.aspx) .
+I criteri di conformità definiscono le regole e le impostazioni che un dispositivo deve soddisfare per essere considerato conforme ai criteri di accesso condizionale. Per creare i criteri di conformità, seguire i passaggi in [Criteri di conformità in Configuration Manager](https://technet.microsoft.com/library/mt131417.aspx) .
 
 Se si vuole avere la possibilità di rimuovere tutti i messaggi di posta elettronica aziendale da un dispositivo iOS quando non fa più parte dell'azienda, è necessario creare e distribuire un profilo di posta elettronica e quindi impostare i criteri di conformità che specificano che i profili di posta elettronica sono gestiti da Intune. È necessario distribuire il profilo di posta elettronica allo stesso set di utenti a cui sono destinati questi criteri di conformità.
 
@@ -97,7 +97,7 @@ Se si specificano questi criteri di conformità, un utente che ha già configura
 Dopo aver creato i criteri di conformità, selezionare il nome del criterio di conformità nell'elenco e fare clic su **Distribuisci**.
 
 ### Passaggio 2: Configurare i criteri di accesso condizionale.
-Prima di tutto, decidere come e quando si vuole applicare l'accesso condizionale e quali dipendenti ne saranno interessati. Seguire quindi i passaggi elencati in [Accesso condizionale per la posta elettronica di Exchange in Configuration Manager](https://technet.microsoft.com/en-us/library/mt131421.aspx) per abilitare configurare i criteri di accesso condizionale per Exchange Online.
+Prima di tutto, decidere come e quando si vuole applicare l'accesso condizionale e quali dipendenti ne saranno interessati. Seguire quindi i passaggi elencati in [Accesso condizionale per la posta elettronica di Exchange in Configuration Manager](https://technet.microsoft.com/library/mt131421.aspx) per abilitare i criteri di accesso condizionale per Exchange Online.
 
 > [!NOTE]
 > I criteri di accesso condizionale devono essere configurati nella console di Intune. I passaggi seguenti iniziano con l'accesso alla console di Intune tramite Configuration Manager. Se richiesto, accedere con le stesse credenziali usate per configurare il connettore tra Configuration Manager e Intune.
@@ -106,16 +106,16 @@ Prima di tutto, decidere come e quando si vuole applicare l'accesso condizionale
 Configuration Manager supporta un solo connettore in un'organizzazione Exchange.
 
 > [!IMPORTANT]
-> Prima di installare il connettore Exchange Server, confermare il supporto della versione di Microsoft Exchange usata da parte di Configuration Manager. Per altre informazioni, vedere [Configurazioni supportate per Configuration Manager](https://technet.microsoft.com/en-us/library/gg682077.aspx).
+> Prima di installare il connettore Exchange Server, confermare il supporto della versione di Microsoft Exchange usata da parte di Configuration Manager. Per altre informazioni, vedere [Configurazioni supportate per Configuration Manager](https://technet.microsoft.com/library/gg682077.aspx).
 
-Per installare e configurare il connettore Exchange Server, seguire i passaggi illustrati nell'argomento [Come gestire i dispositivi mobili utilizzando Configuration Manager e Exchange](https://technet.microsoft.com/en-us/library/gg682001.aspx) .
+Per installare e configurare il connettore Exchange Server, seguire i passaggi illustrati nell'argomento [Come gestire i dispositivi mobili utilizzando Configuration Manager e Exchange](https://technet.microsoft.com/library/gg682001.aspx) .
 
 ## Passaggi di verifica
 Se è stato configurato il connettore Exchange Server facoltativo per questa soluzione, è possibile usare lo strumento di registro traccia di Configuration Manager per aprire il file EasDisc.log (nella cartella Microsoft Configuration Manager/Logs in cui è installato Configuration Manager). Cercare il file di log "Exchange Connector" per trovare informazioni sull'eventuale esecuzione dei Exchange Connector e sul numero di dispositivi connessi.
 
 ![Screenshot che illustra il file EasDisc.log aperto nello strumento per il log di traccia di Configuration Manager](./media/ProtectEmail/Hybrid-Onprem-Eas-DiscLog-Sample.PNG)
 
-Lo strumento per il log di traccia di Configuration Manager è incluso in [System Center 2012 R2 Configuration Manager Toolkit](https://www.microsoft.com/en-us/download/details.aspx?id=50012).
+Lo strumento per il log di traccia di Configuration Manager è incluso in [System Center 2012 R2 Configuration Manager Toolkit](https://www.microsoft.com/download/details.aspx?id=50012).
 
 ## Reporting
 Se è stato configurato il connettore Exchange Server facoltativo, è possibile usare la console di Configuration Manager per visualizzare informazioni specifiche sui dispositivi che sono stati individuati da Exchange Connector. Per i dispositivi a cui viene applicato l'accesso condizionale, è possibile visualizzare lo stato corrente di ogni dispositivo, l'ultima volta che il dispositivo si è connesso al server Exchange e così via.
@@ -150,6 +150,6 @@ Dopo aver distribuito una soluzione per la protezione della posta elettronica az
 
 
 
-<!--HONumber=Jul16_HO4-->
+<!--HONumber=Aug16_HO1-->
 
 
