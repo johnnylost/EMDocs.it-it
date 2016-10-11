@@ -1,20 +1,21 @@
 ---
-title: Considerazioni di progettazione
+title: Considerazioni sulla progettazione
 description: 
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 8/1/2016
-ms.topic: article
+ms.date: 10/3/2016
+ms.topic: solution
 ms.prod: 
-ms.service: microsoft-intune
+ms.service: 
 ms.technology: 
 ms.assetid: 639dfd46-33ea-4cfd-918d-f3d8e57645ed
 ms.reviewer: 
 ms.suite: ems
+ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: e51462f1b238f7e3b518a7a9c8042ff3ad78a5a5
-ms.openlocfilehash: da1a3088b8c7d7488c0a666ab64c65b23c2fe317
+ms.sourcegitcommit: e410d3fd320660186b6d21853af3172062f90eda
+ms.openlocfilehash: a9fc81c8e6d53f4ad457bf70e576a608d046cca8
 
 
 ---
@@ -45,7 +46,7 @@ I prodotti, le tecnologie e i servizi Microsoft per una soluzione di infrastrutt
 - Active Directory Federation Services (ADFS)
 - Controllo dinamico degli accessi
 - Servizio Microsoft Rights Management
-- Azure Rights Management 
+- Azure Information Protection 
 - Crittografia SMB
 - Single Sign-On (SSO)
 - Cartelle di lavoro
@@ -82,6 +83,6 @@ Il progetto di infrastruttura per il supporto di BYOD riunisce le risposte alle 
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Oct16_HO1-->
 
 
