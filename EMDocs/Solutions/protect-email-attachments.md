@@ -13,8 +13,8 @@ ms.assetid: a1e630c1-7190-4ba9-b71d-ed9c2e93a6cc
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 55a3dbe32e3b5e10e21a6d99bc101ec76fc51f5e
-ms.openlocfilehash: 3a3631e454323226958b2f1db003883d1ace562e
+ms.sourcegitcommit: d1211e3ef25b73679c851bce7f5eca872520f023
+ms.openlocfilehash: f00fa25e5e0b03c098f78e4d5f1be0957cdea24f
 
 
 ---
@@ -34,7 +34,7 @@ Le app gestite sono app conformi ai requisiti di sicurezza dell'azienda che veng
 
 -   Cancellare in modo selettivo solo i dati associati all'app gestita. Quando un dispositivo viene perso, rubato o non viene più gestito dal reparto IT, una cancellazione selettiva può rimuovere tutti i dati aziendali dalle app, lasciando solo i dati personali delle app. Processo noto come multi-identità.
 
-Con [Azure Rights Management Services](https://docs.microsoft.com/rights-management/understand-explore/what-is-azure-rms)è possibile estendere la protezione della posta elettronica nei modi seguenti:
+Con [Azure Information Protection](https://docs.microsoft.com/information-protection/understand-explore/what-is-azure-rms) è possibile estendere la protezione della posta elettronica nei modi seguenti:
 
 -   È possibile crittografare i messaggi di posta elettronica in modo che solo gli utenti appropriati possano leggere o visualizzare il contenuto sia all'interno dell'azienda che all'esterno.
 
@@ -71,6 +71,6 @@ Dopo avere acquisito le informazioni sulla [protezione dei documenti e dei messa
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Oct16_HO1-->
 
 

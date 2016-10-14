@@ -1,10 +1,10 @@
 ---
-title: "Processo FastTrack Center Benefit per Enterprise Mobility Suite: responsabilità di Microsoft"
+title: "Responsabilità di Microsoft"
 description: 
 keywords: 
 author: staciebarker
-manager: jeffgilb
-ms.date: 07/07/2016
+manager: angrobe
+ms.date: 10/02/2016
 ms.topic: article
 ms.prod: 
 ms.service: 
@@ -14,17 +14,15 @@ ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 1e23cdad577738a72b6dc8423a5ba6cf7af29bfb
-ms.openlocfilehash: 5aa145639d7f38beb0a9b684cd70227edccccf42
+ms.sourcegitcommit: 323bdb56b3d81eb6a63e266899427672abf79da4
+ms.openlocfilehash: 777236784c06eeea2e62bcb77b2ceabc5d31b14a
 
 
 ---
 
-# Processo FastTrack Center Benefit per Enterprise Mobility Suite: responsabilità di Microsoft
-Le sezioni seguenti spiegano le responsabilità di Microsoft se si usa [FastTrack Center Benefit per Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) per ottenere Azure Active Directory Premium, Microsoft Intune e/o Azure Rights Management pronti all'uso.
+# Responsabilità di Microsoft
 
-Per altre informazioni sul processo di caricamento FastTrack, vedere [Processo FastTrack Center Benefit per Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
-
+Ecco le responsabilità di Microsoft durante il processo di onboarding.
 
 ## Generale
 
@@ -115,12 +113,12 @@ Fornire indicazioni su:
 
     -   Configurare la sincronizzazione tra le foreste locali di Active Directory e la directory di Microsoft Azure Active Directory Premium (Azure Active Directory).
 
-        > [!NOTE] 
+        > [!NOTE]
         > Sviluppo e implementazione per estensioni di regole personalizzate non rientrano nell'ambito.
 
--   Per una singola foresta se la destinazione sono le identità federate: installazione e configurazione di Active Directory Federation Services (AD FS) per l'autenticazione di domini locali con Microsoft Azure AD Premium in una configurazione con un solo sito a tolleranza di errore, se necessario.
+-   Per una singola foresta se la destinazione sono le identità federate: installazione e configurazione di Active Directory Federation Services (AD FS) per l'autenticazione di domini locali con Microsoft Azure Active Directory Premium in una configurazione con un solo sito a tolleranza di errore, se necessario.
 
-    > [!NOTE] 
+    > [!NOTE]
     > Per tutte le configurazioni di più foreste le distribuzioni di AD FS non rientrano nell'ambito.
 
 -   Test della funzionalità SSO (Single Sign-On), se distribuita.
@@ -133,24 +131,28 @@ Fornire indicazioni sulla configurazione di:
 
 -   Sincronizzazione delle directory di Azure Active Directory Connect, con writeback delle password e sincronizzazione degli hash delle password.
 
--   Active Directory Federation Services (AD FS).
+  - Reimpostazione della password self-service (SSPR).
 
-- Reimpostazione della password self-service (SSPR).
+  - Azure Multi-Factor Authentication (MFA).
 
-- Azure Multi-Factor Authentication (MFA).
+  - Integrazione di un'applicazione software come servizio (SaaS) con Single Sign On (SSO) da [Azure Active Directory Marketplace](https://azure.microsoft.com/marketplace/active-directory/).
 
-- Un'applicazione integrata, che può includere applicazioni SSO (Single Sign-On) per SaaS.
+  - Schermata di accesso personalizzata, con logo, testo e immagini.
 
-- Report sull'utilizzo e sulla sicurezza per gli amministratori.
+  - Self-service e gruppo dinamico (gruppi).
 
-- Gestione di gruppi self-service (SSGM).
+  - Proxy dell'applicazione Azure Active Directory.
 
-- Proxy applicazione.
+  - Azure Active Directory Connect Health.
 
-- Notifiche dell'amministratore.
+  - Identity Protection.
 
-- Schermata di accesso personalizzata, con logo, testo e immagini.
- 
+  - Privileged Identity Management.
+
+  - Report sull'utilizzo e sulla sicurezza per gli amministratori.
+
+  - Notifiche e avvisi amministrativi.
+
 ### Fase di abilitazione – Microsoft Intune
 Fornire indicazioni su:
 
@@ -166,8 +168,8 @@ Fornire indicazioni su:
 
     -   Se è presente un'implementazione esistente di System Center Configuration Manager e si vogliono espandere le funzionalità di gestione con Microsoft Intune, impostare Configuration Manager come autorità MDM.
 
-        > [!NOTE] 
-        > Per usare Gestione di applicazioni mobili solo nei dispositivi di proprietà degli utenti finali, nei dispositivi condivisi o nei dispositivi di tipo chiosco multimediale, la configurazione di un'autorità MDM non è necessaria.
+        > [!NOTE]
+        > Se si vuole solo usare Gestione di applicazioni mobili nei dispositivi di proprietà degli utenti finali, nei dispositivi condivisi o nei dispositivi di tipo chiosco multimediale, la configurazione di un'autorità MDM non è necessaria.
 
 -   Se Gestione di dispositivi mobili rientra nel proprio ambito, verranno fornite istruzioni su:
 
@@ -183,11 +185,11 @@ Fornire indicazioni su:
 
         -   Configurazione di Microsoft Intune Exchange Connector, quando applicabile.
 
-    -   Registrazione di un massimo di due dispositivi di test per ogni piattaforma supportata in Microsoft Intune o in Configuration Manager con il servizio Microsoft Intune.
+    -   Registrazione dei dispositivi di ogni piattaforma supportata in Microsoft Intune o in Configuration Manager con il servizio Microsoft Intune.
 
     -   Uso dei report sull'inventario hardware e software.
 
--   Se Gestione di applicazioni mobili (MAM) rientra nel proprio ambito o se si cerca di integrare la soluzione MDM di terze parti esistente con i criteri MAM, verranno fornite istruzioni su:
+-   Se Gestione di applicazioni mobili (MAM) rientra nel proprio ambito o se si vuole integrare la soluzione MDM di terze parti esistente con i criteri MAM, verranno fornite istruzioni su:
 
     -   Configurazione dei criteri MAM per ogni piattaforma supportata.
 
@@ -203,48 +205,11 @@ Fornire indicazioni su:
 
     -   Uso dei report sul software e l'hardware disponibili in Intune.
 
-### Fase di abilitazione: Azure Right Management Premium
+**Altre informazioni**
 
-Fornire indicazioni su:
-
--   Attivazione del tenant di Azure RMS.
-
--   Aggiunta di altri amministratori di protezione delle informazioni per la gestione dei modelli.
-
--   Assegnazione di un account utente con privilegi avanzati ad Azure RMS.
-
--   Concessione di licenze a due utenti pilota per Azure RMS.
-
--   Configurazione di due gruppi di distribuzione di test per la convalida dei criteri.
-
--   Configurazione di un modello di Azure RMS personalizzato per la directory.
-
--   Istruzioni per la configurazione dell'integrazione di SharePoint Online ed Exchange Online con Azure RMS, inclusi:
-
-    -   Configurazione e convalida dell'integrazione di Exchange Online con Azure RMS.
-
-    -   Configurazione di una regola del flusso di posta di test per crittografare messaggi riservati inviati a destinatari esterni all'organizzazione.
-
-    -   Configurazione e convalida della protezione di SharePoint Online per una libreria di test da proteggere con Azure RMS.
-
--   Configurazione di un server locale con il connettore RMS, quando applicabile:
-
-    -   Configurazione e convalida dell'integrazione di Exchange 2013/2010 locale con Azure RMS.
-
-    -   Configurazione di una regola del flusso di posta di test per crittografare messaggi riservati inviati a destinatari esterni all'organizzazione tramite il connettore.
-
-    -   Configurazione e convalida della protezione di SharePoint 2013/2010 locale per una libreria di test da proteggere con Azure RMS.
-
--   Configurazione dell'applicazione di condivisione RMS per dispositivi Windows e non Windows.
-
-Leggere la parte successiva del processo di caricamento di FastTrack: [Processo FastTrack Center Benefit per Enterprise Mobility Suite: responsabilità dell'utente](fasttrack-center-benefit-process-for-ems-your-responsibilities.md)
-
-### Altre informazioni
-Vedere [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
+[Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
 
 
-
-
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Oct16_HO1-->
 
 
