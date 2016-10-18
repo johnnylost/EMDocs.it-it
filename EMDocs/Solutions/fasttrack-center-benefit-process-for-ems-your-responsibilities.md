@@ -1,10 +1,10 @@
 ---
-title: "Processo FastTrack Center Benefit per Enterprise Mobility Suite: responsabilità dell'utente"
+title: "Responsabilità dell'utente"
 description: 
 keywords: 
 author: staciebarker
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: angrobe
+ms.date: 10/02/2016
 ms.topic: article
 ms.prod: 
 ms.service: 
@@ -14,17 +14,15 @@ ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: a92fcc56cea75adb6c3db4eeb197dba77d2b63b7
-ms.openlocfilehash: 2dd5e54fe1348cc23274afc735759c92fbf81e28
+ms.sourcegitcommit: 323bdb56b3d81eb6a63e266899427672abf79da4
+ms.openlocfilehash: 035279b0dd7ca88123d94016ceb6caaf6306350f
 
 
 ---
 
-# Processo FastTrack Center Benefit per Enterprise Mobility Suite: responsabilità dell'utente
+# Responsabilità dell'utente
 
-Quando si usa [FastTrack Center Benefit per Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) per ottenere Azure Active Directory Premium, Microsoft Intune e/o Azure Rights Management pronti all'uso, l'organizzazione deve assumersi alcune responsabilità durante il processo. Le sezioni seguenti descrivono le responsabilità dell'organizzazione in ogni fase del processo di caricamento.
-
-Per altre informazioni sul processo di caricamento FastTrack, vedere [Processo FastTrack Center Benefit per Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
+Ecco le responsabilità dell'utente durante il processo di onboarding.
 
 ## Responsabilità generali
 
@@ -42,11 +40,11 @@ Per altre informazioni sul processo di caricamento FastTrack, vedere [Processo F
 
 -   Progettazione, reperimento, installazione e configurazione di hardware e rete.
 
--   Reperimento, installazione e configurazione di software.
+-   Conseguimento, installazione e configurazione di software.
 
 -   Gestione, configurazione e applicazione dei criteri di sicurezza, oltre a quelli creati per le funzionalità e la configurazione di base dei servizi EMS.
 
--   Registrazione degli account utente, oltre a quelli usati per testare le funzionalità e la configurazione di base dei servizi EMS di Microsoft Azure AD Premium.
+-   Registrazione degli account utente, oltre a quelli usati per testare le funzionalità e la configurazione di base dei servizi EMS di Microsoft Azure AD.
 
 -   Configurazione di rete, analisi, convalida della larghezza di banda, verifica e monitoraggio.
 
@@ -64,7 +62,7 @@ Per altre informazioni sul processo di caricamento FastTrack, vedere [Processo F
 
 -   Fornitura e configurazione di tutti i certificati SSL pubblici.
 
--   Scrittura delle Condizioni per l'utilizzo da configurare e visualizzare nei portali di Microsoft Intune accessibili agli utenti finali.
+-   Scrittura delle Condizioni per l'utilizzo dell'organizzazione da configurare e visualizzare nei portali aziendali di Microsoft Intune accessibili agli utenti finali.
 
 ## Fase di avvio
 
@@ -110,14 +108,11 @@ Per altre informazioni sul processo di caricamento FastTrack, vedere [Processo F
 
 -   Abilitare i vari servizi in base alle linee guida di Microsoft.
 
-Questa è l'ultima parte del processo di caricamento di FastTrack.
+**Altre informazioni**
 
-### Altre informazioni
-Vedere [Enterprise Mobility Suite](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
-
+[Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
 
 
-
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Oct16_HO1-->
 
 

@@ -13,14 +13,14 @@ ms.assetid: fc9c7d79-d2ca-4cb2-8456-c7a88cbbf6fd
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: faa30f461ff9a1a14d150bd85d86d37cd298570c
-ms.openlocfilehash: 13bb743a1300a51d305f1ee1857b14b73ca0a4df
+ms.sourcegitcommit: d1211e3ef25b73679c851bce7f5eca872520f023
+ms.openlocfilehash: c50f47066794b411e272b74828cd6f707b96caec
 
 
 ---
 
 # Indicazioni sull'architettura per la protezione di documenti e messaggi di posta elettronica aziendali
-Questo argomento contiene una panoramica che illustra come garantire la protezione dei dati della società con un'esperienza utente semplice e senza impatto sulla produttività. Descrive inoltre come fornire accesso sicuro alla posta elettronica aziendale e proteggere i dati aziendali nei messaggi di posta elettronica e negli allegati usando la soluzione Microsoft Enterprise Mobility Suite.
+Questo argomento contiene una panoramica che illustra come garantire la protezione dei dati della società con un'esperienza utente semplice e senza impatto sulla produttività. Descrive inoltre come fornire accesso sicuro alla posta elettronica aziendale e proteggere i dati aziendali nei messaggi di posta elettronica e negli allegati usando la soluzione Microsoft Enterprise Mobility + Security.
 
 Questa sezione descrive l'architettura per la protezione di documenti e messaggi di posta elettronica aziendali. Per indicazioni per la distribuzione di una soluzione, vedere [Informazioni su come distribuire una soluzione per la protezione di documenti e messaggi di posta elettronica aziendali](learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents.md).
 
@@ -46,11 +46,11 @@ Tenere presente che:
 Poiché gli utenti finali vogliono lavorare usando i propri dispositivi personali e la posta elettronica è l'applicazione maggiormente usata, il primo passo per il reparto IT è quello di assicurarsi che gli utenti finali possano accedere alla posta elettronica aziendale con i propri dispositivi garantendo però che i dati sensibili presenti nei messaggi di posta elettronica non vengano compromessi.
 
 ## Panoramica
-Microsoft offre Enterprise Mobility Suite (EMS), una soluzione completa per la gestione delle identità, dei dispositivi mobili e delle app nonché per la protezione dei dati. EMS fornisce un modello di sicurezza a più livelli che consente al reparto IT di gestire l'accesso alla posta elettronica, ai dati e alle applicazioni aziendali da quasi qualsiasi dispositivo.
+Microsoft offre Microsoft Enterprise Mobility + Security (EMS), una soluzione completa per la gestione delle identità, dei dispositivi mobili e delle app nonché per la protezione dei dati. EMS fornisce un modello di sicurezza a più livelli che consente al reparto IT di gestire l'accesso alla posta elettronica, ai dati e alle applicazioni aziendali da quasi qualsiasi dispositivo.
 
 EMS è composto dai servizi cloud seguenti:
 
-![Immagine che illustra i servizi cloud inclusi in EMS: Microsoft Azure AD Premium, Microsoft Intune e Microsoft Azure Rights Management](./media/ProtectEmail/Enterprise-Mobility-Suite.png)
+![Immagine che illustra i servizi cloud inclusi in EMS: Microsoft Azure AD Premium, Microsoft Intune e Microsoft Azure Information Protection](./media/ProtectEmail/Enterprise-Mobility-Suite.png)
 
 Con l'uso di EMS i dati sono protetti sia all'interno che all'esterno della rete aziendale:
 
@@ -75,7 +75,7 @@ Basandosi sull'identità come punto di riferimento, l'amministratore IT può usa
 
 Il terzo livello è il **livello gestione delle app** con l'ecosistema di app gestite da Intune. Questo ecosistema consente all'amministratore IT di mantenere i dati sensibili all'interno dell'ecosistema di app gestite, permettendo allo stesso tempo agli utenti di essere produttivi usando strumenti necessari e familiari come Office.
 
-*Azure Rights Management (Azure RMS)* completa il modello di sicurezza proteggendo i dati a livello file. I criteri di sicurezza che vengono applicati ai dati si spostano con i dati, consentendo di proteggere i dati in transito e i dati archiviati, indipendentemente dal dispositivo usato per accedervi. Questo è il **livello dati** del modello di sicurezza.
+*Azure Information Protection (precedentemente denominato Azure RMS)* completa il modello di sicurezza proteggendo i dati a livello di file. I criteri di sicurezza che vengono applicati ai dati si spostano con i dati, consentendo di proteggere i dati in transito e i dati archiviati, indipendentemente dal dispositivo usato per accedervi. Questo è il **livello dati** del modello di sicurezza.
 
 ## Come proseguire
 - [Guardare](https://www.youtube.com/watch?v=ltcZvm4VOFU) questo video per informazioni su come iscriversi per ottenere un account di prova e iniziare.
@@ -93,12 +93,12 @@ Se, poi, si vuole approfondire la conoscenza di EMS e Azure Active Directory, è
 
 - [Come Azure Active Directory consente di gestire le identità](/active-directory/active-directory-administer)
 
-- [Informazioni su Microsoft Azure Rights Management](/rights-management/understand-explore/what-is-azure-rms)
+- [Che cos'è Azure Information Protection?](/information-protection/understand-explore/what-is-azure-rms)
 
-- [Supporto di Microsoft Azure Rights Management da parte delle applicazioni](/rights-management/understand-explore/applications-support)
+- [Supporto di Azure Information Protection da parte delle applicazioni](/information-protection/understand-explore/applications-support)
 
 
 
-<!--HONumber=Sep16_HO1-->
+<!--HONumber=Oct16_HO1-->
 
 

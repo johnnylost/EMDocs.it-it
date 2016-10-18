@@ -13,8 +13,8 @@ ms.assetid: 8cfe421b-52c9-4d44-8df1-15c82375c335
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: faa30f461ff9a1a14d150bd85d86d37cd298570c
-ms.openlocfilehash: 37ec8e1f175cfbe5a6ff3f101b2773abb8680786
+ms.sourcegitcommit: e422a74e551753ddb579d98789670cd8c1811b80
+ms.openlocfilehash: b0141331db2c63761997ffa1ad20d062b9e9969b
 
 
 ---
@@ -33,7 +33,7 @@ I criteri di conformità definiscono le regole e le impostazioni che un disposit
 
 Se si vuole avere la possibilità di rimuovere tutti i messaggi di posta elettronica aziendale da un dispositivo iOS quando non fa più parte dell'azienda, è necessario creare e distribuire un profilo di posta elettronica e quindi impostare i criteri di conformità che specificano che i profili di posta elettronica sono gestiti da Intune. È necessario distribuire il profilo di posta elettronica allo stesso set di utenti a cui sono destinati questi criteri di conformità.
 
-![Screenshot che illustra la pagina "Regole" della Creazione guidata criteri di conformità in cui è possibile specificare che un profilo di posta elettronica deve essere gestito da Intune.](./media/ProtectEmail/Hybrid-Onprem-ExchSrvr-Wizard6.PNG)
+![Screenshot che illustra la sezione "Profili di posta elettronica" della scheda Generale nella procedura guidata per la creazione di criteri in Intune, dove è possibile specificare che un profilo di posta elettronica deve essere gestito da Intune.](./media/ProtectEmail/intune-create-policy-email-profile.PNG)
 
 Se si specificano questi criteri di conformità, un utente che ha già configurato il proprio account di posta elettronica dovrà rimuoverlo manualmente. Intune quindi lo aggiungerà nuovamente attraverso il processo di registrazione descritto in [Esperienza utente finale di accesso condizionale](end-user-experience-conditional-access.md).
 
@@ -74,6 +74,6 @@ Dopo aver distribuito una soluzione per la protezione della posta elettronica az
 
 
 
-<!--HONumber=Sep16_HO1-->
+<!--HONumber=Oct16_HO2-->
 
 

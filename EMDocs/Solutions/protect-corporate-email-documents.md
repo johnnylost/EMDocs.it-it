@@ -13,8 +13,8 @@ ms.assetid: 78d8368e-1bfe-4ac4-991d-467321a76ed7
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 55a3dbe32e3b5e10e21a6d99bc101ec76fc51f5e
-ms.openlocfilehash: cc6844a9329cafd14d7902ec1d677c5bea685b86
+ms.sourcegitcommit: d1211e3ef25b73679c851bce7f5eca872520f023
+ms.openlocfilehash: b3a0ce1b7a7465ca29888b4d332ede6b5a604fd6
 
 
 ---
@@ -44,7 +44,7 @@ I**criteri di accesso condizionale** sono configurati per un determinato servizi
 ## Esperienza generale dell'utente finale:
 Dopo aver implementato la soluzione, gli utenti finali potranno accedere alla posta elettronica aziendale solo sui dispositivi gestiti e conformi. Quando accedono alla posta elettronica sui dispositivi, i dati dell'azienda sono protetti e contenuti all'interno dell'ecosistema di app e sono disponibili unicamente agli utenti previsti. L'accesso potrà essere revocato in qualsiasi momento se il dispositivo risulta non conforme.
 
-In particolare, i criteri di accesso condizionale configurati in Intune fanno sì che i dispositivi possano accedere alla posta elettronica solo se sono conformi ai criteri di conformità impostati. Alcune azioni, ad esempio le operazioni Copia e Incolla oppure il salvataggio nei servizi di archiviazione cloud personale, possono essere limitate usando i criteri di gestione delle applicazioni mobili. Il servizio di Azure Rights Management può essere usato per fare in modo che i dati sensibili di posta elettronica e gli allegati inoltrati possano essere letti solo dai destinatari. L'esperienza dell'utente finale è descritta in dettaglio in [Esperienza utente finale di accesso condizionale](end-user-experience-conditional-access.md).
+In particolare, i criteri di accesso condizionale configurati in Intune fanno sì che i dispositivi possano accedere alla posta elettronica solo se sono conformi ai criteri di conformità impostati. Alcune azioni, ad esempio le operazioni Copia e Incolla oppure il salvataggio nei servizi di archiviazione cloud personale, possono essere limitate usando i criteri di gestione delle applicazioni mobili. Azure Information Protection può essere usato per fare in modo che i dati sensibili di posta elettronica e gli allegati inoltrati possano essere letti solo dai destinatari previsti. L'esperienza dell'utente finale è descritta in dettaglio in [Esperienza utente finale di accesso condizionale](end-user-experience-conditional-access.md).
 
 
 Guardare [questo](https://www.youtube.com/watch?feature=player_embedded&v=lYx3YIezccg) video di quattro minuti per vedere come l'accesso condizionale influisce sugli utenti finali.
@@ -122,6 +122,6 @@ Dopo avere acquisito le informazioni sulla protezione di documenti e messaggi di
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Oct16_HO1-->
 
 

@@ -1,10 +1,10 @@
 ---
-title: Processo FastTrack Center Benefit per Enterprise Mobility Suite (EMS)
+title: Piani e servizi idonei per FastTrack Center Benefit
 description: 
 keywords: 
 author: staciebarker
-manager: jeffgilb
-ms.date: 04/28/2016
+manager: angrobe
+ms.date: 10/02/2016
 ms.topic: article
 ms.prod: 
 ms.service: 
@@ -14,39 +14,52 @@ ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: a92fcc56cea75adb6c3db4eeb197dba77d2b63b7
-ms.openlocfilehash: 7e0e7e61bdf2dbc38c56c4e768e7b3e511c74eeb
+ms.sourcegitcommit: 323bdb56b3d81eb6a63e266899427672abf79da4
+ms.openlocfilehash: 1c212e1e04797080990b28cad8d14c1f263aa889
 
 
 ---
 
-# FastTrack Center Benefit per Enterprise Mobility Suite (EMS)
+# Piani e servizi idonei per FastTrack Center Benefit
 È possibile usufruire del service benefit quando si acquistano almeno 150 licenze per EMS o uno dei suoi singoli servizi cloud in un piano idoneo. Il service benefit consente di collaborare con gli specialisti Microsoft per valutare, correggere e attivare servizi idonei.
 
-Questo articolo fornisce informazioni dettagliate sull'idoneità di piani e servizi per il service benefit.
+Di seguito sono descritti i piani e i servizi idonei.
 
-Per informazioni sul processo di caricamento, sui ruoli e sulle responsabilità, vedere [Processo FastTrack Center Benefit per Enterprise Mobility Suite (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
+Per informazioni sul processo FastTrack Center e sulle responsabilità, vedere [Processo FastTrack Center Benefit per Enterprise Mobility + Security (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
 
 Per informazioni su Microsoft FastTrack per Office 365, Vedere [Vantaggio FastTrack Center per Office 365](https://technet.microsoft.com/library/office-365-onboarding-benefit.aspx).
 
 ## Servizi idonei
-Se si acquista uno dei servizi online Microsoft seguenti tramite un piano idoneo, Microsoft contatterà l'utente per offrire l'assistenza necessaria al caricamento di tali servizi. È anche possibile richiedere assistenza da parte di [FastTrack Center](http://fasttrack.microsoft.com/) se si è pronti per distribuire questi servizi per l'organizzazione. Per richiedere assistenza, accedere a [FastTrack Center](http://fasttrack.microsoft.com/) (http://fasttrack.microsoft.com), andare nel dashboard, selezionare la scheda contenente le offerte e quindi scegliere l'opzione per richiedere assistenza per Microsoft Intune, Azure Active Directory Premium o Azure Rights Management Premiu Una volta contattata l'assistenza per il processo di caricamento, verrà definita una programmazione di riunioni online
+Se si acquista uno dei servizi online Microsoft seguenti tramite un piano idoneo, Microsoft contatterà l'utente per offrire l'assistenza necessaria al caricamento di tali servizi. È anche possibile richiedere assistenza da parte di [FastTrack Center](http://fasttrack.microsoft.com/) se si è pronti per distribuire questi servizi per l'organizzazione. Per richiedere assistenza, accedere a [FastTrack Center](http://fasttrack.microsoft.com/) (http://fasttrack.microsoft.com), andare nel dashboard, selezionare la scheda contenente le offerte e quindi scegliere l'opzione per richiedere assistenza per Microsoft Azure Active Directory Premium o Intune. Una volta contattato il supporto tecnico di onboarding, verrà impostata la pianificazione di riunioni online.
 
 I clienti possono acconsentire esplicitamente al processo di onboarding una volta per ogni servizio online Microsoft idoneo.
 
-### Piani idonei
-Enterprise Mobility Suite, o uno dei suoi servizi cloud inclusi in FastTrack Center Benefit per EMS, è idoneo al service benefit se vengono acquistate almeno 150 licenze per sottoscrizione in uno dei piani idonei seguenti:
+## Piani idonei
+Enterprise Mobility + Security e i servizi cloud inclusi in FastTrack Center Benefit per EMS sono idonei per il service benefit se vengono acquistate almeno 150 licenze per una sottoscrizione in uno dei piani idonei seguenti:
 
 |Pianificazione|Idoneo per il service benefit?|
 |--------|-------------------------------------|
-|Enterprise Mobility Suite|Sì|
-|Enterprise Mobility Suite (come parte di Enterprise Cloud Suite)|Sì|
-|Microsoft Azure AD Premium|Sì|
+|Enterprise Mobility + Security|Sì*|
+|Enterprise Mobility + Security (come parte di Secure Productive Enterprise)|Sì*|
+|Microsoft Azure Active Directory Premium (E3 e E5)**|Sì|
+|Microsoft Intune**|Sì|
+|Microsoft Azure Information Protection (E3 e E5)**|Limitato</br>Solo piano di successo e richiesta di assistenza tramite il team di supporto|
+|Microsoft Advanced Threat Analytics**|Limitato</br>Solo piano di successo e richiesta di assistenza tramite il team di supporto|
+|Microsoft Cloud App Security**|Limitato</br>Solo piano di successo e richiesta di assistenza tramite il team di supporto|
+
+*Disponibile solo per i servizi cloud idonei per i benefit; vedere la tabella seguente
+
+**Acquistato come piano autonomo
+
+|Servizio cloud|Idoneo per il service benefit?|
+|--------|-------------------------------------|
+|Microsoft Azure Active Directory Premium (E3 e E5)|Sì|
 |Microsoft Intune|Sì|
-|Microsoft Azure RMS)|Sì|
+|Microsoft Azure Information Protection (E3 e E5)|Limitato</br>Solo piano di successo e richiesta di assistenza tramite il team di supporto|
+|Microsoft Advanced Threat Analytics|Limitato</br>Solo piano di successo e richiesta di assistenza tramite il team di supporto|
+|Microsoft Cloud App Security|Limitato</br>Solo piano di successo e richiesta di assistenza tramite il team di supporto|
 
 
-
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Oct16_HO1-->
 
 
