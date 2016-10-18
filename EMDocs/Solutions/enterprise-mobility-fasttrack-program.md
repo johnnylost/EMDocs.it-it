@@ -2,9 +2,9 @@
 title: Programma Fast Track per Enterprise Mobility
 description: 
 keywords: 
-author: 
-manager: swadhwa
-ms.date: 04/28/2016
+author: staciebarker
+manager: angrobe
+ms.date: 10/02/2016
 ms.topic: article
 ms.prod: 
 ms.service: 
@@ -13,24 +13,23 @@ ms.assetid: fd951f10-6404-43a3-8f2f-464f5b5003ac
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 31ba2bb9bf95d3b21ba08f7874f12cae790f9af0
-ms.openlocfilehash: a32ec33be4ea8ea3ece93fe026480de43790af4e
+ms.sourcegitcommit: 4edfa04ab1ecf371e207497d74aa4c1e2366d7a9
+ms.openlocfilehash: 8140cd56e0fef920c7ab4c1a76fe7926ebcd05fe
 
 
 ---
 
 # Programma Fast Track per Enterprise Mobility
-Con il programma FastTrack Center Benefit per Enterprise Mobility, i clienti che hanno acquistato servizi idonei possono lavorare con gli specialisti Microsoft per configurare l'uso di Azure Active Directory Premium, Microsoft Intune e/o Azure Right Management. I collegamenti che seguono descrivono FastTrack Center Benefit, i servizi idonei e i dettagli relativi ai servizi offerti dal programma.
+È possibile usufruire di FastTrack Center Benefit per Enterprise Mobility + Security (EMS) quando si acquistano almeno 150 licenze di EMS o uno dei suoi servizi cloud in un piano idoneo. Si potrà quindi collaborare con gli esperti Microsoft per valutare, correggere, abilitare e promuovere l'uso di quei servizi. Questi esperti forniscono anche linee guida per la migrazione. 
 
-[FastTrack Center Benefit per Enterprise Mobility Suite](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md)
+Per altre informazioni sui piani e servizi idonei, vedere [Piani e servizi idonei per FastTrack Center Benefit](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md).
 
-[Processo FastTrack Center Benefit per Enterprise Mobility Suite](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md)
-
-
+Per informazioni sul processo FastTrack Center e sulle responsabilità, vedere [Processo FastTrack Center Benefit per Enterprise Mobility + Security (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
 
 
 
 
-<!--HONumber=Jul16_HO3-->
+
+<!--HONumber=Oct16_HO1-->
 
 

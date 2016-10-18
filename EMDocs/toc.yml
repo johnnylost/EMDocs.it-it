@@ -2,12 +2,12 @@
   href: /
   homepage: /
   items:
-  - name: "Enterprise Mobility"
-    href: /enterprise-mobility/
-    homepage: /enterprise-mobility
+  - name: "Enterprise Mobility + Security"
+    href: /enterprise-mobility-security/
+    homepage: /enterprise-mobility-security
     items:
     - name: "Soluzioni"
-      href: /enterprise-mobility/solutions/
+      href: /enterprise-mobility-security/solutions/
       homepage: /enterprise-mobility/solutions/byod-design-considerations-guide
     - name: "Azure RemoteApp"
       href: /remoteapp/
@@ -147,24 +147,24 @@
       href: /sccm/
       homepage: /sccm
       items:
-        - name: "Guida dell'infrastruttura di base"
+        - name: "Infrastruttura principale"
           href: /sccm/core/
           homepage: /sccm/core/understand/introduction
-        - name: "Guida della gestione delle applicazioni"
+        - name: "Gestione delle applicazioni"
           href: /sccm/apps/
           homepage: /sccm/apps/understand/get-started-with-application-management
-        - name: "Guida della conformità dei dispositivi"
+        - name: "Conformità del dispositivo"
           href: /sccm/compliance/
           homepage: /sccm/compliance/understand/ensure-device-compliance
-        - name: "Guida della gestione dei dispositivi mobili"
+        - name: "Gestione dispositivi mobili"
           href: /sccm/mdm/
           homepage: /sccm/mdm/understand/whats-new-in-hybrid-mobile-device-management
-        - name: "Guida della distribuzione del sistema operativo"
+        - name: "Distribuzione del sistema operativo"
           href: /sccm/osd/
           homepage: /sccm/osd/understand/introduction-to-operating-system-deployment
-        - name: "Guida dell'infrastruttura e della protezione dei dati"
+        - name: "Proteggere dati e infrastruttura"
           href: /sccm/protect/
           homepage: /sccm/protect/understand/protect-data-and-site-infrastructure
-        - name: "Guida della gestione degli aggiornamenti del software"
+        - name: "Gestione aggiornamenti software"
           href: /sccm/sum/
           homepage: /sccm/sum/understand/software-updates-introduction

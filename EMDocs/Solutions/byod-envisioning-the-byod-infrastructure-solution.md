@@ -4,17 +4,18 @@ description:
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 8/1/2016
-ms.topic: article
+ms.date: 10/3/2016
+ms.topic: solution
 ms.prod: 
-ms.service: microsoft-intune
+ms.service: 
 ms.technology: 
 ms.assetid: ecb6271f-8f38-42bd-aae7-10ba5e17a5f1
 ms.reviewer: 
 ms.suite: ems
+ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: e51462f1b238f7e3b518a7a9c8042ff3ad78a5a5
-ms.openlocfilehash: affb004f69e50d7c41ede6d29355fbb991949ebd
+ms.sourcegitcommit: e410d3fd320660186b6d21853af3172062f90eda
+ms.openlocfilehash: 64fff538f7e0a8ace6c38404a9bde3c20e87eb9a
 
 
 ---
@@ -29,7 +30,7 @@ Per risolvere i problemi identificati in precedenza e aiutare le organizzazioni 
 
 - Fornire agli utenti la flessibilità necessaria per usare i propri dispositivi per accedere alle app e ai dati aziendali.
 - Gestire i dispositivi che accedono alle risorse aziendali in locale e dal cloud.
-- Consentire a un reparto IT di proteggere i dati aziendali archiviati nei dispositivi dall'accesso locale non autorizzato e dalla cancellazione in remoto via Internet mediante crittografia e Rights Management quando un dispositivo viene perso o ritirato oppure durante la cessazione del rapporto di lavoro.
+- Consentire a un reparto IT di proteggere i dati aziendali archiviati nei dispositivi usando la crittografia e la protezione delle informazioni per impedire l'accesso locale non autorizzato e cancellando i dati aziendali da remoto tramite Internet quando un dispositivo viene perso o ritirato o quando un dipendente termina il rapporto di lavoro con l'azienda.
 - Fornire agli utenti un'identità comune quando accedono alle risorse in locale e dal cloud.
 - Consentire al reparto IT di gestire più identità e mantenere le informazioni sincronizzate tra ambienti diversi.
 - Abilitare i servizi di autenticazione aziendali come l'autenticazione a più fattori e Single Sign-On.
@@ -53,6 +54,6 @@ Le considerazioni relative il dominio del problema BYOD illustrate in questa gui
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Oct16_HO1-->
 
 

@@ -4,17 +4,18 @@ description:
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 8/1/2016
-ms.topic: article
+ms.date: 10/3/2016
+ms.topic: solution
 ms.prod: 
-ms.service: microsoft-intune
+ms.service: 
 ms.technology: 
 ms.assetid: 181eb917-119d-4e56-8ead-1182b1dc5cab
 ms.reviewer: 
 ms.suite: ems
+ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: e51462f1b238f7e3b518a7a9c8042ff3ad78a5a5
-ms.openlocfilehash: 878f20d5fa1e1180f149bf8b2865ae719cf61352
+ms.sourcegitcommit: e410d3fd320660186b6d21853af3172062f90eda
+ms.openlocfilehash: 696374bf33144ef29b7143414035f761786bd4e9
 
 
 ---
@@ -32,7 +33,7 @@ Con Windows Server 2012 R2 è possibile crittografare i dati inattivi nei dispos
 
 Se si pensa a un archivio come a un contenitore per un determinato contenuto, è importante capire che occorre proteggere l'uso del contenuto. È possibile evitare la perdita di dati applicando criteri che definiscono come verrà usato dall'utente finale il contenuto che si trova nell'archivio. È possibile usare [Active Directory Rights Management Services (AD RMS)](https://technet.microsoft.com/library/hh831554.aspx) per potenziare la strategia di sicurezza dell'organizzazione proteggendo i documenti che usano Information Rights Management (IRM). AD RMS consente agli utenti e agli amministratori di usare i criteri IRM per specificare le autorizzazioni di accesso a documenti, cartelle di lavoro e presentazioni, contribuendo quindi a impedire la stampa, l'inoltro o la copia di informazioni sensibili da parte di persone non autorizzate. Quando l'autorizzazione per un file viene limitata tramite IRM, le restrizioni di accesso e uso vengono applicate indipendentemente dalla posizione in cui si trovano le informazioni, perché l'autorizzazione è archiviata nel file stesso.
 
-Se la società decide di usare una soluzione basata su cloud per la protezione dei file, può anche usare [Azure Rights Management](https://technet.microsoft.com/library/jj585026.aspx). Azure Rights Management è in grado di proteggere le informazioni riservate dell'azienda usando crittografia, identità e criteri di autorizzazione per proteggere i file e i messaggi di posta elettronica in più dispositivi, tra cui telefoni, tablet e PC. È possibile proteggere le informazioni sia all'interno che all'esterno dell'organizzazione perché la protezione rimane associata ai dati, anche quando supera i limiti dell'organizzazione. 
+Se la società decide di usare una soluzione basata su cloud per la protezione dei file, può anche usare [Azure Information Protection](/information-protection/understand-explore/what-is-information-protection). Azure Information Protection è in grado di proteggere le informazioni riservate dell'azienda usando crittografia, identità e criteri di autorizzazione per proteggere i file e i messaggi di posta elettronica in più dispositivi, tra cui telefoni, tablet e PC. È possibile proteggere le informazioni sia all'interno che all'esterno dell'organizzazione perché la protezione rimane associata ai dati, anche quando supera i limiti dell'organizzazione. 
 
 È anche possibile usare altre tecnologie di archiviazione disponibili nel sistema operativo Windows per migliorare la protezione generale dei dati, ad esempio BitLocker per la crittografia delle unità ed [Encrypting File System (EFS)](https://technet.microsoft.com/library/cc700811.aspx) per la crittografia dei file. La tabella seguente presenta i vantaggi e gli svantaggi della protezione dell'archiviazione. Si tenga presente che queste opzioni non si escludono a vicenda. In altre parole, si potrebbe concludere che in una soluzione di infrastruttura BYOD da progettare sono necessarie tutte queste opzioni per garantire la protezione dei dati archiviati.
 
@@ -70,7 +71,7 @@ Usare l'elenco che segue per comprendere i vantaggi e gli svantaggi di ogni opzi
         - Può essere abilitato usando Criteri di gruppo in base all'utente o al dispositivo
         - Integrazione con Microsoft Intune, che consente la cancellazione selettiva dei dati che si trovano in Cartelle di lavoro nei dispositivi degli utenti
         - Possibilità di chiedere agli utenti di ripetere l'autenticazione per poter accedere ai dati che si trovano in Cartelle di lavoro
-        - Consente l'integrazione con Microsoft Rights Management Services per la classificazione dei dati
+        - Consente l'integrazione con Microsoft Information Protection per la classificazione dei dati
     - Svantaggi
         - Disponibile solo per Windows 8.1, Windows RT 8.1 e Windows 10
         - Richiede Windows Server 2012 R2 per ospitare le condivisioni di sincronizzazione
@@ -250,6 +251,6 @@ Controllo dinamico degli accessi, una funzione del ruolo File server, garantisce
 
 
 
-<!--HONumber=Aug16_HO1-->
+<!--HONumber=Oct16_HO1-->
 
 

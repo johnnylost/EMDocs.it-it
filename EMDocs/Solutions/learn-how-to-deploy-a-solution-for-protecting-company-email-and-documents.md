@@ -13,8 +13,8 @@ ms.assetid: 2e10af43-3138-45c0-b2f7-14a1d2bfb237
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 7c389de59d0ca6b33fbd4d872cb77236930d55bf
-ms.openlocfilehash: 0d3d7352dc4d3628aed04378af99200aadebc3b2
+ms.sourcegitcommit: d1211e3ef25b73679c851bce7f5eca872520f023
+ms.openlocfilehash: 346338c40e83164d63476cf8e08117a5687903b3
 
 
 ---
@@ -32,7 +32,7 @@ Questa sezione illustra come distribuire una soluzione per la protezione di docu
 ## Introduzione
 La protezione dei dati aziendali è di vitale importanza e rappresenta un compito sempre più complesso man mano che aumenta il numero di dipendenti che usano i dispositivi mobili personali per accedere alle risorse aziendali, inclusi i messaggi e gli allegati di posta elettronica. Per gli amministratori IT è importante assicurarsi che i dati aziendali siano protetti anche quando quei dispositivi mobili non si trovano all'interno della sede fisica dell'azienda.
 
-Microsoft Enterprise Mobility Suite (EMS) risolve questo problema offrendo una protezione completa dei documenti e dei messaggi di posta elettronica aziendali su quattro livelli: identità, dispositivo, applicazione e dati. Tra le altre funzionalità, EMS garantisce che i dipendenti possano accedere alla posta elettronica aziendale solo da dispositivi gestiti da Microsoft Intune e conformi ai criteri IT.
+Microsoft Enterprise Mobility + Security (EMS) risolve questo problema offrendo una protezione completa dei documenti e dei messaggi di posta elettronica aziendali su quattro livelli: identità, dispositivo, applicazione e dati. Tra le altre funzionalità, EMS garantisce che i dipendenti possano accedere alla posta elettronica aziendale solo da dispositivi gestiti da Microsoft Intune e conformi ai criteri IT.
 
 La protezione dei messaggi di posta elettronica aziendali prevede due obiettivi principali:
 
@@ -46,13 +46,13 @@ La protezione dei messaggi di posta elettronica aziendali prevede due obiettivi 
     > È possibile creare e distribuire un profilo di posta elettronica, quindi impostare un criterio di conformità che specifica che i profili di posta elettronica devono essere gestiti da Intune (scelta consigliata). Questo permette di cancellare i messaggi di posta elettronica dai dispositivi dismessi e, per iOS, assicura che gli allegati possano essere aperti solo in applicazioni gestite da Intune. Vedere il [Passaggio 5: Creare criteri di conformità e distribuirli agli utenti.](conditional-access-intune-configmgr-exchange.md) per ulteriori informazioni.
 
 ### Soluzioni illustrate in questo articolo
-Questa sezione presenta una panoramica generale delle singole soluzioni: Configuration Manager con implementazione di Intune, Intune da solo, gestione di applicazioni mobili e servizio Azure Rights Management.
+Questa sezione presenta una panoramica generale delle singole soluzioni: Configuration Manager con implementazione di Intune, Intune da solo, gestione di applicazioni mobili e Azure Information Protection.
 
 -   **Gestione dell'accesso alla posta elettronica tramite accesso condizionale:** È possibile usare una configurazione ibrida di Configuration Manager con Intune, oppure usare solo Intune, insieme con Exchange Online o Exchange Server locale, per gestire e applicare l'accesso condizionale in tutti i tipi di PC e dispositivi mobili, indipendentemente dalla loro posizione. Applicando l'accesso condizionale in questo tipo di ambiente è possibile consentire all'utente di essere più produttivo, senza compromettere la sicurezza dei dati aziendali.
 
 -   **Protezione degli allegati e dei dati di posta elettronica tramite la soluzione MAM:** In Intune è possibile applicare criteri MAM (Mobile Application Management, gestione di applicazioni mobili) per modificare la funzionalità delle app che vengono distribuite nella società. Ad esempio, è possibile limitare le operazioni Taglia, Copia e Incolla in un'app gestita oppure configurare un'app per aprire tutti i collegamenti Web in Managed Browser. Ciò garantisce che queste applicazioni siano in linea con i criteri di conformità e sicurezza della società.
 
--   **Servizio di gestione dei diritti di Azure per i criteri di prevenzione della perdita dei dati:** Azure Rights Management (Azure RMS) usa criteri di crittografia, identità e autorizzazione per proteggere file e messaggi di posta elettronica su più dispositivi, ad esempio telefoni, tablet e PC. È possibile proteggere le informazioni sia all'interno che all'esterno dell'organizzazione perché la protezione rimane associata ai dati, anche quando fuoriescono dai confini fisici dell'azienda.
+-   **Protezione delle informazioni di Azure per i criteri di prevenzione della perdita dei dati:** Azure Information Protection (precedentemente denominato Azure RMS) usa criteri di crittografia, identità e autorizzazione per proteggere file e messaggi di posta elettronica su più dispositivi, ad esempio telefoni, tablet e PC. È possibile proteggere le informazioni sia all'interno che all'esterno dell'organizzazione perché la protezione rimane associata ai dati, anche quando fuoriescono dai confini fisici dell'azienda.
 
 ### Valutazione dell'implementazione appropriata
 Tra tutte le opzioni di progettazione e configurazione per la gestione dei dispositivi mobili, è difficile determinare quale combinazione soddisfi meglio le esigenze dell'azienda. L'articolo [Mobile Device Management Design Considerations Guide](mdm-design-considerations-guide.md) (Guida alle considerazioni di progettazione per la gestione dei dispositivi mobili) illustra i requisiti di progettazione della gestione dei dispositivi mobili e indica in dettaglio i passaggi e le attività che è possibile eseguire per progettare una soluzione adatta alle esigenze di business e tecnologiche dell'azienda.
@@ -60,7 +60,7 @@ Tra tutte le opzioni di progettazione e configurazione per la gestione dei dispo
 ### Esperienza generale dell'utente finale:
 Dopo aver implementato la soluzione, gli utenti finali potranno accedere alla posta elettronica aziendale solo su dispositivi gestiti **e** conformi. Quando accedono alla posta elettronica sui dispositivi, i dati dell'azienda sono protetti e contenuti all'interno dell'ecosistema di app e sono disponibili unicamente agli utenti previsti. L'accesso potrà essere revocato in qualsiasi momento se il dispositivo risulta non conforme.
 
-In particolare, i criteri di accesso condizionale configurati in Intune fanno sì che i dispositivi possano accedere alla posta elettronica solo se sono conformi ai criteri di conformità impostati. Alcune azioni, ad esempio le operazioni Copia e Incolla oppure il salvataggio nei servizi di archiviazione cloud personale, possono essere limitate usando i criteri di gestione delle applicazioni mobili. Il servizio di Azure Rights Management può essere usato per fare in modo che i dati sensibili di posta elettronica e gli allegati inoltrati possano essere letti solo dai destinatari. L'esperienza dell'utente finale è descritta in dettaglio in [Esperienza utente finale di accesso condizionale](end-user-experience-conditional-access.md).
+In particolare, i criteri di accesso condizionale configurati in Intune fanno sì che i dispositivi possano accedere alla posta elettronica solo se sono conformi ai criteri di conformità impostati. Alcune azioni, ad esempio le operazioni Copia e Incolla oppure il salvataggio nei servizi di archiviazione cloud personale, possono essere limitate usando i criteri di gestione delle applicazioni mobili. Azure Information Protection può essere usato per fare in modo che i dati sensibili di posta elettronica e gli allegati inoltrati possano essere letti solo dai destinatari previsti. L'esperienza dell'utente finale è descritta in dettaglio in [Esperienza utente finale di accesso condizionale](end-user-experience-conditional-access.md).
 
 ### Come proseguire
 Una volta letto questo argomento, è possibile acquisire altre informazioni sulla distribuzione di una soluzione specifica per la protezione dei messaggi di posta elettronica e dei documenti aziendali, a seconda dell'ambiente:
@@ -70,6 +70,6 @@ Una volta letto questo argomento, è possibile acquisire altre informazioni sull
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Oct16_HO1-->
 
 
