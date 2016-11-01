@@ -4,7 +4,7 @@ description:
 keywords: 
 author: andredm7
 manager: swadhwa
-ms.date: 10/3/2016
+ms.date: 10/18/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,8 +14,8 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 8f279f528cab2a747f12d5e372ec7e9442bd87e4
+ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
+ms.openlocfilehash: 4ec5d33354205d37fa1f8f57458272f009cc8877
 
 
 ---
@@ -61,12 +61,15 @@ Per sviluppare una progettazione per la gestione dei dispositivi mobili adatta a
 - [Passaggio 3: Pianificare la protezione dei dispositivi mobili](mdm-step-3-plan-enhancing-mobile-devices-protection.md)
 - [Passaggio 4: Pianificare la gestione dei dispositivi mobili SaaS (Software as a Service)](mdm-step-4-plan-for-software-as-a-service-mobile-device-management.md)
 - [Passaggi successivi e risorse aggiuntive](mdm-next-steps-and-additional-resources.md)
+
+>[!NOTE]
+> Prima di usare questa guida, guardare anche [Design Considerations for Mobile Device Management presentation](https://channel9.msdn.com/Shows/TechNet+Radio/TNR1610) (Presentazione Considerazioni di progettazione per la gestione di dispositivi mobili) in Channel9 per comprendere l'utilità della guida. 
         
 ## Versione scaricabile
 È possibile scaricare una copia della versione integrale della guida dalla raccolta [TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Oct16_HO3-->
 
 

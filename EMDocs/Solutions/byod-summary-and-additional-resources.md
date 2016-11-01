@@ -1,10 +1,10 @@
 ---
 title: Riepilogo e risorse aggiuntive per BYOD | Guida alle considerazioni sulla progettazione per BYOD
-description: 
+description: Guida alle considerazioni sulla progettazione e risorse aggiuntive per BYOD
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 10/3/2016
+ms.date: 10/18/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,8 +14,8 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: a959db750a4334f19e1269726a5536f55afa4dbf
+ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
+ms.openlocfilehash: 0451218eb8d9858d333665d9b98fb18f169a8f11
 
 
 ---
@@ -30,16 +30,15 @@ Dopo aver identificato i requisiti e i limiti dell'ambiente usato e quindi aver 
 
 Per le soluzioni relative allo scenario BYOD, vedere:
 
+- [Understanding BYOD: What it Means for My Company (Informazioni su BYOD: Cosa vuol dire per la mia azienda)](https://channel9.msdn.com/Shows/TechNet+Radio/TechNet-Radio-Part-1-Understanding-BYOD-What-it-Means-for-My-Company)
+- [Understanding BYOD: How to Make it Happen (Informazioni su BYOD: Come realizzarlo)](https://channel9.msdn.com/Shows/TechNet+Radio/TechNet-Radio-Part-2-Understanding-BYOD-How-to-Make-it-Happen)
+- [BYOD and Design Considerations (BYOD e considerazioni sulla progettazione)](https://channel9.msdn.com/Shows/TechNet+Radio/TechNet-Radio-Part-3-BYOD-and-Design-Considerations)
 - [Guida alle considerazioni sulla progettazione per la gestione dei dispositivi mobili](http://aka.ms/mdmdcg)
-- [Gestione delle identità per gli ambienti ibridi usando DirSync con Federation (Single Sign-On)](https://technet.microsoft.com/library/dn550987.aspx)
-- [Gestione delle identità per gli ambienti ibridi usando DirSync con Sincronizzazione password](https://technet.microsoft.com/library/dn550986.aspx)
-- [Accesso protetto alle risorse aziendali ovunque e con qualsiasi dispositivo](https://technet.microsoft.com/library/dn550982.aspx)
-- [Gestione di dispositivi mobili e PC eseguendo la migrazione a Configuration Manager con Microsoft Intune](https://technet.microsoft.com/library/dn582037.aspx)
-- [Gestione dei dispositivi mobili per i clienti di Configuration Manager 2007 che prevedono di eseguire la migrazione a System Center 2012 R2 Configuration Manager](https://technet.microsoft.com/library/dn508400.aspx)
 
 
 
 
-<!--HONumber=Oct16_HO1-->
+
+<!--HONumber=Oct16_HO3-->
 
 

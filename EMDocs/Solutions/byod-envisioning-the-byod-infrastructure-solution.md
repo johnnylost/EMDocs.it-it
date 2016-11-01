@@ -1,10 +1,10 @@
 ---
 title: Progettazione della soluzione di infrastruttura BYOD
-description: 
+description: Definizione delle soluzioni per BYOD in base alle scelte effettuate durante il processo di progettazione.
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 10/3/2016
+ms.date: 10/18/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,8 +14,8 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: e410d3fd320660186b6d21853af3172062f90eda
-ms.openlocfilehash: 64fff538f7e0a8ace6c38404a9bde3c20e87eb9a
+ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
+ms.openlocfilehash: 8610e45c69d8866c123f34bd77227c187715a722
 
 
 ---
@@ -54,6 +54,6 @@ Le considerazioni relative il dominio del problema BYOD illustrate in questa gui
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Oct16_HO3-->
 
 
