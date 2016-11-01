@@ -1,6 +1,6 @@
 ---
 title: "Responsabilità di Microsoft"
-description: 
+description: "Responsabilità di Microsoft quando i clienti usano FastTrack Center Benefit"
 keywords: 
 author: staciebarker
 manager: angrobe
@@ -14,8 +14,8 @@ ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 323bdb56b3d81eb6a63e266899427672abf79da4
-ms.openlocfilehash: 777236784c06eeea2e62bcb77b2ceabc5d31b14a
+ms.sourcegitcommit: b8c690844c5bae7898bfe908d4ce923a0edf41dd
+ms.openlocfilehash: 0a849261c116d77fc3dc8adbd296321b2c84ba4b
 
 
 ---
@@ -210,6 +210,6 @@ Fornire indicazioni su:
 [Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Oct16_HO3-->
 
 

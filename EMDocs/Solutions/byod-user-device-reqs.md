@@ -1,10 +1,10 @@
 ---
 title: Requisiti di utenti e dispositivi
-description: 
+description: Requisiti comuni per utenti e dispositivi in uno scenario BYOD.
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 10/3/2016
+ms.date: 10/18/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,8 +14,8 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 8c53476e8b5995ecd6e40213304e20ba1a939266
+ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
+ms.openlocfilehash: f665128a88ce1e6525b433a78b71437814e47a09
 
 
 ---
@@ -71,6 +71,6 @@ I requisiti di utenti e dispositivi sono suddivisi in tre aree:
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Oct16_HO3-->
 
 

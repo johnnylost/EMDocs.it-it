@@ -1,6 +1,6 @@
 ---
 title: Fasi di onboarding e migrazione
-description: 
+description: Fasi per FastTrack Center Benefit
 keywords: 
 author: staciebarker
 manager: angrobe
@@ -14,8 +14,8 @@ ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: fd3cdf64ae84d45f285302fd8557dfdfadc60c8f
-ms.openlocfilehash: 9f0a69a7bd9bc1910281c44ec818efbf9c87370a
+ms.sourcegitcommit: b8c690844c5bae7898bfe908d4ce923a0edf41dd
+ms.openlocfilehash: d760cc15bca135889b198636290765a109932b51
 
 
 ---
@@ -162,6 +162,6 @@ Microsoft offrirà anche informazioni aggiuntive su come adottare correttamente 
 [Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
 
 
-<!--HONumber=Oct16_HO2-->
+<!--HONumber=Oct16_HO3-->
 
 

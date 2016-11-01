@@ -1,10 +1,10 @@
 ---
 title: Guida alle considerazioni di progettazione per BYOD
-description: 
+description: "Introduzione all’uso di BYOD e panoramica del processo di considerazioni sulla progettazione."
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 10/3/2016
+ms.date: 10/18/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,8 +14,8 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 3c88e0a7e82581d6ae6452ae13a44442c63923b6
+ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
+ms.openlocfilehash: 836489f7601f6d82a2adb9f9aa989cdb163afbd0
 
 
 ---
@@ -78,6 +78,6 @@ Le organizzazioni con un'infrastruttura di grandi dimensioni devono stabilire i 
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Oct16_HO3-->
 
 
