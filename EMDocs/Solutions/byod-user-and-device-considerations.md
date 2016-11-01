@@ -1,10 +1,10 @@
 ---
 title: Considerazioni su utenti e dispositivi
-description: 
+description: "Considerazioni sulla progettazione per utenti che accedono a risorse aziendali usando i propri dispositivi o dispositivi di proprietà dell&quot;azienda in uno scenario BYOD."
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 10/3/2016
+ms.date: 10/18/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,8 +14,8 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 3fcfcad4698581b955fd1a1b8cde4ccefeeca928
+ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
+ms.openlocfilehash: 00cd28bc9b58d6386a1d74c67d63ccebb202370e
 
 
 ---
@@ -211,6 +211,6 @@ Il percorso di rete svolge un ruolo importante per le considerazioni sugli utent
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Oct16_HO3-->
 
 

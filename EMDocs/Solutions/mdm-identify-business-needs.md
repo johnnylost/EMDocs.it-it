@@ -1,10 +1,10 @@
 ---
 title: Identificazione delle esigenze aziendali
-description: 
+description: Linee guida per l&quot;identificazione delle esigenze aziendali per giustificare l&quot;adozione della gestione di dispositivi mobili.
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 10/3/2016
+ms.date: 10/18/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,8 +14,8 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: db5f1a61596b3800b4b924e1af9d0e739b26ca44
+ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
+ms.openlocfilehash: cd9f30d1474745919e4c0ff251206d8c900dc4c2
 
 
 ---
@@ -84,6 +84,6 @@ Durante questa attività, è anche necessario valutare se la società dispone di
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Oct16_HO3-->
 
 

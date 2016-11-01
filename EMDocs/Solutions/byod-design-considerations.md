@@ -1,10 +1,10 @@
 ---
 title: Considerazioni sulla progettazione
-description: 
+description: Considerazioni sulla progettazione per prodotti e tecnologie in uno scenario BYOD.
 keywords: 
 author: YuriDio
 manager: swadhwa
-ms.date: 10/3/2016
+ms.date: 10/18/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,13 +14,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: e410d3fd320660186b6d21853af3172062f90eda
-ms.openlocfilehash: a9fc81c8e6d53f4ad457bf70e576a608d046cca8
+ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
+ms.openlocfilehash: c78024f38da8660a9c8e4e9813890110f49107be
 
 
 ---
 
-# Considerazioni di progettazione
+# Considerazioni sulla progettazione
 
 Con un'analisi dei requisiti descritti in dettaglio nella sezione Progettazione della soluzione di infrastruttura BYOD di questo documento, è possibile selezionare i prodotti e le tecnologie appropriati per implementare i requisiti per il progetto di infrastruttura BYOD. La tabella seguente elenca i prodotti, le tecnologie e i servizi Microsoft che consentono di implementare una soluzione di infrastruttura BYOD.
 
@@ -83,6 +83,6 @@ Il progetto di infrastruttura per il supporto di BYOD riunisce le risposte alle 
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Oct16_HO3-->
 
 

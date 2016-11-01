@@ -1,6 +1,6 @@
 ---
 title: Processo FastTrack Center Benefit per Enterprise Mobility + Security (EMS)
-description: 
+description: Panoramica del processo di onboarding di FastTrack Center Benefit
 keywords: 
 author: staciebarker
 manager: angrobe
@@ -13,8 +13,8 @@ ms.assetid: dd221c87-6bf7-4af8-845a-dc4c3a4f2334
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 2631d31711823e8a3f50ab58edf841aefb4f7153
-ms.openlocfilehash: 8f880796888183053f3311edeb13dbbfac44e667
+ms.sourcegitcommit: b8c690844c5bae7898bfe908d4ce923a0edf41dd
+ms.openlocfilehash: 081bfbfde1a5a8a99e03303941030a88036cfcc0
 
 
 ---
@@ -52,6 +52,6 @@ Ecco cosa aspettarsi una volta completato il processo di onboarding:
     -   Federati con Windows Server 2012 R2 Active Directory Federation Services (AD FS) 2.0 o versione successiva da Active Directory locale.
 
 
-<!--HONumber=Oct16_HO2-->
+<!--HONumber=Oct16_HO3-->
 
 

@@ -1,6 +1,6 @@
 ---
-title: "Responsabilità dell'utente"
-description: 
+title: "Responsabilità dell&quot;utente"
+description: "Responsabilità del cliente quando usa FastTrack Center Benefit"
 keywords: 
 author: staciebarker
 manager: angrobe
@@ -14,8 +14,8 @@ ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 323bdb56b3d81eb6a63e266899427672abf79da4
-ms.openlocfilehash: 035279b0dd7ca88123d94016ceb6caaf6306350f
+ms.sourcegitcommit: b8c690844c5bae7898bfe908d4ce923a0edf41dd
+ms.openlocfilehash: 5cdb2a113e61ad70e5258909f48bfcad46321421
 
 
 ---
@@ -113,6 +113,6 @@ Ecco le responsabilità dell'utente durante il processo di onboarding.
 [Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Oct16_HO3-->
 
 

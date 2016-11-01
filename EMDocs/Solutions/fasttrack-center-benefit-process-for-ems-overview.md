@@ -1,6 +1,6 @@
 ---
 title: Panoramica di FastTrack Center Benefit
-description: 
+description: Panoramica e componenti di FastTrack Center Benefit
 keywords: 
 author: staciebarker
 manager: angrobe
@@ -14,8 +14,8 @@ ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 323bdb56b3d81eb6a63e266899427672abf79da4
-ms.openlocfilehash: 8c1ed6125137bf0059068d9864a5d1271bd7a9d1
+ms.sourcegitcommit: b8c690844c5bae7898bfe908d4ce923a0edf41dd
+ms.openlocfilehash: 680d99d8115ae824404c4f3662c73bf8d5422464
 
 
 ---
@@ -56,6 +56,6 @@ Tutto il supporto tecnico di onboarding verrà fornito in remoto da personale Mi
 [Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Oct16_HO3-->
 
 
