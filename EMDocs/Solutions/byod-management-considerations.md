@@ -1,10 +1,11 @@
 ---
 title: Considerazioni sulla gestione
-description: Considerazioni sulla gestione di uno scenario BYOD.
+description: Questo articolo include una serie di considerazioni sulla struttura della gestione da usare in uno scenario Bring Your Own Device (BYOD).
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/18/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,23 +15,23 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
-ms.openlocfilehash: 70d0ddf77b2f73a37ede22833a7a9f659ff6de3e
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: da1652d5bb9a7b7176c74482bfc814aaf8902c3f
 
 
 ---
 
-# Considerazioni sulla gestione
+# <a name="management-considerations"></a>Considerazioni sulla gestione
 
 Un dominio di gestione è obbligatorio in un'infrastruttura che supporta un modello BYOD. Per supportare completamente le richieste del BYOD, il dominio di gestione deve poter consentire al reparto IT di monitorare le risorse, fornire funzionalità di creazione di rapporti, gestire le risorse di calcolo e archiviazione, abilitare la configurazione e l'automazione dei dispositivi e gestire la distribuzione e il provisioning delle app.
 
-## Monitoraggio
+## <a name="monitoring"></a>Monitoraggio
 
 Uno dei ruoli del dominio di gestione è monitorare le impostazioni di conformità, non solo per le risorse aziendali, ma anche per i dispositivi mobili di proprietà degli utenti. È opportuno valutare le considerazioni sulla conformità in base alla line of business dell'azienda. Alcune aziende potrebbero consentire che i dati aziendali risiedano nei dispositivi degli utenti solo se crittografati. Le impostazioni di sicurezza devono essere controllate dal reparto IT in modo da applicare tali criteri.
 
 Il livello di gestione nei dispositivi degli utenti varia in base ai criteri aziendali e all'infrastruttura BYOD adottata dall'azienda. Se l'azienda stabilisce che è necessario fornire una funzionalità di cancellazione completa per accedere alle risorse aziendali, il reparto IT deve applicare questa impostazione su tutti i dispositivi monitorati. Il reparto IT deve inoltre poter ripristinare le impostazioni di fabbrica dei dispositivi, cancellando tutte le impostazioni e i dati personali, se necessario. La sezione seguente consente di determinare le opzioni di monitoraggio che saranno necessarie per l'infrastruttura BYOD.
 
-### Opzioni di monitoraggio: vantaggi e svantaggi
+### <a name="monitoring-options-advantages-and-disadvantages"></a>Opzioni di monitoraggio: vantaggi e svantaggi
 
 Usare l'elenco che segue per comprendere i vantaggi e gli svantaggi di ogni opzione di monitoraggio:
 
@@ -59,7 +60,7 @@ Le impostazioni di conformità in Configuration Manager consentono al reparto IT
 
 Con la cancellazione selettiva di Windows il reparto IT può proteggere i dati aziendali dell'organizzazione dislocati nei dispositivi personali o aziendali. Gli sviluppatori possono creare delle app per usare un criterio di cancellazione selettiva di Windows sui dati proteggendoli in un dominio Internet di proprietà dell'organizzazione. Per altre informazioni sulla cancellazione selettiva di Windows, vedere Cancellazione selettiva di Windows per la gestione dei dati del dispositivo.
 
-## Reporting
+## <a name="reporting"></a>Reporting
 
 Le funzionalità di creazione di rapporti o semplicemente comprendere il comportamento di questi dispositivi è fondamentale per il reparto IT per mantenere il controllo dei dispositivi noti. I rapporti possono essere usati per comprendere meglio l'ambiente corrente. Di seguito sono indicate alcune domande che sorgono quando si prova a comprendere non solo l'ambiente, ma anche le funzionalità di alcuni dispositivi mobili:
 
@@ -70,7 +71,7 @@ Le funzionalità di creazione di rapporti o semplicemente comprendere il comport
 
 Provare a usare una soluzione di gestione in grado di fornire l'inventario dei dispositivi e rapporti personalizzabili. Se si sceglie questa opzione, si consentirà un approccio più flessibile per il reparto IT quando occorre individuare altre informazioni sui dispositivi degli utenti. Il reparto IT deve poter avere i rapporti su tutti i dispositivi che sono stati registrati in locale e nel cloud. La funzionalità di creazione di rapporti per il sistema di gestione può risiedere in locale o nel cloud, oppure può essere una combinazione di entrambe le soluzioni, denominata appunto soluzione ibrida. Usare la tabella seguente per determinare quale opzione di creazione di rapporti è appropriata per l'azienda.
 
-### Opzioni di creazione di report: vantaggi e svantaggi
+### <a name="reporting-options-advantages-and-disadvantages"></a>Opzioni di creazione di report: vantaggi e svantaggi
 
 Usare l'elenco che segue per comprendere i vantaggi e gli svantaggi di ogni opzione di creazione di report:
 
@@ -105,7 +106,7 @@ Grazie alla combinazione di Microsoft Intune con System Center 2012 R2, è possi
 
 Per altre informazioni sulle funzionalità di creazione di report di Configuration Manager, vedere [Introduzione alla creazione di report in Configuration Manager](https://technet.microsoft.com/library/gg682105.aspx).
 
-## Calcolo e archiviazione
+## <a name="compute-and-storage"></a>Calcolo e archiviazione
 
 Dopo aver sviluppato nuove app e averne consentito l'accesso in remoto agli utenti dai propri dispositivi, le prestazioni delle app potrebbero risultare ridotte se la soluzione non è stata ben pianificata. Sebbene questa Guida alle considerazioni di progettazione non intenda offrire un'analisi approfondita relativa alle considerazioni sulle prestazioni, è necessario rispondere ad alcune domande sull'infrastruttura di gestione:
 
@@ -113,7 +114,7 @@ Dopo aver sviluppato nuove app e averne consentito l'accesso in remoto agli uten
 - La soluzione di gestione esistente usata dall'azienda è in grado di aumentare le risorse di calcolo e di archiviazione per la piattaforma supportata dall'app a cui accedono i dispositivi degli utenti in base a un set di regole prestabilite?
 Se la soluzione di gestione esistente non è in grado di soddisfare questi due requisiti, valutare l'utilizzo di una soluzione di gestione che possa gestire il calcolo e l'archiviazione affrontando i due requisiti fondamentali illustrati nella tabella seguente.
 
-### Funzionalità di gestione di calcolo e archiviazione: vantaggi e svantaggi
+### <a name="compute-and-storage-management-capabilities-advantages-and-disadvantages"></a>Funzionalità di gestione di calcolo e archiviazione: vantaggi e svantaggi
 
 Usare l'elenco che segue per comprendere i vantaggi e gli svantaggi di ogni opzione di gestione delle funzionalità:
 
@@ -138,14 +139,14 @@ System Center 2012 R2 è in grado di usare il pooling delle risorse e l'elastici
 
 Per altre informazioni sulle funzionalità di archiviazione di System Center 2012 R2, vedere [Novità di VMM in System Center 2012 R2](https://technet.microsoft.com/library/dn246490.aspx). 
 
-## Automazione
+## <a name="automation"></a>Automazione
 
 L'automazione può essere utilizzata per correggere i dispositivi non conformi e il reparto IT può assegnare diversi livelli di gravità della non conformità. È consigliabile usare l'automazione in diverse aree del BYOD, ad esempio potrebbe essere utile automatizzare la distribuzione dei nuovi servizi che verranno utilizzati dai dispositivi mobili e automatizzare il processo di autorizzazione per i dispositivi mobili.
 
 Sebbene si noterà che tutti i sottodomini BYOD presentati possono sfruttare i vantaggi offerti dall'automazione, la responsabilità di automatizzare le risorse appartiene al sottodominio di gestione. L'automazione può essere integrata nel sistema operativo. Tuttavia, la soluzione di gestione che verrà adottata dall'azienda dovrà estendere tali funzionalità e consentire di ridurre le attività IT quotidiane per il monitoraggio e la creazione di rapporti sui risultati dell'automazione.
 L'opzione di automazione più potente in System Center 2012 R2 è Windows PowerShell. Per altre informazioni sull'automazione di System Center 2012 R2, vedere [Automazione di System Center con Windows PowerShell](https://technet.microsoft.com/library/dn507037(v=sc.20).aspx). Tuttavia, è disponibile un'altra opzione che fornisce un tipo più semplice ma non molto affidabile di automazione delle attività: la sequenza di attività. Usare la tabella seguente per valutare i vantaggi e gli svantaggi di ogni opzione.
 
-### Opzioni di automazione: vantaggi e svantaggi
+### <a name="automation-options-advantages-and-disadvantages"></a>Opzioni di automazione: vantaggi e svantaggi
 
 Usare l'elenco che segue per comprendere i vantaggi e gli svantaggi di ogni opzione di automazione:
 
@@ -168,7 +169,7 @@ Usare l'elenco che segue per comprendere i vantaggi e gli svantaggi di ogni opzi
         - Non gestibile tramite script
         - Le funzionalità sono limitate per alcune attività all'interno dello stesso System Center
 
-## Distribuzione e provisioning
+## <a name="deployment-and-provisioning"></a>Distribuzione e provisioning
 
 Il passaggio successivo consiste nel comprendere le considerazioni per la distribuzione e il provisioning delle app per dispositivi remoti. Sorgono due domande fondamentali a cui rispondere:
 
@@ -188,7 +189,7 @@ Per gestire altre piattaforme che non sono dispositivi basati su Windows, è pos
 
 Sebbene si tratti di due opzioni distinte, è possibile integrarle per fornire la distribuzione delle app e il provisioning da un'unica posizione. Usare la tabella seguente per identificare l'opzione appropriata al progetto BYOD.
 
-| **Requisiti di progettazione**                                             | **Opzioni di distribuzione e provisioning**                |
+| **Requisiti di progettazione**                                             | **Opzioni di distribuzione e di provisioning**                |
 |---------------------------------------------------------------------|--------------------------------------------------------|
 | Distribuzione e provisioning di app in dispositivi presenti solo in locale.      | Microsoft System Center 2012                           |
 | Distribuzione e provisioning di app in dispositivi che si trovano all'esterno dell'azienda.   | Microsoft Intune                                       |
@@ -198,6 +199,6 @@ Sebbene si tratti di due opzioni distinte, è possibile integrarle per fornire l
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO4-->
 
 

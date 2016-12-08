@@ -1,10 +1,11 @@
 ---
 title: Separazione dei dati
-description: Considerazioni di progettazione per la separazione dei dati per uno scenario di gestione di dispositivi mobili.
+description: Questo articolo include una serie di considerazioni sulla progettazione per la separazione dei dati da usare in uno scenario di gestione di dispositivi mobili (MDM).
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/18/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,13 +15,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
-ms.openlocfilehash: 56e61eddf9ae62417d3e05082edbdf0560f6e00d
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: 030d0c1dca506ac7757e8c26910ea4725a1b9c2c
 
 
 ---
 
-# Separazione dei dati
+# <a name="data-segregation"></a>Separazione dei dati
 
 >[!NOTE]
 >Questo argomento fa parte di una guida più ampia dedicata alle considerazioni di progettazione. Per leggere la guida dall'inizio, vedere l'[argomento principale](mdm-design-considerations-guide.md). Per scaricare una copia della versione integrale della guida, visitare la raccolta [TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
@@ -29,7 +30,7 @@ La separazione dei dati non solo è importante per l'organizzazione, ma anche pe
 
 ![Separazione dei dati](./media/MDM_Figure_10.png)
 
-## I dati personali dell'utente vengono separati dai dati dell'azienda
+## <a name="users-personal-data-is-isolated-from-companys-data"></a>I dati personali dell'utente vengono separati dai dati dell'azienda
 
 Mantenendo separate tutte le app, i dati aziendali e i criteri distribuiti dalla soluzione MDM, è possibile se necessario rimuoverli dal dispositivo tramite la cancellazione selettiva, senza alcun effetto sui contenuti e sulle app personali dell'utente. 
 
@@ -52,7 +53,7 @@ Quando un utente installa e accede a un'app che supporta più identità (multi-i
 
 Nella tabella che segue vengono confrontate le funzionalità di cancellazione selettiva disponibili con diverse soluzioni MDM in modo da poter scegliere la soluzione più adatta ai requisiti di separazione dei dati dell'organizzazione.
 
-## Intune (autonomo)
+## <a name="intune-standalone"></a>Intune (autonomo)
 
 **Vantaggi**
 
@@ -65,7 +66,7 @@ Nella tabella che segue vengono confrontate le funzionalità di cancellazione se
 - Non include la crittografia nativa per l'archiviazione dei dispositivi mobili
 - La mancanza dell'integrazione con la piattaforma MDM locale corrente indica che sarà disponibile un'interfaccia di gestione aggiuntiva
 
-## Office 365 con MDM
+## <a name="office-365-with-mdm"></a>Office 365 con MDM
 
 **Vantaggi**
 
@@ -76,7 +77,7 @@ Nella tabella che segue vengono confrontate le funzionalità di cancellazione se
 
 - La mancanza dell'integrazione con la piattaforma MDM locale corrente indica che sarà disponibile un'interfaccia di gestione aggiuntiva
 
-## Ibrida (Intune con Configuration Manager)
+## <a name="hybrid-intune-with-configmgr"></a>Ibrida (Intune con Configuration Manager)
 
 **Vantaggi**
 
@@ -93,6 +94,6 @@ Leggere l'articolo [Proteggere i dati con la cancellazione selettiva o completa 
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO4-->
 
 

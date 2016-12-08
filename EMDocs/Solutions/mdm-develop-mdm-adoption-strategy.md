@@ -1,10 +1,11 @@
 ---
 title: Sviluppare la strategia di adozione della gestione dei dispositivi mobili
-description: Considerazioni di progettazione per l&quot;adozione della gestione dei dispositivi mobili.
+description: Questo articolo include una serie di considerazioni sulla progettazione per l&quot;adozione della gestione dei dispositivi mobili (MDM) nell&quot;organizzazione.
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/18/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,24 +15,24 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
-ms.openlocfilehash: 2ff57e80fd68a58a78d4a626036416f95966dab5
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: 925d3c462ff0010f3aea03dd35a5ba6f78bf9894
 
 
 ---
 
-# Sviluppare la strategia di adozione della gestione dei dispositivi mobili
+# <a name="develop-your-mobile-device-management-adoption-strategy"></a>Sviluppare la strategia di adozione della gestione dei dispositivi mobili
 
 >[!NOTE]
 >Questo argomento fa parte di una guida più ampia dedicata alle considerazioni di progettazione. Per leggere la guida dall'inizio, vedere l'[argomento principale](mdm-design-considerations-guide.md). Per scaricare una copia della versione integrale della guida, visitare la raccolta [TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
 In questa attività viene sviluppata la strategia di adozione della gestione dei dispositivi mobili in grado di soddisfare i requisiti aziendali identificati nelle attività 1 e 2. 
 
-## Proprietà del dispositivo
+## <a name="device-ownership"></a>Proprietà del dispositivo
 
 Dopo aver esaminato la strategia e i criteri aziendali attuali di gestione dei dispositivi, è necessario avere a disposizione un elenco di scenari che l'organizzazione prevede di implementare. La sezione seguente aiuta a comprendere i vantaggi e gli svantaggi di ogni scenario:
 
-## Il dipendente è proprietario del dispositivo (BYOD)
+## <a name="employee-owns-the-device-byod"></a>Il dipendente è proprietario del dispositivo (BYOD)
 
 **Vantaggi** 
 
@@ -45,7 +46,7 @@ Dopo aver esaminato la strategia e i criteri aziendali attuali di gestione dei d
 - Aumenta la probabilità di perdita di dati, soprattutto quando non sono stati predisposti controlli di sicurezza appropriati
 - Funzionalità di gestione limitata a causa di restrizioni relative alla privacy
 
-## Dispositivo di proprietà della società
+## <a name="company-owned-device"></a>Dispositivo di proprietà della società
 
 **Vantaggi** 
 
@@ -61,11 +62,11 @@ Dopo aver esaminato la strategia e i criteri aziendali attuali di gestione dei d
 
 In alcuni scenari le organizzazioni adottano entrambi i modelli: BYOD e dispositivi di proprietà dell'azienda. In tal caso, la piattaforma di gestione dei dispositivi deve essere in grado di gestire più piattaforme e di integrarsi con l'attuale infrastruttura locale. Se la propria organizzazione rientra in questo scenario, verificare anche se i criteri di protezione sono in grado di coprire entrambi i modelli dal punto di vista della conformità. Si possono applicare requisiti diversi per ogni modello e la soluzione di gestione dei dispositivi mobili deve essere in grado di usare entrambi i modelli, consentendo allo stesso tempo al reparto IT di mantenere il controllo.
 
-## Piattaforme per dispositivi mobili supportate
+## <a name="supported-mobile-device-platforms"></a>Piattaforme per dispositivi mobili supportate
 
 La decisione presa in merito alla proprietà dei dispositivi aiuta a identificare quali piattaforme per dispositivi mobili è necessario supportare. La soluzione di gestione dei dispositivi mobili scelta dovrà conformarsi a questa decisione. In uno scenario con una piattaforma unica per dispositivi mobili, la scelta della piattaforma è meno importante rispetto allo scenario con più piattaforme. Usare la sezione seguente per scegliere la soluzione di gestione dei dispositivi mobili per uno scenario con più piattaforme:
 
-### Intune (autonomo)
+### <a name="intune-standalone"></a>Intune (autonomo)
 
 **Vantaggi**
 
@@ -73,14 +74,14 @@ La decisione presa in merito alla proprietà dei dispositivi aiuta a identificar
 - Supporta il provisioning di tutti i principali sistemi operativi per dispositivi mobili (Android, iOS, Windows 8, Windows 10 e Windows Phone)
 - Consente di gestire qualsiasi dispositivo mobile da qualsiasi luogo
 - Opzioni di gestione più avanzate per i dispositivi mobili
-- [Gestione per applicazioni mobili](http://blogs.technet.com/b/microsoftintune/archive/2015/06/18/now-available-intune-mobile-application-management-and-conditional-access-for-outlook.aspx)
+- [Gestione di dispositivi mobili (MDM)](http://blogs.technet.com/b/microsoftintune/archive/2015/06/18/now-available-intune-mobile-application-management-and-conditional-access-for-outlook.aspx)
 
 **Svantaggi**
 
 - La mancanza di integrazione con l'attuale soluzione locale di gestione dei dispositivi introdurrà un'interfaccia di gestione aggiuntiva da usare
 - I criteri creati usando la soluzione di gestione dei dispositivi mobili locale non vengono replicati nel servizio cloud
 
-### Gestione dei dispositivi mobili per Office 365
+### <a name="mdm-for-office-365"></a>Gestione dei dispositivi mobili per Office 365
 
 **Vantaggi**
 
@@ -93,7 +94,7 @@ La decisione presa in merito alla proprietà dei dispositivi aiuta a identificar
 - Set di funzionalità limitato (vedere la nota che segue questa tabella) per gestire i dispositivi mobili
 - La mancanza di integrazione con l'attuale soluzione locale di gestione dei dispositivi introdurrà un'interfaccia di gestione aggiuntiva da usare
 
-### Ibrida (Intune con Configuration Manager)
+### <a name="hybrid-intune-with-configmgr"></a>Ibrida (Intune con Configuration Manager)
 
 **Vantaggi**
 
@@ -107,12 +108,12 @@ La decisione presa in merito alla proprietà dei dispositivi aiuta a identificar
 
 Se è sufficiente gestire l'accesso alla posta elettronica di lavoro, al calendario, ai contatti e alle attività dai dispositivi mobili, leggere l'articolo relativo alle [funzionalità di gestione dei dispositivi Exchange ActiveSync disponibili in Office 365](https://technet.microsoft.com/library/dn792010.aspx#tasks).
 
-## Requisiti delle applicazioni
+## <a name="application-requirements"></a>Requisiti delle applicazioni
 
 In base ai requisiti definiti nell'attività 1, è possibile scegliere quale soluzione di gestione dei dispositivi mobili è più adatta all'organizzazione. Usare la tabella seguente per confrontare le opzioni di gestione dei dispositivi mobili e i vantaggi e gli svantaggi di ogni opzione:
 
 
-### Intune (autonomo)
+### <a name="intune-standalone"></a>Intune (autonomo)
 
 **Vantaggi**
 
@@ -131,7 +132,7 @@ In base ai requisiti definiti nell'attività 1, è possibile scegliere quale sol
 - I criteri creati usando la piattaforma MDM locale non vengono replicati nel servizio cloud, pertanto sono necessari due set di criteri di conformità e gestione, se viene usata una soluzione MDM locale
 
 
-### Gestione dei dispositivi mobili per Office 365
+### <a name="mdm-for-office-365"></a>Gestione dei dispositivi mobili per Office 365
 
 **Vantaggi**
 
@@ -144,7 +145,7 @@ In base ai requisiti definiti nell'attività 1, è possibile scegliere quale sol
 - Non consente di distribuire app né di applicare funzioni di gestione delle applicazioni per dispositivi mobili
 
 
-### Ibrida (Intune con Configuration Manager)
+### <a name="hybrid-intune-with-configmgr"></a>Ibrida (Intune con Configuration Manager)
 
 **Vantaggi**
 
@@ -162,7 +163,7 @@ In base ai requisiti definiti nell'attività 1, è possibile scegliere quale sol
 - Senza l'integrazione con Intune, Configuration Manager può offrire una soluzione limitata per la gestione dei dispositivi mobili in base alle piattaforme per dispositivi mobili supportate. Per altre informazioni, vedere l'articolo Determinare la modalità di gestione dei dispositivi mobili in Configuration Manager.
 
 
-## Requisiti di rilevamento
+## <a name="track-requirements"></a>Requisiti di rilevamento
 
 Comprendere il comportamento degli utenti e identificarne la posizione sono fattori importanti da includere nella strategia di gestione dei dispositivi mobili. Le modalità di rilevamento dei dispositivi variano a seconda delle esigenze e dei requisiti aziendali.  Sono disponibili funzionalità di rilevamento diverse in ogni sistema operativo mobile, pertanto le piattaforme per dispositivi mobili che si sceglie di supportare avranno un impatto sulle opzioni disponibili. Ad esempio, i requisiti di conformità possono indurre a dare la priorità all'adozione di piattaforme per dispositivi mobili che consentono di tenere traccia della posizione dell'utente e di ricorrere al geofencing.
 
@@ -173,6 +174,6 @@ Comprendere il comportamento degli utenti e identificarne la posizione sono fatt
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO4-->
 
 

@@ -1,10 +1,11 @@
 ---
 title: Considerazioni su protezione e accesso ai dati
-description: "Considerazioni sulla progettazione per l’accesso ai dati e la protezione in uno scenario BYOD."
+description: Questo articolo include una serie di considerazioni sulla progettazione per la protezione e l&quot;accesso ai dati in uno scenario Bring Your Own Device (BYOD).
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/18/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,18 +15,18 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
-ms.openlocfilehash: e7411890405267eaea2e32d686052472b88edad2
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: cbf0f54d2d288baf66f914ef8366a70448218607
 
 
 ---
 
-# Considerazioni su protezione e accesso ai dati
+# <a name="data-access-and-protection-considerations"></a>Considerazioni su protezione e accesso ai dati
 
 La perdita di dati sensibili è un rischio per qualsiasi azienda e con l'introduzione del modello BYOD le informazioni si trovano in un numero sempre maggiore di posizioni. Questo si traduce in una più ampia varietà di minacce e rischi che devono essere affrontati in modo corretto. A causa delle diverse normative di legge, aziendali e di settore che regolano la protezione dei dati sensibili, proteggere i dati può risultare complesso. È importante tenere conto di questi requisiti legali, dei criteri aziendali interni e dei regolamenti del settore.
 Come parte della strategia di implementazione dell'infrastruttura BYOD è fondamentale che, dopo aver definito i criteri e le classificazioni dei dati, i dati vengano collocati fisicamente, inseriti in livelli di classificazione adeguati e sottoposti alle impostazioni di sicurezza appropriate. I reparti IT necessitano di un metodo per convalidare l'identità degli utenti e possono applicare ulteriori condizioni sui tipi di dispositivi in grado di accedere alle informazioni e alle app fornite.
 
-## Archiviazione
+## <a name="storage"></a>Archiviazione
 
 Il modo in cui i dati vengono archiviati nei dispositivi degli utenti può influire direttamente sul metodo scelto per l'accesso e la protezione dei dati in ambienti BYOD. È necessario considerare la crittografia dei dati, inoltre il reparto IT deve poter controllare nei dispositivi quando la crittografia dei dati è abilitata e per quali tipi di dati. Le aziende devono analizzare i propri criteri e normative per comprendere quali tipi di dati possono lasciare il data center ed essere inattivi nei dispositivi remoti. La crittografia dei dati inattivi presenti nell'archivio del data center è fondamentale. Se l'azienda non ha ancora implementato la crittografia in questo ambito, l'adozione della stessa deve essere considerata come parte della strategia per il passaggio a un'infrastruttura BYOD. In teoria, i dati devono essere crittografati lungo tutto il percorso.
 
@@ -37,7 +38,7 @@ Se la società decide di usare una soluzione basata su cloud per la protezione d
 
 È anche possibile usare altre tecnologie di archiviazione disponibili nel sistema operativo Windows per migliorare la protezione generale dei dati, ad esempio BitLocker per la crittografia delle unità ed [Encrypting File System (EFS)](https://technet.microsoft.com/library/cc700811.aspx) per la crittografia dei file. La tabella seguente presenta i vantaggi e gli svantaggi della protezione dell'archiviazione. Si tenga presente che queste opzioni non si escludono a vicenda. In altre parole, si potrebbe concludere che in una soluzione di infrastruttura BYOD da progettare sono necessarie tutte queste opzioni per garantire la protezione dei dati archiviati.
 
-### Opzioni di protezione dell'archiviazione: vantaggi e svantaggi
+### <a name="storage-protection-options-advantages-and-disadvantages"></a>Opzioni di protezione dell'archiviazione: vantaggi e svantaggi
 
 Usare l'elenco che segue per comprendere i vantaggi e gli svantaggi di ogni opzione di protezione dell'archiviazione:
 
@@ -85,7 +86,7 @@ Usare l'elenco che segue per comprendere i vantaggi e gli svantaggi di ogni opzi
         - Non limita la copia dei contenuti quando si usano programmi per l'acquisizione delle schermate di terze parti
         - Non impedisce la perdita o il danneggiamento dei contenuti dovuti all'azione di virus informatici
 
-## Rete
+## <a name="network"></a>Rete
 
 È essenziale considerare i fattori impliciti quando si consente agli utenti di usare i propri dispositivi e si desidera che i dati siano sicuri nell'intero percorso tra il data center (locale) o il cloud e i dispositivi degli utenti. Questi fattori sono evidenziati nella figura seguente:
 
@@ -93,7 +94,7 @@ Usare l'elenco che segue per comprendere i vantaggi e gli svantaggi di ogni opzi
 
 Il diagramma evidenzia le aree critiche in cui è necessario considerare la protezione dei dati per un'infrastruttura BYOD. Queste aree sono descritte più in dettaglio nella sezione seguente.
 
-### Protezione dei dati: posizioni e considerazioni
+### <a name="data-protection-locations-and-considerations"></a>Protezione dei dati: posizioni e considerazioni
     
 Usare l'elenco riportato di seguito per comprendere le considerazioni sulla protezione dei dati in base alla posizione. I numeri nell'elenco corrispondono al diagramma precedente:
 
@@ -121,7 +122,7 @@ Windows Server 2012 R2 consente l'uso del protocollo [HTTPS](https://msdn.micros
 
 La sezione seguente consente di valutare l'opzione di protezione di rete più adatta ai propri requisiti di progettazione per la comunicazione tra server back-end.
 
-### Opzioni di protezione della rete: vantaggi e svantaggi
+### <a name="network-protection-options-advantages-and-disadvantages"></a>Opzioni di protezione della rete: vantaggi e svantaggi
 
 Usare l'elenco che segue per comprendere i vantaggi e gli svantaggi di ogni opzione di protezione della rete:
 
@@ -150,13 +151,13 @@ Usare l'elenco che segue per comprendere i vantaggi e gli svantaggi di ogni opzi
     - Svantaggi
         - Funziona solo con Windows 8 e versioni successive per i computer client e con Windows Server 2012 e versioni successive per i computer server
 
-## Directory
+## <a name="directory"></a>Directory
 
 Gli attributi utente devono essere archiviati nella directory, per consentire ai responsabili IT di trovare facilmente informazioni sull'utente quali i ruoli e i gruppi. È inoltre necessario considerare come verrà registrata la relazione tra utenti e dispositivi. Ogni dispositivo sconosciuto che diventa noto o gestibile dal reparto IT deve anche avere un record nel database di gestione o nella directory per poter essere controllato dal reparto IT.
 
 In ambienti ibridi in cui sono presenti archivi di autenticazione diversi, è necessario considerare come consentire agli utenti di eseguire l'autenticazione usando le stesse credenziali indipendentemente da dove si trovano gli utenti e le app. È consigliabile usare Active Directory Federation Services (AD FS) per centralizzare l'autenticazione in locale anziché replicare la directory con il provider di servizi cloud. La sezione che segue consente di valutare le opzioni di directory per un'infrastruttura BYOD.
 
-### Opzioni di directory: vantaggi e svantaggi
+### <a name="directory-options-advantages-and-disadvantages"></a>Opzioni di directory: vantaggi e svantaggi
 
 Usare l'elenco che segue per comprendere i vantaggi e gli svantaggi di ogni opzione di protezione della directory:
 
@@ -204,7 +205,7 @@ Gli ambienti ibridi che richiedono la connettività con i servizi cloud dai disp
 
 Quando si usa il servizio Registrazione dispositivo in Windows 8.1, viene installato un certificato in un dispositivo dell'utente e viene creato un record di dispositivo in AD DS con il numero di identificazione personale del certificato. Questo il collegamento tra il dispositivo e l'utente consente al reparto IT di tenere traccia di quali dispositivi vengono registrati da ogni utente. Questa funzionalità non richiede un'infrastruttura a chiave pubblica dell'organizzazione. Il servizio Registrazione dispositivo è disponibile anche in Azure AD per Windows 10. Per altre informazioni su Registrazione dispositivo con Azure AD e Windows 10, leggere [Introduzione a Registrazione dispositivo Azure Active Directory](https://azure.microsoft.com/documentation/articles/active-directory-conditional-access-device-registration-overview/).
 
-## Autenticazione e autorizzazione
+## <a name="authentication-and-authorization"></a>Autenticazione e autorizzazione
 
 La decisione di consentire agli utenti di accedere alle app e ai dati dai propri dispositivi deve garantire che gli utenti vengano identificati in un processo di autenticazione attendibile e che siano autorizzati a usare le risorse richieste. È necessario rivedere i criteri di autenticazione e autorizzazione correnti e considerare le domande seguenti:
 
@@ -221,13 +222,13 @@ Per imporre l'autorizzazione per le app per gli utenti che vi accedono da una re
 >[!NOTE] 
 > Nota: in caso di scenario ibrido, se è necessaria un'esperienza utente ottimale in termini di autenticazione e autorizzazione, leggere [Considerazioni di progettazione dell'identità ibrida di Azure Active Directory](http://aka.ms/azhidcg).
 
-## Criteri e conformità
+## <a name="policy-and-compliance"></a>Criteri e conformità
 
 Le considerazioni sui criteri e la conformità devono avere la priorità in una strategia basata sul modello BYOD. Alcune aziende potrebbero avere requisiti rigidi che non rientrano in questo modello a causa delle regole aziendali. Una società che sta passando a una strategia incentrata sulle persone deve comprendere i criteri correnti e quali effetti avrà il modello BYOD su questi criteri. È necessario considerare i requisiti di classificazione dei dati e come il reparto IT può avere il controllo della classificazione dei dati, anche quando sono inattivi nello spazio di archiviazione del dispositivo. Quando si pensa alla classificazione dei dati, è importante essere in grado di classificare i dati durante l'esecuzione di alcune operazioni, ad esempio la modifica di un file.
 
 È consigliabile applicare i criteri da una posizione centralizzata per consentire al reparto IT di rispondere rapidamente in caso di modifiche ad hoc che avranno effetto su tutti gli utenti. Considerare inoltre l'uso di funzionalità di controllo affidabili per dispositivi mobili. Se si verifica una violazione, è essenziale che il reparto IT possa tenere traccia dei criteri che sono stati violati, di chi ha eseguito l'operazione e quando.
     
-### Criteri e conformità: funzionalità e considerazioni
+### <a name="policy-and-compliancecapabilities-and-considerations"></a>Criteri e conformità: funzionalità e considerazioni
 
 L'elenco riportato di seguito consente di comprendere le considerazioni sulle funzionalità relative a criteri e conformità:
 
@@ -251,6 +252,6 @@ Controllo dinamico degli accessi, una funzione del ruolo File server, garantisce
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO4-->
 
 

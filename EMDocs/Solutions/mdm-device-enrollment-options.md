@@ -1,8 +1,9 @@
 ---
 title: Opzioni di registrazione dei dispositivi
-description: 
+description: Questo articolo include materiale sussidiario sulle opzioni di registrazione dei dispositivi quando si pianifica e si progetta una soluzione di gestione di dispositivi mobili tramite Enterprise Mobility + Security.
 keywords: 
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
 ms.topic: solution
@@ -14,14 +15,14 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 9b4956f7a4e48bebbbc41fdef050198a06e53525
+ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
+ms.openlocfilehash: 04a5fa735c75dd7abe2caecdb69a60598c7aec8e
 
 
 ---
 
 
-# Opzioni di registrazione dei dispositivi
+# <a name="device-enrollment-options"></a>Opzioni di registrazione dei dispositivi
 
 >[!NOTE]
 >Questo argomento fa parte di una guida più ampia dedicata alle considerazioni di progettazione. Per leggere la guida dall'inizio, vedere l'[argomento principale](mdm-design-considerations-guide.md). Per scaricare una copia della versione integrale della guida, visitare la raccolta [TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
@@ -47,6 +48,6 @@ L'organizzazione potrebbe voler consentire entrambi gli scenari di registrazione
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

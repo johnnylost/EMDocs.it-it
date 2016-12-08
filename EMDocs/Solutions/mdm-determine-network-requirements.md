@@ -1,8 +1,9 @@
 ---
 title: Determinare i requisiti di rete
-description: 
+description: Questo articolo consente ai clienti di determinare i requisiti di rete durante la pianificazione e la progettazione di una soluzione di gestione dei dispositivi mobili Microsoft tramite Enterprise Mobility + Security.
 keywords: 
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
 ms.topic: solution
@@ -14,21 +15,21 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 1373a466207feae97da2298f995c06015da743eb
+ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
+ms.openlocfilehash: 417ff912c3e7ff50e0f8371dccbc3ad99c5832d2
 
 
 ---
 
-# Determinare i requisiti di rete
+# <a name="determine-network-requirements"></a>Determinare i requisiti di rete
 
 >[!NOTE]
 >Questo argomento fa parte di una guida più ampia dedicata alle considerazioni di progettazione. Per leggere la guida dall'inizio, vedere l'[argomento principale](mdm-design-considerations-guide.md). Per scaricare una copia della versione integrale della guida, visitare la raccolta [TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
-Garantire l'accesso sicuro e gestito a un'ampia gamma di risorse aziendali dai dispositivi mobili è un'importante funzione di una soluzione di gestione dei dispositivi mobili. Sebbene queste risorse si trovino solitamente su reti locali, è ora comune ospitare le risorse anche su servizi Web basati sul cloud e reti esterne.</para><para>La modalità di connessione dei dispositivi mobili alle piattaforme di posta elettronica aziendali, alle reti private virtuali (VPN) e alle reti wireless (Wi-Fi) aziendali svolge un ruolo importante nella prevenzione dell'accesso non autorizzato ai dati e ad altre risorse aziendali. È ugualmente importante fare in modo che l'accesso a queste risorse sia semplice e pratico per gli utenti di dispositivi mobili, per evitare che gli utenti cerchino un metodo più pratico ma non sicuro per l'archiviazione o l'accesso alle risorse.</para></content>
+Garantire l'accesso sicuro e gestito a un'ampia gamma di risorse aziendali dai dispositivi mobili è un'importante funzione di una soluzione di gestione dei dispositivi mobili. Sebbene queste risorse si trovino solitamente su reti locali, è attualmente più comune ospitare le risorse anche su servizi Web basati sul cloud e su reti esterne.</para><para>La modalità di connessione dei dispositivi mobili alle piattaforme di posta elettronica aziendali, alle reti private virtuali (VPN) e alle reti wireless (Wi-Fi) aziendali svolge un ruolo importante nella prevenzione di accessi non autorizzati ai dati e ad altre risorse aziendali. È ugualmente importante fare in modo che l'accesso a queste risorse sia semplice e pratico per gli utenti di dispositivi mobili, per evitare che gli utenti cerchino un metodo più pratico ma non sicuro per l'archiviazione o l'accesso alle risorse.</para></content>
 
 
-## Gestione della posta elettronica
+## <a name="email-management"></a>Gestione della posta elettronica
 La posta elettronica aziendale è in genere la risorsa dati primaria a cui la maggior parte degli utenti deve accedere su una rete aziendale, da un dispositivo mobile personale o di proprietà della società. L'accesso alla posta elettronica in genere rappresenta anche la connessione che avvia la registrazione iniziale del dispositivo mobile. Essere in grado di gestire l'accesso alla posta elettronica per i dispositivi mobili sia da parte della soluzione di gestione dei dispositivi non mobili esistente sia da parte della soluzione di gestione dei dispositivi mobili aiuta a evitare interruzioni nella copertura dei dispositivi e aumenta la protezione per i dati archiviati nei server di posta elettronica.
 
 La maggior parte delle soluzioni di gestione dei dispositivi mobili offrono protezione per l'accesso alla posta elettronica tramite una o entrambe le funzionalità seguenti:
@@ -36,7 +37,7 @@ La maggior parte delle soluzioni di gestione dei dispositivi mobili offrono prot
 - **Profili di posta elettronica:** configurando e distribuendo i profili di posta elettronica, gli amministratori possono configurare automaticamente i dispositivi mobili con le informazioni sul server di posta elettronica appropriate, in modo che gli utenti possano collegarsi alle proprie cassette postali. Questo aiuta gli utenti a connettersi al server di posta elettronica corretto senza dover ricordare i nomi degli endpoint del server di posta elettronica o gli indirizzi di rete corretti. Inoltre, quando si rimuove un profilo di posta elettronica, gli amministratori possono rimuovere la posta elettronica dai dispositivi come parte del ripristino del dispositivo o del processo di cancellazione selettiva. La gestione dei profili di posta elettronica può essere una funzionalità della soluzione di gestione dei dispositivi non mobili o può essere integrata con una soluzione di gestione dei dispositivi mobili.
 - **Accesso condizionale alla posta elettronica:** l'accesso condizionale, o "gestito", alla posta elettronica di solito è incentrato sulla sicurezza e sulla conformità per l'accesso alla posta elettronica su un dispositivo mobile anziché sull'endpoint a cui il dispositivo si connette. Con l'accesso alla posta elettronica condizionale, vengono definiti e assegnati criteri di conformità a singoli utenti o dispositivi o a gruppi di utenti e/o dispositivi. l criteri descrivono i prerequisiti che devono essere presenti prima che un dispositivo mobile possa connettersi a una risorsa di posta elettronica. Ad esempio, può essere necessario un PIN sul dispositivo. I criteri vengono solitamente applicati alla registrazione iniziale del dispositivo, ma rimangono attivi per tutta la durata della registrazione del dispositivo mobile nel sistema di gestione dei dispositivi mobili.
 
-###Domande sulla pianificazione della gestione della posta elettronica
+###<a name="email-management-planning-questions"></a>Domande sulla pianificazione della gestione della posta elettronica
 
  Rispondere alle domande seguenti relative alla pianificazione della gestione della posta elettronica:
 
@@ -58,7 +59,7 @@ La maggior parte delle soluzioni di gestione dei dispositivi mobili offrono prot
 - Se si usa sia un sistema di posta elettronica locale che un sistema basato sul cloud, come si integrano tali sistemi con la soluzione di gestione dei dispositivi mobili? 
 - I profili di posta elettronica o i criteri di accesso gestito sono gestiti allo stesso modo o in modo diverso dal punto di vista dell'IT? L'esperienza di connessione alla posta elettronica dell'utente è la stessa o è diversa a seconda di dove è ospitata la cassetta postale?
 
-## Gestione della connettività di rete
+## <a name="network-connectivity-management"></a>Gestione della connettività di rete
 
 I dispositivi mobili solitamente si collegano alle reti e alle risorse aziendali usando le tecnologie di accesso seguenti:
 
@@ -68,7 +69,7 @@ I dispositivi mobili solitamente si collegano alle reti e alle risorse aziendali
 >[!NOTE]
 >Si potrebbe disporre di altre risorse basate sul Web, ad esempio SharePoint, che sfruttano l'accesso sicuro tramite Secure Socket Layer (SSL) o Transport Layer Security (TLS). Assicurarsi di comprendere il modo in cui i dispositivi mobili accederanno a queste risorse o a risorse con metodi di accesso sicuri o VPN separati.
 
-### Domande sulla pianificazione della gestione della connettività di rete
+### <a name="network-connectivity-management-planning-questions"></a>Domande sulla pianificazione della gestione della connettività di rete
 
 Rispondere alle domande seguenti relative alla pianificazione della gestione della connettività di rete:
  
@@ -87,16 +88,16 @@ Rispondere alle domande seguenti relative alla pianificazione della gestione del
  - È necessario mettere a disposizione impostazioni di configurazione o sicurezza della rete wireless diverse per diversi tipi di utenti, dispositivi, sistemi operativi dei dispositivi o gruppi e ruoli degli utenti?
  - È necessario poter importare o esportare i criteri di connessione relativi alla configurazione o alla sicurezza della rete wireless e/o VPN?
 
-## Gestione dei certificati
+## <a name="certificate-management"></a>Gestione dei certificati
 
-È possibile usare i certificati digitali, autofirmati o emessi da un'autorità di certificazione (CA) di terze parti, per autenticare i dispositivi mobili per le connessioni di rete o per risorse di rete specifiche. Per semplificare la gestione dei certificati digitali, gli amministratori solitamente gestiscono tali certificati usando i profili dei certificati. Questo consente un metodo uniforme e centralizzato per la gestione dei certificati, tra cui il metodo di creazione, rilascio e rinnovo. Ciò consente anche agli utenti di connettersi alla risorsa aziendale senza dover richiedere e installare i certificati manualmente o tramite un processo di sicurezza non approvato.</para><para>Tuttavia, l'uso di certificati per questo tipo di autenticazione richiede spesso requisiti dell'infrastruttura aziendali aggiuntivi. che potrebbero comprendere tutti o alcuni dei componenti di rete seguenti, a seconda del livello di integrazione supportato dalla soluzione di gestione dei dispositivi mobili:
+È possibile usare i certificati digitali, autofirmati o emessi da un'autorità di certificazione (CA) di terze parti, per autenticare i dispositivi mobili per le connessioni di rete o per risorse di rete specifiche. Per semplificare la gestione dei certificati digitali, gli amministratori solitamente gestiscono tali certificati usando i profili dei certificati. Questo consente un metodo uniforme e centralizzato per la gestione dei certificati, tra cui il metodo di creazione, rilascio e rinnovo. Gli utenti possono connettersi alla risorsa aziendale senza dover richiedere e installare i certificati manualmente o tramite un processo di sicurezza non approvato.</para><para>Tuttavia, l'uso di certificati per questo tipo di autenticazione richiede spesso requisiti di infrastruttura locale aggiuntivi. che potrebbero comprendere tutti o alcuni dei componenti di rete seguenti, a seconda del livello di integrazione supportato dalla soluzione di gestione dei dispositivi mobili:
 
 - **Servizi directory:** i servizi come, ad esempio, Microsoft Active Directory in genere sono necessari per connettere e gestire in modo sicuro tutti gli altri componenti della rete.
 - **Server dell'autorità di certificazione (CA):** se si rilasciano certificati autofirmati per l'organizzazione, è necessaria un'autorità di certificazione per creare, rilasciare, gestire e rinnovare i certificati digitali.
 - **Server del servizio Registrazione dispositivi di rete (NDES):** consente al software e ai dispositivi mobili di ottenere certificati basati sul protocollo SCEP (Simple Certificate Enrollment Protocol).
 - **Server proxy:** a seconda della configurazione della rete locale, può essere necessario un server proxy che consente ai dispositivi mobili di ricevere certificati usando una connessione Internet e senza connessione diretta alla rete aziendale interna.
 
-### Domande sulla pianificazione della gestione dei certificati
+### <a name="certificate-management-planning-questions"></a>Domande sulla pianificazione della gestione dei certificati
 
 Rispondere alle domande seguenti relative alla pianificazione della gestione dei certificati:
 
@@ -112,6 +113,6 @@ Rispondere alle domande seguenti relative alla pianificazione della gestione dei
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

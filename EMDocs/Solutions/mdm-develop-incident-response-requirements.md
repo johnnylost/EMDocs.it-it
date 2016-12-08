@@ -1,10 +1,11 @@
 ---
 title: Sviluppare i requisiti di risposta agli eventi imprevisti
-description: Requisiti comuni per lo sviluppo di un processo di risposta agli eventi imprevisti per uno scenario di gestione di dispositivi mobili.
+description: Questo articolo include una serie di requisiti comuni per lo sviluppo di un processo di risposta agli eventi imprevisti in uno scenario di gestione di dispositivi mobili (MDM).
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/18/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,13 +15,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
-ms.openlocfilehash: 91aee40cd8ec7aa38142da3a5617e3c7cb64b7d0
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: a9bb76fdff02b8ded31fe3e1811678138ffd5504
 
 
 ---
 
-# Sviluppare i requisiti di risposta agli eventi imprevisti
+# <a name="develop-your-incident-response-requirements"></a>Sviluppare i requisiti di risposta agli eventi imprevisti
 
 >[!NOTE]
 >Questo argomento fa parte di una guida più ampia dedicata alle considerazioni di progettazione. Per leggere la guida dall'inizio, vedere l'[argomento principale](mdm-design-considerations-guide.md). Per scaricare una copia della versione integrale della guida, visitare la raccolta [TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
@@ -48,6 +49,6 @@ Quando si progetta la soluzione MDM, assicurarsi di porre le domande seguenti pe
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO4-->
 
 

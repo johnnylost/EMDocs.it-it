@@ -1,10 +1,11 @@
 ---
 title: Progettazione della soluzione di infrastruttura BYOD
-description: Definizione delle soluzioni per BYOD in base alle scelte effettuate durante il processo di progettazione.
+description: Questo articolo include una definizione di soluzioni per scenari Bring Your Own Device (BYOD) basata sulle scelte effettuate durante il processo di progettazione.
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/18/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,17 +15,17 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
-ms.openlocfilehash: 8610e45c69d8866c123f34bd77227c187715a722
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: 7dbb0c9b1b2b3b29eb54ad8cdeee527d9d7f078f
 
 
 ---
 
-#Progettazione della soluzione di infrastruttura BYOD
+#<a name="envisioning-the-byod-infrastructure-solution"></a>Progettazione della soluzione di infrastruttura BYOD
 
 Dopo aver definito chiaramente il problema BYOD che si sta provando a risolvere, è possibile definire una soluzione al problema e i requisiti dettagliati per la soluzione.
 
-## Definizione della soluzione
+## <a name="solution-definition"></a>Definizione della soluzione
 
 Per risolvere i problemi identificati in precedenza e aiutare le organizzazioni a incoraggiare gli utenti a portare i propri dispositivi nel posto di lavoro per accedere ai dati aziendali, l'azienda deve passare da un approccio IT incentrato sui dispositivi a un approccio IT incentrato sugli utenti. Le considerazioni di progettazione illustrate in questa guida possono essere usate durante la definizione della propria soluzione di infrastruttura BYOD per: 
 
@@ -36,7 +37,7 @@ Per risolvere i problemi identificati in precedenza e aiutare le organizzazioni 
 - Abilitare i servizi di autenticazione aziendali come l'autenticazione a più fattori e Single Sign-On.
 - Fornire supporto per attività di conformità e sicurezza delle informazioni come l'attestazione di conformità.
 
-## Requisiti della soluzione
+## <a name="solution-requirements"></a>Requisiti della soluzione
 
 Prima di consentire agli utenti di portare i propri dispositivi e accedere alle risorse dell'azienda, è necessario rivedere le funzionalità tecniche dell'infrastruttura esistente. L'obiettivo di questa revisione consiste nel comprendere se i requisiti della soluzione sono già implementati per questo nuovo modello o se devono essere introdotte nuove tecnologie per risolvere il problema. A tale scopo, è necessario definire una serie di requisiti, nonché i vincoli per l'ambiente. Alcuni dei requisiti e vincoli vengono definiti dagli utilizzatori delle funzionalità; altri vengono definiti dall'ambiente esistente, in termini di funzionalità tecniche esistenti, servizi, criteri e processi.
 
@@ -54,6 +55,6 @@ Le considerazioni relative il dominio del problema BYOD illustrate in questa gui
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO4-->
 
 

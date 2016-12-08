@@ -1,10 +1,11 @@
 ---
 title: Identificazione delle esigenze aziendali
-description: Linee guida per l&quot;identificazione delle esigenze aziendali per giustificare l&quot;adozione della gestione di dispositivi mobili.
+description: Questo articolo include linee guida per l&quot;identificazione di esigenze aziendali necessarie per giustificare l&quot;adozione della gestione di dispositivi mobili.
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/18/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,13 +15,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
-ms.openlocfilehash: cd9f30d1474745919e4c0ff251206d8c900dc4c2
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: 35c9101de6df041b906660743654a8b137d4a542
 
 
 ---
 
-# Identificare le proprie esigenze aziendali
+# <a name="identify-your-business-needs"></a>Identificare le proprie esigenze aziendali
 
 >[!NOTE]
 >Questo argomento fa parte di una guida più ampia dedicata alle considerazioni di progettazione. Per leggere la guida dall'inizio, vedere l'[argomento principale](mdm-design-considerations-guide.md). Per scaricare una copia della versione integrale della guida, visitare la raccolta [TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
@@ -84,6 +85,6 @@ Durante questa attività, è anche necessario valutare se la società dispone di
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO4-->
 
 

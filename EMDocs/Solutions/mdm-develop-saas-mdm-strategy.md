@@ -1,8 +1,9 @@
 ---
 title: Sviluppare una strategia di gestione dei dispositivi mobili SaaS
-description: 
+description: Questo articolo consente ai clienti di sviluppare una strategia SaaS (Software come servizio) per la gestione dei dispositivi mobili tramite Microsoft Enterprise Mobility + Security.
 keywords: 
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
 ms.topic: solution
@@ -14,22 +15,22 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 601e2e16d62c59002da329e99873263d64e005a0
+ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
+ms.openlocfilehash: 735874e0f5c30628fbc4bdcdce18e6db3a2ec735
 
 
 ---
 
-# Sviluppare una strategia di gestione dei dispositivi mobili SaaS
+# <a name="develop-saas-mobile-device-management-strategy"></a>Sviluppare una strategia di gestione dei dispositivi mobili SaaS
 
 >[!NOTE]
 >Questo argomento fa parte di una guida più ampia dedicata alle considerazioni di progettazione. Per leggere la guida dall'inizio, vedere l'[argomento principale](mdm-design-considerations-guide.md). Per scaricare una copia della versione integrale della guida, visitare la raccolta [TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
-## Identificare i requisiti della soluzione SaaS
+## <a name="identify-your-saas-solution-requirements"></a>Identificare i requisiti della soluzione SaaS
 
 A seconda delle risposte fornite alle domande nell'Attività 1, dovrebbe essere possibile determinare quali elementi devono essere supportati dalla soluzione SaaS nella soluzione di gestione dei dispositivi mobili. La Tabella 20 consente di comprendere i vantaggi e gli svantaggi di ogni soluzione SaaS:
 
-## Intune (autonomo)
+## <a name="intune-standalone"></a>Intune (autonomo)
 
 **Vantaggi**
 
@@ -46,7 +47,7 @@ A seconda delle risposte fornite alle domande nell'Attività 1, dovrebbe essere 
 - Non sono supportate le istanze di cloud privato
 - Se è necessario supportare più di 50.000 dispositivi mobili, è necessario connettere Intune a Configuration Manager per gestire i dispositivi aggiuntivi
 
-## Gestione dei dispositivi mobili per Office 365
+## <a name="mdm-for-office-365"></a>Gestione dei dispositivi mobili per Office 365
 
 **Vantaggi**
 
@@ -59,7 +60,7 @@ A seconda delle risposte fornite alle domande nell'Attività 1, dovrebbe essere 
 - Non supporta la gestione di sistemi operativi non mobili
 - Interfaccia di gestione aggiuntiva per il provisioning dei dispositivi mobili (solo) se si usa una piattaforma locale di gestione per i dispositivi non mobili.
 
-## Ibrida (Intune con Configuration Manager)
+## <a name="hybrid-intune-with-configmgr"></a>Ibrida (Intune con Configuration Manager)
 
 **Vantaggi**
 
@@ -78,6 +79,6 @@ Per altre informazioni sui requisiti e le funzionalità della soluzione SaaS, as
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

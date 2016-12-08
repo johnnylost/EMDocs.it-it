@@ -1,10 +1,11 @@
 ---
 title: Raccogliere informazioni sui requisiti di protezione dei dati
-description: Requisiti comuni per la protezione dei dati in uno scenario di gestione di dispositivi mobili.
+description: Questo articolo include una serie di requisiti comuni da usare per la protezione dei dati in uno scenario di gestione di dispositivi mobili (MDM).
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/18/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,13 +15,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
-ms.openlocfilehash: 7be45973429ae6a54210494188751e3e6c54592e
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: 9cf26f4ead50e00580fc5abe1983ba88ee4c8ce9
 
 
 ---
 
-# Raccogliere informazioni sui requisiti di protezione dei dati
+# <a name="gather-your-data-protection-requirements"></a>Raccogliere informazioni sui requisiti di protezione dei dati
 
 >[!NOTE]
 >Questo argomento fa parte di una guida più ampia dedicata alle considerazioni di progettazione. Per leggere la guida dall'inizio, vedere l'[argomento principale](mdm-design-considerations-guide.md). Per scaricare una copia della versione integrale della guida, visitare la raccolta [TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
@@ -67,6 +68,6 @@ L'elenco seguente include le opzioni comuni che devono essere supportate dalla s
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO4-->
 
 

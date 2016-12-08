@@ -1,8 +1,9 @@
 ---
 title: "Identificare i requisiti di connettività SaaS"
-description: 
+description: "Quanto articolo consente di identificare i requisiti di connettività SaaS quando si pianifica l&quot;implementazione della gestione di dispositivi mobili tramite le soluzione di Enterprise Mobility + Security."
 keywords: 
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
 ms.topic: solution
@@ -14,13 +15,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 5fecc1493f447e507324da3f6a201377e39aee4e
+ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
+ms.openlocfilehash: 3cea66edad4cb791342cb193495629fa4ce27d0d
 
 
 ---
 
-# Identificare i requisiti di connettività SaaS
+# <a name="identify-saas-connectivity-requirements"></a>Identificare i requisiti di connettività SaaS
 
 >[!NOTE]
 >Questo argomento fa parte di una guida più ampia dedicata alle considerazioni di progettazione. Per leggere la guida dall'inizio, vedere l'[argomento principale](mdm-design-considerations-guide.md). Per scaricare una copia della versione integrale della guida, visitare la raccolta [TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
@@ -35,7 +36,7 @@ La connessione dei servizi directory locali con Azure è il requisito chiave per
 
 A seconda delle risposte fornite alle domande nell'Attività 2, dovrebbe essere possibile determinare la modalità di connessione della soluzione SaaS con la piattaforma locale di gestione dei client per la soluzione di gestione dei dispositivi mobili. Gli elenchi riportati di seguito aiutano a comprendere i vantaggi e gli svantaggi della connessione dell'infrastruttura locale con una soluzione SaaS.
 
-## Intune (autonomo)
+## <a name="intune-standalone"></a>Intune (autonomo)
 
 **Vantaggi**
 
@@ -48,7 +49,7 @@ A seconda delle risposte fornite alle domande nell'Attività 2, dovrebbe essere 
 
 - Le caratteristiche e funzionalità avanzate di connettività ai servizi directory richiedono l'associazione con Azure Active Directory Premium.
 
-## Gestione dei dispositivi mobili per Office 365
+## <a name="mdm-for-office-365"></a>Gestione dei dispositivi mobili per Office 365
 
 **Vantaggi**
 
@@ -61,7 +62,7 @@ A seconda delle risposte fornite alle domande nell'Attività 2, dovrebbe essere 
 
 - Non supporta l'integrazione della gestione di applicazioni mobili con altre applicazioni o soluzioni SaaS
 
-## Ibrida (Intune con Configuration Manager)
+## <a name="hybrid-intune-with-configmgr"></a>Ibrida (Intune con Configuration Manager)
 
 **Vantaggi**
 
@@ -75,6 +76,6 @@ A seconda delle risposte fornite alle domande nell'Attività 2, dovrebbe essere 
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

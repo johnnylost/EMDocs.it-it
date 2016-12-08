@@ -1,10 +1,11 @@
 ---
 title: Specificare i requisiti di posizione per la gestione dei dispositivi mobili
-description: Requisiti comuni per la posizione dei dispositivi in uno scenario di gestione di dispositivi mobili.
+description: Questo articolo include una serie di requisiti comuni relativi alla posizione dei dispositivi in uno scenario di gestione di dispositivi mobili.
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/18/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,13 +15,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
-ms.openlocfilehash: 32fb388ab38399a23193c4d9fffda7c305251624
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: cf9b0a04e00ddf991e0f068144a1993f9fb88527
 
 
 ---
 
-# Specificare i requisiti di posizione per la gestione dei dispositivi mobili
+# <a name="specify-your-mobile-device-management-location-requirements"></a>Specificare i requisiti di posizione per la gestione dei dispositivi mobili
 
 >[!NOTE]
 >Questo argomento fa parte di una guida più ampia dedicata alle considerazioni di progettazione. Per leggere la guida dall'inizio, vedere l'[argomento principale](mdm-design-considerations-guide.md). Per scaricare una copia della versione integrale della guida, visitare la raccolta [TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
@@ -43,6 +44,6 @@ I requisiti di posizione sono uno dei numerosi fattori da tenere in considerazio
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO4-->
 
 

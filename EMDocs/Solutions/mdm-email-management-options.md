@@ -1,8 +1,9 @@
 ---
 title: Opzioni di gestione della posta elettronica
-description: 
+description: Questo articolo include materiale sussidiario sulle opzioni esistenti di gestione di posta elettronica per la pianificazione e la progettazione di una soluzione di gestione di dispositivi mobili tramite Enterprise Mobility + Security.
 keywords: 
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
 ms.topic: solution
@@ -14,13 +15,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 919ce43f116714c7b08b8a17973c4955681b5a5a
+ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
+ms.openlocfilehash: ac2c64b54883204f0051250c23f7a6b085e67ebe
 
 
 ---
 
-# Opzioni di gestione della posta elettronica
+# <a name="email-management-options"></a>Opzioni di gestione della posta elettronica
 
 >[!NOTE]
 >Questo argomento fa parte di una guida più ampia dedicata alle considerazioni di progettazione. Per leggere la guida dall'inizio, vedere l'[argomento principale](mdm-design-considerations-guide.md). Per scaricare una copia della versione integrale della guida, visitare la raccolta [TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
@@ -37,7 +38,7 @@ Nello scenario illustrato di seguito nella figura 6, l'utente ha registrato il d
 
 Le risposte alle domande nel passaggio 1 aiutano a decidere in che modo verranno gestiti i dispositivi nella soluzione adottata per la gestione dei dispositivi mobili. Gli elenchi che seguono illustrano i vantaggi e gli svantaggi della gestione della posta elettronica per ogni soluzione MDM.
 
-## Intune (autonomo)
+## <a name="intune-standalone"></a>Intune (autonomo)
 
 **Vantaggi**
 
@@ -51,7 +52,7 @@ Le risposte alle domande nel passaggio 1 aiutano a decidere in che modo verranno
 
 - I profili di posta elettronica non sono supportati per i dispositivi mobili basati su Android
 
-## Gestione dei dispositivi mobili per Office 365
+## <a name="mdm-for-office-365"></a>Gestione dei dispositivi mobili per Office 365
 
 **Vantaggi**
 
@@ -64,7 +65,7 @@ Le risposte alle domande nel passaggio 1 aiutano a decidere in che modo verranno
 - Non sono supportate alcune opzioni avanzate di gestione della posta elettronica 
 - La distribuzione di profili di posta elettronica non è supportata (ad eccezione di iOS)
 
-## Ibrida (Intune con Configuration Manager)
+## <a name="hybrid-intune-with-configmgr"></a>Ibrida (Intune con Configuration Manager)
 
 **Vantaggi**
 
@@ -88,6 +89,6 @@ Esaminare i dettagli sulle opzioni di gestione della configurazione della posta 
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

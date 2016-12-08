@@ -1,10 +1,11 @@
 ---
 title: Classificazione dei dati
-description: Considerazioni di progettazione per la classificazione dei dati per uno scenario di gestione di dispositivi mobili.
+description: Questo articolo include una serie di considerazioni sulla progettazione per la classificazione dei dati da usare in uno scenario di gestione di dispositivi mobili (MDM).
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/18/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,13 +15,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
-ms.openlocfilehash: 3e877ecf720e0932209abcfd954e94a7c551bfb4
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: 94c02152e553bdeba1bd1568c409d816ac078e9a
 
 
 ---
 
-# Classificazione dei dati
+# <a name="data-classification"></a>Classificazione dei dati
 
 >[!NOTE]
 >Questo argomento fa parte di una guida più ampia dedicata alle considerazioni di progettazione. Per leggere la guida dall'inizio, vedere l'[argomento principale](mdm-design-considerations-guide.md). Per scaricare una copia della versione integrale della guida, visitare la raccolta [TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
@@ -35,7 +36,7 @@ Intune consente al reparto IT di assicurare la conformità usando criteri costit
 
 Usare la tabella seguente come riferimento per la scelta dell'opzione MDM più adatta ai requisiti aziendali relativi alla *classificazione dei dati*.
 
-## Intune (autonomo)
+## <a name="intune-standalone"></a>Intune (autonomo)
 
 **Vantaggi**
 
@@ -45,7 +46,7 @@ Usare la tabella seguente come riferimento per la scelta dell'opzione MDM più a
 
 - Non disponibile
 
-## Gestione dei dispositivi mobili per Office 365
+## <a name="mdm-for-office-365"></a>Gestione dei dispositivi mobili per Office 365
 
 **Vantaggi**
 
@@ -56,7 +57,7 @@ Usare la tabella seguente come riferimento per la scelta dell'opzione MDM più a
 
 - La classificazione dei dati non è contenuta all'interno del file. Una volta che il file si trova nel dispositivo mobile, può essere usato senza restrizioni
 
-## Ibrida (Intune con Configuration Manager)
+## <a name="hybrid-intune-with-configmgr"></a>Ibrida (Intune con Configuration Manager)
 
 **Vantaggi**
 
@@ -66,7 +67,7 @@ Usare la tabella seguente come riferimento per la scelta dell'opzione MDM più a
 
 - Non disponibile
 
-## Enterprise Mobility + Security
+## <a name="enterprise-mobility-security"></a>Enterprise Mobility + Security
 
 **Vantaggi**
 
@@ -82,6 +83,6 @@ Usare la tabella seguente come riferimento per la scelta dell'opzione MDM più a
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO4-->
 
 

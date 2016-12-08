@@ -1,10 +1,11 @@
 ---
 title: Guida alle considerazioni di progettazione per BYOD
-description: "Introduzione all’uso di BYOD e panoramica del processo di considerazioni sulla progettazione."
+description: Questo articolo include un&quot;introduzione all&quot;adozione di Bring Your Own Device (BYOD) e una panoramica delle considerazioni sulla progettazione.
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/18/2016
+ms.date: 11/28/2016
 ms.topic: solution
 ms.prod: 
 ms.service: 
@@ -14,13 +15,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
-ms.openlocfilehash: 836489f7601f6d82a2adb9f9aa989cdb163afbd0
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: 78fad0e7714797962fc2ab3c8f8ec6c10d8019d0
 
 
 ---
 
-# Guida alle considerazioni di progettazione per BYOD
+# <a name="byod-design-considerations-guide"></a>Guida alle considerazioni di progettazione per BYOD
 
 Con l'aumentare del numero di dispositivi usati dai dipendenti, la maggior parte delle organizzazioni si trova ad affrontare un problema non indifferente: consentire agli utenti di usare i dispositivi personali, proteggendo al tempo stesso i dati aziendali che si trovano in tali dispositivi. Si sta abbandonando il modello tradizionale, in cui l'azienda possiede e fornisce i dispositivi ai dipendenti, per passare a un modello in cui i dipendenti usano i dispositivi personali per alcune delle proprie attività lavorative. Questo modello viene spesso definito [Bring Your Own Device (BYOD)](https://technet.microsoft.com/library/dn645493.aspx). In questo modello i dipendenti possono usare i dispositivi personali per alcune attività lavorative, ma solo se consentono all'azienda di gestire alcuni aspetti dei loro dispositivi per garantire la sicurezza dei dati aziendali. Spesso, ciò significa che gli utenti autorizzano l'azienda a usare criteri personalizzati, applicare la protezione avanzata dei dispositivi o standardizzare il sistema operativo stabilito dai criteri aziendali. Leggendo il documento di Microsoft con le [considerazioni dei responsabili IT sulla trasformazione del modo di lavorare](http://download.microsoft.com/download/5/3/A/53A96632-02E3-416C-B209-D8725AA80AFE/CIO%20Considerations%20for%20Workstyle%20Transformation2.pdf), i dirigenti e i decisori possono anche identificare i vantaggi della scelta di un modello in cui le persone possono usare i propri dispositivi per essere più produttive al lavoro.
 
@@ -34,11 +35,11 @@ La decisione dipende dai requisiti, dalle funzionalità e dalle considerazioni d
 
 Questa guida offre all'architetto di sistema e al responsabile della progettazione sistemi una serie di importanti considerazioni di progettazione da valutare prima di progettare un'infrastruttura BYOD (Bring Your Own Device) che consenta ai dipendenti di usare i propri dispositivi proteggendo i dati della società.
 
-## Destinatari
+## <a name="intended-audience"></a>Destinatari
 
-I principali destinatari di questa guida sono gli architetti o i progettisti di sistema interessati alla comprensione dei problemi da prendere in considerazione prima di implementare un'infrastruttura BYOD. Altri possibili destinatari della guida sono i responsabili dell'implementazione IT, gli addetti alla sicurezza aziendale e gli esperti di gestione dei dispositivi.</para>
+I principali destinatari di questa guida sono gli architetti o i progettisti di sistema interessati alla comprensione dei problemi da prendere in considerazione prima di implementare un'infrastruttura BYOD. Altri possibili destinatari di questa guida potrebbero essere i responsabili dell'implementazione IT, gli specialisti della sicurezza aziendale e gli specialisti della gestione dei dispositivi.</para>
     
-## Scopo
+## <a name="purpose"></a>Scopo
   
 Lo scopo di questa guida è:
 
@@ -62,7 +63,7 @@ Prima di adottare un modello BYOD in un ambiente di produzione, è necessario co
 - Fornire procedure consigliate per lo sviluppo di app per dispositivi mobili.
 - Dare indicazioni e suggerire procedure consigliate per componenti di terze parti.
 
-## Definizione del problema
+## <a name="problem-definition"></a>Definizione del problema
 
 I problemi o le perplessità seguenti sono in genere quelli incontrati dalle aziende che provano ad adottare il BYOD:
 
@@ -78,6 +79,6 @@ Le organizzazioni con un'infrastruttura di grandi dimensioni devono stabilire i 
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO4-->
 
 

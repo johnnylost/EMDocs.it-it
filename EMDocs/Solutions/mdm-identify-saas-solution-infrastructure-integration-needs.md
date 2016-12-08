@@ -1,8 +1,9 @@
 ---
-title: Identificare i requisiti di integrazione dell'infrastruttura della soluzione SaaS
-description: 
+title: Identificare i requisiti di integrazione dell&quot;infrastruttura della soluzione SaaS
+description: Quanto articolo consente di identificare i requisiti di integrazione dell&quot;infrastruttura SaaS per la pianificazione e la progettazione della gestione di dispositivi mobili tramite Microsoft Enterprise Mobility + Security.
 keywords: 
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
 ms.topic: solution
@@ -14,13 +15,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 329bb692d300aa700e9f84b88c216c7d66952dba
+ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
+ms.openlocfilehash: c21b0a8c413c4e7299e8026f55a3e43e7f825f82
 
 
 ---
 
-# Identificare i requisiti di integrazione dell'infrastruttura della soluzione SaaS
+# <a name="identify-saas-solution-infrastructure-integration-needs"></a>Identificare i requisiti di integrazione dell'infrastruttura della soluzione SaaS
 
 >[!NOTE]
 >Questo argomento fa parte di una guida più ampia dedicata alle considerazioni di progettazione. Per leggere la guida dall'inizio, vedere l'[argomento principale](mdm-design-considerations-guide.md). Per scaricare una copia della versione integrale della guida, visitare la raccolta [TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
@@ -32,13 +33,13 @@ Le decisioni principali da prendere quando si considera la gestione dei disposit
 
 Le decisioni prese in queste due aree avranno un impatto notevole sulla distribuzione, l'amministrazione e l'esperienza degli utenti finali per la soluzione di gestione dei dispositivi mobili.
 
-## Identità e connettività alla directory
+## <a name="identity-and-directory-connectivity"></a>Identità e connettività alla directory
 
 La connessione e la sincronizzazione della directory locale degli account di utenti e dispositivi con la soluzione SaaS sono passaggi fondamentali che consentono realmente di connettere gli utenti, i dispositivi mobili, le applicazioni mobili e la gestione dei dispositivi mobili. Conoscere l'identità di un utente e poterla associare a specifici dispositivi mobili è essenziale per gestire l'accesso alle risorse e ai dati aziendali dal dispositivo mobile. Per molti versi, l'ottimizzazione della modalità di connessione di queste aree con la soluzione SaaS determina il vantaggio complessivo per l'organizzazione e per gli utenti di dispositivi mobili.  La connettività universale consente a utenti e dispositivi di usare dispositivi e applicazioni da postazioni remote ed è essenziale che la gestione delle identità utente soddisfi le esigenze di questo tipo di connettività. È importante sottolineare che la modalità di gestione delle identità e dell'autenticazione utente è fondamentale per il successo della soluzione di gestione dei dispositivi mobili.
 
 La sincronizzazione dei servizi della directory locale alla soluzione SaaS è un'altra area chiave da considerare quando si definisce la strategia di gestione dei dispositivi mobili. Molte organizzazioni preferiscono mantenere un'infrastruttura di directory locale di utenti e dispositivi, ma devono estendere gli account a vari servizi basati su cloud. Tali servizi possono includere solo una soluzione di gestione dei dispositivi mobili basata su SaaS, ma nella maggior parte dei casi le organizzazioni devono integrare gli account di utenti e dispositivi in diversi tipi di servizi basati su cloud. Può trattarsi di applicazioni, dati o servizi Web di terze parti basati su cloud. Mantenere sincronizzati gli account di utenti e dispositivi della directory è la base di una soluzione di gestione delle identità ben progettata. Dopo aver integrato la directory locale con la directory cloud, è inoltre possibile abilitare Single Sign-On (SSO) per consentire agli utenti di accedere a tutti i servizi tramite le credenziali locali. <token>Intune</token> e Office 365 possono usare l'integrazione per abilitare Single Sign-On (SSO) con le app SaaS che l'organizzazione potrebbe usare.
 
-### Domande su identità e connettività alla directory
+### <a name="identity-and-directory-connectivity-questions"></a>Domande su identità e connettività alla directory
 
 Come parte della pianificazione del ciclo di vita della gestione SaaS, è necessario rispondere a queste domande sulla pianificazione di gestione delle identità e connettività alla directory:
 
@@ -53,11 +54,11 @@ Come parte della pianificazione del ciclo di vita della gestione SaaS, è necess
 - Tutti gli attributi degli oggetti della directory vengono sincronizzati con la soluzione SaaS? È necessario sincronizzare gli attributi degli oggetti della directory personalizzati?
 - I servizi della directory locale sono ospitati in una singola posizione o in un raggruppamento logico? In caso contrario, la soluzione SaaS supporta la sincronizzazione dei servizi di più directory da più posizioni e più raggruppamenti logici?
 
-## Connessione con piattaforme esistenti di gestione dei client
+## <a name="connecting-with-existing-client-management-platforms"></a>Connessione con piattaforme esistenti di gestione dei client
 
 Molte organizzazioni dispongono di una piattaforma locale esistente di gestione dei client per gestire server e computer desktop. La modalità di integrazione della gestione dei dispositivi mobili in questo sistema probabilmente avrà un impatto significativo sui costi dell'infrastruttura IT, sui processi di amministrazione della gestione dei dispositivi, sul supporto per il reporting e l'inventario dei dispositivi e sull'integrazione complessiva con altre applicazioni e servizi aziendali critici. Connettendo queste due piattaforme, le organizzazioni sono in grado di utilizzare le economie di scala di una singola piattaforma di gestione unificata.
 
-### Domande sulla connessione a piattaforme di gestione client esistenti
+### <a name="connecting-existing-client-management-platforms-questions"></a>Domande sulla connessione a piattaforme di gestione client esistenti
 
 Come parte della pianificazione del ciclo di vita della gestione SaaS, è necessario rispondere a queste domande sulla pianificazione della connessione della soluzione SaaS a piattaforme di gestione client esistenti:
 
@@ -80,6 +81,6 @@ Come parte della pianificazione del ciclo di vita della gestione SaaS, è necess
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

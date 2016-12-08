@@ -1,8 +1,9 @@
 ---
 title: Passaggi successivi e risorse aggiuntive
-description: 
+description: Questo articolo include risorse aggiuntive e articoli con procedure per distribuire e supportare le soluzioni di gestione di dispositivi mobili Microsoft in Enterprise Mobility + Security.
 keywords: 
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
 ms.topic: solution
@@ -14,20 +15,20 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: bad9340bb835869656e3633b5a0e74c63307a753
+ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
+ms.openlocfilehash: 5c917ca88c5c33e4274b0437fbd57eb07865866f
 
 
 ---
 
-# Passaggi successivi e risorse aggiuntive
+# <a name="next-steps-and-additional-resources"></a>Passaggi successivi e risorse aggiuntive
 
 >[!NOTE]
 >Questo argomento fa parte di una guida più ampia dedicata alle considerazioni di progettazione. Per leggere la guida dall'inizio, vedere l'[argomento principale](mdm-design-considerations-guide.md). Per scaricare una copia della versione integrale della guida, visitare la raccolta [TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
 Dopo aver completato la definizione dei requisiti ed esaminato tutte le opzioni per la soluzione di gestione dei dispositivi mobili, si è pronti per eseguire i passaggi successivi per la distribuzione dell'infrastruttura di supporto più adatta all'utente e all'organizzazione.
 
-## Soluzioni di gestione dei dispositivi mobili 
+## <a name="mobile-device-management-solutions"></a>Soluzioni di gestione dei dispositivi mobili 
 
 Sfruttare gli scenari di soluzioni specifiche in base alle necessità è un ottimo modo per verificare e pianificare i dettagli della distribuzione di un'infrastruttura di gestione dei dispositivi mobili. Le soluzioni seguenti descrivono molti dei più comuni scenari di gestione dei dispositivi mobili: 
 
@@ -35,7 +36,7 @@ Sfruttare gli scenari di soluzioni specifiche in base alle necessità è un otti
 - La soluzione per la [gestione dei dispositivi mobili per Configuration Manager 2007](https://technet.microsoft.com/library/dn508400.aspx) consente di gestire i dispositivi mobili quando l'infrastruttura dipende da System Center Configuration Manager 2007. Questa soluzione spiega come configurare un singolo server che esegue System Center 2012 R2 Configuration Manager per poi eseguire Microsoft Intune e trarre vantaggio dalle funzionalità MDM.
 - La soluzione per la [gestione dei dispositivi mobili in ambienti di piccole dimensioni](https://technet.microsoft.com/library/dn715906.aspx) è destinata a piccole aziende che necessitano di supporto MDM. Spiega come usare Windows Intune per estendere l'infrastruttura corrente in modo che supporti la gestione dei dispositivi mobili e BYOD. Questa soluzione descrive lo scenario più semplice supportato per l'uso di Microsoft Intune in una configurazione solo cloud autonoma senza server locali.
         
-## Documentazione di gestione dei dispositivi mobili
+## <a name="mobile-device-management-documentation"></a>Documentazione di gestione dei dispositivi mobili
 
 I contenuti relativi alla gestione, distribuzione e pianificazione concettuale e procedurale sono utili quando si implementa la soluzione di gestione dei dispositivi mobili:
 
@@ -44,7 +45,7 @@ I contenuti relativi alla gestione, distribuzione e pianificazione concettuale e
 - [Microsoft Intune](/Intune/) è un servizio di gestione dei dispositivi basato su cloud che consente di gestire computer e dispositivi mobili e di proteggere le informazioni aziendali.
 - [MDM per Office 365](https://technet.microsoft.com/library/ms.o365.cc.devicepolicy.aspx) consente di gestire e proteggere i dispositivi mobili quando sono connessi all'organizzazione di Office 365. È possibile usare MDM per Office 365 per impostare regole di accesso e criteri di sicurezza dei dispositivi e per cancellare i contenuti dei dispositivi mobili in caso di smarrimento o di furto. Per una panoramica delle funzionalità e delle procedure di installazione per MDM in Office 365, vedere l'articolo relativo all'[esplorazione della funzionalità integrata Mobile Device Management (MDM) per Office 365](https://blogs.office.com/2015/07/21/explore-the-built-in-mobile-device-management-mdm-feature-for-office-365/).
 
-## Risorse di gestione dei dispositivi mobili
+## <a name="mobile-device-management-resources"></a>Risorse di gestione dei dispositivi mobili
 
 Il monitoraggio delle risorse seguenti fornisce le informazioni e gli aggiornamenti più recenti sulle soluzioni di gestione dei dispositivi mobili:
 
@@ -57,6 +58,6 @@ Il monitoraggio delle risorse seguenti fornisce le informazioni e gli aggiorname
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 
