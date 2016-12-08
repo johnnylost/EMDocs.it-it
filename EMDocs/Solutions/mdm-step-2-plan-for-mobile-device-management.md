@@ -1,8 +1,9 @@
 ---
 title: 'Passaggio 2: Preparare la gestione dei dispositivi mobili'
-description: 
+description: Questo articolo consente ai clienti di pianificare e progettare un&quot;implementazione della gestione dei dispositivi mobili tramite Enterprise Mobility + Security.
 keywords: 
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
 ms.topic: solution
@@ -14,25 +15,25 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: f3d64de32f2096c2282e698900e04a8fd7a9cf39
+ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
+ms.openlocfilehash: 13b9f2fac331d25d797ed9d21f27cc70c876eeda
 
 
 ---
 
-# Passaggio 2: Preparare la gestione dei dispositivi mobili
+# <a name="step-2---plan-for-mobile-device-management"></a>Passaggio 2: Preparare la gestione dei dispositivi mobili
 
 >[!NOTE]
 >Questo argomento fa parte di una guida più ampia dedicata alle considerazioni di progettazione. Per leggere la guida dall'inizio, vedere l'[argomento principale](mdm-design-considerations-guide.md). Per scaricare una copia della versione integrale della guida, visitare la raccolta [TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
 La gestione dei dispositivi mobili, sia di proprietà della società che dell'utente, comprende diverse decisioni importanti sulla gestione del ciclo di vita. Dopo aver determinato i requisiti per la piattaforma, le applicazioni e gli utenti dei dispositivi mobili dell'organizzazione, è anche necessario identificare come gestire ognuna di queste aree in modo da consentire l'allineamento della strategia globale di gestione dei dispositivi mobili con altri criteri di gestione e di supporto. Questo passaggio esamina i requisiti relativi al ciclo di vita della registrazione, della gestione, del monitoraggio e della creazione di report per la gestione dei dispositivi mobili.
 
-## Informazioni su questo passaggio
+## <a name="about-this-step"></a>Informazioni su questo passaggio
 
 Questa sezione della guida include 11 passaggi. Il tempo totale necessario per leggere le sezioni è circa 38 minuti, ma è possibile passare direttamente a una sezione specifica:
 
-- [Informazioni sul ciclo di vita di MDM](mdm-understand-mdm-lifecycle.md)
-- [Raccogliere informazioni sui requisiti di monitoraggio](mdm-gather-monitoring-requirements.md)
+- [Informazioni sul ciclo di vita della gestione di dispositivi mobili](mdm-understand-mdm-lifecycle.md)
+- [Raccogliere i requisiti di monitoraggio](mdm-gather-monitoring-requirements.md)
 - [Determinare i requisiti di rete](mdm-determine-network-requirements.md)
 - [Opzioni di registrazione dei dispositivi](mdm-device-enrollment-options.md)
 - [Opzioni di provisioning dei dispositivi](mdm-device-provisioning-options.md)
@@ -45,6 +46,6 @@ Questa sezione della guida include 11 passaggi. Il tempo totale necessario per l
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

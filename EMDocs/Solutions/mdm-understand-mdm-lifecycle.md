@@ -1,8 +1,9 @@
 ---
-title: Informazioni sul ciclo di vita di MDM
-description: 
+title: Informazioni sul ciclo di vita del software MDM
+description: Questo articolo include materiale sussidiario su come funziona il ciclo di vita della soluzione della gestione di dispositivi mobili Microsoft in modo i clienti possano pianificare e progettare meglio le soluzioni di gestione di dispositivi mobili tramite Microsoft Enterprise Mobility + Security.
 keywords: 
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
 ms.topic: solution
@@ -14,13 +15,13 @@ ms.reviewer:
 ms.suite: ems
 ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 324e99886224b99714b22b71c46b9ac738b7a92a
+ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
+ms.openlocfilehash: bca54803722814769b45cd30244b68121d72a114
 
 
 ---
 
-# Informazioni sul ciclo di vita di MDM
+# <a name="understand-the-mdm-lifecycle"></a>Informazioni sul ciclo di vita del software MDM
 
 >[!NOTE]
 >Questo argomento fa parte di una guida più ampia dedicata alle considerazioni di progettazione. Per leggere la guida dall'inizio, vedere l'[argomento principale](mdm-design-considerations-guide.md). Per scaricare una copia della versione integrale della guida, visitare la raccolta [TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
@@ -31,7 +32,7 @@ ms.openlocfilehash: 324e99886224b99714b22b71c46b9ac738b7a92a
 
 **Fasi del ciclo di vita della gestione dei dispositivi mobili**
 
-## Registrazione e configurazione dei dispositivi
+## <a name="device-enrollment-and-configuration"></a>Registrazione e configurazione dei dispositivi
 Il primo passaggio nella gestione dei dispositivi mobili consiste nella registrazione e nella configurazione iniziali dei dispositivi nella soluzione di gestione dei dispositivi mobili. La semplicità e la facilità di registrazione sono i fattori chiave per il successo del ciclo di vita della gestione dei dispositivi mobili. Se la registrazione iniziale dei dispositivi risulta difficile o troppo complessa, è possibile che sia l'amministratore che gli utenti siano restii ad adottare una soluzione di gestione dei dispositivi mobili, pertanto non sarebbe possibile sfruttare le funzionalità, i vantaggi e le protezioni offerti da una soluzione di questo tipo.
 
 La registrazione dei dispositivi mobili nelle soluzioni di gestione dei dispositivi mobili avviene solitamente in due modi:
@@ -51,7 +52,7 @@ La registrazione e la configurazione dei dispositivi mobili comprendono le opera
 
 Nella maggior parte dei casi, quando un dispositivo mobile viene registrato in una soluzione di gestione dei dispositivi mobili, al dispositivo vengono assegnati automaticamente criteri e autorizzazioni associati all'account di directory dell'utente del dispositivo e/o al gruppo a cui è associato il dispositivo stesso nei servizi directory. A seconda della soluzione di gestione dei dispositivi mobili, la maggior parte delle operazioni di configurazione e provisioning dei criteri e delle autorizzazioni del dispositivo viene eseguita prima della registrazione del dispositivo. Quindi, le impostazioni dei criteri e di conformità diventano effettive non appena i dispositivi vengono registrati, evitando discrepanze tra la registrazione e la conformità.
 
-## Domande sulla pianificazione della registrazione e della configurazione dei dispositivi
+## <a name="device-enrollment-and-configuration-planning-questions"></a>Domande sulla pianificazione della registrazione e della configurazione dei dispositivi
 
 Per pianificare la gestione del ciclo di vita della gestione dei dispositivi mobili, rispondere alle domande seguenti relative alla pianificazione di configurazione e registrazione dei dispositivi:
 
@@ -73,7 +74,7 @@ Per pianificare la gestione del ciclo di vita della gestione dei dispositivi mob
 -  È necessario poter configurare o impostare un limite di tempo massimo o minimo per il provisioning dei criteri dei dispositivi dopo la registrazione iniziale?
 -  È necessario attivare automaticamente criteri di provisioning speciali in caso di errori di registrazione?
 
-##Gestione dei dispositivi
+##<a name="device-management"></a>Gestione dei dispositivi
 Il modo in cui vengono gestiti i dispositivi mobili, sia dal punto di vista dell'amministratore che degli utenti, è un aspetto fondamentale di una soluzione di gestione dei dispositivi mobili.
 
 Ad esempio, si potrebbe voler integrare la modalità di gestione dei dispositivi mobili con la modalità di gestione dei dispositivi non mobili (server, desktop, altri dispositivi di rete). A seconda dell'organizzazione, le soluzioni di gestione dei dispositivi non mobili potrebbero essere state implementate molto prima che i dispositivi mobili venissero introdotti nell'organizzazione. Questo potrebbe aver richiesto costi notevoli e investimenti a lungo termine per tali soluzioni di gestione.
@@ -87,8 +88,8 @@ La gestione dei dispositivi mobili in genere abbraccia diverse aree amministrati
 - **Accesso alle risorse aziendali:** la gestione dei dispositivi mobili può anche agevolare la gestione dell'accesso a risorse di rete locali come server di posta elettronica, reti Wi-Fi e risorse basate su VPN. Questo consente di aiutare a garantire la conformità alla sicurezza e semplifica l'accesso alle risorse della società in base ai criteri aziendali per gli utenti dei dispositivi mobili. Se l'accesso alle risorse dell'organizzazione è eccessivamente complesso o difficoltoso per gli utenti dei dispositivi mobili, possono decidere di usare risorse aziendali non approvate per archiviare dati aziendali, se questo rende il processo più semplice.
 - **Inventario e creazione di report:** quando si gestiscono i dispositivi mobili, è opportuno registrare e analizzare gli eventi della piattaforma e dei dispositivi mobili per tenere traccia della conformità ai criteri di gestione dell'organizzazione. La creazione di report dettagliati può anche offrire statistiche e dati in tempo reale, per prendere decisioni migliori più velocemente in base allo stato dei dispositivi mobili e degli utenti dei dispositivi mobili. Informazioni più dettagliate sull'inventario e sulla creazione di report sono disponibili in una sezione successiva.
 
-### Domande sulla pianificazione della gestione dei dispositivi
-Per il momento, concentrarsi solo sugli aspetti amministrativi principali, in quanto si stanno ancora definendo i requisiti. È possibile perfezionare tali requisiti con l'evolversi del piano e comprendere meglio le esigenze complessive dell'organizzazione.</para><para>Rispondere alle domande seguenti relative alla pianificazione della gestione dei dispositivi:
+### <a name="device-management-planning-questions"></a>Domande sulla pianificazione della gestione dei dispositivi
+Per il momento, concentrarsi solo sugli aspetti amministrativi principali, in quanto si stanno ancora definendo i requisiti. È possibile affinare tali requisiti con l'esecuzione dell'iterazione del piano e con una migliore conoscenza delle esigenze complessive dell'organizzazione.</para><para>Rispondere alle domande di pianificazione seguenti sulla gestione dei dispositivi:
 
 - Sono necessari criteri di gestione specifici applicati a gruppi di utenti, gruppi di dispositivi e/o gruppi di sistemi operativi dei dispositivi?
 - Sono necessari criteri di gestione specifici per diversi tipi di dispositivi? Ad esempio, criteri separati per i dispositivi di proprietà dell'utente o della società oppure dispositivi mobili e non mobili?
@@ -109,11 +110,11 @@ Per il momento, concentrarsi solo sugli aspetti amministrativi principali, in qu
 - La soluzione di gestione dei dispositivi mobili supporta l'amministrazione remota?
 - La soluzione di gestione dei dispositivi mobili supporta l'automazione?
 
-## Gestione delle app
+## <a name="app-management"></a>Gestione delle app
 
 In alcuni casi può non essere opportuno registrare un dispositivo mobile in un sistema di gestione dei dispositivi ma è comunque necessario gestire le applicazioni sul dispositivo per impedire che i dati aziendali vengano trasferiti ad altri servizi o app consumer sul dispositivo. Questa situazione si può verificare quando i dipendenti usano i dispositivi personali per accedere alle risorse aziendali in uno scenario BYOD oppure quando si ha l'esigenza di gestire i dispositivi mobili su una piattaforma di gestione dei dispositivi e le applicazioni su un'altra piattaforma di gestione.
 
-### Domande sulla pianificazione della gestione delle applicazioni
+### <a name="app-management-planning-questions"></a>Domande sulla pianificazione della gestione delle applicazioni
 
 Per pianificare le considerazioni sulla gestione delle app, rispondere alle domande seguenti sulla pianificazione:
 
@@ -123,11 +124,11 @@ Per pianificare le considerazioni sulla gestione delle app, rispondere alle doma
 - È necessario abilitare i criteri di prevenzione della perdita di dati per ogni app?
 - È necessario limitare il contenuto Web visualizzato in un browser gestito?
 
-##Ritiro o annullamento della registrazione del dispositivo
+##<a name="device-retirementunenrollment"></a>Ritiro o annullamento della registrazione del dispositivo
 
 Quando gli utenti lasciano l'organizzazione o i dispositivi mobili vengono ritirati o sostituiti, è necessario assicurarsi che i dati aziendali non vengano persi o violati. In genere, le soluzioni di gestione dei dispositivi mobili supportano sia il ripristino del dispositivo che l'annullamento della registrazione per i dispositivi gestiti dall'IT e dall'utente. Per la maggior parte dei dispositivi mobili, l'annullamento della registrazione inizia con il ripristino del dispositivo alle impostazioni predefinite di fabbrica o con l'esecuzione di una cancellazione selettiva di tutti i dati e le applicazioni aziendali. Quindi, viene rimossa la connessione della registrazione del dispositivo alla soluzione di gestione. Tuttavia, il processo varia a seconda dei produttori di dispositivi mobili e delle piattaforme dei sistemi operativi dei dispositivi.
 
-### Domande sul ritiro o annullamento della registrazione dei dispositivi
+### <a name="device-retirementunenrollment-planning-questions"></a>Domande sul ritiro o annullamento della registrazione dei dispositivi
 
 Rispondere alle domande seguenti relative alla pianificazione del ritiro o dell'annullamento della registrazione dei dispositivi:
 
@@ -141,6 +142,6 @@ Rispondere alle domande seguenti relative alla pianificazione del ritiro o dell'
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 
