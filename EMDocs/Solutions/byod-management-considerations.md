@@ -6,14 +6,13 @@ author: YuriDio
 ms.author: yurid
 manager: swadhwa
 ms.date: 11/28/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: ba8cc256-2075-457f-a827-7ec9213c5235
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: da1652d5bb9a7b7176c74482bfc814aaf8902c3f
@@ -110,7 +109,7 @@ Per altre informazioni sulle funzionalità di creazione di report di Configurati
 
 Dopo aver sviluppato nuove app e averne consentito l'accesso in remoto agli utenti dai propri dispositivi, le prestazioni delle app potrebbero risultare ridotte se la soluzione non è stata ben pianificata. Sebbene questa Guida alle considerazioni di progettazione non intenda offrire un'analisi approfondita relativa alle considerazioni sulle prestazioni, è necessario rispondere ad alcune domande sull'infrastruttura di gestione:
 
-- La soluzione di gestione esistente usata dall'azienda è in grado di gestire le risorse di archiviazione e di calcolo per la piattaforma supportata dalle app a cui accedono i dispositivi degli utenti? 
+- La soluzione di gestione esistente usata dall'azienda è in grado di gestire le risorse di archiviazione e di calcolo per la piattaforma supportata dalle app a cui accedono i dispositivi degli utenti?
 - La soluzione di gestione esistente usata dall'azienda è in grado di aumentare le risorse di calcolo e di archiviazione per la piattaforma supportata dall'app a cui accedono i dispositivi degli utenti in base a un set di regole prestabilite?
 Se la soluzione di gestione esistente non è in grado di soddisfare questi due requisiti, valutare l'utilizzo di una soluzione di gestione che possa gestire il calcolo e l'archiviazione affrontando i due requisiti fondamentali illustrati nella tabella seguente.
 
@@ -137,7 +136,7 @@ Usare l'elenco che segue per comprendere i vantaggi e gli svantaggi di ogni opzi
 
 System Center 2012 R2 è in grado di usare il pooling delle risorse e l'elasticità per gestire il calcolo e l'archiviazione. System Center 2012 R2 inoltre integra l'archiviazione con l'ottimizzazione dei dischi differenze per ridurre i requisiti di archiviazione, consentendo la condivisione di una grande percentuale di dati del disco tra più dischi virtuali e ottimizzando in tal modo i costi di archiviazione. I server virtualizzati con System Center 2012 R2 e che verranno usati dalle app degli utenti remoti possono avvalersi di questa tecnologia.
 
-Per altre informazioni sulle funzionalità di archiviazione di System Center 2012 R2, vedere [Novità di VMM in System Center 2012 R2](https://technet.microsoft.com/library/dn246490.aspx). 
+Per altre informazioni sulle funzionalità di archiviazione di System Center 2012 R2, vedere [Novità di VMM in System Center 2012 R2](https://technet.microsoft.com/library/dn246490.aspx).
 
 ## <a name="automation"></a>Automazione
 
@@ -182,10 +181,10 @@ Una sfida in quest'area è poter gestire diverse piattaforme mantenendo un'inter
 
 Per la gestione centralizzata in locale, è possibile usare Configuration Manager. Con questa opzione il reparto IT può sfruttare la funzionalità di registrazione aziendale per registrare i dispositivi con il server di Configuration Manager dell'azienda. Per altre informazioni sulla gestione dei dispositivi con Configuration Manager, vedere [Gestire i dispositivi mobili con Configuration Manager e Microsoft Intune](https://technet.microsoft.com/library/jj884158.aspx).
 
-Per gestire altre piattaforme che non sono dispositivi basati su Windows, è possibile usare il servizio cloud di Microsoft Intune. Il portale aziendale di Microsoft Intune consente di registrare, gestire e installare le app concesse in licenza. Gli utenti possono accedere facilmente alle app e installarle sui propri dispositivi. 
+Per gestire altre piattaforme che non sono dispositivi basati su Windows, è possibile usare il servizio cloud di Microsoft Intune. Il portale aziendale di Microsoft Intune consente di registrare, gestire e installare le app concesse in licenza. Gli utenti possono accedere facilmente alle app e installarle sui propri dispositivi.
 
->[!TIP] 
->Per altre informazioni su Microsoft Intune, vedere [Introduction to Intune](/intune/understand-explore/introduction-to-microsoft-intune) (Introduzione a Intune). 
+>[!TIP]
+>Per altre informazioni su Microsoft Intune, vedere [Introduction to Intune](/intune/understand-explore/introduction-to-microsoft-intune) (Introduzione a Intune).
 
 Sebbene si tratti di due opzioni distinte, è possibile integrarle per fornire la distribuzione delle app e il provisioning da un'unica posizione. Usare la tabella seguente per identificare l'opzione appropriata al progetto BYOD.
 
@@ -195,7 +194,6 @@ Sebbene si tratti di due opzioni distinte, è possibile integrarle per fornire l
 | Distribuzione e provisioning di app in dispositivi che si trovano all'esterno dell'azienda.   | Microsoft Intune                                       |
 | Distribuzione e provisioning di app in dispositivi non Windows.                   | Microsoft Intune                                       |
 | Distribuzione e provisioning di app solo nei dispositivi locali, distribuzione e provisioning di app nei dispositivi situati all'esterno dell'azienda o distribuzione e provisioning di app nei dispositivi non Windows.       | Microsoft Intune integrato con Configuration Manager
-                                                                    
 
 
 

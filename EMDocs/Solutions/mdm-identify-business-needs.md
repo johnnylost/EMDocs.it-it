@@ -6,14 +6,13 @@ author: YuriDio
 ms.author: yurid
 manager: swadhwa
 ms.date: 11/28/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 85783069-14fb-4ead-a159-657d694eb1a7
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: 35c9101de6df041b906660743654a8b137d4a542
@@ -26,7 +25,8 @@ ms.openlocfilehash: 35c9101de6df041b906660743654a8b137d4a542
 >[!NOTE]
 >Questo argomento fa parte di una guida più ampia dedicata alle considerazioni di progettazione. Per leggere la guida dall'inizio, vedere l'[argomento principale](mdm-design-considerations-guide.md). Per scaricare una copia della versione integrale della guida, visitare la raccolta [TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
-Ogni società dispone di requisiti diversi. Anche se le società appartengono allo stesso settore, i requisiti aziendali effettivi possono variare. È possibile sfruttare le procedure consigliate del settore, ma in definitiva sono le esigenze aziendali che identificano i requisiti della soluzione più adatta per la gestione dei dispositivi mobili. Per identificare più facilmente le esigenze aziendali, rispondere alle domande seguenti:
+Ogni società dispone di requisiti diversi. Anche se le società appartengono allo stesso settore, i requisiti aziendali effettivi possono variare. È possibile sfruttare le procedure consigliate del settore, ma in definitiva sono le esigenze aziendali che identificano i requisiti della soluzione più adatta per la gestione dei dispositivi mobili.
+Per identificare più facilmente le esigenze aziendali, rispondere alle domande seguenti:
 
 - **Utenti:** uno degli elementi fondamentali dell'adozione della mobilità consiste nel mettere l'utente al centro della soluzione di mobilità e consentirgli di essere più produttivo, assicurando allo stesso tempo la protezione e la disponibilità dei dati della società. Questo è importante per comprendere quali sono i requisiti dell'utente.
     - L'utente sarà in grado di portare il proprio dispositivo e accedere alle risorse della società?
@@ -40,7 +40,7 @@ Ogni società dispone di requisiti diversi. Anche se le società appartengono al
     - Gli utenti hanno solo bisogno di accesso di base alle funzionalità di posta elettronica (inclusi calendario, contatti e attività)?
 
 - **Proprietà dei dispositivi:** è necessario comprendere i criteri di proprietà dei dispositivi per la società.
-    - Chi è proprietario del dispositivo mobile? 
+    - Chi è proprietario del dispositivo mobile?
         - Il dipendente?
         - La società?  
         - Entrambi?
@@ -56,7 +56,7 @@ Ogni società dispone di requisiti diversi. Anche se le società appartengono al
         - Solo la più recente?
         - Versione attuale -1 (la versione attuale più la versione precedente)?
 - **Applicazioni:** poiché il motivo principale dell'adozione della mobilità è l'aumento della produttività, le applicazioni (app) usate dai dipendenti devono poter essere eseguite in tutti i sistemi operativi dei dispositivi mobili usati nell'organizzazione. Si tratta di un punto importante da tenere in considerazione, perché sebbene in alcune società le app principali possono essere completamente portatili per l'esecuzione in un ambiente mobile, in altre può essere necessario comprendere quali opzioni sono disponibili per aiutarle a distribuire le proprie app sui dispositivi mobili. Per semplificare l'identificazione dei requisiti delle singole app, è opportuno porsi le domande seguenti.
-    - Le app richiedono l'accesso a Internet dai dispositivi degli utenti? 
+    - Le app richiedono l'accesso a Internet dai dispositivi degli utenti?
     - Le app raccolgono informazioni personali sull'utente?
         - In tal caso, le app informano gli utenti sulle questioni di privacy e sulla raccolta dei dati durante l'installazione?
     - Le app richiedono l'integrazione con i servizi cloud?
@@ -68,20 +68,18 @@ Ogni società dispone di requisiti diversi. Anche se le società appartengono al
     - Come si intende distribuire queste app ai dispositivi degli utenti?
     - Quali sono le opzioni di distribuzione per queste app?
     - Il requisito di installazione varia a seconda del dispositivo di destinazione o è lo stesso?
-    - Quanto spazio è necessario in un dispositivo di destinazione per installare ogni app? 
+    - Quanto spazio è necessario in un dispositivo di destinazione per installare ogni app?
     - Le app eseguono la crittografia dei dati prima della trasmissione attraverso la rete dai dispositivi degli utenti al server app nel back-end?
     - Le app possono essere disinstallate in remoto attraverso la rete o devono essere disinstallate tramite le console dei dispositivi?
     - La società ha l'esigenza di consentire l'accesso ai dati delle applicazioni SaaS ai propri partner?
-    - Le app funzionano in una rete a bassa latenza? 
+    - Le app funzionano in una rete a bassa latenza?
     - Le app forniscono le funzionalità di autenticazione?
         - In tal caso, quale metodo di autenticazione usano le app?
 
 Durante questa attività, è anche necessario valutare se la società dispone di criteri di gestione e conformità esistenti per dispositivi mobili e in che modo questi criteri possono influire sulla scelta della soluzione di gestione dei dispositivi mobili.
 
->[!TIP] 
+>[!TIP]
 > Assicurarsi di prendere appunti per ogni risposta e di comprendere la logica alla base della risposta. La sezione successiva esaminerà le opzioni disponibili e i vantaggi e svantaggi di ogni opzione.  Avendo risposto a queste domande, sarà possibile selezionare la soluzione più adatta a soddisfare le esigenze aziendali.
-
-
 
 
 

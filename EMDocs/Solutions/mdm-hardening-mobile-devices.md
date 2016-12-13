@@ -6,14 +6,13 @@ author: YuriDio
 ms.author: yurid
 manager: swadhwa
 ms.date: 11/28/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: ade57c73-a8a2-497f-ad8d-5dfc3cba9e70
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: 050d92824ad2616440d9d4b972a812be0ab5a14a
@@ -26,7 +25,7 @@ ms.openlocfilehash: 050d92824ad2616440d9d4b972a812be0ab5a14a
 >[!NOTE]
 >Questo argomento fa parte di una guida più ampia dedicata alle considerazioni di progettazione. Per leggere la guida dall'inizio, vedere l'[argomento principale](mdm-design-considerations-guide.md). Per scaricare una copia della versione integrale della guida, visitare la raccolta [TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
-Quando si crea una linea di base di configurazione per i dispositivi mobili per la protezione avanzata delle funzionalità in base alle esigenze aziendali, è necessario assicurarsi di trovare il giusto equilibrio tra usabilità e sicurezza. Un modello di protezione avanzata molto rigido può causare problemi di usabilità e accesso per i dipendenti, vanificando lo scopo di rendere gli utenti più produttivi tramite l'accesso alle risorse aziendali sui propri dispositivi. 
+Quando si crea una linea di base di configurazione per i dispositivi mobili per la protezione avanzata delle funzionalità in base alle esigenze aziendali, è necessario assicurarsi di trovare il giusto equilibrio tra usabilità e sicurezza. Un modello di protezione avanzata molto rigido può causare problemi di usabilità e accesso per i dipendenti, vanificando lo scopo di rendere gli utenti più produttivi tramite l'accesso alle risorse aziendali sui propri dispositivi.
 
 Tenere inoltre presente che non tutti i criteri di sicurezza sono disponibili per tutte le piattaforme per dispositivi mobili. Potrebbe essere necessario bilanciare le priorità per l'autorizzazione delle piattaforme per dispositivi mobili dell'organizzazione con i requisiti di conformità per la sicurezza per la protezione avanzata dei dispositivi.
 Un possibile approccio alla protezione avanzata dei dispositivi mobili consiste nel disporre di diversi livelli di sicurezza. Le impostazioni disponibili per ogni livello possono inoltre variare a seconda della soluzione MDM. La figura che segue illustra un esempio di come è possibile impostare questo approccio a più livelli.
@@ -91,8 +90,8 @@ La protezione avanzata della piattaforma per dispositivi mobili svolge un ruolo 
 
 - Se l'azienda attualmente non ha un'infrastruttura locale di Configuration Manager, le risorse dovranno pianificare, installare e configurare Configuration Manager prima dell'integrazione
 
->[!TIP] 
-> Per altre informazioni sulle impostazioni di gestione dei dispositivi mobili che è possibile configurare in un criterio di sicurezza per dispositivi mobili di Microsoft Intune, vedere [Impostazioni dei criteri di sicurezza dei dispositivi mobili in Microsoft Intune](https://technet.microsoft.com/library/dn913730.aspx). 
+>[!TIP]
+> Per altre informazioni sulle impostazioni di gestione dei dispositivi mobili che è possibile configurare in un criterio di sicurezza per dispositivi mobili di Microsoft Intune, vedere [Impostazioni dei criteri di sicurezza dei dispositivi mobili in Microsoft Intune](https://technet.microsoft.com/library/dn913730.aspx).
 
 
 

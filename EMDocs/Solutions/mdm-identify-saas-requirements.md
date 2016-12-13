@@ -6,14 +6,13 @@ author: andredm7
 ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 5380e56c-9c48-459e-aea5-95ad90dbb7d1
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
 ms.openlocfilehash: 68a42159dfbf6b0d435b0543466d4cec26e55b67
@@ -39,7 +38,7 @@ Prima di prendere decisioni sulla modalità d'uso di una soluzione SaaS per la g
 ## <a name="cloud-types"></a>Tipi di cloud
 
 Le soluzioni SaaS *multi-tenant* in genere vengono definite infrastrutture cloud "pubbliche". In questo caso l'architettura del software del servizio contiene una singola istanza, ma serve più tenant o più organizzazioni. La soluzione è progettata per garantire a ogni tenant una condivisione riservata dei relativi servizi, ad esempio la gestione di utenti o dispositivi, la configurazione e il supporto dati. I servizi e gli account tenant sono virtualmente separati e ogni tenant ha accesso all'infrastruttura della piattaforma tramite istanze distinte. Le soluzioni SaaS multi-tenant in genere offrono inoltre vantaggi in termini di costi, derivati dalla condivisione dell'infrastruttura e dalla distribuzione dei costi generali fra più tenant. La maggior parte delle piattaforme di gestione dei dispositivi mobili è disponibile in un'infrastruttura di piattaforma SaaS multi-tenant.
-                
+
 I servizi cloud *privati* o dedicati rappresentano istanze di soluzioni SaaS usate da una singola organizzazione o un singolo tenant. Può trattarsi di servizi cloud privati ospitati dall'organizzazione o di servizi cloud privati ospitati da un provider di terze parti. Le soluzioni cloud private in genere offrono anche maggiori opportunità di personalizzazione nelle aree relative ai servizi e alla sicurezza. Alcune soluzioni dedicate SaaS offrono servizi di gestione dei dispositivi mobili come parte di opzioni relative a tenant cloud privati di maggiori dimensioni.
 
 Le soluzioni SaaS *ibride* possono offrire una combinazione di infrastrutture cloud private e multi-tenant oppure una combinazione di infrastrutture cloud ospitate (multi-tenant o private) e locali. Un'infrastruttura ibrida può includere anche l'utilizzo di una soluzione SaaS cloud esterna per la distribuzione di determinati tipi di servizi, ad esempio di applicazioni, e di risorse interne per altri tipi di servizi. La maggior parte delle soluzioni SaaS offre la possibilità di supportare una configurazione cloud ibrida, ma la profondità e la completezza dell'integrazione con piattaforme cloud ospitate o locali possono variare in modo significativo.
@@ -92,7 +91,7 @@ Come parte della pianificazione del ciclo di vita della gestione SaaS, è necess
 L'infrastruttura di SaaS è basata su cloud ed è ospitata in più centri dati, pertanto la resilienza è in genere meno soggetta a instabilità o a interruzioni rispetto ai servizi tradizionali ospitati localmente. Gli host del servizio in più sedi offrono protezione contro le interruzioni dei servizi basate sull'area geografica tramite l'infrastruttura di failover e processi per la replica dei dati in nodi di più centri dati. A seconda della soluzione SaaS, l'accesso al servizio potrebbe o meno rimanere nell'area geografica originale durante un failover.
 
 ### <a name="resiliency-questions"></a>Domande sulla resilienza
- 
+
 Come parte della pianificazione del ciclo di vita della gestione SaaS, è necessario rispondere a queste domande sulla pianificazione della resilienza del cloud:
 
 - In caso di failover primario della soluzione SaaS, quale sarà l'impatto sui servizi di gestione dei dispositivi mobili?

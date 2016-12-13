@@ -6,14 +6,13 @@ author: YuriDio
 ms.author: yurid
 manager: swadhwa
 ms.date: 11/28/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: d1653116-3922-40d3-bc4f-3d845b6aaecb
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: 717183b0b7f94277379ebbeee2136227d29f88ef
@@ -55,7 +54,7 @@ I profili utente proposti in questa guida sono:
     - Accesso ai computer con Desktop remoto
     - Accesso ad altri computer locali
 
-Sarà necessario stabilire quale profilo utente è più adatto per la soluzione di infrastruttura BYOD. Si potrebbe valutare la possibilità di creare più profili utente a seconda delle relative esigenze lavorative. Idealmente, la tecnologia usata per implementare la soluzione di infrastruttura BYOD deve poter soddisfare tutti i profili utente, poiché le esigenze possono variare a seconda dell'utente. 
+Sarà necessario stabilire quale profilo utente è più adatto per la soluzione di infrastruttura BYOD. Si potrebbe valutare la possibilità di creare più profili utente a seconda delle relative esigenze lavorative. Idealmente, la tecnologia usata per implementare la soluzione di infrastruttura BYOD deve poter soddisfare tutti i profili utente, poiché le esigenze possono variare a seconda dell'utente.
 
 ## <a name="devices"></a>Dispositivi
 
@@ -204,11 +203,10 @@ Usare l'elenco che segue per comprendere i vantaggi e gli svantaggi delle opzion
     - Svantaggi
         - Richiede IPsec per l'implementazione con la funzionalità [Protezione accesso alla rete Microsoft](https://technet.microsoft.com/library/cc731276(v=ws.10).aspx), che può rappresentare un problema in uno scenario BYOD che richiede il supporto per "qualsiasi dispositivo"
 
-> [!NOTE] 
+> [!NOTE]
 > Per altre informazioni sui profili Wi-Fi in Configuration Manager, vedere [Introduzione ai profili Wi-Fi in Configuration Manager](https://technet.microsoft.com/library/dn261224.aspx).
 
 Il percorso di rete svolge un ruolo importante per le considerazioni sugli utenti e i dispositivi. È possibile sfruttare il controllo degli accessi a più fattori in ADFS per abilitare i criteri di autorizzazione per applicazione, con i quali è possibile consentire o negare l'accesso in base a utente, dispositivo e percorso di rete. Per altre informazioni su come configurare un ambiente per convalidare questa funzionalità, vedere [Gestire i rischi con il controllo degli accessi a più fattori](https://technet.microsoft.com/library/dn280936.aspx).
-
 
 
 

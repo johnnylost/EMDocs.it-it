@@ -6,14 +6,13 @@ author: andredm7
 ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: bc7cdb8f-3485-45ae-9493-f840ad9ed3ea
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
 ms.openlocfilehash: 856d2d2ba9968aa0f4a0da4f4afcbf452260e548
@@ -40,7 +39,7 @@ Gli elenchi che seguono descrivono i vantaggi e gli svantaggi della gestione del
 
 **Vantaggi**
 
-- Supporta i profili wireless e VPN per tutti i principali sistemi operativi per dispositivi mobili (Android, iOS, Windows 10, Windows 8.x e Windows Phone) 
+- Supporta i profili wireless e VPN per tutti i principali sistemi operativi per dispositivi mobili (Android, iOS, Windows 10, Windows 8.x e Windows Phone)
 - Supporta i tipi di connessione VPN leader del settore, tra cui Cisco, Juniper, Dell SonicWall, Checkpoint e altri ancora
 - I profili VPN e wireless possono essere integrati con i profili del certificato SCEP, per una maggiore sicurezza
 - Supporta la configurazione di profili wireless e VPN personalizzati per diversi tipi di utenti, dispositivi, sistemi operativi dei dispositivi o gruppi e ruoli degli utenti
@@ -65,7 +64,7 @@ Il supporto per i criteri per Wi-Fi e VPN non è previsto in MDM per Office 365.
 
 **Svantaggi**
 
-- Per supportare i profili VPN, è necessario distribuire e gestire un'infrastruttura VPN locale 
+- Per supportare i profili VPN, è necessario distribuire e gestire un'infrastruttura VPN locale
 - È necessario concedere autorizzazioni di sicurezza specifiche per gestire i [profili Wi-Fi](https://technet.microsoft.com/library/dn408646.aspx) e i [profili VPN](https://technet.microsoft.com/library/dn408643.aspx) in Configuration Manager
 
 Esaminare i dettagli sulle opzioni di gestione della configurazione della posta elettronica per dispositivi mobili prendendo in considerazione gli elementi seguenti:

@@ -6,14 +6,13 @@ author: YuriDio
 ms.author: yurid
 manager: swadhwa
 ms.date: 11/28/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: ecb6271f-8f38-42bd-aae7-10ba5e17a5f1
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: 7dbb0c9b1b2b3b29eb54ad8cdeee527d9d7f078f
@@ -27,7 +26,7 @@ Dopo aver definito chiaramente il problema BYOD che si sta provando a risolvere,
 
 ## <a name="solution-definition"></a>Definizione della soluzione
 
-Per risolvere i problemi identificati in precedenza e aiutare le organizzazioni a incoraggiare gli utenti a portare i propri dispositivi nel posto di lavoro per accedere ai dati aziendali, l'azienda deve passare da un approccio IT incentrato sui dispositivi a un approccio IT incentrato sugli utenti. Le considerazioni di progettazione illustrate in questa guida possono essere usate durante la definizione della propria soluzione di infrastruttura BYOD per: 
+Per risolvere i problemi identificati in precedenza e aiutare le organizzazioni a incoraggiare gli utenti a portare i propri dispositivi nel posto di lavoro per accedere ai dati aziendali, l'azienda deve passare da un approccio IT incentrato sui dispositivi a un approccio IT incentrato sugli utenti. Le considerazioni di progettazione illustrate in questa guida possono essere usate durante la definizione della propria soluzione di infrastruttura BYOD per:
 
 - Fornire agli utenti la flessibilità necessaria per usare i propri dispositivi per accedere alle app e ai dati aziendali.
 - Gestire i dispositivi che accedono alle risorse aziendali in locale e dal cloud.
@@ -51,7 +50,6 @@ Le considerazioni relative il dominio del problema BYOD illustrate in questa gui
 - [Requisiti di protezione e accesso ai dati](byod-data-access-protection-reqs.md)
 - [Requisiti di gestione](byod-management-reqs.md)
 - [Requisiti delle app](byod-app-reqs.md)
-
 
 
 

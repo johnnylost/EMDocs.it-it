@@ -6,14 +6,13 @@ author: YuriDio
 ms.author: yurid
 manager: swadhwa
 ms.date: 11/28/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 639dfd46-33ea-4cfd-918d-f3d8e57645ed
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: 3dbf7072bbc3baf6a97072f1cbbd15bd236349d3
@@ -47,7 +46,7 @@ I prodotti, le tecnologie e i servizi Microsoft per una soluzione di infrastrutt
 - Active Directory Federation Services (ADFS)
 - Controllo dinamico degli accessi
 - Servizio Microsoft Rights Management
-- Azure Information Protection 
+- Azure Information Protection
 - Crittografia SMB
 - Single Sign-On (SSO)
 - Cartelle di lavoro
@@ -79,8 +78,6 @@ Le sezioni seguenti delineano il processo di progettazione ma, come indicato nel
 Il resto della documentazione prende in esame le considerazioni di progettazione e i prodotti, le tecnologie e i servizi elencati nella tabella precedente. Quando è possibile usare più prodotti, tecnologie e servizi Microsoft per affrontare le diverse considerazioni di progettazione, ne verranno illustrati i compromessi.
 
 Il progetto di infrastruttura per il supporto di BYOD riunisce le risposte alle domande riportate in precedenza in questo articolo, nonché le funzionalità della tecnologia e le opzioni disponibili. Il progetto illustrato in questo documento usa una tecnologia basata su Microsoft. Le considerazioni e le opzioni di progettazione possono tuttavia essere applicate a qualsiasi infrastruttura usata per adottare il modello BYOD.
-
-
 
 
 

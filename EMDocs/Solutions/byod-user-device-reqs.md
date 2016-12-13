@@ -6,14 +6,13 @@ author: YuriDio
 ms.author: yurid
 manager: swadhwa
 ms.date: 11/28/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: a6319952-e9cd-4308-b9b9-b2e6005e6506
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: e8052d7c45b1b0a579dab9c17112907ade027f8f
@@ -68,7 +67,6 @@ I requisiti di utenti e dispositivi sono suddivisi in tre aree:
 ### <a name="technical-support"></a>Supporto tecnico
 - Il team responsabile della rete e della sicurezza è pronto a inserire tra le proprie mansioni lo svolgimento a intervalli regolari di controlli di conformità sui dispositivi?
 - Sono in vigore criteri e procedure di gestione delle modifiche a supporto dell'implementazione di BYOD?
-
 
 
 

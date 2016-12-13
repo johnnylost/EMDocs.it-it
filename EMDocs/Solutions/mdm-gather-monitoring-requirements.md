@@ -6,14 +6,13 @@ author: andredm7
 ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: ac136523-8089-409b-b74d-2d4c0ce399d4
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
 ms.openlocfilehash: 2a03416cf8255a29c0394746b3d5285057163d15
@@ -28,7 +27,7 @@ ms.openlocfilehash: 2a03416cf8255a29c0394746b3d5285057163d15
 
 Il monitoraggio e l'acquisizione di informazioni sullo stato e sugli eventi dei dispositivi mobili è fondamentale per garantire che gli utenti e i dispositivi siano conformi ai criteri aziendali e alla strategia di sicurezza. Questo è particolarmente importante per le organizzazioni che devono garantire la conformità ai requisiti normativi governativi e alle linee guida di conformità del settore.
 
-La creazione di report aiuta anche a raccogliere informazioni utili su software, hardware e licenze software dell'organizzazione per facilitare la gestione dell'inventario. 
+La creazione di report aiuta anche a raccogliere informazioni utili su software, hardware e licenze software dell'organizzazione per facilitare la gestione dell'inventario.
 
 È necessario essere consapevoli dell'importanza della privacy degli utenti quando si stabiliscono le linee guida per il monitoraggio e la creazione di report, specialmente quando gli utenti possono registrare i propri dispositivi personali nella soluzione di gestione dei dispositivi mobili dell'organizzazione. L'organizzazione non dovrebbe essere in grado di acquisire, monitorare, segnalare o condividere eventuali attività o informazioni personali.
 
@@ -55,7 +54,7 @@ Rispondere alle domande seguenti relative alla pianificazione del monitoraggio d
 - Sono necessari report personalizzati, su richiesta?
 - Quando viene annullata la registrazione di un dispositivo, è necessario acquisire eventi specifici relativi all'inventario e alla creazione di report?
 - Dopo che è stata annullata la registrazione di un dispositivo, è necessario archiviare/conservare gli eventi legacy relativi all'inventario e alla creazione di report?
- 
+
 >[!TIP]
 >Assicurarsi di prendere appunti per ogni risposta e di comprendere la logica alla base della risposta. Le attività successive esamineranno le opzioni disponibili e i vantaggi e svantaggi di ogni opzione.  Rispondere a queste domande consentirà di selezionare l'opzione più adatta alle esigenze aziendali.
 

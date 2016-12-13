@@ -6,14 +6,13 @@ author: andredm7
 ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: c3d350b5-4437-4f3d-907f-57ce6a819a74
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
 ms.openlocfilehash: 2f0d445b35c6a7aea29684a0488decd92784c2ab
@@ -44,7 +43,7 @@ La figura che segue illustra in che modo Intune e Configuration Manager usano ND
 6. NDES invia una richiesta di rilascio del certificato all'autorità di certificazione e invia il certificato al ruolo NDES.
 7. Il ruolo NDES invia il certificato al dispositivo.
 
-A seconda delle risposte alle domande nell'attività 3, si dovrebbe essere in grado di determinare in che modo si desidera gestire i certificati nella soluzione di gestione dei dispositivi mobili. MDM per Office 365 al momento non supporta la gestione dei profili dei certificati per i dispositivi mobili. 
+A seconda delle risposte alle domande nell'attività 3, si dovrebbe essere in grado di determinare in che modo si desidera gestire i certificati nella soluzione di gestione dei dispositivi mobili. MDM per Office 365 al momento non supporta la gestione dei profili dei certificati per i dispositivi mobili.
 
 Gli elenchi che seguono sono utili per comprendere i vantaggi e gli svantaggi della gestione dei profili dei certificati per Intune e per lo scenario di distribuzione ibrido di Intune con Configuration Manager:
 
@@ -77,7 +76,7 @@ Gli elenchi che seguono sono utili per comprendere i vantaggi e gli svantaggi de
 
 **Svantaggi**
 
-- Per usare i profili dei certificati, è necessario che sia presente un'infrastruttura locale esistente. 
+- Per usare i profili dei certificati, è necessario che sia presente un'infrastruttura locale esistente.
 - È necessario integrare l'infrastruttura locale seguente con Intune:
  - Un server che esegue il servizio Registrazione dispositivi di rete
  - Un'autorità di certificazione globale (enterprise)

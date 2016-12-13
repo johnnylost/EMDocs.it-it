@@ -6,14 +6,13 @@ author: YuriDio
 ms.author: yurid
 manager: swadhwa
 ms.date: 11/28/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 10172816-b52d-4a55-8803-6a6805126fab
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: 925d3c462ff0010f3aea03dd35a5ba6f78bf9894
@@ -26,7 +25,7 @@ ms.openlocfilehash: 925d3c462ff0010f3aea03dd35a5ba6f78bf9894
 >[!NOTE]
 >Questo argomento fa parte di una guida più ampia dedicata alle considerazioni di progettazione. Per leggere la guida dall'inizio, vedere l'[argomento principale](mdm-design-considerations-guide.md). Per scaricare una copia della versione integrale della guida, visitare la raccolta [TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
-In questa attività viene sviluppata la strategia di adozione della gestione dei dispositivi mobili in grado di soddisfare i requisiti aziendali identificati nelle attività 1 e 2. 
+In questa attività viene sviluppata la strategia di adozione della gestione dei dispositivi mobili in grado di soddisfare i requisiti aziendali identificati nelle attività 1 e 2.
 
 ## <a name="device-ownership"></a>Proprietà del dispositivo
 
@@ -34,7 +33,7 @@ Dopo aver esaminato la strategia e i criteri aziendali attuali di gestione dei d
 
 ## <a name="employee-owns-the-device-byod"></a>Il dipendente è proprietario del dispositivo (BYOD)
 
-**Vantaggi** 
+**Vantaggi**
 
 - Non è necessario acquistare i dispositivi mobili per i dipendenti della società
 - In genere consente ai dipendenti di essere più produttivi, dal momento che useranno il dispositivo mobile di loro scelta
@@ -48,7 +47,7 @@ Dopo aver esaminato la strategia e i criteri aziendali attuali di gestione dei d
 
 ## <a name="company-owned-device"></a>Dispositivo di proprietà della società
 
-**Vantaggi** 
+**Vantaggi**
 
 - Funzionalità di gestione completa, compresa la sicurezza avanzata e i controlli di sicurezza del dispositivo
 - Maggiore controllo sui dispositivi mobili
@@ -101,7 +100,7 @@ La decisione presa in merito alla proprietà dei dispositivi aiuta a identificar
 - Integrazione nativa tra Intune e Configuration Manager
 - Consente di usare una console centralizzata per distribuire i criteri e gestire computer locali, server e dispositivi mobili
 
-**Svantaggi** 
+**Svantaggi**
 
 - Richiede ulteriori passaggi di configurazione per la connessione a Intune e Configuration Manager
 - Se l'organizzazione attualmente non ha un'infrastruttura locale di Configuration Manager, sarà necessario pianificare, installare e configurare questa piattaforma prima dell'integrazione
@@ -128,7 +127,7 @@ In base ai requisiti definiti nell'attività 1, è possibile scegliere quale sol
 
 **Svantaggi**
 
-- Non consente l'integrazione con soluzioni locali di gestione dei dispositivi e quindi introduce un'interfaccia di gestione aggiuntiva da usare per la gestione dei dispositivi mobili se si usa una soluzione locale. 
+- Non consente l'integrazione con soluzioni locali di gestione dei dispositivi e quindi introduce un'interfaccia di gestione aggiuntiva da usare per la gestione dei dispositivi mobili se si usa una soluzione locale.
 - I criteri creati usando la piattaforma MDM locale non vengono replicati nel servizio cloud, pertanto sono necessari due set di criteri di conformità e gestione, se viene usata una soluzione MDM locale
 
 
@@ -167,10 +166,8 @@ In base ai requisiti definiti nell'attività 1, è possibile scegliere quale sol
 
 Comprendere il comportamento degli utenti e identificarne la posizione sono fattori importanti da includere nella strategia di gestione dei dispositivi mobili. Le modalità di rilevamento dei dispositivi variano a seconda delle esigenze e dei requisiti aziendali.  Sono disponibili funzionalità di rilevamento diverse in ogni sistema operativo mobile, pertanto le piattaforme per dispositivi mobili che si sceglie di supportare avranno un impatto sulle opzioni disponibili. Ad esempio, i requisiti di conformità possono indurre a dare la priorità all'adozione di piattaforme per dispositivi mobili che consentono di tenere traccia della posizione dell'utente e di ricorrere al geofencing.
 
->[!TIP] 
-> Il geofencing consente di monitorare la posizione geografica di un dispositivo mobile e di abilitare o disabilitare il dispositivo e le risorse di rete in base a tale posizione. Ad esempio, Windows 8.1 consente a un'app di definire un'area geografica e fa in modo che il sistema avverta l'app quando il dispositivo su cui è in esecuzione entra o esce da tale area. Per altre informazioni su questa funzionalità in Windows 8.1, leggere l'articolo [Recinti virtuali, dall'inizio alla fine (XAML)](https://msdn.microsoft.com/library/windows/apps/xaml/dn342943.aspx). 
-
-
+>[!TIP]
+> Il geofencing consente di monitorare la posizione geografica di un dispositivo mobile e di abilitare o disabilitare il dispositivo e le risorse di rete in base a tale posizione. Ad esempio, Windows 8.1 consente a un'app di definire un'area geografica e fa in modo che il sistema avverta l'app quando il dispositivo su cui è in esecuzione entra o esce da tale area. Per altre informazioni su questa funzionalità in Windows 8.1, leggere l'articolo [Recinti virtuali, dall'inizio alla fine (XAML)](https://msdn.microsoft.com/library/windows/apps/xaml/dn342943.aspx).
 
 
 

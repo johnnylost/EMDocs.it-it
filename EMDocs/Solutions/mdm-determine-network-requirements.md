@@ -6,14 +6,13 @@ author: andredm7
 ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 77e7cab9-2fae-4857-be5d-2b6f57e981be
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
 ms.openlocfilehash: 417ff912c3e7ff50e0f8371dccbc3ad99c5832d2
@@ -56,7 +55,7 @@ La maggior parte delle soluzioni di gestione dei dispositivi mobili offrono prot
 - Quando un dispositivo mobile deve essere disconnesso dal sistema di posta elettronica, come verranno eliminati dal dispositivo mobile i dati della posta elettronica?
 - Gli amministratori e gli utenti devono poter entrambi eliminare i dati della posta elettronica o la connessione al sistema di posta elettronica?
 - Come verrà verificata o confermata l'eliminazione dei dati della posta elettronica?
-- Se si usa sia un sistema di posta elettronica locale che un sistema basato sul cloud, come si integrano tali sistemi con la soluzione di gestione dei dispositivi mobili? 
+- Se si usa sia un sistema di posta elettronica locale che un sistema basato sul cloud, come si integrano tali sistemi con la soluzione di gestione dei dispositivi mobili?
 - I profili di posta elettronica o i criteri di accesso gestito sono gestiti allo stesso modo o in modo diverso dal punto di vista dell'IT? L'esperienza di connessione alla posta elettronica dell'utente è la stessa o è diversa a seconda di dove è ospitata la cassetta postale?
 
 ## <a name="network-connectivity-management"></a>Gestione della connettività di rete
@@ -72,7 +71,7 @@ I dispositivi mobili solitamente si collegano alle reti e alle risorse aziendali
 ### <a name="network-connectivity-management-planning-questions"></a>Domande sulla pianificazione della gestione della connettività di rete
 
 Rispondere alle domande seguenti relative alla pianificazione della gestione della connettività di rete:
- 
+
 - Quale tipo di piattaforma VPN è distribuito nella rete locale?
 - La piattaforma VPN è supportata o può essere integrata con la soluzione di gestione dei dispositivi mobili?
 - Se la piattaforma VPN è già integrata o supportata da una soluzione di gestione dei dispositivi non mobili esistente, la soluzione di gestione dei dispositivi mobili si integra con entrambi i sistemi?

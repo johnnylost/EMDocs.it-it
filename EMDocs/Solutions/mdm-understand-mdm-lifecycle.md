@@ -6,14 +6,13 @@ author: andredm7
 ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 901b52bf-2340-4847-aaff-c94fec9ee925
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
 ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
 ms.openlocfilehash: bca54803722814769b45cd30244b68121d72a114
@@ -39,7 +38,7 @@ La registrazione dei dispositivi mobili nelle soluzioni di gestione dei disposit
 
 - Registrazione gestita dall'amministratore
 - Registrazione eseguita dall'utente/dal proprietario
- 
+
 La registrazione gestita dall'amministratore offre un'esperienza di registrazione gestita centralmente e in genere è incentrata sulla registrazione in blocco di più dispositivi tramite un unico account di directory. Questo è utile se è necessario registrare più dispositivi di proprietà della società in una soluzione di gestione dei dispositivi mobili.
 
 Con la registrazione automatica, l'utente o il proprietario del dispositivo registra il dispositivo nella soluzione di gestione dei dispositivi mobili. Questo metodo è solitamente usato negli scenari BYOD (Bring Your Own Device), ma può anche essere usato negli scenari in cui la società è proprietaria del dispositivo. Questo tipo di registrazione in genere usa un modello di registrazione di tipo "push", in cui ai dispositivi viene automaticamente richiesto di registrarsi nella soluzione di gestione dei dispositivi mobili quando l'utente cerca di connettersi alla rete aziendale o a una risorsa di rete dal dispositivo. A volte, gli utenti possono scegliere di registrare i propri dispositivi prima della connessione alla rete o alle risorse di un'organizzazione.
