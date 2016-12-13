@@ -1,88 +1,88 @@
 ---
-title: Fasi di onboarding e migrazione
+title: Fasi di caricamento e migrazione
 description: Fasi per FastTrack Center Benefit
 keywords: 
-author: staciebarker
+author: NathBarn
+ms.author: NathBarn
 manager: angrobe
-ms.date: 10/02/2016
+ms.date: 11/07/2016
 ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: e51f030b-8b08-4fea-96c9-d4ded435a264
-ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: b8c690844c5bae7898bfe908d4ce923a0edf41dd
-ms.openlocfilehash: d760cc15bca135889b198636290765a109932b51
+ms.sourcegitcommit: 61241368440bea9a12bbac136466250da91da997
+ms.openlocfilehash: 50389fcdfc8f8dd9d2c565b60990449b442d90aa
 
 
 ---
 
-# Fasi di onboarding e migrazione
-Quando si usano i [Piani e servizi idonei per FastTrack Center Benefit](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) per preparare Azure Active Directory Premium e/o Microsoft Intune per l'uso, il processo prevede varie fasi. Le sezioni seguenti descrivono ogni fase del processo di onboarding.
+# <a name="onboarding-and-migration-phases"></a>Fasi di onboarding e migrazione
+Quando si usano i [Piani e servizi idonei per FastTrack Center Benefit](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) per preparare Microsoft Azure Active Directory Premium e Microsoft Intune per l'uso, il processo prevede varie fasi. Le sezioni seguenti descrivono ogni fase del processo di onboarding.
 
-L'onboarding presenta le seguenti fasi principali:
+Il processo di onboarding prevede quattro fasi principali:
 
 ![Le quattro fasi del processo di caricamento di FastTrack](./media/ft-onboarding-benefit.png)
 
 
-## Fase di avvio
+## <a name="initiate-phase"></a>Fase di avvio
 
-Dopo aver acquistato il numero appropriato di licenze, attenersi alle istruzioni nel messaggio di conferma dell'acquisto per associare le licenze al tenant esistente o a un tenant nuovo. Microsoft verificherà l'idoneità per FastTrack Center Benefit e contatterà l'utente per offrire assistenza durante il processo di caricamento. È anche possibile richiedere assistenza da parte di [FastTrack Center](http://fasttrack.microsoft.com/) se si è pronti per distribuire questi servizi per l'organizzazione.
+Dopo aver acquistato il numero appropriato di licenze, attenersi alle istruzioni nel messaggio di conferma dell'acquisto per associare le licenze al tenant esistente o a un tenant nuovo. Microsoft verifica l'idoneità per FastTrack Center Benefit e tenta di contattare l'utente per offrire assistenza durante il processo di caricamento. È anche possibile richiedere assistenza da parte di [FastTrack Center](http://fasttrack.microsoft.com/) se si è pronti per distribuire questi servizi per l'organizzazione.
 
-Per richiedere assistenza, accedere a [FastTrack Center](http://fasttrack.microsoft.com/) (http://fasttrack.microsoft.com) con il proprio account aziendale o dell'istituto di istruzione, fare clic sull'azienda (o aggiungerla, se necessario), fare clic sulla scheda dei servizi e scegliere l'opzione per richiedere assistenza per Microsoft Intune o Azure Active Directory Premium. Una volta contattato il supporto tecnico di onboarding, verrà impostata la pianificazione di riunioni online.
+Per richiedere assistenza, accedere a [FastTrack Center](http://fasttrack.microsoft.com/) con l'account aziendale o dell'istituto di istruzione, andare al dashboard, espandere **Richiesta di assistenza** a sinistra dello schermo, quindi seguire le istruzioni visualizzate per completare la richiesta. Una volta contattata l'assistenza per il processo di caricamento, verrà definita una programmazione di riunioni online.
 
-Durante questa fase verrà illustrato il processo di onboarding, verranno verificati i dati e verrà impostata la riunione iniziale.
+Durante questa fase viene illustrato il processo di caricamento, vengono verificati i dati e viene organizzata la riunione iniziale.
 
 ![Fase di avvio del caricamento](./media/ft-initiate-phase.png)
 
-## Fase di valutazione
+## <a name="assess-phase"></a>Fase di valutazione
 
-Una volta avviato il processo di onboarding, Microsoft assisterà l'utente nel valutare l'ambiente di origine e i requisiti. Verranno eseguiti strumenti per valutare l'ambiente e Microsoft guiderà l'utente nella valutazione di Active Directory locale, browser Internet, sistemi operativi dei dispositivi client, DNS, rete, infrastruttura e sistema di identità, qualora fossero necessarie modifiche per l'onboarding.
+Una volta avviato il processo di caricamento, Microsoft offre assistenza all'utente per valutare l'ambiente di origine e i requisiti. Vengono eseguiti strumenti per valutare l'ambiente e Microsoft guida l'utente nella valutazione di Active Directory locale, browser Internet, sistemi operativi dei dispositivi client, DNS (Domain Name System), rete, infrastruttura e sistema di identità, qualora fossero necessarie modifiche per il caricamento.
 
-Microsoft offrirà anche informazioni aggiuntive su come adottare correttamente i servizi idonei.
+Microsoft offre anche informazioni aggiuntive su come adottare correttamente i servizi idonei.
 
-In base all'installazione corrente, verrà suggerito un piano di correzione in modo che l'ambiente di origine sia conforme ai requisiti minimi per garantire il caricamento di EMS o dei sui singoli servizi cloud. Verranno inoltre stabilite delle chiamate di controllo appropriate per la fase di correzione.
+In base all'installazione corrente, viene suggerito un piano di correzione in modo che l'ambiente di origine sia conforme ai requisiti minimi per garantire il caricamento corretto di EMS o dei sui singoli servizi cloud. Vengono inoltre concordate delle chiamate di controllo appropriate per la fase di correzione.
 
 ![Fase di valutazione del caricamento](./media/ft-assess-phase.png)
 
-## Fase di correzione
-Se necessario, l'utente eseguirà le attività previste nel piano di correzione nell'ambiente di origine, in modo da soddisfare i requisiti per il caricamento e l'adozione di ogni servizio.
+## <a name="remediate-phase"></a>Fase di correzione
+L'utente esegue le attività previste nel piano di correzione nell'ambiente di origine, in modo da soddisfare i requisiti per il caricamento e l'adozione di ogni servizio, come necessario.
 
 ![Fase di correzione del caricamento](./media/ft-remediate-phase.png)
 
-Prima di iniziare la fase di abilitazione, verranno verificati i risultati delle attività di correzione per essere certi che l'utente sia pronto a procedere.
+Prima di iniziare la fase di abilitazione, vengono verificati i risultati delle attività di correzione per essere certi che l'utente sia pronto a procedere.
 
-## Fase di abilitazione
+## <a name="enable-phase"></a>Fase di abilitazione
 Dopo aver completato tutte le attività di correzione, il progetto passa alla configurazione dell'infrastruttura principale, richiesta per l'uso del servizio e il provisioning di ogni servizio cloud EMS idoneo.
 
 **Fase di abilitazione - Funzionalità di base**
 
-L'onboarding di base prevede il provisioning di servizi e l'integrazione di identità e tenant. Include anche la procedura per definire una base per l'onboarding di servizi online come Azure Active Directory Premium e Microsoft Intune.
+L'onboarding di base prevede il provisioning di servizi e l'integrazione di identità e tenant. Include anche la procedura per definire una base per il caricamento di servizi online come Azure AD Premium e Intune.
 
 ![Fase di abilitazione del caricamento: funzionalità di base](./media/ft-enable-phase-core-01.png)
 
 ![Fase di abilitazione del caricamento: funzionalità di base](./media/ft-enable-phase-core-02.png)
 
-### Fase di abilitazione: Azure Active Directory Premium
+### <a name="enable-phase---azure-ad-premium"></a>Fase di abilitazione – Azure AD Premium
 
-L'ambiente di Azure Active Directory Premium può essere configurato usando la sincronizzazione delle directory di Azure Active Directory Connect e Active Directory Federation Services (AD FS), se necessario.
+L'ambiente di Azure AD Premium può essere configurato usando la sincronizzazione delle directory di Azure Active Directory Connect e Active Directory Federation Services (AD FS), se necessario.
 
-Per gli scenari di Azure Active Directory Premium che includono la sincronizzazione delle identità locali nel cloud, Microsoft supporterà l'utente aggiungendo amministratori IT e utenti alla sottoscrizione, configurando i prerequisiti di gestione, configurando Azure Active Directory Premium, impostando la sincronizzazione delle directory e Active Directory Federation Services (AD FS), usando lo strumento Azure Active Directory Connect, configurando utenti di test e convalidando i principali casi d'uso del servizio.
+Per gli scenari di Azure AD Premium che includono la sincronizzazione delle identità locali nel cloud, Microsoft supporterà l'utente aggiungendo gli amministratori IT e gli utenti alla sottoscrizione, configurando i prerequisiti di gestione, configurando Azure AD Premium, impostando la sincronizzazione delle directory e AD FS con lo strumento Azure AD Connect, configurando gli utenti di test e convalidando i casi di utilizzo di base per il servizio.
 
-L'installazione di Azure Active Directory Premium include l'abilitazione delle funzionalità seguenti:
+La configurazione di Azure AD Premium include l'abilitazione delle funzionalità seguenti:
 
 -   Reimpostazione della password self-service (SSPR).
 
 -   Azure Multi-Factor Authentication (Azure MFA).
 
--   Integrazione di un'applicazione software come servizio (SaaS) con Single Sign On (SSO) da [Azure Active Directory Marketplace](https://azure.microsoft.com/marketplace/active-directory/).
+-   Integrazione di un'applicazione SaaS (Software as a Service) con Single Sign On (SSO) da [Azure Active Directory Marketplace](https://azure.microsoft.com/marketplace/active-directory/).
 
 -   Schermata di accesso personalizzata, con logo, testo e immagini.
 
--   Self-service e gruppo dinamico (gruppi).
+-   Self-service e gruppi dinamici (gruppi).
 
 -   Proxy dell'applicazione Azure Active Directory.
 
@@ -96,28 +96,28 @@ L'installazione di Azure Active Directory Premium include l'abilitazione delle f
 
 -   Notifiche e avvisi amministrativi.
 
-![Fase di abilitazione del caricamento: AADP](./media/ft-enable-phase_aad-premium_adconnect_adfed.png)
+![Fase di abilitazione del caricamento - Azure AD Premium](./media/ft-enable-phase_aad-premium_adconnect_adfed.png)
 
-### Fase di abilitazione – Microsoft Intune
+### <a name="enable-phase---intune"></a>Fase di abilitazione - Intune
 
-In base alle esigenze di gestione dei dispositivi mobili e delle applicazioni mobili, verranno fornite informazioni su come usare Microsoft Intune per gestire i dispositivi. La procedura esatta dipende dall'ambiente di origine e può includere:
+Per Intune, l'utente viene guidato nei preparativi per l'uso di Microsoft Intune per gestire i dispositivi. La procedura esatta dipende dall'ambiente di origine ed è basata sul dispositivo mobile in uso e sulle esigenze di gestione delle app mobili. Le operazioni necessarie possono includere:
 
--   Concessione di licenze agli utenti finali. Se necessario, verrà fornita anche assistenza su come attivare i contratti multilicenza per il tenant del servizio cloud Microsoft.
+-   Concessione di licenze agli utenti finali. Verrà fornita anche assistenza su come attivare i contratti multilicenza per il tenant del servizio cloud Microsoft, se necessario.
 
--   Configurazione delle identità da usare con Microsoft Intune, tramite Active Directory locale o le identità cloud.
+-   Configurazione delle identità da usare con Intune, tramite Active Directory locale o le identità cloud.
 
--   Aggiunta di utenti alla sottoscrizione di Microsoft Intune, definizione dei ruoli di amministratore IT e creazione di gruppi di utenti e di dispositivi.
+-   Aggiunta di utenti alla sottoscrizione di Intune, definizione dei ruoli di amministratore IT e creazione di gruppi di utenti e di dispositivi.
 
--   Configurazione dell'autorità di gestione dei dispositivi mobili in base alle specifiche esigenze di gestione:
+-   Configurazione dell'autorità di gestione dei dispositivi mobili (MDM, Mobile Device Management) in base alle specifiche esigenze di gestione:
 
-    -   Impostare Microsoft Intune come autorità MDM quando è l'unica soluzione MDM o è in combinazione con Gestione di dispositivi mobili per Office 365.
+    -   Impostazione di Intune come autorità MDM quando è l'unica soluzione MDM o è in combinazione con Gestione di dispositivi mobili per Office 365.
 
-    -   Se è presente un'implementazione esistente di System Center Configuration Manager e si vogliono espandere le funzionalità di gestione con Microsoft Intune, impostare Configuration Manager come autorità MDM.
+    -   Impostazione di System Center Configuration Manager come autorità MDM se è presente un'implementazione esistente di Configuration Manager e si vogliono espandere le funzionalità di gestione con Intune.
 
         > [!NOTE]
-        > Se si vuole solo usare Gestione di applicazioni mobili nei dispositivi di proprietà degli utenti finali, nei dispositivi condivisi o nei dispositivi di tipo chiosco multimediale, la configurazione di un'autorità MDM non è necessaria.
+        > Se si vuole solo usare MDM per i dispositivi di proprietà degli utenti finali, i dispositivi condivisi o i dispositivi di tipo chiosco multimediale, la configurazione di un'autorità MDM non è necessaria.
 
--   Se Gestione di dispositivi mobili rientra nel proprio ambito, verranno fornite istruzioni su:
+-   Distribuzione di indicazioni relative a MDM per le attività seguenti:
 
     -   Configurazione dei gruppi di test da usare per la convalida dei criteri di gestione MDM.
 
@@ -127,13 +127,13 @@ In base alle esigenze di gestione dei dispositivi mobili e delle applicazioni mo
 
         -   Criteri di accesso condizionale.
 
-        -   Distribuzione di profili di posta elettronica, Wi-Fi e VPN.
+        -   Distribuzione di posta elettronica, reti wireless e profili VPN se si ha un'infrastruttura di Autorità di certificazione esistente, Wi-Fi o VPN nella propria organizzazione.
 
         -   Configurazione di Microsoft Intune Exchange Connector, quando applicabile.
 
-    -   Registrazione dei dispositivi di ogni [piattaforma supportata](https://technet.microsoft.com/library/dn600287.aspx) in Microsoft Intune o in Configuration Manager con il servizio Microsoft Intune.
+    -   Registrazione dei dispositivi di ogni [piattaforma supportata](https://technet.microsoft.com/library/dn600287.aspx) in Microsoft Intune o in Configuration Manager con il servizio Intune.
 
--   Se Gestione di applicazioni mobili (MAM) rientra nel proprio ambito o se si vuole integrare la soluzione MDM Microsoft o di terze parti esistente con i criteri MAM, verranno fornite istruzioni su:
+-   Distribuzione di indicazioni relative alla gestione delle app mobili (MAM) per:
 
     -   Configurazione dei criteri MAM per ogni piattaforma supportata.
 
@@ -143,13 +143,13 @@ In base alle esigenze di gestione dei dispositivi mobili e delle applicazioni mo
 
     -   Uso dei report sull'utilizzo delle applicazioni gestite.
 
--   Se la gestione del PC rientra nel proprio ambito, verranno fornite istruzioni su:
+-   Distribuzione di indicazioni relative alla gestione dei PC per:
 
     -   Installazione del software client di Intune, se necessario.
 
     -   Uso dei report sul software e l'hardware disponibili in Intune.
 
-Microsoft offrirà anche informazioni aggiuntive su come adottare correttamente i servizi idonei.
+Microsoft offre anche informazioni aggiuntive su come adottare correttamente i servizi idonei.
 
 ![Fase di abilitazione del caricamento: Intune](./media/ft-enable-phase_intune_mam.png)
 
@@ -162,6 +162,7 @@ Microsoft offrirà anche informazioni aggiuntive su come adottare correttamente 
 [Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
 
 
-<!--HONumber=Oct16_HO3-->
+
+<!--HONumber=Nov16_HO4-->
 
 

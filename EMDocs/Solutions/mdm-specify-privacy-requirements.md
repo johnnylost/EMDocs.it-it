@@ -1,39 +1,39 @@
 ---
 title: Specificare i requisiti di privacy
-description: Requisiti di privacy comuni per uno scenario di gestione di dispositivi mobili.
+description: Questo articolo include una serie di requisiti comuni sulla privacy da usare in uno scenario di gestione di dispositivi mobili (MDM).
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/18/2016
-ms.topic: solution
+ms.date: 11/28/2016
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: d02d3ec2-706a-4e03-977c-b7c06cbd4ebd
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
-ms.openlocfilehash: 40d3d98d70bdf81fc003725acbf6efb19d4d23fe
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: 14f3c9958c2c959df8c6537728e8237a1f226760
 
 
 ---
 
-# Specificare i requisiti di privacy
+# <a name="specify-your-privacy-requirements"></a>Specificare i requisiti di privacy
 
 >[!NOTE]
 >Questo argomento fa parte di una guida più ampia dedicata alle considerazioni di progettazione. Per leggere la guida dall'inizio, vedere l'[argomento principale](mdm-design-considerations-guide.md). Per scaricare una copia della versione integrale della guida, visitare la raccolta [TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
 
-Nel passaggio precedente si sono definite le attività di gestione dei dispositivi, inclusa la gestione dei dispositivi e della distribuzione dei contenuti. L'obiettivo di questa attività consiste nel definire i requisiti di privacy per i contenuti aziendali presenti nel dispositivo mobile. 
+Nel passaggio precedente si sono definite le attività di gestione dei dispositivi, inclusa la gestione dei dispositivi e della distribuzione dei contenuti. L'obiettivo di questa attività consiste nel definire i requisiti di privacy per i contenuti aziendali presenti nel dispositivo mobile.
 
->[!TIP] 
+>[!TIP]
 > Per altre informazioni sulla distribuzione dei contenuti per i dispositivi mobili, leggere la soluzione Gestione semplificata per dispositivi mobili e computer in un ambiente ibrido.
 
-I requisiti aziendali relativi a privacy e conformità variano in base al settore, alle normative applicabili e al tipo di azienda. Può essere utile, ad esempio, che la soluzione MDM consenta di eseguire inventari hardware di base, inventari software, raccolte di file e distribuzione di software su dispositivi mobili. La distribuzione di software e l'inventario hardware in genere sono supportati per impostazione predefinita. 
+I requisiti aziendali relativi a privacy e conformità variano in base al settore, alle normative applicabili e al tipo di azienda. Può essere utile, ad esempio, che la soluzione MDM consenta di eseguire inventari hardware di base, inventari software, raccolte di file e distribuzione di software su dispositivi mobili. La distribuzione di software e l'inventario hardware in genere sono supportati per impostazione predefinita.
 
-Tenere presente che i problemi di privacy applicabili ai computer client per l'inventario e la distribuzione di software si applicano anche ai dispositivi mobili. 
+Tenere presente che i problemi di privacy applicabili ai computer client per l'inventario e la distribuzione di software si applicano anche ai dispositivi mobili.
 
 Prima di scegliere una soluzione di gestione di dispositivi mobili, considerare i propri requisiti specifici di privacy. come illustrato nell'esempio seguente:
 
@@ -41,7 +41,7 @@ Prima di scegliere una soluzione di gestione di dispositivi mobili, considerare 
     - È necessario che gli utenti leggano l'informativa sulla privacy della società e cosa dovrebbe includere?
         - In caso affermativo, la soluzione MDM prevede la possibilità di mettere a disposizione degli utenti un'informativa sulla privacy?
     - La soluzione MDM archivia nel cloud le informazioni o i dati dei dispositivi mobili degli utenti?
-        - In caso affermativo, in che modo viene gestita la privacy degli utenti nel cloud? 
+        - In caso affermativo, in che modo viene gestita la privacy degli utenti nel cloud?
 - Chi ha accesso ai loro dati?
 - In che modo i dati vengono mantenuti privati?
 - Classificazione dei dati e conformità: è importante definire cosa si intende per dati aziendali e in che modo verranno protetti. I criteri e i meccanismi per la classificazione dei dati dovrebbero essere parte del piano per garantire la privacy nell'ambito della gestione dei dispositivi mobili.
@@ -56,6 +56,6 @@ Leggere l'[informativa sulla privacy di Microsoft Online Services](http://www.mi
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO4-->
 
 

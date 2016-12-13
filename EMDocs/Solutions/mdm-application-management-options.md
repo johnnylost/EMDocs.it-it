@@ -1,26 +1,26 @@
 ---
 title: Opzioni di gestione delle applicazioni
-description: 
+description: "Questo articolo illustra le funzionalità di gestione di applicazioni mobili (MAM) in Intune autonomo o ibrido per consentire ai clienti di proteggere i dati in dispositivi aziendali o personali (BYOD)."
 keywords: 
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 1f77eba2-8e27-4e08-b2f2-e71e3d776cf4
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 2236a337c57c7fede4aed6830ab99d4ee7df3c9b
+ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
+ms.openlocfilehash: 58270148fda3f3b3bb407055abff962ae86f1a14
 
 
 ---
 
-# Opzioni di gestione delle applicazioni
+# <a name="application-management-options"></a>Opzioni di gestione delle applicazioni
 
 >[!NOTE]
 >Questo argomento fa parte di una guida più ampia dedicata alle considerazioni di progettazione. Per leggere la guida dall'inizio, vedere l'[argomento principale](mdm-design-considerations-guide.md). Per scaricare una copia della versione integrale della guida, visitare la raccolta [TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
@@ -31,7 +31,7 @@ Come illustrato nella figura seguente, se è già in uso una soluzione per la ge
 
 ![Panoramica della separazione della gestione delle applicazioni per dispositivi mobili con i criteri del software MAM di Intune](./media/Intune_without_enrollment.png)
 
-**Panoramica della separazione della gestione delle applicazioni per dispositivi mobili con i criteri del software MAM di Intune**
+**Panoramica della separazione della gestione delle applicazioni per dispositivi mobili con i criteri della gestione di applicazioni mobili di Intune**
 
 Le funzionalità di MAM di Intune non sostituiscono un'intera soluzione MDM. Il protocollo MDM è necessario per gli scenari di gestione completa dei dispositivi, come VPN, Wi-Fi, gestione dei certificati, distribuzione di applicazioni e configurazione delle impostazioni di sicurezza a livello di dispositivo.
 
@@ -39,9 +39,7 @@ Nelle distribuzioni ibride con Configuration Manager e Intune è possibile usare
 
 In base alle risposte date alle domande del passaggio 1, l'utente dovrebbe essere in grado di determinare in che modo vuole che siano gestite le applicazioni nella soluzione di gestione dei dispositivi mobili. Gli elenchi riportati di seguito indicano i vantaggi e gli svantaggi di ogni opzione di gestione delle app.
 
-## Intune (autonomo)
-
-**Vantaggi**
+## <a name="intune-standalone"></a>Intune (autonomo)
 
 - Supporta la gestione delle applicazioni sui dispositivi registrati in Intune, sui dispositivi registrati in altre soluzioni di gestione o sui dispositivi non registrati in alcuna soluzione di gestione
 - Isola i dati aziendali dai dati personali degli utenti all'interno delle applicazioni con supporto predefinito per Intune Sono incluse le app di Office Mobile, le app di terze parti che hanno adottato l’SDK di Intune e le app line-of-business integrate in Intune
@@ -49,17 +47,13 @@ In base alle risposte date alle domande del passaggio 1, l'utente dovrebbe esser
 - Criteri chiave di prevenzione della perdita di dati, come PIN per app, controlli salvataggio con nome e condivisione di dati gestiti tra app
 - Supporto per queste funzionalità in Microsoft Word, Excel, PowerPoint, Outlook, OneNote e OneDrive for Business
 - Gestione delle app per iOS acquistate attraverso il programma Volume Purchase Program di Apple per le aziende
-- Supportato nei dispositivi Android e iOS
+- Supportato in dispositivi Android, iOS e Windows 10 tramite la funzionalità predefinita [Windows Information Protection](https://technet.microsoft.com/itpro/windows/keep-secure/protect-enterprise-data-using-wip).
 
-**Svantaggi**
-
-- Non è supportato nel dispositivi Windows Phone
-
-## Gestione dei dispositivi mobili per Office 365
+## <a name="mdm-for-office-365"></a>Gestione dei dispositivi mobili per Office 365
 
 - Non supportata attualmente
 
-## Ibrida (Intune con Configuration Manager)
+## <a name="hybrid-intune-with-configmgr"></a>Ibrida (Intune con Configuration Manager)
 
 **Vantaggi**
 
@@ -74,6 +68,6 @@ Per informazioni dettagliate sulle opzioni di gestione delle applicazioni mobili
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

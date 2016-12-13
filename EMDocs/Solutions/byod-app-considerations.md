@@ -1,27 +1,27 @@
 ---
 title: Considerazioni sulle app
-description: Considerazioni sulla progettazione per le app in uno scenario BYOD.
+description: Questo articolo include una serie di considerazioni sulla progettazione delle app da usare in uno scenario Bring Your Own Device (BYOD).
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/18/2016
-ms.topic: solution
+ms.date: 11/28/2016
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 4b871c74-fec8-45e2-8b45-6ef0e62f7cc6
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
-ms.openlocfilehash: 09044a31ace0ea1409599abcc70dba857e45a8af
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: 2e00204f4be8183fdb8502e13b1ef06d1b7df084
 
 
 ---
 
 
-# Considerazioni sulle app
+# <a name="app-considerations"></a>Considerazioni sulle app
 
 Le considerazioni sulle app per il BYOD possono variare in base agli obiettivi aziendali, ai vincoli e alle risorse. Le aziende devono valutare le app esistenti, le tecnologie usate per lo sviluppo delle app, i requisiti per l'esecuzione delle app in qualsiasi dispositivo e quali app sono essenziali per consentire agli utenti l'accesso da qualsiasi posizione. Anche se il provisioning e la distribuzione delle app moderne non richiedono un elevato utilizzo di risorse rispetto alle app basate su Windows, per lo sviluppo e la gestione di queste app è comunque previsto un costo.
 
@@ -34,14 +34,14 @@ Per le app sviluppate in modo specifico per gli scenari BYOD esistono dei criter
 
 Per altre informazioni sugli aspetti generali da considerare durante la creazione di app per dispositivi mobili, vedere le [10 considerazioni per la creazione di app per dispositivi mobili per le aziende](https://www.microsoft.com/en-gb/developers/articles/week01jan14/10-considerations-when-creating-mobile-apps-for-business).
 
-## Esperienza
+## <a name="experience"></a>Esperienza
 
 Per ottimizzare l'esperienza utente basata sulla piattaforma su cui verranno eseguite le app e sulla strategia di distribuzione, l'azienda deve identificare quali app pubblicare e come. Se l'ambiente è eterogeneo e alcuni dispositivi verranno supportati dall'azienda, una strategia consiste nel pubblicare le app tramite il portale aziendale. Fondamentalmente, le decisioni aziendali determineranno le considerazioni per l'esperienza utente. L'azienda intende sviluppare app che forniranno la stessa esperienza indipendentemente dalla piattaforma o intende offrire agli utenti la formazione per usare le app in piattaforme diverse senza avere la stessa esperienza?
 Considerare il costo e il ritorno sugli investimenti per ogni caso menzionato nel paragrafo precedente. Si potrebbe provare a consolidare tutte le app in una pagina principale del portale Web per fornire la stessa esperienza ma il comportamento delle app risulterebbe comunque diverso a seconda della piattaforma.
 
 Considerando che le app per gli utenti remoti devono essere eseguite su più di una piattaforma, essere quanto più semplici possibile e richiedere il minimo accesso ai dispositivi degli utenti, è consigliabile ridurre le opzioni per le app basate sul Web e le app moderne. La sezione seguente consente di determinare quale esperienza app risulta più appropriata per la soluzione da progettare.
 
-### Opzioni di esperienze app: vantaggi e svantaggi
+### <a name="app-experience-options-advantages-and-disadvantages"></a>Opzioni di esperienze app: vantaggi e svantaggi
 
 Usare l'elenco che segue per comprendere i vantaggi e gli svantaggi di ogni opzione di esperienza app:
 
@@ -70,7 +70,7 @@ Usare l'elenco che segue per comprendere i vantaggi e gli svantaggi di ogni opzi
         - Potrebbe richiedere agli sviluppatori di ampliare le proprie conoscenze sullo sviluppo delle app con questo nuovo formato.
 
 
-### Requisiti delle app e considerazioni
+### <a name="app-requirements-considerations"></a>Requisiti delle app e considerazioni
 
 Considerare le app che verranno adattate per poter essere usate sui dispositivi degli utenti remoti e assicurarsi che questi requisiti vengano comunicati agli utenti. Di seguito sono elencati i requisiti delle app con le relative considerazioni:
 
@@ -92,13 +92,13 @@ Considerare le app che verranno adattate per poter essere usate sui dispositivi 
 
 Per migliorare l'esperienza utente, è consigliabile categorizzare tutte le app in base agli standard del team di sviluppo per evitare che gli utenti debbano scorrere centinaia di app.
 
-## Piattaforma
+## <a name="platform"></a>Piattaforma
 
 Quando ci si occupa dell'esperienza utente, è normale valutare diverse piattaforme per determinare quella che l'azienda è disposta a supportare. Molte volte, consentendo agli utenti di usare i propri dispositivi, significa creare un ecosistema eterogeneo e il reparto IT potrebbe non essere pronto per supportare tale ecosistema.
 
 Ogni piattaforma prevede requisiti diversi per la firma e la pubblicazione delle app, che influiscono direttamente sulle risorse IT in quanto il reparto IT deve valutare l'intero ciclo di vita delle app in esecuzione su una piattaforma specifica. È anche necessario accedere ai requisiti della piattaforma delle app per una soluzione di infrastruttura BYOD. La sezione seguente include considerazioni importanti sui requisiti della piattaforma dell'app.
 
-### Requisiti della piattaforma dell'app: considerazioni
+### <a name="app-platform-requirements-considerations"></a>Requisiti della piattaforma dell'app: considerazioni
 
 Di seguito sono elencati i requisiti della piattaforma dell'app con le relative considerazioni:
 
@@ -127,11 +127,11 @@ Le app con collegamento diretto possono ridurre il sovraccarico amministrativo, 
 
 Le risposte variano in base allo stato attuale della strategia di distribuzione dell'azienda e a come deve evolversi se si sceglie di usare Windows Store. Tenere presente che Windows Store è un sistema di distribuzione digitale ed è la piattaforma di distribuzione principale per le app moderne in Windows 10, Windows 8.1, Windows 8 e Windows RT. Tuttavia, è possibile usare Windows Store per visualizzare l'elenco di app desktop certificate per l'esecuzione in dispositivi basati su Windows 8. Per altre informazioni sulle app di cui è stato eseguito il sideload, vedere [Prova pratica: sideload delle applicazioni Windows Store](https://technet.microsoft.com/windows/jj874388.aspx).
 
-## Distribuzione
+## <a name="deployment"></a>Distribuzione
 
 Per valutare le considerazioni sulle app che verranno distribuite agli utenti, è necessario comprendere i requisiti relativi all'accesso aziendale. Gli scenari di distribuzione includono le app che devono essere sempre connesse alle risorse aziendali, anche se gli utenti non necessitano dell'accesso alle altre risorse aziendali o dell'accesso completo a tutte le risorse aziendali all'interno della rete aziendale. Verificare le opzioni di distribuzione per ogni app e valutare il metodo preferibile per l'azienda. La sezione che segue include le opzioni di distribuzione più comuni che è possibile usare come punto di riferimento decisionale.
 
-### Opzioni di distribuzione: vantaggi e svantaggi
+### <a name="deployment-options-advantages-and-disadvantages"></a>Opzioni di distribuzione: vantaggi e svantaggi
 
 Usare l'elenco che segue per comprendere i vantaggi e gli svantaggi di ogni opzione di distribuzione:
 
@@ -163,7 +163,7 @@ Usare l'elenco che segue per comprendere i vantaggi e gli svantaggi di ogni opzi
         - È richiesta in genere una sottoscrizione al servizio cloud.
         - L'integrazione con la soluzione di distribuzione locale può variare in base al servizio cloud.
 
-### Requisiti di distribuzione delle app: considerazioni
+### <a name="app-deployment-requirements-considerations"></a>Requisiti di distribuzione delle app: considerazioni
 
 È necessario anche accedere ai requisiti di distribuzione delle app per una soluzione di infrastruttura BYOD. L'elenco che segue include alcune considerazioni importanti sulla distribuzione delle app:
 
@@ -185,7 +185,7 @@ La funzionalità di [VPN ad attivazione automatica in Windows 10](http://blogs.t
 
 Se l'azienda sta adottando Windows Phone e vuole consentire agli utenti di usare le app LOB per questa piattaforma, è consigliabile iniziare a comprendere il processo di registrazione delle app. Le aziende devono eseguire alcuni passaggi per creare un account aziendale, registrare i dispositivi e distribuire le app ai dispositivi registrati. Per altre informazioni sulla distribuzione di app di Windows Phone, vedere [Distribuzione di app aziendali per Windows Phone](https://msdn.microsoft.com/library/windowsphone/develop/jj206943(v=vs.105).aspx).
 
-## Archiviazione e rete
+## <a name="storage-and-network"></a>Archiviazione e rete
 
 Le considerazioni sulle app in merito ad archiviazione e rete possono influire sia sui server app che sui dispositivi. Quando si iniziano a considerare questi due componenti essenziali per le app, sorgono le domande seguenti:
 
@@ -196,7 +196,7 @@ Le considerazioni sulle app in merito ad archiviazione e rete possono influire s
 
 La sezione che segue include considerazioni importanti sui requisiti di archiviazione e rete per le app.
 
-### Requisiti di archiviazione e rete per le app: considerazioni
+### <a name="app-storage-and-network-requirementsconsiderations"></a>Requisiti di archiviazione e rete per le app: considerazioni
 
 L'elenco che segue agevola la comprensione dei vantaggi e degli svantaggi di ogni requisito di archiviazione e rete per le app e delle relative considerazioni:
 
@@ -231,7 +231,7 @@ Per altre informazioni su VDI in Windows Server 2012 R2, vedere [Novità di Serv
 
 La decisione di quale esperienza e distribuzione delle app verrà usata per il progetto di infrastruttura BYOD deve essere bilanciata con il costo totale di proprietà. Per comprendere meglio il costo totale di proprietà per l'adozione dell'infrastruttura VDI, è consigliabile leggere il white paper [VDI TCO Analysis for Office Worker Environments](http://www.intel.in/content/www/in/en/data-center-efficiency/data-center-efficiency-vdi-tco-analysis-for-office-worker-environments-report.html) (Analisi del costo totale di proprietà dell'infrastruttura VDI per ambienti di ufficio).
 
-## Sicurezza
+## <a name="security"></a>Sicurezza
 
 Valutare di usare un ciclo di vita dello sviluppo della sicurezza per tutte le app che verranno utilizzate dagli utenti sui propri dispositivi. La sicurezza deve essere incorporata in tutte le fasi del processo di sviluppo e devono essere prese in considerazione tutte le minacce potenziali. [STRIDE](https://msdn.microsoft.com/magazine/cc163519.aspx) e altre strategie di sicurezza possono essere incorporate nel ciclo di vita dello sviluppo con [Microsoft Security Development Lifecycle (SDL)](https://www.microsoft.com/security/sdl/process/requirements.aspx). È importante considerare il modo in cui l'infrastruttura esistente verrà integrata con la strategia di sicurezza globale per il BYOD. L'ambiente esistente è in grado di fornire una base sicura per le app? L'azienda deve acquistare soluzioni sicure di terze parti per ridurre qualsiasi vulnerabilità potenziale che questa nuova scelta può creare?
 
@@ -239,6 +239,6 @@ Le considerazioni sulla sicurezza sono importanti per le app che verranno utiliz
 
 
 
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO4-->
 
 

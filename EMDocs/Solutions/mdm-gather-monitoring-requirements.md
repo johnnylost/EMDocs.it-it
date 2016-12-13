@@ -1,33 +1,33 @@
 ---
 title: Raccogliere informazioni sui requisiti di monitoraggio
-description: 
+description: Questo articolo consente di identificare le opzioni di monitoraggio della gestione di dispositivi mobili per la pianificazione e la progettazione di una soluzione di gestione di dispositivi mobili Microsoft tramite Enterprise Mobility + Security.
 keywords: 
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: ac136523-8089-409b-b74d-2d4c0ce399d4
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: b1065b6f491c528807fd593b352026669287ae89
+ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
+ms.openlocfilehash: 2a03416cf8255a29c0394746b3d5285057163d15
 
 
 ---
 
-# Raccogliere i requisiti di monitoraggio
+# <a name="gather-monitoring-requirements"></a>Raccogliere informazioni sui requisiti di monitoraggio
 
 >[!NOTE]
 >Questo argomento fa parte di una guida più ampia dedicata alle considerazioni di progettazione. Per leggere la guida dall'inizio, vedere l'[argomento principale](mdm-design-considerations-guide.md). Per scaricare una copia della versione integrale della guida, visitare la raccolta [TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
 Il monitoraggio e l'acquisizione di informazioni sullo stato e sugli eventi dei dispositivi mobili è fondamentale per garantire che gli utenti e i dispositivi siano conformi ai criteri aziendali e alla strategia di sicurezza. Questo è particolarmente importante per le organizzazioni che devono garantire la conformità ai requisiti normativi governativi e alle linee guida di conformità del settore.
 
-La creazione di report aiuta anche a raccogliere informazioni utili su software, hardware e licenze software dell'organizzazione per facilitare la gestione dell'inventario. 
+La creazione di report aiuta anche a raccogliere informazioni utili su software, hardware e licenze software dell'organizzazione per facilitare la gestione dell'inventario.
 
 È necessario essere consapevoli dell'importanza della privacy degli utenti quando si stabiliscono le linee guida per il monitoraggio e la creazione di report, specialmente quando gli utenti possono registrare i propri dispositivi personali nella soluzione di gestione dei dispositivi mobili dell'organizzazione. L'organizzazione non dovrebbe essere in grado di acquisire, monitorare, segnalare o condividere eventuali attività o informazioni personali.
 
@@ -36,7 +36,7 @@ In generale, le soluzioni di gestione dei dispositivi mobili dividono il monitor
 - **Registrazione:** acquisizione e archiviazione delle informazioni e dello stato dei dispositivi mobili e delle relative applicazioni.
 - **Creazione di report:** visualizzazione di report o notifiche, inclusi report standard e personalizzabili, che possono essere creati su richiesta, e report automatici di riepilogo e di stato del dashboard.
 
-## Domande sulla pianificazione del monitoraggio
+## <a name="monitoring-planning-questions"></a>Domande sulla pianificazione del monitoraggio
 
 Rispondere alle domande seguenti relative alla pianificazione del monitoraggio dei dispositivi:
 
@@ -54,12 +54,12 @@ Rispondere alle domande seguenti relative alla pianificazione del monitoraggio d
 - Sono necessari report personalizzati, su richiesta?
 - Quando viene annullata la registrazione di un dispositivo, è necessario acquisire eventi specifici relativi all'inventario e alla creazione di report?
 - Dopo che è stata annullata la registrazione di un dispositivo, è necessario archiviare/conservare gli eventi legacy relativi all'inventario e alla creazione di report?
- 
+
 >[!TIP]
 >Assicurarsi di prendere appunti per ogni risposta e di comprendere la logica alla base della risposta. Le attività successive esamineranno le opzioni disponibili e i vantaggi e svantaggi di ogni opzione.  Rispondere a queste domande consentirà di selezionare l'opzione più adatta alle esigenze aziendali.
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

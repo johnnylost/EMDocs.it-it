@@ -1,26 +1,26 @@
 ---
 title: Opzioni di gestione dei dispositivi
-description: 
+description: Questo articolo include materiale sussidiario sulle opzioni di gestione dei dispositivi quando si pianifica e di progetta una soluzione di gestione di dispositivi mobili tramite Enterprise Mobility + Security.
 keywords: 
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: a25f7407-92a0-4588-b5f7-a7bad9cdd070
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 93e88e3b36f2f247978981d2af381d30c6d79f5b
+ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
+ms.openlocfilehash: 3e930a5a9a39b15a4ce39c5cfa1e37038917f842
 
 
 ---
 
-# Opzioni di gestione dei dispositivi
+# <a name="device-management-options"></a>Opzioni di gestione dei dispositivi
 
 >[!NOTE]
 >Questo argomento fa parte di una guida più ampia dedicata alle considerazioni di progettazione. Per leggere la guida dall'inizio, vedere l'[argomento principale](mdm-design-considerations-guide.md). Per scaricare una copia della versione integrale della guida, visitare la raccolta [TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
@@ -42,7 +42,7 @@ La gestione dei dispositivi mobili con Intune e Configuration Manager è incentr
 
 Le risposte alle domande nel passaggio 1 aiutano a decidere in che modo verranno registrati i dispositivi nella soluzione adottata per la gestione dei dispositivi mobili. La tabella seguente aiuta a comprendere i vantaggi e gli svantaggi di ogni scenario di gestione.
 
-## Intune (autonomo)
+## <a name="intune-standalone"></a>Intune (autonomo)
 
 **Vantaggi**
 
@@ -62,7 +62,7 @@ Le risposte alle domande nel passaggio 1 aiutano a decidere in che modo verranno
 
 - Requisiti e costi di licenza aggiuntivi per gli account utente che eseguono la registrazione dei dispositivi nel servizio Intune
 
-## Gestione dei dispositivi mobili per Office 365
+## <a name="mdm-for-office-365"></a>Gestione dei dispositivi mobili per Office 365
 
 **Vantaggi**
 
@@ -82,7 +82,7 @@ Le risposte alle domande nel passaggio 1 aiutano a decidere in che modo verranno
  - Estensione sicura dei dati aziendali ad app line-of-business per dispositivi mobili
  - Browser gestiti o altre applicazioni per la visualizzazione di contenuti
 
-## Ibrida (Intune con Configuration Manager)
+## <a name="hybrid-intune-with-configmgr"></a>Ibrida (Intune con Configuration Manager)
 
 **Vantaggi**
 
@@ -98,6 +98,6 @@ Le risposte alle domande nel passaggio 1 aiutano a decidere in che modo verranno
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

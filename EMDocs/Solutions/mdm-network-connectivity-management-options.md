@@ -1,26 +1,26 @@
 ---
 title: "Opzioni di gestione della connettività di rete"
-description: 
+description: "Questo articolo include materiale sussidiario sulle opzioni di gestione della connettività della rete per la pianificazione e la progettazione di una soluzione di gestione di dispositivi mobili Microsoft tramite Enterprise Mobility + Security."
 keywords: 
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: bc7cdb8f-3485-45ae-9493-f840ad9ed3ea
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 32b586bde6be834a5b0d16cb9b46e7da23beb216
+ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
+ms.openlocfilehash: 856d2d2ba9968aa0f4a0da4f4afcbf452260e548
 
 
 ---
 
-# Opzioni di gestione della connettività di rete
+# <a name="network-connectivity-management-options"></a>Opzioni di gestione della connettività di rete
 
 >[!NOTE]
 >Questo argomento fa parte di una guida più ampia dedicata alle considerazioni di progettazione. Per leggere la guida dall'inizio, vedere l'[argomento principale](mdm-design-considerations-guide.md). Per scaricare una copia della versione integrale della guida, visitare la raccolta [TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
@@ -35,11 +35,11 @@ Le risposte alle domande nell'attività 3 aiutano a decidere in che modo si desi
 
 Gli elenchi che seguono descrivono i vantaggi e gli svantaggi della gestione delle reti wireless e VPN usando Intune autonomo e Intune ibrido con Configuration Manager.
 
-## Intune (autonomo)
+## <a name="intune-standalone"></a>Intune (autonomo)
 
 **Vantaggi**
 
-- Supporta i profili wireless e VPN per tutti i principali sistemi operativi per dispositivi mobili (Android, iOS, Windows 10, Windows 8.x e Windows Phone) 
+- Supporta i profili wireless e VPN per tutti i principali sistemi operativi per dispositivi mobili (Android, iOS, Windows 10, Windows 8.x e Windows Phone)
 - Supporta i tipi di connessione VPN leader del settore, tra cui Cisco, Juniper, Dell SonicWall, Checkpoint e altri ancora
 - I profili VPN e wireless possono essere integrati con i profili del certificato SCEP, per una maggiore sicurezza
 - Supporta la configurazione di profili wireless e VPN personalizzati per diversi tipi di utenti, dispositivi, sistemi operativi dei dispositivi o gruppi e ruoli degli utenti
@@ -51,11 +51,11 @@ Gli elenchi che seguono descrivono i vantaggi e gli svantaggi della gestione del
 
 - Per supportare i profili VPN, è necessario distribuire e gestire un'infrastruttura VPN locale
 
-## Gestione dei dispositivi mobili per Office 365
+## <a name="mdm-for-office-365"></a>Gestione dei dispositivi mobili per Office 365
 
 Il supporto per i criteri per Wi-Fi e VPN non è previsto in MDM per Office 365.
 
-## Ibrida (Intune con Configuration Manager)
+## <a name="hybrid-intune-with-configmgr"></a>Ibrida (Intune con Configuration Manager)
 
 **Vantaggi**
 
@@ -64,7 +64,7 @@ Il supporto per i criteri per Wi-Fi e VPN non è previsto in MDM per Office 365.
 
 **Svantaggi**
 
-- Per supportare i profili VPN, è necessario distribuire e gestire un'infrastruttura VPN locale 
+- Per supportare i profili VPN, è necessario distribuire e gestire un'infrastruttura VPN locale
 - È necessario concedere autorizzazioni di sicurezza specifiche per gestire i [profili Wi-Fi](https://technet.microsoft.com/library/dn408646.aspx) e i [profili VPN](https://technet.microsoft.com/library/dn408643.aspx) in Configuration Manager
 
 Esaminare i dettagli sulle opzioni di gestione della configurazione della posta elettronica per dispositivi mobili prendendo in considerazione gli elementi seguenti:
@@ -74,6 +74,6 @@ Esaminare i dettagli sulle opzioni di gestione della configurazione della posta 
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

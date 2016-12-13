@@ -1,33 +1,33 @@
 ---
 title: Autenticazione e autorizzazione
-description: Considerazioni di progettazione per l&quot;autenticazione e l&quot;autorizzazione per uno scenario di gestione di dispositivi mobili.
+description: Questo articolo include una serie di considerazioni sulla progettazione per l&quot;autenticazione e l&quot;autorizzazione da usare in uno scenario di gestione di dispositivi mobili (MDM).
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/18/2016
-ms.topic: solution
+ms.date: 11/28/2016
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 31b98333-5a3d-49ba-a25e-66447df68035
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
-ms.openlocfilehash: 989c899bc25ef28bea6d73f759998a70def1e659
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: ff3b086f2ad076776e7cff918ef4bb26161427fd
 
 
 ---
 
-# Autenticazione e autorizzazione
+# <a name="authentication-and-authorization"></a>Autenticazione e autorizzazione
 
 >[!NOTE]
 >Questo argomento fa parte di una guida più ampia dedicata alle considerazioni di progettazione. Per leggere la guida dall'inizio, vedere l'[argomento principale](mdm-design-considerations-guide.md). Per scaricare una copia della versione integrale della guida, visitare la raccolta [TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
-Per poter proteggere correttamente i dati aziendali, è necessario identificare l'identità degli utenti, quindi è possibile verificare che dispongano delle autorizzazioni di accesso alla risorsa richiesta. Le organizzazioni che hanno già servizi Active Directory locali attivi devono usarli per l'autenticazione e l'autorizzazione degli utenti mobili. Tutte le soluzioni Microsoft per la gestione dei dispositivi mobili possono usare un'infrastruttura di Active Directory esistente per eseguire questa operazione. 
+Per poter proteggere correttamente i dati aziendali, è necessario identificare l'identità degli utenti, quindi è possibile verificare che dispongano delle autorizzazioni di accesso alla risorsa richiesta. Le organizzazioni che hanno già servizi Active Directory locali attivi devono usarli per l'autenticazione e l'autorizzazione degli utenti mobili. Tutte le soluzioni Microsoft per la gestione dei dispositivi mobili possono usare un'infrastruttura di Active Directory esistente per eseguire questa operazione.
 
-Un altro aspetto da considerare per le decisioni relative all'autenticazione e all'autorizzazione riguarda la posizione in cui si troveranno i servizi di directory. La maggior parte delle organizzazioni userà servizi di Active Directory locali, ma alcune aziende potrebbero considerare la possibilità di estendere i servizi di directory locali con un servizio di directory basato su cloud come [Azure AD](http://azure.microsoft.com/documentation/articles/active-directory-whatis/). 
+Un altro aspetto da considerare per le decisioni relative all'autenticazione e all'autorizzazione riguarda la posizione in cui si troveranno i servizi di directory. La maggior parte delle organizzazioni userà servizi di Active Directory locali, ma alcune aziende potrebbero considerare la possibilità di estendere i servizi di directory locali con un servizio di directory basato su cloud come [Azure AD](http://azure.microsoft.com/documentation/articles/active-directory-whatis/).
 
 Configuration Manager consente di eseguire l'integrazione con [Microsoft Passport for Work](https://technet.microsoft.com/library/mt488797.aspx), un metodo di accesso alternativo che usa Active Directory o un account Azure Active Directory per sostituire una password, una smart card o una smart card virtuale su dispositivi che eseguono Windows 10. Per uno scenario ibrido, l'integrazione di entrambe le directory è una buona alternativa all'uso delle funzionalità di Azure AD, ad esempio:
 
@@ -36,15 +36,15 @@ Configuration Manager consente di eseguire l'integrazione con [Microsoft Passpor
 - **Reimpostazione della password con writeback**: è possibile eseguire il writeback della reimpostazione della password self-service nelle directory locali.
 
 Per altre informazioni sulle diverse opzioni e funzionalità, vedere [Azure Active Directory](https://msdn.microsoft.com/library/azure/dn532272.aspx).
-La richiesta di due tipi di autenticazione (autenticazione a più fattori o MFA) è un'altra strategia da tenere in considerazione quando si pianifica una soluzione di gestione dei dispositivi mobili. Intune è in grado di [integrare i servizi di directory con l'autenticazione a più fattori](https://technet.microsoft.com/library/dn889751.aspx), aggiungendo un altro livello di sicurezza per il processo di autenticazione. 
+La richiesta di due tipi di autenticazione (autenticazione a più fattori o MFA) è un'altra strategia da tenere in considerazione quando si pianifica una soluzione di gestione dei dispositivi mobili. Intune è in grado di [integrare i servizi di directory con l'autenticazione a più fattori](https://technet.microsoft.com/library/dn889751.aspx), aggiungendo un altro livello di sicurezza per il processo di autenticazione.
 
-Se l'organizzazione ha un'infrastruttura IT locale che include un dominio di Active Directory con Active Directory Federation Services (AD FS), è possibile configurare l'autenticazione a più fattori nel server federativo e abilitare l'autenticazione a più fattori per la registrazione in Intune. Se l'autenticazione a più fattori nel server federativo viene configurata ma non abilitata per la registrazione in Intune, gli utenti dovranno usare l'autenticazione a più fattori ogni volta che accedono alle risorse aziendali da qualsiasi dispositivo. 
+Se l'organizzazione ha un'infrastruttura IT locale che include un dominio di Active Directory con Active Directory Federation Services (AD FS), è possibile configurare l'autenticazione a più fattori nel server federativo e abilitare l'autenticazione a più fattori per la registrazione in Intune. Se l'autenticazione a più fattori nel server federativo viene configurata ma non abilitata per la registrazione in Intune, gli utenti dovranno usare l'autenticazione a più fattori ogni volta che accedono alle risorse aziendali da qualsiasi dispositivo.
 
 È anche possibile usare l'autenticazione a più fattori di Azure AD per richiedere l'autenticazione a più fattori ogni volta che gli utenti accedono alle risorse aziendali, requisito che può essere abilitato a livello di singolo utente. L'autenticazione a più fattori di Azure AD è un servizio cloud che non richiede alcuna infrastruttura IT locale.
 
 Usare la tabella che segue come riferimento per la scelta dell'opzione MDM più adatta ai requisiti aziendali di autenticazione e autorizzazione.
 
-## Intune (autonomo)
+## <a name="intune-standalone"></a>Intune (autonomo)
 
 **Vantaggi**
 
@@ -56,7 +56,7 @@ Usare la tabella che segue come riferimento per la scelta dell'opzione MDM più 
 
 - Il servizio cloud di Azure AD non è incluso quando si acquista una sottoscrizione di Intune
 
-## Gestione dei dispositivi mobili per Office 365
+## <a name="mdm-for-office-365"></a>Gestione dei dispositivi mobili per Office 365
 
 **Vantaggi**
 
@@ -69,7 +69,7 @@ Usare la tabella che segue come riferimento per la scelta dell'opzione MDM più 
 
 - Il servizio cloud di Azure AD non è incluso quando si acquista una sottoscrizione di Office 365
 
-## Ibrida (Intune con Configuration Manager)
+## <a name="hybrid-intune-with-configmgr"></a>Ibrida (Intune con Configuration Manager)
 
 **Vantaggi**
 
@@ -80,7 +80,7 @@ Usare la tabella che segue come riferimento per la scelta dell'opzione MDM più 
 
 - Il servizio cloud di Azure AD non è incluso quando si acquista una sottoscrizione di Intune
 
-## Enterprise Mobility + Security
+## <a name="enterprise-mobility-security"></a>Enterprise Mobility + Security
 
 **Vantaggi**
 
@@ -96,7 +96,6 @@ Usare la tabella che segue come riferimento per la scelta dell'opzione MDM più 
 
 
 
-
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO4-->
 
 

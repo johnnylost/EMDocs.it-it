@@ -2,79 +2,83 @@
 title: "Responsabilità dell&quot;utente"
 description: "Responsabilità del cliente quando usa FastTrack Center Benefit"
 keywords: 
-author: staciebarker
+author: NathBarn
+ms.author: NathBarn
 manager: angrobe
-ms.date: 10/02/2016
+ms.date: 11/07/2016
 ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 0590b7b2-0965-437b-b3ca-bd55de1abb09
-ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: b8c690844c5bae7898bfe908d4ce923a0edf41dd
-ms.openlocfilehash: 5cdb2a113e61ad70e5258909f48bfcad46321421
+ms.sourcegitcommit: 61241368440bea9a12bbac136466250da91da997
+ms.openlocfilehash: 847a6aa06ef34004f8de52c2e71f560112c8885a
 
 
 ---
 
-# Responsabilità dell'utente
+# <a name="your-responsibilities"></a>Responsabilità dell'utente
 
 Ecco le responsabilità dell'utente durante il processo di onboarding.
 
-## Responsabilità generali
+## <a name="general-responsibilities"></a>Responsabilità generali
 
--   Eventuali miglioramenti e integrazioni al tenant di EMS oltre le opzioni configurabili elencate nel presente articolo.
+-   Rendere disponibili eventuali miglioramenti e integrazioni per il tenant di EMS (Enterprise Mobility + Security ) oltre le opzioni configurabili qui elencate.
 
--   Programma generale e gestione dei progetti delle risorse.
+-   Elaborare un programma generale e un piano di gestione dei progetti per le risorse.
 
--   Comunicazioni degli utenti finali, documentazione, formazione e gestione delle modifiche.
+-   Fornire comunicazioni, documentazione, formazione e strumenti di gestione delle modifiche per gli utenti finali.
 
--   Documentazione di supporto tecnico e formazione.
+-   Fornire documentazione e formazione per il supporto tecnico.
 
--   Produzione di report, presentazioni o verbali di riunioni specifiche per l'organizzazione.
+-   Produrre report, presentazioni o verbali di riunioni specifici per l'organizzazione.
 
--   Creazione di documentazione tecnica e architetturale specifica dell'organizzazione.
+-   Creare documentazione tecnica e architetturale specifica dell'organizzazione.
 
--   Progettazione, reperimento, installazione e configurazione di hardware e rete.
+-   Progettare, reperire, installare e configurare componenti hardware e di rete.
 
--   Conseguimento, installazione e configurazione di software.
+-   Reperire, installare e configurare il software.
 
--   Gestione, configurazione e applicazione dei criteri di sicurezza, oltre a quelli creati per le funzionalità e la configurazione di base dei servizi EMS.
+-   Gestire, configurare e applicare criteri di sicurezza, oltre a quelli creati per le funzionalità e la configurazione di base dei servizi EMS.
 
--   Registrazione degli account utente, oltre a quelli usati per testare le funzionalità e la configurazione di base dei servizi EMS di Microsoft Azure AD.
+-   Registrare gli account utente, oltre a quelli usati per testare le funzionalità e la configurazione di base dei servizi EMS di Microsoft Azure Active Directory.
 
--   Configurazione di rete, analisi, convalida della larghezza di banda, verifica e monitoraggio.
+-   Gestire configurazione, analisi, convalida della larghezza di banda, testing e monitoraggio della rete.
 
--   Gestione del processo di approvazione della gestione di una modifica tecnica e creazione della documentazione di supporto.
+-   Gestire un processo di approvazione della gestione delle modifiche tecniche e creare la documentazione di supporto.
 
 -   Modifica delle guide operative e dei modelli operativi.
 
--   Impostazione dell'autenticazione a più fattori locale.
+-   Configurare l'autenticazione a più fattori in locale.
 
--   Rimozione delle autorizzazioni e degli ambienti di origine e dei servizi usati in precedenza dal cliente.
+-   Rimuovere le autorizzazioni e gli ambienti di origine e i servizi usati in precedenza.
 
--   Creazione e mantenimento dell'ambiente di test.
+-   Definire e gestire l'ambiente di test.
 
--   Installazione di Service Pack e altri aggiornamenti necessari nei server dell'infrastruttura.
+-   Installare Service Pack e altri aggiornamenti necessari nei server dell'infrastruttura.
 
--   Fornitura e configurazione di tutti i certificati SSL pubblici.
+-   Specificare e configurare eventuali certificati Secure Sockets Layer (SSL) pubblici.
 
--   Scrittura delle Condizioni per l'utilizzo dell'organizzazione da configurare e visualizzare nei portali aziendali di Microsoft Intune accessibili agli utenti finali.
+-   Impostare o aggiornare Configuration Manager ai requisiti minimi per l'integrazione con Microsoft Intune con Configuration Manager.
 
-## Fase di avvio
+-   Se è necessario per la distribuzione di profili Wi-Fi e VPN con Intune, specificare e configurare le infrastrutture di Autorità di certificazione, Wi-Fi e VPN in base alle esigenze.
+
+-   Scrivere le Condizioni per l'utilizzo dell'organizzazione da configurare e visualizzare nei portali aziendali di Microsoft Intune accessibili agli utenti finali.
+
+## <a name="initiate-phase"></a>Fase di avvio
 
 -   Collaborare con il team Microsoft per avviare l'onboarding dei servizi idonei.
 
 -   Partecipare alla riunione di inizio della collaborazione, gestire e guidare i partecipanti dell'organizzazione e confermare i tempi di correzione.
 
-## Fase di valutazione
+## <a name="assess-phase"></a>Fase di valutazione
 
 -   Identificare le parti interessate, tra cui un project manager, per completare le attività di valutazione necessarie.
 
--   Se si vuole, è possibile condividere lo schermo con Microsoft se sono necessarie informazioni aggiuntive durante l'esecuzione di strumenti di valutazione dell'ambiente o della sottoscrizione di EMS o dei suoi singoli servizi cloud.
+-   Condividere lo schermo con Microsoft se sono necessarie informazioni aggiuntive durante l'esecuzione di strumenti di valutazione dell'ambiente, di EMS o delle sottoscrizioni dei suoi singoli servizi cloud (se si vuole).
 
 -   Partecipare alle riunioni per creare l'elenco di controllo delle correzioni e contribuire al piano generale, che include argomenti quali: infrastruttura, rete, amministrazione, preparazione alla sincronizzazione delle directory, protezione della rete e identità federata.
 
@@ -84,17 +88,15 @@ Ecco le responsabilità dell'utente durante il processo di onboarding.
 
 -   Creare un piano di supporto per la preparazione della migrazione.
 
-## Fase di correzione
+## <a name="remediate-phase"></a>Fase di correzione
 
 -   Eseguire i passaggi necessari per completare le attività di correzione identificate nella fase di valutazione.
 
 -   Partecipare alle riunioni di checkpoint.
 
-## Fase di abilitazione
+## <a name="enable-phase"></a>Fase di abilitazione
 
--   Se si vuole, è possibile condividere lo schermo con Microsoft se sono necessarie informazioni aggiuntive durante la modifica dell'ambiente o della sottoscrizione di EMS o dei suoi singoli servizi cloud.
-
--   Gestire le risorse in modo appropriato.
+-   Condividere lo schermo con Microsoft se sono necessarie informazioni aggiuntive durante l'esecuzione di strumenti di valutazione dell'ambiente, di EMS o delle sottoscrizioni dei suoi singoli servizi cloud (se si vuole). Gestire le risorse in base alla necessità.
 
 -   Configurare gli elementi relativi alla rete in base alle linee guida Microsoft.
 
@@ -113,6 +115,7 @@ Ecco le responsabilità dell'utente durante il processo di onboarding.
 [Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
 
 
-<!--HONumber=Oct16_HO3-->
+
+<!--HONumber=Nov16_HO4-->
 
 
