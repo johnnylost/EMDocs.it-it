@@ -1,26 +1,26 @@
 ---
 title: Requisiti delle app
-description: Requisiti comuni per la distribuzione di app in uno scenario BYOD.
+description: Questo articolo include una serie di requisiti comuni per lo sviluppo di app da usare in uno scenario Bring Your Own Device (BYOD).
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/18/2016
-ms.topic: solution
+ms.date: 11/28/2016
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 0c1313b9-361f-4732-a92c-23d0dac07733
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
-ms.openlocfilehash: afca333ad60c623e0355e4a6423238c72287c950
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: d5297dbb3d22feda4189bc120b2bb4537fa5f590
 
 
 ---
 
-# Requisiti delle app
+# <a name="app-requirements"></a>Requisiti delle app
 
 Ogni organizzazione usa una serie di funzionalità tecniche per consentire al personale di eseguire le attività in modo ottimizzato e quasi sempre lo strumento principale è un'app. Queste funzionalità possono essere combinate in un approccio multipiattaforma in cui vengono usate diverse tecnologie per raggiungere un determinato obiettivo o tramite la creazione di un'app personalizzata in grado di eseguire un'attività o di automatizzare alcuni processi. Le app sono importanti da considerare per la progettazione della strategia BYOD. Gli utenti useranno diversi fattori di forma per l'impiego queste app. Pertanto, è necessario considerare la varietà di funzionalità che tali app devono supportare. La figura sottostante illustra il modo in cui utenti e dispositivi usano le app per l'impiego dei dati e le considerazioni per ogni componente del sottodominio Apps.
 
@@ -28,7 +28,7 @@ Ogni organizzazione usa una serie di funzionalità tecniche per consentire al pe
 
 La sezione seguente contiene le domande sui requisiti delle app a cui è necessario rispondere per formulare i requisiti per la progettazione della soluzione.
 
-## Domande da chiedere
+## <a name="questions-to-ask"></a>Domande da chiedere
 
 I requisiti delle app sono classificati in sei aree:
 
@@ -40,7 +40,7 @@ I requisiti delle app sono classificati in sei aree:
 - Sicurezza
 
 
-### Esperienza
+### <a name="experience"></a>Esperienza
 
 - Si intende conservare la stessa esperienza utente, indipendentemente dai dispositivi in cui verranno eseguite le app?
 - Le app richiedono l'accesso a Internet dai dispositivi degli utenti?
@@ -55,7 +55,7 @@ I requisiti delle app sono classificati in sei aree:
 - Le app sono integrate con i social network?
 
 
-### Piattaforma
+### <a name="platform"></a>Piattaforma
 
 - Quale tipo di piattaforma back-end è necessaria per l'esecuzione di queste app?
 - Si prevede un aumento dell'attività con l'adozione di BYOD che richiederà l'aggiornamento della piattaforma back-end per le app che dovranno essere usate dagli utenti remoti?
@@ -63,7 +63,7 @@ I requisiti delle app sono classificati in sei aree:
 - La piattaforma che supporterà le app è completamente in locale o ci sono anche server che risiedono nel cloud?
 
 
-### Distribuzione
+### <a name="deployment"></a>Distribuzione
 
 - Si sa quali app saranno disponibili per gli utenti BYOD?
 - Come si intende distribuire queste app ai dispositivi degli utenti?
@@ -75,7 +75,7 @@ I requisiti delle app sono classificati in sei aree:
     - In tal caso, quale autorità di certificazione verrà usata (privata o pubblica)?
 - Gli utenti devono essere fisicamente connessi alla rete aziendale per eseguire l'installazione o è possibile installare l'app tramite Internet?
 
-### Archiviazione
+### <a name="storage"></a>Archiviazione
 
 - Quanto spazio è necessario in un dispositivo di destinazione per installare ogni app?
 - Le app eseguono la crittografia dei dati presenti nell'archivio di un dispositivo?
@@ -85,7 +85,7 @@ I requisiti delle app sono classificati in sei aree:
 - I dati utilizzati dalle app risiedono nell'archiviazione in locale, nel cloud o in entrambe le posizioni?
 - I dati utilizzati dalle app sono crittografati nell'archivio del data center o nel cloud?
 
-### Rete
+### <a name="network"></a>Rete
 
 - Quali sono i requisiti di rete per le app che si intende distribuire per gli utenti BYOD?
 - Le app eseguono la crittografia dei dati prima della trasmissione attraverso la rete dai dispositivi degli utenti al server app nel back-end?
@@ -95,7 +95,7 @@ I requisiti delle app sono classificati in sei aree:
 - Le app funzionano in una rete a bassa latenza?
 - Le app possono essere disinstallate in remoto attraverso la rete o devono essere disinstallate tramite le console dei dispositivi?
 
-### Sicurezza
+### <a name="security"></a>Sicurezza
 
 - Le app sono state sviluppate con qualsiasi metodo di sviluppo della sicurezza?
 - Le app forniscono le funzionalità di autenticazione?
@@ -120,7 +120,6 @@ I requisiti delle app sono classificati in sei aree:
 
 
 
-
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO4-->
 
 

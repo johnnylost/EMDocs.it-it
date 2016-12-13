@@ -2,35 +2,35 @@
 title: "Responsabilità di Microsoft"
 description: "Responsabilità di Microsoft quando i clienti usano FastTrack Center Benefit"
 keywords: 
-author: staciebarker
+author: NathBarn
+ms.author: NathBarn
 manager: angrobe
-ms.date: 10/02/2016
+ms.date: 11/07/2016
 ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: c8fd871e-f1bc-43ec-a5f3-ad025df9b026
-ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: b8c690844c5bae7898bfe908d4ce923a0edf41dd
-ms.openlocfilehash: 0a849261c116d77fc3dc8adbd296321b2c84ba4b
+ms.sourcegitcommit: 61241368440bea9a12bbac136466250da91da997
+ms.openlocfilehash: eef71bd1f1b731a1d4ba8f2823d271f6e632dd68
 
 
 ---
 
-# Responsabilità di Microsoft
+# <a name="microsoft-responsibilities"></a>Responsabilità di Microsoft
 
 Ecco le responsabilità di Microsoft durante il processo di onboarding.
 
-## Generale
+## <a name="general"></a>Generale
 
 -   Viene fornita assistenza remota per le attività di configurazione necessarie, come illustrato nelle descrizioni dettagliate delle fasi.
 
 -   All'utente vengono forniti documentazione, strumenti software, console di amministrazione e script disponibili per ridurre o eliminare le attività di configurazione.
 
-## Fase di avvio
+## <a name="initiate-phase"></a>Fase di avvio
 
 -   Contattare l'utente entro 30 giorni dall'acquisto di licenze idonee per un nuovo tenant.
 
@@ -38,7 +38,7 @@ Ecco le responsabilità di Microsoft durante il processo di onboarding.
 
 -   Definire i servizi idonei per l'onboarding.
 
-## Fase di valutazione
+## <a name="assess-phase"></a>Fase di valutazione
 
 -   Fornire una panoramica sull'amministrazione.
 
@@ -56,13 +56,13 @@ Ecco le responsabilità di Microsoft durante il processo di onboarding.
 
 -   Fornire un elenco di controllo della correzione.
 
-## Fase di correzione
+## <a name="remediate-phase"></a>Fase di correzione
 
 -   Effettuare conferenze telefoniche con l'utente in base a una pianificazione concordata per esaminare lo stato di avanzamento delle attività di correzione.
 
 -   Fornire assistenza per l'esecuzione di strumenti allo scopo di identificare e risolvere problemi e per l'interpretazione dei risultati.
 
-## Fase di abilitazione
+## <a name="enable-phase"></a>Fase di abilitazione
 Fornire indicazioni su:
 
 -   Attivazione del tenant dei servizi online di Microsoft.
@@ -82,68 +82,73 @@ Fornire indicazioni su:
         > [!NOTE]
         > Sviluppo e implementazione per estensioni di regole personalizzate non rientrano nell'ambito.
 
--   Per una singola foresta se la destinazione sono le identità federate: installazione e configurazione di Active Directory Federation Services (AD FS) per l'autenticazione di domini locali con Microsoft Intune in un solo sito e configurazione a tolleranza di errore, se necessario.
-
-    > [!NOTE]
-    > Per tutte le configurazioni di più foreste, le distribuzioni di AD FS non rientrano nell'ambito.
-
--   Test della funzionalità SSO (Single Sign-On) se distribuita.
-
-### Fase di abilitazione: Azure Active Directory Premium
-
-Fornire indicazioni su:
-
--   Attivazione del tenant di Microsoft Azure Active Directory Premium.
-
--   Configurazione delle porte del firewall.
-
--   Configurazione di DNS per i servizi idonei.
-
--   Convalida della connettività ai servizi Microsoft Azure Active Directory Premium.
-
--   Per un ambiente a foresta singola:
-
-    -   Installazione di una sincronizzazione delle directory tra Servizi di dominio Active Directory e Azure Active Directory Connect, se necessario.
-
-    -   Configurazione della sincronizzazione delle password con lo strumento di connessione di Azure Active Directory.
-
--   Per un ambiente a più foreste:
-
-    -   Installare la sincronizzazione di Azure Active Directory Connect e impostarla per scenari a più foreste. La sincronizzazione hash e il writeback delle password supportano più foreste.  Tuttavia, gli altri scenari di writeback non sono supportati.
-
-    -   Configurare la sincronizzazione tra le foreste locali di Active Directory e la directory di Microsoft Azure Active Directory Premium (Azure Active Directory).
-
-        > [!NOTE]
-        > Sviluppo e implementazione per estensioni di regole personalizzate non rientrano nell'ambito.
-
--   Per una singola foresta se la destinazione sono le identità federate: installazione e configurazione di Active Directory Federation Services (AD FS) per l'autenticazione di domini locali con Microsoft Azure Active Directory Premium in una configurazione con un solo sito a tolleranza di errore, se necessario.
+-   Per una singola foresta se la destinazione sono le identità federate: installazione e configurazione di Active Directory Federation Services (AD FS) per l'autenticazione di domini locali con Intune in una configurazione a tolleranza di errore con singolo sito, se necessario.
 
     > [!NOTE]
     > Per tutte le configurazioni di più foreste le distribuzioni di AD FS non rientrano nell'ambito.
 
 -   Test della funzionalità SSO (Single Sign-On), se distribuita.
 
-### Fase di abilitazione: Azure Active Directory Premium con Azure Active Directory Connect e Active Directory Federation Services (AD FS)
+### <a name="enable-phase---microsoft-azure-active-directory-premium"></a>Fase di abilitazione - Microsoft Azure Active Directory Premium
+
+Fornire indicazioni su:
+
+-   Attivazione del tenant di Azure AD Premium.
+
+-   Configurazione delle porte del firewall.
+
+-   Configurazione di DNS per i servizi idonei.
+
+-   Convalida della connettività nei servizi di Azure AD Premium.
+
+-   Per un ambiente a foresta singola:
+
+    -   Installazione di una sincronizzazione delle directory tra Active Directory Domain Services (AD DS) e Azure AD Connect, se richiesto.
+
+    -   Configurazione della sincronizzazione delle password con lo strumento Azure AD Connect.
+
+-   Per un ambiente a più foreste:
+
+    -   Installazione della sincronizzazione di Azure AD Connect, configurata per scenari a più foreste.
+
+        > [!NOTE]
+        > La sincronizzazione hash e il writeback delle password supportano più foreste. Tuttavia, gli altri scenari di writeback non sono supportati.
+
+    -   Configurazione della sincronizzazione tra le foreste locali di Active Directory e la directory di Microsoft Azure Active Directory Premium (Azure Active Directory).
+
+        > [!NOTE]
+        > Sviluppo e implementazione per estensioni di regole personalizzate non rientrano nell'ambito.
+
+-   Per una singola foresta se la destinazione sono le identità federate:
+
+    -   Installazione e configurazione di AD FS per l'autenticazione di domini locali con Azure AD Premium in una configurazione a tolleranza di errore con singolo sito, se necessario.
+
+    > [!NOTE]
+    > Per tutte le configurazioni di più foreste le distribuzioni di AD FS non rientrano nell'ambito.
+
+-   Test della funzionalità SSO (se distribuita).
+
+### <a name="enable-phase---azure-ad-premium--with-azure-ad-connect-and-ad-fs"></a>Fase di abilitazione - Azure AD Premium con Azure AD Connect e AD FS
 
 Fornire indicazioni sulla configurazione di:
 
 -   Provisioning utenti, incluse le licenze.
 
--   Sincronizzazione delle directory di Azure Active Directory Connect, con writeback delle password e sincronizzazione degli hash delle password.
+-   Sincronizzazione delle directory Azure AD Connect (con sincronizzazione hash e writeback delle password ).
 
   - Reimpostazione della password self-service (SSPR).
 
-  - Azure Multi-Factor Authentication (MFA).
+  - Azure Multi-Factor Authentication.
 
-  - Integrazione di un'applicazione software come servizio (SaaS) con Single Sign On (SSO) da [Azure Active Directory Marketplace](https://azure.microsoft.com/marketplace/active-directory/).
+  - Integrazione di un'applicazione software come servizio (SaaS) con SSO da [Azure Active Directory Marketplace](https://azure.microsoft.com/marketplace/active-directory/).
 
   - Schermata di accesso personalizzata, con logo, testo e immagini.
 
-  - Self-service e gruppo dinamico (gruppi).
+  - Self-service e gruppi dinamici (gruppi).
 
   - Proxy dell'applicazione Azure Active Directory.
 
-  - Azure Active Directory Connect Health.
+  - Azure AD Connect Health.
 
   - Identity Protection.
 
@@ -153,25 +158,23 @@ Fornire indicazioni sulla configurazione di:
 
   - Notifiche e avvisi amministrativi.
 
-### Fase di abilitazione – Microsoft Intune
+### <a name="enable-phase---intune"></a>Fase di abilitazione - Intune
 Fornire indicazioni su:
 
--   Concessione di licenze agli utenti finali. Se necessario, verrà fornita anche assistenza su come attivare i contratti multilicenza per il tenant del servizio cloud Microsoft.
+-   Concessione di licenze agli utenti finali.
 
--   Configurazione delle identità da usare con Microsoft Intune, tramite Active Directory locale o le identità cloud.
+-   Configurazione delle identità da usare con Intune, tramite Active Directory locale o le identità cloud.
 
--   Aggiunta di utenti alla sottoscrizione di Microsoft Intune, definizione dei ruoli di amministratore IT e creazione di gruppi di utenti e di dispositivi.
+-   Aggiunta di utenti alla sottoscrizione di Intune, definizione dei ruoli di amministratore IT e creazione di gruppi di utenti e di dispositivi.
 
--   Configurazione dell'autorità di gestione dei dispositivi mobili in base alle specifiche esigenze di gestione:
+-   Configurazione dell'autorità di gestione dei dispositivi mobili (MDM, Mobile Device Management) in base alle specifiche esigenze di gestione:
 
-    -   Impostare Microsoft Intune come autorità MDM quando è l'unica soluzione MDM o è in combinazione con Gestione di dispositivi mobili per Office 365.
+    -   Impostazione di Intune come autorità MDM quando è l'unica soluzione MDM o è in combinazione con Gestione di dispositivi mobili per Office 365.
 
-    -   Se è presente un'implementazione esistente di System Center Configuration Manager e si vogliono espandere le funzionalità di gestione con Microsoft Intune, impostare Configuration Manager come autorità MDM.
+    -   Impostazione di System Center Configuration Manager come autorità MDM se è presente un'implementazione esistente di Configuration Manager e si vogliono espandere le funzionalità di gestione con Intune.
 
         > [!NOTE]
-        > Se si vuole solo usare Gestione di applicazioni mobili nei dispositivi di proprietà degli utenti finali, nei dispositivi condivisi o nei dispositivi di tipo chiosco multimediale, la configurazione di un'autorità MDM non è necessaria.
-
--   Se Gestione di dispositivi mobili rientra nel proprio ambito, verranno fornite istruzioni su:
+        > Se si vuole solo usare MDM nei dispositivi di proprietà degli utenti finali, nei dispositivi condivisi o nei dispositivi di tipo chiosco multimediale, la configurazione di un'autorità MDM non è necessaria.
 
     -   Configurazione dei gruppi di test da usare per la convalida dei criteri di gestione MDM.
 
@@ -181,15 +184,13 @@ Fornire indicazioni su:
 
         -   Criteri di accesso condizionale.
 
-        -   Distribuzione dei profili di posta elettronica.
+        -   Distribuzione di posta elettronica, reti wireless e profili VPN se si ha un'infrastruttura di Autorità di certificazione esistente, Wi-Fi o VPN nella propria organizzazione.
 
         -   Configurazione di Microsoft Intune Exchange Connector, quando applicabile.
 
-    -   Registrazione dei dispositivi di ogni piattaforma supportata in Microsoft Intune o in Configuration Manager con il servizio Microsoft Intune.
+    -   Registrazione dei dispositivi di ogni piattaforma supportata in Intune o in Configuration Manager con il servizio Microsoft Intune.
 
     -   Uso dei report sull'inventario hardware e software.
-
--   Se Gestione di applicazioni mobili (MAM) rientra nel proprio ambito o se si vuole integrare la soluzione MDM di terze parti esistente con i criteri MAM, verranno fornite istruzioni su:
 
     -   Configurazione dei criteri MAM per ogni piattaforma supportata.
 
@@ -198,8 +199,6 @@ Fornire indicazioni su:
     -   Indirizzamento ai gruppi di utenti appropriati con i criteri MAM descritti in precedenza.
 
     -   Uso dei report sull'utilizzo delle applicazioni gestite.
-
--   Se la gestione del PC rientra nel proprio ambito, verranno fornite istruzioni su:
 
     -   Installazione del software client di Intune, se necessario.
 
@@ -210,6 +209,7 @@ Fornire indicazioni su:
 [Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
 
 
-<!--HONumber=Oct16_HO3-->
+
+<!--HONumber=Nov16_HO4-->
 
 

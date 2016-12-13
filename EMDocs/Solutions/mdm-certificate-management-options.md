@@ -1,31 +1,31 @@
 ---
 title: Opzioni di gestione dei certificati
-description: 
+description: Questo articolo include argomenti di decisione su come pianificare e progettare un&quot;infrastruttura di certificati per supportare il provisioning dei certificati con Microsoft Intune autonomo e ibrido.
 keywords: 
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: c3d350b5-4437-4f3d-907f-57ce6a819a74
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: f479997932cd7091677da5097e0d7a418895858f
+ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
+ms.openlocfilehash: 2f0d445b35c6a7aea29684a0488decd92784c2ab
 
 
 ---
 
-# Opzioni di gestione dei certificati
+# <a name="certificate-management-options"></a>Opzioni di gestione dei certificati
 
 >[!NOTE]
 >Questo argomento fa parte di una guida più ampia dedicata alle considerazioni di progettazione. Per leggere la guida dall'inizio, vedere l'[argomento principale](mdm-design-considerations-guide.md). Per scaricare una copia della versione integrale della guida, visitare la raccolta [TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
-L'uso della gestione dei certificati digitali e dei profili dei certificati è supportato sia da [Intune](/Intune/deploy-use/secure-resource-access-with-certificate-profiles) autonomo che da scenari di distribuzione [ibridi con Intune e Configuration Manager](https://technet.microsoft.com/library/dn261202.aspx). Queste funzionalità consentono di distribuire i certificati radice attendibili ai dispositivi mobili, oltre a profili basati sul protocollo SCEP (Simple Certificate Enrollment Protocol) che comunicano ai dispositivi mobili di ottenere certificati aggiuntivi da un server NDES dell'organizzazione.
+L'uso della gestione dei certificati digitali e dei profili dei certificati è supportato sia da [Intune](/Intune/deploy-use/secure-resource-access-with-certificate-profiles) autonomo sia da scenari di distribuzione [ibridi](https://technet.microsoft.com/library/dn261202.aspx). Queste funzionalità consentono di distribuire i certificati radice attendibili ai dispositivi mobili, oltre a profili basati sul protocollo SCEP (Simple Certificate Enrollment Protocol) che comunicano ai dispositivi mobili di ottenere certificati aggiuntivi da un server NDES dell'organizzazione.
 
 Poiché il protocollo SCEP è supportato da iOS, Windows 10 e 8.1 e Windows Phone 10 e 8.1, il supporto è disponibile anche con l'app Portale aziendale di Microsoft Intune per Android. L'uso di questo protocollo di registrazione ha il vantaggio di generare la chiave privata direttamente sul dispositivo mobile. La chiave privata non viene mai generata, memorizzata nella cache o archiviata da Configuration Manager o Intune, consentendo di proteggere il dispositivo mobile.
 
@@ -43,11 +43,11 @@ La figura che segue illustra in che modo Intune e Configuration Manager usano ND
 6. NDES invia una richiesta di rilascio del certificato all'autorità di certificazione e invia il certificato al ruolo NDES.
 7. Il ruolo NDES invia il certificato al dispositivo.
 
-A seconda delle risposte alle domande nell'attività 3, si dovrebbe essere in grado di determinare in che modo si desidera gestire i certificati nella soluzione di gestione dei dispositivi mobili. MDM per Office 365 al momento non supporta la gestione dei profili dei certificati per i dispositivi mobili. 
+A seconda delle risposte alle domande nell'attività 3, si dovrebbe essere in grado di determinare in che modo si desidera gestire i certificati nella soluzione di gestione dei dispositivi mobili. MDM per Office 365 al momento non supporta la gestione dei profili dei certificati per i dispositivi mobili.
 
 Gli elenchi che seguono sono utili per comprendere i vantaggi e gli svantaggi della gestione dei profili dei certificati per Intune e per lo scenario di distribuzione ibrido di Intune con Configuration Manager:
 
-## Intune (autonomo)
+## <a name="intune-standalone"></a>Intune (autonomo)
 
 **Vantaggi**
 
@@ -63,11 +63,11 @@ Gli elenchi che seguono sono utili per comprendere i vantaggi e gli svantaggi de
  - Un'autorità di certificazione globale (enterprise)
  - Intune NDES Connector, installato nel server che esegue NDES
 
-## Gestione dei dispositivi mobili per Office 365
+## <a name="mdm-for-office-365"></a>Gestione dei dispositivi mobili per Office 365
 
 - Il supporto per i profili di certificato non è previsto in MDM per Office 365.
 
-## Ibrida (Intune con Configuration Manager)
+## <a name="hybrid-intune-with-configmgr"></a>Ibrida (Intune con Configuration Manager)
 
 **Vantaggi**
 
@@ -76,7 +76,7 @@ Gli elenchi che seguono sono utili per comprendere i vantaggi e gli svantaggi de
 
 **Svantaggi**
 
-- Per usare i profili dei certificati, è necessario che sia presente un'infrastruttura locale esistente. 
+- Per usare i profili dei certificati, è necessario che sia presente un'infrastruttura locale esistente.
 - È necessario integrare l'infrastruttura locale seguente con Intune:
  - Un server che esegue il servizio Registrazione dispositivi di rete
  - Un'autorità di certificazione globale (enterprise)
@@ -86,6 +86,6 @@ Per altre informazioni sulle opzioni di gestione dei certificati per dispositivi
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

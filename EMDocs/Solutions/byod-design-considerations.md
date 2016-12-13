@@ -1,32 +1,32 @@
 ---
 title: Considerazioni sulla progettazione
-description: Considerazioni sulla progettazione per prodotti e tecnologie in uno scenario BYOD.
+description: Questo articolo include una serie di considerazioni sulla progettazione per prodotti e tecnologie in uno scenario Bring Your Own Device (BYOD).
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/18/2016
-ms.topic: solution
+ms.date: 11/28/2016
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 639dfd46-33ea-4cfd-918d-f3d8e57645ed
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
-ms.openlocfilehash: c78024f38da8660a9c8e4e9813890110f49107be
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: 3dbf7072bbc3baf6a97072f1cbbd15bd236349d3
 
 
 ---
 
-# Considerazioni sulla progettazione
+# <a name="design-considerations"></a>Considerazioni sulla progettazione
 
 Con un'analisi dei requisiti descritti in dettaglio nella sezione Progettazione della soluzione di infrastruttura BYOD di questo documento, è possibile selezionare i prodotti e le tecnologie appropriati per implementare i requisiti per il progetto di infrastruttura BYOD. La tabella seguente elenca i prodotti, le tecnologie e i servizi Microsoft che consentono di implementare una soluzione di infrastruttura BYOD.
 
 I prodotti, le tecnologie e i servizi Microsoft per una soluzione di infrastruttura BYOD menzionati in questa guida sono:
 
-## Utenti e dispositivi
+## <a name="user-and-device"></a>Utenti e dispositivi
 
 - Windows Server 2012 R2
 - Windows 10
@@ -37,7 +37,7 @@ I prodotti, le tecnologie e i servizi Microsoft per una soluzione di infrastrutt
 - Portale aziendale
 - Protocollo HTTPS
 
-## Protezione e accesso ai dati
+## <a name="data-access-and-protection"></a>Protezione e accesso ai dati
 
 - Windows Server 2012 R2
 - Servizi di dominio Active Directory (AD DS)
@@ -46,13 +46,13 @@ I prodotti, le tecnologie e i servizi Microsoft per una soluzione di infrastrutt
 - Active Directory Federation Services (ADFS)
 - Controllo dinamico degli accessi
 - Servizio Microsoft Rights Management
-- Azure Information Protection 
+- Azure Information Protection
 - Crittografia SMB
 - Single Sign-On (SSO)
 - Cartelle di lavoro
 - Proxy applicazione Web (WAP)
 
-## Management
+## <a name="management"></a>Management
 
 - Microsoft Intune
 - Criteri di gestione dispositivi
@@ -62,7 +62,7 @@ I prodotti, le tecnologie e i servizi Microsoft per una soluzione di infrastrutt
 - Gestione e rapporti sull'utilizzo dei punti di distribuzione
 - System Center 2012 R2 Configuration Manager
 
-## App
+## <a name="apps"></a>App
 
 - Proxy applicazione Web
 - VPN ad attivazione automatica
@@ -81,8 +81,6 @@ Il progetto di infrastruttura per il supporto di BYOD riunisce le risposte alle 
 
 
 
-
-
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO4-->
 
 

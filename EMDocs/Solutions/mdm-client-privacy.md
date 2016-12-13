@@ -1,37 +1,37 @@
 ---
 title: Privacy del client
-description: Considerazioni di progettazione per la privacy del client per uno scenario di gestione di dispositivi mobili.
+description: Questo articolo include una serie di considerazioni sulla progettazione per la privacy client da usare in uno scenario di gestione di dispositivi mobili (MDM).
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/18/2016
-ms.topic: solution
+ms.date: 11/28/2016
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: c799a6c4-fe0a-4148-8e75-29e6ffdb7e6e
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
-ms.openlocfilehash: 176d6f4fecc5ba1697ae7231c93234d469e2bad5
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: 916404d1aaad5b4db01dff84c544e3364b7ec6ee
 
 
 ---
 
-#Privacy del client
+#<a name="client-privacy"></a>Privacy del client
 
 >[!NOTE]
 >Questo argomento fa parte di una guida più ampia dedicata alle considerazioni di progettazione. Per leggere la guida dall'inizio, vedere l'[argomento principale](mdm-design-considerations-guide.md). Per scaricare una copia della versione integrale della guida, visitare la raccolta [TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
 
 Quando la società implementa la gestione dei dispositivi mobili, è importante tenere presente i confini tra la privacy dell'utente e quella dell'organizzazione. Idealmente l'organizzazione dovrebbe già disporre di criteri di privacy chiari, indicanti le azioni previste da parte degli utenti sulla privacy dei dati. Poiché i dispositivi mobili potrebbero memorizzare dati aziendali e accompagneranno l'utente nei suoi spostamenti, è importante che i confini di privacy siano correttamente definiti e che gli utenti conoscano il proprio ruolo nel mantenimento della privacy dell'organizzazione.
-  
-Un'altra considerazione riguarda la modalità di verifica delle aspettative degli utenti quando registrano i dispositivi nella soluzione MDM dell'organizzazione. Nel [portale aziendale di Microsoft Intune](https://technet.microsoft.com/library/dn646957.aspx) è possibile personalizzare l'informativa sulla privacy dell'azienda in modo che includa un URL con la descrizione dei dati raccolti quando gli utenti usano i dispositivi gestiti.
- 
-È inoltre possibile pubblicare i termini e le condizioni che gli utenti visualizzeranno quando useranno per la prima volta il portale aziendale dai dispositivi, indipendentemente dal fatto che tali dispositivi siano registrati nella soluzione MDM. Gli utenti devono accettare i termini prima di poter accedere al portale aziendale. Quando si aggiornano i termini e si desidera che gli utenti visualizzino e accettino le nuove condizioni, è possibile contrassegnarle come una nuova versione, in modo che gli utenti seguano lo stesso processo di accettazione alla successiva visita del portale aziendale. 
 
-La funzionalità per la richiesta di accettazione dei termini e delle condizioni è disponibile anche quando si usa un ambiente ibrido con Configuration Manager connesso con Intune. Configuration Manager è anche in grado di usare le impostazioni di conformità per determinare se i dispositivi sono conformi agli elementi di configurazione distribuiti usando le linee di base di configurazione. Se non sono conformi, alcune impostazioni possono essere corrette automaticamente. 
+Un'altra considerazione riguarda la modalità di verifica delle aspettative degli utenti quando registrano i dispositivi nella soluzione MDM dell'organizzazione. Nel [portale aziendale di Microsoft Intune](https://technet.microsoft.com/library/dn646957.aspx) è possibile personalizzare l'informativa sulla privacy dell'azienda in modo che includa un URL con la descrizione dei dati raccolti quando gli utenti usano i dispositivi gestiti.
+
+È inoltre possibile pubblicare i termini e le condizioni che gli utenti visualizzeranno quando useranno per la prima volta il portale aziendale dai dispositivi, indipendentemente dal fatto che tali dispositivi siano registrati nella soluzione MDM. Gli utenti devono accettare i termini prima di poter accedere al portale aziendale. Quando si aggiornano i termini e si desidera che gli utenti visualizzino e accettino le nuove condizioni, è possibile contrassegnarle come una nuova versione, in modo che gli utenti seguano lo stesso processo di accettazione alla successiva visita del portale aziendale.
+
+La funzionalità per la richiesta di accettazione dei termini e delle condizioni è disponibile anche quando si usa un ambiente ibrido con Configuration Manager connesso con Intune. Configuration Manager è anche in grado di usare le impostazioni di conformità per determinare se i dispositivi sono conformi agli elementi di configurazione distribuiti usando le linee di base di configurazione. Se non sono conformi, alcune impostazioni possono essere corrette automaticamente.
 
 Le informazioni sulla conformità vengono inviate al server del sito dal punto di gestione e memorizzate nel database del sito. Le informazioni vengono crittografate quando i dispositivi le inviano al punto di gestione, ma non vengono memorizzate in forma crittografata nel database del sito. Le informazioni vengono conservate nel database finché non vengono eliminate nell'ambito dell'attività di manutenzione del sito *Elimina dati di gestione configurazione obsoleti* eseguita ogni 90 giorni.  È inoltre possibile configurare l'intervallo di eliminazione. Le informazioni sulla conformità non vengono inviate a Microsoft.
 
@@ -42,7 +42,7 @@ Poiché Intune e Office 365 sono servizi basati su cloud, gli utenti dovrebbero 
 
 La privacy è importante sia per gli utenti che per l'organizzazione e la soluzione MDM in uso deve bilanciare in modo appropriato le esigenze in termini di privacy, nonché indicare agli utenti i criteri e le aspettative dell'organizzazione in termini di privacy. La tabella che segue confronta le opzioni di gestione dei requisiti relativi alla privacy in diverse soluzioni MDM per agevolare la scelta dell'opzione MDM più adatta ai requisiti della propria organizzazione in termini di privacy.
 
-## Intune (autonomo)
+## <a name="intune-standalone"></a>Intune (autonomo)
 
 **Vantaggi**
 
@@ -52,7 +52,7 @@ La privacy è importante sia per gli utenti che per l'organizzazione e la soluzi
 
 - Non dispone di un modello per l'informativa sulla privacy. Si presuppone che l'organizzazione disponga già di un criterio di privacy e che il portale aziendale si limiterà a pubblicare il criterio archiviato in un'altra posizione
 
-## Office 365 con MDM
+## <a name="office-365-with-mdm"></a>Office 365 con MDM
 
 **Vantaggi**
 
@@ -62,7 +62,7 @@ La privacy è importante sia per gli utenti che per l'organizzazione e la soluzi
 
 - Nessuna funzionalità per la pubblicazione di informative sulla privacy
 
-## Ibrida (Intune con Configuration Manager)
+## <a name="hybrid-intune-with-configmgr"></a>Ibrida (Intune con Configuration Manager)
 
 **Vantaggi**
 
@@ -75,7 +75,6 @@ La privacy è importante sia per gli utenti che per l'organizzazione e la soluzi
 
 
 
-
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO4-->
 
 

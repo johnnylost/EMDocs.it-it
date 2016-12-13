@@ -1,26 +1,26 @@
 ---
 title: Requisiti di utenti e dispositivi
-description: Requisiti comuni per utenti e dispositivi in uno scenario BYOD.
+description: Questo articolo include una serie di requisiti comuni che devono essere adottati da utenti e relativi dispositivi in uno scenario Bring Your Own Device (BYOD).
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/18/2016
-ms.topic: solution
+ms.date: 11/28/2016
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: a6319952-e9cd-4308-b9b9-b2e6005e6506
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
-ms.openlocfilehash: f665128a88ce1e6525b433a78b71437814e47a09
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: e8052d7c45b1b0a579dab9c17112907ade027f8f
 
 
 ---
 
-# Requisiti di utenti e dispositivi
+# <a name="user-and-device-requirements"></a>Requisiti di utenti e dispositivi
 
 Prima di consentire agli utenti di accedere alle risorse aziendali dai propri dispositivi, rispondere alle domande nelle sezioni seguenti in collaborazione con gli utilizzatori di queste risorse nell'ambiente usato e con il reparto IT. La figura sottostante illustra le interazioni tra utenti e dispositivi, con l'obiettivo finale di accedere ai dati e di usarli. Si noti che il diagramma non valuta la posizione geografica. Sebbene la posizione geografica sia un aspetto importante, che verrà trattato più avanti in questa guida, lo scopo di questa figura è illustrare i componenti principali di utenti e dispositivi. Fare le dovute considerazioni di progettazione per consentire questa comunicazione.
 
@@ -28,7 +28,7 @@ Prima di consentire agli utenti di accedere alle risorse aziendali dai propri di
 
 Il risultato di questo processo è una definizione chiara delle funzionalità da fornire. La sezione seguente contiene le domande su utenti e dispositivi a cui è necessario rispondere per formulare i requisiti per la progettazione della soluzione.
 
-## Domande da chiedere
+## <a name="questions-to-ask"></a>Domande da chiedere
 
 I requisiti di utenti e dispositivi sono suddivisi in tre aree:
 
@@ -36,14 +36,14 @@ I requisiti di utenti e dispositivi sono suddivisi in tre aree:
 - Dispositivo
 - Rete
 
-### Profilo
+### <a name="profile"></a>Profilo
 
 - Quali sono i tipi di profili utente disponibili nell'organizzazione (ad esempio utenti remoti, utenti che viaggiano occasionalmente e utenti che lavorano a tempo pieno tra casa e ufficio)?
 - Gli utenti hanno tutti le stesse esigenze per svolgere il proprio incarico?
 - Si ha una matrice che definisce le esigenze degli utenti in base agli incarichi/ruoli?
 
 
-### Dispositivi
+### <a name="devices"></a>Dispositivi
 
 - Quali tipi di dispositivi porteranno gli utenti, ad esempio smartphone, tablet e portatili?
 - Si intende fornire la funzionalità di cancellazione remota per tutti i tipi di dispositivi?
@@ -53,7 +53,7 @@ I requisiti di utenti e dispositivi sono suddivisi in tre aree:
 - L'azienda rispetta dei requisiti di conformità che devono essere applicati a tutti i dispositivi che potenzialmente avranno accesso ai dati dell'azienda?
 - L'azienda prevede dei criteri per gestire i dispositivi rubati?
 
-### Rete
+### <a name="network"></a>Rete
 
 - L'azienda ha delle risorse nel cloud che saranno accessibili tramite Internet dai dispositivi degli utenti?
 - L'azienda ha delle restrizioni dei criteri per gli utenti che accedono ai dati aziendali da diverse posizioni geografiche?
@@ -64,13 +64,12 @@ I requisiti di utenti e dispositivi sono suddivisi in tre aree:
 - Chi lavora sia da casa che in ufficio come deve connettersi alla rete? Con una connessione cablata, wireless o di entrambi i tipi?
     - Nel caso della connessione wireless, come si intende gestire l'autenticazione, l'autorizzazione e l'accounting (AAA) dei dispositivi in modo che i dispositivi non registrati o non autorizzati non siano in grado di usare risorse di rete senza autorizzazioni appropriate?
 
-### Supporto tecnico
+### <a name="technical-support"></a>Supporto tecnico
 - Il team responsabile della rete e della sicurezza è pronto a inserire tra le proprie mansioni lo svolgimento a intervalli regolari di controlli di conformità sui dispositivi?
 - Sono in vigore criteri e procedure di gestione delle modifiche a supporto dell'implementazione di BYOD?
 
 
 
-
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO4-->
 
 

@@ -1,26 +1,26 @@
 ---
 title: Opzioni di provisioning dei dispositivi
-description: 
+description: Questo articolo include materiale sussidiario sulle opzioni di provisioning dei dispositivi per la pianificazione e la progettazione di una soluzione di gestione di dispositivi mobili tramite Enterprise Mobility + Security.
 keywords: 
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 991cd722-089c-4e8c-80b9-b82e405cc891
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 9a92d3822f8791d2095f434cdf3e67582e329cae
+ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
+ms.openlocfilehash: 3df9be3ef643303f4205aa1b6daf18fdf53762d8
 
 
 ---
 
-# Opzioni di provisioning dei dispositivi
+# <a name="device-provisioning-options"></a>Opzioni di provisioning dei dispositivi
 
 >[!NOTE]
 >Questo argomento fa parte di una guida più ampia dedicata alle considerazioni di progettazione. Per leggere la guida dall'inizio, vedere l'[argomento principale](mdm-design-considerations-guide.md). Per scaricare una copia della versione integrale della guida, visitare la raccolta [TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
@@ -29,7 +29,7 @@ Quando un utente può usare e registrare il proprio dispositivo, aumentano i req
 
 ![Panoramica del processo di registrazione per dispositivi mobili usando una distribuzione ibrida di Intune e ConfigMgr](./media/MDM_Figure_04.png)
 
-**Panoramica del processo di registrazione per dispositivi mobili usando una distribuzione ibrida di Intune e ConfigMgr**
+**Panoramica del processo di registrazione per dispositivi mobili usando una distribuzione ibrida in Intune e Configuration Manager**
 
 1. Con <token>Windows Server 2012 R2, è stato introdotto un nuovo concetto noto come registrazione del dispositivo.  Gli utenti possono registrare i propri dispositivi per l'accesso Single Sign-On e l'accesso ai dati aziendali tramite l'aggiunta all'area di lavoro.  Durante il processo di registrazione viene installato un certificato sul dispositivo. Dopo aver registrato il dispositivo e averlo reso noto alla soluzione di gestione dei dispositivi, l'utente ottiene l'accesso alle risorse aziendali che in precedenza non erano disponibili al di fuori del PC appartenente al dominio.
 2. Gli utenti possono registrare dispositivi e configurarli per la gestione con Intune [usando il portale aziendale](/Intune/deploy-use/enroll-devices-in-microsoft-intune) e quindi sfruttare il Portale aziendale di Microsoft Intune per facilitare l'accesso ad applicazioni e dati aziendali ed essere in grado di gestire i propri dispositivi, eseguendo attività come la cancellazione remota in caso di smarrimento, furto o sostituzione.
@@ -39,7 +39,7 @@ Quando un utente può usare e registrare il proprio dispositivo, aumentano i req
 
 In base alle risposte date alle domande del passaggio 1, l'utente dovrebbe essere in grado di determinare in che modo vuole che siano gestiti i dispositivi nella soluzione di gestione dei dispositivi mobili. Gli elenchi riportati di seguito indicano i vantaggi e gli svantaggi di ogni opzione di provisioning.
 
-## Intune (autonomo)
+## <a name="intune-standalone"></a>Intune (autonomo)
 
 **Vantaggi**
 
@@ -51,9 +51,9 @@ In base alle risposte date alle domande del passaggio 1, l'utente dovrebbe esser
 **Svantaggi**
 
 - Interfaccia di gestione aggiuntiva per il provisioning dei dispositivi mobili (solo) se si usa una piattaforma di gestione locale per i dispositivi non mobili
-- Criteri di sicurezza e conformità dei dispositivi separati per il servizio basato sul cloud e la piattaforma di gestione locale 
+- Criteri di sicurezza e conformità dei dispositivi separati per il servizio basato sul cloud e la piattaforma di gestione locale
 
-## Gestione dei dispositivi mobili per Office 365
+## <a name="mdm-for-office-365"></a>Gestione dei dispositivi mobili per Office 365
 
 **Vantaggi**
 
@@ -67,7 +67,7 @@ In base alle risposte date alle domande del passaggio 1, l'utente dovrebbe esser
 - Criteri di sicurezza e conformità dei dispositivi separati per il servizio basato sul cloud e la piattaforma di gestione locale
 - Opzioni meno avanzate di provisioning dei dispositivi
 
-## Ibrida (Intune con Configuration Manager)
+## <a name="hybrid-intune-with-configmgr"></a>Ibrida (Intune con Configuration Manager)
 
 **Vantaggi**
 
@@ -84,6 +84,6 @@ Per altre informazioni sulle opzioni di registrazione e provisioning dei disposi
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

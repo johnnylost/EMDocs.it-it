@@ -1,26 +1,26 @@
 ---
 title: Opzioni di gestione della posta elettronica
-description: 
+description: Questo articolo include materiale sussidiario sulle opzioni esistenti di gestione di posta elettronica per la pianificazione e la progettazione di una soluzione di gestione di dispositivi mobili tramite Enterprise Mobility + Security.
 keywords: 
 author: andredm7
+ms.author: andredm
 manager: swadhwa
 ms.date: 10/3/2016
-ms.topic: solution
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 9b89da63-039f-4831-b204-28c0681478fe
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: 0808c833aa2b6f36baa8d8f48ce797cc9f18aafa
-ms.openlocfilehash: 919ce43f116714c7b08b8a17973c4955681b5a5a
+ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
+ms.openlocfilehash: ac2c64b54883204f0051250c23f7a6b085e67ebe
 
 
 ---
 
-# Opzioni di gestione della posta elettronica
+# <a name="email-management-options"></a>Opzioni di gestione della posta elettronica
 
 >[!NOTE]
 >Questo argomento fa parte di una guida più ampia dedicata alle considerazioni di progettazione. Per leggere la guida dall'inizio, vedere l'[argomento principale](mdm-design-considerations-guide.md). Per scaricare una copia della versione integrale della guida, visitare la raccolta [TechNet](https://gallery.technet.microsoft.com/Mobile-Device-Management-7d401582).
@@ -29,7 +29,7 @@ Il motivo principale per l'implementazione di una soluzione di gestione dei disp
 
 Si segue una procedura simile per configurare le opzioni di gestione della posta elettronica in Intune e nelle distribuzioni ibride con Intune e Configuration Manager. La differenza principale consiste nel fatto che è possibile implementare opzioni di gestione della posta elettronica più avanzate rispetto a MDM per Office 365. Ad esempio, usando Intune autonomo è possibile configurare l'accesso condizionale alla posta elettronica per consentire l'accesso alle cassette postali ospitate sia su Exchange Online che su Exchange in locale, nonché configurare profili di posta elettronica personalizzati. Intune consente di abilitare queste funzionalità usando criteri di configurazione e di conformità.  Anche le distribuzioni ibride con Intune e Configuration Manager supportano l'accesso condizionale alla posta elettronica, ma solo per le cassette postali ospitate in Exchange Online.
 
-Nello scenario illustrato di seguito nella figura 6, l'utente ha registrato il dispositivo in Intune e sta ora tentando di accedere alla propria posta elettronica aziendale usando Office 365 o Exchange in locale. In base alle impostazioni definite dall'amministratore IT della società, Intune esegue un processo di verifica dei criteri. In questo scenario, l'accesso dell'utente viene concesso se il dispositivo è crittografato, se è impostato un passcode e se il dispositivo non è jailbroken o rooted. Se un utente cerca di accedere alla posta elettronica aziendale e il dispositivo non è registrato o non è conforme in base alle impostazioni definite dall'amministratore IT, l'utente riceverà un messaggio di posta elettronica che spiega perché l'accesso è stato bloccato, insieme a informazioni su come risolvere il problema. 
+Nello scenario illustrato di seguito nella figura 6, l'utente ha registrato il dispositivo in Intune e sta ora tentando di accedere alla propria posta elettronica aziendale usando Office 365 o Exchange in locale. In base alle impostazioni definite dall'amministratore IT della società, Intune esegue un processo di verifica dei criteri. In questo scenario, l'accesso dell'utente viene concesso se il dispositivo è crittografato, se è impostato un passcode e se il dispositivo non è jailbroken o rooted. Se un utente cerca di accedere alla posta elettronica aziendale e il dispositivo non è registrato o non è conforme in base alle impostazioni definite dall'amministratore IT, l'utente riceverà un messaggio di posta elettronica che spiega perché l'accesso è stato bloccato, insieme a informazioni su come risolvere il problema.
 
 ![Accesso condizionale](./media/MDM_Figure_06.png)
 
@@ -37,7 +37,7 @@ Nello scenario illustrato di seguito nella figura 6, l'utente ha registrato il d
 
 Le risposte alle domande nel passaggio 1 aiutano a decidere in che modo verranno gestiti i dispositivi nella soluzione adottata per la gestione dei dispositivi mobili. Gli elenchi che seguono illustrano i vantaggi e gli svantaggi della gestione della posta elettronica per ogni soluzione MDM.
 
-## Intune (autonomo)
+## <a name="intune-standalone"></a>Intune (autonomo)
 
 **Vantaggi**
 
@@ -51,7 +51,7 @@ Le risposte alle domande nel passaggio 1 aiutano a decidere in che modo verranno
 
 - I profili di posta elettronica non sono supportati per i dispositivi mobili basati su Android
 
-## Gestione dei dispositivi mobili per Office 365
+## <a name="mdm-for-office-365"></a>Gestione dei dispositivi mobili per Office 365
 
 **Vantaggi**
 
@@ -61,10 +61,10 @@ Le risposte alle domande nel passaggio 1 aiutano a decidere in che modo verranno
 
 **Svantaggi**
 
-- Non sono supportate alcune opzioni avanzate di gestione della posta elettronica 
+- Non sono supportate alcune opzioni avanzate di gestione della posta elettronica
 - La distribuzione di profili di posta elettronica non è supportata (ad eccezione di iOS)
 
-## Ibrida (Intune con Configuration Manager)
+## <a name="hybrid-intune-with-configmgr"></a>Ibrida (Intune con Configuration Manager)
 
 **Vantaggi**
 
@@ -88,6 +88,6 @@ Esaminare i dettagli sulle opzioni di gestione della configurazione della posta 
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO4-->
 
 

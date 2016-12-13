@@ -1,32 +1,32 @@
 ---
 title: Considerazioni su utenti e dispositivi
-description: "Considerazioni sulla progettazione per utenti che accedono a risorse aziendali usando i propri dispositivi o dispositivi di proprietà dell&quot;azienda in uno scenario BYOD."
+description: "Questo articolo include una serie di considerazioni sulla progettazione per utenti che accedono a risorse aziendali usando i propri dispositivi o dispositivi di proprietà dell&quot;azienda in uno scenario Bring Your Own Device (BYOD)."
 keywords: 
 author: YuriDio
+ms.author: yurid
 manager: swadhwa
-ms.date: 10/18/2016
-ms.topic: solution
+ms.date: 11/28/2016
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: d1653116-3922-40d3-bc4f-3d845b6aaecb
 ms.reviewer: 
 ms.suite: ems
-ms.custom: microsoft-intune
 translationtype: Human Translation
-ms.sourcegitcommit: cc449bca094772759983cc924b3294a4f6b44d83
-ms.openlocfilehash: 00cd28bc9b58d6386a1d74c67d63ccebb202370e
+ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
+ms.openlocfilehash: 717183b0b7f94277379ebbeee2136227d29f88ef
 
 
 ---
 
-# Considerazioni su utenti e dispositivi
+# <a name="user-and-device-considerations"></a>Considerazioni su utenti e dispositivi
 
 Il primo problema relativo a utenti e dispositivi da affrontare è come le tecnologie esistenti influiranno sull'esperienza utente per l'accesso sicuro alle risorse aziendali. Indirizzare l'esperienza utente in diversi dispositivi può essere difficile, non solo da un punto di vista della sicurezza, ma anche dal punto di vista dello sviluppo delle app. Il canale di comunicazione tra il dispositivo e le risorse aziendali deve essere valutato in base al livello di sicurezza di rete appropriato necessario per evitare la perdita di dati durane il trasferimento.
 
 Le sezioni seguenti sono basate sui componenti per il sottodominio Utenti e dispositivi illustrato nella sezione [Problem Definition](byod-design-considerations-guide.md#problem-definition) (Definizione del problema) di questa guida, contenente il diagramma concettuale per il dominio del problema BYOD.
 
-## Profiles
+## <a name="profiles"></a>Profiles
 
 Per la progettazione di una soluzione di infrastruttura BYOD è fondamentale comprendere i requisiti e le esigenze degli utenti per svolgere il lavoro dai dispositivi scelti. Non tutti gli utenti avranno gli stessi requisiti; alcuni utenti accederanno ai dati sempre in locale e l'applicazione dei criteri per questi utenti può essere diversa. Gli utenti remoti accederanno ai dati aziendali da varie posizioni e in circostanze diverse. Valutare le opzioni disponibili per soddisfare queste esigenze. Stabilire un profilo utente a seconda delle esigenze:
 
@@ -54,9 +54,9 @@ I profili utente proposti in questa guida sono:
     - Accesso ai computer con Desktop remoto
     - Accesso ad altri computer locali
 
-Sarà necessario stabilire quale profilo utente è più adatto per la soluzione di infrastruttura BYOD. Si potrebbe valutare la possibilità di creare più profili utente a seconda delle relative esigenze lavorative. Idealmente, la tecnologia usata per implementare la soluzione di infrastruttura BYOD deve poter soddisfare tutti i profili utente, poiché le esigenze possono variare a seconda dell'utente. 
+Sarà necessario stabilire quale profilo utente è più adatto per la soluzione di infrastruttura BYOD. Si potrebbe valutare la possibilità di creare più profili utente a seconda delle relative esigenze lavorative. Idealmente, la tecnologia usata per implementare la soluzione di infrastruttura BYOD deve poter soddisfare tutti i profili utente, poiché le esigenze possono variare a seconda dell'utente.
 
-## Dispositivi
+## <a name="devices"></a>Dispositivi
 
 Il reparto IT deve determinare se è necessaria la conoscenza dei dispositivi. Ad esempio, uno scenario BYOD prevede che i dipendenti a ore controllino il foglio presenze o consultino le comunicazioni aziendali quando sono fuori ufficio. In molte organizzazioni, questi requisiti erano tradizionalmente servizi solo per LAN, mentre ora possono essere estesi ai dispositivi personali. A un utente che verifica la pianificazione è necessaria la gestione dei dispositivi? Comprendere il footprint dei dispositivi consente al reparto IT di:
 
@@ -70,7 +70,7 @@ Valutare la possibilità di creare un collegamento tra il dispositivo e l'utente
 - Approccio 3 (1+2): Registrazione e installazione di un agente di gestione in ogni dispositivo dell'utente.
 
 
-### Opzioni per il passaggio dello stato dei dispositivi da sconosciuti a noti: vantaggi e svantaggi
+### <a name="unknown-to-known-device-options-advantages-and-disadvantages"></a>Opzioni per il passaggio dello stato dei dispositivi da sconosciuti a noti: vantaggi e svantaggi
 
 Usare l'elenco che segue per comprendere i vantaggi e gli svantaggi delle opzioni per il passaggio dello stato dei dispositivi da sconosciuti a noti:
 
@@ -111,13 +111,13 @@ In Windows Server 2012 R2 il nuovo concetto di [aggiunta all'area di lavoro](htt
 
 Se si prevede di usare DRS, tenere presente che questa funzione non fornisce funzionalità di gestione. Se l'azienda necessita di più controlli di sicurezza per avere a disposizione più opzioni per controllare i dispositivi degli utenti, è consigliabile usare DRS insieme alla [registrazione dei dispositivi mobili](https://technet.microsoft.com/library/jj733620.aspx) come soluzione di agente di gestione. Se si sceglie questa opzione, tuttavia è necessario avere una sottoscrizione a Windows Intune. Per altre informazioni su Microsoft Intune, vedere [Introduction to Intune](/intune/understand-explore/introduction-to-microsoft-intune) (Introduzione a Intune).
 
-## Rete
+## <a name="network"></a>Rete
 
 Prendere in esame l'accesso alla rete aziendale dal punto di vista dell'utente e da quello del dispositivo. Come possono gli utenti accedere dati aziendali dai propri dispositivi? La maggior parte delle soluzioni di infrastruttura BYOD è concentrata solo minimamente sull'accesso remoto dai dispositivi degli utenti. Tuttavia, da un approccio incentrato sugli utenti, è necessario considerare dove si trovano fisicamente gli utenti. È consigliabile concentrarsi non solo sull'accesso remoto, ma anche sul modo in cui gli utenti potranno accedere ai dati in locale. Inoltre, sarà necessario prendere in considerazione i problemi normativi specifici dell'allineamento geopolitico dell'organizzazione. Ad esempio, come si può consentire agli utenti che si trovano fisicamente in un altro paese o in un'altra area l'accesso personalizzato alla rete?
 
 Se l'azienda ha delle risorse nel cloud pubblico accessibile tramite Internet dai dispositivi degli utenti, è necessario considerare il modo in cui viene gestito il traffico. Valutare la possibilità di usare la crittografia durante il trasferimento dei dati dai dispositivi degli utenti al provider dei servizi cloud. È consigliabile usare la crittografia dei dati anche quando gli utenti accedono alle risorse interne.
 
-### Opzioni di connettività di rete: vantaggi e svantaggi
+### <a name="network-connectivity-options-advantages-and-disadvantages"></a>Opzioni di connettività di rete: vantaggi e svantaggi
 
 Usare l'elenco che segue per comprendere i vantaggi e gli svantaggi delle opzioni di connettività:
 
@@ -174,7 +174,7 @@ Dopo aver definito la progettazione per l'accesso alla rete remota, valutare il 
 È possibile scegliere una segmentazione fisica sul punto di accesso wireless e sui componenti di rete (commutatori e router) per isolare gli utenti che si connettono con i propri dispositivi. È anche possibile implementare questo tipo di segmentazione usando i [profili Wi-Fi in Configuration Manager](https://technet.microsoft.com/library/dn261221.aspx). È disponibile una vasta gamma di impostazioni di sicurezza, ad esempio certificati per la convalida del server e per l'autenticazione client di cui è stato eseguito il provisioning con i [profili certificati in Configuration Manager](https://technet.microsoft.com/library/dn270540.aspx).
 
 
-### Opzioni di segmentazione della rete Wi-Fi: vantaggi e svantaggi
+### <a name="wi-fi-network-segmentation-options---advantages-and-disadvantages"></a>Opzioni di segmentazione della rete Wi-Fi: vantaggi e svantaggi
 
 Usare l'elenco che segue per comprendere i vantaggi e gli svantaggi delle opzioni di segmentazione della rete Wi-Fi:
 
@@ -203,14 +203,13 @@ Usare l'elenco che segue per comprendere i vantaggi e gli svantaggi delle opzion
     - Svantaggi
         - Richiede IPsec per l'implementazione con la funzionalità [Protezione accesso alla rete Microsoft](https://technet.microsoft.com/library/cc731276(v=ws.10).aspx), che può rappresentare un problema in uno scenario BYOD che richiede il supporto per "qualsiasi dispositivo"
 
-> [!NOTE] 
+> [!NOTE]
 > Per altre informazioni sui profili Wi-Fi in Configuration Manager, vedere [Introduzione ai profili Wi-Fi in Configuration Manager](https://technet.microsoft.com/library/dn261224.aspx).
 
 Il percorso di rete svolge un ruolo importante per le considerazioni sugli utenti e i dispositivi. È possibile sfruttare il controllo degli accessi a più fattori in ADFS per abilitare i criteri di autorizzazione per applicazione, con i quali è possibile consentire o negare l'accesso in base a utente, dispositivo e percorso di rete. Per altre informazioni su come configurare un ambiente per convalidare questa funzionalità, vedere [Gestire i rischi con il controllo degli accessi a più fattori](https://technet.microsoft.com/library/dn280936.aspx).
 
 
 
-
-<!--HONumber=Oct16_HO3-->
+<!--HONumber=Nov16_HO4-->
 
 
