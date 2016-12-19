@@ -27,7 +27,7 @@ Le soluzioni di sicurezza tradizionali erano sufficienti per proteggere il propr
 In oltre il 63% delle violazioni dei dati, gli utenti malintenzionati riescono ad accedere alla rete aziendale usando credenziali utente deboli, predefinite o rubate.  La sicurezza basata sull'identità di Microsoft è imperniata sulle credenziali utente, impedendo il furto delle credenziali tramite la gestione e la protezione delle identità, incluse le identità con e senza privilegi.
 
 
-## <a name="how-can-enterprise-mobility-security-help-you"></a>Come può essere utile Enterprise Mobility + Security?
+## <a name="how-can-enterprise-mobility--security-help-you"></a>Come può essere utile Enterprise Mobility + Security?
 
 L'approccio alla sicurezza di Enterprise Mobility + Security (EMS) inizia con un'identità comune protetta per un accesso sicuro a tutte le risorse aziendali in locale e sul cloud con un [accesso condizionale](https://azure.microsoft.com/documentation/articles/active-directory-conditional-access/) basato sul rischio. Con questo approccio, i responsabili IT possono proteggere le risorse aziendali all'ingresso principale con accessi condizionali basati sul rischio innovativi e avanzati. EMS offre un'unica identità comune protetta per l'accesso a migliaia di app rendendo più semplice per i responsabili IT la gestione e la protezione delle identità con privilegi.
 
