@@ -26,7 +26,7 @@ Benché la transizione alla mobilità e al cloud abbia incrementato sostanzialme
 
 Le risorse di controllo dei dati che proteggono i dati aziendali dagli errori degli utenti sono un fattore importante per la sicurezza delle risorse e favoriscono la produttività degli utenti.
 
-## <a name="how-can-enterprise-mobility-security-help-you"></a>Vantaggi di Enterprise Mobility + Security
+## <a name="how-can-enterprise-mobility--security-help-you"></a>Vantaggi di Enterprise Mobility + Security
 
 Enterprise Mobility + Security (EMS) offre al personale IT maggiore visibilità delle attività di utenti, dispositivi e dati, in locale e nel cloud.  Con EMS il personale IT può proteggere i dati aziendali dagli errori degli utenti con controlli e applicazione più severi.  Sarà possibile monitorare il rilevamento dei rischi tramite potenti report e analisi di utenti, traffico di caricamento/download, modelli di utilizzo e transazioni per le applicazioni rilevate.
 

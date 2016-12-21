@@ -50,28 +50,34 @@
         - name: "Risolvere i problemi"
           href: /advanced-threat-analytics/troubleshoot/
           homepage: /advanced-threat-analytics/troubleshoot/ata-troubleshooting
+
+    - name: "Anteprima di Intune in Azure"
+      href: /intune-azure/
+      homepage: /intune-azure
+
     - name: "Intune"
       href: /intune/
       homepage: /intune
       items:
         - name: "Comprendere ed esplorare"
           href: /intune/understand-explore/
-          homepage: /intune/understand/ways-to-do-enterprise-mobility
+          homepage: /intune/understand-explore/introduction-to-microsoft-intune
         - name: "Pianificare e progettare"
           href: /intune/plan-design/
-          homepage: /intune/plandesign/plan-you-user-and-device-groups
+          homepage: /intune/plan-design/
         - name: "Distribuire e usare"
           href: /intune/deploy-use/
-          homepage: /intune/deploy-use/learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents
+          homepage: /intune/deploy-use/overview-of-device-and-app-lifecycles-in-microsoft-intune
         - name: "Risolvere i problemi"
           href: /intune/troubleshoot/
-          homepage: /intune/troubleshoot/troubleshoot-microsoft-intune
+          homepage: /intune/troubleshoot/general-troubleshooting-tips-for-microsoft-intune
         - name: "Introduzione"
-          href: /intune/get-started/
+          href: /intune/get-started/get-started
           homepage: /intune/get-started/what-s-new-in-microsoft-intune
         - name: "Sviluppare e personalizzare le app"
           href: /intune/develop/
           homepage: /intune/develop/intune-app-sdk
+ 
 
     - name: "Azure Information Protection"
       href: /information-protection/
@@ -177,3 +183,10 @@
         - name: "Gestione aggiornamenti software"
           href: /sccm/sum/
           homepage: /sccm/sum/understand/software-updates-introduction
+        - name: "Sviluppo"
+          href: /sccm/develop/
+          homepage: /sccm/develop/core/misc/system-center-configuration-manager-sdk
+          items:
+            - name: "Riferimento"
+              href: /sccm/develop/reference
+              homepage: /sccm/develop/reference/configuration-manager-reference

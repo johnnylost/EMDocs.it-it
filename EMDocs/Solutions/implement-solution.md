@@ -3,18 +3,19 @@ title: Implementazione di una soluzione per proteggere la posta elettronica e gl
 description: Preparare e implementare una soluzione per proteggere il contenuto dei messaggi di posta elettronica e gli allegati aziendali.
 keywords: 
 author: craigcaseyMSFT
+ms.author: v-craic
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: edc744d8-97d9-42e0-8906-6f0dedd8d629
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 7c389de59d0ca6b33fbd4d872cb77236930d55bf
-ms.openlocfilehash: 78fb7718a03cc394296a3125619813007a907574
+ms.sourcegitcommit: fd6318efea58b5b6b72de306339629b568bc902d
+ms.openlocfilehash: 7df900a8224c847eed28ad22cdaffbd6b424c4c8
 
 
 ---
@@ -98,6 +99,6 @@ Per istruzioni dettagliate su come distribuire una soluzione per proteggere i co
 
 
 
-<!--HONumber=Jul16_HO3-->
+<!--HONumber=Nov16_HO2-->
 
 

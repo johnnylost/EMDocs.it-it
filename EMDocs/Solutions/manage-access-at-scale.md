@@ -24,7 +24,7 @@ ms.openlocfilehash: fa2795fb578c0d278d55cbff9f44c19ca2e13309
 # <a name="manage-access-at-scale"></a>Gestire l'accesso su larga scala
 Microsoft offre da sempre gli strumenti necessari alle organizzazioni. Oltre a un'identità che permette di accedere dovunque, Microsoft offre anche un insieme di strumenti per automatizzare, proteggere e gestire le attività IT all'interno dell'organizzazione. Anche dopo l'avvento del cloud computing, esiste tuttora una domanda di gestione e controllo di attività IT come le chiamate del supporto tecnico per la reimpostazione delle password utente, la gestione dei gruppi di utenti e le richieste di applicazioni.
 
-## <a name="how-enterprise-mobility-security-can-help-you"></a>Come può essere utile Enterprise Mobility + Security
+## <a name="how-enterprise-mobility--security-can-help-you"></a>Come può essere utile Enterprise Mobility + Security
 Enterprise Mobility + Security (EMS) è l'unica soluzione cloud completa che protegge in modo nativo i dati aziendali nel dispositivo stesso e con quattro livelli di protezione per identità, dispositivi, app e dati. EMS offre la soluzione a una delle esigenze principali degli ambienti mobile-first e cloud-first, ovvero rendere disponibile un insieme completo di strumenti all'interno di Azure Active Directory (Azure AD) che consentono di:
 - Gestire il ciclo di vita dell'utente
 - Ridurre overhead e costo dell'IT
