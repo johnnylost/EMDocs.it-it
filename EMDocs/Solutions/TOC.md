@@ -16,6 +16,7 @@
 ### [Tenere traccia dell'uso dei dati condivisi e rispondere in caso di uso improprio dei dati](infoprotect-track-usage-scenario.md)
 ## [Produttività dei dispositivi mobili gestiti](protect-office365-data-with-intune.md)
 ### [Proteggere i dati aziendali di Office 365 con Intune](protect-office365-data-with-intune.md)
+### [Proteggere i dati aziendali locali con Intune](protect-on-premises-data-with-intune.md)
 ## [Guide alla progettazione e all'architettura](byod-design-considerations-guide.md)
 ### [Guida alla progettazione di BYOD](byod-design-considerations-guide.md)
 #### [Progettazione della soluzione di infrastruttura](byod-envisioning-the-byod-infrastructure-solution.md)
@@ -102,6 +103,6 @@
 ## [Domande frequenti sul supporto per EMS](ems-support-faq.md)
 
 
-<!--HONumber=Dec16_HO1-->
+<!--HONumber=Dec16_HO2-->
 
 

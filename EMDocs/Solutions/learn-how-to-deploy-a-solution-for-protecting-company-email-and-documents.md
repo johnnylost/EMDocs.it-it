@@ -1,20 +1,21 @@
 ---
 title: Informazioni su come distribuire una soluzione per la protezione di documenti e messaggi di posta elettronica aziendali
-description: "Determinare e distribuire la soluzione più adatta alla propria società per applicare l'accesso condizionale."
+description: "Determinare e distribuire la soluzione più adatta alla propria società per applicare l&quot;accesso condizionale."
 keywords: 
 author: craigcaseyMSFT
+ms.author: v-craic
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 2e10af43-3138-45c0-b2f7-14a1d2bfb237
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: d1211e3ef25b73679c851bce7f5eca872520f023
-ms.openlocfilehash: 346338c40e83164d63476cf8e08117a5687903b3
+ms.sourcegitcommit: fd6318efea58b5b6b72de306339629b568bc902d
+ms.openlocfilehash: 232939cbf147b27732991a817827036963289b67
 
 
 ---
@@ -70,6 +71,6 @@ Una volta letto questo argomento, è possibile acquisire altre informazioni sull
 
 
 
-<!--HONumber=Oct16_HO1-->
+<!--HONumber=Nov16_HO2-->
 
 

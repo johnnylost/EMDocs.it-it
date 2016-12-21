@@ -66,7 +66,7 @@ Usare la tabella seguente come riferimento per la scelta dell'opzione MDM più a
 
 - Non disponibile
 
-## <a name="enterprise-mobility-security"></a>Enterprise Mobility + Security
+## <a name="enterprise-mobility--security"></a>Enterprise Mobility + Security
 
 **Vantaggi**
 

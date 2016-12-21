@@ -70,7 +70,7 @@ Valutare la possibilità di creare un collegamento tra il dispositivo e l'utente
 - Approccio 3 (1+2): Registrazione e installazione di un agente di gestione in ogni dispositivo dell'utente.
 
 
-### <a name="unknown-to-known-device-options-advantages-and-disadvantages"></a>Opzioni per il passaggio dello stato dei dispositivi da sconosciuti a noti: vantaggi e svantaggi
+### <a name="unknown-to-known-device-options--advantages-and-disadvantages"></a>Opzioni per il passaggio dello stato dei dispositivi da sconosciuti a noti: vantaggi e svantaggi
 
 Usare l'elenco che segue per comprendere i vantaggi e gli svantaggi delle opzioni per il passaggio dello stato dei dispositivi da sconosciuti a noti:
 
@@ -117,7 +117,7 @@ Prendere in esame l'accesso alla rete aziendale dal punto di vista dell'utente e
 
 Se l'azienda ha delle risorse nel cloud pubblico accessibile tramite Internet dai dispositivi degli utenti, è necessario considerare il modo in cui viene gestito il traffico. Valutare la possibilità di usare la crittografia durante il trasferimento dei dati dai dispositivi degli utenti al provider dei servizi cloud. È consigliabile usare la crittografia dei dati anche quando gli utenti accedono alle risorse interne.
 
-### <a name="network-connectivity-options-advantages-and-disadvantages"></a>Opzioni di connettività di rete: vantaggi e svantaggi
+### <a name="network-connectivity-options--advantages-and-disadvantages"></a>Opzioni di connettività di rete: vantaggi e svantaggi
 
 Usare l'elenco che segue per comprendere i vantaggi e gli svantaggi delle opzioni di connettività:
 

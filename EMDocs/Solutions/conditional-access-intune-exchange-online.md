@@ -1,8 +1,9 @@
 ---
-title: Usare l'accesso condizionale con Microsoft Intune ed Exchange Online
+title: Usare l&quot;accesso condizionale con Microsoft Intune ed Exchange Online
 description: Distribuire Exchange Online con Intune.
 keywords: 
 author: craigcaseyMSFT
+ms.author: v-craic
 manager: swadhwa
 ms.date: 04/28/2016
 ms.topic: article
@@ -13,8 +14,8 @@ ms.assetid: 8cfe421b-52c9-4d44-8df1-15c82375c335
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: e422a74e551753ddb579d98789670cd8c1811b80
-ms.openlocfilehash: b0141331db2c63761997ffa1ad20d062b9e9969b
+ms.sourcegitcommit: 0eacdea52150bc8282df618ae73c96724cec26c5
+ms.openlocfilehash: 6af172fa8bbc359f364bb9bd3876627046500d6f
 
 
 ---
@@ -74,6 +75,6 @@ Dopo aver distribuito una soluzione per la protezione della posta elettronica az
 
 
 
-<!--HONumber=Oct16_HO2-->
+<!--HONumber=Nov16_HO2-->
 
 

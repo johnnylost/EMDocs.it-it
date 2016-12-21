@@ -1,8 +1,9 @@
 ---
 title: Uso dei criteri di gestione delle app mobili in Intune
-description: Creare e distribuire un'app in Intune con i criteri di gestione delle app mobili.
+description: Creare e distribuire un&quot;app in Intune con i criteri di gestione delle app mobili.
 keywords: 
 author: craigcaseyMSFT
+ms.author: v-craic
 manager: swadhwa
 ms.date: 05/12/2016
 ms.topic: article
@@ -13,8 +14,8 @@ ms.assetid: 6d7c4104-b85f-407e-8832-0e6bbac934f5
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: faa30f461ff9a1a14d150bd85d86d37cd298570c
-ms.openlocfilehash: 4a919dcc0e4b754cbbe8a88140e8b1e8dcc7f924
+ms.sourcegitcommit: 0eacdea52150bc8282df618ae73c96724cec26c5
+ms.openlocfilehash: 2efaf8b6298cabd640f141675b5cefe3f77aaae7
 
 
 ---
@@ -117,6 +118,6 @@ Dopo aver creato e distribuito un'app associata a un criterio MAM, sarà possibi
 
 
 
-<!--HONumber=Sep16_HO1-->
+<!--HONumber=Nov16_HO2-->
 
 
