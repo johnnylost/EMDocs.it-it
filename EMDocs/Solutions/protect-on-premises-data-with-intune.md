@@ -14,8 +14,8 @@ ms.reviewer: vlpetros
 ms.suite: ems
 ms.custom: active-directory
 translationtype: Human Translation
-ms.sourcegitcommit: 168d6d559aa17bbe0b8e912a53cbd384a3dc48a3
-ms.openlocfilehash: b0dd2c797fb6b33e10ef62fa74bb4c646e89bede
+ms.sourcegitcommit: b5acf1041ff91a68443464a9fe196b179c6668a6
+ms.openlocfilehash: 8b2c453c18f1569ac1fe94bb7c1e3e8c568d28ec
 
 
 ---
@@ -133,12 +133,9 @@ Quando si concede agli utenti l'accesso alle risorse aziendali tramite profili V
 -   iOS 8.0 (e versioni successive)
 -   Mac OS X (10.9 e versioni successive)
 -   Android (4.0 e versioni successive e Android for Work)
--   Windows 10 (per dispositivi desktop e mobili) e versioni successive
-
-È possibile usare solo un **profilo certificato SCEP** per i dispositivi in esecuzione su queste piattaforme:
-
 -   Windows (8.1 e versioni successive)
 -   Windows Phone (8.1 e versioni successive)
+-   Windows 10 (per dispositivi desktop e mobili) e versioni successive
 
 Anche se è necessaria un'autorità di certificazione globale (enterprise) per gestire l'autenticazione basata su certificati per l'azienda, esistono altri prerequisiti che devono essere soddisfatti prima di poter usare certificati SCEP o PFX per proteggere l'accesso alle risorse aziendali.
 
@@ -158,6 +155,6 @@ Quando si [distribuiscono i profili certificato](https://docs.microsoft.com/intu
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO1-->
 
 
