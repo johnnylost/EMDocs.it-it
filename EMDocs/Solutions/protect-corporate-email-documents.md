@@ -5,7 +5,7 @@ keywords:
 author: craigcaseyMSFT
 ms.author: v-craic
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 01/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,20 +14,20 @@ ms.assetid: 78d8368e-1bfe-4ac4-991d-467321a76ed7
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: fd6318efea58b5b6b72de306339629b568bc902d
-ms.openlocfilehash: d71c2e0f31d7db2d3219ab9a947cce83e8070831
+ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
+ms.openlocfilehash: f209973d304e1a54393dc994e7c3785e4f751a88
 
 
 ---
 
-# Protezione dei messaggi di posta elettronica e dei documenti aziendali
+# <a name="protecting-corporate-email-and-documents"></a>Protezione dei messaggi di posta elettronica e dei documenti aziendali
 La protezione dei messaggi di posta elettronica aziendali prevede due obiettivi principali:
 
 -   Consentire solo a dispositivi compatibili di accedere alla posta elettronica dell'azienda
 
 -   Proteggere il contenuto nei messaggi di posta elettronica e negli allegati
 
-## Consentire solo a dispositivi compatibili di accedere alla posta elettronica dell'azienda
+## <a name="allow-only-compliant-devices-to-access-your-companys-email"></a>Consentire solo a dispositivi compatibili di accedere alla posta elettronica dell'azienda
 Un passaggio importante per la protezione dei dati aziendali è limitare l'accesso a dispositivi che non usano una password complessa, non sono jailbroken né crittografati. Microsoft Intune offre la possibilità di impostare le condizioni che gli utenti devono soddisfare per accedere alle risorse aziendali. Questa caratteristica è nota come accesso condizionale.
 
 L'accesso condizionale è determinato da due tipi di criteri che è possibile impostare in Intune:
@@ -42,7 +42,7 @@ I**criteri di conformità** stabiliscono la conformità di un dispositivo. Esami
 
 I**criteri di accesso condizionale** sono configurati per un determinato servizio, ad esempio Exchange Online o SharePoint Online. Per ogni servizio, è possibile definire i gruppi di utenti a cui devono essere applicati questi criteri. È possibile ad esempio assicurarsi che tutti i dipendenti del reparto contabilità possano accedere alla posta elettronica aziendale solo da dispositivi registrati e conformi.
 
-## Esperienza generale dell'utente finale:
+## <a name="high-level-end-user-experience"></a>Esperienza generale dell'utente finale:
 Dopo aver implementato la soluzione, gli utenti finali potranno accedere alla posta elettronica aziendale solo sui dispositivi gestiti e conformi. Quando accedono alla posta elettronica sui dispositivi, i dati dell'azienda sono protetti e contenuti all'interno dell'ecosistema di app e sono disponibili unicamente agli utenti previsti. L'accesso potrà essere revocato in qualsiasi momento se il dispositivo risulta non conforme.
 
 In particolare, i criteri di accesso condizionale configurati in Intune fanno sì che i dispositivi possano accedere alla posta elettronica solo se sono conformi ai criteri di conformità impostati. Alcune azioni, ad esempio le operazioni Copia e Incolla oppure il salvataggio nei servizi di archiviazione cloud personale, possono essere limitate usando i criteri di gestione delle applicazioni mobili. Azure Information Protection può essere usato per fare in modo che i dati sensibili di posta elettronica e gli allegati inoltrati possano essere letti solo dai destinatari previsti. L'esperienza dell'utente finale è descritta in dettaglio in [Esperienza utente finale di accesso condizionale](end-user-experience-conditional-access.md).
@@ -50,17 +50,17 @@ In particolare, i criteri di accesso condizionale configurati in Intune fanno s�
 
 Guardare [questo](https://www.youtube.com/watch?feature=player_embedded&v=lYx3YIezccg) video di quattro minuti per vedere come l'accesso condizionale influisce sugli utenti finali.
 
-## Importanza dell'architettura
+## <a name="why-architecture-matters"></a>Importanza dell'architettura
 I diversi componenti di EMS e Office 365 sono compilati e progettati per l'esecuzione nel cloud portando tutti i vantaggi offerti dal cloud: scalabilità, flessibilità e facilità di gestione.
 
 Poiché aziende diverse hanno requisiti diversi, EMS è progettato per integrarsi con l'infrastruttura locale esistente, ad esempio Active Directory, Exchange Server o System Center Configuration Manager. In questo modo è possibile usare le credenziali già definite nella rete sia per le risorse locali che per quelle cloud.
 
 Le sezioni seguenti descrivono l'architettura progettata per l'esecuzione nel cloud e illustrano brevemente l'opzione locale.
 
-### Flusso di accessi alla posta elettronica
+### <a name="email-access-flow"></a>Flusso di accessi alla posta elettronica
 A seconda del tipo di applicazione di posta elettronica usato per accedere a Exchange Online, il percorso per stabilire l'accesso protetto alla posta elettronica può essere variare leggermente. Tuttavia, i componenti chiave, Azure Active Directory (Azure AD), Office 365/Exchange Online e Microsoft Intune, sono gli stessi. Anche l'esperienza del reparto IT e quella dell'utente finale sono simili. EMS supporta attualmente app di posta elettronica native e l'app Microsoft Outlook per iOS e Android.
 
-### Flusso di controllo degli accessi per le applicazioni di posta elettronica native
+### <a name="access-control-flow-for-native-email-applications"></a>Flusso di controllo degli accessi per le applicazioni di posta elettronica native
 I client di Exchange ActiveSync (EAS) che provano ad accedere alla posta elettronica in Exchange Online verranno esaminati in base alle proprietà seguenti:
 
 -   Il dispositivo è gestito da Intune?
@@ -85,7 +85,7 @@ Nella maggior parte delle piattaforme, la registrazione del dispositivo con Azur
 
 ![Immagine che illustra il flusso di controllo di accesso per le app di posta elettronica native sui dispositivi iOS e Android](./media/ProtectEmail/Access-Control-Flow-For-Native-Email-Apps.png)
 
-### Flusso di controllo degli accessi per le applicazioni Outlook
+### <a name="access-control-flow-for-outlook-applications"></a>Flusso di controllo degli accessi per le applicazioni Outlook
 Analogamente al client EAS, l'app di posta elettronica Outlook che prova ad accedere alla posta elettronica in Exchange Online verrà esaminata in base alle proprietà seguenti:
 
 -   Il dispositivo è gestito da Intune?
@@ -98,7 +98,7 @@ La conformità del dispositivo viene stabilita perlopiù in modo analogo a quant
 
 ![Immagine che illustra il flusso di controllo di accesso per l'app Outlook](./media/ProtectEmail/Access-Control-Flow-For-Outlook-App.png)
 
-## Esperienza dell'amministratore IT:
+## <a name="the-it-admin-experience"></a>Esperienza dell'amministratore IT:
 Questo processo non prevede alcuna installazione complessa dell'infrastruttura necessaria per Azure AD o Exchange. Gli amministratori IT:
 
 -   Configurano e distribuiscono i criteri di conformità che vengono usati per esaminare lo stato di conformità del dispositivo.
@@ -109,7 +109,7 @@ Questo processo non prevede alcuna installazione complessa dell'infrastruttura n
 
 È prevista una fase di installazione facoltativa che potrebbe essere necessaria. La creazione di report che viene usata per gestire e monitorare lo stato e l'accesso ai dispositivi richiede l'installazione di Microsoft Intune Service to Service Connector.
 
-## Esperienza dell'utente finale:
+## <a name="the-end-user-experience"></a>Esperienza dell'utente finale:
 Quando l'utente prova ad accedere alla posta elettronica sul dispositivo per la prima volta o successivamente a eseguire la sincronizzazione, viene controllato lo stato della registrazione e di conformità del dispositivo. Il processo di registrazione o risoluzione dei problemi di conformità è un'esperienza interattiva. All'utente finale vengono forniti i passaggi necessari per registrare il dispositivo e renderlo conforme senza dover contattare l'help desk IT:
 
 -   **Se il dispositivo non è registrato**, nella pagina di accesso viene visualizzato un messaggio di accesso negato e viene chiesto di eseguire la registrazione. Alla registrazione, il dispositivo viene registrato automaticamente in Azure Active Directory. Intune verifica la conformità del dispositivo e fornisce i passaggi correttivi per risolvere eventuali problemi di non conformità. Una volta che il dispositivo è conforme, Intune imposta lo stato di conformità del dispositivo con Azure Active Directory.
@@ -118,11 +118,11 @@ Quando l'utente prova ad accedere alla posta elettronica sul dispositivo per la 
 
 Una volta che il dispositivo viene considerato registrato e conforme, entro pochi minuti dovrebbe essere eseguita la sincronizzazione della posta elettronica.
 
-## Come proseguire
+## <a name="where-to-go-from-here"></a>Come proseguire
 Dopo avere acquisito le informazioni sulla protezione di documenti e messaggi di posta elettronica aziendali, è possibile leggere le procedure di [protezione degli allegati di posta elettronica](protect-email-attachments.md). In alternativa, se si è pronti, approfondire l'[implementazione di una soluzione per la protezione della posta elettronica aziendale](implement-solution.md).
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Jan17_HO2-->
 
 
