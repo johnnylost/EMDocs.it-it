@@ -1,27 +1,26 @@
 ---
-title: "Come registrarsi con autenticazione a più fattori"
+title: "Come registrarsi con l&quot;autenticazione a più fattori"
 description: Come configurare il metodo preferito per la verifica aggiuntiva di sicurezza
 keywords: 
-author: craigcaseyMSFT
-ms.author: v-craic
-manager: jeffgilb
+author: NathBarn
+ms.author: NathBarn
+manager: angrobe
 ms.date: 09/28/2016
 ms.topic: article
 ms.prod: 
-ms.service: ems
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 06e21ca9-ed6a-4f6e-a7e2-5445aaeb3552
-ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: dab9c133dd5a79afef07291405c2ac25218ca715
-ms.openlocfilehash: 4c8f2d3dbe72a4bf3d948f074b55b6ba4b936522
+ms.sourcegitcommit: 2342889a686db8a6496c97979cb222af8347241a
+ms.openlocfilehash: b7164b33bf9d4bdb7584de9cbb78711e922a10c4
 
 
 ---
 
-# Come configurare il metodo preferito per la verifica aggiuntiva di sicurezza
+# <a name="how-to-set-up-your-preferred-method-for-additional-security-verification"></a>Come configurare il metodo preferito per la verifica aggiuntiva di sicurezza
 
 
 
@@ -48,7 +47,7 @@ _L'app Azure Authenticator può funzionare in due modi diversi per offrire la si
 
 L'app Azure Authenticator è disponibile per [Windows Phone](http://www.windowsphone.com/en-us/store/app/azure-authenticator/03a5b2bf-6066-418f-b569-e8aecbc06e50), [Android](https://play.google.com/store/apps/details?id=com.azure.authenticator) e [IOS](https://itunes.apple.com/us/app/azure-authenticator/id983156458).
 
-## Telefono cellulare (SMS o chiamata)
+## <a name="mobile-phone-text-or-call"></a>Telefono cellulare (SMS o chiamata)
 Se si vuole usare il telefono cellulare come metodo di contatto principale, seguire i passaggi descritti di seguito. Vengono offerte informazioni dettagliate su come impostare un'autenticazione a più fattori per usare il telefono cellulare come metodo di contatto tramite una telefonata o un SMS .
 
 1. In **Passaggio 1: How should we contact you? (Metodo di contatto)** selezionare **Telefono per l'autenticazione**.
@@ -74,7 +73,7 @@ Gli spazi sono consentiti, ma non i caratteri di punteggiatura. Ad esempio, nume
 10. Incollare nell'applicazione non basata su browser la password che è stata copiata negli Appunti.
 11. Fare clic su **Fine**.
 
-## Chiamata al telefono dell'ufficio
+## <a name="office-phone-call"></a>Chiamata al telefono dell'ufficio
 Questa sezione illustra come impostare Azure Multi-Factor Authentication per usare il telefono dell'ufficio come metodo di contatto principale.
 1. Selezionare Telefono ufficio dall'elenco a discesa.
 
@@ -89,7 +88,7 @@ Questa sezione illustra come impostare Azure Multi-Factor Authentication per usa
   ![Cattura di schermata nella quale si richiede all'utente di digitare la password dell'app](./media/ft-enrollMFA-7-pastePW.png)
 9.  Fare clic su **Fine**.
 
-## Applicazione per dispositivi mobili
+## <a name="mobile-application"></a>Applicazione per dispositivi mobili
 Questa sezione illustra come impostare Azure Multi-Factor Authentication per usare l'app per dispositivi mobili come metodo di contatto principale.
 
 L'app Azure Authenticator è disponibile per Windows Phone, Android e IOS.
@@ -117,11 +116,11 @@ L'app Azure Authenticator è disponibile per Windows Phone, Android e IOS.
   ![Cattura di schermata nella quale si richiede all'utente di digitare la password dell'app](./media/ft-enrollMFA-11-securityVerification.png)
 12. Fare clic su **Fine**.
 
-### Altre informazioni
+### <a name="want-to-learn-more"></a>Altre informazioni
 Vedere [Enterprise Mobility + Security](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
 
 
 
-<!--HONumber=Nov16_HO3-->
+<!--HONumber=Jan17_HO1-->
 
 
