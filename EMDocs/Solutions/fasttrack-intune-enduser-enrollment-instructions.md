@@ -2,26 +2,25 @@
 title: Istruzioni di registrazione di Intune (versione utente finale) per gli amministratori IT
 description: Istruzioni di registrazione di Intune (versione utente finale) per gli amministratori IT
 keywords: 
-author: craigcaseyMSFT
-ms.author: v-craic
-manager: jeffgilb
+author: nathbarn
+ms.author: nathbarn
+manager: angrobe
 ms.date: 09/28/2016
 ms.topic: article
 ms.prod: 
-ms.service: ems
+ms.service: microsoft-intune
 ms.technology: 
 ms.assetid: 5c13446e-aa31-47df-ad9d-373be7660197
-ROBOTS: noindex
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: dab9c133dd5a79afef07291405c2ac25218ca715
-ms.openlocfilehash: 9c01c3c380edfa02d4055a84d59588552f092ea8
+ms.sourcegitcommit: 2342889a686db8a6496c97979cb222af8347241a
+ms.openlocfilehash: 698af6701d756beac696648addbef11d709764fa
 
 
 ---
 
-# Istruzioni di registrazione di Intune (versione utente finale) per gli amministratori IT
+# <a name="end-user-intune-enrollment-instructions-for-it-administrators"></a>Istruzioni di registrazione di Intune (versione utente finale) per gli amministratori IT
 
 Questo documento che contiene istruzioni per la registrazione può essere personalizzato e dato agli utenti per facilitare la registrazione di dispositivi mobili iOS e Android in Microsoft Intune™ (per i dispositivi Windows, vedere Uso del dispositivo Windows con Intune). Si consiglia di copiare le parti di questo documento considerate più appropriate per gli utenti. Ad esempio, si potrebbe voler creare un documento singolo per ogni piattaforma del dispositivo o aggiungere altre catture di schermata.
 
@@ -30,12 +29,12 @@ Oltre a queste istruzioni scritte, è possibile includere collegamenti ipertestu
 > [!NOTE]
 > Microsoft, Intune e Office 365 sono marchi registrati di Microsoft Corporation. iPhone, Apple e Mac sono marchi registrati di Apple, Inc. Android è un marchio registrato di Google Inc. Samsung KNOX è un marchio registrato di Samsung Electronics Co., Ltd.
 
-## Perché registrarsi in Intune
+## <a name="why-enroll-in-intune"></a>Perché registrarsi in Intune
 Quando se esegue la registrazione, è possibile usare il dispositivo mobile per accedere a dati e file aziendali o dell'istituto di istruzione. Ciò consente al dipartimento IT di gestire e proteggere le risorse aziendali e dell'istituto di istruzione, offrendo allo stesso tempo la possibilità di usare il dispositivo preferito per accedere ai dati.
 
 Per usare il dispositivo al lavoro, registrarlo in Intune tramite il Portale aziendale. È possibile trovare facilmente le app da installare, vedere le altre app aggiunte e trovare le informazioni di contatto dell'amministratore IT. Viene inoltre concessa l'autorizzazione all'amministratore IT di gestire il dispositivo per proteggere le informazioni aziendali usate sul dispositivo. Prima di avviare la registrazione, assicurarsi di avere una buona connessione Wi-Fi o rete cellulare a Internet.
 
-## Registrare il dispositivo Android in Intune tramite l'app Portale aziendale
+## <a name="enroll-your-android-device-in-intune-using-the-intune-company-portal-app"></a>Registrare il dispositivo Android in Intune tramite l'app Portale aziendale
 
 Queste passaggi sono validi per la registrazione di dispositivi Android Samsung Knox e Android nativi, esclusi i dispositivi Samsung Knox. Per determinare se il dispositivo è di tipo Samsung Knox, aprire **Impostazioni > Informazioni sul telefono**. Se non viene visualizzata la parola Knox qui riportata, significa che il dispositivo è un dispositivo Android nativo. Le schermate che appaiono sul dispositivo potrebbero essere leggermente diverse da quelle illustrate di seguito.
 
@@ -57,10 +56,10 @@ Prima o dopo la registrazione potrebbe essere necessario scegliere la categoria 
 
   - Se viene visualizzato il messaggio **Allow Company Portal to access your contacts? (Consentire al Portale aziendale di accedere ai contatti)**, toccare **ALLOW (Consenti)**. Scegliere questa opzione perché Microsoft non accede mai ai contatti. Il testo del messaggio è controllato da Google, quindi Microsoft non può modificarlo. Quando si concede l'accesso, l'app Portale aziendale può accedere ai registri dei dati per risolvere problemi riguardanti il dispositivo.
 
-        ![Screenshot asking user to allow portal to access contacts on an Android device](./media/ft-userEnrollAndroid-3-accessContacts.png)
+        ![Screenshot in cui viene chiesto all'utente di consentire al portale di accedere ai contatti in un dispositivo Android](./media/ft-userEnrollAndroid-3-accessContacts.png)
   - Se viene visualizzato il messaggio **Allow Company Portal to make and manage phone calls? (Consentire al portale aziendale di telefonare e gestire le chiamate)**, toccare **ALLOW (Consenti)**. Scegliere questa opzione perché Microsoft non effettua né gestisce le chiamate telefoniche. Il testo del messaggio è controllato da Google, quindi Microsoft non può modificarlo. Quando si consente l'accesso, l'app Portale aziendale può solo visualizzare il numero di telefono e un ID IMEI.
 
-        ![Screenshot asking user to allow portal to manage phone calls on an Android device](./media/ft-userEnrollAndroid-4-manageCalls.png)
+        ![Screenshot in cui viene chiesto all'utente di consentire al portale di gestire le telefonate in un dispositivo Android](./media/ft-userEnrollAndroid-4-manageCalls.png)
 
   Se si tocca **DECLINE (Rifiuta)**, i messaggi vengono visualizzati di nuovo al prossimo accesso all'app Portale aziendale; è possibile disattivare la visualizzazione di messaggi toccando la casella di controllo **Never ask again (Non visualizzare più questo messaggio)**. Se successivamente si decide di consentire l'accesso, andare a **Impostazioni > App > Portale aziendale > Autorizzazioni > Telefono** e attivare l'autorizzazione.
 6.  Accedere all'app Portale aziendale usando l'account e la password aziendale o dell'istituto di istruzione e quindi toccare **Accedi**.
@@ -104,7 +103,7 @@ Prima o dopo la registrazione potrebbe essere necessario scegliere la categoria 
 16. Il dispositivo è ora registrato in Intune e si riapre l'app Portale aziendale.
 17. Prima di installare app aziendali, andare in **Impostazioni > Sicurezza** e attivare **Origini sconosciute**. Se non si attiva questa opzione prima di installare le app, viene visualizzato un messaggio che indica che l'installazione è bloccata. per motivi di sicurezza che impediscono di installare nel telefono app ottenute da origini sconosciute. È possibile toccare **Impostazioni** nella finestra di dialogo di errore per visualizzare l'opzione **Origini sconosciute**.
 
-## Registrare il dispositivo iOS in Intune
+## <a name="enroll-your-ios-device-in-intune"></a>Registrare il dispositivo iOS in Intune
 Usare queste istruzioni per registrare il dispositivo iOS in Intune. Per altre informazioni, vedere [Che cosa avviene quando si installa l'app Portale aziendale e si registra il dispositivo in Intune?](https://technet.microsoft.com/library/mt598622(TechNet.10).aspx#BKMK_ios_what_happ_enroll) Se si verifica un errore durante la registrazione del dispositivo in Intune, vedere [Inviare gli errori di registrazione all'amministratore IT](https://technet.microsoft.com/library/mt598622(TechNet.10).aspx#BKMK_ios_error_enrolling_tbl).
 
 Prima o dopo la registrazione potrebbe essere necessario scegliere la categoria che descrive meglio come viene usato il dispositivo. L'amministratore IT usa questa categoria per determinare a quali app ha accesso l'utente.
@@ -153,7 +152,7 @@ Prima o dopo la registrazione potrebbe essere necessario scegliere la categoria 
 
 Il dispositivo è ora registrato in Intune e si riapre l'app Portale aziendale.
 
-## Registrare il dispositivo Mac OS X in Intune
+## <a name="enroll-your-mac-os-x-device-in-intune"></a>Registrare il dispositivo Mac OS X in Intune
 1.  Aprire il [sito Web del portale aziendale](https://portal.manage.microsoft.com/) con un browser Safari e toccare la barra di notifica.
 2.  Toccare **Il dispositivo non è registrato oppure il Portale aziendale non riesce a identificarlo**.
 
@@ -169,11 +168,11 @@ Al termine della registrazione, verrà visualizzata una pagina con il profilo di
 
   ![Cattura di schermata che illustra che il profilo di gestione è verificato in un dispositivo di Mac OS X](./media/ft-userEnrollMacOSx-4-profileVerified.png)
 
-### Altre informazioni
+### <a name="want-to-learn-more"></a>Altre informazioni
 Vedere [Enterprise Mobility + Security](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
 
 
 
-<!--HONumber=Nov16_HO3-->
+<!--HONumber=Jan17_HO1-->
 
 

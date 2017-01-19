@@ -5,7 +5,7 @@ keywords:
 author: craigcaseyMSFT
 ms.author: v-craic
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 01/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,13 @@ ms.assetid: 28662db2-faea-425f-ada9-04cf1d976fc2
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0eacdea52150bc8282df618ae73c96724cec26c5
-ms.openlocfilehash: 8c40e178b70bd6fb3110174edd4ad7bfabadc53e
+ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
+ms.openlocfilehash: 033720647c8c284a415bd79cbc58b65e41d3e177
 
 
 ---
 
-# Usare l'accesso condizionale con Microsoft Intune
+# <a name="use-conditional-access-with-microsoft-intune"></a>Usare l'accesso condizionale con Microsoft Intune
 Questa soluzione consente di usare l'accesso condizionale in Intune per proteggere la posta elettronica e altri servizi in base alle condizioni specificate dall'utente.
 
 Per altre informazioni su come usare la funzionalità di accesso condizionale con Intune, vedere [Limitare l'accesso alla posta elettronica e ai servizi di Office 365 con Microsoft Intune](/intune/deploy-use/restrict-access-to-email-and-o365-services-with-microsoft-intune).
@@ -28,7 +28,7 @@ Per altre informazioni su come usare la funzionalità di accesso condizionale co
 > [!TIP]
 > È possibile scaricare una copia di questo argomento nella [Raccolta TechNet](https://gallery.technet.microsoft.com/protect-company-data-and-8c5e08b4).
 
-## Prima di iniziare
+## <a name="before-you-begin"></a>Prima di iniziare
 È possibile controllare l'accesso a Exchange Online e a Exchange locale dalle app di posta elettronica seguenti:
 
 -   App predefinita per Android 4.0 e versioni successive, Samsung Knox 4.0 Standard e versioni successive
@@ -43,7 +43,7 @@ Per altre informazioni su come usare la funzionalità di accesso condizionale co
 
 Prima di iniziare a usare l'accesso condizionale, verificare che i requisiti richiesti siano soddisfatti.
 
-## Per Exchange Online
+## <a name="for-exchange-online"></a>Per Exchange Online
 L'accesso condizionale a Exchange Online supporta i dispositivi che eseguono:
 
 -   Windows 8.1 e versioni successive (se registrato con Intune)
@@ -71,7 +71,7 @@ Il servizio AAD DRS verrà attivato automaticamente per i clienti di Intune e Of
 
     È ora possibile scoprire come [distribuire Exchange Online con Intune](conditional-access-intune-exchange-online.md).
 
-## Per Exchange Server locale
+## <a name="for-exchange-server-on-premises"></a>Per Exchange Server locale
 L'accesso condizionale a Exchange locale supporta:
 
 -   Windows 8 e versioni successive (se registrato con Intune)
@@ -100,6 +100,6 @@ Inoltre:
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Jan17_HO2-->
 
 

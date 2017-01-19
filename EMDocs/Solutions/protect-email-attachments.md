@@ -5,7 +5,7 @@ keywords:
 author: craigcaseyMSFT
 ms.author: v-craic
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 01/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,13 @@ ms.assetid: a1e630c1-7190-4ba9-b71d-ed9c2e93a6cc
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: fd6318efea58b5b6b72de306339629b568bc902d
-ms.openlocfilehash: d293494570b08098468927fb9857c10a0e7d03ca
+ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
+ms.openlocfilehash: a124d56eaa6cbca44551a7c3ea42166479523f9f
 
 
 ---
 
-# Proteggere la posta elettronica e gli allegati dalla fuga di dati
+# <a name="protect-email-and-attachments-from-data-leakage"></a>Proteggere la posta elettronica e gli allegati dalla fuga di dati
 La sezione [Protezione dei messaggi di posta elettronica e dei documenti aziendali](protect-corporate-email-documents.md) ha illustrato come assicurarsi che solo i dispositivi conformi possano accedere alla posta elettronica aziendale. Tuttavia, proteggere l'accesso non garantisce anche la protezione del contenuto dei messaggi di posta elettronica e dei relativi allegati. Il contenuto può essere copiato, spostato e salvato in un percorso diverso o condiviso con un altro utente. EMS risolve questo problema usando i criteri di gestione delle applicazioni mobili (MAM).
 
 Le app gestite sono app conformi ai requisiti di sicurezza dell'azienda che vengono distribuite dall'amministratore IT. Con queste app il reparto IT ha il controllo diretto sulla distribuzione, la gestione continuativa come inventario o aggiornamenti e sulla cancellazione selettiva delle app e dei relativi dati associati. Con un set di criteri di gestione delle applicazioni mobili (MAM), Intune consente anche di modificare la funzionalità delle app e di limitare la condivisione dei dati:
@@ -49,7 +49,7 @@ Con [Azure Information Protection](https://docs.microsoft.com/information-protec
 
     -   Rilevare il contenuto riservato e avvertire il mittente di applicare le regole di protezione prima di inviare il messaggio di posta elettronica.
 
-## Componenti delle app gestite
+## <a name="managed-app-components"></a>Componenti delle app gestite
 
 -   **Microsoft Intune** consente di configurare i criteri, associare i criteri all'app o usare lo strumento di wrapping delle app per consentire a un'app interna di usare i criteri di gestione delle applicazioni mobili.
 
@@ -57,21 +57,21 @@ Con [Azure Information Protection](https://docs.microsoft.com/information-protec
 
 ![Grafico che mostra la modalità di gestione dei criteri per le app gestite tramite il portale aziendale e Microsoft Intune](./media/ProtectEmail/CADataSheet-Diagram-Apps.png)
 
-## Esperienza dell'amministratore IT:
+## <a name="the-it-admin-experience"></a>Esperienza dell'amministratore IT:
 L'amministratore IT crea i criteri di gestione delle applicazioni mobili, associa i criteri all'app e distribuisce l'app a utenti o dispositivi. Quando l'app gestita viene installata nel dispositivo, le restrizioni dell'app diventano effettive. La creazione e la distribuzione delle app gestite non implicano altre attività se non minime:
 
 -   Sono disponibili delle app esistenti che includono già l'App SDK che consente di applicare le restrizioni all'app. Tali app non richiedono altre attività di elaborazione ma solo di aggiungere un collegamento che punta a un App Store come iTunes o Google Play. Leggere [questo](https://www.microsoft.com/en-us/cloud-platform/microsoft-intune-partners) articolo per vedere l'elenco di app gestite.
 
 -   Se si vogliono gestire le app create internamente, è possibile riassemblare le app con lo strumento di wrapping delle app di Microsoft Intune. Lo strumento riassembla l'app consentendo di applicare le restrizioni all'app.
 
-## Esperienza dell'utente finale:
+## <a name="the-end-user-experience"></a>Esperienza dell'utente finale:
 Gli utenti finali possono installare le app gestite e usarle per svolgere il proprio lavoro. Potranno solo spostare o condividere i dati tra le app gestite. Qualsiasi tentativo di spostare i dati all'esterno dell'ecosistema di app gestite verrà bloccato.
 
-## Come proseguire
+## <a name="where-to-go-from-here"></a>Come proseguire
 Dopo avere acquisito le informazioni sulla [protezione dei documenti e dei messaggi di posta elettronica aziendali](protect-corporate-email-documents.md) e degli allegati, leggere le informazioni su come [implementare una soluzione per la protezione della posta elettronica aziendale](implement-solution.md).
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Jan17_HO2-->
 
 

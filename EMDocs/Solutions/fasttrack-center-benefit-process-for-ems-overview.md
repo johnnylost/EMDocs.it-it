@@ -14,8 +14,8 @@ ms.assetid: e60e3714-5120-41e2-9878-83ac75107967
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 52bdc7e5b67f9aeae2142d2b8bb2f8ed474dcc8d
-ms.openlocfilehash: d4cc34daa08f3db2508c08b51ca70651cf832015
+ms.sourcegitcommit: 59e06bc9534edf816618e2644d5870f549f32742
+ms.openlocfilehash: aece953566d06fa2b8d97cdb82866ab02df97f13
 
 
 ---
@@ -37,7 +37,7 @@ Il diagramma seguente illustra le fasi di caricamento di alto livello per FastTr
 
 Ecco come funziona il processo:
 
-- Dopo l'acquisto delle licenze di un servizio idoneo, Microsoft tenta di contattare l'utente per offrire assistenza durante il processo di onboarding. È anche possibile richiedere assistenza da parte di [FastTrack Center](http://fasttrack.microsoft.com/) se si è pronti per distribuire questi servizi per l'organizzazione. Per richiedere assistenza, accedere a [FastTrack Center](http://fasttrack.microsoft.com/) con l'account aziendale o dell'istituto di istruzione, andare al dashboard, espandere **Richiesta di assistenza** a sinistra dello schermo, quindi seguire le istruzioni visualizzate per completare la richiesta. Una volta contattato il supporto tecnico di onboarding, verrà impostata la pianificazione di riunioni online.
+- Dopo l'acquisto delle licenze di un servizio idoneo, Microsoft tenta di contattare l'utente per offrire assistenza durante il processo di onboarding. È anche possibile richiedere assistenza da parte di [FastTrack Center](http://fasttrack.microsoft.com/) se si è pronti per distribuire questi servizi per l'organizzazione. Per richiedere assistenza, accedere a [FastTrack Center](http://fasttrack.microsoft.com/) con l'account aziendale o dell'istituto di istruzione, andare al dashboard, espandere il collegamento **Richiesta di assistenza** nell'angolo inferiore destro della pagina, quindi seguire le istruzioni visualizzate per completare la richiesta. Una volta contattato il supporto tecnico di onboarding, verrà impostata la pianificazione di riunioni online.
 
 -   Il team responsabile del processo di caricamento di Microsoft offre prima di tutto assistenza per le funzionalità di base, comuni a tutti i Microsoft Online Services, e poi per il caricamento di ogni servizio idoneo.
 
@@ -57,6 +57,6 @@ Tutto il supporto tecnico per il caricamento viene fornito in remoto da personal
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO1-->
 
 

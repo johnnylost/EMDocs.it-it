@@ -2,9 +2,9 @@
 title: Esperienza dell&quot;utente finale con MAM
 description: Esperienza dell&quot;utente finale con i criteri di gestione delle app mobili.
 keywords: 
-author: craigcaseyMSFT
-ms.author: v-craic
-manager: swadhwa
+author: nathbarn
+ms.author: nathbarn
+manager: angrobe
 ms.date: 05/12/2016
 ms.topic: article
 ms.prod: 
@@ -14,13 +14,13 @@ ms.assetid: bbc9f6ea-fc92-468d-bb5b-60c67949ca28
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0eacdea52150bc8282df618ae73c96724cec26c5
-ms.openlocfilehash: a968afb8deb875d12281b4c3bd6448a962dab870
+ms.sourcegitcommit: 2342889a686db8a6496c97979cb222af8347241a
+ms.openlocfilehash: 0367aea637810515742a344ac707f4e5272d29b1
 
 
 ---
 
-# Esperienza dell'utente finale con i criteri di gestione delle app mobili
+# <a name="end-user-experience-of-mobile-app-management-policies"></a>Esperienza dell'utente finale con i criteri di gestione delle app mobili
 I criteri MAM si applicano solo quando le app vengono usate in un contesto professionale. Leggere gli scenari di esempio seguenti che consentono di informare gli utenti in modo che comprendano il funzionamento delle app gestite.
 
 In questa sezione vengono illustrati gli esempi seguenti di esperienza degli utenti finali:
@@ -34,7 +34,7 @@ Per informazioni su altre esperienze specifiche dell'utente finale, vedere gli a
 - [Gestione degli account utente](https://docs.microsoft.com/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#managing-user-accounts)
 - [Visualizzazione di file multimediali con l'app di condivisione file Rights Management](https://docs.microsoft.com/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#viewing-media-files-with-the-rights-management-sharing-app)
 
-## Scenario: Accesso a OneDrive in un dispositivo iOS
+## <a name="scenario-accessing-onedrive-on-an-ios-device"></a>Scenario: Accesso a OneDrive in un dispositivo iOS
 
 1. L'utente avvia l'app **OneDrive** per aprire la pagina di accesso.
 > [!NOTE]
@@ -49,7 +49,7 @@ Per informazioni su altre esperienze specifiche dell'utente finale, vedere gli a
 > [!NOTE]
 > Quando si modifica un criterio distribuito, le modifiche vengono applicate alla successiva apertura dell'app.
 
-## Scenario: Accesso a OneDrive in un dispositivo Android
+## <a name="scenario-accessing-onedrive-on-an-android-device"></a>Scenario: Accesso a OneDrive in un dispositivo Android
 1. L'utente avvia l'app **OneDrive** per aprire la pagina di accesso.
 > [!NOTE]
 > In un dispositivo personale l'utente deve solitamente scaricare l'app. Se il dispositivo è gestito da una soluzione MDM, è possibile distribuire l'app nel dispositivo.
@@ -62,11 +62,11 @@ Per informazioni su altre esperienze specifiche dell'utente finale, vedere gli a
 
 4.  Dopo aver impostato e verificato il PIN, l'utente può continuare a usare **OneDrive**, che è ora gestito da criteri di app.
 
-## Come proseguire
+## <a name="where-to-go-from-here"></a>Come proseguire
 Sono disponibili ulteriori informazioni su altre esperienze dell'utente finale, ad esempio in [Uso di app con supporto di più identità](https://docs.microsoft.com/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#using-apps-with-multi-identity-support), [Gestione degli account utente](https://docs.microsoft.com/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#managing-user-accounts) e [Visualizzazione di file multimediali con l'app di condivisione file Rights Management](https://docs.microsoft.com/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#viewing-media-files-with-the-rights-management-sharing-app).
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Jan17_HO1-->
 
 

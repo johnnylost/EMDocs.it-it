@@ -5,7 +5,7 @@ keywords:
 author: YuriDio
 ms.author: yurid
 manager: swadhwa
-ms.date: 11/28/2016
+ms.date: 01/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,15 +14,15 @@ ms.assetid: ed940ba8-866c-477f-a59b-beb620300a79
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: 78fad0e7714797962fc2ab3c8f8ec6c10d8019d0
+ms.sourcegitcommit: 242b1a6468bfc9524acdb3c497078128dd26864b
+ms.openlocfilehash: 0744ef860fb1fd06507c9e24af9c676551c54f12
 
 
 ---
 
 # <a name="byod-design-considerations-guide"></a>Guida alle considerazioni di progettazione per BYOD
 
-Con l'aumentare del numero di dispositivi usati dai dipendenti, la maggior parte delle organizzazioni si trova ad affrontare un problema non indifferente: consentire agli utenti di usare i dispositivi personali, proteggendo al tempo stesso i dati aziendali che si trovano in tali dispositivi. Si sta abbandonando il modello tradizionale, in cui l'azienda possiede e fornisce i dispositivi ai dipendenti, per passare a un modello in cui i dipendenti usano i dispositivi personali per alcune delle proprie attività lavorative. Questo modello viene spesso definito [Bring Your Own Device (BYOD)](https://technet.microsoft.com/library/dn645493.aspx). In questo modello i dipendenti possono usare i dispositivi personali per alcune attività lavorative, ma solo se consentono all'azienda di gestire alcuni aspetti dei loro dispositivi per garantire la sicurezza dei dati aziendali. Spesso, ciò significa che gli utenti autorizzano l'azienda a usare criteri personalizzati, applicare la protezione avanzata dei dispositivi o standardizzare il sistema operativo stabilito dai criteri aziendali. Leggendo il documento di Microsoft con le [considerazioni dei responsabili IT sulla trasformazione del modo di lavorare](http://download.microsoft.com/download/5/3/A/53A96632-02E3-416C-B209-D8725AA80AFE/CIO%20Considerations%20for%20Workstyle%20Transformation2.pdf), i dirigenti e i decisori possono anche identificare i vantaggi della scelta di un modello in cui le persone possono usare i propri dispositivi per essere più produttive al lavoro.
+Con l'aumentare del numero di dispositivi usati dai dipendenti, la maggior parte delle organizzazioni si trova ad affrontare un problema non indifferente: consentire agli utenti di usare i dispositivi personali, proteggendo al tempo stesso i dati aziendali che si trovano in tali dispositivi. Si sta abbandonando il modello tradizionale, in cui l'azienda possiede e fornisce i dispositivi ai dipendenti, per passare a un modello in cui i dipendenti usano i dispositivi personali per alcune delle proprie attività lavorative. Questo modello viene spesso definito [Bring Your Own Device (BYOD)](https://technet.microsoft.com/library/dn645493.aspx). In questo modello i dipendenti possono usare i dispositivi personali per alcune attività lavorative, ma solo se consentono all'azienda di gestire alcuni aspetti dei loro dispositivi per garantire la sicurezza dei dati aziendali. Spesso, ciò significa che gli utenti autorizzano l'azienda a usare criteri personalizzati, applicare la protezione avanzata dei dispositivi o standardizzare il sistema operativo stabilito dai criteri aziendali. Leggendo il documento di Microsoft con le [considerazioni dei responsabili IT sulla trasformazione del modo di lavorare](http://download.microsoft.com/documents/uk/enterprise/it-trends/Considerations_for_a_Workstyle_Transformation.pdf), i dirigenti e i decisori possono anche identificare i vantaggi della scelta di un modello in cui le persone possono usare i propri dispositivi per essere più produttive al lavoro.
 
 L'accesso ai dati e la protezione sono i principali problemi del modello BYOD, ma altre problematiche richiedono un approccio più ampio:
 
@@ -77,6 +77,6 @@ Le organizzazioni con un'infrastruttura di grandi dimensioni devono stabilire i 
 
 
 
-<!--HONumber=Nov16_HO4-->
+<!--HONumber=Jan17_HO1-->
 
 
