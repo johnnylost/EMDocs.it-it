@@ -2,9 +2,9 @@
 title: Esperienza utente finale di accesso condizionale nei dispositivi Android
 description: Esperienza dell&quot;utente finale con la registrazione di un dispositivo Android.
 keywords: 
-author: craigcaseyMSFT
-ms.author: v-craic
-manager: swadhwa
+author: nathbarn
+ms.author: nathbarn
+manager: angrobe
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
@@ -14,17 +14,17 @@ ms.assetid: 0b5e4330-6fa5-445c-b73e-86ce5b9c7964
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0eacdea52150bc8282df618ae73c96724cec26c5
-ms.openlocfilehash: 637290ea42346fa231a67fec393cbea2a4a38629
+ms.sourcegitcommit: 2342889a686db8a6496c97979cb222af8347241a
+ms.openlocfilehash: fc06debb97cdbd3be1a241a711f36f6c530d65cf
 
 
 ---
 
-# Android
+# <a name="android"></a>Android
 
 Il processo di registrazione e le schermate visualizzate dall'utente saranno leggermente diverse a seconda della versione del sistema operativo in esecuzione sul dispositivo dell'utente finale. In questo argomento viene descritta l'esperienza dell'utente finale con la registrazione di dispositivi Android.
 
-## Registrazione
+## <a name="enrolling"></a>Registrazione
 
 1.  Quando prova ad accedere alla posta elettronica, l'utente riceve un messaggio di posta elettronica di quarantena simile all'esempio seguente:
 
@@ -86,7 +86,7 @@ Se l'utente segue questi passaggi per registrarsi e diventare conforme e non rie
 
 3.  Chiamare l'help desk.
 
-## Problemi e soluzioni
+## <a name="issues-and-solutions"></a>Problemi e soluzioni
 Ogni 8 ore per impostazione predefinita, i dispositivi vengono controllati per verificare che siano ancora conformi. Se un dispositivo che prima era conforme viene in seguito considerato come non conforme (ad esempio, se è stato aggiunto o modificato un criterio di conformità), l'utente può seguire questi passaggi per rendere il dispositivo nuovamente conforme:
 
 1.  L'utente riceve una notifica nella posta elettronica o nel dispositivo che indica che il dispositivo non è conforme. A questo punto, il dispositivo viene messo in quarantena in Exchange.
@@ -103,11 +103,11 @@ Ogni 8 ore per impostazione predefinita, i dispositivi vengono controllati per v
 
 5.  Se il problema viene risolto, l'utente fa clic su **Continua** per completare il processo. L'accesso alla posta elettronica dovrebbe diventare disponibile entro pochi minuti.
 
-### Come proseguire
+### <a name="where-to-go-from-here"></a>Come proseguire
 L'esperienza dell'utente finale è leggermente diversa in altri dispositivi mobili. Altre informazioni sull'esperienza dell'utente finale per [iOS](end-user-experience-conditional-access-ios.md) e [Windows Phone](end-user-experience-conditional-access-winphone.md).
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Jan17_HO1-->
 
 

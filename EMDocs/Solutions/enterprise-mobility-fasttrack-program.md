@@ -14,8 +14,8 @@ ms.assetid: fd951f10-6404-43a3-8f2f-464f5b5003ac
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: f6e0986ce867f1167e202c95535cca778ad30434
-ms.openlocfilehash: 8ca47fecd7d8cde512587ee01801290a0cb62bfb
+ms.sourcegitcommit: 46a7ebaf91f4bc10026b0ddc5c5a383c1b8633c7
+ms.openlocfilehash: f611ba88fb26ab113125912beb1a8d0c40160f47
 
 
 ---
@@ -27,8 +27,10 @@ Per altre informazioni sui piani e servizi idonei, vedere [Piani e servizi idone
 
 Per informazioni sul processo FastTrack Center e sulle responsabilità, vedere [Processo FastTrack Center Benefit per Enterprise Mobility + Security (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
 
+Per scaricare un file ZIP contenente le guide e i messaggi di posta elettronica relativi alle procedure di Enterprise Mobility + Security che possono essere personalizzati con il logo della società per promuovere l'adozione di EMS all'interno dell'organizzazione, vedere [FastTrack for EMS How To Guides & Emails to Customize](https://gallery.technet.microsoft.com/FastTrack-for-EMS-How-To-f170da4c) (Guide e messaggi di posta elettronica relativi alle procedure di FastTrack per EMS da personalizzare).
 
 
-<!--HONumber=Nov16_HO3-->
+
+<!--HONumber=Jan17_HO1-->
 
 

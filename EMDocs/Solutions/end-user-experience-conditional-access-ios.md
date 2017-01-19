@@ -2,9 +2,9 @@
 title: Esperienza utente finale di accesso condizionale nei dispositivi iOS
 description: Esperienza dell&quot;utente finale con la registrazione di un dispositivo iOS.
 keywords: 
-author: craigcaseyMSFT
-ms.author: v-craic
-manager: swadhwa
+author: nathbarn
+ms.author: nathbarn
+manager: angrobe
 ms.date: 04/28/2016
 ms.topic: article
 ms.prod: 
@@ -14,17 +14,17 @@ ms.assetid: 3c641ea8-2c0e-490e-b1de-831336f46d19
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0eacdea52150bc8282df618ae73c96724cec26c5
-ms.openlocfilehash: 400c1dc2af8d38c4ac61402691131aaf724e1499
+ms.sourcegitcommit: 2342889a686db8a6496c97979cb222af8347241a
+ms.openlocfilehash: f06e68a00fd97cb48aee21f6ed749f520d157e9b
 
 
 ---
 
-# iOS
+# <a name="ios"></a>iOS
 
 Il processo di registrazione e le schermate visualizzate dall'utente saranno leggermente diverse a seconda della versione del sistema operativo in esecuzione sul dispositivo dell'utente finale. In questo argomento viene descritta l'esperienza dell'utente finale con la registrazione di dispositivi iOS.
 
-## Registrazione
+## <a name="enrolling"></a>Registrazione
 
 1.  Se un utente è già registrato in Intune ed è conforme, non vedrà alcuna differenza nei dispositivi iOS e continuerà ad avere accesso alla posta elettronica. Se l'utente non è ancora registrato, visualizzerà un messaggio di quarantena simile al seguente quando avvia la sua applicazione di posta elettronica:
 
@@ -70,7 +70,7 @@ Se l'utente segue questi passaggi per registrarsi e diventare conforme e non rie
 
 -   Chiamare l'help desk.
 
-## Problemi e soluzioni
+## <a name="issues-and-solutions"></a>Problemi e soluzioni
 Ogni 8 ore per impostazione predefinita, i dispositivi vengono controllati per verificare che siano ancora conformi. Se un dispositivo che prima era conforme viene in seguito considerato come non conforme (ad esempio, se è stato aggiunto o modificato un criterio di conformità), l'utente può seguire questi passaggi per rendere il dispositivo nuovamente conforme:
 
 1.  L'utente riceve una notifica nella posta elettronica o nel dispositivo che indica che il dispositivo non è conforme. A questo punto, il dispositivo viene messo in quarantena in Exchange.
@@ -91,11 +91,11 @@ Ogni 8 ore per impostazione predefinita, i dispositivi vengono controllati per v
 
     L'accesso alla posta elettronica dovrebbe diventare disponibile entro pochi minuti.
 
-### Come proseguire
+### <a name="where-to-go-from-here"></a>Come proseguire
 L'esperienza dell'utente finale è leggermente diversa in altri dispositivi mobili. Altre informazioni sull'esperienza dell'utente finale per [Android](end-user-experience-conditional-access-android.md) e [Windows Phone](end-user-experience-conditional-access-winphone.md).
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Jan17_HO1-->
 
 
