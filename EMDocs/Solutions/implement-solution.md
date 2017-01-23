@@ -5,7 +5,7 @@ keywords:
 author: craigcaseyMSFT
 ms.author: v-craic
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 01/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,16 +14,16 @@ ms.assetid: edc744d8-97d9-42e0-8906-6f0dedd8d629
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: fd6318efea58b5b6b72de306339629b568bc902d
-ms.openlocfilehash: 7df900a8224c847eed28ad22cdaffbd6b424c4c8
+ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
+ms.openlocfilehash: 4a7537775ce2c6c19850720f789ea5882d062aec
 
 
 ---
 
-# Implementazione di una soluzione per proteggere la posta elettronica e gli allegati aziendali
+# <a name="implementing-your-solution-for-protecting-email-and-attachments"></a>Implementazione di una soluzione per proteggere la posta elettronica e gli allegati aziendali
 Questo articolo aiuta a preparare e implementare una soluzione per proteggere i contenuti e gli allegati dei messaggi di posta elettronica aziendali.
 
-## Aspetti da considerare per la pianificazione dell'implementazione:
+## <a name="what-you-should-consider-when-planning-your-implementation"></a>Aspetti da considerare per la pianificazione dell'implementazione:
 
 -   **Supporto per la piattaforma del dispositivo**: è necessario considerare anche se si vuole consentire l'accesso alla posta elettronica su piattaforme non supportate da Intune. Con la funzionalità Gestione dei dispositivi mobili di Intune sono supportati i sistemi operativi seguenti:
 
@@ -77,12 +77,12 @@ Questo articolo aiuta a preparare e implementare una soluzione per proteggere i 
 
     -   Dovrebbero funzionare anche i servizi federativi di terze parti come Ping. È consigliabile effettuare un test prima dell'implementazione.
 
-## Implementazione locale
+## <a name="on-premises-implementation"></a>Implementazione locale
 Se si ha un'implementazione esistente di System Center Configuration Manager, Active Directory e/o Exchange Server è possibile estendere l'infrastruttura esistente grazie all'integrazione con Intune, Azure AD e Office 365. Con questa implementazione ibrida è possibile fornire un'esperienza di gestione coerente tra dispositivi locali e nel cloud. Intune e Configuration Manager offrono un set di funzionalità simile per consentire l'accesso alla posta elettronica con restrizioni in base allo stato del dispositivo.
 
 Per le implementazioni di Exchange Online dedicato dipende dall'implementazione corrente se conviene sfruttare i vantaggi della soluzione basata su cloud descritta in precedenza o dell'implementazione ibrida. Stabilire con il team degli account la soluzione più appropriata in base all'implementazione corrente.
 
-## Operazioni e valutazione di incidenza
+## <a name="operations-and-incidence-response"></a>Operazioni e valutazione di incidenza
 Dopo aver implementato la soluzione, è necessario gestire l'ambiente e identificare i potenziali rischi per la sicurezza. Sia Intune che AD Azure includono funzionalità di monitoraggio e creazione di report che consentono di monitorare e rispondere rapidamente in caso di problemi di sicurezza.
 
 Di seguito sono elencate alcune delle funzionalità di creazione di report:
@@ -91,7 +91,7 @@ Di seguito sono elencate alcune delle funzionalità di creazione di report:
 
 -   Azure AD include funzionalità di controllo e registrazione delle attività. È possibile monitorare elementi quali modifiche delle password e gestione degli utenti. Azure Active Directory Premium include avvisi e report di sicurezza avanzati per le anomalie. Questi avvisi sono basati su report dettagliati basati sulle tecniche di Machine Learning che mostrano l'attività di accesso, criteri di accesso incoerenti e potenziali aree di rischio.
 
-## Come proseguire
+## <a name="where-to-go-from-here"></a>Come proseguire
 Per istruzioni dettagliate su come distribuire una soluzione per proteggere i contenuti e gli allegati dei messaggi di posta elettronica aziendali, vedere uno degli argomenti seguenti, a seconda dell'ambiente specifico:
 
 - [Usare l'accesso condizionale con Microsoft Intune](conditional-access-intune.md)
@@ -99,6 +99,6 @@ Per istruzioni dettagliate su come distribuire una soluzione per proteggere i co
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Jan17_HO2-->
 
 
