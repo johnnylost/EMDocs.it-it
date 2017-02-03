@@ -1,10 +1,10 @@
 ---
-title: Proteggere i dati dagli errori degli utenti | Information Protection di Azure Active Directory
+title: Proteggere i dati dagli errori degli utenti | Microsoft Docs
 description: "Scenario che descrive come usare Enterprise Mobility + Security proteggere i dati aziendali dagli errori degli utenti e impedire la perdita dei dati usando le funzionalità di Cloud App Security e di Azure Information Protection."
 author: yuridio
 ms.author: yurid
 manager: swadhwa
-ms.date: 10/24/2016
+ms.date: 01/23/2017
 ms.topic: solution
 ms.prod: 
 ms.service: cloud-app-security
@@ -14,8 +14,8 @@ ms.reviewer: v-craic
 ms.suite: ems
 ms.custom: information-protection
 translationtype: Human Translation
-ms.sourcegitcommit: 02b0e611805ad2214b1b108b8c466590aad7999a
-ms.openlocfilehash: 669042461511939695717de1d5d22c14c071923c
+ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
+ms.openlocfilehash: 3fddd5487061b4090be32f70ac202e9c8ba45719
 
 
 ---
@@ -116,6 +116,6 @@ Quando si configurano le condizioni per un'etichetta, è possibile assegnare aut
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO4-->
 
 

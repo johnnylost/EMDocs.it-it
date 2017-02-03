@@ -1,10 +1,10 @@
 ---
-title: Proteggere i dati aziendali locali con Microsoft Intune | Documentazione Microsoft
+title: Proteggere i dati locali con Microsoft Intune | Microsoft Docs
 description: "Con Enterprise Mobility + Security (EMS) è possibile garantire la produttività dei dipendenti con le app e i dispositivi preferiti, mantenendo allo stesso tempo protetti i dati aziendali locali."
 keywords: 
 author: jeffgilb
 manager: swadhwa
-ms.date: 12/7/2016
+ms.date: 01/23/2017
 ms.topic: solution
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,8 +14,8 @@ ms.reviewer: vlpetros
 ms.suite: ems
 ms.custom: active-directory
 translationtype: Human Translation
-ms.sourcegitcommit: b5acf1041ff91a68443464a9fe196b179c6668a6
-ms.openlocfilehash: 8b2c453c18f1569ac1fe94bb7c1e3e8c568d28ec
+ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
+ms.openlocfilehash: 64c859600ba74da47d70a9c58bc261dec4411513
 
 
 ---
@@ -64,7 +64,7 @@ Usando i criteri di accesso condizionale di Intune per Exchange in locale è pos
 
 -   Windows Phone (8 e versioni successive)
 -   Windows 10 Desktop e Mobile
--   iOS 8.0 (e versioni successive)
+-   iOS&8;.0 (e versioni successive)
 -   Android (Samsung KNOX Standard 4.0 e versioni successive o Android for Work)
 > [!NOTE]
 > Intune supporta la configurazione di profili di posta elettronica Android for Work per le app di posta elettronica Gmail e Nine Work disponibili in Google Play Store.
@@ -80,7 +80,7 @@ Se un dispositivo non è registrato o non è conforme ai criteri aziendali, all'
 È possibile [configurare criteri di accesso condizionale per Exchange locale](https://docs.microsoft.com/intune/deploy-use/restrict-access-to-exchange-onpremises-with-microsoft-intune#configure-a-conditional-access-policy) per i tipi di dispositivi seguenti usati dall'organizzazione:
 
 -   Windows Phone (8.1 e versioni successive)
--   iOS 8.0 (e versioni successive)
+-   iOS&8;.0 (e versioni successive)
 -   Android (4.0 o versioni successive e Samsung KNOX Standard 4.0)
 -   Android for Work (supportato attualmente solo per i profili di posta elettronica per le app Gmail e Nine Work)
 -   Applicazione Posta nei PC Windows gestiti
@@ -109,7 +109,7 @@ Le connessioni VPN vengono usate quando gli utenti devono connettersi in modalit
 È possibile configurare le impostazioni VPN per i molti [tipi di connessione VPN supportati da Intune](https://docs.microsoft.com/intune/deploy-use/vpn-connections-in-microsoft-intune#vpn-connection-types) nei seguenti tipi di dispositivi:
 
 -   Android (4.0 e versioni successive, Samsung KNOX Standard e versioni successive e Android for Work)
--   iOS 8.0 (e versioni successive)
+-   iOS&8;.0 (e versioni successive)
 -   Mac OS X (10.9 e versioni successive)
 -   Dispositivi Windows (PC Windows 8.1 e versioni successive, Windows Phone 8.1 e Windows 10 Mobile e versioni successive)
 
@@ -130,7 +130,7 @@ Quando si concede agli utenti l'accesso alle risorse aziendali tramite profili V
 
 È possibile creare e distribuire un profilo certificato **PKCS #12 (PFX)** o **SCEP (Simple Certificate Enrollment Protocol)** che può essere usato dai dispositivi che richiedono certificati di autenticazione su queste piattaforme per dispositivi:
 
--   iOS 8.0 (e versioni successive)
+-   iOS&8;.0 (e versioni successive)
 -   Mac OS X (10.9 e versioni successive)
 -   Android (4.0 e versioni successive e Android for Work)
 -   Windows (8.1 e versioni successive)
@@ -155,6 +155,6 @@ Quando si [distribuiscono i profili certificato](https://docs.microsoft.com/intu
 
 
 
-<!--HONumber=Jan17_HO1-->
+<!--HONumber=Jan17_HO4-->
 
 

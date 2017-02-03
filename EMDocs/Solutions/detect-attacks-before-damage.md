@@ -1,10 +1,10 @@
 ---
-title: Rilevare attacchi prima che possano provocare danni | Azure Active Directory Information Protection
+title: Rilevare attacchi prima che possano provocare danni | Microsoft Docs
 description: "Uno scenario che descrive come Enterprise Mobility + Security può essere usato per proteggere i dati aziendali da attacchi prima che possano provocare danni tramite Advanced Threat Analytics, Cloud App Security e Azure Active Directory Premium."
 author: yuridio
 ms.author: yurid
 manager: swadhwa
-ms.date: 12/7/2016
+ms.date: 01/23/2017
 ms.topic: solution
 ms.prod: 
 ms.service: active-directory
@@ -14,8 +14,8 @@ ms.reviewer: v-craic
 ms.suite: ems
 ms.custom: advanced-threat-analytics, cloud-app-security
 translationtype: Human Translation
-ms.sourcegitcommit: 0fd6f5b47ecd3aacbd0fd0c9cf76b90dcd68eaf4
-ms.openlocfilehash: 449df764d3979f8030f8d35d8f6920dedb64b239
+ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
+ms.openlocfilehash: 420df3bfcc0fca07bf4f7b068f4d49015ace048f
 
 
 ---
@@ -26,7 +26,7 @@ Un ambiente di lavoro sicuro richiede un sistema di rilevamento avanzato in grad
 Un sistema di rilevamento efficace deve individuare attività sospette e bloccare le minacce tramite una visibilità approfondita e un'analisi comportamentale continua. Ciò consente ai responsabili IT di intraprendere azioni immediate contro attacchi rilevati e semplificare il ripristino con un supporto efficiente.
 
 
-## <a name="how-can-enterprise-mobility-security-help-you"></a>Come può essere utile Enterprise Mobility + Security?
+## <a name="how-can-enterprise-mobility--security-help-you"></a>Come può essere utile Enterprise Mobility + Security?
 Microsoft Enterprise Mobility + Security consente ai responsabili IT di identificare gli utenti malintenzionati nell'organizzazione tramite un'analisi innovativa comportamentale e tecnologie di rilevamento anomalie nel cloud e localmente.  Supporta i responsabili IT nel rilevare attacchi dannosi noti e vulnerabilità di sicurezza note nei sistemi.
 
 ## <a name="recommended-solution"></a>Soluzione consigliata
@@ -108,6 +108,6 @@ In questa pagina, è possibile notare quale utente ha attivato l'avviso, l'indir
 
 
 
-<!--HONumber=Dec16_HO1-->
+<!--HONumber=Jan17_HO4-->
 
 

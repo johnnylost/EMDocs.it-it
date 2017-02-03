@@ -1,10 +1,10 @@
 ---
-title: Proteggere i dati usando la classificazione, l&quot;assegnazione di etichette e la protezione | Azure Information Protection
+title: Proteggere i dati usando la classificazione, l&quot;assegnazione di etichette e la protezione | Microsoft Docs
 description: "Uno scenario che descrive come usare Enterprise Mobility + Security per classificare, assegnare un&quot;etichetta e proteggere i dati usando le funzionalità di Microsoft Azure Information Protection."
 author: yuridio
 ms.author: yurid
 manager: swadhwa
-ms.date: 12/07/2016
+ms.date: 01/23/17
 ms.topic: solution
 ms.prod: 
 ms.service: rights-management
@@ -13,21 +13,21 @@ ms.assetid: 65409d5c-4f1b-4026-86e9-e65e1c4fe2b4
 ms.reviewer: v-craic
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 21e63bcbff30443152d9359a7a284dc9e4e4190f
-ms.openlocfilehash: fa48af13aac6e66fa111ac4c2156e0a23005028e
+ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
+ms.openlocfilehash: 88359b6542ce8524095af2b7ce1df4674b655b82
 
 
 ---
 
-# <a name="secure-data-using-classification-labeling-and-protection"></a>Proteggere i dati usando la classificazione, l'assegnazione di etichette e la protezione 
+# <a name="secure-data-using-classification-labeling-and-protection"></a>Proteggere i dati usando la classificazione, l'assegnazione di etichette e la protezione
 
 Al giorno d'oggi la condivisione delle informazioni viene eseguita da più dispositivi e all'esterno della società.  Diventa fondamentale garantire che i dati aziendali critici non vengano compromessi in questo processo e contemporaneamente consentire agli utenti di condividere in modo sicuro i dati necessari per svolgere il lavoro. Con pratiche come l'outsourcing sempre più diffuse può essere necessario condividere dati aziendali riservati con appaltatori e fornitori. Poiché non tutti i contenuti necessitano della stessa protezione, alle società viene richiesto di identificare i dati da proteggere.
 
 Continuare la lettura per altre informazioni sull'utilità di Enterprise Mobility + Security in questo scenario.
 
 ## <a name="how-can-enterprise-mobility--security-help-you"></a>Come può essere utile Enterprise Mobility + Security?
- 
-Enterprise Mobility + Security (EMS) è l'unica soluzione cloud completa che protegge i dati aziendali nel dispositivo stesso e con quattro livelli di protezione per identità, dispositivi, app e dati. EMS offre la soluzione a una delle esigenze principali degli ambienti che usano dispositivi mobili e cloud, ovvero inviare dati sicuri ai dipendenti fuori sede. Con EMS si offrirà ai propri dipendenti la possibilità di lavorare in modo sicuro all'interno e all'esterno dell'organizzazione. EMS consente agli amministratori IT di usare Azure Information Protection per proteggere i dati aziendali a livello di file. L'uso di questa funzionalità garantisce la protezione dei dati indipendentemente dalla posizione di archiviazione, dalla condivisione e dall'uso permanente o temporaneo. 
+
+Enterprise Mobility + Security (EMS) è l'unica soluzione cloud completa che protegge i dati aziendali nel dispositivo stesso e con quattro livelli di protezione per identità, dispositivi, app e dati. EMS offre la soluzione a una delle esigenze principali degli ambienti che usano dispositivi mobili e cloud, ovvero inviare dati sicuri ai dipendenti fuori sede. Con EMS si offrirà ai propri dipendenti la possibilità di lavorare in modo sicuro all'interno e all'esterno dell'organizzazione. EMS consente agli amministratori IT di usare Azure Information Protection per proteggere i dati aziendali a livello di file. L'uso di questa funzionalità garantisce la protezione dei dati indipendentemente dalla posizione di archiviazione, dalla condivisione e dall'uso permanente o temporaneo.
 
 ## <a name="recommended-solution"></a>Soluzione consigliata
 
@@ -72,23 +72,23 @@ Se si prevede di implementare criteri di protezione delle informazioni ed etiche
 
 - Classificare i dati in base alla sensibilità
 - Iniziare con i dati più sensibili
-- I responsabili IT possono impostare regole automatiche che gli utenti possono integrare 
+- I responsabili IT possono impostare regole automatiche che gli utenti possono integrare
 - Associare azioni, ad esempio indicazioni visive e protezione
 
 Nella figura seguente è riportato un esempio di implementazione:
 
 ![Classificazione](./media/infoprotect-secure-classify-scenario/infoprotect-secure-classify-scenario-fig3.png)
 
-Sebbene Azure Information Protection includa etichette predefinite, è possibile [personalizzarle](/information-protection/deploy-use/configure-policy-new-label.md) e creare etichette ed etichette secondarie visibili agli utenti sulla barra di Information Protection. 
+Sebbene Azure Information Protection includa etichette predefinite, è possibile [personalizzarle](/information-protection/deploy-use/configure-policy-new-label.md) e creare etichette ed etichette secondarie visibili agli utenti sulla barra di Information Protection.
 
-> [!IMPORTANT] 
+> [!IMPORTANT]
 > Le etichette sono metadati scritti nei documenti. Il testo delle etichette non è crittografato in modo che altri sistemi, ad esempio un motore DLP, possano leggerle.
 
 Nell'esempio seguente sono visibili etichette secondarie personalizzate create nell'etichetta **Secret**:
 
 ![Label](./media/infoprotect-secure-classify-scenario/infoprotect-secure-classify-scenario-fig4.png)
 
-Dopo aver definito l'uso delle etichette (predefinite o personalizzate), [configurare un'etichetta per applicare la protezione di Rights Management](/information-protection/deploy-use/configure-policy-new-label.md). 
+Dopo aver definito l'uso delle etichette (predefinite o personalizzate), [configurare un'etichetta per applicare la protezione di Rights Management](/information-protection/deploy-use/configure-policy-new-label.md).
 
 ### <a name="step-3-implement-content-based-automatic-classification"></a>Passaggio 3: Implementare la classificazione automatica basata sul contenuto
 
@@ -111,6 +111,6 @@ Leggere le [informazioni sulle condizioni predefinite](/information-protection/d
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO4-->
 
 
