@@ -3,8 +3,8 @@ title: Proteggere i dati locali con Microsoft Intune | Microsoft Docs
 description: "Con Enterprise Mobility + Security (EMS) è possibile garantire la produttività dei dipendenti con le app e i dispositivi preferiti, mantenendo allo stesso tempo protetti i dati aziendali locali."
 keywords: 
 author: jeffgilb
-manager: swadhwa
-ms.date: 01/23/2017
+manager: angrobe
+ms.date: 02/03/2017
 ms.topic: solution
 ms.prod: 
 ms.service: microsoft-intune
@@ -66,6 +66,7 @@ Usando i criteri di accesso condizionale di Intune per Exchange in locale è pos
 -   Windows 10 Desktop e Mobile
 -   iOS&8;.0 (e versioni successive)
 -   Android (Samsung KNOX Standard 4.0 e versioni successive o Android for Work)
+
 > [!NOTE]
 > Intune supporta la configurazione di profili di posta elettronica Android for Work per le app di posta elettronica Gmail e Nine Work disponibili in Google Play Store.
 
