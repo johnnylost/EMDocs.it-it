@@ -1,24 +1,26 @@
 # Soluzioni
 ## [Informazioni su Enterprise Mobility + Security](learn-about-ems.md)
 ## [Iniziare a usare Enterprise Mobility + Security](ems-get-started.md)
-## [Gestione di identità e accessi](manage-access-at-scale.md)
+## [Gestione di identità e accessi]()
 ### [Migliaia di app, una sola identità](thousands-apps-one-identity.md)
 ### [Consentire un business senza confini](enable-business-without-borders.md)
 ### [Gestire l'accesso su larga scala](manage-access-at-scale.md)
 ### [Protezione basata su cloud](cloud-powered-protection.md)
-## [Sicurezza basata sull'identità](protect-front-door.md)
+## [Sicurezza basata sull'identità]()
 ### [Proteggere l'ingresso principale](protect-front-door.md)
 ### [Proteggere i dati dagli errori degli utenti](protect-data-user-mistake.md)
 ### [Rilevare attacchi prima che possano provocare danni](detect-attacks-before-damage.md)
-## [Protezione delle informazioni](infoprotect-secure-classify-scenario.md)
+## [Protezione delle informazioni]()
 ### [Proteggere i dati usando la classificazione, l'assegnazione di etichette e la protezione](infoprotect-secure-classify-scenario.md)
 ### [Condividere i dati sensibili internamente ed esternamente](share-sensitive-data.md)
 ### [Tenere traccia dell'uso dei dati condivisi e rispondere in caso di uso improprio dei dati](infoprotect-track-usage-scenario.md)
-## [Produttività dei dispositivi mobili gestiti](protect-office365-data-with-intune.md)
+### [Ruolo di Azure Information Protection nella protezione dei dati](azure-information-protection-securing-data.md)
+## [Produttività dei dispositivi mobili gestiti]()
 ### [Proteggere i dati aziendali di Office 365 con Intune](protect-office365-data-with-intune.md)
 ### [Proteggere i dati aziendali locali con Intune](protect-on-premises-data-with-intune.md)
 ### [Proteggere i dati aziendali senza la gestione dei dispositivi con Intune](protect-company-data-without-managing-devices.md)
-## [Guide alla progettazione e all'architettura](byod-design-considerations-guide.md)
+### [Abilitare BYOD con Intune](enable-byod.md)
+## [Guide alla progettazione e all'architettura]()
 ### [Guida alla progettazione di BYOD](byod-design-considerations-guide.md)
 #### [Progettazione della soluzione di infrastruttura](byod-envisioning-the-byod-infrastructure-solution.md)
 ##### [Requisiti di utente e dispositivo](byod-user-device-reqs.md)
@@ -99,6 +101,6 @@
 ## [Domande frequenti sul supporto per EMS](ems-support-faq.md)
 
 
-<!--HONumber=Jan17_HO1-->
+<!--HONumber=Feb17_HO2-->
 
 
