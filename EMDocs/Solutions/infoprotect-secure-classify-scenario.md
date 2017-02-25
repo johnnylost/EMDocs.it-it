@@ -4,7 +4,7 @@ description: "Uno scenario che descrive come usare Enterprise Mobility + Securit
 author: yuridio
 ms.author: yurid
 manager: swadhwa
-ms.date: 01/23/17
+ms.date: 02/21/17
 ms.topic: solution
 ms.prod: 
 ms.service: rights-management
@@ -13,8 +13,8 @@ ms.assetid: 65409d5c-4f1b-4026-86e9-e65e1c4fe2b4
 ms.reviewer: v-craic
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
-ms.openlocfilehash: 88359b6542ce8524095af2b7ce1df4674b655b82
+ms.sourcegitcommit: 34d04195000f7cdb5a9efdfa31788a12cc8d8d5b
+ms.openlocfilehash: a2fc2e045c413707ad9d53e738b1eec6457c3a95
 
 
 ---
@@ -60,7 +60,7 @@ Le aziende devono identificare i dati che necessitano di protezione e i dati per
 
 ### <a name="step-1-preparing-for-document-protection-and-content-classification"></a>Passaggio 1: Preparazione per la protezione dei documenti e la classificazione dei contenuti
 
-Prima di implementare questa soluzione, rivedere i [requisiti di Azure Information Protection](/information-protection/get-started/requirements.md) e assicurarsi che Azure Rights Management sia attivato. Se è attivato, verrà visualizzata la schermata seguente nel portale di Azure:
+Prima di implementare questa soluzione, rivedere i [requisiti di Azure Information Protection](/information-protection/get-started/requirements) e assicurarsi che Azure Rights Management sia attivato. Se è attivato, verrà visualizzata la schermata seguente nel portale di Azure:
 
 ![Portale di Azure](./media/infoprotect-secure-classify-scenario/infoprotect-secure-classify-scenario-fig2.png)
 
@@ -79,7 +79,7 @@ Nella figura seguente è riportato un esempio di implementazione:
 
 ![Classificazione](./media/infoprotect-secure-classify-scenario/infoprotect-secure-classify-scenario-fig3.png)
 
-Sebbene Azure Information Protection includa etichette predefinite, è possibile [personalizzarle](/information-protection/deploy-use/configure-policy-new-label.md) e creare etichette ed etichette secondarie visibili agli utenti sulla barra di Information Protection.
+Sebbene Azure Information Protection includa etichette predefinite, è possibile [personalizzarle](/information-protection/deploy-use/configure-policy-new-label) e creare etichette ed etichette secondarie visibili agli utenti sulla barra di Information Protection.
 
 > [!IMPORTANT]
 > Le etichette sono metadati scritti nei documenti. Il testo delle etichette non è crittografato in modo che altri sistemi, ad esempio un motore DLP, possano leggerle.
@@ -88,13 +88,13 @@ Nell'esempio seguente sono visibili etichette secondarie personalizzate create n
 
 ![Label](./media/infoprotect-secure-classify-scenario/infoprotect-secure-classify-scenario-fig4.png)
 
-Dopo aver definito l'uso delle etichette (predefinite o personalizzate), [configurare un'etichetta per applicare la protezione di Rights Management](/information-protection/deploy-use/configure-policy-new-label.md).
+Dopo aver definito l'uso delle etichette (predefinite o personalizzate), [configurare un'etichetta per applicare la protezione di Rights Management](/information-protection/deploy-use/configure-policy-new-label).
 
 ### <a name="step-3-implement-content-based-automatic-classification"></a>Passaggio 3: Implementare la classificazione automatica basata sul contenuto
 
 Con Azure Information Protection, i controlli di classificazione e protezione dei dati sono integrati in Office e in altre applicazioni comuni. Questa integrazione offre opzioni semplici di un solo clic per proteggere i dati usati dagli utenti. Nel portale di Azure è possibile applicare motivi predefiniti, ad esempio numeri di carta di credito o codici fiscali, come condizione della classificazione automatica. In alternativa, è possibile usare motivi di testo ed espressioni regolari per definire una stringa o un motivo personalizzato.
 
-Quando si configurano le condizioni per un'etichetta, è possibile assegnare automaticamente un'etichetta a un documento o messaggio di posta elettronica oppure è possibile richiedere agli utenti di selezionare l'etichetta consigliata. Leggere [Come configurare le condizioni per la classificazione automatica e consigliata per Azure Information Protection](/information-protection/deploy-use/configure-policy-classification.md) per altre informazioni su come eseguire questa configurazione.
+Quando si configurano le condizioni per un'etichetta, è possibile assegnare automaticamente un'etichetta a un documento o messaggio di posta elettronica oppure è possibile richiedere agli utenti di selezionare l'etichetta consigliata. Leggere [Come configurare le condizioni per la classificazione automatica e consigliata per Azure Information Protection](/information-protection/deploy-use/configure-policy-classification) per altre informazioni su come eseguire questa configurazione.
 
 
 ### <a name="step-4-configure-conditions-for-automatic-and-recommended-classification"></a>Passaggio 4: Configurare le condizioni per la classificazione automatica e consigliata
@@ -107,10 +107,10 @@ Gli amministratori IT possono impostare criteri per l'applicazione automatica de
 - USA Social Security Number (SSN) (Numero di previdenza sociale USA - SSN)
 - International Banking Account Number (IBAN)
 
-Leggere le [informazioni sulle condizioni predefinite](/information-protection/deploy-use/configure-policy-classification.md#information-about-the-built-in-conditions) per altri dettagli su questo tipo di configurazione.
+Leggere le [informazioni sulle condizioni predefinite](/information-protection/deploy-use/configure-policy-classification#information-about-the-built-in-conditions) per altri dettagli su questo tipo di configurazione.
 
 
 
-<!--HONumber=Jan17_HO4-->
+<!--HONumber=Feb17_HO4-->
 
 
