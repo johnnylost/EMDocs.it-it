@@ -5,7 +5,7 @@ keywords:
 author: craigcaseyMSFT
 ms.author: v-craic
 manager: swadhwa
-ms.date: 04/28/2016
+ms.date: 01/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,13 @@ ms.assetid: 2e10af43-3138-45c0-b2f7-14a1d2bfb237
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: fd6318efea58b5b6b72de306339629b568bc902d
-ms.openlocfilehash: 232939cbf147b27732991a817827036963289b67
+ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
+ms.openlocfilehash: 7f7a8c8fc0333461359440781adc8a6240e9f4bb
 
 
 ---
 
-# Informazioni su come distribuire una soluzione per la protezione di documenti e messaggi di posta elettronica aziendali
+# <a name="learn-how-to-deploy-a-solution-for-protecting-company-email-and-documents"></a>Informazioni su come distribuire una soluzione per la protezione di documenti e messaggi di posta elettronica aziendali
 Sono sempre di più le aziende che permettono ai propri dipendenti di aumentare la produttività accedendo a posta elettronica, documenti e risorse aziendali tramite i dispositivi mobili personali. Tuttavia, la quantità di dati riservati che sono archiviati nei documenti e messaggi di posta elettronica aziendali comporta un rischio significativo per le aziende.
 
 Questa guida è rivolta ai professionisti IT e si propone di agevolare la definizione e quindi la distribuzione della soluzione ottimale per consentire all'azienda di applicare l'accesso condizionale in una delle configurazioni descritte di seguito. In questo modo, i dipendenti potranno usare i propri dispositivi mobili per accedere alla posta elettronica aziendale, proteggendo al contempo i dati dell'azienda.
@@ -30,7 +30,7 @@ Questa sezione illustra come distribuire una soluzione per la protezione di docu
 > [!TIP]
 > È possibile scaricare una copia di questo argomento nella [Raccolta TechNet](https://gallery.technet.microsoft.com/Deploying-Enterprise-16499404).
 
-## Introduzione
+## <a name="introduction"></a>Introduzione
 La protezione dei dati aziendali è di vitale importanza e rappresenta un compito sempre più complesso man mano che aumenta il numero di dipendenti che usano i dispositivi mobili personali per accedere alle risorse aziendali, inclusi i messaggi e gli allegati di posta elettronica. Per gli amministratori IT è importante assicurarsi che i dati aziendali siano protetti anche quando quei dispositivi mobili non si trovano all'interno della sede fisica dell'azienda.
 
 Microsoft Enterprise Mobility + Security (EMS) risolve questo problema offrendo una protezione completa dei documenti e dei messaggi di posta elettronica aziendali su quattro livelli: identità, dispositivo, applicazione e dati. Tra le altre funzionalità, EMS garantisce che i dipendenti possano accedere alla posta elettronica aziendale solo da dispositivi gestiti da Microsoft Intune e conformi ai criteri IT.
@@ -46,7 +46,7 @@ La protezione dei messaggi di posta elettronica aziendali prevede due obiettivi 
     > [!NOTE]
     > È possibile creare e distribuire un profilo di posta elettronica, quindi impostare un criterio di conformità che specifica che i profili di posta elettronica devono essere gestiti da Intune (scelta consigliata). Questo permette di cancellare i messaggi di posta elettronica dai dispositivi dismessi e, per iOS, assicura che gli allegati possano essere aperti solo in applicazioni gestite da Intune. Vedere il [Passaggio 5: Creare criteri di conformità e distribuirli agli utenti.](conditional-access-intune-configmgr-exchange.md) per ulteriori informazioni.
 
-### Soluzioni illustrate in questo articolo
+### <a name="solutions-covered-in-this-article"></a>Soluzioni illustrate in questo articolo
 Questa sezione presenta una panoramica generale delle singole soluzioni: Configuration Manager con implementazione di Intune, Intune da solo, gestione di applicazioni mobili e Azure Information Protection.
 
 -   **Gestione dell'accesso alla posta elettronica tramite accesso condizionale:** È possibile usare una configurazione ibrida di Configuration Manager con Intune, oppure usare solo Intune, insieme con Exchange Online o Exchange Server locale, per gestire e applicare l'accesso condizionale in tutti i tipi di PC e dispositivi mobili, indipendentemente dalla loro posizione. Applicando l'accesso condizionale in questo tipo di ambiente è possibile consentire all'utente di essere più produttivo, senza compromettere la sicurezza dei dati aziendali.
@@ -55,15 +55,15 @@ Questa sezione presenta una panoramica generale delle singole soluzioni: Configu
 
 -   **Protezione delle informazioni di Azure per i criteri di prevenzione della perdita dei dati:** Azure Information Protection (precedentemente denominato Azure RMS) usa criteri di crittografia, identità e autorizzazione per proteggere file e messaggi di posta elettronica su più dispositivi, ad esempio telefoni, tablet e PC. È possibile proteggere le informazioni sia all'interno che all'esterno dell'organizzazione perché la protezione rimane associata ai dati, anche quando fuoriescono dai confini fisici dell'azienda.
 
-### Valutazione dell'implementazione appropriata
+### <a name="evaluating-your-desired-implementation"></a>Valutazione dell'implementazione appropriata
 Tra tutte le opzioni di progettazione e configurazione per la gestione dei dispositivi mobili, è difficile determinare quale combinazione soddisfi meglio le esigenze dell'azienda. L'articolo [Mobile Device Management Design Considerations Guide](mdm-design-considerations-guide.md) (Guida alle considerazioni di progettazione per la gestione dei dispositivi mobili) illustra i requisiti di progettazione della gestione dei dispositivi mobili e indica in dettaglio i passaggi e le attività che è possibile eseguire per progettare una soluzione adatta alle esigenze di business e tecnologiche dell'azienda.
 
-### Esperienza generale dell'utente finale:
+### <a name="high-level-end-user-experience"></a>Esperienza generale dell'utente finale:
 Dopo aver implementato la soluzione, gli utenti finali potranno accedere alla posta elettronica aziendale solo su dispositivi gestiti **e** conformi. Quando accedono alla posta elettronica sui dispositivi, i dati dell'azienda sono protetti e contenuti all'interno dell'ecosistema di app e sono disponibili unicamente agli utenti previsti. L'accesso potrà essere revocato in qualsiasi momento se il dispositivo risulta non conforme.
 
 In particolare, i criteri di accesso condizionale configurati in Intune fanno sì che i dispositivi possano accedere alla posta elettronica solo se sono conformi ai criteri di conformità impostati. Alcune azioni, ad esempio le operazioni Copia e Incolla oppure il salvataggio nei servizi di archiviazione cloud personale, possono essere limitate usando i criteri di gestione delle applicazioni mobili. Azure Information Protection può essere usato per fare in modo che i dati sensibili di posta elettronica e gli allegati inoltrati possano essere letti solo dai destinatari previsti. L'esperienza dell'utente finale è descritta in dettaglio in [Esperienza utente finale di accesso condizionale](end-user-experience-conditional-access.md).
 
-### Come proseguire
+### <a name="where-to-go-from-here"></a>Come proseguire
 Una volta letto questo argomento, è possibile acquisire altre informazioni sulla distribuzione di una soluzione specifica per la protezione dei messaggi di posta elettronica e dei documenti aziendali, a seconda dell'ambiente:
 
 - [Usare l'accesso condizionale con Microsoft Intune](conditional-access-intune.md)
@@ -71,6 +71,6 @@ Una volta letto questo argomento, è possibile acquisire altre informazioni sull
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Jan17_HO2-->
 
 

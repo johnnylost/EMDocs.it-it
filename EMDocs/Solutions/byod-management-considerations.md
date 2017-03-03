@@ -5,7 +5,7 @@ keywords:
 author: YuriDio
 ms.author: yurid
 manager: swadhwa
-ms.date: 11/28/2016
+ms.date: 02/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -30,7 +30,7 @@ Uno dei ruoli del dominio di gestione è monitorare le impostazioni di conformit
 
 Il livello di gestione nei dispositivi degli utenti varia in base ai criteri aziendali e all'infrastruttura BYOD adottata dall'azienda. Se l'azienda stabilisce che è necessario fornire una funzionalità di cancellazione completa per accedere alle risorse aziendali, il reparto IT deve applicare questa impostazione su tutti i dispositivi monitorati. Il reparto IT deve inoltre poter ripristinare le impostazioni di fabbrica dei dispositivi, cancellando tutte le impostazioni e i dati personali, se necessario. La sezione seguente consente di determinare le opzioni di monitoraggio che saranno necessarie per l'infrastruttura BYOD.
 
-### <a name="monitoring-options-advantages-and-disadvantages"></a>Opzioni di monitoraggio: vantaggi e svantaggi
+### <a name="monitoring-options--advantages-and-disadvantages"></a>Opzioni di monitoraggio: vantaggi e svantaggi
 
 Usare l'elenco che segue per comprendere i vantaggi e gli svantaggi di ogni opzione di monitoraggio:
 
@@ -70,7 +70,7 @@ Le funzionalità di creazione di rapporti o semplicemente comprendere il comport
 
 Provare a usare una soluzione di gestione in grado di fornire l'inventario dei dispositivi e rapporti personalizzabili. Se si sceglie questa opzione, si consentirà un approccio più flessibile per il reparto IT quando occorre individuare altre informazioni sui dispositivi degli utenti. Il reparto IT deve poter avere i rapporti su tutti i dispositivi che sono stati registrati in locale e nel cloud. La funzionalità di creazione di rapporti per il sistema di gestione può risiedere in locale o nel cloud, oppure può essere una combinazione di entrambe le soluzioni, denominata appunto soluzione ibrida. Usare la tabella seguente per determinare quale opzione di creazione di rapporti è appropriata per l'azienda.
 
-### <a name="reporting-options-advantages-and-disadvantages"></a>Opzioni di creazione di report: vantaggi e svantaggi
+### <a name="reporting-options--advantages-and-disadvantages"></a>Opzioni di creazione di report: vantaggi e svantaggi
 
 Usare l'elenco che segue per comprendere i vantaggi e gli svantaggi di ogni opzione di creazione di report:
 
@@ -113,7 +113,7 @@ Dopo aver sviluppato nuove app e averne consentito l'accesso in remoto agli uten
 - La soluzione di gestione esistente usata dall'azienda è in grado di aumentare le risorse di calcolo e di archiviazione per la piattaforma supportata dall'app a cui accedono i dispositivi degli utenti in base a un set di regole prestabilite?
 Se la soluzione di gestione esistente non è in grado di soddisfare questi due requisiti, valutare l'utilizzo di una soluzione di gestione che possa gestire il calcolo e l'archiviazione affrontando i due requisiti fondamentali illustrati nella tabella seguente.
 
-### <a name="compute-and-storage-management-capabilities-advantages-and-disadvantages"></a>Funzionalità di gestione di calcolo e archiviazione: vantaggi e svantaggi
+### <a name="compute-and-storage-management-capabilities--advantages-and-disadvantages"></a>Funzionalità di gestione di calcolo e archiviazione: vantaggi e svantaggi
 
 Usare l'elenco che segue per comprendere i vantaggi e gli svantaggi di ogni opzione di gestione delle funzionalità:
 
@@ -145,7 +145,7 @@ L'automazione può essere utilizzata per correggere i dispositivi non conformi e
 Sebbene si noterà che tutti i sottodomini BYOD presentati possono sfruttare i vantaggi offerti dall'automazione, la responsabilità di automatizzare le risorse appartiene al sottodominio di gestione. L'automazione può essere integrata nel sistema operativo. Tuttavia, la soluzione di gestione che verrà adottata dall'azienda dovrà estendere tali funzionalità e consentire di ridurre le attività IT quotidiane per il monitoraggio e la creazione di rapporti sui risultati dell'automazione.
 L'opzione di automazione più potente in System Center 2012 R2 è Windows PowerShell. Per altre informazioni sull'automazione di System Center 2012 R2, vedere [Automazione di System Center con Windows PowerShell](https://technet.microsoft.com/library/dn507037(v=sc.20).aspx). Tuttavia, è disponibile un'altra opzione che fornisce un tipo più semplice ma non molto affidabile di automazione delle attività: la sequenza di attività. Usare la tabella seguente per valutare i vantaggi e gli svantaggi di ogni opzione.
 
-### <a name="automation-options-advantages-and-disadvantages"></a>Opzioni di automazione: vantaggi e svantaggi
+### <a name="automation-options--advantages-and-disadvantages"></a>Opzioni di automazione: vantaggi e svantaggi
 
 Usare l'elenco che segue per comprendere i vantaggi e gli svantaggi di ogni opzione di automazione:
 
