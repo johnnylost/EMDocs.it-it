@@ -1,10 +1,10 @@
 ---
-title: Proteggere i dati aziendali di Office 365 con Microsoft Intune | Documentazione Microsoft
+title: Proteggere i dati aziendali di Office 365 | Microsoft Docs
 description: "EMS e Office 365 offrono insieme una soluzione completa per la produttività mobile gestita che rende disponibile agli utenti lo standard di produttività migliore e al personale IT controlli dei dati completamente integrati."
 keywords: 
 author: jeffgilb
 manager: swadhwa
-ms.date: 10/18/2016
+ms.date: 1/23/2017
 ms.topic: solution
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,8 +13,8 @@ ms.assetid: cc0d2e1f-9c34-4dcb-ac1f-2f355e9ebb7e
 ms.reviewer: vlpetros
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 168d6d559aa17bbe0b8e912a53cbd384a3dc48a3
-ms.openlocfilehash: 59bbc2cd3476c8632f8a72c9144eeedcdb141c42
+ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
+ms.openlocfilehash: d7e15962a95135dbb16cb41e2643c602b87039cf
 
 
 ---
@@ -28,7 +28,7 @@ EMS è l'unica soluzione progettata per proteggere in modo nativo i messaggi di 
 Office 365 è progettato per i dipendenti che desiderano la flessibilità di portare il proprio lavoro ovunque senza limiti di utilizzo. EMS e Office 365 offrono insieme una soluzione completa per la produttività mobile gestita che rende disponibile agli utenti lo standard di produttività migliore e al personale IT controlli dei dati completamente integrati.
 
 ### <a name="recommended-solution"></a>Soluzione consigliata
-Con Intune, lo *"strumento di gestione"* di EMS, è possibile offrire ai dipendenti accesso ad applicazioni, dati e risorse aziendali dovunque su qualsiasi dispositivo e contemporaneamente proteggere le informazioni aziendali. Oltre a una maggior facilità d'uso, Intune offre anche un metodo più moderno ed economico di proteggere i dati aziendali rispetto alle soluzioni locali più tradizionali. Se Intune protegge i dati di Office 365, non sarà più necessario installare e gestire un infrastruttura locale o aprire il firewall aziendale per instradare il traffico.
+Con Intune è possibile offrire ai dipendenti l'accesso ad applicazioni, dati e risorse aziendali praticamente ovunque e su qualsiasi dispositivo, mantenendo allo stesso tempo protette le informazioni aziendali. Oltre a una maggior facilità d'uso, Intune offre anche un metodo più moderno ed economico di proteggere i dati aziendali rispetto alle soluzioni locali più tradizionali. Se Intune protegge i dati di Office 365, non sarà più necessario installare e gestire un infrastruttura locale o aprire il firewall aziendale per instradare il traffico.
 
 Il video che segue è un'introduzione rapida all'uso di Intune e Office 365 per offrire ai dipendenti un'esperienza di accesso sicuro ai dati aziendali da dispositivi iOS, Android e Windows:
 
@@ -145,6 +145,6 @@ Una volta avviata, il dispositivo inizia immediatamente il processo di cancellaz
 
 
 
-<!--HONumber=Dec16_HO2-->
+<!--HONumber=Jan17_HO4-->
 
 

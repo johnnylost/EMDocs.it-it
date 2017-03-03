@@ -5,7 +5,7 @@ keywords:
 author: craigcaseyMSFT
 ms.author: v-craic
 manager: swadhwa
-ms.date: 05/12/2016
+ms.date: 01/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -14,13 +14,13 @@ ms.assetid: 6d7c4104-b85f-407e-8832-0e6bbac934f5
 ms.reviewer: 
 ms.suite: ems
 translationtype: Human Translation
-ms.sourcegitcommit: 0eacdea52150bc8282df618ae73c96724cec26c5
-ms.openlocfilehash: 2efaf8b6298cabd640f141675b5cefe3f77aaae7
+ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
+ms.openlocfilehash: 418aa02b98040a8a74313513f05b231a20ea472a
 
 
 ---
 
-# Usare i criteri di gestione delle app mobili in Intune
+# <a name="use-mobile-app-management-policies-in-intune"></a>Usare i criteri di gestione delle app mobili in Intune
 Uno dei motivi principali per cui molte aziende usano Microsoft Intune è la possibilità di distribuire le app che servono agli utenti per completare il proprio lavoro. Prima di distribuire le app, sarà necessario [gestire i dispositivi](https://docs.microsoft.com/intune/deploy-use/enroll-devices-in-microsoft-intune).
 
 Se, ad esempio, la società usa Microsoft Word, sono disponibili versioni per Windows, iOS, Android e altri sistemi ancora. La sfida che gli amministratori IT devono affrontare è riuscire a gestire la grande varietà di app disponibili per le diverse piattaforme di dispositivi e computer, per consentire agli utenti di lavorare garantendo al tempo stesso la sicurezza dei dati aziendali.
@@ -41,7 +41,7 @@ Per applicare restrizioni a un'app, questa deve includere Microsoft Intune App S
 - **Usare un'app gestita da criteri**: include App SDK. Per aggiungere questo tipo di applicazione, è possibile specificare un collegamento all'app da un archivio di app, ad esempio l'iTunes store o Google Play. Non sono richieste ulteriori elaborazioni per questo tipo di app. Per visualizzare l'elenco completo delle app Microsoft supportate, passare alla raccolta di applicazioni per dispositivi mobili di Microsoft Intune nella pagina dei [partner di Microsoft Intune](https://www.microsoft.com/en-us/cloud-platform/microsoft-intune-partners). Fare clic sull'app per visualizzare gli scenari e le piattaforme supportate e per verificare se l'app supporta identità multiple.
 - **Usare un'app di cui è stato eseguito il wrapping**: app che sono state riassemblate per includere App SDK usando lo strumento di wrapping delle app di Microsoft Intune. Questo strumento viene in genere usato per elaborare le app aziendali create internamente. Non può essere usato per elaborare le app state scaricate dall'App Store. Per altre informazioni, vedere gli argomenti indicati di seguito.
   - [Preparare le app per iOS per la gestione delle applicazioni mobili con lo strumento di wrapping delle app di Microsoft Intune](https://docs.microsoft.com/intune/deploy-use/prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool)
-  - [Preparare le app per Android per la gestione di applicazioni per dispositivi mobili con lo strumento per la disposizione testo per app di Intune](https://docs.microsoft.com/intune/deploy-use/prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool)
+  - [Preparare le app per Android per la gestione delle app mobili con lo strumento di wrapping delle app di Intune](https://docs.microsoft.com/intune/deploy-use/prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool)
 
 Alcune app gestite, come l'app Outlook per iOS e Android, supportano **più identità**. Ciò significa che Intune si applica solo le impostazioni di gestione di account aziendali o dati nell'applicazione.
 
@@ -52,7 +52,7 @@ Ad esempio, utilizzando Outlook app:
 
 Anche Word, Excel e PowerPoint supportano più identità, ma le restrizioni per i criteri vengono applicate solo in caso di gestione e modifica dei dati aziendali riservati da parte di un servizio, ad esempio OneDrive o SharePoint.
 
-## Creare e distribuire un'app in Intune con i criteri di gestione delle app mobili
+## <a name="create-and-deploy-an-app-in-intune-with-a-mobile-app-management-policy"></a>Creare e distribuire un'app in Intune con i criteri di gestione delle app mobili
 
 - Passaggio 1: Ottenere il collegamento a un'app gestita da criteri o creare un'app di cui è stato eseguito il wrapping.
 - Passaggio 2: Pubblicare l'app nello spazio di archiviazione cloud.
@@ -60,17 +60,17 @@ Anche Word, Excel e PowerPoint supportano più identità, ma le restrizioni per 
 - Passaggio 4: Distribuire l'app selezionando l'opzione per associarla ai criteri di gestione delle app mobili.
 - Passaggio 5: Monitorare la distribuzione dell'app
 
-### Passaggio 1: Ottenere il collegamento a un'app gestita da criteri o creare un'app di cui è stato eseguito il wrapping
+### <a name="step-1-obtain-the-link-to-a-policy-managed-app-or-create-a-wrapped-app"></a>Passaggio 1: Ottenere il collegamento a un'app gestita da criteri o creare un'app di cui è stato eseguito il wrapping
 - **Per ottenere un collegamento a un'app gestita da criteri**: nell'App Store trovare e prendere nota dell'URL dell'app gestita da criteri che si vuole distribuire.
 Ad esempio, l'URL dell'app Microsoft Word per iPad è [https://itunes.apple.com/us/app/microsoft-word-for-ipad/id586447913?mt=8](https://itunes.apple.com/us/app/microsoft-word-for-ipad/id586447913?mt=8)
 - **Per creare un'app di cui è stato eseguito il wrapping:** usare le informazioni negli argomenti [Preparare le app iOS per la gestione delle applicazioni mobili con lo strumento per la disposizione testo delle app di Microsoft Intune](https://docs.microsoft.com/intune/deploy-use/prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool) e [Preparare le app Android per la gestione delle applicazioni mobili con lo strumento per la disposizione testo delle app di Microsoft Intune](https://docs.microsoft.com/intune/deploy-use/prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool). Lo strumento crea un'app elaborata che verrà usata quando si pubblica l'app nello spazio di archiviazione cloud.
 
-### Passaggio 2: Caricare l'app nello spazio di archiviazione cloud
+### <a name="step-2-upload-the-app-to-your-cloud-storage-space"></a>Passaggio 2: Caricare l'app nello spazio di archiviazione cloud
 Quando si pubblica un'app gestita, le procedure possono essere diverse a seconda che l'app sia gestita tramite criteri o elaborata con lo strumento di wrapping delle app di Microsoft Intune per iOS.
 
 Vedere [Aggiungere app per dispositivi mobili in Microsoft Intune](https://docs.microsoft.com/intune/deploy-use/add-apps-for-mobile-devices-in-microsoft-intune#add-the-app) per la procedura necessaria per caricare un'app nello spazio di archiviazione cloud.
 
-### Passaggio 3: Creare i criteri di gestione delle app mobili
+### <a name="step-3-create-a-mobile-app-management-policy"></a>Passaggio 3: Creare i criteri di gestione delle app mobili
 Il portale di Azure è la console di amministrazione consigliata per la creazione dei criteri MAM. Il portale di Azure supporta gli scenari MAM seguenti:
 - Dispositivi registrati in Intune
 - Dispositivi gestiti da una soluzione MDM di terze parti
@@ -81,14 +81,14 @@ Per altre informazioni sull'uso del portale di Azure per creare un criterio MAM,
 Se si sta usando la console di amministrazione di Intune per la gestione dei dispositivi, è possibile creare un criterio MAM che supporta le app per i dispositivi registrati in Intune mediante la [console di amministrazione di Intune](https://docs.microsoft.com/intune/deploy-use/configure-and-deploy-mobile-application-management-policies-in-the-microsoft-intune-console#-step-3-create-a-mobile-application-management-policy) stessa.
 
 
-### Passaggio 4: Distribuire l'app, selezionando l'opzione per associarla con i criteri di gestione delle applicazioni mobili
+### <a name="step-4-deploy-the-app-selecting-the-option-to-associate-the-app-with-a-mobile-application-management-policy"></a>Passaggio 4: Distribuire l'app, selezionando l'opzione per associarla con i criteri di gestione delle applicazioni mobili
 Se si sta usando il portale di Azure, [distribuire il criterio MAM agli utenti](https://docs.microsoft.com/intune/deploy-use/create-and-deploy-mobile-app-management-policies-with-microsoft-intune#deploy-a-policy-to-users).
 
 Se si sta usando il portale di Intune, [distribuire l'app](https://docs.microsoft.com/intune/deploy-use/deploy-apps-in-microsoft-intune#deploy-an-app) assicurandosi di selezionare i criteri di gestione delle app per dispositivi mobili nella pagina Gestione delle app mobili per associare i criteri all'app.
 
 Se viene annullata la registrazione del dispositivo da Intune, i criteri non verranno rimossi dalle app. Tutte le app a cui erano stati applicati i criteri conserveranno le impostazioni dei criteri anche dopo la disinstallazione e reinstallazione dell'app.
 
-#### Cosa fare quando un'app è già stata distribuita nei dispositivi
+#### <a name="what-to-do-when-an-app-is-already-deployed-on-devices"></a>Cosa fare quando un'app è già stata distribuita nei dispositivi
 
 Potrebbero esserci situazioni in cui si distribuisce un'app e un utente o un dispositivo ha già una versione non gestita di quell'app, ad esempio se un utente ha installato Microsoft Word dall'app store.
 
@@ -97,7 +97,7 @@ In questo caso, è necessario chiedere all'utente di disinstallare manualmente l
 Tuttavia, per i dispositivi che eseguono iOS 9 e versioni successive, Intune chiederà automaticamente all'utente l'autorizzazione ad assumere la gestione dell'app esistente. Se l'utente accetta, l'app verrà gestita da Intune e verranno applicati anche tutti i criteri MAM associati all'app.
 
 
-### Passaggio 5: Monitorare la distribuzione dell'app con i criteri MAM
+### <a name="step-5-monitor-the-app-deployment-with-mam-policy"></a>Passaggio 5: Monitorare la distribuzione dell'app con i criteri MAM
 Usare le procedure seguenti per monitorare la distribuzione dell'app dalla console di Intune e risolvere eventuali conflitti di criteri.
 
 1. Nella [console di amministrazione di Microsoft Intune](https://manage.microsoft.com/) fare clic su **Gruppi**.
@@ -112,12 +112,12 @@ Usare le procedure seguenti per monitorare la distribuzione dell'app dalla conso
 > [!NOTE]
 > Altre informazioni generali sul monitoraggio delle app sono disponibili dal [portale di Azure](https://docs.microsoft.com/intune/deploy-use/monitor-mobile-app-management-policies-with-microsoft-intune) o dalla [console di Intune](https://docs.microsoft.com/intune/deploy-use/monitor-apps-in-microsoft-intune).
 
-## Come proseguire
+## <a name="where-to-go-from-here"></a>Come proseguire
 
 Dopo aver creato e distribuito un'app associata a un criterio MAM, sarà possibile approfondire la conoscenza [dell'esperienza dell'utente finale con MAM](end-user-experience-mam.md). Questo consente di prepararsi ad affrontare eventuali problemi che potrebbero verificarsi.
 
 
 
-<!--HONumber=Nov16_HO2-->
+<!--HONumber=Jan17_HO2-->
 
 
