@@ -10,6 +10,7 @@
 ### [Proteggere l'ingresso principale](protect-front-door.md)
 ### [Proteggere i dati dagli errori degli utenti](protect-data-user-mistake.md)
 ### [Rilevare attacchi prima che possano provocare danni](detect-attacks-before-damage.md)
+### [Guida alla simulazione degli attacchi](ata-attack-simulation-playbook.md)
 ## [Protezione delle informazioni]()
 ### [Proteggere i dati usando la classificazione, l'assegnazione di etichette e la protezione](infoprotect-secure-classify-scenario.md)
 ### [Condividere i dati sensibili internamente ed esternamente](share-sensitive-data.md)
