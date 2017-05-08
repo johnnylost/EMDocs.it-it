@@ -13,9 +13,11 @@ ms.assetid: ebf7be63-4ac2-4158-9772-58f15416ccb7
 ms.reviewer: vlpetros
 ms.suite: ems
 ms.custom: active-directory
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
 ms.openlocfilehash: 64c859600ba74da47d70a9c58bc261dec4411513
+ms.contentlocale: it-it
+ms.lasthandoff: 01/24/2017
 
 
 ---
@@ -64,7 +66,7 @@ Usando i criteri di accesso condizionale di Intune per Exchange in locale è pos
 
 -   Windows Phone (8 e versioni successive)
 -   Windows 10 Desktop e Mobile
--   iOS&8;.0 (e versioni successive)
+-   iOS 8.0 (e versioni successive)
 -   Android (Samsung KNOX Standard 4.0 e versioni successive o Android for Work)
 
 > [!NOTE]
@@ -81,7 +83,7 @@ Se un dispositivo non è registrato o non è conforme ai criteri aziendali, all'
 È possibile [configurare criteri di accesso condizionale per Exchange locale](https://docs.microsoft.com/intune/deploy-use/restrict-access-to-exchange-onpremises-with-microsoft-intune#configure-a-conditional-access-policy) per i tipi di dispositivi seguenti usati dall'organizzazione:
 
 -   Windows Phone (8.1 e versioni successive)
--   iOS&8;.0 (e versioni successive)
+-   iOS 8.0 (e versioni successive)
 -   Android (4.0 o versioni successive e Samsung KNOX Standard 4.0)
 -   Android for Work (supportato attualmente solo per i profili di posta elettronica per le app Gmail e Nine Work)
 -   Applicazione Posta nei PC Windows gestiti
@@ -110,7 +112,7 @@ Le connessioni VPN vengono usate quando gli utenti devono connettersi in modalit
 È possibile configurare le impostazioni VPN per i molti [tipi di connessione VPN supportati da Intune](https://docs.microsoft.com/intune/deploy-use/vpn-connections-in-microsoft-intune#vpn-connection-types) nei seguenti tipi di dispositivi:
 
 -   Android (4.0 e versioni successive, Samsung KNOX Standard e versioni successive e Android for Work)
--   iOS&8;.0 (e versioni successive)
+-   iOS 8.0 (e versioni successive)
 -   Mac OS X (10.9 e versioni successive)
 -   Dispositivi Windows (PC Windows 8.1 e versioni successive, Windows Phone 8.1 e Windows 10 Mobile e versioni successive)
 
@@ -131,7 +133,7 @@ Quando si concede agli utenti l'accesso alle risorse aziendali tramite profili V
 
 È possibile creare e distribuire un profilo certificato **PKCS #12 (PFX)** o **SCEP (Simple Certificate Enrollment Protocol)** che può essere usato dai dispositivi che richiedono certificati di autenticazione su queste piattaforme per dispositivi:
 
--   iOS&8;.0 (e versioni successive)
+-   iOS 8.0 (e versioni successive)
 -   Mac OS X (10.9 e versioni successive)
 -   Android (4.0 e versioni successive e Android for Work)
 -   Windows (8.1 e versioni successive)
@@ -153,9 +155,4 @@ Quando si [distribuiscono i profili certificato](https://docs.microsoft.com/intu
 [Iniziare a usare Enterprise Mobility + Security](https://docs.microsoft.com/enterprise-mobility/solutions/ems-get-started)
 
 [Microsoft Enterprise Mobility](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
-
-
-
-<!--HONumber=Jan17_HO4-->
-
 
