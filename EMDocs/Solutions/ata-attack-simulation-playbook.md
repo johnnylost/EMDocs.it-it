@@ -12,9 +12,10 @@ ms.technology: techgroup-identity
 ms.assetid: da5eda7c-29bb-429f-9366-72495667c010
 ms.reviewer: v-craic
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: cff5b87f6c5d0b9aa987631fefe5bf74e3a43862
 ms.openlocfilehash: 41672ccdbd2c868add70e423b7dbc8048713259b
+ms.contentlocale: it-it
 ms.lasthandoff: 03/14/2017
 
 
@@ -147,7 +148,7 @@ La tabella seguente riepiloga le credenziali salvate in ogni computer:
 | Admin-PC | - NuckC |
 | Victim-PC | -JeffV e RonHD (come conseguenza dello scenario helpdesk) |
 
-A questo punto l'ambiente lab è pronto. L'esercitazione ha raggiunto attualmente uno stato tale che per la violazione del dominio basta un solo exploit (la violazione del dominio è "one-exploit-away" o&#1;ea).  Successivamente si vedrà che la singola violazione in genere proviene dalle risorse del dominio con i minimi privilegi verso le applicazioni più esposte a Internet da parte di un malintenzionato altamente motivato e che non si fermerà.  Qui entra in gioco la metodologia di [presupporre una violazione](https://blogs.msdn.microsoft.com/azuresecurity/2015/10/19/an-insiders-look-at-the-security-of-microsoft-azure-assume-the-breach/).
+A questo punto l'ambiente lab è pronto. L'esercitazione ha raggiunto attualmente uno stato tale che per la violazione del dominio basta un solo exploit (la violazione del dominio è "one-exploit-away" o #1ea).  Successivamente si vedrà che la singola violazione in genere proviene dalle risorse del dominio con i minimi privilegi verso le applicazioni più esposte a Internet da parte di un malintenzionato altamente motivato e che non si fermerà.  Qui entra in gioco la metodologia di [presupporre una violazione](https://blogs.msdn.microsoft.com/azuresecurity/2015/10/19/an-insiders-look-at-the-security-of-microsoft-azure-assume-the-breach/).
 
 ## <a name="executing-the-attack"></a>Eseguire l'attacco
 
@@ -236,7 +237,7 @@ Nella figura seguente è riportato un esempio del risultato di questo comando:
 L'autore dell'attacco ora conosce tutti gli utenti e i gruppi e sa quali utenti possiedono gli elevati privilegi del gruppo *Domain Admins*. In uno scenario reale la probabilità che l'autore dell'attacco continuerà con un'escalation nel tentativo di impadronirsi anche dei privilegi di Enterprise Admins è molto elevata, poiché non esiste alcuna barriera nel sistema di sicurezza tra *Enterprise Admins* e *Domain Admins*.
 
 > [!IMPORTANT]
-> Per altre informazioni sulle barriere di sicurezza tra foreste e domini, Enterprise Admins e Domain Admins, e altri privilegi "di livello&0;", vedere [Materiale di riferimento per la protezione dell'accesso con privilegi](http://www.aka.ms/tier0).
+> Per altre informazioni sulle barriere di sicurezza tra foreste e domini, Enterprise Admins e Domain Admins, e altri privilegi "di livello 0", vedere [Materiale di riferimento per la protezione dell'accesso con privilegi](http://www.aka.ms/tier0).
 
 Per ottenere l'elenco dei membri del gruppo *Enterprise Admins* nell'ambiente lab, eseguire il comando seguente su *Victim-PC*:
 
@@ -330,7 +331,7 @@ L'autore dell'attacco ha usato questo [modo di pensare simile a un grafico](http
 
 A questo punto è possibile usare *RonHD* per eseguire lo spostamento laterale mediante un attacco [Overpass-the-Hash](). Se l'autore dell'attacco si trova in un ambiente in cui non è disattivato WDigest, la partita è già terminata, in quanto dispone della password in testo normale.  Tuttavia, ai fini di questa esercitazione si presuppone di non conoscere/avere accesso alla password in testo normale.
 
-Usando una tecnica denominata Overpass-the-Hash è possibile prendere l'hash NTLM e usarlo per ottenere un Ticket Granting Ticket (TGT) tramite Kerberos\Active Directory.  Con un TGT è possibile mascherarsi da Ron**HD e accedere a qualsiasi risorsa del dominio a cui*RonHD* ha accesso.  
+Usando una tecnica denominata Overpass-the-Hash è possibile prendere l'hash NTLM e usarlo per ottenere un Ticket Granting Ticket (TGT) tramite Kerberos\Active Directory.  Con un TGT è possibile mascherarsi da Ron**HD e accedere a qualsiasi risorsa del dominio a cui* RonHD* ha accesso.  
 
 Copiare l'hash NTLM di *RonHD* da victim-pc.txt, raccolto in precedenza (da "Azione: Eseguire il dump delle credenziali da Victim-PC"). Successivamente accedere a *Victim-PC*, accedere al percorso in cui *mimikatz* è stato salvato nel file system ed eseguire i comandi seguenti:
 
@@ -406,7 +407,7 @@ Nella figura seguente è riportato un esempio del risultato di questo comando:
 
 ![mimikatz privilege](./media/ata-attack-simulation-playbook/ata-attack-simulation-playbook-fig27.png) 
 
-Assicurarsi che i ticket *NuckC@krbtgt-CONTOSO.LOCAL* siano stati importati correttamente come illustrato nell'esempio precedente.
+Assicurarsi che i ticket  *NuckC@krbtgt-CONTOSO.LOCAL*  siano stati importati correttamente come illustrato nell'esempio precedente.
 
 Quindi è necessario verificare che nella sessione del prompt dei comandi ci siano i ticket giusti. Per farlo, eseguire il comando seguente dallo stesso prompt dei comandi con privilegi elevati:
 
