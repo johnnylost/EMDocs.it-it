@@ -12,9 +12,11 @@ ms.technology:
 ms.assetid: b46877f3-cf32-4919-ba63-4df55cd2af32
 ms.reviewer: vlpetros
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
 ms.openlocfilehash: 5a0eef972374efefff886ab9dbf7b6a7e4f7aab7
+ms.contentlocale: it-it
+ms.lasthandoff: 01/24/2017
 
 
 ---
@@ -30,7 +32,7 @@ EMS offre funzionalità innovative per la protezione dalla perdita di dati con M
 
 Microsoft Intune consente alle organizzazioni di assicurare l'accesso alle applicazioni per dispositivi mobili e di proteggere i dati di Office 365 da eventuali perdite senza richiedere ai dipendenti di eseguire la registrazione per la gestione dei dispositivi. La gestione dei dispositivi (MDM) può ancora essere eseguita se necessario, ma ora è facoltativa. Le potenti funzionalità di protezione delle applicazioni di Intune consentono a IT di proteggere i dati aziendali a livello di applicazione senza dover gestire materialmente i dispositivi. Per i dati strettamente riservati, la protezione può essere ulteriormente estesa a livello di file con Azure Information Protection. Dipendenti, fornitori e partner possono usare i propri dispositivi mobili preferiti per accedere a strumenti di produttività e dati aziendali senza rischiare intrusioni nella propria privacy. E se IT sta già usando una soluzione MDM, Intune può aggiungere la protezione avanzata dalla perdita dei dati con controllo di accesso di Office 365 senza che sia necessario annullare la registrazione dei dispositivi dalla soluzione MDM corrente e rieseguirla in Intune MDM.
 
-La demo riportata di seguito illustra come è possibile impedire la perdita di dati dalle applicazioni per dispositivi mobili, incluse le app di Office&365; e quelle interne line-of-business (LOB), usando le innovative funzionalità di protezione di Intune, che non richiedono la registrazione dei dispositivi degli utenti in Intune MDM:
+La demo riportata di seguito illustra come è possibile impedire la perdita di dati dalle applicazioni per dispositivi mobili, incluse le app di Office 365 e quelle interne line-of-business (LOB), usando le innovative funzionalità di protezione di Intune, che non richiedono la registrazione dei dispositivi degli utenti in Intune MDM:
 
 <iframe width="675" height="480"  src="https://www.youtube.com/embed/BcwgKmsAy18?list=TLGGQ9qBhVYxOZIxMzEyMjAxNg" frameborder="0" allowfullscreen></iframe>
 
@@ -40,7 +42,7 @@ Il resto di questa soluzione è suddiviso nelle sezioni seguenti che illustrano 
 
 - **Proteggere i dati delle app con i criteri di protezione delle app per dispositivi mobili di Intune**. In questa sezione viene descritto come creare e distribuire i criteri di protezione delle applicazioni di Microsoft Intune per mettere a disposizione degli utenti di dispositivi mobili non gestiti funzionalità per la prevenzione della perdita dei dati (ad esempio copia/incolla/salva con nome/PIN/crittografia/cancellazione selettiva e così via).
 
-- **Consentire solo alle app per dispositivi mobili che supportano i criteri di protezione delle app di accedere ai servizi di Office 365**. Questa sezione illustra come creare un criterio che consenta solo alle app per dispositivi mobili che supportano i criteri di gestione delle app per dispositivi mobili di Intune di accedere a servizi di Office&365; come Exchange Online.
+- **Consentire solo alle app per dispositivi mobili che supportano i criteri di protezione delle app di accedere ai servizi di Office 365**. Questa sezione illustra come creare un criterio che consenta solo alle app per dispositivi mobili che supportano i criteri di gestione delle app per dispositivi mobili di Intune di accedere a servizi di Office 365 come Exchange Online.
 
 ## <a name="protect-app-data-with-intune-mobile-app-protection-policies"></a>Proteggere i dati delle applicazioni con criteri di protezione delle app per dispositivi mobili di Intune
 
@@ -93,9 +95,4 @@ Quando l'utente tocca il collegamento *Inizia ora* nel messaggio di posta elettr
 [Iniziare a usare Enterprise Mobility + Security](https://docs.microsoft.com/enterprise-mobility/solutions/ems-get-started)
 
 [Microsoft Enterprise Mobility](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
-
-
-
-<!--HONumber=Jan17_HO4-->
-
 
