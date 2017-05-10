@@ -12,9 +12,10 @@ ms.technology:
 ms.assetid: e9e695ec-5608-43bb-bbfb-808b869b1567
 ms.reviewer: vlpetros
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: b5be7105266a7f455e1482a814929f65a130db82
 ms.openlocfilehash: 6b220f4992651b5f3c107b5b958c47900515b77f
+ms.contentlocale: it-it
 ms.lasthandoff: 03/08/2017
 
 
@@ -76,7 +77,7 @@ L'[aggiunta ad Azure Active Directory per Windows 10 ](https://docs.microsoft.co
 
 >[!Tip]
 
->Per abilitare la registrazione MDM automatica nella directory di Azure AD Premium dal [portale di Microsoft Azure](https://portal.azure.com), selezionare **Azure Active Directory ** > **Servizi Mobility (MDM e MAM)** > **Microsoft Intune**.
+>Per abilitare la registrazione MDM automatica nella directory di Azure AD Premium dal [portale di Microsoft Azure](https://portal.azure.com), selezionare **Azure Active Directory** > **Servizi Mobility (MDM e MAM)** > **Microsoft Intune**.
 
 L'aggiunta ad AD Azure è destinata alle aziende cloud-first/cloud-only. Si tratta solitamente di aziende di piccole e medie dimensioni che non usano un'infrastruttura Windows Server Active Directory Domain Services (AD DS) locale. Detto questo, l'aggiunta ad AD Azure può e sarà adottata anche da organizzazioni di grandi dimensioni su dispositivi che non possono eseguire una tradizionale aggiunta a un dominio (ad esempio i dispositivi mobili) o dagli utenti che devono necessariamente accedere a Office 365 o ad altre app SaaS di Azure AD. Quando un dispositivo viene gestito con Intune, gli amministratori IT possono gestire i dispositivi aggiunti ad AD Azure insieme ai dispositivi aggiunti a un dominio AD DS nella console di gestione di Configuration Manager tramite la [gestione di dispositivi mobili ibrida](https://docs.microsoft.com/sccm/mdm/understand/choose-between-standalone-intune-and-hybrid-mobile-device-management#what-is-hybrid-mdm-with-configuration-manager).
 Quando un utente aggiunge un account aziendale o dell'istituto di istruzione in un dispositivo Windows 10, il dispositivo viene automaticamente contrassegnato come "di proprietà dell'azienda".
