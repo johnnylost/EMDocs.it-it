@@ -22,6 +22,7 @@
 ### [Proteggere i dati aziendali senza la gestione dei dispositivi con Intune](protect-company-data-without-managing-devices.md)
 ### [Abilitare BYOD con Intune](enable-byod.md)
 ### [Gestire i dispositivi di proprietà dell'azienda con Intune](issue-corp-devices.md)
+### [Abilitare una soluzione con dispositivi condivisi con limitazioni d'uso con Intune](limited-use-shared-devices.md)
 ## [Guide alla progettazione e all'architettura]()
 ### [Guida alla progettazione di BYOD](byod-design-considerations-guide.md)
 #### [Progettazione della soluzione di infrastruttura](byod-envisioning-the-byod-infrastructure-solution.md)
