@@ -4,8 +4,8 @@ description: In questo argomento sono contenute considerazioni sulla progettazio
 keywords: 
 author: YuriDio
 ms.author: yurid
-manager: swadhwa
-ms.date: 10/3/2016
+manager: mbaldwin
+ms.date: 05/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 1072858e-dc0a-44ad-a512-d938f20310b6
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 2342889a686db8a6496c97979cb222af8347241a
 ms.openlocfilehash: a7382ec71d94d0b08cc4c89e8dbe90bcd1a4c1d7
+ms.contentlocale: it-it
+ms.lasthandoff: 01/05/2017
 
 
 ---
@@ -80,9 +82,4 @@ La maggior parte delle soluzioni MDM usano SSL per proteggere i dati in transito
 - Se l'organizzazione attualmente non usa un'infrastruttura locale di Configuration Manager, è necessario pianificare, installare e configurare questa piattaforma prima dell'integrazione
 
 Per altre informazioni sulla combinazione delle funzionalità di Intune e Configuration Manager per aumentare la protezione dei dati e configurare la crittografia, leggere l'articolo relativo alla [gestione della crittografia nei dispositivi mobili con Configuration Manager e Intune](http://blogs.technet.com/b/pauljones/archive/2014/08/04/managing-encryption-on-mobile-devices-with-configuration-manager-and-intune.aspx).
-
-
-
-<!--HONumber=Jan17_HO1-->
-
 

@@ -4,8 +4,8 @@ description: Questo articolo include una serie di considerazioni sulla struttura
 keywords: 
 author: YuriDio
 ms.author: yurid
-manager: swadhwa
-ms.date: 02/23/2017
+manager: mbaldwin
+ms.date: 05/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: ba8cc256-2075-457f-a827-7ec9213c5235
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: da1652d5bb9a7b7176c74482bfc814aaf8902c3f
+ms.contentlocale: it-it
+ms.lasthandoff: 11/28/2016
 
 
 ---
@@ -194,9 +196,4 @@ Sebbene si tratti di due opzioni distinte, è possibile integrarle per fornire l
 | Distribuzione e provisioning di app in dispositivi che si trovano all'esterno dell'azienda.   | Microsoft Intune                                       |
 | Distribuzione e provisioning di app in dispositivi non Windows.                   | Microsoft Intune                                       |
 | Distribuzione e provisioning di app solo nei dispositivi locali, distribuzione e provisioning di app nei dispositivi situati all'esterno dell'azienda o distribuzione e provisioning di app nei dispositivi non Windows.       | Microsoft Intune integrato con Configuration Manager
-
-
-
-<!--HONumber=Nov16_HO4-->
-
 

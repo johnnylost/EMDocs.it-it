@@ -4,8 +4,8 @@ description: Questo articolo include una serie di considerazioni sulla progettaz
 keywords: 
 author: YuriDio
 ms.author: yurid
-manager: swadhwa
-ms.date: 02/23/2017
+manager: mbaldwin
+ms.date: 05/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 181eb917-119d-4e56-8ead-1182b1dc5cab
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: cbf0f54d2d288baf66f914ef8366a70448218607
+ms.contentlocale: it-it
+ms.lasthandoff: 11/28/2016
 
 
 ---
@@ -248,9 +250,4 @@ L'applicazione della governance dei dati nei vari file server per controllare qu
 Quando si sfruttando le funzionalità di Controllo dinamico degli accessi, è possibile identificare i dati mediante la classificazione automatica e manuale dei file. È ad esempio possibile contrassegnare i dati nei file server nell'organizzazione. Si può anche controllare l'accesso ai file applicando criteri di sicurezza di rete che usano criteri di accesso centrale. Controllo dinamico degli accessi si avvale anche della protezione di Rights Management Services (RMS) tramite la crittografia RMS automatica per i documenti riservati. È ad esempio possibile configurare RMS per crittografare tutti i documenti contenenti informazioni sulla legge HIPPA (Health Insurance Portability and Accountability Act). Per indagini forensi e controlli, i criteri di controllo centrale possono essere usati per i rapporti di conformità e le analisi forensi. È possibile identificare chi ha accesso a informazioni riservate.
 
 Controllo dinamico degli accessi, una funzione del ruolo File server, garantisce ai reparti IT le funzionalità elencate nella tabella precedente. Per altre informazioni su Controllo dinamico degli accessi, vedere [Controllo dinamico degli accessi: panoramica dello scenario](https://technet.microsoft.com/library/hh831717.aspx).
-
-
-
-<!--HONumber=Nov16_HO4-->
-
 

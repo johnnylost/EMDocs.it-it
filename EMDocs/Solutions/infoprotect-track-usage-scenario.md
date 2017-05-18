@@ -2,8 +2,8 @@
 title: Tenere traccia dell&quot;utilizzo dei dati condivisi e rispondere in caso di uso improprio dei dati | Microsoft Docs
 description: "Uno scenario che descrive come sia possibile usare Enterprise Mobility + Security per tenere traccia dell&quot;uso dei dati condivisi e rispondere in caso di uso improprio sfruttando le funzionalità di Azure Rights Management."
 author: yuridio
-manager: swadhwa
-ms.date: 02/23/2017
+manager: mbaldwin
+ms.date: 05/18/2017
 ms.topic: solution
 ms.prod: 
 ms.service: rights-management
@@ -11,9 +11,11 @@ ms.technology: techgroup-identity
 ms.assetid: c7e6e01a-5796-4bd7-a0c5-847ecfc08a1e
 ms.reviewer: v-craic
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
 ms.openlocfilehash: cca39a029b31f619a49b605ed28ab73a58e5c73b
+ms.contentlocale: it-it
+ms.lasthandoff: 01/24/2017
 
 
 
@@ -72,9 +74,4 @@ In alcuni casi, potrebbe essere anche necessario affrontare un evento imprevisto
 ![Figura che mostra il form Revoca l'accesso che consente di revocare l'accesso a un documento.](./media/infoprotect-track-usage-scenario/infoprotect-track-usage-scenario-fig5.png)
 
 È possibile abilitare l'opzione per informare i destinatari che è stato revocato l'accesso a questo documentati ed è possibile includere un messaggio con la spiegazione del motivo per cui questo documento è stato revocato.
-
-
-
-<!--HONumber=Jan17_HO4-->
-
 

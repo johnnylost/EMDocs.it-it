@@ -4,8 +4,8 @@ description: Questo articolo include una serie di requisiti comuni per lo svilup
 keywords: 
 author: YuriDio
 ms.author: yurid
-manager: swadhwa
-ms.date: 02/23/2017
+manager: mbaldwin
+ms.date: 05/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 0c1313b9-361f-4732-a92c-23d0dac07733
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: d5297dbb3d22feda4189bc120b2bb4537fa5f590
+ms.contentlocale: it-it
+ms.lasthandoff: 11/28/2016
 
 
 ---
@@ -117,9 +119,4 @@ I requisiti delle app sono classificati in sei aree:
 - È stata eseguita un'analisi della privacy per queste app?
 - Le app useranno riquadri animati?
     - In tal caso, questi riquadri animati causeranno inavvertitamente la diffusione di informazioni?
-
-
-
-<!--HONumber=Nov16_HO4-->
-
 

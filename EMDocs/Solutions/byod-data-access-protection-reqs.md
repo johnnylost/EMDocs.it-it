@@ -4,8 +4,8 @@ description: Questo articolo include una serie di requisiti comuni per la protez
 keywords: 
 author: YuriDio
 ms.author: yurid
-manager: swadhwa
-ms.date: 02/21/2017
+manager: mbaldwin
+ms.date: 05/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 29eddc34-5ca5-4169-89b6-8137b03ab7f0
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: 9aafb6a87f629f61d04596830ae0cc5cee944696
+ms.contentlocale: it-it
+ms.lasthandoff: 11/28/2016
 
 
 ---
@@ -91,9 +93,4 @@ Le domande sui requisiti di protezione e accesso ai dati sono suddivise in tre a
     - In tal caso, in che modo queste norme regolano i criteri esistenti di accesso ai dati per le risorse locali?
 - L'azienda prevede criteri per la [gestione di dispositivi mobili (MDM, Mobile Device Management)](mdm-design-considerations-guide.md) e la [gestione di applicazioni mobili (MAM, Mobile Application Management) ](https://blogs.technet.microsoft.com/cbernier/2016/01/05/microsoft-intune-mobile-application-management-mam-standalone/)?
 - L'azienda prevede dei criteri per la confisca dei dispositivi in caso di controversia legale o indagine investigativa?
-
-
-
-<!--HONumber=Nov16_HO4-->
-
 
