@@ -4,8 +4,8 @@ description: Questo articolo include una serie di requisiti comuni per lo svilup
 keywords: 
 author: YuriDio
 ms.author: yurid
-manager: swadhwa
-ms.date: 11/28/2016
+manager: mbaldwin
+ms.date: 05/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 6f9fd9b3-492b-48e1-871c-e5abefe1293a
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: a9bb76fdff02b8ded31fe3e1811678138ffd5504
+ms.contentlocale: it-it
+ms.lasthandoff: 11/28/2016
 
 
 ---
@@ -45,9 +47,4 @@ Quando si progetta la soluzione MDM, assicurarsi di porre le domande seguenti pe
 - Se un dispositivo mobile è compromesso e si desidera impedire la diffusione di app dannose da tale dispositivo alla rete aziendale, la soluzione MDM consente l'applicazione di criteri che possano rapidamente limitare il dispositivo compromesso?
 - La soluzione MDM consente di prevedere potenziali attacchi per intraprendere azioni proattive per la risoluzione dei problemi?
 - La soluzione MDM consente di identificare se un file è stato infettato da un malware tramite una console di gestione?
-
-
-
-<!--HONumber=Nov16_HO4-->
-
 

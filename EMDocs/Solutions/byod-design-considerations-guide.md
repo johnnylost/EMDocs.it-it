@@ -4,8 +4,8 @@ description: Questo articolo include un&quot;introduzione all&quot;adozione di B
 keywords: 
 author: YuriDio
 ms.author: yurid
-manager: swadhwa
-ms.date: 01/04/2017
+manager: mbaldwin
+ms.date: 05/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: ed940ba8-866c-477f-a59b-beb620300a79
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 242b1a6468bfc9524acdb3c497078128dd26864b
 ms.openlocfilehash: 0744ef860fb1fd06507c9e24af9c676551c54f12
+ms.contentlocale: it-it
+ms.lasthandoff: 01/05/2017
 
 
 ---
@@ -74,9 +76,4 @@ I problemi o le perplessità seguenti sono in genere quelli incontrati dalle azi
 Le organizzazioni con un'infrastruttura di grandi dimensioni devono stabilire i requisiti prima di passare dalla gestione dei dispositivi stessi, in cui si presume che il reparto IT abbia il controllo totale dei dispositivi, a un modello in cui si presume che il reparto IT abbia meno controllo dei dispositivi ma allo stesso tempo debba soddisfare le esigenze degli utenti per l'accesso ai dati aziendali. Questo modello viene spesso definito come passaggio da un approccio IT incentrato sui dispositivi a uno incentrato sugli utenti. È necessario inoltre pianificare attentamente le stesse considerazioni e gli stessi requisiti per le app nuove ed esistenti o per lo spostamento delle app esistenti in un ambiente cloud. La Figura 1 include un diagramma concettuale del dominio del problema BYOD e delle aree trattate in questa guida.
 
 ![Dominio problematico](./media/BYOD_Figure1.png)
-
-
-
-<!--HONumber=Jan17_HO1-->
-
 

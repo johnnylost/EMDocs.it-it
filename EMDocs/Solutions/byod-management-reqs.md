@@ -4,8 +4,8 @@ description: Questo articolo include una serie di requisiti comuni di progettazi
 keywords: 
 author: YuriDio
 ms.author: yurid
-manager: swadhwa
-ms.date: 02/23/2017
+manager: mbaldwin
+ms.date: 05/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: bf0d4210-5edc-4ad7-bcb5-372099049630
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: 9347d0ff642a3ea4a337962b5ec10a0c4c6cdc66
+ms.contentlocale: it-it
+ms.lasthandoff: 11/28/2016
 
 
 ---
@@ -97,9 +99,4 @@ Le domande sui requisiti di gestione sono suddivise in sette aree:
 - I dispositivi personali vengono registrati con la società dal reparto IT o vengono registrati personalmente?
 - È previsto un piano per consentire agli utenti di eseguire il provisioning dei servizi con i propri dispositivi?
     - In tal caso, il sistema di gestione consente agli utenti di eseguire questa operazione dai propri dispositivi in modalità nativa?
-
-
-
-<!--HONumber=Nov16_HO4-->
-
 

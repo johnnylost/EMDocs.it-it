@@ -4,8 +4,8 @@ description: "Questo articolo include una serie di considerazioni sulla progetta
 keywords: 
 author: YuriDio
 ms.author: yurid
-manager: swadhwa
-ms.date: 02/23/2017
+manager: mbaldwin
+ms.date: 05/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: d1653116-3922-40d3-bc4f-3d845b6aaecb
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: 717183b0b7f94277379ebbeee2136227d29f88ef
+ms.contentlocale: it-it
+ms.lasthandoff: 11/28/2016
 
 
 ---
@@ -207,9 +209,4 @@ Usare l'elenco che segue per comprendere i vantaggi e gli svantaggi delle opzion
 > Per altre informazioni sui profili Wi-Fi in Configuration Manager, vedere [Introduzione ai profili Wi-Fi in Configuration Manager](https://technet.microsoft.com/library/dn261224.aspx).
 
 Il percorso di rete svolge un ruolo importante per le considerazioni sugli utenti e i dispositivi. È possibile sfruttare il controllo degli accessi a più fattori in ADFS per abilitare i criteri di autorizzazione per applicazione, con i quali è possibile consentire o negare l'accesso in base a utente, dispositivo e percorso di rete. Per altre informazioni su come configurare un ambiente per convalidare questa funzionalità, vedere [Gestire i rischi con il controllo degli accessi a più fattori](https://technet.microsoft.com/library/dn280936.aspx).
-
-
-
-<!--HONumber=Nov16_HO4-->
-
 

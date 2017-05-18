@@ -3,8 +3,8 @@ title: Proteggere i dati usando la classificazione, l&quot;assegnazione di etich
 description: "Uno scenario che descrive come usare Enterprise Mobility + Security per classificare, assegnare un&quot;etichetta e proteggere i dati usando le funzionalità di Microsoft Azure Information Protection."
 author: yuridio
 ms.author: yurid
-manager: swadhwa
-ms.date: 02/21/17
+manager: mbaldwin
+ms.date: 05/18/17
 ms.topic: solution
 ms.prod: 
 ms.service: rights-management
@@ -12,9 +12,11 @@ ms.technology: techgroup-identity
 ms.assetid: 65409d5c-4f1b-4026-86e9-e65e1c4fe2b4
 ms.reviewer: v-craic
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 34d04195000f7cdb5a9efdfa31788a12cc8d8d5b
 ms.openlocfilehash: a2fc2e045c413707ad9d53e738b1eec6457c3a95
+ms.contentlocale: it-it
+ms.lasthandoff: 02/22/2017
 
 
 ---
@@ -108,9 +110,4 @@ Gli amministratori IT possono impostare criteri per l'applicazione automatica de
 - International Banking Account Number (IBAN)
 
 Leggere le [informazioni sulle condizioni predefinite](/information-protection/deploy-use/configure-policy-classification#information-about-the-built-in-conditions) per altri dettagli su questo tipo di configurazione.
-
-
-
-<!--HONumber=Feb17_HO4-->
-
 

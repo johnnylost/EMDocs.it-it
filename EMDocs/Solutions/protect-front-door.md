@@ -3,8 +3,8 @@ title: Proteggere l&quot;ingresso principale | Microsoft Docs
 description: "Uno scenario che descrive come Enterprise Mobility + Security può essere usato per proteggere l&quot;identità e garantire un accesso sicuro alle risorse aziendali tramite le funzionalità di Microsoft Azure Active Directory Identity Protection e Azure Active Directory Privileged Identity Management."
 author: yuridio
 ms.author: yurid
-manager: swadhwa
-ms.date: 01/23/2017
+manager: mbaldwin
+ms.date: 05/18/2017
 ms.topic: solution
 ms.prod: 
 ms.service: active-directory
@@ -13,9 +13,11 @@ ms.assetid: c9aeabcf-db9b-4a35-b1bc-61331c464165
 ms.reviewer: v-craic
 ms.suite: ems
 ms.custom: microsoft-identity-manager
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
 ms.openlocfilehash: 7912b13666c9b08af0c6d962fe1ea592335ca73d
+ms.contentlocale: it-it
+ms.lasthandoff: 01/24/2017
 
 
 ---
@@ -127,9 +129,4 @@ Dopo aver installato e configurato Azure AD Privileged Identity Management, è p
 ![Ruoli con privilegi](./media/protect-front-door/protect-front-door-fig10.png)
 
 Nel dashboard è possibile visualizzare l'attività corrente, ad esempio gli [avvisi di sicurezza](https://azure.microsoft.com/documentation/articles/active-directory-privileged-identity-management-how-to-configure-security-alerts/) e la [verifica di accesso](https://azure.microsoft.com/documentation/articles/active-directory-privileged-identity-management-how-to-start-security-review/). È anche possibile usare il dashboard per [aggiungere](https://azure.microsoft.com/documentation/articles/active-directory-privileged-identity-management-how-to-give-access-to-pim/) o [rimuovere](https://azure.microsoft.com/documentation/articles/active-directory-privileged-identity-management-how-to-give-access-to-pim/#remove-another-users-access-rights-for-managing-pim) l'accesso di uno o più utenti ad Azure AD Privileged Identity Management.
-
-
-
-<!--HONumber=Jan17_HO4-->
-
 

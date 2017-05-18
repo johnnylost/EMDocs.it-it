@@ -4,8 +4,8 @@ description: Questo articolo include una serie di considerazioni sulla progettaz
 keywords: 
 author: YuriDio
 ms.author: yurid
-manager: swadhwa
-ms.date: 11/28/2016
+manager: mbaldwin
+ms.date: 05/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 4b871c74-fec8-45e2-8b45-6ef0e62f7cc6
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: 2e00204f4be8183fdb8502e13b1ef06d1b7df084
+ms.contentlocale: it-it
+ms.lasthandoff: 11/28/2016
 
 
 ---
@@ -41,7 +43,7 @@ Considerare il costo e il ritorno sugli investimenti per ogni caso menzionato ne
 
 Considerando che le app per gli utenti remoti devono essere eseguite su più di una piattaforma, essere quanto più semplici possibile e richiedere il minimo accesso ai dispositivi degli utenti, è consigliabile ridurre le opzioni per le app basate sul Web e le app moderne. La sezione seguente consente di determinare quale esperienza app risulta più appropriata per la soluzione da progettare.
 
-### <a name="app-experience-options-advantages-and-disadvantages"></a>Opzioni di esperienze app: vantaggi e svantaggi
+### <a name="app-experience-options--advantages-and-disadvantages"></a>Opzioni di esperienze app: vantaggi e svantaggi
 
 Usare l'elenco che segue per comprendere i vantaggi e gli svantaggi di ogni opzione di esperienza app:
 
@@ -70,7 +72,7 @@ Usare l'elenco che segue per comprendere i vantaggi e gli svantaggi di ogni opzi
         - Potrebbe richiedere agli sviluppatori di ampliare le proprie conoscenze sullo sviluppo delle app con questo nuovo formato.
 
 
-### <a name="app-requirements-considerations"></a>Requisiti delle app e considerazioni
+### <a name="app-requirements--considerations"></a>Requisiti delle app e considerazioni
 
 Considerare le app che verranno adattate per poter essere usate sui dispositivi degli utenti remoti e assicurarsi che questi requisiti vengano comunicati agli utenti. Di seguito sono elencati i requisiti delle app con le relative considerazioni:
 
@@ -98,7 +100,7 @@ Quando ci si occupa dell'esperienza utente, è normale valutare diverse piattafo
 
 Ogni piattaforma prevede requisiti diversi per la firma e la pubblicazione delle app, che influiscono direttamente sulle risorse IT in quanto il reparto IT deve valutare l'intero ciclo di vita delle app in esecuzione su una piattaforma specifica. È anche necessario accedere ai requisiti della piattaforma delle app per una soluzione di infrastruttura BYOD. La sezione seguente include considerazioni importanti sui requisiti della piattaforma dell'app.
 
-### <a name="app-platform-requirements-considerations"></a>Requisiti della piattaforma dell'app: considerazioni
+### <a name="app-platform-requirements--considerations"></a>Requisiti della piattaforma dell'app: considerazioni
 
 Di seguito sono elencati i requisiti della piattaforma dell'app con le relative considerazioni:
 
@@ -131,7 +133,7 @@ Le risposte variano in base allo stato attuale della strategia di distribuzione 
 
 Per valutare le considerazioni sulle app che verranno distribuite agli utenti, è necessario comprendere i requisiti relativi all'accesso aziendale. Gli scenari di distribuzione includono le app che devono essere sempre connesse alle risorse aziendali, anche se gli utenti non necessitano dell'accesso alle altre risorse aziendali o dell'accesso completo a tutte le risorse aziendali all'interno della rete aziendale. Verificare le opzioni di distribuzione per ogni app e valutare il metodo preferibile per l'azienda. La sezione che segue include le opzioni di distribuzione più comuni che è possibile usare come punto di riferimento decisionale.
 
-### <a name="deployment-options-advantages-and-disadvantages"></a>Opzioni di distribuzione: vantaggi e svantaggi
+### <a name="deployment-options--advantages-and-disadvantages"></a>Opzioni di distribuzione: vantaggi e svantaggi
 
 Usare l'elenco che segue per comprendere i vantaggi e gli svantaggi di ogni opzione di distribuzione:
 
@@ -163,7 +165,7 @@ Usare l'elenco che segue per comprendere i vantaggi e gli svantaggi di ogni opzi
         - È richiesta in genere una sottoscrizione al servizio cloud.
         - L'integrazione con la soluzione di distribuzione locale può variare in base al servizio cloud.
 
-### <a name="app-deployment-requirements-considerations"></a>Requisiti di distribuzione delle app: considerazioni
+### <a name="app-deployment-requirements--considerations"></a>Requisiti di distribuzione delle app: considerazioni
 
 È necessario anche accedere ai requisiti di distribuzione delle app per una soluzione di infrastruttura BYOD. L'elenco che segue include alcune considerazioni importanti sulla distribuzione delle app:
 
@@ -236,9 +238,4 @@ La decisione di quale esperienza e distribuzione delle app verrà usata per il p
 Valutare di usare un ciclo di vita dello sviluppo della sicurezza per tutte le app che verranno utilizzate dagli utenti sui propri dispositivi. La sicurezza deve essere incorporata in tutte le fasi del processo di sviluppo e devono essere prese in considerazione tutte le minacce potenziali. [STRIDE](https://msdn.microsoft.com/magazine/cc163519.aspx) e altre strategie di sicurezza possono essere incorporate nel ciclo di vita dello sviluppo con [Microsoft Security Development Lifecycle (SDL)](https://www.microsoft.com/security/sdl/process/requirements.aspx). È importante considerare il modo in cui l'infrastruttura esistente verrà integrata con la strategia di sicurezza globale per il BYOD. L'ambiente esistente è in grado di fornire una base sicura per le app? L'azienda deve acquistare soluzioni sicure di terze parti per ridurre qualsiasi vulnerabilità potenziale che questa nuova scelta può creare?
 
 Le considerazioni sulla sicurezza sono importanti per le app che verranno utilizzate dagli utenti sui propri dispositivi. È consigliabile usare raccolte personalizzate in base ai gruppi di sicurezza di Active Directory per restringere l'accesso degli utenti ad alcune app con requisiti di accesso specifici, limitando in tal modo gli utenti che possono installarle. La sicurezza può anche essere sfruttata per migliorare l'esperienza utente consentendo l'uso dello stesso nome utente e della stessa password per accedere alle risorse aziendali, che possono essere eseguite con AD FS. La sicurezza è importante anche per la progettazione della distribuzione delle app. È consigliabile acquisire e distribuire i certificati e le chiavi di sideload prima di abilitare la registrazione degli utenti. Lavorare insieme ad altri team per semplificare il processo di certificazione delle app.
-
-
-
-<!--HONumber=Nov16_HO4-->
-
 

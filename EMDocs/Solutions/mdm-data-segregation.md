@@ -4,8 +4,8 @@ description: Questo articolo include una serie di considerazioni sulla progettaz
 keywords: 
 author: YuriDio
 ms.author: yurid
-manager: swadhwa
-ms.date: 11/28/2016
+manager: mbaldwin
+ms.date: 05/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 50bd37fe-30b5-4a45-9c36-0b907dd13cc2
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: 030d0c1dca506ac7757e8c26910ea4725a1b9c2c
+ms.contentlocale: it-it
+ms.lasthandoff: 11/28/2016
 
 
 ---
@@ -90,9 +92,4 @@ Nella tabella che segue vengono confrontate le funzionalità di cancellazione se
 - Se l'organizzazione attualmente non usa un'infrastruttura locale di Configuration Manager, è necessario pianificare, installare e configurare questa piattaforma prima dell'integrazione
 
 Leggere l'articolo [Proteggere i dati con la cancellazione selettiva o completa tramite Microsoft Intune](/intune/deploy-use/use-remote-wipe-to-help-protect-data-using-microsoft-intune) per sapere in che modo i dati vengono rimossi e mantenuti dopo una cancellazione selettiva per ogni piattaforma per dispositivi mobili. Se si usa un ambiente ibrido, vedere l'articolo [Proteggere i dati con Cancellazione remota, Blocco remoto o Reimpostazione passcode usando Configuration Manager](https://technet.microsoft.com/library/dn956981.aspx) per capire come si usa Configuration Manager per eseguire questa operazione.
-
-
-
-<!--HONumber=Nov16_HO4-->
-
 

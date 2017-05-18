@@ -4,8 +4,8 @@ description: Questo articolo include una serie di considerazioni sulla progettaz
 keywords: 
 author: YuriDio
 ms.author: yurid
-manager: swadhwa
-ms.date: 11/28/2016
+manager: mbaldwin
+ms.date: 05/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: ade57c73-a8a2-497f-ad8d-5dfc3cba9e70
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
 ms.openlocfilehash: 050d92824ad2616440d9d4b972a812be0ab5a14a
+ms.contentlocale: it-it
+ms.lasthandoff: 11/28/2016
 
 
 ---
@@ -92,9 +94,4 @@ La protezione avanzata della piattaforma per dispositivi mobili svolge un ruolo 
 
 >[!TIP]
 > Per altre informazioni sulle impostazioni di gestione dei dispositivi mobili che è possibile configurare in un criterio di sicurezza per dispositivi mobili di Microsoft Intune, vedere [Impostazioni dei criteri di sicurezza dei dispositivi mobili in Microsoft Intune](https://technet.microsoft.com/library/dn913730.aspx).
-
-
-
-<!--HONumber=Nov16_HO4-->
-
 
