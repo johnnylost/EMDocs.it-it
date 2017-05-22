@@ -3,8 +3,8 @@ title: Proteggere i dati dagli errori degli utenti | Microsoft Docs
 description: "Scenario che descrive come usare Enterprise Mobility + Security proteggere i dati aziendali dagli errori degli utenti e impedire la perdita dei dati usando le funzionalità di Cloud App Security e di Azure Information Protection."
 author: yuridio
 ms.author: yurid
-manager: swadhwa
-ms.date: 01/23/2017
+manager: mbaldwin
+ms.date: 05/18/2017
 ms.topic: solution
 ms.prod: 
 ms.service: cloud-app-security
@@ -13,9 +13,11 @@ ms.assetid: 0af3894c-7b0e-4c0c-8874-31e041d81300
 ms.reviewer: v-craic
 ms.suite: ems
 ms.custom: information-protection
-translationtype: Human Translation
-ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
-ms.openlocfilehash: 3fddd5487061b4090be32f70ac202e9c8ba45719
+ms.translationtype: Human Translation
+ms.sourcegitcommit: bc112d81a2b0e59f9ae67efe2a914b0c64ac76ba
+ms.openlocfilehash: 4c6c81cd9d59f402c1ce458e54063e2986324c5b
+ms.contentlocale: it-it
+ms.lasthandoff: 05/18/2017
 
 
 ---
@@ -45,6 +47,11 @@ La figura seguente riepiloga le funzionalità usate nello scenario e descrive co
 
 ![Grafica che mostra l'integrazione di Cloud App Security e Azure Information Protection per proteggere i dati in locale e nel cloud.](./media/protect-data-user-mistake/protect-data-user-mistake-fig1-1.png)
 
+Ecco un breve video con una rapida introduzione al modo in cui Enterprise Mobility + Security (EMS) consente di ottenere una maggiore visibilità e un controllo più approfondito dell'infrastruttura IT:
+
+<iframe width="675" height="480" src="https://www.youtube.com/embed/LWlRVHp7sKQ" frameborder="0" allowfullscreen></iframe>
+
+
 ## <a name="how-to-implement-this-solution"></a>Come implementare questa soluzione
 
 Seguire questi passaggi per implementare [Cloud App Security](https://technet.microsoft.com/library/mt668458.aspx) e [Azure Information Protection](https://docs.microsoft.com/information-protection/understand-explore/what-is-information-protection):
@@ -54,7 +61,7 @@ Seguire questi passaggi per implementare [Cloud App Security](https://technet.mi
 
 ## <a name="how-to-protect-data-against-user-mistakes"></a>Come proteggere i dati dagli errori degli utenti
 
-Le applicazioni cloud vengono usate oggi dalla maggior parte delle organizzazioni e presto arriverà il momento in cui nel cloud verrà archiviata una quantità di dati aziendali maggiore rispetto agli ambienti locali. Spesso gli utenti useranno app SaaS dai propri dispositivi senza che la società ne sia al corrente o abbia dato il proprio consenso, provocando un aumento dell'utilizzo dello shadow IT nel cloud. Questa conclusione proviene da alcuni studi, che mostrano che l'80% dei dipendenti ha ammesso di usare app SaaS non approvate per attività aziendali. [Cloud App Security](https://technet.microsoft.com/library/mt657567.aspx) offre una panoramica dettagliata di tutte le app cloud usate nell'organizzazione. Identifica tutti gli utenti e gli indirizzi IP che accedono a un'applicazione. Esegue inoltre una valutazione dei rischi per oltre 13.000 app cloud e offre un punteggio di rischio automatico per ogni app in base a più di 60 parametri.
+Le applicazioni cloud vengono usate oggi dalla maggior parte delle organizzazioni e presto arriverà il momento in cui nel cloud verrà archiviata una quantità di dati aziendali maggiore rispetto agli ambienti locali. Spesso gli utenti useranno app SaaS dai propri dispositivi senza che la società ne sia al corrente o abbia dato il proprio consenso, provocando un aumento dell'utilizzo dello shadow IT nel cloud. Questa conclusione proviene da alcuni studi, che mostrano che l'80% dei dipendenti ha ammesso di usare app SaaS non approvate per attività aziendali. [Cloud App Security](https://technet.microsoft.com/library/mt657567.aspx) offre una panoramica dettagliata di tutte le app cloud usate nell'organizzazione. Identifica tutti gli utenti e gli indirizzi IP che accedono a un'applicazione. Esegue inoltre una valutazione dei rischi per oltre 13.000 app cloud e offre un punteggio di rischio automatico per ogni app in base a più di 60 parametri. 
 
 Seguire il passaggio 1 per rilevare le app cloud nell'ambiente e implementare criteri per il controllo di queste app. La seconda fase di questa soluzione implementa [Azure Information Protection](https://docs.microsoft.com/en-us/information-protection/get-started/requirements) per proteggere e classificare i dati, in modo da prevenire gli errori degli utenti e l'utilizzo non corretto dei dati.
 
@@ -84,7 +91,7 @@ In questo caso specifico, esistono tre corrispondenze per questi criteri, ovvero
 
 ### <a name="step-2-protect-data-on-premises-or-in-the-cloud"></a>Passaggio 2: Proteggere i dati in locale o nel cloud
 
-Prima di implementare questa soluzione, esaminare i requisiti di Azure Information Protection e assicurarsi che Azure Rights Management sia attivato.
+Prima di implementare questa soluzione, rivedere i [requisiti di Azure Information Protection](https://docs.microsoft.com/en-us/information-protection/get-started/infoprotect-tutorial-step1).
 
 Microsoft Azure Information Protection aiuta a classificare i dati e ad applicarvi etichette al momento della creazione. È quindi possibile applicare la protezione (crittografia più autenticazione più diritti utente) ai dati sensibili. Le etichette di classificazione e la protezione sono persistenti e seguono sempre i dati perché questi siano identificabili e protetti in ogni momento, indipendentemente dalla posizione di archiviazione e dagli utenti con cui vengono condivisi. Se si prevede di implementare criteri di protezione delle informazioni ed etichette, attenersi alle seguenti linee guida:
 
@@ -114,8 +121,6 @@ Quando si configurano le condizioni per un'etichetta, è possibile assegnare aut
 > [!NOTE]
 > Per altre informazioni su classificazione e protezione dei dati, vedere [Proteggere i dati usando la classificazione, l'assegnazione di etichette e la protezione](https://docs.microsoft.com/en-us/enterprise-mobility-security/solutions/infoprotect-secure-classify-scenario).
 
+## <a name="next-steps"></a>Passaggi successivi
 
-
-<!--HONumber=Jan17_HO4-->
-
-
+Microsoft Cloud App Security rappresenta una soluzione completa per individuare, monitorare, controllare e proteggere le attività e i dati all'interno di applicazioni cloud. Cloud App Security consente agli amministratori IT di eseguire la crittografia direttamente dalla console di Cloud App Security tramite Azure Information Protection. Attraverso l'integrazione con Azure Information Protection è ora possibile applicare, se necessario, una protezione generica ai file archiviati in SharePoint Online e in One Drive for Business. Per altre informazioni sull'integrazione tra Cloud App Security e Azure Information Protection, vedere [Integrazione di Azure Information Protection](https://docs.microsoft.com/en-us/cloud-app-security/azip-integration).
