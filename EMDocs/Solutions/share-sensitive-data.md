@@ -12,9 +12,11 @@ ms.technology: techgroup-identity
 ms.assetid: a996fbf8-ece4-40bc-b866-d4606c230027
 ms.reviewer: v-craic
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
 ms.openlocfilehash: 3d84bbe6d252976e1a3152f65003787e37d408c8
+ms.contentlocale: it-it
+ms.lasthandoff: 05/29/2017
 
 
 ---
@@ -94,9 +96,4 @@ Nella parte superiore di questa finestra è necessario digitare l'indirizzo di p
 
 > [!IMPORTANT]
 > Guardare la presentazione [Collaborate securely using Azure Information Protection](https://myignite.microsoft.com/videos/49947) (Collaborare in modo sicuro usando Azure Information Protection) di Microsoft Ignite per altre informazioni su questo scenario.
-
-
-
-<!--HONumber=Jan17_HO4-->
-
 

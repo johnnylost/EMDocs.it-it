@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 56b6cd2d-3dea-468b-9f1c-92717c9ec5f5
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 0eacdea52150bc8282df618ae73c96724cec26c5
-ms.openlocfilehash: 446078327ee3fe309dc6dea33db315b79fa38cae
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
+ms.openlocfilehash: 9778ccfc6a2c7583e0659c76e7ada91711517243
+ms.contentlocale: it-it
+ms.lasthandoff: 05/29/2017
 
 
 ---
@@ -184,9 +186,4 @@ Un dispositivo viene bloccato non appena viene individuato da Exchange Connector
 
 ## <a name="where-to-go-from-here"></a>Come proseguire
 Dopo aver distribuito una soluzione per la protezione della posta elettronica aziendale e dei dati di questa all'interno dei dispositivi mobili, è possibile scoprire di più sull'[esperienza dell'utente finale relativa all'accesso condizionale](end-user-experience-conditional-access.md). Ciò consente di prepararsi ad affrontare i problemi che potrebbero verificarsi quando gli utenti finali registrano dispositivi specifici.
-
-
-
-<!--HONumber=Dec16_HO4-->
-
 

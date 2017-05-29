@@ -11,9 +11,11 @@ ms.prod:
 ms.service: ems
 ms.technology: 
 ms.assetid: 9d031fa7-9c07-48c5-b915-6525aea54870
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
 ms.openlocfilehash: 25da2d6e50a6e3623a7b34d29d29751e10068d4e
+ms.contentlocale: it-it
+ms.lasthandoff: 05/29/2017
 
 ---
 
@@ -25,8 +27,8 @@ La sottoscrizione a pagamento per Microsoft Intune o Enterprise Mobility può in
 | ------------- |-------------|
 |Enterprise Mobility Suite |    Advanced Threat Analytics |
 |Enterprise Mobility Suite |    Microsoft Identity Manager |
-|Microsoft Intune | System Center Configuration Manager |
-|Azure Active Directory Premium |   Microsoft Identity Manager |
+|Microsoft Intune |    System Center Configuration Manager |
+|Azure Active Directory Premium |    Microsoft Identity Manager |
 
 Il percorso in cui scaricare il software sopra elencato dipende dal metodo di acquisto del servizio Microsoft Online.
 
@@ -37,9 +39,4 @@ Se l'acquisto è stato effettuato direttamente con carta di credito o tramite un
 Se non si conosce con certezza il software a cui si ha diritto, contattare il proprio Account Executive o partner oppure rivolgersi al [Supporto tecnico dei Microsoft Online Services](https://technet.microsoft.com/en-us/dn932057.aspx).
 
 Se invece è stata eseguita la sottoscrizione per una versione di valutazione, scaricare tale versione dal [TechNet Evaluation Center](https://www.microsoft.com/evalcenter/try).
-
-
-
-<!--HONumber=Jan17_HO4-->
-
 
