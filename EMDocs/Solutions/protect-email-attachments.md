@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: a1e630c1-7190-4ba9-b71d-ed9c2e93a6cc
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: a124d56eaa6cbca44551a7c3ea42166479523f9f
+ms.contentlocale: it-it
+ms.lasthandoff: 05/29/2017
 
 
 ---
@@ -69,9 +71,4 @@ Gli utenti finali possono installare le app gestite e usarle per svolgere il pro
 
 ## <a name="where-to-go-from-here"></a>Come proseguire
 Dopo avere acquisito le informazioni sulla [protezione dei documenti e dei messaggi di posta elettronica aziendali](protect-corporate-email-documents.md) e degli allegati, leggere le informazioni su come [implementare una soluzione per la protezione della posta elettronica aziendale](implement-solution.md).
-
-
-
-<!--HONumber=Jan17_HO2-->
-
 

@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 0590b7b2-0965-437b-b3ca-bd55de1abb09
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 61241368440bea9a12bbac136466250da91da997
-ms.openlocfilehash: 847a6aa06ef34004f8de52c2e71f560112c8885a
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 07aeaee067dbd6c827992b9d613d7716b5d57954
+ms.openlocfilehash: ecd83c311deca5050599a4eb55d45d0094d656f1
+ms.contentlocale: it-it
+ms.lasthandoff: 05/29/2017
 
 
 ---
@@ -62,9 +64,9 @@ Ecco le responsabilità dell'utente durante il processo di onboarding.
 
 -   Specificare e configurare eventuali certificati Secure Sockets Layer (SSL) pubblici.
 
--   Impostare o aggiornare Configuration Manager ai requisiti minimi per l'integrazione con Microsoft Intune con Configuration Manager.
+-     Impostare o aggiornare Configuration Manager ai requisiti minimi per l'integrazione con Microsoft Intune con Configuration Manager.
 
--   Se è necessario per la distribuzione di profili Wi-Fi e VPN con Intune, specificare e configurare le infrastrutture di Autorità di certificazione, Wi-Fi e VPN in base alle esigenze.
+-     Se è necessario per la distribuzione di profili Wi-Fi e VPN con Intune, specificare e configurare le infrastrutture di Autorità di certificazione, Wi-Fi e VPN in base alle esigenze.
 
 -   Scrivere le Condizioni per l'utilizzo dell'organizzazione da configurare e visualizzare nei portali aziendali di Microsoft Intune accessibili agli utenti finali.
 
@@ -113,9 +115,4 @@ Ecco le responsabilità dell'utente durante il processo di onboarding.
 **Altre informazioni**
 
 [Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
-
-
-
-<!--HONumber=Nov16_HO4-->
-
 

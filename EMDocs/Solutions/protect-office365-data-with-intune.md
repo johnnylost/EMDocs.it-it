@@ -12,9 +12,11 @@ ms.technology:
 ms.assetid: cc0d2e1f-9c34-4dcb-ac1f-2f355e9ebb7e
 ms.reviewer: vlpetros
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
 ms.openlocfilehash: d7e15962a95135dbb16cb41e2643c602b87039cf
+ms.contentlocale: it-it
+ms.lasthandoff: 05/29/2017
 
 
 ---
@@ -82,9 +84,9 @@ Ecco cosa accade quando un utente tenta di controllare la posta elettronica usan
 Intune consente anche di [proteggere l'accesso ai file di SharePoint Online](https://docs.microsoft.com/intune/deploy-use/restrict-access-to-sharepoint-online-with-microsoft-intune) usando l'accesso condizionale. Come nella protezione dell'accesso alla posta elettronica, sarà necessario impostare due criteri che dovranno essere soddisfatti per abilitare l'accesso: un criterio di conformità del dispositivo per assicurarsi che i criteri aziendali vengano soddisfatti nel dispositivo e un criterio di accesso condizionale che specifica le condizioni necessarie per accedere al servizio.
 
 Quando un utente tenta di usare un dispositivo non gestito per connettersi al servizio SharePoint Online protetto dai criteri di accesso condizionale di Intune si verifica quanto segue:
-1.  All'utente viene negato l'accesso alle risorse di SharePoint Online e viene visualizzato un messaggio che richiede di rafforzare la sicurezza e include collegamenti per registrare il dispositivo per la gestione in Intune.
-2.  L'utente esegue la registrazione del dispositivo seguendo i collegamenti inclusi nel messaggio di accesso negato.
-3.  Dopo la registrazione del dispositivo e la verifica della conformità ai criteri aziendali, viene ripristinato l'accesso completo ai dati di SharePoint Online aziendali.
+1.    All'utente viene negato l'accesso alle risorse di SharePoint Online e viene visualizzato un messaggio che richiede di rafforzare la sicurezza e include collegamenti per registrare il dispositivo per la gestione in Intune.
+2.    L'utente esegue la registrazione del dispositivo seguendo i collegamenti inclusi nel messaggio di accesso negato.
+3.    Dopo la registrazione del dispositivo e la verifica della conformità ai criteri aziendali, viene ripristinato l'accesso completo ai dati di SharePoint Online aziendali.
 
 ![Immagini che illustrano l'uso dell'accesso condizionale per SharePoint Online](..\Solutions\media\protect-office365-data-with-intune\protect-office365-data-with-intune-fig2.png)
 
@@ -103,9 +105,9 @@ L'amministratore [configura le impostazioni dei criteri delle app MAM di Intune 
 
 Le schermate seguenti illustrano alcuni metodi per proteggere un'app con i criteri MAM di Intune. Nell'esempio viene richiesto un PIN per accedere all'app (impostazione di accesso) e i dati aziendali vengono protetti impedendo di incollare le informazioni aziendali in app non gestite (impostazione di rilocazione dati):
 
-1.  Al primo avvio dell'app gestita (Yammer per iOS in questo esempio), all'utente viene richiesto di creare un PIN per accedere all'app. Successivamente, sarà necessario immettere il PIN ogni volta che l'app viene avviata.
-2.  L'utente può copiare dati aziendali come le conversazioni di Yammer e incollarli in altre app gestite.
-3.  Tuttavia, quando l'utente tenta di incollare tale contenuto in un messaggio di testo o in qualsiasi altra app non gestita, la funzione Incolla non sarà disponibile.  
+1.    Al primo avvio dell'app gestita (Yammer per iOS in questo esempio), all'utente viene richiesto di creare un PIN per accedere all'app. Successivamente, sarà necessario immettere il PIN ogni volta che l'app viene avviata.
+2.    L'utente può copiare dati aziendali come le conversazioni di Yammer e incollarli in altre app gestite.
+3.    Tuttavia, quando l'utente tenta di incollare tale contenuto in un messaggio di testo o in qualsiasi altra app non gestita, la funzione Incolla non sarà disponibile.  
 
 ![Immagini che illustrano il funzionamento dei criteri MAM](..\Solutions\media\protect-office365-data-with-intune\protect-office365-data-with-intune-fig3.png)
 
@@ -121,9 +123,9 @@ I criteri funzionano nel modo seguente: i dati aziendali vengono crittografati a
 Le [impostazioni dei criteri di configurazione WIP](https://docs.microsoft.com/intune/deploy-use/microsoft-intune-policy-reference#windows-configuration-policies) consentono di impostare diversi livelli di controllo dalla console di amministrazione di Intune. I livelli di protezione dei dati includono impostazioni da **Installazione automatica** (registra solo l'attività WIP) a **Blocca** che impedisce agli utenti di condividere qualsiasi contenuto dalle app protette. **Sostituisci** è un'impostazione intermedia che consente agli utenti di condividere i dati aziendali in app non protette con un avviso ma registra tutte le azioni per una revisione successiva.
 
 Di seguito viene descritto come i criteri WIP di Intune possono essere usati per proteggere i dati aziendali su dispositivi Windows 10 gestiti:
-1.  Viene creato un nuovo criterio WIP che viene distribuito agli utenti dalla console di amministrazione di Intune.
-2.  In questo esempio le informazioni di AppLocker per Microsoft Word vengono usate per aggiungere Word 2016 all'elenco delle app autorizzate, il livello di restrizione dei criteri è impostato su Sostituisci e i criteri sono distribuiti agli utenti.
-3.  Un utente tenta di incollare i dati aziendali copiati da un documento di Word 2016 protetto in una nuova istanza di Blocco note non protetta. Viene immediatamente richiesto all'utente di verificare che la modifica sia pianificata dalla classificazione lavoro a personale e che l'azione venga registrata.
+1.    Viene creato un nuovo criterio WIP che viene distribuito agli utenti dalla console di amministrazione di Intune.
+2.    In questo esempio le informazioni di AppLocker per Microsoft Word vengono usate per aggiungere Word 2016 all'elenco delle app autorizzate, il livello di restrizione dei criteri è impostato su Sostituisci e i criteri sono distribuiti agli utenti.
+3.    Un utente tenta di incollare i dati aziendali copiati da un documento di Word 2016 protetto in una nuova istanza di Blocco note non protetta. Viene immediatamente richiesto all'utente di verificare che la modifica sia pianificata dalla classificazione lavoro a personale e che l'azione venga registrata.
 
 ![Immagini che illustrano il funzionamento dei criteri WIP](..\Solutions\media\protect-office365-data-with-intune\protect-office365-data-with-intune-fig5.png)
 
@@ -142,9 +144,4 @@ Una volta avviata, il dispositivo inizia immediatamente il processo di cancellaz
 [Iniziare a usare Enterprise Mobility + Security](https://docs.microsoft.com/enterprise-mobility/solutions/ems-get-started)
 
 [Microsoft Enterprise Mobility](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
-
-
-
-<!--HONumber=Jan17_HO4-->
-
 
