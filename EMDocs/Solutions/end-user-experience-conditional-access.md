@@ -1,6 +1,6 @@
 ---
 title: Esperienza utente finale di accesso condizionale
-description: "Esperienza dell&quot;utente finale con la registrazione di un dispositivo o la risoluzione di conformità dei criteri."
+description: "Esperienza dell'utente finale con la registrazione di un dispositivo o la risoluzione di conformità dei criteri."
 keywords: 
 author: nathbarn
 ms.author: nathbarn
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 3e186dd2-e17c-40d8-b160-48038b2c6593
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 2342889a686db8a6496c97979cb222af8347241a
 ms.openlocfilehash: 580d2e909813390fbc86d3ca8edaf88f0f19a6d7
+ms.contentlocale: it-it
+ms.lasthandoff: 01/05/2017
 
 
 ---
@@ -40,9 +42,4 @@ Una volta che il dispositivo viene considerato registrato e conforme, entro poch
 ## <a name="windows-phone"></a>Windows Phone
 
 [Questo argomento ](end-user-experience-conditional-access-winphone.md) descrive l'esperienza utente finale quando si prova ad accedere alla posta elettronica nel proprio Windows Phone dopo l'abilitazione dell'accesso condizionale.
-
-
-
-<!--HONumber=Jan17_HO1-->
-
 

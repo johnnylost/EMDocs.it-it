@@ -1,6 +1,6 @@
 ---
-title: Proteggere l&quot;ingresso principale | Microsoft Docs
-description: "Uno scenario che descrive come Enterprise Mobility + Security può essere usato per proteggere l&quot;identità e garantire un accesso sicuro alle risorse aziendali tramite le funzionalità di Microsoft Azure Active Directory Identity Protection e Azure Active Directory Privileged Identity Management."
+title: Proteggere l'ingresso principale | Microsoft Docs
+description: "Uno scenario che descrive come Enterprise Mobility + Security può essere usato per proteggere l'identità e garantire un accesso sicuro alle risorse aziendali tramite le funzionalità di Microsoft Azure Active Directory Identity Protection e Azure Active Directory Privileged Identity Management."
 author: yuridio
 ms.author: yurid
 manager: mbaldwin
@@ -17,7 +17,7 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: bc112d81a2b0e59f9ae67efe2a914b0c64ac76ba
 ms.openlocfilehash: 851a99829280b85d632e79400d53c357692b74ef
 ms.contentlocale: it-it
-ms.lasthandoff: 05/29/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---

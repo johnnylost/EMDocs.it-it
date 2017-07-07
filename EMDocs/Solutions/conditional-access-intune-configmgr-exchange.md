@@ -1,6 +1,6 @@
 ---
 title: Accesso condizionale - Exchange locale, Intune, Configuration Manager
-description: Usare Configuration Manager, Exchange Server locale e Intune per gestire l&quot;accesso alla posta elettronica e proteggere i dati di posta elettronica nei dispositivi mobili.
+description: Usare Configuration Manager, Exchange Server locale e Intune per gestire l'accesso alla posta elettronica e proteggere i dati di posta elettronica nei dispositivi mobili.
 keywords: 
 author: craigcaseyMSFT
 ms.author: v-craic
@@ -17,7 +17,7 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: 9778ccfc6a2c7583e0659c76e7ada91711517243
 ms.contentlocale: it-it
-ms.lasthandoff: 05/29/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---

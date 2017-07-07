@@ -1,6 +1,6 @@
 ---
-title: Usare l&quot;accesso condizionale con Microsoft Intune
-description: Usare l&quot;accesso condizionale in Intune per proteggere la posta elettronica e altri servizi.
+title: Usare l'accesso condizionale con Microsoft Intune
+description: Usare l'accesso condizionale in Intune per proteggere la posta elettronica e altri servizi.
 keywords: 
 author: craigcaseyMSFT
 ms.author: v-craic
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 28662db2-faea-425f-ada9-04cf1d976fc2
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: 033720647c8c284a415bd79cbc58b65e41d3e177
+ms.contentlocale: it-it
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -97,9 +99,4 @@ Inoltre:
 > Accertarsi di usare la versione più recente di Exchange Connector locale. Exchange Connector locale, disponibile nella console di Intune, è specifico del tenant di Intune e non può essere usato con un altro tenant. È inoltre necessario assicurarsi che Exchange Connector per il tenant sia installato in un solo computer.
 
   È ora possibile scoprire come [distribuire Exchange Server locale con Intune](conditional-access-intune-exchange.md).
-
-
-
-<!--HONumber=Jan17_HO2-->
-
 

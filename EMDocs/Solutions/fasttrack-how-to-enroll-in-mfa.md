@@ -17,7 +17,7 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 66be84d00e73f98217abfb2537bb52ebac94727a
 ms.openlocfilehash: 7120b4ce41e0f9560bdecb3a98da0bd02171fabb
 ms.contentlocale: it-it
-ms.lasthandoff: 05/29/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -55,12 +55,12 @@ Se si vuole usare il telefono cellulare (per testo o chiamata) come metodo di co
 1. In **Passaggio 1: How should we contact you? (Metodo di contatto)** selezionare **Telefono per l'autenticazione**.
 
   ![Cattura di schermata che illustra un utente che vuole essere contattato tramite telefono](./media/ft-enrollMFA-2-securityVerification.png)
-2.    Nella casella **Paese o regione** selezionare un valore dall'elenco a discesa. Un valore predefinito potrebbe già essere visualizzato.
-3.    Nella casella accanto alla casella **Paese o regione** digitare il numero di telefono cellulare. Includere il prefisso.
+2.  Nella casella **Paese o regione** selezionare un valore dall'elenco a discesa. Un valore predefinito potrebbe già essere visualizzato.
+3.  Nella casella accanto alla casella **Paese o regione** digitare il numero di telefono cellulare. Includere il prefisso.
 Gli spazi sono consentiti, ma non i caratteri di punteggiatura. Ad esempio, numeri di telefono quali 5554445555 e 555 444 5555 sono consentiti, ma 555-444-5555 e (555) 444 5555 non sono consentiti.
-4.    Selezionare la modalità d'uso preferita per il telefono cellulare: SMS o chiamata.
-5.    Fare clic su **Avanti**.
-6.    Fare clic sul pulsante **Verifica ora**. Verrà avviata una chiamata oppure verrà inviato un SMS al telefono cellulare. Assicurarsi che il telefono sia acceso. A seconda della modalità selezionata, SMS o telefonata, la risposta sarà diversa.
+4.  Selezionare la modalità d'uso preferita per il telefono cellulare: SMS o chiamata.
+5.  Fare clic su **Avanti**.
+6.  Fare clic sul pulsante **Verifica ora**. Verrà avviata una chiamata oppure verrà inviato un SMS al telefono cellulare. Assicurarsi che il telefono sia acceso. A seconda della modalità selezionata, SMS o telefonata, la risposta sarà diversa.
  - Se è stata selezionata la modalità SMS, verrà inviato un codice di 6 cifre via SMS. Immettere questo codice nella casella visualizzata nel browser.
 
         ![Screenshot asking user to enter the code that was texted to them](./media/ft-enrollMFA-3-textCode.png)
@@ -68,27 +68,27 @@ Gli spazi sono consentiti, ma non i caratteri di punteggiatura. Ad esempio, nume
 
         ![Screenshot prompting user to answer their phone to continue enrollment process](./media/ft-enrollMFA-4-phoneCode.png)
 7. Fare clic su **Avanti**.
-8.    A questo punto è stato impostato il metodo di contatto ed è necessario impostare le password per le app non basate su browser, ad esempio Outlook 2010 o versione precedente. Se non si usano queste app, fare clic su **Operazione completata**. In caso contrario, **continuare** con il passaggio successivo.
+8.  A questo punto è stato impostato il metodo di contatto ed è necessario impostare le password per le app non basate su browser, ad esempio Outlook 2010 o versione precedente. Se non si usano queste app, fare clic su **Operazione completata**. In caso contrario, **continuare** con il passaggio successivo.
 9. Se si usano queste app **copiare** la password dell'app specificata.
 
   ![Cattura di schermata nella quale si richiede all'utente di digitare la password dell'app](./media/ft-enrollMFA-5-copyPW.png)
-10.    Incollare nell'applicazione non basata su browser la password che è stata copiata negli Appunti.
-11.    Fare clic su **Fine**.
+10. Incollare nell'applicazione non basata su browser la password che è stata copiata negli Appunti.
+11. Fare clic su **Fine**.
 
 ## <a name="office-phone-call"></a>Chiamata al telefono dell'ufficio
 Questa sezione illustra come impostare Azure Multi-Factor Authentication per usare il telefono dell'ufficio come metodo di contatto principale.
 1. Selezionare Telefono ufficio dall'elenco a discesa.
 
   ![Cattura di schermata che illustra un utente che vuole essere contattato tramite il telefono dell'ufficio](./media/ft-enrollMFA-6-officePhone.png)
-2.    Specificare il paese dall'elenco a discesa e digitare il numero di telefono dell'ufficio.
-3.    Fare clic su **Contact Me**. Verrà avviata una chiamata al telefono dell'ufficio. Assicurarsi di essere vicino al telefono.
-4.    Fare clic su **Avanti**.
-5.    A questo punto è stato impostato il metodo di contatto ed è necessario impostare le password per le app non basate su browser, ad esempio Outlook 2010 o versione precedente. Se non si usano queste app, fare clic su **Operazione completata**. In caso contrario, **continuare** con il passaggio successivo.
-7.    Se si usano queste app, copiare la password dell'app specificata.
-8.    Incollare nell'applicazione non basata su browser la password che è stata copiata negli Appunti.
+2.  Specificare il paese dall'elenco a discesa e digitare il numero di telefono dell'ufficio.
+3.  Fare clic su **Contact Me**. Verrà avviata una chiamata al telefono dell'ufficio. Assicurarsi di essere vicino al telefono.
+4.  Fare clic su **Avanti**.
+5.  A questo punto è stato impostato il metodo di contatto ed è necessario impostare le password per le app non basate su browser, ad esempio Outlook 2010 o versione precedente. Se non si usano queste app, fare clic su **Operazione completata**. In caso contrario, **continuare** con il passaggio successivo.
+7.  Se si usano queste app, copiare la password dell'app specificata.
+8.  Incollare nell'applicazione non basata su browser la password che è stata copiata negli Appunti.
 
   ![Cattura di schermata nella quale si richiede all'utente di digitare la password dell'app](./media/ft-enrollMFA-7-pastePW.png)
-9.    Fare clic su **Fine**.
+9.  Fare clic su **Fine**.
 
 ## <a name="mobile-application"></a>Applicazione per dispositivi mobili
 Questa sezione illustra come impostare Azure Multi-Factor Authentication per usare l'app per dispositivi mobili come metodo di contatto principale.
@@ -98,25 +98,25 @@ L'app Azure Authenticator è disponibile per Windows Phone, Android e IOS.
 1. Selezionare **App per dispositivi mobili** dall'elenco a discesa.
 
   ![Cattura di schermata che illustra un utente che vuole essere contattato tramite un'app per dispositivi mobili](./media/ft-enrollMFA-8-mobileApp.png)
-2.    Selezionare Notifica o Password monouso e fare clic su **Imposta**.
-3.    Sul telefono in cui è installata l'app Azure Authenticator, avviare l'applicazione e fare clic su **Acquisizione del codice a barre**.
+2.  Selezionare Notifica o Password monouso e fare clic su **Imposta**.
+3.  Sul telefono in cui è installata l'app Azure Authenticator, avviare l'applicazione e fare clic su **Acquisizione del codice a barre**.
 
   ![Cattura di schermata nella quale si richiede all'utente di selezionare l'opzione di acquisizione del codice a barre](./media/ft-enrollMFA-9-scanBarcode.png)
-4.    Effettuare la scansione dell'immagine del codice a barre visualizzata nella schermata di configurazione dell'app. Fare clic su **Operazione completata** per chiudere la schermata del codice a barre. Se non si è in grado di analizzare il codice a barre, è possibile digitare manualmente le informazioni.
+4.  Effettuare la scansione dell'immagine del codice a barre visualizzata nella schermata di configurazione dell'app. Fare clic su **Operazione completata** per chiudere la schermata del codice a barre. Se non si è in grado di analizzare il codice a barre, è possibile digitare manualmente le informazioni.
 
   ![Cattura di schermata nella quale si richiede all'utente di analizzare il codice a barre visualizzato nell'app per dispositivi mobili](./media/ft-enrollMFA-9-scanBarcode2.png)
-5.    Sul telefono, inizierà l'attivazione e quando sarà completata, fare clic su **Contact me**. Questa operazione invia una notifica o un codice di verifica al telefono cellulare. Fare clic su **Verifica**.
+5.  Sul telefono, inizierà l'attivazione e quando sarà completata, fare clic su **Contact me**. Questa operazione invia una notifica o un codice di verifica al telefono cellulare. Fare clic su **Verifica**.
 
   ![Cattura di schermata nella quale si richiede all'utente di verificare il codice inviato al telefono](./media/ft-enrollMFA-10-verifyActivation.png)
-6.    Fare clic su **Chiudi**. A questo punto, la verifica dovrebbe essere completata.
-7.    È necessario adesso specificare il numero di cellulare, nel caso in cui l'app per dispositivi mobili non sia accessibile.
-8.    Specificare il paese dall'elenco a discesa e digitare il numero di cellulare nella casella a fianco al Paese. Fare clic su **Avanti**.
-9.    A questo punto è stato impostato il metodo di contatto ed è necessario impostare le password per le app non basate su browser, ad esempio Outlook 2010 o versione precedente. Se non si usano queste app, fare clic su **Operazione completata**. In caso contrario, **continuare** con il passaggio successivo.
-10.    Se si usano queste app, copiare la password dell'app specificata.
-11.    Incollare nell'applicazione non basata su browser la password che è stata copiata negli Appunti.
+6.  Fare clic su **Chiudi**. A questo punto, la verifica dovrebbe essere completata.
+7.  È necessario adesso specificare il numero di cellulare, nel caso in cui l'app per dispositivi mobili non sia accessibile.
+8.  Specificare il paese dall'elenco a discesa e digitare il numero di cellulare nella casella a fianco al Paese. Fare clic su **Avanti**.
+9.  A questo punto è stato impostato il metodo di contatto ed è necessario impostare le password per le app non basate su browser, ad esempio Outlook 2010 o versione precedente. Se non si usano queste app, fare clic su **Operazione completata**. In caso contrario, **continuare** con il passaggio successivo.
+10. Se si usano queste app, copiare la password dell'app specificata.
+11. Incollare nell'applicazione non basata su browser la password che è stata copiata negli Appunti.
 
   ![Cattura di schermata nella quale si richiede all'utente di digitare la password dell'app](./media/ft-enrollMFA-11-securityVerification.png)
-12.    Fare clic su **Fine**.
+12. Fare clic su **Fine**.
 
 ### <a name="want-to-learn-more"></a>Altre informazioni
 Vedere [Enterprise Mobility + Security](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).

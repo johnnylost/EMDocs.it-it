@@ -1,5 +1,5 @@
 ---
-title: Abilitare una soluzione con dispositivi condivisi con limitazioni d&quot;uso | Documentazione Microsoft
+title: Abilitare una soluzione con dispositivi condivisi con limitazioni d'uso | Documentazione Microsoft
 description: 
 keywords: 
 author: jeffgilb

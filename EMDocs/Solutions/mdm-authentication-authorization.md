@@ -1,6 +1,6 @@
 ---
 title: Autenticazione e autorizzazione
-description: Questo articolo include una serie di considerazioni sulla progettazione per l&quot;autenticazione e l&quot;autorizzazione da usare in uno scenario di gestione di dispositivi mobili (MDM).
+description: Questo articolo include una serie di considerazioni sulla progettazione per l'autenticazione e l'autorizzazione da usare in uno scenario di gestione di dispositivi mobili (MDM).
 keywords: 
 author: YuriDio
 ms.author: yurid

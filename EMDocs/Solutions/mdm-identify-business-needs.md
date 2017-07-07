@@ -1,6 +1,6 @@
 ---
 title: Identificazione delle esigenze aziendali
-description: Questo articolo include linee guida per l&quot;identificazione di esigenze aziendali necessarie per giustificare l&quot;adozione della gestione di dispositivi mobili.
+description: Questo articolo include linee guida per l'identificazione di esigenze aziendali necessarie per giustificare l'adozione della gestione di dispositivi mobili.
 keywords: 
 author: YuriDio
 ms.author: yurid

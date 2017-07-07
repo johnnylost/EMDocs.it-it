@@ -1,6 +1,6 @@
 ---
-title: Esperienza dell&quot;utente finale con MAM
-description: Esperienza dell&quot;utente finale con i criteri di gestione delle app mobili.
+title: Esperienza dell'utente finale con MAM
+description: Esperienza dell'utente finale con i criteri di gestione delle app mobili.
 keywords: 
 author: nathbarn
 ms.author: nathbarn
@@ -17,7 +17,7 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 07aeaee067dbd6c827992b9d613d7716b5d57954
 ms.openlocfilehash: 001a2de2d35f218258180fff31b7923ee5c79acd
 ms.contentlocale: it-it
-ms.lasthandoff: 05/29/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -47,7 +47,7 @@ Per informazioni su altre esperienze specifiche dell'utente finale, vedere gli a
   Dopo l'autenticazione delle credenziali da parte di Azure AD, i criteri MAM vengono applicati.
 3. Se i criteri sono configurati per l'uso di un PIN, all'utente viene richiesto di impostare un **PIN** per l'app.
 
-4.    Dopo aver impostato e confermato il PIN, l'utente può accedere ai file all'interno di **OneDrive for Business**.
+4.  Dopo aver impostato e confermato il PIN, l'utente può accedere ai file all'interno di **OneDrive for Business**.
 > [!NOTE]
 > Quando si modifica un criterio distribuito, le modifiche vengono applicate alla successiva apertura dell'app.
 
@@ -56,13 +56,13 @@ Per informazioni su altre esperienze specifiche dell'utente finale, vedere gli a
 > [!NOTE]
 > In un dispositivo personale l'utente deve solitamente scaricare l'app. Se il dispositivo è gestito da una soluzione MDM, è possibile distribuire l'app nel dispositivo.
 
-2.    L'utente digita il nome utente dell'account aziendale e viene reindirizzato alla pagina di **autenticazione di O365** perché immetta le credenziali aziendali.
+2.  L'utente digita il nome utente dell'account aziendale e viene reindirizzato alla pagina di **autenticazione di O365** perché immetta le credenziali aziendali.
 
   Dopo l'autenticazione delle credenziali da parte di Azure AD, i criteri MAM vengono applicati.
 
-3.    L'app **OneDrive** si avvia automaticamente e all'utente viene richiesto di impostare un **PIN**, purché i criteri siano impostati in modo da richiedere un **PIN** per accedere all'app **OneDrive**.
+3.  L'app **OneDrive** si avvia automaticamente e all'utente viene richiesto di impostare un **PIN**, purché i criteri siano impostati in modo da richiedere un **PIN** per accedere all'app **OneDrive**.
 
-4.    Dopo aver impostato e verificato il PIN, l'utente può continuare a usare **OneDrive**, che è ora gestito da criteri di app.
+4.  Dopo aver impostato e verificato il PIN, l'utente può continuare a usare **OneDrive**, che è ora gestito da criteri di app.
 
 ## <a name="where-to-go-from-here"></a>Come proseguire
 Sono disponibili ulteriori informazioni su altre esperienze dell'utente finale, ad esempio in [Uso di app con supporto di più identità](https://docs.microsoft.com/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#using-apps-with-multi-identity-support), [Gestione degli account utente](https://docs.microsoft.com/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#managing-user-accounts) e [Visualizzazione di file multimediali con l'app di condivisione file Rights Management](https://docs.microsoft.com/intune/deploy-use/end-user-experience-for-mam-enabled-apps-with-microsoft-intune#viewing-media-files-with-the-rights-management-sharing-app).

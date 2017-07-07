@@ -1,6 +1,6 @@
 ---
 title: Proteggere messaggi di posta elettronica e documenti aziendali
-description: Consentire ai soli dispositivi conformi l&quot;accesso alla posta elettronica aziendale e proteggere i contenuti di messaggi di posta elettronica e allegati.
+description: Consentire ai soli dispositivi conformi l'accesso alla posta elettronica aziendale e proteggere i contenuti di messaggi di posta elettronica e allegati.
 keywords: 
 author: craigcaseyMSFT
 ms.author: v-craic
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 78d8368e-1bfe-4ac4-991d-467321a76ed7
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: f209973d304e1a54393dc994e7c3785e4f751a88
+ms.contentlocale: it-it
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -120,9 +122,4 @@ Una volta che il dispositivo viene considerato registrato e conforme, entro poch
 
 ## <a name="where-to-go-from-here"></a>Come proseguire
 Dopo avere acquisito le informazioni sulla protezione di documenti e messaggi di posta elettronica aziendali, è possibile leggere le procedure di [protezione degli allegati di posta elettronica](protect-email-attachments.md). In alternativa, se si è pronti, approfondire l'[implementazione di una soluzione per la protezione della posta elettronica aziendale](implement-solution.md).
-
-
-
-<!--HONumber=Jan17_HO2-->
-
 

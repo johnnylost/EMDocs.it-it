@@ -1,6 +1,6 @@
 ---
 title: Uso dei criteri di gestione delle app mobili in Configuration Manager
-description: Creare e distribuire un&quot;app in Configuration Manager con i criteri di gestione delle app mobili (MAM).
+description: Creare e distribuire un'app in Configuration Manager con i criteri di gestione delle app mobili (MAM).
 keywords: 
 author: craigcaseyMSFT
 ms.author: v-craic
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 74288276-84d3-4d24-8307-7875491be9c9
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: d0bc5fb61b481256d816df7c898ade798379aa19
+ms.contentlocale: it-it
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -81,9 +83,4 @@ Per informazioni generali sul monitoraggio delle applicazioni, vedere [Come moni
 ## <a name="where-to-go-from-here"></a>Come proseguire
 
 Dopo aver creato e distribuito un'app associata a un criterio MAM, sarà possibile approfondire la conoscenza [dell'esperienza dell'utente finale con MAM](end-user-experience-mam.md). Questo consente di prepararsi ad affrontare eventuali problemi che potrebbero verificarsi.
-
-
-
-<!--HONumber=Jan17_HO2-->
-
 

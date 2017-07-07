@@ -1,6 +1,6 @@
 ---
 title: Accesso condizionale in Exchange con Intune e Configuration Manager
-description: Usare una coesistenza di Exchange locale e Exchange Online insieme a Configuration Manager e Intune per gestire l&quot;accesso alla posta elettronica e proteggere i dati di posta elettronica nei dispositivi mobili.
+description: Usare una coesistenza di Exchange locale e Exchange Online insieme a Configuration Manager e Intune per gestire l'accesso alla posta elettronica e proteggere i dati di posta elettronica nei dispositivi mobili.
 keywords: 
 author: craigcaseyMSFT
 ms.author: v-craic
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 5ccd033f-bc31-4fae-b6bf-9e1c2722627f
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: c69cf9eebb89a734991d4e218e1bb9475246dc6f
+ms.contentlocale: it-it
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -37,9 +39,4 @@ Per distribuire una soluzione di coesistenza, seguire i passaggi precedenti, che
 
 ## <a name="where-to-go-from-here"></a>Come proseguire
 Dopo aver distribuito una soluzione per la protezione della posta elettronica aziendale e dei dati di questa all'interno dei dispositivi mobili, è possibile scoprire di più sull'[esperienza dell'utente finale relativa all'accesso condizionale](end-user-experience-conditional-access.md). Ciò consente di prepararsi ad affrontare i problemi che potrebbero verificarsi quando gli utenti finali registrano dispositivi specifici.
-
-
-
-<!--HONumber=Jan17_HO2-->
-
 

@@ -1,6 +1,6 @@
 ---
 title: Guida alle considerazioni di progettazione per BYOD
-description: Questo articolo include un&quot;introduzione all&quot;adozione di Bring Your Own Device (BYOD) e una panoramica delle considerazioni sulla progettazione.
+description: Questo articolo include un'introduzione all'adozione di Bring Your Own Device (BYOD) e una panoramica delle considerazioni sulla progettazione.
 keywords: 
 author: YuriDio
 ms.author: yurid

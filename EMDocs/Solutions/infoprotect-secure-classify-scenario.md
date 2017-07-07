@@ -1,6 +1,6 @@
 ---
-title: Proteggere i dati usando la classificazione, l&quot;assegnazione di etichette e la protezione | Microsoft Docs
-description: "Uno scenario che descrive come usare Enterprise Mobility + Security per classificare, assegnare un&quot;etichetta e proteggere i dati usando le funzionalità di Microsoft Azure Information Protection."
+title: Proteggere i dati usando la classificazione, l'assegnazione di etichette e la protezione | Microsoft Docs
+description: "Uno scenario che descrive come usare Enterprise Mobility + Security per classificare, assegnare un'etichetta e proteggere i dati usando le funzionalità di Microsoft Azure Information Protection."
 author: yuridio
 ms.author: yurid
 manager: mbaldwin

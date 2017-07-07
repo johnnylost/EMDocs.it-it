@@ -1,6 +1,6 @@
 ---
 title: Esperienza utente finale di accesso condizionale nei dispositivi iOS
-description: Esperienza dell&quot;utente finale con la registrazione di un dispositivo iOS.
+description: Esperienza dell'utente finale con la registrazione di un dispositivo iOS.
 keywords: 
 author: nathbarn
 ms.author: nathbarn
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 3c641ea8-2c0e-490e-b1de-831336f46d19
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 2342889a686db8a6496c97979cb222af8347241a
 ms.openlocfilehash: f06e68a00fd97cb48aee21f6ed749f520d157e9b
+ms.contentlocale: it-it
+ms.lasthandoff: 01/05/2017
 
 
 ---
@@ -93,9 +95,4 @@ Ogni 8 ore per impostazione predefinita, i dispositivi vengono controllati per v
 
 ### <a name="where-to-go-from-here"></a>Come proseguire
 L'esperienza dell'utente finale è leggermente diversa in altri dispositivi mobili. Altre informazioni sull'esperienza dell'utente finale per [Android](end-user-experience-conditional-access-android.md) e [Windows Phone](end-user-experience-conditional-access-winphone.md).
-
-
-
-<!--HONumber=Jan17_HO1-->
-
 
