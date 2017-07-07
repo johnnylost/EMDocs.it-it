@@ -1,5 +1,5 @@
 ---
-title: Usare l&quot;accesso condizionale con Microsoft Intune ed Exchange Online
+title: Usare l'accesso condizionale con Microsoft Intune ed Exchange Online
 description: Distribuire Exchange Online con Intune.
 keywords: 
 author: craigcaseyMSFT
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 8cfe421b-52c9-4d44-8df1-15c82375c335
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: c4743cb8fba4db7072d6af13a2ac4943bd35a423
+ms.contentlocale: it-it
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -72,9 +74,4 @@ Nel dashboard di Intune fare clic sul riquadro **Dispositivi bloccati da Exchang
 
 ## <a name="where-to-go-from-here"></a>Come proseguire
 Dopo aver distribuito una soluzione per la protezione della posta elettronica aziendale e dei dati di questa all'interno dei dispositivi mobili, è possibile scoprire di più sull'[esperienza dell'utente finale relativa all'accesso condizionale](end-user-experience-conditional-access.md). Ciò consente di prepararsi ad affrontare i problemi che potrebbero verificarsi quando gli utenti finali registrano dispositivi specifici.
-
-
-
-<!--HONumber=Jan17_HO2-->
-
 

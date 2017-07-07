@@ -15,7 +15,7 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
 ms.openlocfilehash: 25da2d6e50a6e3623a7b34d29d29751e10068d4e
 ms.contentlocale: it-it
-ms.lasthandoff: 05/29/2017
+ms.lasthandoff: 07/07/2017
 
 ---
 
@@ -27,8 +27,8 @@ La sottoscrizione a pagamento per Microsoft Intune o Enterprise Mobility può in
 | ------------- |-------------|
 |Enterprise Mobility Suite |    Advanced Threat Analytics |
 |Enterprise Mobility Suite |    Microsoft Identity Manager |
-|Microsoft Intune |    System Center Configuration Manager |
-|Azure Active Directory Premium |    Microsoft Identity Manager |
+|Microsoft Intune | System Center Configuration Manager |
+|Azure Active Directory Premium |   Microsoft Identity Manager |
 
 Il percorso in cui scaricare il software sopra elencato dipende dal metodo di acquisto del servizio Microsoft Online.
 

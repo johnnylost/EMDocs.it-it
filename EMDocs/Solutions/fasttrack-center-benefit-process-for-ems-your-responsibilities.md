@@ -1,5 +1,5 @@
 ---
-title: "Responsabilità dell&quot;utente"
+title: "Responsabilità dell'utente"
 description: "Responsabilità del cliente quando usa FastTrack Center Benefit"
 keywords: 
 author: NathBarn
@@ -17,7 +17,7 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 07aeaee067dbd6c827992b9d613d7716b5d57954
 ms.openlocfilehash: ecd83c311deca5050599a4eb55d45d0094d656f1
 ms.contentlocale: it-it
-ms.lasthandoff: 05/29/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -64,9 +64,9 @@ Ecco le responsabilità dell'utente durante il processo di onboarding.
 
 -   Specificare e configurare eventuali certificati Secure Sockets Layer (SSL) pubblici.
 
--     Impostare o aggiornare Configuration Manager ai requisiti minimi per l'integrazione con Microsoft Intune con Configuration Manager.
+-   Impostare o aggiornare Configuration Manager ai requisiti minimi per l'integrazione con Microsoft Intune con Configuration Manager.
 
--     Se è necessario per la distribuzione di profili Wi-Fi e VPN con Intune, specificare e configurare le infrastrutture di Autorità di certificazione, Wi-Fi e VPN in base alle esigenze.
+-   Se è necessario per la distribuzione di profili Wi-Fi e VPN con Intune, specificare e configurare le infrastrutture di Autorità di certificazione, Wi-Fi e VPN in base alle esigenze.
 
 -   Scrivere le Condizioni per l'utilizzo dell'organizzazione da configurare e visualizzare nei portali aziendali di Microsoft Intune accessibili agli utenti finali.
 

@@ -1,6 +1,6 @@
 ---
 title: Considerazioni su utenti e dispositivi
-description: "Questo articolo include una serie di considerazioni sulla progettazione per utenti che accedono a risorse aziendali usando i propri dispositivi o dispositivi di proprietà dell&quot;azienda in uno scenario Bring Your Own Device (BYOD)."
+description: "Questo articolo include una serie di considerazioni sulla progettazione per utenti che accedono a risorse aziendali usando i propri dispositivi o dispositivi di proprietà dell'azienda in uno scenario Bring Your Own Device (BYOD)."
 keywords: 
 author: YuriDio
 ms.author: yurid

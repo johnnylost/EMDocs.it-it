@@ -1,6 +1,6 @@
 ---
 title: Requisiti di protezione e accesso ai dati
-description: Questo articolo include una serie di requisiti comuni per la protezione e l&quot;accesso ai dati da usare in uno scenario Bring Your Own Device (BYOD).
+description: Questo articolo include una serie di requisiti comuni per la protezione e l'accesso ai dati da usare in uno scenario Bring Your Own Device (BYOD).
 keywords: 
 author: YuriDio
 ms.author: yurid

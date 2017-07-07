@@ -1,6 +1,6 @@
 ---
-title: Requisiti per l&quot;ambiente di origine
-description: Requisiti dell&quot;ambiente di origine per l&quot;uso di FastTrack Center Benefit
+title: Requisiti per l'ambiente di origine
+description: Requisiti dell'ambiente di origine per l'uso di FastTrack Center Benefit
 keywords: 
 author: NathBarn
 ms.author: NathBarn
@@ -17,7 +17,7 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: 07aeaee067dbd6c827992b9d613d7716b5d57954
 ms.openlocfilehash: 6c871d792424f5066328d26892c27c3883605a06
 ms.contentlocale: it-it
-ms.lasthandoff: 05/29/2017
+ms.lasthandoff: 07/07/2017
 
 
 ---

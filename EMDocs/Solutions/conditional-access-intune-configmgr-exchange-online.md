@@ -1,6 +1,6 @@
 ---
 title: Accesso condizionale - Exchange Online, Intune, Configuration Manager
-description: Usare Configuration Manager, Exchange Online e Intune per gestire l&quot;accesso alla posta elettronica e proteggere i dati di posta elettronica nei dispositivi mobili.
+description: Usare Configuration Manager, Exchange Online e Intune per gestire l'accesso alla posta elettronica e proteggere i dati di posta elettronica nei dispositivi mobili.
 keywords: 
 author: craigcaseyMSFT
 ms.author: v-craic
@@ -13,9 +13,11 @@ ms.technology:
 ms.assetid: 06921361-9475-46e6-9368-3cc44c84b22f
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
+ms.translationtype: Human Translation
 ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: 47f4298d833bcc910f769046ec018f270e75d246
+ms.contentlocale: it-it
+ms.lasthandoff: 07/07/2017
 
 
 ---
@@ -148,9 +150,4 @@ Ai dispositivi che usano l'autenticazione moderna l'accesso condizionale viene a
 
 ## <a name="where-to-go-from-here"></a>Come proseguire
 Dopo aver distribuito una soluzione per la protezione della posta elettronica aziendale e dei dati di questa all'interno dei dispositivi mobili, è possibile scoprire di più sull'[esperienza dell'utente finale relativa all'accesso condizionale](end-user-experience-conditional-access.md). Ciò consente di prepararsi ad affrontare i problemi che potrebbero verificarsi quando gli utenti finali registrano dispositivi specifici.
-
-
-
-<!--HONumber=Jan17_HO2-->
-
 

@@ -1,6 +1,6 @@
 ---
 title: Considerazioni su protezione e accesso ai dati
-description: Questo articolo include una serie di considerazioni sulla progettazione per la protezione e l&quot;accesso ai dati in uno scenario Bring Your Own Device (BYOD).
+description: Questo articolo include una serie di considerazioni sulla progettazione per la protezione e l'accesso ai dati in uno scenario Bring Your Own Device (BYOD).
 keywords: 
 author: YuriDio
 ms.author: yurid

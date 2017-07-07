@@ -1,6 +1,6 @@
 ---
 title: Proteggere i dati aziendali senza gestire i dispositivi | Microsoft Docs
-description: "EMS offre funzionalità innovative per la protezione dalla perdita di dati con Microsoft Intune. Consente di proteggere i dati aziendali e mantenere l&quot;esperienza utente con le applicazioni di Office 365 al livello eccezionale a cui sono abituati i dipendenti senza gestire i loro dispositivi."
+description: "EMS offre funzionalità innovative per la protezione dalla perdita di dati con Microsoft Intune. Consente di proteggere i dati aziendali e mantenere l'esperienza utente con le applicazioni di Office 365 al livello eccezionale a cui sono abituati i dipendenti senza gestire i loro dispositivi."
 keywords: 
 author: jeffgilb
 manager: swadhwa

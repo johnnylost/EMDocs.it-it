@@ -1,6 +1,6 @@
 ---
-title: Tenere traccia dell&quot;utilizzo dei dati condivisi e rispondere in caso di uso improprio dei dati | Microsoft Docs
-description: "Uno scenario che descrive come sia possibile usare Enterprise Mobility + Security per tenere traccia dell&quot;uso dei dati condivisi e rispondere in caso di uso improprio sfruttando le funzionalità di Azure Rights Management."
+title: Tenere traccia dell'utilizzo dei dati condivisi e rispondere in caso di uso improprio dei dati | Microsoft Docs
+description: "Uno scenario che descrive come sia possibile usare Enterprise Mobility + Security per tenere traccia dell'uso dei dati condivisi e rispondere in caso di uso improprio sfruttando le funzionalità di Azure Rights Management."
 author: yuridio
 manager: mbaldwin
 ms.date: 05/18/2017
@@ -15,7 +15,7 @@ ms.translationtype: Human Translation
 ms.sourcegitcommit: bc112d81a2b0e59f9ae67efe2a914b0c64ac76ba
 ms.openlocfilehash: 81e6b6479dcca1a82b37cfc4c832f36e33ac1b7b
 ms.contentlocale: it-it
-ms.lasthandoff: 05/29/2017
+ms.lasthandoff: 07/07/2017
 
 
 
