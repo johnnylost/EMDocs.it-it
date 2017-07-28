@@ -1,6 +1,6 @@
 ---
 title: Protezione basata sul cloud
-description: Questo articolo descrive come usare Enterprise Mobility + Security per offrire un set completo di strumenti per la sicurezza in modo da identificare le minacce per la sicurezza in modo proattivo e rispondervi correttamente nell&quot;organizzazione tramite gli strumenti inclusi in Azure Active Directory.
+description: Questo articolo descrive come usare Enterprise Mobility + Security per offrire un set completo di strumenti per la sicurezza in modo da identificare le minacce per la sicurezza in modo proattivo e rispondervi correttamente nell'organizzazione tramite gli strumenti inclusi in Azure Active Directory.
 keywords: 
 author: andredm7
 ms.author: andredm
@@ -14,13 +14,12 @@ ms.assetid: 46654ab0-0d0a-47ad-8715-b149a1092a37
 ROBOTS: 
 ms.reviewer: atkladak, jsnow
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: cd45c4acdcc477d235e21bd6af5d1c2e265a6435
-ms.openlocfilehash: bcdf21f80b921e2788168e7d53b5618619b79539
-
-
+ms.openlocfilehash: 0ed7704a832f3567f14c6eec5ae7da9ea5e9f22a
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="cloud-powered-protection"></a>Protezione basata sul cloud
 Microsoft è impegnata nella protezione delle identità basate sul cloud da oltre un decennio e con Azure Active Directory sta rendendo questi stessi sistemi di protezione disponibili ai clienti aziendali, per garantire la responsabilità di utenti e amministratori attraverso livelli migliori di sicurezza e governance.
 
@@ -107,9 +106,3 @@ I collegamenti seguenti offrono informazioni sull'uso dell'accesso condizionale 
 - Informazioni su [come implementare l'accesso condizionale di Azure AD](https://azure.microsoft.com/documentation/articles/active-directory-conditional-access/).
 - Informazioni su [MFA e criteri percorso](https://azure.microsoft.com/documentation/articles/active-directory-conditional-access-azuread-connected-apps/).
 - Informazioni su [Criteri basati sul dispositivo](https://azure.microsoft.com/documentation/articles/active-directory-conditional-access-policy-connected-applications/).
-
-
-
-<!--HONumber=Nov16_HO3-->
-
-

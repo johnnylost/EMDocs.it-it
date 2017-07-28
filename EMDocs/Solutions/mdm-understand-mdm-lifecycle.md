@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: 901b52bf-2340-4847-aaff-c94fec9ee925
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
-ms.openlocfilehash: bca54803722814769b45cd30244b68121d72a114
-
-
+ms.openlocfilehash: 24cd67176f90baaf5fd1b7d2dc0174a058fbad2f
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="understand-the-mdm-lifecycle"></a>Informazioni sul ciclo di vita del software MDM
 
 >[!NOTE]
@@ -138,9 +137,3 @@ Rispondere alle domande seguenti relative alla pianificazione del ritiro o dell'
 
 >[!TIP]
 >Assicurarsi di prendere appunti per ogni risposta e di comprendere la logica alla base della risposta. Le attività successive esamineranno le opzioni disponibili e i vantaggi e svantaggi di ogni opzione.  Rispondere a queste domande consentirà di selezionare l'opzione più adatta alle esigenze aziendali.
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

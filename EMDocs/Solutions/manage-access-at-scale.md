@@ -1,6 +1,6 @@
 ---
-title: Gestire l&quot;accesso su larga scala
-description: "Questo articolo descrive come usare Enterprise Mobility + Security per permettere all&quot;organizzazione la gestione dell&quot;accesso alle identità tramite gli strumenti inclusi in Azure Active Directory."
+title: Gestire l'accesso su larga scala
+description: "Questo articolo descrive come usare Enterprise Mobility + Security per permettere all'organizzazione la gestione dell'accesso alle identità tramite gli strumenti inclusi in Azure Active Directory."
 keywords: 
 author: andredm7
 ms.author: andredm
@@ -14,13 +14,12 @@ ms.assetid: 0292919a-af10-4a25-8916-c704aed643f6
 ROBOTS: 
 ms.reviewer: atkladak, jsnow
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: fdb0852611551daaa2aad7d3839a3431abd8b445
 ms.openlocfilehash: fa2795fb578c0d278d55cbff9f44c19ca2e13309
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="manage-access-at-scale"></a>Gestire l'accesso su larga scala
 Microsoft offre da sempre gli strumenti necessari alle organizzazioni. Oltre a un'identità che permette di accedere dovunque, Microsoft offre anche un insieme di strumenti per automatizzare, proteggere e gestire le attività IT all'interno dell'organizzazione. Anche dopo l'avvento del cloud computing, esiste tuttora una domanda di gestione e controllo di attività IT come le chiamate del supporto tecnico per la reimpostazione delle password utente, la gestione dei gruppi di utenti e le richieste di applicazioni.
 
@@ -125,9 +124,3 @@ I dettagli di un avviso includono altre informazioni sul problema che causa l'av
 Il monitoraggio delle prestazioni di AD Connect Health offre un metodo semplice per confrontare le prestazioni dei controller di dominio monitorati e le diverse metriche di interesse.
 
 ![Screenshot che illustra il monitoraggio delle prestazioni dei controller di dominio selezionati](./media/manage-access-at-scale/manage-access-at-scale-fig8.png)
-
-
-
-<!--HONumber=Dec16_HO2-->
-
-

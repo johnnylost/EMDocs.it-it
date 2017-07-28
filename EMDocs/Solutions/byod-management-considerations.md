@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: ba8cc256-2075-457f-a827-7ec9213c5235
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: da1652d5bb9a7b7176c74482bfc814aaf8902c3f
-ms.contentlocale: it-it
-ms.lasthandoff: 11/28/2016
-
-
+ms.openlocfilehash: 3c933645b8cb7018f486925a16ee8d78cd1f0b7a
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="management-considerations"></a>Considerazioni sulla gestione
 
 Un dominio di gestione è obbligatorio in un'infrastruttura che supporta un modello BYOD. Per supportare completamente le richieste del BYOD, il dominio di gestione deve poter consentire al reparto IT di monitorare le risorse, fornire funzionalità di creazione di rapporti, gestire le risorse di calcolo e archiviazione, abilitare la configurazione e l'automazione dei dispositivi e gestire la distribuzione e il provisioning delle app.
@@ -196,4 +193,3 @@ Sebbene si tratti di due opzioni distinte, è possibile integrarle per fornire l
 | Distribuzione e provisioning di app in dispositivi che si trovano all'esterno dell'azienda.   | Microsoft Intune                                       |
 | Distribuzione e provisioning di app in dispositivi non Windows.                   | Microsoft Intune                                       |
 | Distribuzione e provisioning di app solo nei dispositivi locali, distribuzione e provisioning di app nei dispositivi situati all'esterno dell'azienda o distribuzione e provisioning di app nei dispositivi non Windows.       | Microsoft Intune integrato con Configuration Manager
-

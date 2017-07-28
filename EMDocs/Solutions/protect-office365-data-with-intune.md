@@ -12,15 +12,12 @@ ms.technology:
 ms.assetid: cc0d2e1f-9c34-4dcb-ac1f-2f355e9ebb7e
 ms.reviewer: vlpetros
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
-ms.openlocfilehash: d7e15962a95135dbb16cb41e2643c602b87039cf
-ms.contentlocale: it-it
-ms.lasthandoff: 05/29/2017
-
-
+ms.openlocfilehash: c57332d427eec2d591fdaf527a783f5e58d457d9
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="protect-office-365-company-data-with-intune"></a>Proteggere i dati aziendali di Office 365 con Intune
 La prima cosa che la maggior parte dei dipendenti vuole sul proprio dispositivo mobile è l'accesso alla posta elettronica e ai documenti aziendali. E si aspettano di configurare l'accesso senza procedure complesse e senza doversi rivolgere al supporto tecnico. I responsabili IT d'altro canto vogliono mantenere la sicurezza dei dati aziendali dovunque senza dover gestire un'infrastruttura locale di grandi dimensioni. Con Enterprise Mobility + Security (EMS) è possibile garantire la produttività dei dipendenti con le app e i dispositivi preferiti e la protezione dei dati aziendali. Le informazioni seguenti descrivono in che modo.
 
@@ -144,4 +141,3 @@ Una volta avviata, il dispositivo inizia immediatamente il processo di cancellaz
 [Iniziare a usare Enterprise Mobility + Security](https://docs.microsoft.com/enterprise-mobility/solutions/ems-get-started)
 
 [Microsoft Enterprise Mobility](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
-

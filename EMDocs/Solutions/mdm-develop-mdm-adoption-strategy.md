@@ -1,6 +1,6 @@
 ---
 title: Sviluppare la strategia di adozione della gestione dei dispositivi mobili
-description: Questo articolo include una serie di considerazioni sulla progettazione per l&quot;adozione della gestione dei dispositivi mobili (MDM) nell&quot;organizzazione.
+description: Questo articolo include una serie di considerazioni sulla progettazione per l'adozione della gestione dei dispositivi mobili (MDM) nell'organizzazione.
 keywords: 
 author: YuriDio
 ms.author: yurid
@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: 10172816-b52d-4a55-8803-6a6805126fab
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: 925d3c462ff0010f3aea03dd35a5ba6f78bf9894
-
-
+ms.openlocfilehash: 9cd4d977bc09b710af636d791b60dae1a9e86a73
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="develop-your-mobile-device-management-adoption-strategy"></a>Sviluppare la strategia di adozione della gestione dei dispositivi mobili
 
 >[!NOTE]
@@ -168,9 +167,3 @@ Comprendere il comportamento degli utenti e identificarne la posizione sono fatt
 
 >[!TIP]
 > Il geofencing consente di monitorare la posizione geografica di un dispositivo mobile e di abilitare o disabilitare il dispositivo e le risorse di rete in base a tale posizione. Ad esempio, Windows 8.1 consente a un'app di definire un'area geografica e fa in modo che il sistema avverta l'app quando il dispositivo su cui è in esecuzione entra o esce da tale area. Per altre informazioni su questa funzionalità in Windows 8.1, leggere l'articolo [Recinti virtuali, dall'inizio alla fine (XAML)](https://msdn.microsoft.com/library/windows/apps/xaml/dn342943.aspx).
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

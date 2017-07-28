@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: a25f7407-92a0-4588-b5f7-a7bad9cdd070
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
-ms.openlocfilehash: 3e930a5a9a39b15a4ce39c5cfa1e37038917f842
-
-
+ms.openlocfilehash: 5ea6bd936a464bd6f89be622d652f011a3acdd24
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="device-management-options"></a>Opzioni di gestione dei dispositivi
 
 >[!NOTE]
@@ -95,9 +94,3 @@ Le risposte alle domande nel passaggio 1 aiutano a decidere in che modo verranno
 - Le organizzazioni che per il momento non hanno configurato un'infrastruttura di Configuration Manager dovranno pianificarla, installarla e configurarla prima dell'integrazione con Intune
 - I profili di posta elettronica e le reti VPN per i dispositivi Android non sono attualmente supportati
 - I browser gestiti non sono attualmente supportati
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

@@ -13,13 +13,11 @@ ms.assetid: f1421a9b-25e6-469e-b6b3-a2a068e9ac46
 ms.reviewer: mhamerof
 ms.suite: ems
 ms.custom: advanced-threat-analytics,cloud-app-security,information-protection,microsoft-identity-manager,microsoft-intune,rights-management
-ms.translationtype: Human Translation
-ms.sourcegitcommit: ed952bd866758978ed4348c70da826eb519b4733
-ms.openlocfilehash: 9f97e64ec3be78e17b05484d27b903e30c340ecf
-ms.contentlocale: it-it
-ms.lasthandoff: 12/08/2016
-
-
+ms.openlocfilehash: 19e4cc46998bf7142692b05f90c7ea5243caa4db
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 07/25/2017
 ---
 # <a name="learn-about-enterprise-mobility--security"></a>Informazioni su Enterprise Mobility + Security
 
@@ -57,7 +55,7 @@ EMS consente ai dipendenti di sfruttare al massimo le potenzialità di Office 36
 
 |   | **Gestione di identità e accessi** | **Produttività dei dispositivi mobili gestiti** | **Protezione delle informazioni** | **Sicurezza basata sull'identità** |
 |---|---|---|---|---|
-|**Office 365**|**Gestione di base delle identità tramite Azure AD per Office 365** Single Sign-On per Office 365 e autenticazione a più fattori (MFA) di base per Office 365. |**Gestione di base dei dispositivi mobili tramite MDM per Office 365** Gestione delle impostazioni dei dispositivi, cancellazione selettiva e integrazione nella console di gestione di Office 365. |**Protezione RMS tramite RMS per Office 365** Protezione per il contenuto archiviato in Office (in locale per Office 365), accesso a RMS SDK e uso della chiave personale. |**Gestione avanzata della sicurezza** Informazioni dettagliate sulle attività sospette in Office 365.|
+|**Office 365**|**Gestione di base delle identità tramite Azure AD per Office 365** Single Sign-On per Office 365 e autenticazione a più fattori (MFA) di base per Office 365. |**Gestione di base dei dispositivi mobili tramite MDM per Office 365** Gestione delle impostazioni dei dispositivi, cancellazione selettiva e integrazione nella console di gestione di Office 365. |**Protezione RMS tramite RMS per Office 365** Protezione per il contenuto archiviato in Office (in locale per Office 365), accesso a RMS SDK e uso della chiave personale. |**Gestione avanzata della sicurezza**  Informazioni dettagliate sulle attività sospette in Office 365.|
 |**Enterprise Mobility + Security** *(include tutte le funzionalità in Office 365)* | **Azure AD per Office 365 +** report sulla sicurezza avanzati, Single Sign-On per tutte le app, autenticazione MFA avanzata, gestione dei gruppi e reimpostazione delle password self-service con writeback nell'istanza locale di AD, gruppi dinamici e appartenenze ai gruppi in base all'assegnazione delle licenze. | **MDM per Office 365 +** gestione dei PC, gestione delle app mobili (per impedire operazioni taglia/copia/incolla/salva con nome dalle app aziendali alle app personali), visualizzatori di contenuto sicuri, provisioning dei certificati e integrazione in System Center. | **RMS per Office 365 +** classificazione e assegnazione di etichette intelligenti e automatizzate per i dati, monitoraggio e notifiche per i documenti condivisi, protezione per le condivisioni file di Windows Server in locale.| **Cloud App Security** Visibilità e controllo per tutte le app cloud, **Advanced Threat Analytics** per l'identificazione avanzata delle minacce per le identità locali, **Azure AD Premium P2** per l'accesso condizionale basato sui rischi. |
 
 
@@ -116,4 +114,3 @@ Le organizzazioni con processi di trasformazione digitale in corso hanno l'esige
 [Visitare la pagina dedicata a Microsoft Enterprise Mobility + Security](http://go.microsoft.com/fwlink/?LinkId=816837)
 
 [Iniziare a usare Enterprise Mobility + Security](ems-get-started.md)
-

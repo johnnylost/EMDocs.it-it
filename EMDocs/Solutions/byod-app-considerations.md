@@ -13,16 +13,12 @@ ms.technology:
 ms.assetid: 4b871c74-fec8-45e2-8b45-6ef0e62f7cc6
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: 2e00204f4be8183fdb8502e13b1ef06d1b7df084
-ms.contentlocale: it-it
-ms.lasthandoff: 11/28/2016
-
-
+ms.openlocfilehash: 1963fd2b0cba97cbcc5396574cdb4e90a2b36884
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 07/25/2017
 ---
-
-
 # <a name="app-considerations"></a>Considerazioni sulle app
 
 Le considerazioni sulle app per il BYOD possono variare in base agli obiettivi aziendali, ai vincoli e alle risorse. Le aziende devono valutare le app esistenti, le tecnologie usate per lo sviluppo delle app, i requisiti per l'esecuzione delle app in qualsiasi dispositivo e quali app sono essenziali per consentire agli utenti l'accesso da qualsiasi posizione. Anche se il provisioning e la distribuzione delle app moderne non richiedono un elevato utilizzo di risorse rispetto alle app basate su Windows, per lo sviluppo e la gestione di queste app è comunque previsto un costo.
@@ -238,4 +234,3 @@ La decisione di quale esperienza e distribuzione delle app verrà usata per il p
 Valutare di usare un ciclo di vita dello sviluppo della sicurezza per tutte le app che verranno utilizzate dagli utenti sui propri dispositivi. La sicurezza deve essere incorporata in tutte le fasi del processo di sviluppo e devono essere prese in considerazione tutte le minacce potenziali. [STRIDE](https://msdn.microsoft.com/magazine/cc163519.aspx) e altre strategie di sicurezza possono essere incorporate nel ciclo di vita dello sviluppo con [Microsoft Security Development Lifecycle (SDL)](https://www.microsoft.com/security/sdl/process/requirements.aspx). È importante considerare il modo in cui l'infrastruttura esistente verrà integrata con la strategia di sicurezza globale per il BYOD. L'ambiente esistente è in grado di fornire una base sicura per le app? L'azienda deve acquistare soluzioni sicure di terze parti per ridurre qualsiasi vulnerabilità potenziale che questa nuova scelta può creare?
 
 Le considerazioni sulla sicurezza sono importanti per le app che verranno utilizzate dagli utenti sui propri dispositivi. È consigliabile usare raccolte personalizzate in base ai gruppi di sicurezza di Active Directory per restringere l'accesso degli utenti ad alcune app con requisiti di accesso specifici, limitando in tal modo gli utenti che possono installarle. La sicurezza può anche essere sfruttata per migliorare l'esperienza utente consentendo l'uso dello stesso nome utente e della stessa password per accedere alle risorse aziendali, che possono essere eseguite con AD FS. La sicurezza è importante anche per la progettazione della distribuzione delle app. È consigliabile acquisire e distribuire i certificati e le chiavi di sideload prima di abilitare la registrazione degli utenti. Lavorare insieme ad altri team per semplificare il processo di certificazione delle app.
-

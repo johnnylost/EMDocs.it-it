@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: ac136523-8089-409b-b74d-2d4c0ce399d4
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
-ms.openlocfilehash: 2a03416cf8255a29c0394746b3d5285057163d15
-
-
+ms.openlocfilehash: b6020cf872fdd6f98fe24f10ecb028dd9bc0300f
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="gather-monitoring-requirements"></a>Raccogliere informazioni sui requisiti di monitoraggio
 
 >[!NOTE]
@@ -57,9 +56,3 @@ Rispondere alle domande seguenti relative alla pianificazione del monitoraggio d
 
 >[!TIP]
 >Assicurarsi di prendere appunti per ogni risposta e di comprendere la logica alla base della risposta. Le attività successive esamineranno le opzioni disponibili e i vantaggi e svantaggi di ogni opzione.  Rispondere a queste domande consentirà di selezionare l'opzione più adatta alle esigenze aziendali.
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: 991cd722-089c-4e8c-80b9-b82e405cc891
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
-ms.openlocfilehash: 3df9be3ef643303f4205aa1b6daf18fdf53762d8
-
-
+ms.openlocfilehash: 93cb2c9af3aecdb409ab2ec1a8cb7f8d1d7bf8ab
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="device-provisioning-options"></a>Opzioni di provisioning dei dispositivi
 
 >[!NOTE]
@@ -81,9 +80,3 @@ In base alle risposte date alle domande del passaggio 1, l'utente dovrebbe esser
 - Richiede requisiti di configurazione aggiuntivi per la connessione di Intune all'infrastruttura di Configuration Manager locale
 
 Per altre informazioni sulle opzioni di registrazione e provisioning dei dispositivi mobili, assicurarsi di esaminare le procedure di [attivazione delle registrazioni dei dispositivi mobili](/Intune/deploy-use/enroll-devices-in-microsoft-intune) in Intune e di confrontare requisiti e procedure per [attivare le registrazioni dei dispositivi mobili](https://technet.microsoft.com/library/jj884158.aspx) in Configuration Manager e MDM per Office 365.
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

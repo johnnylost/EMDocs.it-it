@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: 77e7cab9-2fae-4857-be5d-2b6f57e981be
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
-ms.openlocfilehash: 417ff912c3e7ff50e0f8371dccbc3ad99c5832d2
-
-
+ms.openlocfilehash: 67f2fb5648d64a53517ae6eaa3d4661570dd39a9
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="determine-network-requirements"></a>Determinare i requisiti di rete
 
 >[!NOTE]
@@ -109,9 +108,3 @@ Rispondere alle domande seguenti relative alla pianificazione della gestione dei
 
 >[!TIP]
 >Assicurarsi di prendere appunti per ogni risposta e di comprendere la logica alla base della risposta. Le attività successive esamineranno le opzioni disponibili e i vantaggi e svantaggi di ogni opzione.  Rispondere a queste domande consentirà di selezionare l'opzione più adatta alle esigenze aziendali.
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

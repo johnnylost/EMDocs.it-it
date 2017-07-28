@@ -12,13 +12,11 @@ ms.technology:
 ms.assetid: d78e2b94-8ad3-4703-b7f0-db070288a20b
 ms.reviewer: vlpetros
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d4362764cad9264c513ca745c45b96590b18928f
-ms.openlocfilehash: 98efafde6981fa8cb0c49c4b22729c64c8386754
-ms.contentlocale: it-it
-ms.lasthandoff: 03/24/2017
-
-
+ms.openlocfilehash: 66586ce378ab3faff29286bd032ac4099647494b
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 07/25/2017
 ---
 # <a name="enable-a-limited-use-shared-device-solution-with-intune"></a>Abilitare una soluzione con dispositivi condivisi con limitazioni d'uso con Intune
 In alcuni casi, i dipendenti hanno la necessità di condividere i dispositivi per accedere ad app e dati aziendali in modo da poter eseguire attività specifiche che richiedono impostazioni e app particolari. Si tratta di un'esigenza comune in negozi, fabbriche e nel settore dei trasporti. In altri casi, non sono i dipendenti ma i clienti ad avere l'esigenza di accedere in modo interattivo alle risorse usando dispositivi accessibili pubblicamente in luoghi come sale conferenze, hall di alberghi, scuole o biblioteche. A volte potrebbe essere sufficiente visualizzare una presentazione con esecuzione automatica o fornire informazioni statiche al pubblico.
@@ -132,4 +130,3 @@ Dopo aver creato il criterio, distribuirlo a un gruppo di dispositivi Windows ch
 [Iniziare a usare Enterprise Mobility + Security](https://docs.microsoft.com/enterprise-mobility/solutions/ems-get-started)
 
 [Microsoft Enterprise Mobility](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
-

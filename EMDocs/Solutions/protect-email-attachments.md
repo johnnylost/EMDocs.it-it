@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: a1e630c1-7190-4ba9-b71d-ed9c2e93a6cc
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: a124d56eaa6cbca44551a7c3ea42166479523f9f
-ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="protect-email-and-attachments-from-data-leakage"></a>Proteggere la posta elettronica e gli allegati dalla fuga di dati
 La sezione [Protezione dei messaggi di posta elettronica e dei documenti aziendali](protect-corporate-email-documents.md) ha illustrato come assicurarsi che solo i dispositivi conformi possano accedere alla posta elettronica aziendale. Tuttavia, proteggere l'accesso non garantisce anche la protezione del contenuto dei messaggi di posta elettronica e dei relativi allegati. Il contenuto può essere copiato, spostato e salvato in un percorso diverso o condiviso con un altro utente. EMS risolve questo problema usando i criteri di gestione delle applicazioni mobili (MAM).
 
@@ -71,4 +68,3 @@ Gli utenti finali possono installare le app gestite e usarle per svolgere il pro
 
 ## <a name="where-to-go-from-here"></a>Come proseguire
 Dopo avere acquisito le informazioni sulla [protezione dei documenti e dei messaggi di posta elettronica aziendali](protect-corporate-email-documents.md) e degli allegati, leggere le informazioni su come [implementare una soluzione per la protezione della posta elettronica aziendale](implement-solution.md).
-

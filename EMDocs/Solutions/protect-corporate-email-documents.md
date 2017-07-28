@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 78d8368e-1bfe-4ac4-991d-467321a76ed7
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: f209973d304e1a54393dc994e7c3785e4f751a88
-ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="protecting-corporate-email-and-documents"></a>Protezione dei messaggi di posta elettronica e dei documenti aziendali
 La protezione dei messaggi di posta elettronica aziendali prevede due obiettivi principali:
 
@@ -122,4 +119,3 @@ Una volta che il dispositivo viene considerato registrato e conforme, entro poch
 
 ## <a name="where-to-go-from-here"></a>Come proseguire
 Dopo avere acquisito le informazioni sulla protezione di documenti e messaggi di posta elettronica aziendali, è possibile leggere le procedure di [protezione degli allegati di posta elettronica](protect-email-attachments.md). In alternativa, se si è pronti, approfondire l'[implementazione di una soluzione per la protezione della posta elettronica aziendale](implement-solution.md).
-

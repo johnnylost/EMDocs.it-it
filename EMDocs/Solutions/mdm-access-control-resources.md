@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 5967876b-3c08-4498-a0a6-0225b562d35f
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: 782f6dac4a366312ce0a6d04735262908df6fe72
-ms.contentlocale: it-it
-ms.lasthandoff: 11/28/2016
-
-
+ms.openlocfilehash: acdca6a0357487456ccbe28e6977e61943cebffa
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="access-control-to-resources"></a>Controllo di accesso alle risorse
 
 >[!NOTE]
@@ -91,4 +88,3 @@ Usare la tabella che segue come riferimento per la scelta dell'opzione MDM più 
 **Svantaggi**
 
 - Se l'organizzazione attualmente non usa un'infrastruttura locale di Configuration Manager, è necessario pianificare, installare e configurare questa piattaforma prima dell'integrazione
-

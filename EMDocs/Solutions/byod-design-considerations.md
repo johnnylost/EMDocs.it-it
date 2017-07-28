@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 639dfd46-33ea-4cfd-918d-f3d8e57645ed
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: 3dbf7072bbc3baf6a97072f1cbbd15bd236349d3
-ms.contentlocale: it-it
-ms.lasthandoff: 11/28/2016
-
-
+ms.openlocfilehash: 90adc7c2cdbb566467fc1e5daf91d970ed618f39
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="design-considerations"></a>Considerazioni sulla progettazione
 
 Con un'analisi dei requisiti descritti in dettaglio nella sezione Progettazione della soluzione di infrastruttura BYOD di questo documento, è possibile selezionare i prodotti e le tecnologie appropriati per implementare i requisiti per il progetto di infrastruttura BYOD. La tabella seguente elenca i prodotti, le tecnologie e i servizi Microsoft che consentono di implementare una soluzione di infrastruttura BYOD.
@@ -80,4 +77,3 @@ Le sezioni seguenti delineano il processo di progettazione ma, come indicato nel
 Il resto della documentazione prende in esame le considerazioni di progettazione e i prodotti, le tecnologie e i servizi elencati nella tabella precedente. Quando è possibile usare più prodotti, tecnologie e servizi Microsoft per affrontare le diverse considerazioni di progettazione, ne verranno illustrati i compromessi.
 
 Il progetto di infrastruttura per il supporto di BYOD riunisce le risposte alle domande riportate in precedenza in questo articolo, nonché le funzionalità della tecnologia e le opzioni disponibili. Il progetto illustrato in questo documento usa una tecnologia basata su Microsoft. Le considerazioni e le opzioni di progettazione possono tuttavia essere applicate a qualsiasi infrastruttura usata per adottare il modello BYOD.
-

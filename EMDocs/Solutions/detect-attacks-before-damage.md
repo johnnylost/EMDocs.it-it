@@ -13,15 +13,12 @@ ms.assetid: de0a7e70-008b-45c1-bba8-f033b1f62194
 ms.reviewer: v-craic
 ms.suite: ems
 ms.custom: advanced-threat-analytics, cloud-app-security
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
 ms.openlocfilehash: 420df3bfcc0fca07bf4f7b068f4d49015ace048f
-ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="detect-attacks-before-they-cause-damage"></a>Rilevare attacchi prima che possano provocare danni
 Un ambiente di lavoro sicuro richiede un sistema di rilevamento avanzato in grado di identificare minacce prima che possano causare danni importanti. Le organizzazioni possono usufruire facilmente delle funzionalità di sicurezza Microsoft per rilevare attività sospette nel cloud o localmente.
 
@@ -107,4 +104,3 @@ Anche se l'esempio precedente si basava su una violazione dei criteri, Cloud App
 ![Schermata che illustra le anomalie rilevate da Cloud App Security.](./media/detect-attacks-before-damage/detect-attacks-before-damage-fig8.png)
 
 In questa pagina, è possibile notare quale utente ha attivato l'avviso, l'indirizzo IP, l'appartenenza al gruppo dell'utente e altre informazioni sui comportamenti sospetti. È possibile visualizzare altri dettagli su questa attività, ad esempio i tentativi di accesso non riusciti, il percorso da cui ha origine l'accesso e l'app usata per eseguire il tentativo di accesso.
-

@@ -11,16 +11,12 @@ ms.technology: techgroup-identity
 ms.assetid: c7e6e01a-5796-4bd7-a0c5-847ecfc08a1e
 ms.reviewer: v-craic
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: bc112d81a2b0e59f9ae67efe2a914b0c64ac76ba
 ms.openlocfilehash: 81e6b6479dcca1a82b37cfc4c832f36e33ac1b7b
-ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="track-usage-of-shared-data-and-respond-to-data-abuse"></a>Tenere traccia dell'utilizzo dei dati condivisi e rispondere in caso di uso improprio dei dati
 
 Avere visibilità e controllo sui dati condivisi è di fondamentale importanza per tenera traccia dell'uso dei dati, ma anche per rilevare eventuali usi impropri. Al giorno d'oggi la condivisione dei dati è sempre più estesa e le organizzazioni hanno l'esigenza di condividere i dati all'esterno del loro dominio per soddisfare le esigenze aziendali.
@@ -74,4 +70,3 @@ In alcuni casi, potrebbe essere anche necessario affrontare un evento imprevisto
 ![Figura che mostra il form Revoca l'accesso che consente di revocare l'accesso a un documento.](./media/infoprotect-track-usage-scenario/infoprotect-track-usage-scenario-fig5.png)
 
 È possibile abilitare l'opzione per informare i destinatari che è stato revocato l'accesso a questo documentati ed è possibile includere un messaggio con la spiegazione del motivo per cui questo documento è stato revocato.
-

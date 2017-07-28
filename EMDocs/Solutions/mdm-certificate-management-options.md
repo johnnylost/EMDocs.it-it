@@ -1,6 +1,6 @@
 ---
 title: Opzioni di gestione dei certificati
-description: Questo articolo include argomenti di decisione su come pianificare e progettare un&quot;infrastruttura di certificati per supportare il provisioning dei certificati con Microsoft Intune autonomo e ibrido.
+description: Questo articolo include argomenti di decisione su come pianificare e progettare un'infrastruttura di certificati per supportare il provisioning dei certificati con Microsoft Intune autonomo e ibrido.
 keywords: 
 author: andredm7
 ms.author: andredm
@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: c3d350b5-4437-4f3d-907f-57ce6a819a74
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
-ms.openlocfilehash: 2f0d445b35c6a7aea29684a0488decd92784c2ab
-
-
+ms.openlocfilehash: c08087f411440fbc57b1220131dc1c6fc2cdd90c
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="certificate-management-options"></a>Opzioni di gestione dei certificati
 
 >[!NOTE]
@@ -83,9 +82,3 @@ Gli elenchi che seguono sono utili per comprendere i vantaggi e gli svantaggi de
  - Intune NDES Connector, installato nel server che esegue NDES
 
 Per altre informazioni sulle opzioni di gestione dei certificati per dispositivi mobili, leggere la procedura per [abilitare i profili dei certificati](/Intune/deploy-use/secure-resource-access-with-certificate-profiles) in Intune e confrontare questi requisiti e procedure con [l'abilitazione dei profili dei certificati](https://technet.microsoft.com/library/dn261202.aspx) in System Center 2012 R2 Configuration Manager.
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

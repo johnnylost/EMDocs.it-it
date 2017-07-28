@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 29eddc34-5ca5-4169-89b6-8137b03ab7f0
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: 9aafb6a87f629f61d04596830ae0cc5cee944696
-ms.contentlocale: it-it
-ms.lasthandoff: 11/28/2016
-
-
+ms.openlocfilehash: f90989708013339a0bf31157075678739e3197b5
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="data-access-and-protection-requirements"></a>Requisiti di protezione e accesso ai dati
 
 Uno degli elementi più importanti quando si consente agli utenti di accedere alle risorse aziendali dai propri dispositivi è proteggere i dati dell'azienda e preservarne le informazioni. L'azienda potrebbe avere una serie di requisiti di conformità da implementare per garantire la protezione dei dati indipendentemente da dove risiedono. La figura seguente illustra le interazioni tra utenti e dispositivi per l'accesso ai dati e i componenti da prendere in considerazione per questo sottodominio.
@@ -93,4 +90,3 @@ Le domande sui requisiti di protezione e accesso ai dati sono suddivise in tre a
     - In tal caso, in che modo queste norme regolano i criteri esistenti di accesso ai dati per le risorse locali?
 - L'azienda prevede criteri per la [gestione di dispositivi mobili (MDM, Mobile Device Management)](mdm-design-considerations-guide.md) e la [gestione di applicazioni mobili (MAM, Mobile Application Management) ](https://blogs.technet.microsoft.com/cbernier/2016/01/05/microsoft-intune-mobile-application-management-mam-standalone/)?
 - L'azienda prevede dei criteri per la confisca dei dispositivi in caso di controversia legale o indagine investigativa?
-

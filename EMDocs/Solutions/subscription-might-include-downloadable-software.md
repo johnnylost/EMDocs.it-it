@@ -11,14 +11,12 @@ ms.prod:
 ms.service: ems
 ms.technology: 
 ms.assetid: 9d031fa7-9c07-48c5-b915-6525aea54870
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
 ms.openlocfilehash: 25da2d6e50a6e3623a7b34d29d29751e10068d4e
-ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="your-paid-microsoft-intune-or-enterprise-mobility-subscription-might-include-a-license-to-use-certain-downloadable-software"></a>La sottoscrizione a pagamento per Microsoft Intune o Enterprise Mobility può includere una licenza per l'uso di alcuni software scaricabili
 
 La sottoscrizione a pagamento per Microsoft Intune o Enterprise Mobility può includere una licenza per l'uso di alcuni software scaricabili. È possibile verificare quali software sono concessi in licenza esaminando i termini e le condizioni del contratto.
@@ -39,4 +37,3 @@ Se l'acquisto è stato effettuato direttamente con carta di credito o tramite un
 Se non si conosce con certezza il software a cui si ha diritto, contattare il proprio Account Executive o partner oppure rivolgersi al [Supporto tecnico dei Microsoft Online Services](https://technet.microsoft.com/en-us/dn932057.aspx).
 
 Se invece è stata eseguita la sottoscrizione per una versione di valutazione, scaricare tale versione dal [TechNet Evaluation Center](https://www.microsoft.com/evalcenter/try).
-

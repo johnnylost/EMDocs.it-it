@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 6c7088a9-ca88-4ff2-97a6-f842691fd3c7
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: 88625a3bc5ac5f1a877650f73185721674e0f28d
-ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="protect-company-data-on-mobile-devices-through-app-management-policies"></a>Proteggere i dati aziendali nei dispositivi mobili usando i criteri di gestione delle app
 La protezione dei dati aziendali è di vitale importanza e rappresenta un compito sempre più complesso man mano che aumenta il numero di dipendenti che usano i dispositivi mobili personali per accedere alle risorse aziendali, inclusi i messaggi e gli allegati di posta elettronica. Per gli amministratori IT è importante assicurarsi che i dati aziendali siano protetti anche quando quei dispositivi mobili non si trovano all'interno della sede fisica dell'azienda.
 
@@ -74,4 +71,3 @@ Le app gestite sono app a cui sono applicati criteri MAM per renderle conformi a
 
 ## <a name="where-to-go-from-here"></a>Come proseguire
 Dopo aver acquisito una certa familiarità con il processo generale di MAM, è possibile [usare i criteri di gestione delle app mobili in Intune](mam-intune.md) o [i criteri di gestione delle app mobili in Configuration Manager](mam-configmgr.md). È anche possibile vedere altre informazioni [sull'esperienza dell'utente finale con MAM](end-user-experience-mam.md).
-

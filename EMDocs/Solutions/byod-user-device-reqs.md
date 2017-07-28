@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: a6319952-e9cd-4308-b9b9-b2e6005e6506
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: e8052d7c45b1b0a579dab9c17112907ade027f8f
-ms.contentlocale: it-it
-ms.lasthandoff: 11/28/2016
-
-
+ms.openlocfilehash: 331f973fc5fb7d335eda0a2310ba5bd6b9540f87
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="user-and-device-requirements"></a>Requisiti di utenti e dispositivi
 
 Prima di consentire agli utenti di accedere alle risorse aziendali dai propri dispositivi, rispondere alle domande nelle sezioni seguenti in collaborazione con gli utilizzatori di queste risorse nell'ambiente usato e con il reparto IT. La figura sottostante illustra le interazioni tra utenti e dispositivi, con l'obiettivo finale di accedere ai dati e di usarli. Si noti che il diagramma non valuta la posizione geografica. Sebbene la posizione geografica sia un aspetto importante, che verrà trattato più avanti in questa guida, lo scopo di questa figura è illustrare i componenti principali di utenti e dispositivi. Fare le dovute considerazioni di progettazione per consentire questa comunicazione.
@@ -69,4 +66,3 @@ I requisiti di utenti e dispositivi sono suddivisi in tre aree:
 ### <a name="technical-support"></a>Supporto tecnico
 - Il team responsabile della rete e della sicurezza è pronto a inserire tra le proprie mansioni lo svolgimento a intervalli regolari di controlli di conformità sui dispositivi?
 - Sono in vigore criteri e procedure di gestione delle modifiche a supporto dell'implementazione di BYOD?
-

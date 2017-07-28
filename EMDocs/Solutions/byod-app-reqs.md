@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 0c1313b9-361f-4732-a92c-23d0dac07733
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: d5297dbb3d22feda4189bc120b2bb4537fa5f590
-ms.contentlocale: it-it
-ms.lasthandoff: 11/28/2016
-
-
+ms.openlocfilehash: 64d000d8d4313f9b10d145564eef3d2d2cbff5ed
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="app-requirements"></a>Requisiti delle app
 
 Ogni organizzazione usa una serie di funzionalità tecniche per consentire al personale di eseguire le attività in modo ottimizzato e quasi sempre lo strumento principale è un'app. Queste funzionalità possono essere combinate in un approccio multipiattaforma in cui vengono usate diverse tecnologie per raggiungere un determinato obiettivo o tramite la creazione di un'app personalizzata in grado di eseguire un'attività o di automatizzare alcuni processi. Le app sono importanti da considerare per la progettazione della strategia BYOD. Gli utenti useranno diversi fattori di forma per l'impiego queste app. Pertanto, è necessario considerare la varietà di funzionalità che tali app devono supportare. La figura sottostante illustra il modo in cui utenti e dispositivi usano le app per l'impiego dei dati e le considerazioni per ogni componente del sottodominio Apps.
@@ -119,4 +116,3 @@ I requisiti delle app sono classificati in sei aree:
 - È stata eseguita un'analisi della privacy per queste app?
 - Le app useranno riquadri animati?
     - In tal caso, questi riquadri animati causeranno inavvertitamente la diffusione di informazioni?
-

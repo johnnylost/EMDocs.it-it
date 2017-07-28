@@ -12,15 +12,12 @@ ms.technology: techgroup-identity
 ms.assetid: a996fbf8-ece4-40bc-b866-d4606c230027
 ms.reviewer: v-craic
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5d9a4bd18660a573b2dd76c0263b89ecf5ae4610
 ms.openlocfilehash: 3d84bbe6d252976e1a3152f65003787e37d408c8
-ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="share-sensitive-data-internally-and-externally"></a>Condividere i dati sensibili internamente ed esternamente
 
 Anche se molte violazioni dei dati sono dovute agli attacchi informatici, gli esperti concordano sul fatto che molte altre sono il risultato di errori umani o di momenti di distrazione che si verificano quando i dipendenti divulgano inavvertitamente dati aziendali sensibili. Applicando i protocolli appropriati per la prevenzione della perdita dei dati e le informazioni di sicurezza, è possibile impedire quasi tutti questi tipi di violazioni.
@@ -96,4 +93,3 @@ Nella parte superiore di questa finestra è necessario digitare l'indirizzo di p
 
 > [!IMPORTANT]
 > Guardare la presentazione [Collaborate securely using Azure Information Protection](https://myignite.microsoft.com/videos/49947) (Collaborare in modo sicuro usando Azure Information Protection) di Microsoft Ignite per altre informazioni su questo scenario.
-

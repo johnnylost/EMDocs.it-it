@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: eb38d461-bfb0-407c-a5e6-94fa728a86d6
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
-ms.openlocfilehash: 5c917ca88c5c33e4274b0437fbd57eb07865866f
-
-
+ms.openlocfilehash: eaa10ada83bb18b1c5b5094a07a91f5b7dbfc405
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="next-steps-and-additional-resources"></a>Passaggi successivi e risorse aggiuntive
 
 >[!NOTE]
@@ -54,9 +53,3 @@ Il monitoraggio delle risorse seguenti fornisce le informazioni e gli aggiorname
 - [Blog](http://blogs.technet.com/b/configurationmgr/) di Microsoft System Center Configuration Manager
 - [Blog](http://blogs.technet.com/b/configmgrteam/) del team di Microsoft System Center Configuration Manager
 - [Blog](http://blogs.office.com/office365forbusiness/) di Microsoft Office 365
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-
