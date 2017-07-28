@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 906566e0-f05e-4af5-b4d5-0efb083dca76
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 2342889a686db8a6496c97979cb222af8347241a
-ms.openlocfilehash: e498fd2a1efea2ef6416185c5ce63223004805c6
-ms.contentlocale: it-it
-ms.lasthandoff: 01/05/2017
-
-
+ms.openlocfilehash: 46c8690074703d4e7de667cea115ca6db7818984
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="windows-phone"></a>Windows Phone
 
 Il processo di registrazione e le schermate visualizzate dall'utente saranno leggermente diverse a seconda della versione del sistema operativo in esecuzione sul dispositivo dell'utente finale.  In questo argomento viene descritta l'esperienza dell'utente finale con la registrazione di dispositivi Windows Phone.
@@ -101,4 +98,3 @@ Ogni 8 ore per impostazione predefinita, i dispositivi vengono controllati per v
 
 ### <a name="where-to-go-from-here"></a>Come proseguire
 L'esperienza dell'utente finale è leggermente diversa in altri dispositivi mobili. Sono disponibili altre informazioni sull'esperienza dell'utente finale per [Android](end-user-experience-conditional-access-android.md) e [iOS](end-user-experience-conditional-access-ios.md).
-

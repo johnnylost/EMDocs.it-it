@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: edc744d8-97d9-42e0-8906-6f0dedd8d629
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: 4a7537775ce2c6c19850720f789ea5882d062aec
-ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="implementing-your-solution-for-protecting-email-and-attachments"></a>Implementazione di una soluzione per proteggere la posta elettronica e gli allegati aziendali
 Questo articolo aiuta a preparare e implementare una soluzione per proteggere i contenuti e gli allegati dei messaggi di posta elettronica aziendali.
 
@@ -98,4 +95,3 @@ Per istruzioni dettagliate su come distribuire una soluzione per proteggere i co
 
 - [Usare l'accesso condizionale con Microsoft Intune](conditional-access-intune.md)
 - [Usare l'accesso condizionale con Microsoft Intune e Configuration Manager](conditional-access-intune-configmgr.md)
-

@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: d1653116-3922-40d3-bc4f-3d845b6aaecb
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: 717183b0b7f94277379ebbeee2136227d29f88ef
-ms.contentlocale: it-it
-ms.lasthandoff: 11/28/2016
-
-
+ms.openlocfilehash: 99b39ded38f8980103c57b0359ab5f3c3ee4ef53
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="user-and-device-considerations"></a>Considerazioni su utenti e dispositivi
 
 Il primo problema relativo a utenti e dispositivi da affrontare è come le tecnologie esistenti influiranno sull'esperienza utente per l'accesso sicuro alle risorse aziendali. Indirizzare l'esperienza utente in diversi dispositivi può essere difficile, non solo da un punto di vista della sicurezza, ma anche dal punto di vista dello sviluppo delle app. Il canale di comunicazione tra il dispositivo e le risorse aziendali deve essere valutato in base al livello di sicurezza di rete appropriato necessario per evitare la perdita di dati durane il trasferimento.
@@ -209,4 +206,3 @@ Usare l'elenco che segue per comprendere i vantaggi e gli svantaggi delle opzion
 > Per altre informazioni sui profili Wi-Fi in Configuration Manager, vedere [Introduzione ai profili Wi-Fi in Configuration Manager](https://technet.microsoft.com/library/dn261224.aspx).
 
 Il percorso di rete svolge un ruolo importante per le considerazioni sugli utenti e i dispositivi. È possibile sfruttare il controllo degli accessi a più fattori in ADFS per abilitare i criteri di autorizzazione per applicazione, con i quali è possibile consentire o negare l'accesso in base a utente, dispositivo e percorso di rete. Per altre informazioni su come configurare un ambiente per convalidare questa funzionalità, vedere [Gestire i rischi con il controllo degli accessi a più fattori](https://technet.microsoft.com/library/dn280936.aspx).
-

@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 6d7c4104-b85f-407e-8832-0e6bbac934f5
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: 418aa02b98040a8a74313513f05b231a20ea472a
-ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="use-mobile-app-management-policies-in-intune"></a>Usare i criteri di gestione delle app mobili in Intune
 Uno dei motivi principali per cui molte aziende usano Microsoft Intune è la possibilità di distribuire le app che servono agli utenti per completare il proprio lavoro. Prima di distribuire le app, sarà necessario [gestire i dispositivi](https://docs.microsoft.com/intune/deploy-use/enroll-devices-in-microsoft-intune).
 
@@ -117,4 +114,3 @@ Usare le procedure seguenti per monitorare la distribuzione dell'app dalla conso
 ## <a name="where-to-go-from-here"></a>Come proseguire
 
 Dopo aver creato e distribuito un'app associata a un criterio MAM, sarà possibile approfondire la conoscenza [dell'esperienza dell'utente finale con MAM](end-user-experience-mam.md). Questo consente di prepararsi ad affrontare eventuali problemi che potrebbero verificarsi.
-

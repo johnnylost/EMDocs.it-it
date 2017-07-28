@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 162e59f3-33a2-44b5-a59f-24612dc743f3
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 07aeaee067dbd6c827992b9d613d7716b5d57954
 ms.openlocfilehash: 1bf552e92104a7872099e555df12993dd4258293
-ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="how-to-manage-your-own-password"></a>Come gestire la password
 
 Agli utenti che non sono amministratori in un'organizzazione che usa Office 365 o Accounts Microsoft per accedere alle risorse aziendali, si consiglia di leggere le sezioni seguenti per informazioni su come risolvere i problemi comuni con la password.
@@ -79,4 +76,3 @@ Problemi durante l'impostazione della password? Leggere le informazioni sui [pro
 
 ### <a name="want-to-learn-more"></a>Altre informazioni
 Vedere [Enterprise Mobility + Security](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).
-

@@ -13,21 +13,16 @@ ms.technology:
 ms.assetid: 7bfee675-ec69-479c-bda2-f807bbb55712
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: abcb3e7df267e81b43c81ed9c94d955602a67dc6
 ms.openlocfilehash: 2b11d1d3118ce7a2414513b56cf6cfce1b2877ce
-ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 07/25/2017
 ---
-
-<a id="enterprise-mobility--security-support-faqs" class="xliff"></a>
-# Domande frequenti sul supporto per Enterprise Mobility + Security
+# <a name="enterprise-mobility--security-support-faqs"></a>Domande frequenti sul supporto per Enterprise Mobility + Security
 Microsoft fornisce supporto globale pre-vendita, per la fatturazione e per le sottoscrizioni e supporto tecnico per Enterprise Mobility + Security(EMS). Gli amministratori possono richiedere supporto tramite il [portale di Office 365](https://portal.office.com/Default.aspx?SkipSspr=true) o contattando il [supporto di Office 365](https://support.office.com/article/Contact-Office-365-for-business-support-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b?CorrelationId=c1f4c670-18b3-41ec-81c9-e8d383caa6ad).
 
-<a id="answers-to-common-ems-support-questions" class="xliff"></a>
-## Risposte alle domande più frequenti sul supporto per EMS
+## <a name="answers-to-common-ems-support-questions"></a>Risposte alle domande più frequenti sul supporto per EMS
 
 **È necessario acquistare un piano di supporto tecnico di Azure per inviare una richiesta di assistenza per Enterprise Mobility + Security?**
 
@@ -65,11 +60,9 @@ Accedere al portale di Azure per l'assegnazione delle licenze. Seguire le istruz
 
 Accedere al portale di Azure per l'assegnazione delle licenze. Seguire le istruzioni nel messaggio di benvenuto per gestire le nuove licenze di Enterprise Mobility + Security.
 
-<a id="additional-help-for-other-questions" class="xliff"></a>
-## Informazioni aggiuntive per altre domande
+## <a name="additional-help-for-other-questions"></a>Informazioni aggiuntive per altre domande
 [Forum del supporto di Azure Active Directory](https://social.msdn.microsoft.com/forums/home?forum=windowsazuread)
 
 [Forum del supporto di Azure Information Protection](http://www.yammer.com/AskIPTeam)
 
 [Forum del supporto di Intune](https://social.technet.microsoft.com/forums/windows/home?category=microsoftintune)
-

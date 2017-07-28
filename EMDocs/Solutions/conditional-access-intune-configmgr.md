@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: e65a0662-33ff-4e8c-9305-a21e80ea0f69
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: eae78f8e5a4c5a1a0e44cf17fa320175ac622ac1
-ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="use-conditional-access-with-intune-and-configuration-manager"></a>Usare l'accesso condizionale con Intune e Configuration Manager
 Questo argomento presume che System Center Configuration Manager e Microsoft Exchange Server (locale, con Exchange Online o con una distribuzione ibrida di entrambi) siano già in uso all'interno dell'azienda per la gestione dell'accesso alla posta elettronica. Questa soluzione combina l'ambiente di Configuration Manager esistente con Intune per gestire in modo sicuro l'accesso alla posta elettronica in tutti i tipi di dispositivi, indipendentemente dalla loro posizione.
 
@@ -87,4 +84,3 @@ Inoltre:
   È ora possibile scoprire come [distribuire Exchange Server locale con Intune](conditional-access-intune-exchange.md).
 
 Se l'ambiente include sia Exchange Online che Exchange locale, è possibile leggere l'articolo sulla [distribuzione di Exchange Online ed Exchange locale con Microsoft Intune e Configuration Manager](conditional-access-intune-configmgr-coexist.md).
-

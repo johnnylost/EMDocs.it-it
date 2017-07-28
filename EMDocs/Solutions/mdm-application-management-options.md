@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: 1f77eba2-8e27-4e08-b2f2-e71e3d776cf4
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
-ms.openlocfilehash: 58270148fda3f3b3bb407055abff962ae86f1a14
-
-
+ms.openlocfilehash: 90d23fd6b289971cdd6b0a687799a5b6a34cf772
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="application-management-options"></a>Opzioni di gestione delle applicazioni
 
 >[!NOTE]
@@ -65,9 +64,3 @@ In base alle risposte date alle domande del passaggio 1, l'utente dovrebbe esser
 - Le organizzazioni che per il momento non hanno configurato un'infrastruttura di Configuration Manager dovranno pianificarla, installarla e configurarla prima dell'integrazione con Intune
 
 Per informazioni dettagliate sulle opzioni di gestione delle applicazioni mobili, vedere la sezione relativa alla configurazione e alla distribuzione dei criteri di gestione delle applicazioni per dispositivi mobili per Intune e Configuration Manager nella console di Microsoft Intune. È importante controllare anche l'elenco delle applicazioni Microsoft che possono essere usate con i criteri di MAM di Intune, nonché l'elenco più ampio delle app dei partner compatibili di Intune.
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

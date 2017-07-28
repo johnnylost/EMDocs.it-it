@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 181eb917-119d-4e56-8ead-1182b1dc5cab
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: cbf0f54d2d288baf66f914ef8366a70448218607
-ms.contentlocale: it-it
-ms.lasthandoff: 11/28/2016
-
-
+ms.openlocfilehash: 9eb47bcc9b64495759727b7211161b0945bda8b2
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="data-access-and-protection-considerations"></a>Considerazioni su protezione e accesso ai dati
 
 La perdita di dati sensibili è un rischio per qualsiasi azienda e con l'introduzione del modello BYOD le informazioni si trovano in un numero sempre maggiore di posizioni. Questo si traduce in una più ampia varietà di minacce e rischi che devono essere affrontati in modo corretto. A causa delle diverse normative di legge, aziendali e di settore che regolano la protezione dei dati sensibili, proteggere i dati può risultare complesso. È importante tenere conto di questi requisiti legali, dei criteri aziendali interni e dei regolamenti del settore.
@@ -250,4 +247,3 @@ L'applicazione della governance dei dati nei vari file server per controllare qu
 Quando si sfruttando le funzionalità di Controllo dinamico degli accessi, è possibile identificare i dati mediante la classificazione automatica e manuale dei file. È ad esempio possibile contrassegnare i dati nei file server nell'organizzazione. Si può anche controllare l'accesso ai file applicando criteri di sicurezza di rete che usano criteri di accesso centrale. Controllo dinamico degli accessi si avvale anche della protezione di Rights Management Services (RMS) tramite la crittografia RMS automatica per i documenti riservati. È ad esempio possibile configurare RMS per crittografare tutti i documenti contenenti informazioni sulla legge HIPPA (Health Insurance Portability and Accountability Act). Per indagini forensi e controlli, i criteri di controllo centrale possono essere usati per i rapporti di conformità e le analisi forensi. È possibile identificare chi ha accesso a informazioni riservate.
 
 Controllo dinamico degli accessi, una funzione del ruolo File server, garantisce ai reparti IT le funzionalità elencate nella tabella precedente. Per altre informazioni su Controllo dinamico degli accessi, vedere [Controllo dinamico degli accessi: panoramica dello scenario](https://technet.microsoft.com/library/hh831717.aspx).
-

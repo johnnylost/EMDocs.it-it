@@ -1,6 +1,6 @@
 ---
 title: 'Passaggio 4: Piano per la gestione dei dispositivi mobili SaaS (Software as a Service)'
-description: Questo articolo consente ai clienti di pianificare e progettare una soluzione SaaS per l&quot;implementazione della gestione di dispositivi mobili tramite una soluzione Microsoft Enterprise Mobility + Security.
+description: Questo articolo consente ai clienti di pianificare e progettare una soluzione SaaS per l'implementazione della gestione di dispositivi mobili tramite una soluzione Microsoft Enterprise Mobility + Security.
 keywords: 
 author: andredm7
 ms.author: andredm
@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: ab50bf43-0014-4d55-a52d-12e0428adc12
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
-ms.openlocfilehash: bef8884e314bafe4721d2691945d96e602e29846
-
-
+ms.openlocfilehash: 4349c9949bf10b66586400c06640bdaa6c837fb6
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="step-4---plan-for-software-as-a-service-mobile-device-management"></a>Passaggio 4: Piano per la gestione dei dispositivi mobili SaaS (Software as a Service)
 
 >[!NOTE]
@@ -39,9 +38,3 @@ Questa sezione della guida include 4 passaggi. Il tempo totale necessario per le
 - [Identificare i requisiti di integrazione dell'infrastruttura e della soluzione SaaS](mdm-identify-saas-solution-infrastructure-integration-needs.md)
 - [Sviluppare una strategia di gestione dei dispositivi mobili SaaS](mdm-develop-saas-mdm-strategy.md)
 - [Identificare i requisiti di connettività SaaS](mdm-identify-saas-connectivity-requirements.md)
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

@@ -1,6 +1,6 @@
 ---
 title: 'Passaggio 2: Preparare la gestione dei dispositivi mobili'
-description: Questo articolo consente ai clienti di pianificare e progettare un&quot;implementazione della gestione dei dispositivi mobili tramite Enterprise Mobility + Security.
+description: Questo articolo consente ai clienti di pianificare e progettare un'implementazione della gestione dei dispositivi mobili tramite Enterprise Mobility + Security.
 keywords: 
 author: andredm7
 ms.author: andredm
@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: 3cdc1318-50a2-4280-b051-1e009620816e
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
-ms.openlocfilehash: 13b9f2fac331d25d797ed9d21f27cc70c876eeda
-
-
+ms.openlocfilehash: 35dea3704aeb39f8dd7f2b360efbe4b3d5cda836
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="step-2---plan-for-mobile-device-management"></a>Passaggio 2: Preparare la gestione dei dispositivi mobili
 
 >[!NOTE]
@@ -42,9 +41,3 @@ Questa sezione della guida include 11 passaggi. Il tempo totale necessario per l
 - [Opzioni di gestione della posta elettronica](mdm-email-management-options.md)
 - [Opzioni di gestione della connettività di rete](mdm-network-connectivity-management-options.md)
 - [Opzioni di gestione dei certificati](mdm-certificate-management-options.md)
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

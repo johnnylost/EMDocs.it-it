@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 8cfe421b-52c9-4d44-8df1-15c82375c335
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: c4743cb8fba4db7072d6af13a2ac4943bd35a423
-ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="deploy-exchange-online-with-intune"></a>Distribuire Exchange Online con Intune
 
 Ora che si sono lette con attenzione le [indicazioni sull'architettura per la protezione di documenti e messaggi di posta elettronica aziendali](architecture-guidance-for-protecting-company-email-and-documents.md) è possibile procedere alla distribuzione di una soluzione.
@@ -74,4 +71,3 @@ Nel dashboard di Intune fare clic sul riquadro **Dispositivi bloccati da Exchang
 
 ## <a name="where-to-go-from-here"></a>Come proseguire
 Dopo aver distribuito una soluzione per la protezione della posta elettronica aziendale e dei dati di questa all'interno dei dispositivi mobili, è possibile scoprire di più sull'[esperienza dell'utente finale relativa all'accesso condizionale](end-user-experience-conditional-access.md). Ciò consente di prepararsi ad affrontare i problemi che potrebbero verificarsi quando gli utenti finali registrano dispositivi specifici.
-

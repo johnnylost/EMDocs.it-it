@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 0b5e4330-6fa5-445c-b73e-86ce5b9c7964
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 2342889a686db8a6496c97979cb222af8347241a
-ms.openlocfilehash: fc06debb97cdbd3be1a241a711f36f6c530d65cf
-ms.contentlocale: it-it
-ms.lasthandoff: 01/05/2017
-
-
+ms.openlocfilehash: 9a6d883e2c803ead2dd74094ef4ab81194dc61d7
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="android"></a>Android
 
 Il processo di registrazione e le schermate visualizzate dall'utente saranno leggermente diverse a seconda della versione del sistema operativo in esecuzione sul dispositivo dell'utente finale. In questo argomento viene descritta l'esperienza dell'utente finale con la registrazione di dispositivi Android.
@@ -107,4 +104,3 @@ Ogni 8 ore per impostazione predefinita, i dispositivi vengono controllati per v
 
 ### <a name="where-to-go-from-here"></a>Come proseguire
 L'esperienza dell'utente finale è leggermente diversa in altri dispositivi mobili. Altre informazioni sull'esperienza dell'utente finale per [iOS](end-user-experience-conditional-access-ios.md) e [Windows Phone](end-user-experience-conditional-access-winphone.md).
-

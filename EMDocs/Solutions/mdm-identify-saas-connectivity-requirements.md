@@ -1,6 +1,6 @@
 ---
 title: "Identificare i requisiti di connettività SaaS"
-description: "Quanto articolo consente di identificare i requisiti di connettività SaaS quando si pianifica l&quot;implementazione della gestione di dispositivi mobili tramite le soluzione di Enterprise Mobility + Security."
+description: "Quanto articolo consente di identificare i requisiti di connettività SaaS quando si pianifica l'implementazione della gestione di dispositivi mobili tramite le soluzione di Enterprise Mobility + Security."
 keywords: 
 author: andredm7
 ms.author: andredm
@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: 6afbce4c-7500-4387-a19c-dff52c152097
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
-ms.openlocfilehash: 3cea66edad4cb791342cb193495629fa4ce27d0d
-
-
+ms.openlocfilehash: 9cc654fadde9494e364d3bc1513bc5bf3c78f6a2
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="identify-saas-connectivity-requirements"></a>Identificare i requisiti di connettività SaaS
 
 >[!NOTE]
@@ -72,9 +71,3 @@ A seconda delle risposte fornite alle domande nell'Attività 2, dovrebbe essere 
 
 - Le organizzazioni che per il momento non hanno configurato un'infrastruttura di Configuration Manager dovranno pianificarla, installarla e configurarla prima dell'integrazione con Intune
 - Richiede requisiti aggiuntivi per la distribuzione locale e modifiche della configurazione per le organizzazioni con Configuration Manager.
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

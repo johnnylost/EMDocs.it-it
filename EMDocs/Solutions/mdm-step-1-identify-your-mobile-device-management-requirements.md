@@ -1,6 +1,6 @@
 ---
 title: 'Passaggio 1: Identificare i requisiti di gestione dei dispositivi mobili'
-description: Questo articolo include considerazioni sulla progettazione per l&quot;identificazione dei requisiti di gestione di dispositivi mobili per l&quot;organizzazione.
+description: Questo articolo include considerazioni sulla progettazione per l'identificazione dei requisiti di gestione di dispositivi mobili per l'organizzazione.
 keywords: 
 author: YuriDio
 ms.author: yurid
@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: 32ef7e4e-41b6-4e40-b9d9-6d2bfb464a99
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: 85a05de72b2ba0dd52c9ebe1da274a5783fba34f
-
-
+ms.openlocfilehash: 9501b4f9a2a584e6a54571019a2a3726523cfc5f
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="step-1---identify-your-mobile-device-management-requirements"></a>Passaggio 1: Identificare i requisiti di gestione dei dispositivi mobili
 
 >[!NOTE]
@@ -34,9 +33,3 @@ Questa sezione della guida include 3 passaggi. Il tempo totale necessario per le
 - [Identificare le esigenze aziendali](mdm-identify-business-needs.md)
 - [Specificare i requisiti di posizione](mdm-specify-mdm-location-requirements.md)
 - [Sviluppare una strategia di adozione](mdm-develop-mdm-adoption-strategy.md)
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

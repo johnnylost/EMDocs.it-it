@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: c8824726-082e-417a-8522-183a69328ae4
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: cf9b0a04e00ddf991e0f068144a1993f9fb88527
-
-
+ms.openlocfilehash: d5e7d0231795558aadc96786741e710a3352d097
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="specify-your-mobile-device-management-location-requirements"></a>Specificare i requisiti di posizione per la gestione dei dispositivi mobili
 
 >[!NOTE]
@@ -39,9 +38,3 @@ I requisiti di posizione sono uno dei numerosi fattori da tenere in considerazio
 
 >[!TIP]
 > Assicurarsi di prendere appunti per ogni risposta e di comprendere la logica alla base della risposta. La sezione successiva esaminerà le opzioni disponibili e i vantaggi e svantaggi di ogni opzione.  Avendo risposto a queste domande, sarà possibile selezionare la soluzione più adatta a soddisfare le esigenze aziendali.
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

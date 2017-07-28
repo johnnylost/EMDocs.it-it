@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: e60e3714-5120-41e2-9878-83ac75107967
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 07aeaee067dbd6c827992b9d613d7716b5d57954
 ms.openlocfilehash: 783d5747b55623ed10abf00a0413bbe6b9ed47a3
-ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="fasttrack-center-benefit-overview"></a>Panoramica di FastTrack Center Benefit
 
 Con FastTrack Center Benefit per Microsoft Azure Active Directory Premium e Microsoft Intune, è possibile collaborare in remoto con gli esperti Microsoft per preparare l'ambiente per l'uso e pianificare la distribuzione e l'utilizzo all'interno dell'organizzazione. Per altre informazioni sull'idoneità, vedere [Processo FastTrack Center Benefit per Enterprise Mobility + Security (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
@@ -56,4 +53,3 @@ Tutto il supporto tecnico per il caricamento viene fornito in remoto da personal
 **Altre informazioni**
 
 [Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
-

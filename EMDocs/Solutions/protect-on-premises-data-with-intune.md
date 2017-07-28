@@ -13,13 +13,11 @@ ms.assetid: ebf7be63-4ac2-4158-9772-58f15416ccb7
 ms.reviewer: vlpetros
 ms.suite: ems
 ms.custom: active-directory
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5ea7cc0c6c7b8286077c0bbc4251a22d138ed8e2
-ms.openlocfilehash: 98acda761b353eacb2ce861dcef2f39385691021
-ms.contentlocale: it-it
-ms.lasthandoff: 05/29/2017
-
-
+ms.openlocfilehash: 7c835faa3fe56fdc9cf42f0569fefe1acfa22eda
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 07/25/2017
 ---
 # <a name="protect-on-premises-company-data-with-intune"></a>Proteggere i dati aziendali locali con Intune
 I firewall da soli non possono più offrire un limite di sicurezza aziendale adeguato. Oggi, i limiti di sicurezza devono includere gli utenti finali e tenere conto delle loro modalità di accesso, uso e condivisione dei dati aziendali. Indipendentemente dal fatto che usino smartphone, tablet o portatili, gli Information Worker si aspettano di poter accedere facilmente alle risorse da qualsiasi posizione, su qualsiasi dispositivo e quando necessario. L'implementazione di funzionalità di accesso e protezione adeguate per gli utenti può rappresentare una sfida per gli amministratori IT che devono anche assicurarsi di garantire la protezione dei dati aziendali. Con Enterprise Mobility + Security (EMS) è possibile garantire la produttività dei dipendenti con le app e i dispositivi preferiti, mantenendo allo stesso tempo protetti i dati aziendali locali. Le informazioni seguenti descrivono in che modo.
@@ -155,4 +153,3 @@ Quando si [distribuiscono i profili certificato](https://docs.microsoft.com/intu
 [Iniziare a usare Enterprise Mobility + Security](https://docs.microsoft.com/enterprise-mobility/solutions/ems-get-started)
 
 [Microsoft Enterprise Mobility](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
-

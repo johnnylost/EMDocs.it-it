@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: ecb6271f-8f38-42bd-aae7-10ba5e17a5f1
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: 7dbb0c9b1b2b3b29eb54ad8cdeee527d9d7f078f
-ms.contentlocale: it-it
-ms.lasthandoff: 11/28/2016
-
-
+ms.openlocfilehash: 0bd85cff9c2f1c17e7e6a1a4868c769eecd5be70
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 07/25/2017
 ---
-
 #<a name="envisioning-the-byod-infrastructure-solution"></a>Progettazione della soluzione di infrastruttura BYOD
 
 Dopo aver definito chiaramente il problema BYOD che si sta provando a risolvere, è possibile definire una soluzione al problema e i requisiti dettagliati per la soluzione.
@@ -52,4 +49,3 @@ Le considerazioni relative il dominio del problema BYOD illustrate in questa gui
 - [Requisiti di protezione e accesso ai dati](byod-data-access-protection-reqs.md)
 - [Requisiti di gestione](byod-management-reqs.md)
 - [Requisiti delle app](byod-app-reqs.md)
-

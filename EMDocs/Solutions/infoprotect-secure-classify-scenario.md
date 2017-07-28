@@ -12,15 +12,12 @@ ms.technology: techgroup-identity
 ms.assetid: 65409d5c-4f1b-4026-86e9-e65e1c4fe2b4
 ms.reviewer: v-craic
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 34d04195000f7cdb5a9efdfa31788a12cc8d8d5b
-ms.openlocfilehash: a2fc2e045c413707ad9d53e738b1eec6457c3a95
-ms.contentlocale: it-it
-ms.lasthandoff: 02/22/2017
-
-
+ms.openlocfilehash: 98bedbc50843cb7cfc284f5f29d40ca8b298f11a
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="secure-data-using-classification-labeling-and-protection"></a>Proteggere i dati usando la classificazione, l'assegnazione di etichette e la protezione
 
 Al giorno d'oggi la condivisione delle informazioni viene eseguita da più dispositivi e all'esterno della società.  Diventa fondamentale garantire che i dati aziendali critici non vengano compromessi in questo processo e contemporaneamente consentire agli utenti di condividere in modo sicuro i dati necessari per svolgere il lavoro. Con pratiche come l'outsourcing sempre più diffuse può essere necessario condividere dati aziendali riservati con appaltatori e fornitori. Poiché non tutti i contenuti necessitano della stessa protezione, alle società viene richiesto di identificare i dati da proteggere.
@@ -110,4 +107,3 @@ Gli amministratori IT possono impostare criteri per l'applicazione automatica de
 - International Banking Account Number (IBAN)
 
 Leggere le [informazioni sulle condizioni predefinite](/information-protection/deploy-use/configure-policy-classification#information-about-the-built-in-conditions) per altri dettagli su questo tipo di configurazione.
-

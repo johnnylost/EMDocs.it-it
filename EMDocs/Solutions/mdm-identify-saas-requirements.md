@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: 5380e56c-9c48-459e-aea5-95ad90dbb7d1
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 7d9c38008b5b47ea41ff331f1de763de5c119c5e
-ms.openlocfilehash: 68a42159dfbf6b0d435b0543466d4cec26e55b67
-
-
+ms.openlocfilehash: b80bc794df43effc05656e7ec0b39cbf476b151e
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="identify-saas-requirements"></a>Identificare i requisiti SaaS
 
 >[!NOTE]
@@ -116,9 +115,3 @@ Come parte della pianificazione del ciclo di vita della gestione SaaS, è necess
 
 >[!TIP]
 >Assicurarsi di prendere appunti per ogni risposta e di comprendere la logica alla base della risposta. Le attività successive esamineranno le opzioni disponibili e i vantaggi e svantaggi di ogni opzione.  Rispondere a queste domande consentirà di selezionare l'opzione più adatta alle esigenze aziendali.
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-

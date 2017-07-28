@@ -13,13 +13,12 @@ ms.technology:
 ms.assetid: 423c1de5-db20-4327-8c3b-a39b830cb58b
 ms.reviewer: 
 ms.suite: ems
-translationtype: Human Translation
-ms.sourcegitcommit: 5adb7f68efacdfa20d78c3cf5853fa374793140a
-ms.openlocfilehash: ae5b9b0953988820d7c9517292c9a4a56382c6e7
-
-
+ms.openlocfilehash: 0739654b21c1957a7796293797708bb39b02f02f
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="byod-summary-and-additional-resources"></a>Riepilogo e risorse aggiuntive per BYOD
 
 Dopo aver identificato i requisiti e i limiti dell'ambiente usato e quindi aver valutato tutte le considerazioni di progettazione descritte in modo dettagliato nel presente documento, è possibile creare il progetto di infrastruttura BYOD più adatto alle proprie esigenze personali. Implementare quindi il progetto di infrastruttura BYOD in un ambiente di testing, testarlo e distribuirlo in un ambiente di produzione.
@@ -34,9 +33,3 @@ Per le soluzioni relative allo scenario BYOD, vedere:
 - [Understanding BYOD: How to Make it Happen](https://channel9.msdn.com/Shows/TechNet+Radio/TechNet-Radio-Part-2-Understanding-BYOD-How-to-Make-it-Happen) (Informazioni su BYOD: come realizzarlo)
 - [BYOD and Design Considerations](https://channel9.msdn.com/Shows/TechNet+Radio/TechNet-Radio-Part-3-BYOD-and-Design-Considerations) (BYOD e considerazioni sulla progettazione)
 - [Guida alle considerazioni sulla progettazione per la gestione dei dispositivi mobili](http://aka.ms/mdmdcg)
-
-
-
-<!--HONumber=Nov16_HO4-->
-
-
