@@ -1,5 +1,1 @@
-<Token xmlns:xlink="http://www.w3.org/1999/xlink">Esperienza di Windows Server Essentials</Token>
-
-<!--HONumber=Jul16_HO3-->
-
-
+<Token xmlns:xlink="http://www.w3.org/1999/xlink">Esperienza Windows Server Essentials</Token>

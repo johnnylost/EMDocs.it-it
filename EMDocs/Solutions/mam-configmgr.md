@@ -13,15 +13,12 @@ ms.technology:
 ms.assetid: 74288276-84d3-4d24-8307-7875491be9c9
 ms.reviewer: 
 ms.suite: ems
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 0be1ad609016303572b67676c03f544d88fb5576
 ms.openlocfilehash: d0bc5fb61b481256d816df7c898ade798379aa19
-ms.contentlocale: it-it
-ms.lasthandoff: 07/07/2017
-
-
+ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.translationtype: HT
+ms.contentlocale: it-IT
+ms.lasthandoff: 07/25/2017
 ---
-
 # <a name="use-mobile-app-management-policies-in-configuration-manager"></a>Usare i criteri di gestione delle app mobili in Configuration Manager
 A partire da System Center 2012 Configuration Manager SP2, i criteri di gestione delle applicazioni consentono di modificare la funzionalità delle app distribuite per adeguarle ai criteri aziendali di conformità e di sicurezza. Ad esempio, è possibile limitare le operazioni taglia, copia e incolla in un'app con restrizioni oppure configurare un'app per aprire tutti i collegamenti Web in un browser gestito. I criteri di gestione delle app supportano:
 
@@ -39,7 +36,7 @@ A differenza delle linee di base e degli elementi di configurazione in Configura
 Per applicare restrizioni a un'app, questa deve includere Microsoft Intune App Software Development Kit (SDK). Esistono due metodi per ottenere questo tipo di app:
 
 - **Usare un'app gestita con criteri** (Android e iOS): include App SDK. Per aggiungere questo tipo di applicazione, è possibile specificare un collegamento all'app da un archivio di app, ad esempio l'iTunes store o Google Play. Non sono richieste ulteriori elaborazioni per questo tipo di app. Per un elenco delle app gestite da criteri disponibili per dispositivi iOS e Android, vedere la [raccolta di applicazioni per dispositivi mobili di Microsoft Intune](https://www.microsoft.com/en-us/cloud-platform/microsoft-intune-partners).
-- **Usare un'app di cui è stato eseguito il wrapping** (Android e iOS): app che sono state riassemblate per includere App SDK usando lo strumento per la disposizione testo per app di Microsoft Intune. Questo strumento viene in genere usato per elaborare le app aziendali create internamente. Non può essere usato per elaborare le app state scaricate dall'App Store. Vedere [Preparare le app per iOS per la gestione di applicazioni per dispositivi mobili con lo strumento per la disposizione testo per app di Intune](https://docs.microsoft.com/intune/deploy-use/prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool) e [Preparare le app per Android per la gestione di applicazioni per dispositivi mobili con lo strumento per la disposizione testo per app di Intune](https://docs.microsoft.com/intune/deploy-use/prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool).
+- **Usare un'app di cui è stato eseguito il wrapping** (Android e iOS): app riassemblate per includere App SDK usando lo strumento per la disposizione testo per app di Microsoft Intune. Questo strumento viene in genere usato per elaborare le app aziendali create internamente. Non può essere usato per elaborare le app state scaricate dall'App Store. Vedere [Preparare le app per iOS per la gestione di applicazioni per dispositivi mobili con lo strumento per la disposizione testo per app di Intune](https://docs.microsoft.com/intune/deploy-use/prepare-ios-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool) e [Preparare le app per Android per la gestione di applicazioni per dispositivi mobili con lo strumento per la disposizione testo per app di Intune](https://docs.microsoft.com/intune/deploy-use/prepare-android-apps-for-mobile-application-management-with-the-microsoft-intune-app-wrapping-tool).
 
 ## <a name="create-and-deploy-an-app-in-configuration-manager-with-a-mobile-app-management-policy"></a>Creare e distribuire un'app in Configuration Manager con i criteri di gestione delle app mobili
 
@@ -83,4 +80,3 @@ Per informazioni generali sul monitoraggio delle applicazioni, vedere [Come moni
 ## <a name="where-to-go-from-here"></a>Come proseguire
 
 Dopo aver creato e distribuito un'app associata a un criterio MAM, sarà possibile approfondire la conoscenza [dell'esperienza dell'utente finale con MAM](end-user-experience-mam.md). Questo consente di prepararsi ad affrontare eventuali problemi che potrebbero verificarsi.
-
