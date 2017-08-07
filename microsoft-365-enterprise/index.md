@@ -1,24 +1,24 @@
 ---
-title: Microsoft 365 Enterprise | Microsoft Docs
+title: Documentazione di Microsoft 365 Enterprise | Microsoft Docs
 description: Questo contenuto offre una panoramica di Microsoft Enterprise 365 e raccomandazioni per l'uso in ambiente aziendale.
 author: jeffgilb
 manager: femila
 ms.prod: microsoft-365-business
 ms.topic: article
-ms.date: 07/31/2017
+ms.date: 08/01/2017
 ms.author: jeffgilb
 ms.reviewer: jsnow
 ms.custom: it-pro
-ms.openlocfilehash: fd251af7d1a0caf93bb082babca4b8b9cd355644
-ms.sourcegitcommit: 08c6ef79c677bfd1dcdbbd2ba7fc8010cab8598a
+ms.openlocfilehash: e5d8dd792837456b7e760653c6574dc87f173128
+ms.sourcegitcommit: 3bfff5fcd8746d8d6ea6e2d494ca8742f54e973f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/31/2017
+ms.lasthandoff: 08/02/2017
 ---
 # <a name="microsoft-365-enterprise-documentation"></a>Documentazione di Microsoft 365 Enterprise
-Microsoft 365 è una soluzione intelligente completa, che include Office 365, Windows 10 ed Enterprise Mobility + Security e promuove creatività e collaborazione per tutti gli utenti, in sicurezza. 
+Microsoft 365 Enterprise è una soluzione intelligente completa, che include Office 365, Windows 10 ed Enterprise Mobility + Security (EMS) e promuove creatività e collaborazione per tutti gli utenti, in sicurezza. 
 
-Microsoft 365 Enterprise è progettato per le organizzazioni di grandi dimensioni e integra Office 365 Enterprise, Windows 10 Enterprise ed Enterprise Mobility + Security. 
+Microsoft 365 Enterprise è progettato per le organizzazioni di grandi dimensioni e integra Office 365 Enterprise, Windows 10 Enterprise ed EMS. 
 
 
 ## <a name="microsoft-365-services-overview"></a>Panoramica dei servizi Microsoft 365
@@ -34,7 +34,7 @@ Questa sezione offre una panoramica dei servizi EMS e Office 365 inclusi in Micr
 |[Microsoft Intune](https://docs.microsoft.com/intune/understand-explore/introduction-to-microsoft-intune)|Intune è un servizio di gestione della mobilità aziendale (EMM) basato su cloud che consente alla forza lavoro di essere produttiva, garantendo al tempo stesso la protezione dei dati aziendali. Intune è integrato con Azure AD per il controllo delle identità e degli accessi e viene usato per la gestione di dispositivi e applicazioni. Le funzionalità di [gestione dei dispositivi di Intune](https://docs.microsoft.com/intune/deploy-use/manage-settings-and-features-on-your-devices-with-microsoft-intune-policies) vengono usate per configurare e proteggere i dispositivi dell'utente, inclusi i PC Windows. <br><br>Le funzionalità di gestione dei dispositivi di Intune supportano sia la registrazione [BYOD (Bring Your Own Device)](https://docs.microsoft.com/enterprise-mobility-security/solutions/enable-byod) che consente agli utenti di registrare telefoni, tablet o PC personali, sia la registrazione di [dispositivi di proprietà dell'azienda (COD, Corporate-Owned Device)](https://docs.microsoft.com/enterprise-mobility-security/solutions/issue-corp-devices) che rende possibili scenari di gestione come la registrazione automatica, i dispositivi condivisi o configurazioni con requisiti di registrazione pre-autorizzati. Per maggiore sicurezza, è anche possibile richiedere l'autenticazione a più fattori (MFA) per registrare un dispositivo. Dopo averli registrati nel sistema di gestione, Intune può configurare le funzionalità e le impostazioni dei dispositivi per abilitare l'accesso protetto alle risorse aziendali.|
 
 
-## <a name="ems-concepts"></a>Concetti di EMS
+## <a name="important-concepts-to-understand"></a>Concetti importanti
 Nella tabella seguente vengono descritti i concetti di base e le funzionalità di EMS con i quali occorre avere familiarità.
 
 |Concetto di base|Descrizione|
@@ -57,4 +57,4 @@ Sebbene non esista un'unica raccomandazione ottimale per tutti gli ambienti dei 
 I [criteri di sicurezza consigliati per la posta elettronica](secure-email-recommended-policies.md) descritti in questo articolo offrono raccomandazioni per proteggere la posta elettronica dell'organizzazione e i client di posta elettronica che supportano l'autenticazione moderna e l'accesso condizionale. Vengono anche presentate le configurazioni client della piattaforma predefinite consigliate per offrire un'esperienza SSO ottimale agli utenti, oltre ai prerequisiti tecnici per l'accesso condizionale.
 
 ## <a name="learn-more"></a>Altre informazioni
-[Pagina del prodotto Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise)
+[Pagina del prodotto Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise) 
