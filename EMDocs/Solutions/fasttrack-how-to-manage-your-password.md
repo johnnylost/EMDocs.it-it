@@ -30,7 +30,7 @@ Il modo più rapido di registrazione per la reimpostazione della password consis
 2.  Immettere il nome utente e la password.
 3.  Scegliere un'opzione di registrazione facendo clic su **Set it up now**. In questo caso, verrà illustrata la registrazione del **telefono per l'autenticazione**.
 ![Screenshot con blahblah](./media/ft-mngPW-1-setup.png)
-4.  Selezionare il prefisso internazionale del paese dall'elenco a discesa e digitare il numero di telefono completo con prefisso.
+4.  Selezionare il prefisso internazionale del paese/area geografica dall'elenco a discesa e digitare il numero di telefono completo con prefisso.
 ![Screenshot che illustra come selezionare un codice paese. ](./media/ft-mngPW-2-enterNumber.png)![Screenshot che indica dove immettere un numero di telefono.](./media/ft-mngPW-3-enterNumber2.png)
 5.  Selezionare una delle opzioni: **Text me (SMS)** o**Call me (Telefonata)**. In questo esempio, viene selezionata l'opzione **Text me (SMS)**, che invierà un codice di 6 cifre al telefono. Attendere alcuni secondi affinché il codice arrivi al telefono.
 ![Screenshot che illustra un codice a 6 cifre che è stato inviato a un telefono.](./media/ft-mngPW-4-textCode.png)

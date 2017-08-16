@@ -77,7 +77,7 @@ Questa sezione illustra come impostare Azure Multi-Factor Authentication per usa
 1. Selezionare Telefono ufficio dall'elenco a discesa.
 
   ![Cattura di schermata che illustra un utente che vuole essere contattato tramite il telefono dell'ufficio](./media/ft-enrollMFA-6-officePhone.png)
-2.  Specificare il paese dall'elenco a discesa e digitare il numero di telefono dell'ufficio.
+2.  Specificare il paese/area geografica dall'elenco a discesa e digitare il numero di telefono dell'ufficio.
 3.  Fare clic su **Contact Me**. Verrà avviata una chiamata al telefono dell'ufficio. Assicurarsi di essere vicino al telefono.
 4.  Fare clic su **Avanti**.
 5.  A questo punto è stato impostato il metodo di contatto ed è necessario impostare le password per le app non basate su browser, ad esempio Outlook 2010 o versione precedente. Se non si usano queste app, fare clic su **Operazione completata**. In caso contrario, **continuare** con il passaggio successivo.
@@ -107,7 +107,7 @@ L'app Azure Authenticator è disponibile per Windows Phone, Android e IOS.
   ![Cattura di schermata nella quale si richiede all'utente di verificare il codice inviato al telefono](./media/ft-enrollMFA-10-verifyActivation.png)
 6.  Fare clic su **Chiudi**. A questo punto, la verifica dovrebbe essere completata.
 7.  È necessario adesso specificare il numero di cellulare, nel caso in cui l'app per dispositivi mobili non sia accessibile.
-8.  Specificare il paese dall'elenco a discesa e digitare il numero di cellulare nella casella a fianco al Paese. Fare clic su **Avanti**.
+8.  Specificare il paese/area geografica dall'elenco a discesa e digitare il numero di cellulare nella casella di fianco a Paese. Fare clic su **Avanti**.
 9.  A questo punto è stato impostato il metodo di contatto ed è necessario impostare le password per le app non basate su browser, ad esempio Outlook 2010 o versione precedente. Se non si usano queste app, fare clic su **Operazione completata**. In caso contrario, **continuare** con il passaggio successivo.
 10. Se si usano queste app, copiare la password dell'app specificata.
 11. Incollare nell'applicazione non basata su browser la password che è stata copiata negli Appunti.
