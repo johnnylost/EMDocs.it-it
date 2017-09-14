@@ -2,6 +2,8 @@
 
 # [Modelli e poster architettura](architecture-models-posters.md)
 
+# [Servizi e concetti](services-overview.md)
+
 # [Configurazioni di identità e accesso dei dispositivi](microsoft-365-policies-configurations.md)
 ## [Criteri comuni di identità e accesso dei dispositivi](identity-access-policies.md)
 ## [Criteri di accesso di Exchange Online](secure-email-recommended-policies.md)
