@@ -30,7 +30,7 @@ Enterprise Mobility + Security (EMS) è l'unica soluzione cloud completa che pro
 
 ### <a name="access-to-single-sign-on-applications"></a>Accesso alle applicazioni Single Sign-On
 Con la federazione delle identità e l'accesso Single Sign-On, gli utenti hanno un set di credenziali di accesso e password e il personale IT può gestire in modo più efficiente le identità degli utenti.
-### <a name="multi-factor-authentication"></a>Multi-Factor Authentication
+### <a name="multi-factor-authentication"></a>Autenticazione a più fattori
 Gli utenti possono anche introdurre nuovi dispositivi nell'azienda, ma il reparto IT può verificare che i dispositivi che si connettono alla rete siano di proprietà e controllati da utenti con le credenziali appropriate. Multi-Factor Authentication (MFA) offre un livello di protezione aggiuntivo.
 ### <a name="self-service-group-management"></a>Gestione dei gruppi in modalità self-service
 Quando gli utenti dimenticano le password, possono reimpostarle autonomamente, riducendo così il carico di lavoro del reparto IT e ottenendo una maggiore efficienza grazie alla possibilità di risolvere rapidamente il problema.
