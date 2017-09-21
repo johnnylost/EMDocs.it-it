@@ -13,17 +13,6 @@
       }
     },
     {
-      "docset_name": "EMSolutions",
-      "build_source_folder": "EMDocs/Solutions",
-      "build_output_subfolder": "EMDocs/Solutions",
-      "locale": "it-it",
-      "monikers": [],
-      "open_to_public_contributors": true,
-      "type_mapping": {
-        "Conceptual": "Content"
-      }
-    },
-    {
       "docset_name": "microsoft-365-enterprise",
       "build_source_folder": "microsoft-365-enterprise",
       "build_output_subfolder": "microsoft-365-enterprise",
