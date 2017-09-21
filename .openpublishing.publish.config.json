@@ -1,44 +1,6 @@
 {
   "build_entry_point": "docs.ps1",
-  "docsets_to_publish": [
-    {
-      "docset_name": "EMDocs",
-      "build_source_folder": "EMDocs",
-      "build_output_subfolder": "EMDocs",
-      "locale": "it-it",
-      "monikers": [],
-      "open_to_public_contributors": true,
-      "type_mapping": {
-        "Conceptual": "Content"
-      }
-    },
-    {
-      "docset_name": "EMSolutions",
-      "build_source_folder": "EMDocs/Solutions",
-      "build_output_subfolder": "EMDocs/Solutions",
-      "locale": "it-it",
-      "monikers": [],
-      "open_to_public_contributors": true,
-      "type_mapping": {
-        "Conceptual": "Content"
-      }
-    },
-    {
-      "docset_name": "microsoft-365-enterprise",
-      "build_source_folder": "microsoft-365-enterprise",
-      "build_output_subfolder": "microsoft-365-enterprise",
-      "locale": "it-it",
-      "monikers": [],
-      "open_to_public_contributors": false,
-      "type_mapping": {
-        "Conceptual": "Content",
-        "ManagedReference": "Content",
-        "RestApi": "Content"
-      },
-      "build_entry_point": "docs",
-      "template_folder": "_themes"
-    }
-  ],
+  "docsets_to_publish": [],
   "notification_subscribers": [
     "CnE_Content_Brno@moravia.com",
     "CnE_UE_Bugfixing_ENG@moravia.com"
