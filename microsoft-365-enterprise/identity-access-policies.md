@@ -1,19 +1,19 @@
 ---
 title: "Panoramica sui criteri relativi alle identità e all'accesso ai dispositivi - Microsoft 365 Enterprise | Microsoft Docs"
 description: "Descrive i criteri per i consigli di Microsoft su come applicare i criteri e le configurazioni relativi all'identità e all'accesso ai dispositivi."
-author: jeffgilb
-manager: femila
+author: barlanmsft
+manager: angrobe
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 08/30/2017
-ms.author: jeffgilb
+ms.author: barlan
 ms.reviewer: jsnow
 ms.custom: it-pro
-ms.openlocfilehash: 36cf308ea2e00b3c291b0e23f5fd3250136eaaf2
-ms.sourcegitcommit: 0e0a15476e3bbd2d4ac6101c2cedd02e082ee25d
+ms.openlocfilehash: db8a35ca3c36c43ed47ca04a8dfe336cfe154618
+ms.sourcegitcommit: d8588b191a4f9daea73698426dd632e7997140dc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/01/2017
+ms.lasthandoff: 09/13/2017
 ---
 # <a name="general-identity-and-device-access-policy-recommendations"></a>Consigli generali sull'identità e sui criteri di accesso ai dispositivi
 Questo articolo descrive i criteri consigliati comuni per contribuire a proteggere Microsoft 365 Enterprise. Vengono anche presentate le configurazioni client della piattaforma predefinite consigliate per offrire un'esperienza SSO ottimale agli utenti, oltre ai prerequisiti tecnici per l'accesso condizionale.
@@ -54,16 +54,16 @@ Per accedere ai documenti protetti di Azure Information Protection potrebbe esse
 
 
 ### <a name="recommended-client-platforms-when-securing-documents"></a>Piattaforme client consigliate per la protezione di documenti
-I client seguenti sono consigliati nei casi in cui è stato applicato un criterio di protezione dei documenti. 
+I client seguenti sono consigliati nei casi in cui è stato applicato un criterio di protezione dei documenti.
 
 |Piattaforma|Word/Excel/PowerPoint|OneNote|App OneDrive|App SharePoint|Client di sincronizzazione di OneDrive|
 |:-------|:-----|:------------|:-------|:-------------|:-----|
-|Windows 7|Supportato|Supportato|N/D|N/D|Anteprima<sup>*</sup>|
-|Windows 8.1|Supportato|Supportato|N/D|N/D|Anteprima<sup>*</sup>|
-|Windows 10|Supportato|Supportato|N/D|N/D|Anteprima<sup>*</sup>|
-|Windows Phone 10|Non supportato|Non supportato|Supportato|Supportato|N/D|
-|Android|Supportato|Supportato|Supportato|Supportato|N/D|
-|iOS|Supportato|Supportato|Supportato|Supportato|N/D|
+|Windows 7|supportata|supportata|N/D|N/D|Anteprima<sup>*</sup>|
+|Windows 8.1|supportata|supportata|N/D|N/D|Anteprima<sup>*</sup>|
+|Windows 10|supportata|supportata|N/D|N/D|Anteprima<sup>*</sup>|
+|Windows Phone 10|Non supportato|Non supportato|Supportato|supportata|N/D|
+|Android|supportata|Supportato|Supportato|supportata|N/D|
+|iOS|supportata|Supportato|Supportato|supportata|N/D|
 |macOS|Anteprima pubblica|Anteprima pubblica|N/D|N/D|Non supportato|
 |Linux|Non supportato|Non supportato|Non supportato|Non supportato|Non supportato|
 
@@ -73,7 +73,7 @@ I client seguenti sono consigliati nei casi in cui è stato applicato un criteri
 > Questi consigli si basano su tre diversi livelli di sicurezza e protezione per la posta elettronica e possono essere applicati in base al livello di granularità necessario: **versione di base**, **sensibile**e **maggiore regolamentazione**. Per altre informazioni su questi livelli di sicurezza e sui sistemi operativi client consigliati, a cui fanno riferimento questi consigli, vedere [l'introduzione ai criteri e alle configurazioni di sicurezza consigliati](microsoft-365-policies-configurations.md).
 
 
-## <a name="baseline"></a>Versione di base 
+## <a name="baseline"></a>Di base
 Questa sezione descrive i consigli per il livello di base dei dati, l'identità e la protezione dei dispositivi. Questi consigli dovrebbero soddisfare le esigenze di protezione di base di molte organizzazioni.
 
 >[!NOTE]
@@ -82,7 +82,7 @@ Questa sezione descrive i consigli per il livello di base dei dati, l'identità 
 
 ### <a name="conditional-access-policy-settings"></a>Impostazioni dei criteri di accesso condizionale
 
-#### <a name="identity-protection"></a>Protezione dell'identità 
+#### <a name="identity-protection"></a>Protezione dell'identità
 È possibile assegnare agli utenti l'accesso Single Sign-On (SSO), come descritto nelle sezioni precedenti. È necessario intervenire solo in caso di necessità in base agli [eventi di rischio](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-risk-events).  
 
 * Richiedere l'autenticazione a più fattori in base a un rischio di accesso **medio o più elevato**
@@ -92,7 +92,7 @@ Questa sezione descrive i consigli per il livello di base dei dati, l'identità 
 >Per questo consiglio sui criteri sono necessarie la [sincronizzazione password](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-implement-password-synchronization) e la [reimpostazione della password self-service](https://docs.microsoft.com/azure/active-directory/active-directory-passwords).
 >
 
-#### <a name="data-loss-prevention"></a>Prevenzione della perdita di dati 
+#### <a name="data-loss-prevention"></a>Prevenzione della perdita di dati
 L'obiettivo per i criteri di gestione dei dispositivi e delle applicazioni è proteggere dalla perdita di dati in caso di perdita o furto di un dispositivo. Ciò può essere realizzato garantendo che l'accesso ai dati sia protetto da un PIN, che i dati siano crittografati nel dispositivo e che il dispositivo non sia danneggiato.
 
 |Consiglio in relazione ai criteri|Descrizione|
@@ -107,19 +107,19 @@ L'obiettivo per i criteri di gestione dei dispositivi e delle applicazioni è pr
 
 Per la maggior parte delle organizzazioni, è importante poter impostare le esigenze degli utenti in relazione a quando e per quali condizioni dovranno usare Office 365 per accedere alla posta elettronica.  
 
-Gli utenti hanno generalmente un beneficio nell'accesso Single Sign-On (SSO), tranne nelle situazioni seguenti: 
+Gli utenti hanno generalmente un beneficio nell'accesso Single Sign-On (SSO), tranne nelle situazioni seguenti:
 * Per la richiesta di token di autenticazione per Exchange Online:
   * Agli utenti potrebbe essere richiesto di eseguire l'autenticazione a più fattori ogni volta che viene rilevato un rischio di accesso **medio o più elevato** e che non hanno ancora eseguito l'autenticazione a più fattori nella sessione corrente.  
-  * Agli utenti verrà richiesto di usare le applicazioni di posta elettronica che supportano l'SDK della protezione app di Intune o di accedere alla posta elettronica da dispositivi conformi a Intune o appartenenti a un dominio AD. 
+  * Agli utenti verrà richiesto di usare le applicazioni di posta elettronica che supportano l'SDK della protezione app di Intune o di accedere alla posta elettronica da dispositivi conformi a Intune o appartenenti a un dominio AD.
 * Quando gli utenti a rischio eseguono l'accesso e completano correttamente l'autenticazione a più fattori, viene chiesto loro di cambiare la password.
 
 ## <a name="sensitive"></a>Protezione avanzata
-Questa sezione descrive i consigli per il livello di protezione avanzata dei dati, dell'identità e dei dispositivi. Questi consigli sono rivolti ai clienti che hanno un subset di dati che devono essere protetti a livelli più elevati o che richiedono che tutti i dati siano protetti a livelli più elevati. 
+Questa sezione descrive i consigli per il livello di protezione avanzata dei dati, dell'identità e dei dispositivi. Questi consigli sono rivolti ai clienti che hanno un subset di dati che devono essere protetti a livelli più elevati o che richiedono che tutti i dati siano protetti a livelli più elevati.
 
-È possibile applicare una protezione maggiore per tutti i set di dati o solo per alcuni di essi nell'ambiente Office 365. Ad esempio, è possibile applicare i criteri per garantire che i dati sensibili siano condivisi solo tra app protette per impedire la perdita di dati. Si consiglia di proteggere le identità e i dispositivi che accedono ai dati sensibili con livelli di sicurezza analoghi. 
+È possibile applicare una protezione maggiore per tutti i set di dati o solo per alcuni di essi nell'ambiente Office 365. Ad esempio, è possibile applicare i criteri per garantire che i dati sensibili siano condivisi solo tra app protette per impedire la perdita di dati. Si consiglia di proteggere le identità e i dispositivi che accedono ai dati sensibili con livelli di sicurezza analoghi.
 
 ### <a name="conditional-access-policy-settings"></a>Impostazioni dei criteri di accesso condizionale
-#### <a name="identity-protection"></a>Protezione dell'identità 
+#### <a name="identity-protection"></a>Protezione dell'identità
 
 È possibile assegnare agli utenti l'accesso Single Sign-On (SSO), come descritto nelle sezioni precedenti. È necessario intervenire solo in caso di necessità in base agli [eventi di rischio](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-risk-events).   
 
@@ -130,7 +130,7 @@ Questa sezione descrive i consigli per il livello di protezione avanzata dei dat
 >Per questo consiglio sui criteri sono necessarie la [sincronizzazione password](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-implement-password-synchronization) e la [reimpostazione della password self-service](https://docs.microsoft.com/azure/active-directory/active-directory-passwords).
 >
 
-#### <a name="data-loss-prevention"></a>Prevenzione della perdita di dati 
+#### <a name="data-loss-prevention"></a>Prevenzione della perdita di dati
 
 L'obiettivo per questi criteri di gestione dei dispositivi e delle applicazioni è proteggere dalla perdita di dati in caso di perdita o furto di un dispositivo. Ciò può essere realizzato garantendo che l'accesso ai dati sia protetto da un PIN, che i dati siano crittografati nel dispositivo e che il dispositivo non sia danneggiato.
 
@@ -143,19 +143,19 @@ L'obiettivo per questi criteri di gestione dei dispositivi e delle applicazioni 
 |**Applicare un criterio di protezione app di Intune alle applicazioni gestite in esecuzione su dispositivi non gestiti**|Applicare un criterio di protezione App di Intune per le applicazioni gestite in esecuzione su dispositivi mobili personali non gestiti in modo da richiedere: un PIN con lunghezza minima 6, la crittografia del dispositivo e l'integrità del dispositivo (che non sia jailbroken, rooted e sia munito di attestazione dell'integrità).|
 
 ### <a name="user-impact"></a>Impatto sugli utenti
-Per la maggior parte delle organizzazioni è importante poter impostare le aspettative per gli utenti in relazione a quando e in quali condizioni dovranno accedere alla posta elettronica di Office 365. 
+Per la maggior parte delle organizzazioni è importante poter impostare le aspettative per gli utenti in relazione a quando e in quali condizioni dovranno accedere alla posta elettronica di Office 365.
 
-Gli utenti traggono generalmente vantaggio dell'accesso Single Sign-On (SSO), tranne nelle situazioni seguenti: 
+Gli utenti traggono generalmente vantaggio dell'accesso Single Sign-On (SSO), tranne nelle situazioni seguenti:
 * Per la richiesta di token di autenticazione per Exchange Online:
   * Agli utenti verrà richiesto di eseguire l'autenticazione a più fattori ogni volta che viene rilevato un rischio di accesso **basso o più elevato** e qualora non abbiano ancora eseguito l'autenticazione a più fattori nella sessione corrente.  
-  * Agli utenti verrà richiesto di usare le applicazioni di posta elettronica che supportano l'SDK della protezione app di Intune o di accedere alla posta elettronica da dispositivi conformi a Intune o appartenenti a un dominio AD. 
+  * Agli utenti verrà richiesto di usare le applicazioni di posta elettronica che supportano l'SDK della protezione app di Intune o di accedere alla posta elettronica da dispositivi conformi a Intune o appartenenti a un dominio AD.
 * Quando gli utenti a rischio eseguono l'accesso e completano correttamente l'autenticazione a più fattori, viene chiesto loro di cambiare la password.
 
 ## <a name="highly-regulated"></a>Protezione per ambienti altamente regolamentati
-Questa sezione descrive i consigli per il livello di protezione altamente regolamentata dei dati, dell'identità e dei dispositivi. Questi consigli sono destinati ai clienti che potrebbero avere una piccola quantità di dati altamente classificati, segreti commerciali o dati soggetti a regolamentazione. Microsoft offre funzionalità che consentono alle organizzazioni di soddisfare questi requisiti, inclusa la protezione aggiuntiva per identità e dispositivi. 
+Questa sezione descrive i consigli per il livello di protezione altamente regolamentata dei dati, dell'identità e dei dispositivi. Questi consigli sono destinati ai clienti che potrebbero avere una piccola quantità di dati altamente classificati, segreti commerciali o dati soggetti a regolamentazione. Microsoft offre funzionalità che consentono alle organizzazioni di soddisfare questi requisiti, inclusa la protezione aggiuntiva per identità e dispositivi.
 
 ### <a name="conditional-access-policy-settings"></a>Impostazioni dei criteri di accesso condizionale
-#### <a name="identity-protection"></a>Protezione dell'identità 
+#### <a name="identity-protection"></a>Protezione dell'identità
 
 Per il livello altamente regolamentato Microsoft consiglia di applicare l'autenticazione a più fattori a tutte le nuove sessioni.
 * Richiedere l'autenticazione a più fattori per tutte le nuove sessioni
@@ -178,15 +178,15 @@ Per il livello altamente regolamentato è consigliabile richiedere le applicazio
 |**Applicare un criterio di conformità del dispositivo Intune ai dispositivi gestiti**|Applicare un criterio di conformità del dispositivo Intune per dispositivi mobili aziendali gestiti e computer gestiti da Intune che richieda: un PIN di lunghezza minima 6, la crittografia del dispositivo, l'integrità del dispositivo (che non sia jailbroken, rooted e sia munito di attestazione dell'integrità) e, se disponibile, che richieda dispositivi a basso rischio, secondo quanto stabilito da un MTP di terze parti come Lookout o SkyCure.|
 
 ### <a name="user-impact"></a>Impatto sugli utenti
-Per la maggior parte delle organizzazioni è importante poter impostare le aspettative per gli utenti in relazione a quando e in quali condizioni dovranno accedere ai file di Office 365. 
+Per la maggior parte delle organizzazioni è importante poter impostare le aspettative per gli utenti in relazione a quando e in quali condizioni dovranno accedere ai file di Office 365.
 
 * La durata massima di una sessione con accesso Single Sign-On è di 1 giorno. Una volta scadute le sessioni, gli utenti dovranno accedere nuovamente con l'autenticazione a più fattori.
 * Quando gli utenti a rischio eseguono l'accesso, viene chiesto loro di cambiare la password, dopo aver completato l'autenticazione a più fattori.
 * Per la richiesta di token di autenticazione per Exchange Online:
   * Gli utenti dovranno eseguire l'autenticazione a più fattori ogni volta che avviano una nuova sessione.  
   * Gli utenti dovranno usare le app di posta elettronica che supportano l'SDK di protezione app di Intune
-  * Gli utenti dovranno accedere a messaggi di posta elettronica da dispositivi conformi a Intune o aggiunti a un dominio AD. 
- 
+  * Gli utenti dovranno accedere a messaggi di posta elettronica da dispositivi conformi a Intune o aggiunti a un dominio AD.
+
 ## <a name="next-steps"></a>Passaggi successivi
 
 [Learn about policy recommendations for securing email](secure-email-recommended-policies.md) (Informazioni sui criteri consigliati per la protezione della posta elettronica)
