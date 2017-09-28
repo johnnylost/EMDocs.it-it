@@ -10,10 +10,10 @@ ms.author: barlan
 ms.reviewer: jsnow
 ms.custom: it-pro
 ms.openlocfilehash: 14f22a558e2e437f1491033eb33858b377eeca9d
-ms.sourcegitcommit: d8588b191a4f9daea73698426dd632e7997140dc
+ms.sourcegitcommit: 3ce5a7e7e86e286f2b82a970d7f0c8e6ff3028f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/13/2017
+ms.lasthandoff: 09/23/2017
 ---
 # <a name="microsoft-365-enterprise-overview"></a>Panoramica di Microsoft 365 Enterprise
 Microsoft 365 Enterprise è progettato per le organizzazioni di grandi dimensioni e integra Office 365 Enterprise, Windows 10 Enterprise ed Enterprise Mobility + Security per offrire a tutti gli utenti le funzionalità fondamentali per esprimere la propria creatività e collaborare in tutta sicurezza. Microsoft Enterprise 365 include un'edizione enterprise delle applicazioni di Windows 10 e Office tramite Office 365 ProPlus.
