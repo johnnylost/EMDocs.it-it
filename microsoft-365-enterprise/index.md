@@ -11,11 +11,11 @@ ms.prod: microsoft-365-enterprise
 ms.date: 09/25/2017
 title: Documentazione e risorse di Microsoft 365 Enterprise
 description: Informazioni sulla documentazione di prodotto e le risorse disponibili per gli amministratori IT, gli information worker e i partner Microsoft 365 Enterprise.
-ms.openlocfilehash: 2ba7e659d8e932fdc30ee5fc0448468e9cd1df78
-ms.sourcegitcommit: 4f9deaf65cdbd5ebbfb7b203c3853f40d734fca5
+ms.openlocfilehash: 98ab81ac7fa259d46c59d9d82ca35b8c152bbb02
+ms.sourcegitcommit: 713199277733ef415791a3eb5262e4704ffb3311
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/25/2017
+ms.lasthandoff: 09/28/2017
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -352,7 +352,7 @@ ms.lasthandoff: 09/25/2017
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>Proteggere siti e file di SharePoint Online</h3>
-                                                    <p>Consigli per la configurazione dei siti del team SharePoint Online e la protezione dei file; configurazioni consigliate per i siti dei team di SharePoint Online.</p>
+                                                    <p>Consigli per la protezione dei file e dei siti del team di SharePoint Online e procedura dettagliata per la configurazione, incluso un ambiente di sviluppo/test.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -650,7 +650,7 @@ ms.lasthandoff: 09/25/2017
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="media/hub-iw-producthelp/iw-producthelp-getstarted-office.svg" alt="Get started with Office" />
+                                                        <img src="media/hub-iw-producthelp/iw-product-help-get-started-office-1.svg" alt="Get started with Office" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -669,7 +669,7 @@ ms.lasthandoff: 09/25/2017
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="media/hub-iw-producthelp/iw-producthelp-officetraining.svg" alt="Office Training Center" />
+                                                        <img src="media/hub-iw-producthelp/iw-product-help-office-training-2.svg" alt="Office Training Center" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -688,7 +688,7 @@ ms.lasthandoff: 09/25/2017
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="media/hub-iw-producthelp/iw-producthelp-office.svg" alt="Office Help" />
+                                                        <img src="media/hub-iw-producthelp/iw-product-help-office-help-3.svg" alt="Office Help" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -707,7 +707,7 @@ ms.lasthandoff: 09/25/2017
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="media/hub-itadmin-devices/admin-devices-win10-deploy-1.svg" alt="Windows 10 end user help" />
+                                                        <img src="media/hub-iw-producthelp/iw-product-help-windows-help-4.svg" alt="Windows 10 end user help" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -764,7 +764,7 @@ ms.lasthandoff: 09/25/2017
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="media/hub-itadmin-devices/admin-devices-win10-intune-4.svg" alt="User help for Intune" />
+                                                        <img src="media/hub-iw-producthelp/iw-product-help-intune-7.svg" alt="User help for Intune" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
