@@ -13,11 +13,11 @@ ms.assetid: 0af3894c-7b0e-4c0c-8874-31e041d81300
 ms.reviewer: v-craic
 ms.suite: ems
 ms.custom: information-protection
-ms.openlocfilehash: 4c6c81cd9d59f402c1ce458e54063e2986324c5b
-ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.openlocfilehash: 5836807982072f9115e49db17c8c6560c23d2c11
+ms.sourcegitcommit: a7fd3ad8a351e9cc72ea37486342a273ed29b883
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/25/2017
+ms.lasthandoff: 11/03/2017
 ---
 # <a name="protect-data-against-user-mistakes"></a>Proteggere i dati dagli errori degli utenti
 
@@ -60,15 +60,15 @@ Seguire questi passaggi per implementare [Cloud App Security](https://technet.mi
 
 Le applicazioni cloud vengono usate oggi dalla maggior parte delle organizzazioni e presto arriverà il momento in cui nel cloud verrà archiviata una quantità di dati aziendali maggiore rispetto agli ambienti locali. Spesso gli utenti useranno app SaaS dai propri dispositivi senza che la società ne sia al corrente o abbia dato il proprio consenso, provocando un aumento dell'utilizzo dello shadow IT nel cloud. Questa conclusione proviene da alcuni studi, che mostrano che l'80% dei dipendenti ha ammesso di usare app SaaS non approvate per attività aziendali. [Cloud App Security](https://technet.microsoft.com/library/mt657567.aspx) offre una panoramica dettagliata di tutte le app cloud usate nell'organizzazione. Identifica tutti gli utenti e gli indirizzi IP che accedono a un'applicazione. Esegue inoltre una valutazione dei rischi per oltre 13.000 app cloud e offre un punteggio di rischio automatico per ogni app in base a più di 60 parametri. 
 
-Seguire il passaggio 1 per rilevare le app cloud nell'ambiente e implementare criteri per il controllo di queste app. La seconda fase di questa soluzione implementa [Azure Information Protection](https://docs.microsoft.com/en-us/information-protection/get-started/requirements) per proteggere e classificare i dati, in modo da prevenire gli errori degli utenti e l'utilizzo non corretto dei dati.
+Seguire il passaggio 1 per rilevare le app cloud nell'ambiente e implementare criteri per il controllo di queste app. La seconda fase di questa soluzione implementa [Azure Information Protection](https://docs.microsoft.com/information-protection/get-started/requirements) per proteggere e classificare i dati, in modo da prevenire gli errori degli utenti e l'utilizzo non corretto dei dati.
 
 ### <a name="step-1-discover-cloud-apps-in-use-and-control-them-with-policy"></a>Passaggio 1: Individuare le app cloud in uso e controllarle con criteri
 
-Il primo passaggio per usare Cloud App Security consiste nell'[individuare le app](https://technet.microsoft.com/en-us/library/mt657567.aspx). Se si ignora questo passaggio, non ci saranno app da analizzare e da limitare tramite criteri. Se il processo di individuazione non è stato avviato, l'opzione di individuazione nel dashboard di Cloud App Security visualizzerà il messaggio seguente:
+Il primo passaggio per usare Cloud App Security consiste nell'[individuare le app](https://technet.microsoft.com/library/mt657567.aspx). Se si ignora questo passaggio, non ci saranno app da analizzare e da limitare tramite criteri. Se il processo di individuazione non è stato avviato, l'opzione di individuazione nel dashboard di Cloud App Security visualizzerà il messaggio seguente:
 
 ![Screenshot che mostra il messaggio indicante che l'utente non ha ancora caricato un log di Cloud Discovery.](./media/protect-data-user-mistake/protect-data-user-mistake-fig2-1.png)
 
-L'individuazione delle app in uso nell'intera organizzazione è il primo passaggio per garantire la protezione dei dati aziendali sensibili. Al termine del processo di individuazione, sarà possibile visualizzare un elenco delle app individuate nel [dashboard di Cloud Discovery](https://technet.microsoft.com/en-us/library/mt727946.aspx).
+L'individuazione delle app in uso nell'intera organizzazione è il primo passaggio per garantire la protezione dei dati aziendali sensibili. Al termine del processo di individuazione, sarà possibile visualizzare un elenco delle app individuate nel [dashboard di Cloud Discovery](https://technet.microsoft.com/library/mt727946.aspx).
 
 ![Screenshot che mostra il dashboard di Cloud Discovery e un elenco delle app individuate.](./media/protect-data-user-mistake/protect-data-user-mistake-fig3.png)
 
@@ -88,7 +88,7 @@ In questo caso specifico, esistono tre corrispondenze per questi criteri, ovvero
 
 ### <a name="step-2-protect-data-on-premises-or-in-the-cloud"></a>Passaggio 2: Proteggere i dati in locale o nel cloud
 
-Prima di implementare questa soluzione, rivedere i [requisiti di Azure Information Protection](https://docs.microsoft.com/en-us/information-protection/get-started/infoprotect-tutorial-step1).
+Prima di implementare questa soluzione, rivedere i [requisiti di Azure Information Protection](https://docs.microsoft.com/information-protection/get-started/infoprotect-tutorial-step1).
 
 Microsoft Azure Information Protection aiuta a classificare i dati e ad applicarvi etichette al momento della creazione. È quindi possibile applicare la protezione (crittografia più autenticazione più diritti utente) ai dati sensibili. Le etichette di classificazione e la protezione sono persistenti e seguono sempre i dati perché questi siano identificabili e protetti in ogni momento, indipendentemente dalla posizione di archiviazione e dagli utenti con cui vengono condivisi. Se si prevede di implementare criteri di protezione delle informazioni ed etichette, attenersi alle seguenti linee guida:
 
@@ -109,15 +109,15 @@ Nell'esempio seguente è possibile osservare etichette secondarie personalizzate
 ![Screenshot che mostra etichette secondarie personalizzate create nell'etichetta Secret. ](./media/protect-data-user-mistake/protect-data-user-mistake-fig7.png)
 
 
-Dopo aver definito l'uso delle etichette (predefinite o personalizzate), [configurare un'etichetta per applicare la protezione di Rights Management](https://docs.microsoft.com/en-us/rights-management/information-protection/configure-policy-protection#to-configure-a-label-to-apply-rights-management-protection).
+Dopo aver definito l'uso delle etichette (predefinite o personalizzate), [configurare un'etichetta per applicare la protezione di Rights Management](https://docs.microsoft.com/rights-management/information-protection/configure-policy-protection#to-configure-a-label-to-apply-rights-management-protection).
 
 Con Azure Information Protection, i controlli di classificazione e protezione dei dati sono integrati in Office e in altre applicazioni comuni. Questa integrazione offre opzioni semplici di un solo clic per proteggere i dati usati dagli utenti. Nel portale di Azure un amministratore può applicare modelli predefiniti, come numeri di carta di credito o codici fiscali, come condizione per la classificazione automatica. In alternativa, è possibile usare motivi di testo ed espressioni regolari per definire una stringa o un motivo personalizzato.
 
-Quando si configurano le condizioni per un'etichetta, è possibile assegnare automaticamente un'etichetta a un documento o messaggio di posta elettronica oppure è possibile richiedere agli utenti di selezionare l'etichetta consigliata. Leggere [Come configurare le condizioni per la classificazione automatica e consigliata per Azure Information Protection](https://docs.microsoft.com/en-us/rights-management/information-protection/configure-policy-classification) per altre informazioni su come eseguire questa configurazione.
+Quando si configurano le condizioni per un'etichetta, è possibile assegnare automaticamente un'etichetta a un documento o messaggio di posta elettronica oppure è possibile richiedere agli utenti di selezionare l'etichetta consigliata. Leggere [Come configurare le condizioni per la classificazione automatica e consigliata per Azure Information Protection](https://docs.microsoft.com/rights-management/information-protection/configure-policy-classification) per altre informazioni su come eseguire questa configurazione.
 
 > [!NOTE]
-> Per altre informazioni su classificazione e protezione dei dati, vedere [Proteggere i dati usando la classificazione, l'assegnazione di etichette e la protezione](https://docs.microsoft.com/en-us/enterprise-mobility-security/solutions/infoprotect-secure-classify-scenario).
+> Per altre informazioni su classificazione e protezione dei dati, vedere [Proteggere i dati usando la classificazione, l'assegnazione di etichette e la protezione](https://docs.microsoft.com/enterprise-mobility-security/solutions/infoprotect-secure-classify-scenario).
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-Microsoft Cloud App Security rappresenta una soluzione completa per individuare, monitorare, controllare e proteggere le attività e i dati all'interno di applicazioni cloud. Cloud App Security consente agli amministratori IT di eseguire la crittografia direttamente dalla console di Cloud App Security tramite Azure Information Protection. Attraverso l'integrazione con Azure Information Protection è ora possibile applicare, se necessario, una protezione generica ai file archiviati in SharePoint Online e in One Drive for Business. Per altre informazioni sull'integrazione tra Cloud App Security e Azure Information Protection, vedere [Integrazione di Azure Information Protection](https://docs.microsoft.com/en-us/cloud-app-security/azip-integration).
+Microsoft Cloud App Security rappresenta una soluzione completa per individuare, monitorare, controllare e proteggere le attività e i dati all'interno di applicazioni cloud. Cloud App Security consente agli amministratori IT di eseguire la crittografia direttamente dalla console di Cloud App Security tramite Azure Information Protection. Attraverso l'integrazione con Azure Information Protection è ora possibile applicare, se necessario, una protezione generica ai file archiviati in SharePoint Online e in One Drive for Business. Per altre informazioni sull'integrazione tra Cloud App Security e Azure Information Protection, vedere [Integrazione di Azure Information Protection](https://docs.microsoft.com/cloud-app-security/azip-integration).

@@ -9,11 +9,11 @@ ms.date: 08/30/2017
 ms.author: barlan
 ms.reviewer: jsnow
 ms.custom: it-pro
-ms.openlocfilehash: 869fd439cfd1dc1fa74bf108341fec18929d92a3
-ms.sourcegitcommit: d8588b191a4f9daea73698426dd632e7997140dc
+ms.openlocfilehash: d08bc136e3842e8384e5c562df1a2fb543786ced
+ms.sourcegitcommit: feb1e385af0bc2a2eba56e5c2d1e8b4ba8866126
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/13/2017
+ms.lasthandoff: 10/27/2017
 ---
 # <a name="recommended-security-policies-and-configurations"></a>Configurazioni e criteri di sicurezza consigliati
 
@@ -48,7 +48,6 @@ Per avviare l'autenticazione, il client invia le credenziali, ad esempio nome ut
 Dopo che le credenziali e/o l'elemento SSO sono stati verificati in Azure AD e che sono stati valutati tutti i criteri applicabili, viene generato un token di accesso per il provider di risorse, Office 365 nel diagramma qui sopra. Azure AD rilascia anche un elemento SSO come parte della risposta per consentire ai client di ottenere l'autenticazione SSO nelle richieste successive. Il client archivia l'elemento SSO e invia il token di accesso come identificazione per il provider di risorse. Dopo che Office 365 ha verificato il token di accesso e ha eseguito i controlli necessari, concede l'accesso client ai documenti.
 
 #### <a name="single-sign-on-sso-refresh-tokens"></a>Token di aggiornamento Single Sign-On (SSO)
-
 È possibile ottenere l'autenticazione SSO in diversi modi. Ad esempio, è possibile usare i cookie provenienti da un provider di identità come l'elemento SSO per archiviare lo stato di accesso per un utente all'interno di un browser. In questo modo saranno possibili tentativi futuri di accesso automatico alle applicazioni, ovvero senza alcuna richiesta di credenziali, tramite lo stesso provider di identità.
 
 Quando un utente esegue l'autenticazione con Azure AD, viene stabilita una sessione SSO con Azure AD e il browser dell'utente. Il token SSO, sotto forma di cookie, rappresenta la sessione. Azure AD usa due tipi di token di sessione SSO: permanente e non permanente. I token di sessione permanenti vengono archiviati come cookie permanenti dai browser quando durante l'accesso è stata selezionata la casella di controllo **Mantieni l'accesso**. I token di sessione non permanenti vengono archiviati come cookie di sessione e vengono eliminati quando il browser viene chiuso.
@@ -138,12 +137,12 @@ Ogni settore ha anche il proprio set di normative specializzate. Anziché specif
 ### <a name="default-protection-mechanism-recommendations"></a>Consigli per i meccanismi di protezione predefiniti
 Nella tabella seguente sono elencati i consigli sui meccanismi di protezione predefiniti per ognuno dei livelli di protezione e sicurezza definiti in precedenza:
 
-|Meccanismo di protezione|Versione di base|Sensitive|Protezione per ambienti altamente regolamentati|
+|Meccanismo di protezione|Versione di base|Dati sensibili|Protezione per ambienti altamente regolamentati|
 |:-------------------|:-------|:--------|:---------------|
 |**Applicare l'autenticazione a più fattori**|A partire da rischio di accesso medio|A partire da rischio di accesso basso|Per tutte le nuove sessioni|
 |**Applicare modifica password**|Per gli utenti ad alto rischio|Per gli utenti ad alto rischio|Per gli utenti ad alto rischio|
 |**Applicare la protezione delle applicazioni di Intune**|Sì|Sì|Sì|
-|**Applicare la registrazione di Intune**|Richiede un dispositivo conforme o aggiunto a un dominio|Richiede un dispositivo conforme o aggiunto a un dominio|Richiede un dispositivo conforme o aggiunto a un dominio|
+|**Applicare la registrazione di Intune**|Richiede un dispositivo conforme o aggiunto a un dominio|Richiede un dispositivo conforme o aggiunto a un dominio|Richiedi un dispositivo conforme o aggiunto a un dominio|
 
 ### <a name="device-ownership"></a>Proprietà del dispositivo
 La tabella sopra riportata riflette la tendenza di molte organizzazioni a supportare una combinazione di dispositivi aziendali e dispositivi personali o BYOD per abilitare la produttività mobile tra i dipendenti. I criteri di Protezione app di Intune garantiscono che la posta elettronica sia protetta da divulgazioni non consentite al di fuori dell'app Outlook Mobile e di altre app di Office Mobile, sia aziendali che BYOD.  
