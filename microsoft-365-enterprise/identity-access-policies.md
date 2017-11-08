@@ -5,22 +5,22 @@ author: barlanmsft
 manager: angrobe
 ms.prod: microsoft-365-enterprise
 ms.topic: article
-ms.date: 08/30/2017
+ms.date: 10/27/2017
 ms.author: barlan
 ms.reviewer: jsnow
 ms.custom: it-pro
-ms.openlocfilehash: db8a35ca3c36c43ed47ca04a8dfe336cfe154618
-ms.sourcegitcommit: d8588b191a4f9daea73698426dd632e7997140dc
+ms.openlocfilehash: 46a63151471a10b578ffaf3bddb27ddfcd5500a5
+ms.sourcegitcommit: feb1e385af0bc2a2eba56e5c2d1e8b4ba8866126
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/13/2017
+ms.lasthandoff: 10/27/2017
 ---
 # <a name="general-identity-and-device-access-policy-recommendations"></a>Consigli generali sull'identità e sui criteri di accesso ai dispositivi
 Questo articolo descrive i criteri consigliati comuni per contribuire a proteggere Microsoft 365 Enterprise. Vengono anche presentate le configurazioni client della piattaforma predefinite consigliate per offrire un'esperienza SSO ottimale agli utenti, oltre ai prerequisiti tecnici per l'accesso condizionale.
 
 In questa guida viene descritto come distribuire i criteri consigliati in un ambiente di cui è appena stato eseguito il provisioning. L'impostazione di questi criteri in un ambiente lab distinto consente di comprendere e valutare i criteri consigliati prima di eseguire l'implementazione degli ambienti di pre-produzione e di produzione. L'ambiente di cui è stato eseguito il provisioning può essere solo cloud o ibrido.  
 
-Per distribuire correttamente i criteri consigliati, è necessario intervenire nel portale di Azure per soddisfare i prerequisiti specificati in precedenza. In particolare, è necessario:
+Per distribuire correttamente i criteri consigliati, è necessario accedere al portale di Azure e soddisfare i prerequisiti specificati in precedenza. In particolare, è necessario:
 * Configurare le reti denominate per garantire che Azure Identity Protection generi un punteggio di rischio correttamente
 * Richiedere a tutti gli utenti di registrarsi per l'autenticazione a più fattori (MFA)
 * Configurare la sincronizzazione della password e la reimpostazione della password self-service per consentire agli utenti di reimpostare le password in modo autonomo
@@ -58,22 +58,22 @@ I client seguenti sono consigliati nei casi in cui è stato applicato un criteri
 
 |Piattaforma|Word/Excel/PowerPoint|OneNote|App OneDrive|App SharePoint|Client di sincronizzazione di OneDrive|
 |:-------|:-----|:------------|:-------|:-------------|:-----|
-|Windows 7|supportata|supportata|N/D|N/D|Anteprima<sup>*</sup>|
-|Windows 8.1|supportata|supportata|N/D|N/D|Anteprima<sup>*</sup>|
-|Windows 10|supportata|supportata|N/D|N/D|Anteprima<sup>*</sup>|
-|Windows Phone 10|Non supportato|Non supportato|Supportato|supportata|N/D|
-|Android|supportata|Supportato|Supportato|supportata|N/D|
-|iOS|supportata|Supportato|Supportato|supportata|N/D|
+|Windows 7|Supportato|Supportato|N/D|N/D|Anteprima<sup>*</sup>|
+|Windows 8.1|Supportato|Supportato|N/D|N/D|Anteprima<sup>*</sup>|
+|Windows 10|Supportato|Supportato|N/D|N/D|Anteprima<sup>*</sup>|
+|Windows Phone 10|Non supportato|Non supportato|Supportato|Supportato|N/D|
+|Android|Supportato|Supportato|Supportato|Supportato|N/D|
+|iOS|Supportato|Supportato|Supportato|Supportato|N/D|
 |macOS|Anteprima pubblica|Anteprima pubblica|N/D|N/D|Non supportato|
 |Linux|Non supportato|Non supportato|Non supportato|Non supportato|Non supportato|
 
 <sup>*</sup>Altre informazioni sull'[anteprima del client di sincronizzazione di OneDrive](https://support.office.com/article/Azure-Active-Directory-conditional-access-with-the-OneDrive-sync-client-on-Windows-028d73d7-4b86-4ee0-8fb7-9a209434b04e).
 
 > [!NOTE]
-> Questi consigli si basano su tre diversi livelli di sicurezza e protezione per la posta elettronica e possono essere applicati in base al livello di granularità necessario: **versione di base**, **sensibile**e **maggiore regolamentazione**. Per altre informazioni su questi livelli di sicurezza e sui sistemi operativi client consigliati, a cui fanno riferimento questi consigli, vedere [l'introduzione ai criteri e alle configurazioni di sicurezza consigliati](microsoft-365-policies-configurations.md).
+> Questi consigli si basano su tre diversi livelli di sicurezza e protezione per la posta elettronica e possono essere applicati in base al livello di granularità necessario: **versione di base**, **sensibile**e **maggiore regolamentazione**. Per altre informazioni su questi livelli di sicurezza e sui sistemi operativi client consigliati a cui fanno riferimento questi consigli, vedere [Recommended security policies and configurations](microsoft-365-policies-configurations.md) (Criteri di sicurezza e configurazioni consigliati).
 
 
-## <a name="baseline"></a>Di base
+## <a name="baseline"></a>Versione di base
 Questa sezione descrive i consigli per il livello di base dei dati, l'identità e la protezione dei dispositivi. Questi consigli dovrebbero soddisfare le esigenze di protezione di base di molte organizzazioni.
 
 >[!NOTE]
@@ -180,7 +180,7 @@ Per il livello altamente regolamentato è consigliabile richiedere le applicazio
 ### <a name="user-impact"></a>Impatto sugli utenti
 Per la maggior parte delle organizzazioni è importante poter impostare le aspettative per gli utenti in relazione a quando e in quali condizioni dovranno accedere ai file di Office 365.
 
-* La durata massima di una sessione con accesso Single Sign-On è di 1 giorno. Una volta scadute le sessioni, gli utenti dovranno accedere nuovamente con l'autenticazione a più fattori.
+* Una volta scadute le sessioni, gli utenti per i quali è stata configurata la protezione per ambienti altamente regolamentati dovranno accedere nuovamente con l'autenticazione a più fattori.
 * Quando gli utenti a rischio eseguono l'accesso, viene chiesto loro di cambiare la password, dopo aver completato l'autenticazione a più fattori.
 * Per la richiesta di token di autenticazione per Exchange Online:
   * Gli utenti dovranno eseguire l'autenticazione a più fattori ogni volta che avviano una nuova sessione.  
