@@ -5,7 +5,7 @@ keywords:
 author: NathBarn
 ms.author: NathBarn
 manager: angrobe
-ms.date: 02/01/2017
+ms.date: 10/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: microsoft-intune
@@ -13,11 +13,11 @@ ms.technology:
 ms.assetid: c8fd871e-f1bc-43ec-a5f3-ad025df9b026
 ms.reviewer: 
 ms.suite: ems
-ms.openlocfilehash: 77e668d5f638ee2e4b9a9e81a1f9181252fde8b9
-ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.openlocfilehash: a68182e4175ca3fe69377319d34f899f3abb7d25
+ms.sourcegitcommit: 6296730f948ec5205fe81adb3585026d169e51f9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/25/2017
+ms.lasthandoff: 10/24/2017
 ---
 # <a name="microsoft-responsibilities"></a>Responsabilità di Microsoft
 
@@ -109,7 +109,16 @@ Fornire indicazioni su:
 -   Per un ambiente a più foreste:
 
     -   Installazione della sincronizzazione di Azure AD Connect, configurata per scenari a più foreste.
+-   Per ambienti a foresta singola e a più foreste:
+    -   Configurazione dell'autenticazione pass-through di Azure Active Directory, se necessario.
+    -   Configurazione dell'accesso Single Sign-On facile (SSO) di Azure Active Directory, se necessario. 
+        > [!NOTE]
+        > L'autenticazione pass-through di Azure Active Directory per ambienti a più foreste è supportata se sono presenti trust tra foreste tra le foreste di Active Directory e se il routing dei suffissi nome è configurato correttamente. È possibile installare altri agenti su più server locali per offrire disponibilità elevata per le richieste di accesso. 
 
+    - Per altre informazioni, vedere [Autenticazione pass-through di Azure Active Directory - Avvio rapido] (https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication-quick-start#step-1-check-prerequisites) e [Accesso Single Sign-On facile di Azure Active Directory: guida introduttiva] (https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-sso-quick-start#step-1-check-prerequisites).
+    - Per altre informazioni sui limiti dell'autenticazione pass-through, vedere [Autenticazione pass-through di Azure Active Directory - Limitazioni correnti] (https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication-current-limitations).
+    - Per altre informazioni sui problemi di Single Sign-On facile, vedere [Risolvere i problemi relativi all'accesso Single Sign-On facile di Azure Active Directory] (https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-troubleshoot-sso).
+  
         > [!NOTE]
         > La sincronizzazione hash e il writeback delle password supportano più foreste. Tuttavia, gli altri scenari di writeback non sono supportati.
 
@@ -152,6 +161,8 @@ Fornire indicazioni sulla configurazione di:
   - Identity Protection.
 
   - Privileged Identity Management.
+  
+  - Accesso condizionale di Azure Active Directory. 
 
   - Report sull'utilizzo e sulla sicurezza per gli amministratori.
 
