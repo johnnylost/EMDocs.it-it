@@ -1,34 +1,34 @@
 ---
 title: Criteri di sicurezza consigliati per posta elettronica -Microsoft 365 Enterprise | Microsoft Docs
 description: Descrive i criteri consigliati da Microsoft sull'applicazione di criteri e configurazioni che riguardano la posta elettronica.
-author: jeffgilb
-manager: femila
+author: barlanmsft
+manager: angrobe
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 08/30/2017
-ms.author: jeffgilb
+ms.author: barlan
 ms.reviewer: jsnow
 ms.custom: it-pro
-ms.openlocfilehash: a9155d50516e2597e319beea26884fafad0b2e0f
-ms.sourcegitcommit: 0e0a15476e3bbd2d4ac6101c2cedd02e082ee25d
+ms.openlocfilehash: b2650e0c792c32cb4bc43556be9efc30ed9609e3
+ms.sourcegitcommit: 684c942047754e93378e271f5b1a659a9752f0ba
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/01/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="policy-recommendations-for-securing-email"></a>Criteri consigliati per la protezione della posta elettronica
- 
+
 In questo articolo vengono descritti i criteri di sicurezza per la posta elettronica dell'organizzazione e i client di posta elettronica che supportano l'autenticazione moderna e l'accesso condizionale. Queste indicazioni si aggiungono a quelle contenute in [Common identity and access policy recommendations](identity-access-policies.md) (Consigli sui criteri comuni di identità e accesso).
 
 Questi consigli si basano su tre diversi livelli di sicurezza e protezione per la posta elettronica e possono essere applicati in base al livello di granularità necessario: **base**, **sensibile**e **maggiore regolamentazione**. Per altre informazioni su questi livelli di sicurezza e sui sistemi operativi client consigliati a cui fanno riferimento questi consigli, vedere [Recommended security policies and configurations](microsoft-365-policies-configurations.md) (Criteri di sicurezza e configurazioni consigliati).
 
 >[!NOTE]
->Per creare tutti i gruppi di sicurezza di queste indicazioni, è necessario che le funzionalità di Office siano abilitate. È importante in particolare per la distribuzione di AIP durante la protezione dei documenti in SharePoint. 
+>Per creare tutti i gruppi di sicurezza di queste indicazioni, è necessario che le funzionalità di Office siano abilitate. È importante in particolare per la distribuzione di AIP quando si proteggono i documenti in SharePoint.
 >
 >![Funzionalità di Office abilitate per i gruppi di sicurezza](./media/security-group.png)
 >
 
-## <a name="baseline"></a>Versione di base 
-Per creare un nuovo criterio di accesso condizionale, accedere al portale di Microsoft Azure con le credenziali di amministratore. Selezionare **Azure Active Directory > Security > Accesso condizionale**. 
+## <a name="baseline"></a>Versione di base
+Per creare un nuovo criterio di accesso condizionale, accedere al portale di Microsoft Azure con le credenziali di amministratore. Selezionare **Azure Active Directory > Security > Accesso condizionale**.
 
 È possibile aggiungere un nuovo criterio (+ Aggiungi) come illustrato nella schermata seguente:
 
@@ -94,7 +94,7 @@ Per gestire le app per dispositivi mobili, accedere al portale di Microsoft Azur
 
 Dopo aver completato il progetto pilota, questi criteri devono essere applicati a tutti gli utenti dell'organizzazione.
 
-## <a name="sensitive"></a>Dati sensibili 
+## <a name="sensitive"></a>Dati sensibili
 
 ### <a name="low-and-above-risk-requires-mfa"></a>Autenticazione a più fattori richiesta per rischio basso ed elevato
 Nella tabella seguente vengono descritte le impostazioni relative ai criteri di accesso condizionale che devono essere implementate per i criteri di rischio basso ed elevato.
@@ -125,7 +125,7 @@ Nella tabella seguente vengono descritte le impostazioni relative ai criteri di 
 
 Dopo aver completato il progetto pilota, questi criteri devono essere applicati a tutti gli utenti dell'organizzazione che devono accedere a posta elettronica contenente dati sensibili.
 
-## <a name="highly-regulated"></a>Riservatezza elevata 
+## <a name="highly-regulated"></a>Riservatezza elevata
 ### <a name="mfa-required"></a>Autenticazione MFA obbligatoria
 
 Nella tabella seguente vengono descritte le impostazioni relative ai criteri di accesso condizionale che devono essere implementate per criteri con maggiore regolamentazione.
@@ -150,7 +150,7 @@ Nella tabella seguente vengono descritte le impostazioni relative ai criteri di 
 Dopo aver completato il progetto pilota, questi criteri devono essere applicati a tutti gli utenti dell'organizzazione che devono accedere a posta elettronica soggetta a maggiore regolamentazione.
 
 ### <a name="high-risk-users-policy"></a>Criteri per gli utenti a rischio elevato
-Perché tutti gli account compromessi di utenti a rischio elevato siano obbligati a modificare la password durante l'accesso, è necessario applicare i criteri seguenti. 
+Perché tutti gli account compromessi di utenti a rischio elevato siano obbligati a modificare la password durante l'accesso, è necessario applicare i criteri seguenti.
 
 Accedere al [portale di Microsoft Azure (http://portal.azure.com)](http://portal.azure.com/) con le credenziali di amministratore e selezionare **Azure AD Identity Protection > Criteri di rischio utente**.
 
@@ -166,13 +166,13 @@ Accedere al [portale di Microsoft Azure (http://portal.azure.com)](http://portal
 
 
 ## <a name="additional-configurations"></a>Configurazioni aggiuntive
-Oltre ai criteri descritti in precedenza, è necessario configurare le impostazioni per la gestione di applicazioni e dispositivi mobili illustrate in questa sezione. 
+Oltre ai criteri descritti in precedenza, è necessario configurare le impostazioni per la gestione di applicazioni e dispositivi mobili illustrate in questa sezione.
 
-### <a name="intune-mobile-application-management"></a>Gestione di applicazioni mobili di Intune 
+### <a name="intune-mobile-application-management"></a>Gestione di applicazioni mobili di Intune
 
 Per garantire che la posta elettronica sia protetta dai criteri consigliati in precedenza per ogni di livello di sicurezza e di protezione dati, è necessario creare i criteri di protezione delle app di Intune nel portale di Azure.
 
-Per creare un nuovo criterio per la protezione delle app, accedere al portale di Microsoft Azure con le credenziali di amministratore e selezionare **Protezione app di Intune > Impostazioni > Accesso condizionale > Criteri per le app**.
+Per creare un nuovo criterio per la protezione delle app, accedere al portale di Microsoft Azure con le credenziali di amministratore e selezionare **Protezione app di Intune > Criteri per le app**.
 
 Aggiungere un nuovo criterio (+ Aggiungi) come illustrato nella schermata seguente:
 
@@ -216,7 +216,7 @@ Al termine, ricordarsi di fare clic su "Crea". Ripetere i passaggi precedenti e 
 Per creare i criteri seguenti di configurazione e conformità, accedere al [portale di Microsoft Management (http://manage.microsoft.com)](https://manage.microsoft.com/) con le credenziali di amministratore.
 
 #### <a name="ios-email-profile"></a>Profilo di posta elettronica iOS
-Nel [portale di gestione di Intune (https://manage.microsoft.com)](https://manage.microsoft.com/) creare i criteri di configurazione seguenti in **Criteri > Criteri di configurazione > Aggiungi > iOS > Profilo di posta elettronica (iOS 8.0 e versioni successive)**.
+Nel [portale di gestione di Intune (https://manage.microsoft.com)](https://manage.microsoft.com/) creare i criteri di configurazione seguenti in **Criteri > Criteri di configurazione > Aggiungi > Criteri di posta elettronica iOS**.
 
 |Categories|Tipo|Proprietà|Valori|Note|
 |:---------|:---|:---------|:-----|:----|
@@ -233,7 +233,7 @@ Nel [portale di gestione di Intune (https://manage.microsoft.com)](https://manag
 |||Sincronizza gli indirizzi di posta elettronica utilizzati di recente|True|Check|
 
 #### <a name="ios-app-sharing-profile"></a>Profilo di condivisione app iOS
-Nel [portale di gestione di Intune (https://manage.microsoft.com)](https://manage.microsoft.com/) creare i criteri di configurazione seguenti in **Criteri > Criteri di configurazione > Aggiungi > iOS > Configurazione generale (iOS 8.0 e versioni successive)**.
+Nel [portale di gestione di Intune (https://manage.microsoft.com)](https://manage.microsoft.com/) creare i criteri di configurazione seguenti in **Criteri > Criteri di configurazione > Aggiungi > Criteri di condivisione app iOS**.
 
 |Categories|Tipo|Proprietà|Valori|Note|
 |:---------|:---|:---------|:-----|:----|
@@ -251,7 +251,7 @@ Nel [portale di gestione di Intune (https://manage.microsoft.com)](https://manag
 ||Contenuto multimediale|Tutto|Non configurata|||
 
 #### <a name="android-email-profile"></a>Profilo di posta elettronica Android
-Nel [portale di gestione di Intune (https://manage.microsoft.com)](https://manage.microsoft.com/) creare i criteri di configurazione seguenti in **Criteri > Criteri di configurazione > Aggiungi > iOS > Profilo di posta elettronica (Samsung KNOX Standard 4.0 e versioni successive)**.
+Nel [portale di gestione di Intune (https://manage.microsoft.com)](https://manage.microsoft.com/) creare i criteri di configurazione seguenti in **Criteri > Criteri di configurazione > Aggiungi > Criteri di posta elettronica Android**.
 
 |Categories|Tipo|Proprietà|Valori|Note|
 |:---------|:---|:---------|:-----|:----|
@@ -272,7 +272,7 @@ Nel [portale di gestione di Intune (https://manage.microsoft.com)](https://manag
 |||Note|True|Check|
 
 #### <a name="android-for-work-email-profile"></a>Profilo di posta elettronica per Android
-Nel [portale di gestione di Intune (https://manage.microsoft.com)](https://manage.microsoft.com/) creare i criteri di configurazione seguenti in **Criteri > Criteri di configurazione > Aggiungi > iOS > Profilo di posta elettronica (Android for Work - Gmail)**.
+Nel [portale di gestione di Intune (https://manage.microsoft.com)](https://manage.microsoft.com/) creare i criteri di configurazione seguenti in **Criteri > Criteri di configurazione > Aggiungi > Android > Profilo di posta elettronica (Android for Work - Gmail)**.
 
 |Categories|Tipo|Proprietà|Valori|Note|
 |:---------|:---|:---------|:-----|:----|
@@ -285,7 +285,7 @@ Nel [portale di gestione di Intune (https://manage.microsoft.com)](https://manag
 |||Usa SSL|True|Check|
 
 #### <a name="android-for-work-app-sharing-profile"></a>Profilo di condivisione app iOS Android for Work
-Nel [portale di gestione di Intune (https://manage.microsoft.com)](https://manage.microsoft.com/) creare i criteri di configurazione seguenti in **Criteri > Criteri di configurazione > Aggiungi > iOS > Configurazione generale ((Android for Work)**.
+Nel [portale di gestione di Intune (https://manage.microsoft.com)](https://manage.microsoft.com/) creare i criteri di configurazione seguenti in **Criteri > Criteri di configurazione > Aggiungi > Criteri di condivisione app Android for Work**.
 
 |Categories|Tipo|Proprietà|Valori|Note|
 |:---------|:---|:---------|:-----|:----|
@@ -329,4 +329,3 @@ Gli utenti dell'organizzazione con un ruolo Amministratore globale o Amministrat
 ## <a name="next-steps"></a>Passaggi successivi
 
 [Suggerimenti sui criteri per la protezione di siti e file di SharePoint](sharepoint-file-access-policies.md)
- 

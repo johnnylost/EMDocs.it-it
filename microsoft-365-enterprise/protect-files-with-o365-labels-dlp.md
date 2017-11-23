@@ -1,8 +1,8 @@
 ---
-title: Proteggere i file con le etichette di Office 365 e la prevenzione della perdita dei dati | Microsoft Docs
+title: Proteggere i file di SharePoint Online con le etichette di Office 365 e la prevenzione della perdita dei dati | Microsoft Docs
 description: Applicare le etichette di Office 365 e i criteri di prevenzione della perdita dei dati ai siti del team di SharePoint Online con vari livelli di protezione delle informazioni.
 services: active-directory
-keywords: Office 365, Windows 10, Enterprise Mobility and Security, Microsoft 365 Enterprise
+keywords: Office 365, Windows 10, Enterprise Mobility + Security, Microsoft 365 Enterprise
 documentationcenter: 
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,15 +13,15 @@ ms.workload:
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: article
-ms.date: 08/28/2017
+ms.date: 11/15/2017
 ms.author: josephd
-ms.openlocfilehash: e9138c2c563c8081f075ffa3e65ecf917456c23c
-ms.sourcegitcommit: 5b34af60e3aac19d618f1c6297da91e2c050a374
+ms.openlocfilehash: ec400ac466aeb5a20473c00f7a7df488e4b23725
+ms.sourcegitcommit: 684c942047754e93378e271f5b1a659a9752f0ba
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 11/17/2017
 ---
-# <a name="protect-files-with-office-365-labels-and-data-loss-prevention"></a>Proteggere i file con le etichette di Office 365 e la prevenzione della perdita dei dati
+# <a name="protect-sharepoint-online-files-with-office-365-labels-and-data-loss-prevention"></a>Proteggere i file di SharePoint Online con le etichette di Office 365 e la prevenzione della perdita dei dati
 
 ## <a name="introduction"></a>Introduzione
 Seguire la procedura descritta in questo articolo per progettare e distribuire le etichette di Office 365 e i criteri di prevenzione della perdita dei dati ai siti di base, sensibili e con riservatezza elevata del team di SharePoint Online. Per altre informazioni su questi tre livelli di protezione, vedere [Secure SharePoint Online sites and files](secure-sharepoint-online-sites-and-files.md) (Proteggere siti e file di SharePoint Online).
@@ -37,7 +37,7 @@ In questa fase si definiscono i nomi etichette di Office 365 per i quattro livel
 |:-----|:-----|
 |Pubblico di base|Pubblico interno|
 |Privato di base|Private|
-|Sensibile|Sensibile|
+|Dati sensibili|Dati sensibili|
 |Highly Confidential (Riservatezza elevata)|Highly Confidential (Riservatezza elevata)|
 
 ### <a name="phase-2-create-the-office-365-labels"></a>Fase 2: creare le etichette di Office 365
@@ -88,9 +88,9 @@ Seguire questa procedura per applicare le etichette di Office 365 alle cartelle 
 5. In **Autorizzazioni e gestione** fare clic su **Apply label to items in this library** (Applica etichetta agli elementi in questa libreria).
 6. In **Impostazioni: Applica etichetta** selezionare l'etichetta appropriata e fare clic su **Salva**.
 7. Chiudere la scheda per il sito di SharePoint Online.
-8. Ripetere i passaggi precedenti per assegnare le etichette di Office 365 a siti di SharePoint Online aggiuntivi.
+8. Ripetere i passaggi da 3 a 8 per assegnare le etichette di Office 365 a siti di SharePoint Online aggiuntivi.
 
-Di seguito è riportata la configurazione risultante.
+Questa è la configurazione risultante.
 
  ![Protezione di siti di base](./media/protect-files-with-o365-labels-dlp/site_labels.png)
 
@@ -104,19 +104,19 @@ Seguire questa procedura per configurare un criterio della prevenzione della per
 5. Nel riquadro **Denomina il criterio** digitare il nome del criterio di prevenzione della perdita dei dati per il livello sensibile in Nome e fare clic su **Avanti**.
 6. Nel riquadro **Choose locations** (Scegli posizioni) fare clic su **Let me choose specific locations** (Consenti di scegliere posizioni specifiche) e fare clic su **Avanti**.
 7. Nell'elenco delle posizioni disabilitare le opzioni **Exchange email** (Posta elettronica di Exchange) e **OneDrive accounts** (Account OneDrive) e fare clic su **Avanti**.
-8. Nel riquadro **Customize the types of sensitive info you want to protect** (Personalizza i tipi di informazioni sensibili da proteggere) e fare clic su **Modifica**.
+8. Nel riquadro **Customize the types of sensitive info you want to protect** (Personalizza i tipi di informazioni sensibili da proteggere) fare clic su **Modifica**.
 9. Nel riquadro **Choose the types of content to protect** (Scegli i tipi di contenuto da proteggere) fare clic su **Aggiungi** nella casella di riepilogo a discesa e fare clic su **Etichette**.
 10. Nel riquadro **Etichette** fare clic su **+ Aggiungi**, selezionare l'etichetta **Sensitive** (Sensibile), fare clic su **Aggiungi** e su **Fine**.
 11. Nel riquadro **Choose the types of content to protect** (Scegli i tipi di contenuto da proteggere) fare clic su **Salva**.
 12. Nel riquadro **Customize the types of sensitive info you want to protect** (Personalizza i tipi di informazioni sensibili da proteggere) fare clic su **Avanti**.
 13. Nel riquadro **What do you want to do if we detect sensitive info?** (Selezionare come procedere in caso di informazioni sensibili rilevate) selezionare **Customize the tip and email** (Personalizza suggerimento e messaggio di posta elettronica).
 14. Nel riquadro **Customize policy tips and email notifications** (Personalizza i suggerimenti per i criteri e le notifiche tramite posta elettronica) fare clic su **Customize the policy tip text** (Personalizza testo suggerimento per criterio).
-15. Nella casella di testo digitare o incollare quanto segue e fare clic su **OK**.
- * Per condividere un file con un utente all'esterno dell'organizzazione, scaricare il file e aprirlo. Fare clic su **File**, **Proteggi documento**, **Crittografa con password** e specificare una password complessa. Inviare la password tramite un messaggio di posta elettronica separato o un altro mezzo di comunicazione.
+15. Nella casella di testo digitare o incollare quanto segue:
+ * Per condividere un file con un utente all'esterno dell'organizzazione, scaricare il file e aprirlo. Fare clic su File, Proteggi documento, Crittografa con password e specificare una password complessa. Inviare la password in un messaggio di posta elettronica separato o un altro mezzo di comunicazione.
  * Digitare o incollare il suggerimento per i criteri in cui si indica agli utenti come condividere un file all'esterno dell'organizzazione.
-16. Nel riquadro **What do you want to do if we detect sensitive info?** (Selezionare come procedere in caso di informazioni sensibili rilevate) deselezionare la casella di controllo **Block people from sharing and restrict access to shared content** (Blocca la condivisione e limita l'accesso al contenuto condiviso) e fare clic su **Avanti**.
-17. Nel riquadro **Do you want to turn on the policy or test things out first?** (Attivare i criteri o prima verificare?) fare clic su **Sì**, per attivare subito i criteri e selezionare **Avanti**.
-18. Nel riquadro **Verifica le impostazioni** selezionare **Crea** e fare clic su **Chiudi**.
+16. Fare clic su **OK**. Nel riquadro **What do you want to do if we detect sensitive info?** (Selezionare come procedere in caso di informazioni sensibili rilevate) deselezionare la casella di controllo **Block people from sharing and restrict access to shared content** (Blocca la condivisione e limita l'accesso al contenuto condiviso) e fare clic su **Avanti**.
+17. Nel riquadro **Do you want to turn on the policy or test things out first?** (Attivare i criteri o prima verificare?) fare clic su **Sì** per attivare subito i criteri e scegliere **Avanti**.
+18. Nel riquadro **Verifica le impostazioni** fare clic su **Crea** e su **Chiudi**.
 
 Di seguito è riportata la configurazione risultante per i siti sensibili del team di SharePoint Online.
 
@@ -131,32 +131,28 @@ Seguire questa procedura per configurare un criterio della prevenzione della per
 5. Nel riquadro **Denomina il criterio** digitare il nome del criterio di prevenzione della perdita dei dati per il livello con riservatezza elevata in **Nome** e fare clic su **Avanti**.
 6. Nel riquadro **Choose locations** (Scegli posizioni) fare clic su **Let me choose specific locations** (Consenti di scegliere posizioni specifiche) e fare clic su **Avanti**.
 7. Nell'elenco delle posizioni disabilitare le opzioni **Exchange email** (Posta elettronica di Exchange) e **OneDrive accounts** (Account OneDrive) e fare clic su **Avanti**.
-8. Nel riquadro **Customize the types of sensitive info you want to protect** (Personalizza i tipi di informazioni sensibili da proteggere) fare clic su **Modifica**, in **Choose the types of content to protect** (Scegli i tipi di contenuto da proteggere) fare clic su **Aggiungi** nella casella di riepilogo a discesa e selezionare **Etichette**.
-9.  Nel riquadro **Etichette** fare clic su **+ Aggiungi**, selezionare l'etichetta **Riservatezza elevata**, fare clic su **Aggiungi** e su **Fine**.
-10. Nel riquadro **Choose the types of content to protect** (Scegli i tipi di contenuto da proteggere) fare clic su **Salva** e nel riquadro **Customize the types of sensitive info you want to protect** (Personalizza i tipi di informazioni sensibili da proteggere) fare clic su **Avanti**.
-11. Nel riquadro **What do you want to do if we detect sensitive info?** (Selezionare come procedere in caso di informazioni sensibili rilevate) selezionare **Customize the tip and email** (Personalizza suggerimento e messaggio di posta elettronica).
-12. Nel riquadro **Customize policy tips and email notifications** (Personalizza i suggerimenti per i criteri e le notifiche tramite posta elettronica) fare clic su **Customize the policy tip text** (Personalizza testo suggerimento per criterio).
-13. Nella casella di testo digitare o incollare quanto segue e fare clic su OK:
+8. Nel riquadro **Customize the types of sensitive info you want to protect** (Personalizza i tipi di informazioni sensibili da proteggere) fare clic su **Modifica**.
+9. Nel riquadro **Choose the types of content to protect** (Scegli i tipi di contenuto da proteggere) fare clic su **Aggiungi** nella casella di riepilogo a discesa e fare clic su **Etichette**.
+10. Nel riquadro **Etichette** fare clic su **+ Aggiungi**, selezionare l'etichetta **Riservatezza elevata**, fare clic su **Aggiungi** e su **Fine**.
+11. Nel riquadro **Choose the types of content to protect** (Scegli i tipi di contenuto da proteggere) fare clic su **Salva**.
+12. Nel riquadro **Customize the types of sensitive info you want to protect** (Personalizza i tipi di informazioni sensibili da proteggere) fare clic su **Avanti**.
+13. Nel riquadro **What do you want to do if we detect sensitive info?** (Selezionare come procedere in caso di informazioni sensibili rilevate) fare clic su **Customize the tip and email** (Personalizza suggerimento e messaggio di posta elettronica).
+14. Nel riquadro **Customize policy tips and email notifications** (Personalizza i suggerimenti per i criteri e le notifiche tramite posta elettronica) fare clic su **Customize the policy tip text** (Personalizza testo suggerimento per criterio).
+15. Nella casella di testo digitare o incollare quanto segue:
  * Per condividere un file con un utente all'esterno dell'organizzazione, scaricare il file e aprirlo. Fare clic su **File**, **Proteggi documento**, **Crittografa con password** e specificare una password complessa. Inviare la password tramite un messaggio di posta elettronica separato o un altro mezzo di comunicazione.
  * Digitare o incollare il suggerimento per i criteri in cui si indica agli utenti come condividere un file all'esterno dell'organizzazione.
-14. Nel riquadro **What do you want to do if we detect sensitive info?** (Selezionare come procedere in caso di informazioni sensibili rilevate) selezionare **Require a business justification to override** (Richiedi una motivazione aziendale per la sostituzione) e fare clic su **Avanti**.
-15. Nel riquadro **Do you want to turn on the policy or test things out first?** (Attivare i criteri o prima verificare?) fare clic su **Sì**, per attivare subito i criteri e selezionare **Avanti**.
-16. Nel riquadro **Verifica le impostazioni** selezionare **Crea** e fare clic su **Chiudi**.
+16. Fare clic su **OK**.
+17. Nel riquadro **What do you want to do if we detect sensitive info?** (Selezionare come procedere in caso di informazioni sensibili rilevate) selezionare **Require a business justification to override** (Richiedi una motivazione aziendale per la sostituzione) e fare clic su **Avanti**.
+18. Nel riquadro **Do you want to turn on the policy or test things out first?** (Attivare i criteri o prima verificare?) fare clic su **Sì**, per attivare subito i criteri e selezionare **Avanti**.
+19. Nel riquadro **Verifica le impostazioni** fare clic su **Crea** e su **Chiudi**.
 
 Di seguito è riportata la configurazione risultante per i siti con riservatezza elevata del team di SharePoint Online.
 
  ![Protezione di siti con riservatezza elevata](./media/protect-files-with-o365-labels-dlp/hc_w_dlp.png)
 
-Per altre informazioni, vedere [Protect files with AIP](protect-files-with-aip.md) (Proteggere i file con AIP).
-
 ## <a name="next-steps"></a>Passaggi successivi
-[Guida alla sicurezza Microsoft per campagne politiche, organizzazioni no profit e altre organizzazioni Agile](https://technet.microsoft.com/library/mt493213.aspx)
 
-[Secure SharePoint Online sites and files](secure-sharepoint-online-sites-and-files.md) (Proteggere siti e file di SharePoint Online)
-
-[Secure SharePoint Online sites in a dev/test environment](secure-sharepoint-online-sites-dev-test.md) (Proteggere i siti di SharePoint Online in un ambiente di sviluppo/test)
-
-[Adozione del cloud e soluzioni ibride](https://technet.microsoft.com/library/dn262744.aspx)
+[Proteggere i file di SharePoint Online con Azure Information Protection](protect-files-with-aip.md)
 
 
 

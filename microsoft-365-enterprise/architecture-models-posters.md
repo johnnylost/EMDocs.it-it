@@ -13,13 +13,13 @@ ms.workload:
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: article
-ms.date: 08/28/2017
+ms.date: 11/14/2017
 ms.author: josephd
-ms.openlocfilehash: a8541e02b94d038fd3e97e59f052cd8158d82227
-ms.sourcegitcommit: 5b34af60e3aac19d618f1c6297da91e2c050a374
+ms.openlocfilehash: d6e1c50deb4b5c94859f6dcf420038251e10f4fa
+ms.sourcegitcommit: 684c942047754e93378e271f5b1a659a9752f0ba
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="architecture-models-and-posters-for-microsoft-365-enterprise"></a>Modelli e poster sull'architettura per Microsoft 365 Enterprise
 
@@ -51,9 +51,6 @@ Sono consigliati tre livelli di funzionalità: protezione di base, protezione di
 
 [PDF](http://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365 file protection.pdf) | [Visio](http://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365 file protection.vsdx)
 
-### <a name="windows-10-protection-solutions"></a>Soluzioni di protezione di Windows 10
-**Presto disponibile**
-
 ### <a name="information-protection-for-office-365"></a>Information Protection per Office 365
 
  [![Protezione delle informazioni](./media/architecture-models-posters/image3.png)](https://www.microsoft.com/download/details.aspx?id=54429)
@@ -63,18 +60,19 @@ Sono consigliati tre livelli di funzionalità: protezione di base, protezione di
 ## <a name="windows-10-and-office-365-proplus-deployment-and-change-management"></a>Distribuzione e gestione del cambiamento di Windows 10 e Office 365 ProPlus
 Windows 10 e Office 365 ProPlus sono ottimizzati per il cloud e offrono valore alle organizzazioni aziendali più di qualsiasi client concorrente. Queste risorse illustrano come progettare soluzioni end-to-end per la distribuzione, la protezione e la gestione del cambiamento di un desktop moderno.
 
+### <a name="deploy-a-modern-and-secure-desktop"></a>Distribuire un desktop moderno e protetto
+
+[![Desktop moderno e protetto](./media/architecture-models-posters/image13.png)](https://www.microsoft.com/download/details.aspx?id=55987)
+
+
+[PDF](http://download.microsoft.com/download/4/E/9/4E90E227-770A-41D1-99FE-925A64D81A55/MSFT_modern_secure_desktop.pdf) | [Visio](http://download.microsoft.com/download/4/E/9/4E90E227-770A-41D1-99FE-925A64D81A55/MSFT_modern_secure_desktop.vsdx) 
+
 ### <a name="change-management-for-office-365-clients"></a>Gestione del cambiamento per client Office 365
 
  [![Gestione del cambiamento](./media/architecture-models-posters/image4.png)](https://www.microsoft.com/download/details.aspx?id=49141)
 
 
 [PDF](https://go.microsoft.com/fwlink/p/?LinkId=626681) | [Visio](https://go.microsoft.com/fwlink/p/?LinkId=626680) | [Articolo](https://technet.microsoft.com/library/mt584223.aspx) | [Altre lingue](https://www.microsoft.com/download/details.aspx?id=49141)
-
-### <a name="deploy-a-modern-and-secure-desktop"></a>Distribuire un desktop moderno e protetto
-**Presto disponibile**
-
-### <a name="deploy-office-365-proplus"></a>Distribuire Office 365 ProPlus
-**Presto disponibile**
 
 ## <a name="microsoft-cloud-for-enterprise-architects-series"></a>Microsoft Cloud per Enterprise Architects Series
 Microsoft propone la gamma più ampia di offerte di cloud con le massime potenzialità di integrazione. Queste risorse illustrano gli approcci comuni per architetti IT, progettisti di soluzioni e responsabili delle decisioni IT.
@@ -99,29 +97,20 @@ Microsoft ha sviluppato procedure consigliate all'avanguardia nella progettazion
 
 ### <a name="microsoft-cloud-networking-for-enterprise-architects"></a>Microsoft Cloud Networking per Enterprise Architects
 La migrazione dei cloud cambia il volume e la natura dei flussi di traffico all'interno e all'esterno di una rete aziendale. Inoltre, influisce sugli approcci alla riduzione dei rischi per la sicurezza. Informazioni sui componenti dell'infrastruttura di rete interessati dall'adozione di Office 365, Microsoft Intune o 365 Dynamics e dalla distribuzione di applicazioni line-of-business in Azure PaaS e IaaS.
-
-
- [![Cloud Networking](./media/architecture-models-posters/image7.png)](https://www.microsoft.com/download/details.aspx?id=54425)
+ 
+|**Elemento**|**Descrizione**|
+|:-----|:-----|
+| [![Cloud Networking](./media/architecture-models-posters/image7.png)](https://www.microsoft.com/download/details.aspx?id=54425)|Questo modello comprende: <ul><li>Trasformazione della rete per la connettività cloud</li><li>Elementi comuni della connettività cloud Microsoft</li><li>ExpressRoute per la connettività cloud Microsoft</li><li>Progettazione del servizio di rete per Microsoft SaaS (Office 365, Microsoft Intune e Dynamics CRM Online)</li><li>Progettazione del servizio di rete per Azure PaaS</li>Progettazione del servizio di rete per Azure IaaS<li></ul></li>Partecipare al corso [Optimize Your Network for Microsoft Cloud Offerings](https://mva.microsoft.com/training-courses/optimize-your-network-for-microsoft-cloud-offerings-17743) (Ottimizzare la rete per le offerte cloud di Microsoft), un corso nuovo di Microsoft Virtual Academy basato su questo poster sull'architettura.|
 
 [PDF](https://go.microsoft.com/fwlink/p/?linkid=842073) | [Visio](https://go.microsoft.com/fwlink/p/?linkid=842074) | [Articolo](https://technet.microsoft.com/library/mt733214.aspx) | [Altre lingue](https://www.microsoft.com/download/details.aspx?id=54425)
 
-Questo modello comprende le pagine seguenti:
-
-* **Trasformazione della rete per la connettività cloud** La migrazione cloud cambia il volume e la natura dei flussi del traffico all'interno e all'esterno di una rete aziendale. Influisce, inoltre, sugli approcci finalizzati alla riduzione dei rischi per la sicurezza.
-* **Elementi comuni della connettività cloud Microsoft** L'integrazione del servizio di rete con il cloud di Microsoft consente di accedere facilmente a una vasta gamma di servizi.
-* **ExpressRoute per la connettività cloud Microsoft** ExpressRoute offre una connessione di rete a elevata velocità effettiva, dedicata e privata per il cloud Microsoft.
-* **Progettazione del servizio di rete per Microsoft SaaS (Office 365, Microsoft Intune e Dynamics CRM Online)** L'ottimizzazione della rete per i servizi SaaS di Microsoft richiede un'analisi approfondita della connessione Internet, dei dispositivi client e delle operazioni IT tipiche.
-* **Progettazione del servizio di rete per Azure PaaS** L'ottimizzazione del servizio di rete per le app PaaS di Azure necessita di una larghezza di banda Internet adeguata e può richiedere la distribuzione del traffico di rete in più siti o app.
-* **Progettazione del servizio di rete per Azure IaaS** Descrizione del processo di progettazione per creare una rete virtuale (VNet) Azure ottimale per l'hosting di carichi di lavoro IT basati su server, tra cui subnet, spazi di indirizzi, routing, DNS, bilanciamento del carico e connettività di rete locale, altre reti virtuali e Internet.
-
-Partecipare al corso [Optimize Your Network for Microsoft Cloud Offerings](https://mva.microsoft.com/training-courses/optimize-your-network-for-microsoft-cloud-offerings-17743) (Ottimizzare la rete per le offerte cloud di Microsoft), un corso nuovo di Microsoft Virtual Academy basato su questo poster sull'architettura.
 
 ### <a name="microsoft-hybrid-cloud-for-enterprise-architects"></a>Cloud ibrido Microsoft per Enterprise Architects
 È possibile usare soluzioni di cloud ibrido, come un percorso per eseguire la migrazione delle esigenze aziendali e IT verso il cloud o per integrare le piattaforme e i servizi cloud con l'infrastruttura locale esistente nell'ambito della strategia IT globale. Informazioni sulle soluzioni ibride per i carichi di lavoro di Office 365, PaaS e le soluzioni LOB IaaS.
 
 |**Elemento**|**Descrizione**|
 |:-----|:-----|
-| [![Cloud ibrido](./media/architecture-models-posters/image8.png)](https://www.microsoft.com/download/details.aspx?id=54424)|Questo modello comprende: <ul><li>Principali app per dispositivi mobili per le aziende </li><li>Piattaforma, servizi e risorse per lo sviluppo di app per dispositivi mobili </li><li>Gestione dell'accesso alle applicazioni basate su cloud e ai dati provenienti dai dispositivi mobili </li><li>Confronto delle funzionalità e supporto della piattaforma per Office 365 MDM, Azure Active Directory Premium e Intune</ul></li>|
+| [![Cloud ibrido](./media/architecture-models-posters/image8.png)](https://www.microsoft.com/download/details.aspx?id=54424)|Questo modello comprende: <ul><li>Panoramica del cloud ibrido </li><li>Architettura degli scenari cloud ibridi Microsoft </li><li>Scenari cloud ibridi per Microsoft SaaS (Office 365) </li><li>Scenari cloud ibridi per Azure PaaS </li><li>Scenari cloud ibridi per Azure IaaS </ul></li>|
 
 [PDF](https://go.microsoft.com/fwlink/p/?linkid=842082) | [Visio](https://go.microsoft.com/fwlink/p/?linkid=842083) | [Articolo](https://technet.microsoft.com/library/mt750500.aspx) | [Altre lingue](https://www.microsoft.com/download/details.aspx?id=54424)
 
@@ -139,7 +128,7 @@ L'archiviazione è uno dei primi carichi di lavoro che le organizzazioni trasfer
 
 |**Elemento**|**Descrizione**|
 |:-----|:-----|
-| [![Archiviazione cloud](./media/architecture-models-posters/image10.png)](https://www.microsoft.com/download/details.aspx?id=49552)|Questo modello comprende: <ul><li>Motivi dell'uso dell'archiviazione cloud e scenari principali </li><li>Opzioni di archiviazione cloud "pronte per l'uso" fornite con i servizi esistenti, da usare immediatamente e con la configurazione minima </li><li>Alcuni assembly richiedono opzioni di archiviazione che è possibile usare come punto di partenza per la soluzione di archiviazione, con una configurazione o codifica aggiuntiva per un adattamento personalizzato </li><li>"Partire da zero" con blocchi predefiniti di spazio di archiviazione per creare la propria soluzione di archiviazione o lo spazio di archiviazione per le app</ul></li>|
+| [![Archiviazione cloud](./media/architecture-models-posters/image10.png)](https://www.microsoft.com/download/details.aspx?id=49552)|Questo modello comprende: <ul><li>Motivi dell'uso dell'archiviazione cloud e scenari principali </li><li>Opzioni di archiviazione cloud fornite con i servizi esistenti </li><li>Opzioni di archiviazione che è possibile usare come punto di partenza per la soluzione di archiviazione </li><li>Blocchi predefiniti di spazio di archiviazione per creare la propria soluzione di archiviazione o lo spazio di archiviazione per le app</ul></li>|
 
 [PDF](https://go.microsoft.com/fwlink/p/?linkid=842079) | [Visio](https://go.microsoft.com/fwlink/p/?linkid=842080) | [Altre lingue](https://www.microsoft.com/download/details.aspx?id=49552)
 
@@ -148,7 +137,7 @@ Esempio di come un'organizzazione globale fittizia ma rappresentativa ha impleme
 
 |**Elemento**|**Descrizione**|
 |:-----|:-----|
-| [![Contoso nel cloud](./media/architecture-models-posters/image11.png)](https://www.microsoft.com/download/details.aspx?id=54427)|Questo modello comprende: <ul><li>Motivi dell'uso dell'archiviazione cloud e scenari principali </li><li>Opzioni di archiviazione cloud "pronte per l'uso" fornite con i servizi esistenti, da usare immediatamente e con la configurazione minima </li><li>Alcuni assembly richiedono opzioni di archiviazione che è possibile usare come punto di partenza per la soluzione di archiviazione, con una configurazione o codifica aggiuntiva per un adattamento personalizzato</li><li>"Partire da zero" con blocchi predefiniti di spazio di archiviazione per creare la propria soluzione di archiviazione o lo spazio di archiviazione per le app</ul></li>|
+| [![Contoso nel cloud](./media/architecture-models-posters/image11.png)](https://www.microsoft.com/download/details.aspx?id=54427)|Questo modello comprende: <ul><li>Panoramica di Contoso Corporation </li><li>Infrastruttura IT ed esigenze di Contoso </li><li>Rete cloud per Contoso</li><li>Identità cloud per Contoso</li><li>Sottoscrizioni, licenze e account utente di Contoso</li><li>Sicurezza cloud per Contoso</li><li>Scenari cloud aziendali per Contoso</ul></li>|
 
 [PDF](https://go.microsoft.com/fwlink/p/?linkid=842085) | [Visio](https://go.microsoft.com/fwlink/p/?linkid=842086) | [Articolo](https://technet.microsoft.com/library/mt775341.aspx) | [Altre lingue](https://www.microsoft.com/download/details.aspx?id=54427)
 

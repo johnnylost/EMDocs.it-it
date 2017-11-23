@@ -13,13 +13,13 @@ ms.workload:
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: article
-ms.date: 08/28/2017
+ms.date: 11/15/2017
 ms.author: josephd
-ms.openlocfilehash: 6e077d22b5fda708f785f54c9af409c8fb6ef4ce
-ms.sourcegitcommit: 5b34af60e3aac19d618f1c6297da91e2c050a374
+ms.openlocfilehash: 6e7050dca9c0f66f481fe6ee37fb88bf4617f982
+ms.sourcegitcommit: 684c942047754e93378e271f5b1a659a9752f0ba
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="secure-sharepoint-online-sites-in-a-devtest-environment"></a>Proteggere i siti di SharePoint Online in un ambiente di sviluppo/test
 
@@ -53,31 +53,42 @@ Abilitare quindi la licenza Enterprise Mobility + Security E5 per l'account ammi
 ## <a name="phase-2-create-and-configure-your-azure-active-directory-ad-groups-and-users"></a>Fase 2: Creare e configurare gruppi e utenti di Azure Active Directory (AD)
 In questa fase vengono creati e configurati i gruppi e gli utenti di Azure AD per l'organizzazione fittizia.
 
-Per prima cosa è necessario [connettersi al modulo PowerShell di Azure Active Directory V2](https://go.microsoft.com/fwlink/?linkid=842218).
+Innanzitutto, creare un set di gruppi per un'organizzazione tipica con il portale di Azure.
 
-Quindi, eseguire questi comandi dal prompt dei comandi di PowerShell o da Integrated Script Environment (ISE):
-```
-$groupNames=@("C-Suite","IT staff","Research staff","Regular staff","Marketing staff","Sales staff")
-ForEach ($element in $groupNames){ New-AzureADGroup -DisplayName $element -MailEnabled $false -SecurityEnabled $true -MailNickName "NotSet" }
-```
+1. Creare una scheda separata nel browser e passare al **portale di Azure** all'indirizzo [https://portal.azure.com](https://portal.azure.com). Se necessario, accedere con le credenziali dell'account amministratore globale della sottoscrizione di valutazione di Office 365 E5.
+2. Nel portale di Azure fare clic su **Azure Active Directory > Utenti e gruppi > Tutti i gruppi**.
+3. Nel pannello **Tutti i gruppi** fare clic su **+ Nuovo gruppo**.
+4. Nel pannello **Gruppo**:
+ * Digitare **C-Suite** in **Nome**.
+ * Selezionare **Assegnato** in **Appartenenza**.
+ * Selezionare **Sì** per **Abilitare le funzionalità di Office**.
+5. Fare clic su **Crea** e quindi chiudere il pannello **Gruppo**.
+6. Ripetere i passaggi da 3 a 5 per i nomi dei gruppi seguenti:
+ * IT staff
+ * Research staff
+ * Regular staff
+ * Marketing staff
+ * Sales staff
+7. Tenere aperta la scheda del portale di Azure nel browser.
 
 Successivamente, configurare la gestione automatica delle licenze in modo che ai membri dei gruppi vengano automaticamente assegnate le licenze per le sottoscrizioni di Office 365 ed EMS, quindi attenersi alla procedura seguente:
 
-1. Creare una scheda separata nel browser e passare al **portale di Azure** all'indirizzo [https://portal.azure.com](https://portal.azure.com). Se necessario, accedere con le credenziali dell'account amministratore globale della sottoscrizione di valutazione di Office 365 E5.
-2. Nel portale di Azure fare clic su **Azure Active Directory > Licenze > Tutti i prodotti**.
-3. Selezionare dall'elenco **Enterprise Mobility + Security E5** e **Office 365 Enterprise E5** e fare clic su **Assegna**.
-4. Nel pannello **Assegnare licenza** fare clic su **Utenti e gruppi**.
-5. Nell'elenco dei gruppi selezionare gli elementi seguenti:
+1. Nel portale di Azure fare clic su **Azure Active Directory > Licenze > Tutti i prodotti**.
+2. Selezionare dall'elenco **Enterprise Mobility + Security E5** e **Office 365 Enterprise E5** e fare clic su **Assegna**.
+3. Nel pannello **Assegnare licenza** fare clic su **Utenti e gruppi**.
+4. Nell'elenco dei gruppi selezionare gli elementi seguenti:
  * C-Suite
  * IT staff
  * Research staff
  * Regular staff
  * Marketing staff
  * Sales staff
-6. Fare clic su **Seleziona** e quindi su **Assegna**.
-7. Chiudere la scheda del portale di Azure nel browser.
+5. Fare clic su **Seleziona** e quindi su **Assegna**.
+6. Chiudere la scheda del portale di Azure nel browser.
 
-Inserire il nome dell'organizzazione, il percorso e una password comune. Eseguire i comandi indicati di seguito dal prompt dei comandi di PowerShell o da Integrated Script Environment (ISE) per creare gli account utente. Quindi, aggiungerli ai gruppi corrispondenti.
+È quindi necessario [connettersi al modulo PowerShell di Azure Active Directory V2](https://go.microsoft.com/fwlink/?linkid=842218).
+
+Inserire il nome dell'organizzazione, il percorso e una password comune. Eseguire i comandi indicati di seguito dal prompt dei comandi di PowerShell o da Integrated Script Environment (ISE) per creare gli account utente e aggiungerli ai gruppi corrispondenti.
 
 ```
 $orgName="[organization name, such as contoso for the contoso.onmicrosoft.com trial subscription domain name]"
@@ -151,20 +162,20 @@ In questa fase vengono create le etichette per i diversi livelli di sicurezza pe
 3. Dalla nuova scheda **Interfaccia di amministrazione di Office** del browser fare clic su **Interfacce di amministrazione > Sicurezza e conformità**.
 4. Dalla nuova scheda **Home: Sicurezza e conformità** del browser fare clic su **Classificazioni > Etichette**.
 5. Dal riquadro **Home > Etichette** fare clic su **Crea un'etichetta**.
- 1. Nel riquadro **Name your label** (Denomina l'etichetta) digitare **Internal Public** e fare clic su **Avanti**.
- 2. Nel riquadro delle **impostazioni dell'etichetta** fare clic su **Avanti**.
- 3. Nel riquadro **Verifica le impostazioni** fare clic su **Create this label** (Crea questa etichetta) e fare clic su **Chiudi**.
-6. Ripetere i passaggi precedenti per queste etichette aggiuntive:
+6. Nel riquadro **Name your label** (Denomina l'etichetta) digitare **Internal Public** e fare clic su **Avanti**.
+7. Nel riquadro delle **impostazioni dell'etichetta** fare clic su **Avanti**.
+8. Nel riquadro **Verifica le impostazioni** fare clic su **Create this label** (Crea questa etichetta) e fare clic su **Chiudi**.
+9. Ripetere i passaggi da 5 a 8 per queste etichette aggiuntive:
  * Private
- * Sensitive
+ * Dati sensibili
  * Highly Confidential (Riservatezza elevata)
-7. Dal riquadro **Home > Etichette** fare clic su **Publish labels** (Pubblica etichette).
-8. Nel riquadro **Choose labels to publish** (Scegli etichette da pubblicare) fare clic su **Choose labels to publish** (Scegli etichette da pubblicare).
-9. Nel riquadro **Choose labels** (Scegli etichette) fare clic su **Aggiungi**, selezionare le quattro etichette e fare clic su **Chiudi**.
-10. Nel riquadro **Choose labels to publish** (Scegli etichette da pubblicare) fare clic su **Avanti**.
-11. Nel riquadro **Choose locations** (Scegli posizioni) fare clic su **Avanti**.
-12. Nel riquadro **Denomina il criterio** digitare **Example organization** in **Nome** e fare clic su **Avanti**.
-13. Nel riquadro **Verifica le impostazioni** fare clic su **Publish labels** (Pubblica etichette) e fare clic su **Chiudi**.
+10. Dal riquadro **Home > Etichette** fare clic su **Publish labels** (Pubblica etichette).
+11. Nel riquadro **Choose labels to publish** (Scegli etichette da pubblicare) fare clic su **Choose labels to publish** (Scegli etichette da pubblicare).
+12. Nel riquadro **Choose labels** (Scegli etichette) fare clic su **Aggiungi**, selezionare le quattro etichette e fare clic su **Chiudi**.
+13. Nel riquadro **Choose labels to publish** (Scegli etichette da pubblicare) fare clic su **Avanti**.
+14. Nel riquadro **Choose locations** (Scegli posizioni) fare clic su **Avanti**.
+15. Nel riquadro **Denomina il criterio** digitare **Example organization** in **Nome** e fare clic su **Avanti**.
+16. Nel riquadro **Verifica le impostazioni** fare clic su **Publish labels** (Pubblica etichette) e fare clic su **Chiudi**.
 
 ## <a name="phase-4-create-your-sharepoint-online-team-sites"></a>Fase 4: Creare i siti del team di SharePoint Online
 In questa fase vengono creati e configurati i quattro tipi di siti del team di SharePoint Online per l'organizzazione di esempio.
@@ -188,7 +199,7 @@ Configurare quindi la cartella dei documenti del sito del team dell'intera organ
 3. In **Autorizzazioni e gestione** fare clic su **Apply label to items in this library** (Applica etichetta agli elementi in questa libreria).
 4. In **Impostazioni: Applica etichetta** selezionare **Internal Public** e fare clic su **Salva**.
 
-Di seguito è riportata la configurazione risultante.
+Questa è la configurazione risultante.
 
  ![Protezione del sito del team pubblico](./media/secure-sharepoint-online-sites-dev-test/pubsite.png)
 
@@ -211,7 +222,7 @@ Configurare quindi la cartella dei documenti del sito del team Project 1 per l'e
 3. In **Autorizzazioni e gestione** fare clic su **Apply label to items in this library** (Applica etichetta agli elementi in questa libreria).
 4. In **Impostazioni: Applica etichetta** selezionare **Private** e fare clic su **Salva**.
 
-Di seguito è riportata la configurazione risultante.
+Questa è la configurazione risultante.
 
  ![Protezione del sito del team privato](./media/secure-sharepoint-online-sites-dev-test/privsite.png)
 
@@ -221,27 +232,26 @@ Per creare un sito del team di SharePoint Online isolato per i dati sensibili de
 
 1. Usando un browser sul computer locale, accedere al **portale di Office 365** con il proprio account amministratore globale. Per informazioni, vedere [Dove accedere a Office 365](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4).
 2. Nell'elenco dei riquadri fare clic su **SharePoint**.
- 1. Nella nuova scheda **SharePoint** del browser fare clic su + **Crea sito**.
- 2. Nella pagina **Crea un sito** fare clic su **Sito del team**.
-3. Come **nome del sito del team** digitare **Marketing campaigns**.
-4. Come **descrizione del sito del team** digitare **SharePoint site for marketing campaign resources (sensitive)** (Sito SharePoint per le risorse delle campagne marketing - dati sensibili).
-5. In **Impostazioni privacy** selezionare **Private - only members can access this site** (Privato: solo i membri possono accedere a questo sito) e fare clic su **Avanti**.
-6. Nel riquadro **Who do you want to add?** (Chi si desidera aggiungere?) fare clic su **Fine**.
-7. Nella barra degli strumenti della nuova scheda **Marketing campaigns** (Campagne di marketing) del browser fare clic sull'icona delle impostazioni e scegliere **Autorizzazioni sito**.
-8. Nel riquadro **Autorizzazioni sito** fare clic su **Advanced permissions settings** (Impostazioni autorizzazioni avanzate).
-9. Nella nuova scheda **Autorizzazioni** del browser fare clic su **Impostazioni richieste di accesso**.
-10. Nella finestra di dialogo **Impostazioni richieste di accesso**:
-  1. Deselezionare le caselle di controllo **Consenti ai membri di condividere il sito e singoli file e cartelle** e **Consenti ai membri di invitare altre persone nel gruppo di membri del sito**.
-  2. Digitare **ITAdmin1@[nome organizzazione].onmicrosoft.com** in **Invia tutte le richieste di accesso**.
-  3. Fare clic su **OK**.
-11. Fare clic su **Marketing campaigns - Members** (Campagne di marketing - Membri) nell'elenco.
-12. Nella pagina **Utenti e gruppi** fare clic su **Nuovo**.
-13. Nella finestra di dialogo **Condividi** digitare **Marketing staff**, selezionarlo e fare clic su **Condividi**.
-14. Ripetere i passaggi precedenti per l'account utente **Researcher1**.
-15. Fare clic sul pulsante Indietro del browser e su **Marketing campaigns - Owners** (Campagne di marketing - Proprietari) nell'elenco.
+3. Nella nuova scheda **SharePoint** del browser fare clic su + **Crea sito**.
+4. Nella pagina **Crea un sito** fare clic su **Sito del team**.
+5. Come **nome del sito del team** digitare **Marketing campaigns**.
+6. Come **descrizione del sito del team** digitare **SharePoint site for marketing campaign resources (sensitive)** (Sito SharePoint per le risorse delle campagne marketing - dati sensibili).
+7. In **Impostazioni privacy** selezionare **Private - only members can access this site** (Privato: solo i membri possono accedere a questo sito) e fare clic su **Avanti**.
+8. Nel riquadro **Who do you want to add?** (Chi si desidera aggiungere?) fare clic su **Fine**.
+9. Nella barra degli strumenti della nuova scheda **Marketing campaigns** (Campagne di marketing) del browser fare clic sull'icona delle impostazioni e scegliere **Autorizzazioni sito**.
+10. Nel riquadro **Autorizzazioni sito** fare clic su **Advanced permissions settings** (Impostazioni autorizzazioni avanzate).
+11. Nella nuova scheda **Autorizzazioni** del browser fare clic su **Impostazioni richieste di accesso**.
+12. Nella finestra di dialogo **Impostazioni richieste di accesso**:
+13. Deselezionare le caselle di controllo **Consenti ai membri di condividere il sito e singoli file e cartelle** e **Consenti ai membri di invitare altre persone nel gruppo di membri del sito**.
+14. Digitare **ITAdmin1@**[nome organizzazione]**.onmicrosoft.com** in **Invia tutte le richieste di accesso** e quindi fare clic su **OK**.
+15. Fare clic su **Marketing campaigns - Members** (Campagne di marketing - Membri) nell'elenco.
 16. Nella pagina **Utenti e gruppi** fare clic su **Nuovo**.
-17. Nella finestra di dialogo **Condividi** digitare **IT staff**, selezionarlo e fare clic su **Condividi**.
-18. Fare clic sul pulsante Indietro del browser e chiudere la scheda **Utenti e gruppi** nel browser, fare clic sulla scheda **Marketing campaigns - Home** (Campagne di marketing - Home) nel browser e chiudere il riquadro **Autorizzazioni sito**.
+17. Nella finestra di dialogo **Condividi** digitare **Marketing staff**, selezionarlo e fare clic su **Condividi**.
+18. Ripetere i passaggi precedenti per l'account utente **Researcher1**.
+19. Fare clic sul pulsante Indietro del browser e su **Marketing campaigns - Owners** (Campagne di marketing - Proprietari) nell'elenco.
+20. Nella pagina **Utenti e gruppi** fare clic su **Nuovo**.
+21. Nella finestra di dialogo **Condividi** digitare **IT staff**, selezionarlo e fare clic su **Condividi**.
+22. Fare clic sul pulsante Indietro del browser e chiudere la scheda **Utenti e gruppi** nel browser, fare clic sulla scheda **Marketing campaigns - Home** (Campagne di marketing - Home) nel browser e chiudere il riquadro **Autorizzazioni sito**.
 
 Di seguito sono riportati i risultati della configurazione delle autorizzazioni:
 
@@ -269,18 +279,19 @@ Configurare quindi un criterio di prevenzione della perdita di dati che informa 
 7. Nell'elenco delle posizioni disabilitare le opzioni **Exchange email** (Posta elettronica di Exchange) e **OneDrive accounts** (Account OneDrive) e fare clic su **Avanti**.
 8. Nel riquadro **Customize the types of sensitive info you want to protect** (Personalizza i tipi di informazioni sensibili da proteggere) fare clic su **Modifica**.
 9. Nel riquadro **Choose the types of content to protect** (Scegli i tipi di contenuto da proteggere) fare clic su **Aggiungi** nella casella di riepilogo a discesa e fare clic su **Etichette**.
-10. Nel riquadro **Etichette** fare clic su **+ Aggiungi**, selezionare l'etichetta **Sensitive**, fare clic su **Aggiungi** e su **Chiudi**.
+10. Nel riquadro **Etichette** fare clic su **+ Aggiungi**, selezionare l'etichetta **Sensitive** (Sensibile), fare clic su **Aggiungi** e su **Fine**.
 11. Nel riquadro **Choose the types of content to protect** (Scegli i tipi di contenuto da proteggere) fare clic su **Salva**.
 12. Nel riquadro **Customize the types of sensitive info you want to protect** (Personalizza i tipi di informazioni sensibili da proteggere) fare clic su **Avanti**.
 13. Nel riquadro **What do you want to do if we detect sensitive info?** (Selezionare come procedere in caso di informazioni sensibili rilevate) fare clic su **Customize the tip and email** (Personalizza suggerimento e messaggio di posta elettronica).
 14. Nel riquadro **Customize policy tips and email notifications** (Personalizza i suggerimenti per i criteri e le notifiche tramite posta elettronica) fare clic su **Customize the policy tip text** (Personalizza testo suggerimento per criterio).
-15. Nella casella di testo digitare o incollare quanto segue e fare clic su **OK**:
- * Per condividere un file con un utente all'esterno dell'organizzazione, scaricare il file e aprirlo. Fare clic su **File**, **Proteggi documento**, **Crittografa con password** e specificare una password complessa. Inviare la password in un messaggio di posta elettronica separato o un altro mezzo di comunicazione.
-16. Nel riquadro **What do you want to do if we detect sensitive info?** (Selezionare come procedere in caso di informazioni sensibili rilevate) deselezionare la casella di controllo **Block people from sharing and restrict access to shared content** (Blocca la condivisione e limita l'accesso al contenuto condiviso) e fare clic su **Avanti**.
-17. Nel riquadro **Do you want to turn on the policy or test things out first?** (Attivare i criteri o prima verificare?) fare clic su **Sì** per attivare subito i criteri e scegliere **Avanti**.
-18. Nel riquadro **Verifica le impostazioni** fare clic su **Crea** e su **Chiudi**.
+15. Nella casella di testo digitare o incollare quanto segue:
+ * Per condividere un file con un utente all'esterno dell'organizzazione, scaricare il file e aprirlo. Fare clic su File, Proteggi documento, Crittografa con password e specificare una password complessa. Inviare la password in un messaggio di posta elettronica separato o un altro mezzo di comunicazione.
+16. Fare clic su **OK**.
+17. Nel riquadro **What do you want to do if we detect sensitive info?** (Selezionare come procedere in caso di informazioni sensibili rilevate) deselezionare la casella di controllo **Block people from sharing and restrict access to shared content** (Blocca la condivisione e limita l'accesso al contenuto condiviso) e fare clic su **Avanti**.
+18. Nel riquadro **Do you want to turn on the policy or test things out first?** (Attivare i criteri o prima verificare?) fare clic su **Sì** per attivare subito i criteri e scegliere **Avanti**.
+19. Nel riquadro **Verifica le impostazioni** fare clic su **Crea** e su **Chiudi**.
 
-Di seguito è riportata la configurazione risultante.
+Questa è la configurazione risultante.
 
  ![Protezione di siti sensibili](./media/secure-sharepoint-online-sites-dev-test/senssite.png)
 
@@ -290,21 +301,21 @@ Per creare un sito del team di SharePoint Online isolato per i dati altamente ri
 1. Se necessario, usare un browser sul computer locale e accedere al **portale di Office 365** con l'account amministratore globale. Per informazioni, vedere [Dove accedere a Office 365](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4).
 2. Nell'elenco dei riquadri fare clic su **SharePoint**.
 3. Nella nuova scheda **SharePoint** del browser fare clic su + **Crea sito**.
-  1. Nella pagina **Crea un sito** fare clic su **Sito del team**.
-  2. Come **nome del sito del team** digitare **Company strategy** (Strategia aziendale).
-  3. Come **descrizione del sito del team** digitare **SharePoint site for company strategy (highly confidential)** (Sito di SharePoint per la strategia aziendale - Informazioni altamente riservate).
-4. In **Impostazioni privacy** selezionare **Private - only members can access this site** (Privato: solo i membri possono accedere a questo sito) e fare clic su **Avanti**.
-5. Nel riquadro **Who do you want to add?** (Chi si desidera aggiungere?) fare clic su **Fine**.
-6. Nella barra degli strumenti della nuova scheda **Company strategy** (Strategia aziendale) del browser fare clic sull'icona delle impostazioni e scegliere **Autorizzazioni sito**.
-7. Nel riquadro **Autorizzazioni sito** fare clic su **Advanced permissions settings** (Impostazioni autorizzazioni avanzate).
-8. Nella nuova scheda **Autorizzazioni** del browser fare clic su **Impostazioni richieste di accesso**.
-9. Nella finestra di dialogo **Impostazioni richieste di accesso** deselezionare **Consenti ai membri di condividere il sito e singoli file e cartelle** e **Consenti ai membri di invitare altre persone nel gruppo di membri del sito**, in modo che tutte e tre le caselle di controllo siano deselezionate e fare clic su **OK**.
-10. Fare clic su **Company strategy - Members** (Strategia aziendale - Membri) nell'elenco e fare clic su **Nuovo** nella pagina **Utenti e gruppi**.
-11. Nella finestra di dialogo **Condividi** digitare **C-Suite**, selezionarlo e fare clic su **Condividi**.
-12. Fare clic su **Company strategy - Owners** (Strategia aziendale - Proprietari) nell'elenco e fare clic su **Nuovo** nella pagina **Utenti e gruppi**.
-13. Nella finestra di dialogo **Condividi** digitare **IT staff**, selezionarlo e fare clic su **Condividi**.
-14. Fare clic sul pulsante Indietro del browser e chiudere la scheda **Utenti e gruppi**.
-15. Fare clic sulla scheda **Company strategy - Home** (Strategia aziendale - Home) nel browser e quindi chiudere il riquadro **Autorizzazioni sito**.
+4. Nella pagina **Crea un sito** fare clic su **Sito del team**.
+5. Come **nome del sito del team** digitare **Company strategy** (Strategia aziendale).
+6. Come **descrizione del sito del team** digitare **SharePoint site for company strategy (highly confidential)** (Sito di SharePoint per la strategia aziendale - Informazioni altamente riservate).
+7. In **Impostazioni privacy** selezionare **Private - only members can access this site** (Privato: solo i membri possono accedere a questo sito) e fare clic su **Avanti**.
+8. Nel riquadro **Who do you want to add?** (Chi si desidera aggiungere?) fare clic su **Fine**.
+9. Nella barra degli strumenti della nuova scheda **Company strategy** (Strategia aziendale) del browser fare clic sull'icona delle impostazioni e scegliere **Autorizzazioni sito**.
+10. Nel riquadro **Autorizzazioni sito** fare clic su **Advanced permissions settings** (Impostazioni autorizzazioni avanzate).
+11. Nella nuova scheda **Autorizzazioni** del browser fare clic su **Impostazioni richieste di accesso**.
+12. Nella finestra di dialogo **Impostazioni richieste di accesso** deselezionare **Consenti ai membri di condividere il sito e singoli file e cartelle** e **Consenti ai membri di invitare altre persone nel gruppo di membri del sito**, in modo che tutte e tre le caselle di controllo siano deselezionate e fare clic su **OK**.
+13. Fare clic su **Company strategy - Members** (Strategia aziendale - Membri) nell'elenco e fare clic su **Nuovo** nella pagina **Utenti e gruppi**.
+14. Nella finestra di dialogo **Condividi** digitare **C-Suite**, selezionarlo e fare clic su **Condividi**.
+15. Fare clic su **Company strategy - Owners** (Strategia aziendale - Proprietari) nell'elenco e fare clic su **Nuovo** nella pagina **Utenti e gruppi**.
+16. Nella finestra di dialogo **Condividi** digitare **IT staff**, selezionarlo e fare clic su **Condividi**.
+17. Fare clic sul pulsante Indietro del browser e chiudere la scheda **Utenti e gruppi**.
+18. Fare clic sulla scheda **Company strategy - Home** (Strategia aziendale - Home) nel browser e quindi chiudere il riquadro **Autorizzazioni sito**.
 
 Di seguito sono riportati i risultati della configurazione delle autorizzazioni:
 
@@ -338,32 +349,40 @@ Configurare un criterio di prevenzione della perdita di dati che blocchi gli ute
 13. Nel riquadro **Customize the types of sensitive info you want to protect** (Personalizza i tipi di informazioni sensibili da proteggere) fare clic su **Avanti**.
 14. Nel riquadro **What do you want to do if we detect sensitive info?** (Selezionare come procedere in caso di informazioni sensibili rilevate) fare clic su **Customize the tip and email** (Personalizza suggerimento e messaggio di posta elettronica).
 15. Nel riquadro **Customize policy tips and email notifications** (Personalizza i suggerimenti per i criteri e le notifiche tramite posta elettronica) fare clic su **Customize the policy tip text** (Personalizza testo suggerimento per criterio).
-16. Nella casella di testo digitare o incollare quanto segue e fare clic su **OK**:
+16. Nella casella di testo digitare o incollare quanto segue:
  * Per condividere un file con un utente all'esterno dell'organizzazione, scaricare il file e aprirlo. Fare clic su **File** e quindi su **Proteggi documento** e **Crittografa con password** e specificare una password complessa. Inviare la password in un messaggio di posta elettronica separato o un altro mezzo di comunicazione.
-17. Nel riquadro **What do you want to do if we detect sensitive info?** (Selezionare come procedere in caso di informazioni sensibili rilevate) selezionare **Require a business justification to override** (Richiedi una motivazione aziendale per la sostituzione) e fare clic su **Avanti**.
-18. Nel riquadro **Do you want to turn on the policy or test things out first?** (Attivare i criteri o prima verificare?) fare clic su **Sì** per attivare subito i criteri e scegliere **Avanti**.
-19. Nel riquadro **Verifica le impostazioni** fare clic su **Crea** e su **Chiudi**.
+17. Fare clic su **OK**.
+18. Nel riquadro **What do you want to do if we detect sensitive info?** (Selezionare come procedere in caso di informazioni sensibili rilevate) selezionare **Require a business justification to override** (Richiedi una motivazione aziendale per la sostituzione) e fare clic su **Avanti**.
+19. Nel riquadro **Do you want to turn on the policy or test things out first?** (Attivare i criteri o prima verificare?) fare clic su **Sì** per attivare subito i criteri e scegliere **Avanti**.
+20. Nel riquadro **Verifica le impostazioni** fare clic su **Crea** e su **Chiudi**.
 
 Seguire quindi le istruzioni in [Attivare Azure RMS dall'interfaccia di amministrazione di Office 365](https://docs.microsoft.com/information-protection/deploy-use/activate-office365).
 
-Configurare l'etichetta Highly Confidential di Azure Information Protection con la protezione e le autorizzazioni, quindi seguire questa procedura:
+Successivamente, configurare Azure Information Protection con nuovi criteri con ambito e un'etichetta secondaria per la protezione e le autorizzazioni con la procedura seguente:
 
 1. In una scheda separata del browser in cui è stato eseguito l'accesso con l'account amministratore globale accedere al **portale di Azure** ([http://portal.azure.com](http://portal.azure.com/)).
-2. Nel riquadro elenco fare clic su **Altri servizi**, digitare **Information** e fare clic su **Azure Information Protection**.
-3. Nel pannello **Azure Information Protection - Criteri globali**, sotto l'elenco di etichette, fare clic su **Highly Confidential**.
-4. Nel pannello **Etichetta: Highly Confidential** fare clic su **Proteggi** in **Configurare le autorizzazioni per documenti e messaggi di posta elettronica contenenti questa etichetta**.
-5. Nella sezione **Protezione** fare clic su **Azure RMS**.
-6. Nel pannello **Protezione** fare clic su + **Aggiungi autorizzazioni** in **Impostazioni di protezione**.
-7. Nel pannello **Aggiungi autorizzazioni** fare clic su + **Seleziona utenti e gruppi** in **Seleziona utenti e gruppi**.
-8. Nel riquadro **Utenti e gruppi di AAD** selezionare **C-Suite** e fare clic su **Seleziona**.
-9. In **Scegliere le autorizzazioni dai valori preimpostati** deselezionare le caselle di controllo **Stampa, copia ed estrai il contenuto** e **Inoltra**.
-10. Fare due volte clic su **OK** .
-11. Nel pannello **Etichetta: Highly Confidential** fare clic su **Salva**.
-12. Nel pannello **Azure Information protection - Criteri globali** fare clic su **Pubblica**.
+3. Se è la prima volta che si configura Azure Information Protection, vedere [queste istruzioni](https://docs.microsoft.com/information-protection/deploy-use/configure-policy#to-access-the-azure-information-protection-blade-for-the-first-time).
+4. Nel riquadro elenco fare clic su **Altri servizi**, digitare **informazioni** e fare clic su **Azure Information Protection**.
+5. Nel pannello **Azure Information Protection** fare clic su **Criteri con ambito > + Aggiungi un nuovo criterio**.
+6. Digitare **CompanyStrategy** in **Nome criterio** ed **Etichetta per i documenti nel sito del team di strategia aziendale** in **Descrizione**.
+7. Fare clic su **Selezionare gli utenti o i gruppi a cui viene applicato il criterio > Utenti/Gruppi**, quindi selezionare **C-Suite**.
+8. Fare clic su **Seleziona > OK**.
+9. Per l'etichetta **Highly Confidential (Riservatezza elevata)**, fare clic sui puntini di sospensione (...) e quindi fare clic su **Aggiungi un'etichetta secondaria**.
+10. Digitare **CompStrat-HC** in **Nome** e **Proteggere i documenti nel sito del team di strategia aziendale** in **Descrizione**.
+11. In **Configurare le autorizzazioni per documenti e messaggi di posta elettronica contenenti questa etichetta** fare clic su **Proteggi**.
+12. Nella sezione **Protezione** fare clic su **Azure (chiave cloud)**.
+13. Nel pannello **Protezione** fare clic su **+ Aggiungi autorizzazioni** in **Impostazioni di protezione**.
+14. Nel pannello **Aggiungi autorizzazioni** fare clic su **+ Sfoglia la directory** in **Specificare utenti e gruppi**.
+15. Nel riquadro **Utenti e gruppi di AAD** selezionare **C-Suite** e fare clic su **Seleziona**.
+16. In **Scegliere le autorizzazioni dai valori preimpostati** deselezionare le caselle di controllo **Stampa, copia ed estrai il contenuto** e **Inoltra**.
+17. Fare due volte clic su **OK** .
+18. Nel pannello **Etichetta secondaria** fare clic su **Salva**.
+19. Chiudere il pannello dei nuovi criteri con ambito.
+20. Nel pannello **Azure Information Protection - Criteri con ambito** fare clic su **Pubblica** e quindi su **Sì**.
 
 Per proteggere un documento con Azure Information Protection e l'etichetta Highly Confidential, è necessario [installare il client di Azure Information Protection](https://docs.microsoft.com/information-protection/rms-client/install-client-app) in un computer di test, installare Office dal portale di Office 365 e quindi accedere da Microsoft Word con un account del gruppo C-Suite della sottoscrizione di valutazione.
 
-Di seguito è riportata la configurazione risultante.
+Questa è la configurazione risultante.
 
  ![Protezione di siti con riservatezza elevata](./media/secure-sharepoint-online-sites-dev-test/hcsite.png)
 
@@ -375,14 +394,7 @@ Di seguito è riportata la configurazione completa per tutti i quattro siti del 
 
  ![Configurazione finale](./media/secure-sharepoint-online-sites-dev-test/finalconfig.png)
 
-Quando si è pronti per la distribuzione di produzione dei siti di SharePoint Online protetti, vedere [Proteggere siti e file di SharePoint Online](https://technet.microsoft.com/library/mt842190.aspx) per informazioni dettagliate e collegamenti ad articoli relativi alle procedure di distribuzione.
-
-
 ## <a name="next-steps"></a>Passaggi successivi
-[Proteggere siti e file di SharePoint Online](secure-sharepoint-online-sites-and-files.md)
 
-[Soluzioni di sicurezza](https://technet.microsoft.com/library/mt784690.aspx)
+Quando si è pronti per la distribuzione di produzione dei siti di SharePoint Online protetti, vedere [Proteggere siti e file di SharePoint Online](secure-sharepoint-online-sites-and-files.md) per informazioni dettagliate e collegamenti ad articoli relativi alle procedure di distribuzione.
 
-[Adozione del cloud e soluzioni ibride](https://technet.microsoft.com/library/dn262744.aspx)
-
-[Guida alla sicurezza Microsoft per campagne politiche, organizzazioni no profit e altre organizzazioni Agile](https://technet.microsoft.com/library/mt493213.aspx)
