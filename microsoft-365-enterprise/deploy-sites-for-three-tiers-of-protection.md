@@ -1,8 +1,8 @@
 ---
 title: Distribuire siti per tre livelli di protezione | Microsoft Docs
-description: Creare e configurare siti del team di SharePoint Online per vari livelli di protezione delle informazioni.
+description: Creare e configurare siti del team di SharePoint Online in Office 365 per vari livelli di protezione delle informazioni.
 services: active-directory
-keywords: Office 365, Windows 10, Enterprise Mobility and Security, Microsoft 365 Enterprise
+keywords: Office 365, Windows 10, Enterprise Mobility + Security, Microsoft 365 Enterprise
 documentationcenter: 
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,13 +13,13 @@ ms.workload:
 ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: article
-ms.date: 08/28/2017
+ms.date: 09/11/2017
 ms.author: josephd
-ms.openlocfilehash: 6d19a8b2fa39806e2a03ca8e3eb9ffae15605cc4
-ms.sourcegitcommit: 5b34af60e3aac19d618f1c6297da91e2c050a374
+ms.openlocfilehash: 0c4e7eaf6449b551a0a6222d475b2c42f49550f9
+ms.sourcegitcommit: 684c942047754e93378e271f5b1a659a9752f0ba
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/09/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="deploy-sites-for-three-tiers-of-protection"></a>Distribuire siti per tre livelli di protezione
 
@@ -49,7 +49,7 @@ Di seguito è riportata la configurazione risultante.
 ### <a name="private"></a>Private
 Per creare un sito del team di SharePoint Online di base con accesso privato e autorizzazioni, seguire questa procedura:
 
-1. Accedere al **portale di Office 365** con un account che verrà usato anche per gestire il sito del team di SharePoint Online (un amministratore di SharePoint Online). Per informazioni, vedere [Dove accedere a Office 365](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4).
+1. Se necessario, accedere al **portale di Office 365** con un account che verrà usato anche per gestire il sito del team di SharePoint Online (un amministratore di SharePoint Online). Per informazioni, vedere [Dove accedere a Office 365](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4).
 2. Nell'elenco dei riquadri fare clic su **SharePoint**.
 3. Nella nuova scheda **SharePoint** del browser fare clic su + **Crea sito**.
 4. Nella pagina **Crea sito** fare clic su **Sito del team**.
@@ -76,7 +76,7 @@ Per progettare un sito del team isolato è necessario stabilire:
  Il set di gruppi di accesso consigliato è uno per i membri del sito, uno per i visualizzatori del sito e uno per gli amministratori del sito.
 * Se verranno usati gruppi nidificati all'interno dei gruppi di accesso.
 
-Ad esempio, la struttura dei gruppi e i livelli di autorizzazione consigliati sono simili ai seguenti:
+Ad esempio, la struttura dei gruppi di SharePoint e i livelli di autorizzazione consigliati sono simili ai seguenti:
 
 |**Gruppo di SharePoint**|**Livello di autorizzazione**|**Gruppo di accesso (esempi)**|
 |:-----|:-----|:-----|
@@ -98,7 +98,7 @@ Per istruzioni dettagliate, vedere la **Fase 1** di [Distribuire un sito del tea
 
 Creare quindi il sito del team di SharePoint Online seguendo questa procedura.
 
-1. Accedere al **portale di Office 365** con un account che verrà usato anche per gestire il sito del team di SharePoint Online (un amministratore di SharePoint Online). Per informazioni, vedere [Dove accedere a Office 365](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4).
+1. Se necessario, accedere al **portale di Office 365** con un account che verrà usato anche per gestire il sito del team di SharePoint Online (un amministratore di SharePoint Online). Per informazioni, vedere [Dove accedere a Office 365](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4).
 2. Nell'elenco dei riquadri fare clic su **SharePoint**.
 3. Nella nuova **scheda SharePoint** del browser fare clic su + **Crea sito**.
 4. Nella pagina **Crea sito** fare clic su **Sito del team**.
@@ -109,7 +109,7 @@ Creare quindi il sito del team di SharePoint Online seguendo questa procedura.
 
 Dal nuovo sito del team di SharePoint Online configurare quindi le autorizzazioni seguendo questa procedura.
 
-1. Stabilire il nome dell'entità utente dell'amministratore IT o di un'altra persona che avrà la responsabilità di rispondere e occuparsi delle richieste di accesso al sito (_belindan@contoso.com_ è un esempio di nome dell'entità utente). Prendere nota di questo nome.
+1. Stabilire il nome dell'entità utente dell'amministratore IT o di un'altra persona che avrà la responsabilità di rispondere e occuparsi delle richieste di accesso al sito (belindan@contoso.com è un esempio di nome dell'entità utente). Prendere nota di questo nome.
 2. Nella barra degli strumenti fare clic sull'icona delle impostazioni e quindi su **Autorizzazioni sito**.
 3. Nel riquadro **Autorizzazioni sito** fare clic su **Advanced permissions settings** (Impostazioni autorizzazioni avanzate).
 4. Nella nuova scheda **Autorizzazioni** del browser fare clic su **Impostazioni richieste di accesso**.
@@ -187,16 +187,9 @@ Questa è la configurazione risultante.
 
 I membri del sito, attraverso l'appartenenza a uno dei gruppi di accesso, possono ora collaborare in modo sicuro alle risorse del sito. 
 
-Per altre informazioni, vedere [Proteggere file con le etichette di Office 365 e DLP](protect-files-with-o365-labels-dlp.md).
-
 ## <a name="next-steps"></a>Passaggi successivi
-[Guida alla sicurezza Microsoft per campagne politiche, organizzazioni no profit e altre organizzazioni Agile](https://technet.microsoft.com/library/mt493213.aspx)
 
-[Proteggere siti e file di SharePoint Online](secure-sharepoint-online-sites-and-files.md)
-
-[Proteggere i siti di SharePoint Online in un ambiente di sviluppo/test](secure-sharepoint-online-sites-dev-test.md)
-
-[Adozione del cloud e soluzioni ibride](https://technet.microsoft.com/library/dn262744.aspx)
+[Proteggere file con le etichette di Office 365 e DLP](protect-files-with-o365-labels-dlp.md)
 
 
 
