@@ -8,7 +8,6 @@
 ### [Proteggere l'ingresso principale](protect-front-door.md)
 ### [Proteggere i dati dagli errori degli utenti](protect-data-user-mistake.md)
 ### [Rilevare attacchi prima che possano provocare danni](detect-attacks-before-damage.md)
-### [Guida alla simulazione degli attacchi](ata-attack-simulation-playbook.md)
 ## [Protezione delle informazioni](azure-information-protection-securing-data.md)
 ### [Ruolo di Azure Information Protection nella protezione dei dati](azure-information-protection-securing-data.md)
 ## [FastTrack Center Benefit per Enterprise Mobility + Security (EMS)](enterprise-mobility-fasttrack-program.md)
