@@ -5,15 +5,15 @@ author: barlanmsft
 manager: angrobe
 ms.prod: microsoft-365-enterprise
 ms.topic: article
-ms.date: 10/27/2017
+ms.date: 12/10/2017
 ms.author: barlan
 ms.reviewer: jsnow
 ms.custom: it-pro
-ms.openlocfilehash: 46a63151471a10b578ffaf3bddb27ddfcd5500a5
-ms.sourcegitcommit: feb1e385af0bc2a2eba56e5c2d1e8b4ba8866126
+ms.openlocfilehash: a25903de35ad349a09056ab24da5e00cd1a07695
+ms.sourcegitcommit: 3cc06a29762d99a3649fb3cc80f9534dc6396d80
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/27/2017
+ms.lasthandoff: 12/11/2017
 ---
 # <a name="general-identity-and-device-access-policy-recommendations"></a>Consigli generali sull'identità e sui criteri di accesso ai dispositivi
 Questo articolo descrive i criteri consigliati comuni per contribuire a proteggere Microsoft 365 Enterprise. Vengono anche presentate le configurazioni client della piattaforma predefinite consigliate per offrire un'esperienza SSO ottimale agli utenti, oltre ai prerequisiti tecnici per l'accesso condizionale.
@@ -23,7 +23,7 @@ In questa guida viene descritto come distribuire i criteri consigliati in un amb
 Per distribuire correttamente i criteri consigliati, è necessario accedere al portale di Azure e soddisfare i prerequisiti specificati in precedenza. In particolare, è necessario:
 * Configurare le reti denominate per garantire che Azure Identity Protection generi un punteggio di rischio correttamente
 * Richiedere a tutti gli utenti di registrarsi per l'autenticazione a più fattori (MFA)
-* Configurare la sincronizzazione della password e la reimpostazione della password self-service per consentire agli utenti di reimpostare le password in modo autonomo
+* Configurare la sincronizzazione degli hash delle password e la reimpostazione della password self-service per consentire agli utenti di reimpostare le password in modo autonomo
 
 È possibile usare i criteri di Azure AD e di Intune per gruppi di utenti specifici. È consigliabile implementare i criteri definiti in precedenza a fasi. In questo modo è possibile convalidare le prestazioni dei criteri e i team di supporto che si occupano dei criteri in modo graduale.
 
@@ -31,9 +31,10 @@ Per distribuire correttamente i criteri consigliati, è necessario accedere al p
 ## <a name="prerequisites"></a>Prerequisiti
 
 Prima di implementare i criteri descritti nella parte restante di questo documento, l'organizzazione deve soddisfare alcuni prerequisiti:
+* [Configurare la sincronizzazione degli hash delle password](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnectsync-implement-password-synchronization). Questa funzionalità deve essere abilitata per rilevare credenziali perse e intervenire per l'accesso condizionale basato sui rischi. **Nota:** questo requisito è obbligatorio, indipendentemente dal fatto che l'organizzazione usi l'autenticazione gestita, come l'autenticazione pass-through, o l'autenticazione federata.
 * [Configurare le reti denominate](https://docs.microsoft.com/azure/active-directory/active-directory-known-networks-azure-portal). Azure AD Identity Protection raccoglie e analizza tutti i dati di sessione disponibili per generare un punteggio di rischio. Si consiglia di specificare gli intervalli IP pubblici dell'organizzazione per la propria rete nella configurazione di reti denominate di Azure AD. Al traffico proveniente da questi intervalli viene assegnato un punteggio di rischio ridotto, di conseguenza il traffico proveniente dall'esterno rispetto all'ambiente aziendale viene valutato con un punteggio di rischio più elevato.
 * [Registrare tutti gli utenti con l'autenticazione a più fattori (MFA)](https://docs.microsoft.com/azure/multi-factor-authentication/multi-factor-authentication-manage-users-and-devices). Azure AD Identity Protection usa Azure MFA per eseguire una verifica della sicurezza aggiuntiva. È consigliabile richiedere a tutti gli utenti di registrarsi per tempo con l'autenticazione a più fattori di Azure.
-* [Abilitare la registrazione automatica dei dispositivi dei computer Windows con dominio associato](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-automatic-device-registration-setup). L'accesso condizionale può garantire che il dispositivo che si collega al servizio sia un dispositivo con dominio associato o un dispositivo conforme. A tale scopo, nei computer Windows, il dispositivo deve essere registrato con Azure AD.  In questo articolo viene illustrato come configurare la registrazione automatica dei dispositivi.  Si noti che AD FS è un requisito.
+* [Abilitare la registrazione automatica dei dispositivi dei computer Windows con dominio associato](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-automatic-device-registration-setup). L'accesso condizionale può garantire che il dispositivo che si collega al servizio sia un dispositivo con dominio associato o un dispositivo conforme. A tale scopo, nei computer Windows, il dispositivo deve essere registrato con Azure AD.  In questo articolo viene illustrato come configurare la registrazione automatica dei dispositivi.
 * **Preparare il team di supporto**. Predisporre un piano per gli utenti che non riescono a portare a termine l'autenticazione a più fattori. Tale piano potrebbe prevedere la loro aggiunta a un gruppo di esclusione di criteri o la registrazione di nuove informazioni di autenticazione a più fattori a loro riguardo. Prima di apportare una di queste modifiche relative alla sicurezza, è necessario verificare che l'utente effettivo presenti la richiesta. Un passaggio efficace consiste nel richiedere ai responsabili degli utenti di offrire assistenza nel processo di approvazione.
 * [Configurare il writeback delle password nell'AD locale](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started). Il writeback delle password consente ad Azure AD di richiedere che gli utenti modifichino le loro password locali quando è stato rilevato un rischio elevato di compromissione di account. È possibile abilitare questa funzionalità con Azure AD Connect in due modi. È possibile abilitare il writeback delle password nella schermata delle funzionalità opzionali della procedura guidata di Azure AD Connect oppure è possibile abilitarlo tramite Windows PowerShell.  
 * [Abilitare l'autenticazione moderna](https://support.office.com/article/Enable-or-disable-modern-authentication-in-Exchange-Online-58018196-f918-49cd-8238-56f57f38d662) e [proteggere gli endpoint legacy](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-supported-apps).  L'accesso condizionale funziona con le applicazioni sia desktop che portatili che usano l'autenticazione moderna. Se l'applicazione usa protocolli di autenticazione legacy, potrebbe ottenere l'accesso nonostante l'applicazione delle condizioni. È importante sapere quali applicazioni possono usare le regole di accesso condizionale e i passaggi da eseguire per proteggere altri punti di ingresso dell'applicazione.
