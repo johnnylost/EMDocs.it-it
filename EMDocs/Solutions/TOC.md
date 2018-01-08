@@ -1,5 +1,6 @@
 # Soluzioni
 ## [Gestione di identità e accessi]()
+###[Descrizione del servizio Azure Active Directory Premium per enti pubblici](azure-ad-premium-govt-service-description.md)
 ### [Migliaia di app, una sola identità](thousands-apps-one-identity.md)
 ### [Consentire un business senza confini](enable-business-without-borders.md)
 ### [Gestire l'accesso su larga scala](manage-access-at-scale.md)
