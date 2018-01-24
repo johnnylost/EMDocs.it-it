@@ -5,34 +5,46 @@ author: barlanmsft
 manager: angrobe
 ms.prod: microsoft-365-enterprise
 ms.topic: article
-ms.date: 08/30/2017
+ms.date: 01/18/2018
 ms.author: barlan
 ms.reviewer: jsnow
 ms.custom: it-pro
-ms.openlocfilehash: b2650e0c792c32cb4bc43556be9efc30ed9609e3
-ms.sourcegitcommit: 684c942047754e93378e271f5b1a659a9752f0ba
+ms.openlocfilehash: c86f8f86d134d77e45ab7a59564b9f0d4821ed38
+ms.sourcegitcommit: eb3521981c5dec164ce2a14b4d4d53830b5ba461
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 01/18/2018
 ---
 # <a name="policy-recommendations-for-securing-email"></a>Criteri consigliati per la protezione della posta elettronica
 
 In questo articolo vengono descritti i criteri di sicurezza per la posta elettronica dell'organizzazione e i client di posta elettronica che supportano l'autenticazione moderna e l'accesso condizionale. Queste indicazioni si aggiungono a quelle contenute in [Common identity and access policy recommendations](identity-access-policies.md) (Consigli sui criteri comuni di identità e accesso).
 
-Questi consigli si basano su tre diversi livelli di sicurezza e protezione per la posta elettronica e possono essere applicati in base al livello di granularità necessario: **base**, **sensibile**e **maggiore regolamentazione**. Per altre informazioni su questi livelli di sicurezza e sui sistemi operativi client consigliati a cui fanno riferimento questi consigli, vedere [Recommended security policies and configurations](microsoft-365-policies-configurations.md) (Criteri di sicurezza e configurazioni consigliati).
+Queste indicazioni si basano su tre diversi livelli di sicurezza e protezione per la posta elettronica e possono essere applicati in base al livello di granularità necessario:
 
->[!NOTE]
->Per creare tutti i gruppi di sicurezza di queste indicazioni, è necessario che le funzionalità di Office siano abilitate. È importante in particolare per la distribuzione di AIP quando si proteggono i documenti in SharePoint.
+- **Baseline** (Livello base): Microsoft consiglia di definire uno standard minimo per la protezione dei dati, nonché le identità e i dispositivi che accedono ai dati. Microsoft offre come impostazione predefinita una protezione avanzata efficiente, che soddisfa le esigenze di molte organizzazioni. Alcune organizzazioni richiedono funzionalità aggiuntive per soddisfare i propri requisiti di base.
+- **Sensitive** (Dati sensibili): alcuni clienti hanno un subset di dati che richiede un grado di protezione superiore. È possibile applicare una protezione superiore a set di dati specifici nell'ambiente Office 365. Microsoft consiglia di applicare livelli di protezione analoghi alle identità e ai dispositivi che accedono ai dati sensibili. 
+- **Highly regulated** (Dati altamente sensibili): alcune organizzazioni possono avere una piccola quantità di dati della massima riservatezza, segreti commerciali o dati soggetti a regolamentazione. Microsoft offre funzionalità che consentono alle organizzazioni di soddisfare questi requisiti, inclusa la protezione aggiuntiva per identità e dispositivi.
+
+Per altre informazioni, vedere l'introduzione dell'argomento [Configurazioni e criteri di sicurezza consigliati](microsoft-365-policies-configurations.md).
+
+> [!IMPORTANT]
+> Per creare tutti i gruppi di sicurezza di queste indicazioni, è necessario che le funzionalità di Office siano abilitate. Questa impostazione è particolarmente importante per la distribuzione di Azure Information Protection (AIP) quando si proteggono i documenti in SharePoint Online.
 >
 >![Funzionalità di Office abilitate per i gruppi di sicurezza](./media/security-group.png)
 >
 
 ## <a name="baseline"></a>Versione di base
-Per creare un nuovo criterio di accesso condizionale, accedere al portale di Microsoft Azure con le credenziali di amministratore. Selezionare **Azure Active Directory > Security > Accesso condizionale**.
+Per creare nuovi criteri di accesso condizionale: 
 
-È possibile aggiungere un nuovo criterio (+ Aggiungi) come illustrato nella schermata seguente:
+1. Andare nel [portale di Azure](https://portal.azure.com) e accedere con le proprie credenziali. Dopo l'accesso viene visualizzato il dashboard di Azure.
 
-![Criterio di accesso condizionale di base](./media/secure-email/baseline-ca-policy.png)
+2. Scegliere **Azure Active Directory** dal menu a sinistra.
+
+3. Nella sezione **Sicurezza** scegliere **Accesso condizionale**.
+
+4. Scegliere **Nuovi criteri** come illustrato nella schermata seguente:
+
+![Criterio di accesso condizionale di base](./media/secure-email/CA-EXO-policy-1.png)
 
 Le tabelle seguenti descrivono le impostazioni appropriate necessarie per esprimere i criteri richiesti per ogni livello di protezione.
 
@@ -56,43 +68,53 @@ Nella tabella seguente vengono descritte le impostazioni relative ai criteri di 
 
 ### <a name="require-a-compliant-or-domain-joined-device"></a>Richiedi un dispositivo conforme o aggiunto a un dominio
 
-Per creare un nuovo criterio di accesso condizionale di Intune per Exchange Online, accedere al [portale di Microsoft Management (http://manage.microsoft.com)](http://manage.microsoft.com/) con le credenziali di amministratore e passare a **Criteri > Accesso condizionale > Criteri di Exchange Online**.
+Per creare criteri di accesso condizionale per Exchange Online:
 
-![Criteri di Exchange Online](./media/secure-email/exchange-online-policy.png)
+1. Andare nel [portale di Azure](https://portal.azure.com) e accedere con le proprie credenziali. Dopo l'accesso viene visualizzato il dashboard di Azure.
 
-Per richiedere un dispositivo conforme o aggiunto al dominio, è necessario impostare un criterio di accesso condizionale specificatamente per Exchange Online nel portale di gestione di Intune.
+2. Scegliere **Azure Active Directory** dal menu a sinistra.
 
-|Categories|Tipo|Proprietà|Valori|Note|
-|:---------|:---|:---------|:-----|:----|
-|**Accesso all'applicazione**|Outlook e altre app che usano l'autenticazione moderna|Tutte le piattaforme|True|Opzione selezionata|
-|||Windows deve soddisfare i requisiti seguenti|Il dispositivo deve essere aggiunto a un dominio/conforme|Selezionato (elenco)|
-|||Selected platform (Piattaforma selezionata)|False||
-||Outlook Web Access (OWA)|Blocca i dispositivi non conformi sulle stesse piattaforme in cui si trova Outlook|True|Check|
-||App di Exchange ActiveSync che usano l'autenticazione di base|Blocca i dispositivi non conformi sulle piattaforme supportate da Microsoft Intune|True|Check|
-|||Blocca tutti gli altri dispositivi sulle piattaforme non supportate da Microsoft Intune|True|Check|
-|**Distribuzione dei criteri**|Gruppi di destinazione|Select the Active Directory groups to target with this policy (Seleziona i gruppi di sicurezza Active Directory da usare come destinazione per questi criteri)|||
-|||Tutti gli utenti|False||
-|||Gruppi di sicurezza selezionati|True|Opzione selezionata|
-|||Modifica|Seleziona il gruppo di sicurezza specifico in cui sono contenuti gli utenti di destinazione||
-||Gruppi esenti|Select the Active Directory groups to exempt from this policy (overrides members of the Targeted Groups list) (Seleziona i gruppi di Active Directory da esentare da questi criteri). Questa impostazione sostituisce i membri dell'elenco Gruppi di destinazione|||
-|||Nessun utente esente|True|Opzione selezionata|
-|||Gruppi di sicurezza selezionati|False|||
+3. Nella sezione **Sicurezza** scegliere **Accesso condizionale**.
 
-### <a name="mobile-application-management-conditional-access-for-exchange-online"></a>Accesso condizionale per la gestione di applicazioni per dispositivi mobili per Exchange Online
+4. Scegliere **Nuovo criterio**.
 
-Per gestire le app per dispositivi mobili, è necessario impostare un criterio di accesso condizionale specificatamente per Exchange Online nel portale di gestione di Intune.
+5. Immettere un nome per i criteri, quindi in **Utenti e gruppi** scegliere gli utenti e i gruppi ai quali applicare i criteri.
 
-Per gestire le app per dispositivi mobili, accedere al portale di Microsoft Azure con le credenziali di amministratore e selezionare **Protezione app di Intune > Impostazioni > Accesso condizionale > Exchange Online**.
+6. Scegliere **App cloud**.
 
-|Categories|Tipo|Proprietà|Valori|Note|
-|:---------|:---|:---------|:-----|:----|
-|**Accesso app**|App consentite|Abilita accesso app|Consenti app che supportano i criteri app di Intune|Selezionato (elenco): il risultato è un elenco di combinazioni di app/piattaforme supportate dai criteri per le app di Intune|
-|**Accesso utente**|App consentite|Gruppi di utenti limitati|Aggiungi utenti/gruppi -Selezionare il gruppo di sicurezza specifico in cui sono contenuti gli utenti di destinazione|Iniziare con il gruppo di sicurezza che include utenti pilota|
-|||Gruppi di utenti esentati|Gruppi di sicurezza di eccezione|||
+7. Scegliere **Seleziona le app**, selezionare **Office 365 Exchange Online** nell'elenco **App cloud** e fare clic su **Seleziona**. Dopo aver selezionato l'app **Office 365 Exchange Online** fare clic su **Chiudi**.
 
-#### <a name="apply-to"></a>Applica a
+8. Scegliere **Concedi** nella sezione **Controlli di accesso**.
 
-Dopo aver completato il progetto pilota, questi criteri devono essere applicati a tutti gli utenti dell'organizzazione.
+9. Scegliere **Concedi accesso**, selezionare sia **Richiedi che i dispositivi siano contrassegnati come conformi** sia **Require domain joined (Hybrid Azure AD)** (Richiedi dispositivo aggiunto a un dominio - Hybrid Azure AD), quindi scegliere **Seleziona**.
+
+10. Fare clic su **Crea** per creare i criteri di accesso condizionale di Exchange Online.
+
+    > [!NOTE]
+    > A partire da Intune in Azure tutti i criteri di accesso condizionale devono essere creati nel carico di lavoro di Azure Active Directory. Per praticità, il portale di Intune dispone di un collegamento al carico di lavoro dei criteri di accesso condizionale di Azure AD.
+
+    > [!IMPORTANT]
+    > Per assistenza nella migrazione al portale di Intune in Azure dei criteri di accesso condizionale creati in precedenza nel portale di Intune classico, vedere l'argomento [Riassegnare i criteri di accesso condizionale dal portale di Intune classico al portale di Azure](https://docs.microsoft.com/intune/conditional-access-intune-reassign). 
+
+### <a name="app-based-conditional-access-for-exchange-online"></a>Accesso condizionale basato su app per Exchange Online
+
+È possibile aggiungere un ulteriore livello di sicurezza impostando criteri di accesso condizionale basati su app per Exchange Online nel portale di Intune in Azure. Quando si applica l'accesso condizionale basato sulle app per Exchange Online è necessario richiedere agli utenti di usare un'app specifica (ad esempio Microsoft Outlook) per l'accesso alla posta elettronica aziendale.
+
+Per aggiungere criteri di accesso condizionale basato su app:
+
+1. Andare nel [portale di Azure](https://portal.azure.com) e accedere con le credenziali di Intune. Dopo l'accesso viene visualizzato il dashboard di Azure.
+
+2. Scegliere **Altri servizi** dal menu a sinistra e quindi digitare "**Intune**".
+
+3. Scegliere **Protezione app di Intune**.
+
+4. Nel pannello **Gestione di applicazioni mobili di Intune** scegliere **Tutte le impostazioni**.
+
+5. Scegliere **Exchange Online** nella sezione **Accesso condizionale**.
+
+6. Selezionare **Consenti app che supportano i criteri app di Intune** e quindi scegliere l'app (ad esempio Microsoft Outlook).
+
+7. Scegliere **Gruppi di utenti limitati**, fare clic su **Seleziona gruppi**, selezionare l'utente o il gruppo al quale applicare i criteri e fare clic su **Seleziona**.
 
 ## <a name="sensitive"></a>Dati sensibili
 
@@ -117,7 +139,7 @@ Nella tabella seguente vengono descritte le impostazioni relative ai criteri di 
 ### <a name="require-a-compliant-or-domain-joined-device"></a>Richiedi un dispositivo conforme o aggiunto a un dominio
 (Vedere le istruzioni per la protezione di base)
 
-### <a name="mobile-application-management-conditional-access-for-exchange-online"></a>Accesso condizionale per la gestione di applicazioni per dispositivi mobili per Exchange Online
+### <a name="app-based-conditional-access-for-exchange-online"></a>Accesso condizionale basato su app per Exchange Online
 
 (Vedere le istruzioni per la protezione di base)
 
@@ -144,7 +166,7 @@ Nella tabella seguente vengono descritte le impostazioni relative ai criteri di 
 
 ### <a name="require-a-compliant-or-domain-joined-device"></a>Richiedi un dispositivo conforme o aggiunto a un dominio
 (Vedere le istruzioni per la protezione di base)
-### <a name="mobile-application-management-conditional-access-for-exchange-online"></a>Accesso condizionale per la gestione di applicazioni per dispositivi mobili per Exchange Online
+### <a name="app-based-conditional-access-for-exchange-online"></a>Accesso condizionale basato su app per Exchange Online
 (Vedere le istruzioni per la protezione di base)
 #### <a name="apply-to"></a>Applica a
 Dopo aver completato il progetto pilota, questi criteri devono essere applicati a tutti gli utenti dell'organizzazione che devono accedere a posta elettronica soggetta a maggiore regolamentazione.
@@ -176,7 +198,7 @@ Per creare un nuovo criterio per la protezione delle app, accedere al portale di
 
 Aggiungere un nuovo criterio (+ Aggiungi) come illustrato nella schermata seguente:
 
-![Gestione di applicazioni mobili di Intune](./media/secure-email/intune-mobile-app-mgmt.png)
+![Gestione di applicazioni mobili di Intune](./media/secure-email/CA-EXO-policy-2.png)
 
 >[!NOTE]
 >Le opzioni dei criteri per la protezione delle app sono leggermente diverse tra iOS e Android. Di seguito sono specificati i criteri per Android.
@@ -186,7 +208,7 @@ La tabella seguente descrive le impostazioni consigliate per i criteri per la pr
 
 |Categories|Tipo|Proprietà|Valori|Note|
 |:---------|:---|:---------|:-----|:----|
-|**Generalee**|Posta elettronica|Nome|Secure email policy for Android (Criteri di sicurezza per posta elettronica per Android)|Immettere un nome per i criteri|
+|**Generalee**|Posta elettronica|Name|Secure email policy for Android (Criteri di sicurezza per posta elettronica per Android)|Immettere un nome per i criteri|
 |||Descrizione||Immettere un testo che descrive il criterio|
 |||Piattaforma|Android|Le opzioni dei criteri per la protezione delle app sono leggermente diverse tra iOS e Android. Di seguito sono specificati i criteri per Android|
 |**App**|Applicazioni|App|Outlook|Selezionato (elenco)|
@@ -212,11 +234,13 @@ La tabella seguente descrive le impostazioni consigliate per i criteri per la pr
 
 Al termine, ricordarsi di fare clic su "Crea". Ripetere i passaggi precedenti e sostituire la piattaforma selezionata (menu a discesa) con iOS. In questo modo vengono creati due criteri per le app, quindi dopo aver creato i criteri, assegnare i gruppi ai criteri e distribuirli.
 
+- Per informazioni dettagliate, vedere [Come creare e assegnare criteri di protezione delle app](https://docs.microsoft.com/intune/app-protection-policies).
+
 ### <a name="intune-mobile-device-management"></a>Gestione dei dispositivi mobili di Intune
-Per creare i criteri seguenti di configurazione e conformità, accedere al [portale di Microsoft Management (http://manage.microsoft.com)](https://manage.microsoft.com/) con le credenziali di amministratore.
+È possibile creare i seguenti profili di configurazione dei dispositivi e criteri di conformità del dispositivo accedendo al [portale di Intune in Azure](https://portal.azure.com) con le credenziali di Intune.
 
 #### <a name="ios-email-profile"></a>Profilo di posta elettronica iOS
-Nel [portale di gestione di Intune (https://manage.microsoft.com)](https://manage.microsoft.com/) creare i criteri di configurazione seguenti in **Criteri > Criteri di configurazione > Aggiungi > Criteri di posta elettronica iOS**.
+Nel [portale di Intune in Azure](https://portal.azure.com) è possibile creare i seguenti profili di configurazione dei dispositivi in **Configurazione del dispositivo > Profili > Crea profilo > Piattaforma (iOS) > Tipo di profilo (Posta elettronica)**.
 
 |Categories|Tipo|Proprietà|Valori|Note|
 |:---------|:---|:---------|:-----|:----|
@@ -232,26 +256,8 @@ Nel [portale di gestione di Intune (https://manage.microsoft.com)](https://manag
 |||Consenti di inviare i messaggi di posta elettronica dalle applicazioni di terze parti|True||
 |||Sincronizza gli indirizzi di posta elettronica utilizzati di recente|True|Check|
 
-#### <a name="ios-app-sharing-profile"></a>Profilo di condivisione app iOS
-Nel [portale di gestione di Intune (https://manage.microsoft.com)](https://manage.microsoft.com/) creare i criteri di configurazione seguenti in **Criteri > Criteri di configurazione > Aggiungi > Criteri di condivisione app iOS**.
-
-|Categories|Tipo|Proprietà|Valori|Note|
-|:---------|:---|:---------|:-----|:----|
-|**Security**|Tutto|Tutto|Non configurata||
-|**Cloud**|Tutto|Tutto|Non configurata||
-|**Applicazioni**|Browser|Tutto|Non configurata||
-||App|Consenti l'installazione di app|Non configurata||
-|||Richiedi una password per accedere all'archivio applicazioni|Non configurata||
-|||Acquisti in-app|Non configurata||
-|||Consenti i documenti gestiti in altre app non gestite (iOS 8.0 e versione successiva)|No|Selezionato (menu a discesa)|
-|||Consenti documenti non gestiti in altre app gestite|Non configurata||
-|||Consenti videoconferenza|Non configurata||
-|||Consenti all'utente di considerare attendibili nuovi autori di app aziendali|Non configurata||
-||Giochi|Tutto|Non configurata||
-||Contenuto multimediale|Tutto|Non configurata|||
-
 #### <a name="android-email-profile"></a>Profilo di posta elettronica Android
-Nel [portale di gestione di Intune (https://manage.microsoft.com)](https://manage.microsoft.com/) creare i criteri di configurazione seguenti in **Criteri > Criteri di configurazione > Aggiungi > Criteri di posta elettronica Android**.
+Nel [portale di Intune in Azure](https://portal.azure.com) è possibile creare i seguenti profili di configurazione dei dispositivi in **Configurazione del dispositivo > Profili > Crea profilo > Piattaforma (Android) > Tipo di profilo (Posta elettronica)**.
 
 |Categories|Tipo|Proprietà|Valori|Note|
 |:---------|:---|:---------|:-----|:----|
@@ -272,7 +278,7 @@ Nel [portale di gestione di Intune (https://manage.microsoft.com)](https://manag
 |||Note|True|Check|
 
 #### <a name="android-for-work-email-profile"></a>Profilo di posta elettronica per Android
-Nel [portale di gestione di Intune (https://manage.microsoft.com)](https://manage.microsoft.com/) creare i criteri di configurazione seguenti in **Criteri > Criteri di configurazione > Aggiungi > Android > Profilo di posta elettronica (Android for Work - Gmail)**.
+Nel [portale di Intune in Azure](https://portal.azure.com) è possibile creare i seguenti profili di configurazione dei dispositivi in **Configurazione del dispositivo > Profili > Crea profilo > Piattaforma (Android for Work) > Tipo di profilo (Posta elettronica)**.
 
 |Categories|Tipo|Proprietà|Valori|Note|
 |:---------|:---|:---------|:-----|:----|
@@ -284,25 +290,8 @@ Nel [portale di gestione di Intune (https://manage.microsoft.com)](https://manag
 ||Impostazioni di sincronizzazione|Numero di giorni di messaggi di posta elettronica da sincronizzare|Due settimane|Selezionato (menu a discesa)|
 |||Usa SSL|True|Check|
 
-#### <a name="android-for-work-app-sharing-profile"></a>Profilo di condivisione app iOS Android for Work
-Nel [portale di gestione di Intune (https://manage.microsoft.com)](https://manage.microsoft.com/) creare i criteri di configurazione seguenti in **Criteri > Criteri di configurazione > Aggiungi > Criteri di condivisione app Android for Work**.
-
-|Categories|Tipo|Proprietà|Valori|Note|
-|:---------|:---|:---------|:-----|:----|
-|**Security**|Password|Lunghezza minima password|Non configurata||
-|||Numero di errori di accesso ripetuti consentiti prima della rimozione del profilo di lavoro|Non configurata||
-|||Minuti di inattività prima che il dispositivo venga bloccato|Non configurata||
-|||Scadenza password (giorni)|Non configurata||
-|||Ricorda cronologia password|Non configurata||
-|||Richiedi una password per sbloccare il dispositivo mobile|Non configurata||
-|||Consenti sblocco tramite impronta digitale (Android 6.0+)|Non configurata||
-|||Consenti Smart Lock e altri agenti di attendibilità (Android 6.0+)|Non configurata||
-||Impostazioni del profilo di lavoro|Consenti la condivisione dei dati tra i profili di lavoro e personali|Le app nel profilo di lavoro possono gestire una richiesta di condivisione dal profilo personale|Selezionato (menu a discesa)|
-|||Nascondi le notifiche del profilo di lavoro quando il dispositivo è bloccato (Android 6.0+)|Non configurata||
-|||Imposta i criteri di autorizzazione predefiniti delle app (Android 6.0+)|Non configurata|||
-
 #### <a name="device-compliance-policy"></a>Criteri di conformità dei dispositivi
-Nel [portale di gestione di Intune (https://manage.microsoft.com)](https://manage.microsoft.com/) creare i criteri di configurazione seguenti in **Criteri > Criteri di conformità > Aggiungi**.
+Nel [portale di Intune in Azure](https://portal.azure.com) è possibile creare i seguenti criteri di conformità del dispositivo in **Conformità del dispositivo > Criteri > Crea criterio > Piattaforma (iOS, Android o altre) > Impostazioni**.
 
 |Categories|Tipo|Proprietà|Valori|Note|
 |:---------|:---|:---------|:-----|:----|
