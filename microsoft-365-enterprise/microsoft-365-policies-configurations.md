@@ -1,19 +1,19 @@
 ---
 title: Configurazioni e criteri di sicurezza consigliati per Microsoft 365 Enterprise | Microsoft docs
 description: Descrive i consigli Microsoft e i concetti di base per la distribuzione di configurazioni e criteri di protezione per posta elettronica, documenti e app.
-author: barlanmsft
-manager: angrobe
+author: dougeby
+manager: dougeby
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 08/30/2017
 ms.author: barlan
 ms.reviewer: jsnow
 ms.custom: it-pro
-ms.openlocfilehash: 70eb0ba8a887a703ee8c723a3a4584f3bedc1e7f
-ms.sourcegitcommit: 3cc06a29762d99a3649fb3cc80f9534dc6396d80
+ms.openlocfilehash: a7f6ab6765be5462c652feb006839f0839b1136e
+ms.sourcegitcommit: 8d42bd1ec3d7bf5f873a7b681b0fea73a748b413
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/11/2017
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="recommended-security-policies-and-configurations"></a>Configurazioni e criteri di sicurezza consigliati
 
@@ -142,7 +142,7 @@ Nella tabella seguente sono elencati i consigli sui meccanismi di protezione pre
 |**Applicare l'autenticazione a più fattori**|A partire da rischio di accesso medio|A partire da rischio di accesso basso|Per tutte le nuove sessioni|
 |**Applicare modifica password**|Per gli utenti ad alto rischio|Per gli utenti ad alto rischio|Per gli utenti ad alto rischio|
 |**Applicare la protezione delle applicazioni di Intune**|Sì|Sì|Sì|
-|**Applicare la registrazione di Intune**|Richiede un dispositivo conforme o aggiunto a un dominio|Richiede un dispositivo conforme o aggiunto a un dominio|Richiedi un dispositivo conforme o aggiunto a un dominio|
+|**Applicare la registrazione di Intune**|Richiede un dispositivo conforme o aggiunto a un dominio|Richiedi un dispositivo conforme o aggiunto a un dominio|Richiedi un dispositivo conforme o aggiunto a un dominio|
 
 ### <a name="device-ownership"></a>Proprietà del dispositivo
 La tabella sopra riportata riflette la tendenza di molte organizzazioni a supportare una combinazione di dispositivi aziendali e dispositivi personali o BYOD per abilitare la produttività mobile tra i dipendenti. I criteri di Protezione app di Intune garantiscono che la posta elettronica sia protetta da divulgazioni non consentite al di fuori dell'app Outlook Mobile e di altre app di Office Mobile, sia aziendali che BYOD.  

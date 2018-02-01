@@ -7,13 +7,13 @@ ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 12/10/2017
 ms.author: barlan
-ms.reviewer: jsnow
+ms.reviewer: martincoetzer
 ms.custom: it-pro
-ms.openlocfilehash: a25903de35ad349a09056ab24da5e00cd1a07695
-ms.sourcegitcommit: 3cc06a29762d99a3649fb3cc80f9534dc6396d80
+ms.openlocfilehash: 54b3308b334f60e47e78bdf4bc194495fe348814
+ms.sourcegitcommit: 8d42bd1ec3d7bf5f873a7b681b0fea73a748b413
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/11/2017
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="general-identity-and-device-access-policy-recommendations"></a>Consigli generali sull'identità e sui criteri di accesso ai dispositivi
 Questo articolo descrive i criteri consigliati comuni per contribuire a proteggere Microsoft 365 Enterprise. Vengono anche presentate le configurazioni client della piattaforma predefinite consigliate per offrire un'esperienza SSO ottimale agli utenti, oltre ai prerequisiti tecnici per l'accesso condizionale.
@@ -45,10 +45,10 @@ I seguenti client di posta elettronica supportano l'autenticazione moderna e l'a
 
 |Piattaforma|Client|Versione/Note|Azure Information Protection|
 |:-------|:-----|:------------|:--------------------|
-|**Windows**|Outlook|2016, 2013 [Abilitare l'autenticazione moderna](https://support.office.com/article/Enable-Modern-Authentication-for-Office-2013-on-Windows-devices-7dc1c01a-090f-4971-9677-f1b192d6c910)|Sì|
+|**Windows**|Outlook|2016, 2013 [Abilitare l'autenticazione moderna](https://support.office.com/article/Enable-Modern-Authentication-for-Office-2013-on-Windows-devices-7dc1c01a-090f-4971-9677-f1b192d6c910), [aggiornamenti obbligatori](https://support.office.com/en-us/article/Outlook-Updates-472c2322-23a4-4014-8f02-bbc09ad62213)|Sì|
 |**iOS**|Outlook|[Ultima versione](https://itunes.apple.com/us/app/microsoft-outlook-email-and-calendar/id951937596?mt=8)|No|
 |**Android**|Outlook|[Ultima versione](https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&hl=en)|No|
-|**macOS**|Anteprima pubblica||No|
+|**macOS**|Outlook|2016|No|
 |**Linux**|Non supportato||No|
 
 Per accedere ai documenti protetti di Azure Information Protection potrebbe essere necessario un software aggiuntivo. Assicurarsi di usare [software e formati di documenti supportati](https://docs.microsoft.com/information-protection/get-started/requirements-applications) per creare e visualizzare i documenti protetti con Azure Information Protection.
@@ -100,7 +100,7 @@ L'obiettivo per i criteri di gestione dei dispositivi e delle applicazioni è pr
 |:--------------------|:----------|
 |**Richiedere la gestione del PC utente**|Richiedere agli utenti di aggiungere i loro PC Windows a un dominio di Active Directory o di registrare i loro PC nella gestione con Microsoft Intune o System Center Configuration Manager.|
 |**Applicare le impostazioni di sicurezza tramite oggetti Criteri di gruppo (GPO) o criteri di Configuration Manager per i computer aggiunti a un dominio**|Distribuire i criteri che configurano i computer gestiti in modo da abilitare BitLocker, l'anti-virus e il firewall.|
-|**Richiedere la gestione dei dispositivi mobili**|Richiedere che i dispositivi utente usati per accedere alla posta elettronica siano gestiti da Intune **o** che l'accesso alla posta elettronica aziendale venga eseguito unicamente mediante applicazioni mobili di posta elettronica protette dai criteri di protezione app di Intune, come Outlook Mobile.|
+|**Richiedere la gestione dei dispositivi mobili**|Richiedere che i dispositivi utente usati per accedere alla posta elettronica siano gestiti da Intune **o** che l'accesso alla posta elettronica aziendale venga eseguito unicamente mediante applicazioni mobili di posta elettronica protette dai criteri di protezione app di Intune, come Outlook per iOS o Android.|
 |**Applicare un criterio di conformità del dispositivo Intune ai dispositivi gestiti**|Applicare un criterio di conformità del dispositivo Intune per dispositivi mobili aziendali gestiti e computer gestiti da Intune che richieda: un PIN di lunghezza minima 6, la crittografia del dispositivo, l'integrità del dispositivo (che non sia jailbroken, rooted e sia munito di attestazione dell'integrità) e, se disponibile, che richieda dispositivi a **basso** rischio, secondo quanto stabilito da un MTP di terze parti come Lookout o SkyCure.|
 |**Applicare un criterio di protezione app di Intune alle applicazioni gestite in esecuzione su dispositivi non gestiti**|Applicare un criterio di protezione App di Intune per le applicazioni gestite in esecuzione su dispositivi mobili personali non gestiti in modo da richiedere: un PIN con lunghezza minima 6, la crittografia del dispositivo e l'integrità del dispositivo (che non sia jailbroken, rooted e sia munito di attestazione dell'integrità).|
 
@@ -114,7 +114,7 @@ Gli utenti hanno generalmente un beneficio nell'accesso Single Sign-On (SSO), tr
   * Agli utenti verrà richiesto di usare le applicazioni di posta elettronica che supportano l'SDK della protezione app di Intune o di accedere alla posta elettronica da dispositivi conformi a Intune o appartenenti a un dominio AD.
 * Quando gli utenti a rischio eseguono l'accesso e completano correttamente l'autenticazione a più fattori, viene chiesto loro di cambiare la password.
 
-## <a name="sensitive"></a>Protezione avanzata
+## <a name="sensitive"></a>Dati sensibili
 Questa sezione descrive i consigli per il livello di protezione avanzata dei dati, dell'identità e dei dispositivi. Questi consigli sono rivolti ai clienti che hanno un subset di dati che devono essere protetti a livelli più elevati o che richiedono che tutti i dati siano protetti a livelli più elevati.
 
 È possibile applicare una protezione maggiore per tutti i set di dati o solo per alcuni di essi nell'ambiente Office 365. Ad esempio, è possibile applicare i criteri per garantire che i dati sensibili siano condivisi solo tra app protette per impedire la perdita di dati. Si consiglia di proteggere le identità e i dispositivi che accedono ai dati sensibili con livelli di sicurezza analoghi.
@@ -139,7 +139,7 @@ L'obiettivo per questi criteri di gestione dei dispositivi e delle applicazioni 
 |:--------------------|:----------|
 |**Richiedere la gestione del PC utente**|Richiedere agli utenti di aggiungere i loro computer a un dominio di Active Directory o di registrare i computer nella gestione con Intune o Configuration Manager e di assicurarsi che tali dispositivi siano conformi ai criteri prima di consentire l'accesso alla posta elettronica.|
 |**Applicare le impostazioni di sicurezza tramite oggetti Criteri di gruppo (GPO) o criteri di Configuration Manager per i computer aggiunti a un dominio**|Distribuire i criteri che configurano i computer gestiti in modo da abilitare BitLocker, l'anti-virus e il firewall.|
-|**Richiedere la gestione dei dispositivi mobili**|Richiedere che i dispositivi utente usati per accedere alla posta elettronica siano gestiti da Intune **o** che l'accesso alla posta elettronica aziendale venga eseguito unicamente mediante applicazioni mobili di posta elettronica protette dai criteri di protezione app di Intune, come Outlook Mobile.|
+|**Richiedere la gestione dei dispositivi mobili**|Richiedere che i dispositivi utente usati per accedere alla posta elettronica siano gestiti da Intune **o** che l'accesso alla posta elettronica aziendale venga eseguito unicamente mediante applicazioni mobili di posta elettronica protette dai criteri di protezione app di Intune, come Outlook per iOS o Android.|
 |**Applicare un criterio di conformità del dispositivo Intune ai dispositivi gestiti**|Applicare un criterio di conformità del dispositivo Intune per dispositivi mobili aziendali gestiti e computer gestiti da Intune che richieda: un PIN di lunghezza minima 6, la crittografia del dispositivo, l'integrità del dispositivo (che non sia jailbroken, rooted e sia munito di attestazione dell'integrità) e, se disponibile, che richieda dispositivi a **basso** rischio, secondo quanto stabilito da un MTP di terze parti come Lookout o SkyCure.|
 |**Applicare un criterio di protezione app di Intune alle applicazioni gestite in esecuzione su dispositivi non gestiti**|Applicare un criterio di protezione App di Intune per le applicazioni gestite in esecuzione su dispositivi mobili personali non gestiti in modo da richiedere: un PIN con lunghezza minima 6, la crittografia del dispositivo e l'integrità del dispositivo (che non sia jailbroken, rooted e sia munito di attestazione dell'integrità).|
 
@@ -152,7 +152,7 @@ Gli utenti traggono generalmente vantaggio dell'accesso Single Sign-On (SSO), tr
   * Agli utenti verrà richiesto di usare le applicazioni di posta elettronica che supportano l'SDK della protezione app di Intune o di accedere alla posta elettronica da dispositivi conformi a Intune o appartenenti a un dominio AD.
 * Quando gli utenti a rischio eseguono l'accesso e completano correttamente l'autenticazione a più fattori, viene chiesto loro di cambiare la password.
 
-## <a name="highly-regulated"></a>Protezione per ambienti altamente regolamentati
+## <a name="highly-regulated"></a>Riservatezza elevata
 Questa sezione descrive i consigli per il livello di protezione altamente regolamentata dei dati, dell'identità e dei dispositivi. Questi consigli sono destinati ai clienti che potrebbero avere una piccola quantità di dati altamente classificati, segreti commerciali o dati soggetti a regolamentazione. Microsoft offre funzionalità che consentono alle organizzazioni di soddisfare questi requisiti, inclusa la protezione aggiuntiva per identità e dispositivi.
 
 ### <a name="conditional-access-policy-settings"></a>Impostazioni dei criteri di accesso condizionale
@@ -175,7 +175,7 @@ Per il livello altamente regolamentato è consigliabile richiedere le applicazio
 |:--------------------|:----------|
 |**Richiedere la gestione del PC utente**|Richiedere agli utenti di aggiungere i loro computer Windows a un dominio di Active Directory **o** di registrare i computer nella gestione con Intune o Configuration Manager e di assicurarsi che tali dispositivi siano conformi ai criteri prima di consentire l'accesso alla posta elettronica.|
 |**Applicare le impostazioni di sicurezza tramite oggetti Criteri di gruppo (GPO) o criteri di Configuration Manager per i computer aggiunti a un dominio**|Distribuire i criteri che configurano i computer gestiti in modo da abilitare BitLocker, l'anti-virus e il firewall.|
-|**Richiedere la gestione dei dispositivi mobili**|Richiedere che i dispositivi usati per accedere alla posta elettronica di Office 365 siano gestiti da Intune o che l'accesso alla posta elettronica aziendale sia eseguito unicamente mediante applicazioni mobili di posta elettronica protette dai criteri di protezione app di Intune, come Outlook Mobile.|
+|**Richiedere la gestione dei dispositivi mobili**|Richiedere che i dispositivi usati per accedere alla posta elettronica di Office 365 siano gestiti da Intune o che l'accesso alla posta elettronica aziendale sia eseguito unicamente mediante applicazioni mobili di posta elettronica protette dai criteri di protezione app di Intune, come Outlook per iOS o Android.|
 |**Applicare un criterio di conformità del dispositivo Intune ai dispositivi gestiti**|Applicare un criterio di conformità del dispositivo Intune per dispositivi mobili aziendali gestiti e computer gestiti da Intune che richieda: un PIN di lunghezza minima 6, la crittografia del dispositivo, l'integrità del dispositivo (che non sia jailbroken, rooted e sia munito di attestazione dell'integrità) e, se disponibile, che richieda dispositivi a basso rischio, secondo quanto stabilito da un MTP di terze parti come Lookout o SkyCure.|
 
 ### <a name="user-impact"></a>Impatto sugli utenti
