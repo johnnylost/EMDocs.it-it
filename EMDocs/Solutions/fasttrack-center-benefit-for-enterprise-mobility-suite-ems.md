@@ -36,7 +36,7 @@ EMS e i servizi cloud inclusi in FastTrack Center Benefit per EMS sono idonei pe
 
 |Pianificazione|Idoneo per il service benefit?|
 |--------|-------------------------------------|
-|Enterprise Mobility + Security |Sì*|
+|Enterprise Mobility + Security |Sì\*|
 |Enterprise Mobility + Security (come parte di Secure Productive Enterprise)|Sì*|
 |Microsoft Azure Active Directory Premium (E3 e E5)**|Sì|
 |Microsoft Intune**|sì|
