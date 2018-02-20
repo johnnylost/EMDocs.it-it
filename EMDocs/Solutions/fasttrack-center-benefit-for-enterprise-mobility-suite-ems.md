@@ -38,16 +38,16 @@ EMS e i servizi cloud inclusi in FastTrack Center Benefit per EMS sono idonei pe
 |--------|-------------------------------------|
 |Enterprise Mobility + Security |Sì\*|
 |Enterprise Mobility + Security (come parte di Secure Productive Enterprise)|Sì*|
-|Microsoft Azure Active Directory Premium (E3 e E5)**|Sì|
-|Microsoft Intune**|sì|
-|Microsoft Intune per Education** |Sì |
-|Microsoft Azure Information Protection (E3 e E5)**|Limitato</br>Solo piano Success (Success Plan) e uso di **Richiesta di assistenza** in [Fast Track Center](https://fasttrack.microsoft.com/)|
-|Microsoft Advanced Threat Analytics**|Limitato</br>Solo piano Success (Success Plan) e uso di **Richiesta di assistenza** in [Fast Track Center](https://fasttrack.microsoft.com/)|
-|Microsoft Cloud App Security**|Limitato</br>Solo piano Success (Success Plan) e uso di **Richiesta di assistenza** in [Fast Track Center](https://fasttrack.microsoft.com/)|
+|Microsoft Azure Active Directory Premium (E3 e E5)**  |Sì|
+|Microsoft Intune**  |sì|
+|Microsoft Intune per Education**   |Sì |
+|Microsoft Azure Information Protection (E3 e E5)**  |Limitato</br>Solo piano Success (Success Plan) e uso di **Richiesta di assistenza** in [Fast Track Center](https://fasttrack.microsoft.com/)|
+|Microsoft Advanced Threat Analytics**  |Limitato</br>Solo piano Success (Success Plan) e uso di **Richiesta di assistenza** in [Fast Track Center](https://fasttrack.microsoft.com/)|
+|Microsoft Cloud App Security**  |Limitato</br>Solo piano Success (Success Plan) e uso di **Richiesta di assistenza** in [Fast Track Center](https://fasttrack.microsoft.com/)|
 
 &ast; Disponibile solo per i servizi cloud idonei per i benefit. Vedere la tabella seguente.
 
-**Acquistato come piano autonomo.
+** Acquistato come piano autonomo.
 
 &nbsp;
 
