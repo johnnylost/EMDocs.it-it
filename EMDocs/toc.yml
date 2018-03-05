@@ -1,4 +1,4 @@
-- name: Documenti
+- name: Docs
   href: /
   homepage: /
   items:
@@ -38,7 +38,7 @@
           href: /advanced-threat-analytics/
           homepage: /advanced-threat-analytics
           items:
-            - name: Comprendere ed esplorare
+            - name: Conoscere ed esplorare
               href: /advanced-threat-analytics/understand-explore/
               homepage: /advanced-threat-analytics/understand/ata-understand-and-explore
             - name: Pianificare e progettare
@@ -50,6 +50,9 @@
             - name: Risoluzione dei problemi
               href: /advanced-threat-analytics/troubleshoot/
               homepage: /advanced-threat-analytics/troubleshoot/ata-troubleshooting
+        - name: Azure - Protezione dalle minacce
+          href: /azure-threat-protection/
+          homepage: /azure-advanced-threat-protection
         - name: Microsoft 365 Enterprise
           href: /microsoft-365-enterprise/
           homepage: /microsoft-365-enterprise
@@ -68,7 +71,7 @@
           href: /intune-classic/
           homepage: /intune-classic
           items:
-            - name: Comprendere ed esplorare
+            - name: Conoscere ed esplorare
               href: /intune-classic/understand-explore/
               homepage: /intune-classic/understand-explore/introduction-to-microsoft-intune
             - name: Pianificare e progettare
@@ -77,7 +80,7 @@
             - name: Distribuire e usare
               href: /intune-classic/deploy-use/
               homepage: /intune-classic/deploy-use/overview-of-device-and-app-lifecycles-in-microsoft-intune
-            - name: Risolvere i problemi
+            - name: Risoluzione dei problemi
               href: /intune-classic/troubleshoot/
               homepage: /intune-classic/troubleshoot/general-troubleshooting-tips-for-microsoft-intune
             - name: Introduzione
@@ -93,7 +96,7 @@
           href: /information-protection/
           homepage: /information-protection
           items:
-            - name: Comprendere ed esplorare
+            - name: Conoscere ed esplorare
               href: /information-protection/understand-explore/
               homepage: /information-protection/understand-explore/what-is-azure-rights-management
             - name: Introduzione
