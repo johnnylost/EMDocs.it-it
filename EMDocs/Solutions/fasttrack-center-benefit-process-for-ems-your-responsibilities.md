@@ -13,11 +13,11 @@ ms.technology:
 ms.assetid: 0590b7b2-0965-437b-b3ca-bd55de1abb09
 ms.reviewer: 
 ms.suite: ems
-ms.openlocfilehash: ecd83c311deca5050599a4eb55d45d0094d656f1
-ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.openlocfilehash: 02bbc73649604736bca8c6da167653d904218fad
+ms.sourcegitcommit: f77ccfb11b8ae3105de2bc18a5664ee6c11a553c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/25/2017
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="your-responsibilities"></a>Responsabilità dell'utente
 
@@ -69,7 +69,7 @@ Ecco le responsabilità dell'utente durante il processo di onboarding.
 
 ## <a name="initiate-phase"></a>Fase di avvio
 
--   Collaborare con il team Microsoft per avviare l'onboarding dei servizi idonei.
+-   Collaborare con il team FastTrack per avviare l'onboarding dei servizi idonei.
 
 -   Partecipare alla riunione di inizio della collaborazione, gestire e guidare i partecipanti dell'organizzazione e confermare i tempi di correzione.
 
@@ -77,7 +77,7 @@ Ecco le responsabilità dell'utente durante il processo di onboarding.
 
 -   Identificare le parti interessate, tra cui un project manager, per completare le attività di valutazione necessarie.
 
--   Condividere lo schermo con Microsoft se sono necessarie informazioni aggiuntive durante l'esecuzione di strumenti di valutazione dell'ambiente, di EMS o delle sottoscrizioni dei suoi singoli servizi cloud (se si vuole).
+-   Condividere lo schermo con il team FastTrack se sono necessarie informazioni aggiuntive durante l'esecuzione di strumenti di valutazione dell'ambiente, di EMS o delle sottoscrizioni dei singoli servizi cloud (se si vuole).
 
 -   Partecipare alle riunioni per creare l'elenco di controllo delle correzioni e contribuire al piano generale, che include argomenti quali: infrastruttura, rete, amministrazione, preparazione alla sincronizzazione delle directory, protezione della rete e identità federata.
 
@@ -95,19 +95,21 @@ Ecco le responsabilità dell'utente durante il processo di onboarding.
 
 ## <a name="enable-phase"></a>Fase di abilitazione
 
--   Condividere lo schermo con Microsoft se sono necessarie informazioni aggiuntive durante l'esecuzione di strumenti di valutazione dell'ambiente, di EMS o delle sottoscrizioni dei suoi singoli servizi cloud (se si vuole). Gestire le risorse in base alla necessità.
+-   Condividere lo schermo con il team FastTrack se sono necessarie informazioni aggiuntive durante l'esecuzione di strumenti di valutazione dell'ambiente, di EMS o delle sottoscrizioni dei singoli servizi cloud (se si vuole). Gestire le risorse in base alla necessità.
 
--   Configurare gli elementi relativi alla rete in base alle linee guida Microsoft.
+-   Configurare gli elementi relativi alla rete in base alle linee guida del team FastTrack.
 
--   Eseguire la preparazione della directory e configurarne la sincronizzazione in base alle linee guida di Microsoft.
+-   Eseguire la preparazione della directory e configurarne la sincronizzazione in base alle linee guida fornite dal team FastTrack.
 
--   Configurare l'infrastruttura di sicurezza (ad esempio le porte del firewall) in base alle linee guida Microsoft.
+-   Configurare un metodo di autenticazione, ad esempio l'autenticazione gestita o federata. 
+
+-   Configurare l'infrastruttura di sicurezza (ad esempio le porte del firewall) in base alle linee guida del team FastTrack.
 
 -   Implementare l'infrastruttura client in modo appropriato.
 
--   Implementare l'approccio di provisioning utente in base alle linee guida Microsoft.
+-   Implementare un approccio di provisioning utente in base alle linee guida fornite dal team FastTrack.
 
--   Abilitare i vari servizi in base alle linee guida di Microsoft.
+-   Abilitare i vari servizi in base alle linee guida fornite dal team FastTrack.
 
 **Altre informazioni**
 

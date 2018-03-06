@@ -13,14 +13,14 @@ ms.technology:
 ms.assetid: 484156c7-c3c4-469d-b718-9fa33d9d0ec2
 ms.reviewer: 
 ms.suite: ems
-ms.openlocfilehash: 5da41f3d440d7a6463f2a6e23dcd0613f522efe2
-ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.openlocfilehash: 097dfcd7b862735a53d629d7e099a68044d590c7
+ms.sourcegitcommit: f77ccfb11b8ae3105de2bc18a5664ee6c11a553c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/25/2017
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="fasttrack-center-benefit-eligible-services-and-plans"></a>Piani e servizi idonei per FastTrack Center Benefit
-È possibile usare il service benefit quando si acquistano almeno 150 licenze di Enterprise Mobility + Security (EMS) o uno dei suoi servizi cloud in un piano idoneo. Con il service benefit è possibile collaborare con gli specialisti Microsoft per valutare, correggere e attivare servizi idonei.
+È possibile usare il service benefit quando si acquistano almeno 150 licenze di Enterprise Mobility + Security (EMS) o uno dei suoi servizi cloud in un piano idoneo. Con il service benefit è possibile collaborare con gli specialisti FastTrack per valutare, correggere e attivare i servizi idonei.
 
 Per informazioni sul processo FastTrack Center e sulle responsabilità, vedere [Processo FastTrack Center Benefit per Enterprise Mobility + Security (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
 
@@ -36,18 +36,18 @@ EMS e i servizi cloud inclusi in FastTrack Center Benefit per EMS sono idonei pe
 
 |Pianificazione|Idoneo per il service benefit?|
 |--------|-------------------------------------|
-|Enterprise Mobility + Security |Sì\*|
+|Enterprise Mobility + Security |Sì*|
 |Enterprise Mobility + Security (come parte di Secure Productive Enterprise)|Sì*|
-|Microsoft Azure Active Directory Premium (E3 e E5)**  |Sì|
-|Microsoft Intune**  |sì|
-|Microsoft Intune per Education**   |Sì |
-|Microsoft Azure Information Protection (E3 e E5)**  |Limitato</br>Solo piano Success (Success Plan) e uso di **Richiesta di assistenza** in [Fast Track Center](https://fasttrack.microsoft.com/)|
-|Microsoft Advanced Threat Analytics**  |Limitato</br>Solo piano Success (Success Plan) e uso di **Richiesta di assistenza** in [Fast Track Center](https://fasttrack.microsoft.com/)|
-|Microsoft Cloud App Security**  |Limitato</br>Solo piano Success (Success Plan) e uso di **Richiesta di assistenza** in [Fast Track Center](https://fasttrack.microsoft.com/)|
+|Microsoft Azure Active Directory Premium (E3 e E5)**|Sì|
+|Microsoft Intune**|Sì|
+|Microsoft Intune per Education** |Sì |
+|Microsoft Azure Information Protection (E3 e E5)**|Limitato</br>Solo piano Success (Success Plan) e uso di **Richiesta di assistenza** in [Fast Track Center](https://fasttrack.microsoft.com/)|
+|Microsoft Advanced Threat Analytics**|Limitato</br>Solo piano Success (Success Plan) e uso di **Richiesta di assistenza** in [Fast Track Center](https://fasttrack.microsoft.com/)|
+|Microsoft Cloud App Security**|Limitato</br>Solo piano Success (Success Plan) e uso di **Richiesta di assistenza** in [Fast Track Center](https://fasttrack.microsoft.com/)|
 
 &ast; Disponibile solo per i servizi cloud idonei per i benefit. Vedere la tabella seguente.
 
-** Acquistato come piano autonomo.
+**Acquistato come piano autonomo.
 
 &nbsp;
 

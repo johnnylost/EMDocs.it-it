@@ -13,15 +13,15 @@ ms.technology:
 ms.assetid: e60e3714-5120-41e2-9878-83ac75107967
 ms.reviewer: 
 ms.suite: ems
-ms.openlocfilehash: 783d5747b55623ed10abf00a0413bbe6b9ed47a3
-ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.openlocfilehash: 73eba9ac70a39db1af85b1e5dac5ebbb2da958f9
+ms.sourcegitcommit: f77ccfb11b8ae3105de2bc18a5664ee6c11a553c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/25/2017
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="fasttrack-center-benefit-overview"></a>Panoramica di FastTrack Center Benefit
 
-Con FastTrack Center Benefit per Microsoft Azure Active Directory Premium e Microsoft Intune, è possibile collaborare in remoto con gli esperti Microsoft per preparare l'ambiente per l'uso e pianificare la distribuzione e l'utilizzo all'interno dell'organizzazione. Per altre informazioni sull'idoneità, vedere [Processo FastTrack Center Benefit per Enterprise Mobility + Security (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
+Con FastTrack Center Benefit per Microsoft Azure Active Directory Premium e Microsoft Intune, è possibile interagire in remoto con gli esperti FastTrack per preparare l'ambiente all'uso e pianificare la distribuzione e l'uso all'interno dell'organizzazione. Per altre informazioni sull'idoneità, vedere [Processo FastTrack Center Benefit per Enterprise Mobility + Security (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
 
 
 I componenti principali del processo di onboarding sono due:
@@ -36,19 +36,19 @@ Il diagramma seguente illustra le fasi di caricamento di alto livello per FastTr
 
 Ecco come funziona il processo:
 
-- Dopo l'acquisto delle licenze di un servizio idoneo, Microsoft tenta di contattare l'utente per offrire assistenza durante il processo di onboarding. È anche possibile richiedere assistenza da parte di [FastTrack Center](http://fasttrack.microsoft.com/) se si è pronti per distribuire questi servizi per l'organizzazione. Per richiedere assistenza, accedere a [FastTrack Center](http://fasttrack.microsoft.com/) con l'account aziendale o dell'istituto di istruzione, andare al dashboard, espandere il collegamento **Richiesta di assistenza** nell'angolo inferiore destro della pagina, quindi seguire le istruzioni visualizzate per completare la richiesta. Una volta contattato il supporto tecnico di onboarding, verrà impostata la pianificazione di riunioni online.
+- Dopo l'acquisto delle licenze di un servizio idoneo, FastTrack Center contatta l'utente per offrire assistenza durante il processo di onboarding. È anche possibile richiedere assistenza da parte di [FastTrack Center](http://fasttrack.microsoft.com/) se si è pronti per distribuire questi servizi per l'organizzazione. Per richiedere assistenza, accedere a [FastTrack Center](http://fasttrack.microsoft.com/) con l'account aziendale o dell'istituto di istruzione, andare al dashboard, espandere il collegamento **Richiesta di assistenza** nell'angolo inferiore destro della pagina, quindi seguire le istruzioni visualizzate per completare la richiesta. Una volta contattato il supporto tecnico di onboarding, verrà impostata la pianificazione di riunioni online.
 
--   Il team responsabile del processo di caricamento di Microsoft offre prima di tutto assistenza per le funzionalità di base, comuni a tutti i Microsoft Online Services, e poi per il caricamento di ogni servizio idoneo.
+-   Il team FastTrack responsabile del processo di caricamento offre prima di tutto assistenza per le funzionalità di base, comuni a tutti i Microsoft Online Services, e poi per il caricamento di ogni servizio idoneo.
 
-Tutto il supporto tecnico per il caricamento viene fornito in remoto da personale Microsoft dedicato:
+Tutto il supporto tecnico per il caricamento viene garantito in remoto da personale FastTrack dedicato:
 
--   Microsoft fornisce assistenza in remoto per varie attività di caricamento utilizzando una combinazione di strumenti, documentazione e istruzioni.
+-   Il team FastTrack offre assistenza in remoto per varie attività di caricamento usando una combinazione di strumenti, documentazione e istruzioni.
 
 -   Il supporto tecnico di onboarding viene fornito da FastTrack Center ed è disponibile durante il normale orario di ufficio in base all'area geografica.
 
 -   Il supporto tecnico per il caricamento è disponibile in cinese tradizionale, cinese semplificato (le risorse parlano esclusivamente mandarino), inglese, francese, tedesco, italiano, giapponese, coreano, portoghese (Brasile), spagnolo, thai e vietnamita.
 
--   Microsoft può lavorare direttamente con l'utente oppure con il rappresentante.
+-   Il team di FastTrack può lavorare direttamente con l'utente o con il rappresentante.
 
 **Altre informazioni**
 

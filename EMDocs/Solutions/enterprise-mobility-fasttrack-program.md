@@ -13,14 +13,17 @@ ms.technology:
 ms.assetid: fd951f10-6404-43a3-8f2f-464f5b5003ac
 ms.reviewer: 
 ms.suite: ems
-ms.openlocfilehash: 58cfa7fb0c694f9ae88d31b1c8ebb85da02c40c8
-ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.openlocfilehash: a5f428b822e8b956003920d5996a98c11c403aee
+ms.sourcegitcommit: f77ccfb11b8ae3105de2bc18a5664ee6c11a553c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/25/2017
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="fasttrack-center-benefit-for-enterprise-mobility--security-ems"></a>FastTrack Center Benefit per Enterprise Mobility + Security (EMS)
-È possibile usufruire di FastTrack Center Benefit per Enterprise Mobility + Security (EMS) quando si acquistano almeno 150 licenze di EMS o uno dei suoi servizi cloud in un piano idoneo. Si potrà quindi collaborare con gli esperti Microsoft per valutare, correggere, abilitare e promuovere l'uso di quei servizi. Questi esperti forniscono anche linee guida per la migrazione.
+È possibile usufruire di FastTrack Center Benefit per Enterprise Mobility + Security (EMS) quando si acquistano almeno 150 licenze di EMS o uno dei suoi servizi cloud in un piano idoneo. Si potrà quindi collaborare con gli esperti FastTrack per valutare, correggere, abilitare e promuovere l'uso di quei servizi. Questi esperti forniscono anche linee guida per la migrazione.
+
+> [!NOTE]
+> Ai fini del presente documento, gli esperti FastTrack possono includere personale Microsoft, fornitori autorizzati Microsoft e partner autorizzati Microsoft. 
 
 Per altre informazioni sui piani e servizi idonei, vedere [Piani e servizi idonei per FastTrack Center Benefit](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md).
 
