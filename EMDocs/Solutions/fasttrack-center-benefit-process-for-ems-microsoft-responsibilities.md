@@ -13,11 +13,11 @@ ms.technology:
 ms.assetid: c8fd871e-f1bc-43ec-a5f3-ad025df9b026
 ms.reviewer: 
 ms.suite: ems
-ms.openlocfilehash: a68182e4175ca3fe69377319d34f899f3abb7d25
-ms.sourcegitcommit: 6296730f948ec5205fe81adb3585026d169e51f9
+ms.openlocfilehash: 102ff22c60aa58cddbc07ddd485a57e9e7340a92
+ms.sourcegitcommit: 024fad70d2c4976f039e3e572c7334927375b17e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/24/2017
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="microsoft-responsibilities"></a>Responsabilità di Microsoft
 
@@ -31,7 +31,7 @@ Ecco le responsabilità di Microsoft durante il processo di onboarding.
 
 ## <a name="initiate-phase"></a>Fase di avvio
 
--   Contattare l'utente entro 30 giorni dall'acquisto di licenze idonee per un nuovo tenant.
+-   Contattare l'utente entro 30 giorni dall’acquisto di licenze idonee per un nuovo tenant.
 
 -   Collaborare con l'utente per avviare l'onboarding.
 
@@ -39,7 +39,7 @@ Ecco le responsabilità di Microsoft durante il processo di onboarding.
 
 ## <a name="assess-phase"></a>Fase di valutazione
 
--   Fornire una panoramica sull'amministrazione.
+-   Fornire una panoramica sull’amministrazione.
 
 -   Fornire indicazioni su:
 
@@ -104,7 +104,7 @@ Fornire indicazioni su:
 
     -   Installazione di una sincronizzazione delle directory tra Active Directory Domain Services (AD DS) e Azure AD Connect, se richiesto.
 
-    -   Configurazione della sincronizzazione delle password con lo strumento Azure AD Connect.
+    -   Configurazione di un metodo di autenticazione (sincronizzazione degli hash delle password o autenticazione pass-through) con lo strumento Azure AD Connect.
 
 -   Per un ambiente a più foreste:
 
@@ -148,7 +148,7 @@ Fornire indicazioni sulla configurazione di:
 
   - Azure Multi-Factor Authentication.
 
-  - Integrazione di un'applicazione software come servizio (SaaS) con SSO da [Azure Active Directory Marketplace](https://azure.microsoft.com/marketplace/active-directory/).
+  - Fino a 3 o più integrazioni di un'applicazione SaaS (Software as a Service) con SSO da [Azure Active Directory Marketplace](https://azure.microsoft.com/marketplace/active-directory/).
 
   - Schermata di accesso personalizzata, con logo, testo e immagini.
 

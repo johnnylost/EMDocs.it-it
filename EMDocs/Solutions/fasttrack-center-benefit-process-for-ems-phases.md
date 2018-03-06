@@ -13,11 +13,11 @@ ms.technology:
 ms.assetid: e51f030b-8b08-4fea-96c9-d4ded435a264
 ms.reviewer: 
 ms.suite: ems
-ms.openlocfilehash: 0c404c758f66fba9ded4672fad904ba3987958b5
-ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.openlocfilehash: 38cb0503eb6444ed577703e2c7ab6c981369ff07
+ms.sourcegitcommit: f77ccfb11b8ae3105de2bc18a5664ee6c11a553c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/25/2017
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="onboarding-and-migration-phases"></a>Fasi di onboarding e migrazione
 Quando si usano i [Piani e servizi idonei per FastTrack Center Benefit](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) per preparare Microsoft Azure Active Directory Premium e Microsoft Intune per l'uso, il processo prevede varie fasi. Le sezioni seguenti descrivono ogni fase del processo di onboarding.
@@ -28,7 +28,6 @@ Il processo di onboarding prevede quattro fasi principali:
 
 
 ## <a name="initiate-phase"></a>Fase di avvio
-
 Dopo aver acquistato il numero appropriato di licenze, attenersi alle istruzioni nel messaggio di conferma dell'acquisto per associare le licenze al tenant esistente o a un tenant nuovo. Microsoft verifica l'idoneità per FastTrack Center Benefit e tenta di contattare l'utente per offrire assistenza durante il processo di caricamento. È anche possibile richiedere assistenza da parte di [FastTrack Center](http://fasttrack.microsoft.com/) se si è pronti per distribuire questi servizi per l'organizzazione.
 
 Per richiedere assistenza, accedere a [FastTrack Center](http://fasttrack.microsoft.com/) con l'account aziendale o dell'istituto di istruzione, andare al dashboard, espandere **Richiesta di assistenza** a sinistra dello schermo, quindi seguire le istruzioni visualizzate per completare la richiesta. Una volta contattata l'assistenza per il processo di caricamento, verrà definita una programmazione di riunioni online.
@@ -39,9 +38,9 @@ Durante questa fase viene illustrato il processo di caricamento, vengono verific
 
 ## <a name="assess-phase"></a>Fase di valutazione
 
-Una volta avviato il processo di caricamento, Microsoft offre assistenza all'utente per valutare l'ambiente di origine e i requisiti. Vengono eseguiti strumenti per valutare l'ambiente e Microsoft guida l'utente nella valutazione di Active Directory locale, browser Internet, sistemi operativi dei dispositivi client, DNS (Domain Name System), rete, infrastruttura e sistema di identità, qualora fossero necessarie modifiche per il caricamento.
+Dopo l'avvio del processo di caricamento, FastTrack Center offre all'utente l'assistenza necessaria per valutare l'ambiente di origine e i requisiti. Vengono eseguiti strumenti per valutare l'ambiente e gli specialisti FastTrack guidano l'utente nella valutazione di Active Directory locale, browser Internet, sistemi operativi dei dispositivi client, DNS (Domain Name System), rete, infrastruttura e sistema di identità, con lo scopo di determinare se sono necessarie modifiche per l'onboarding.
 
-Microsoft offre anche informazioni aggiuntive su come adottare correttamente i servizi idonei.
+FastTrack Center offre anche informazioni aggiuntive su come adottare correttamente i servizi idonei.
 
 In base all'installazione corrente, viene suggerito un piano di correzione in modo che l'ambiente di origine sia conforme ai requisiti minimi per garantire il caricamento corretto di EMS o dei sui singoli servizi cloud. Vengono inoltre concordate delle chiamate di controllo appropriate per la fase di correzione.
 
@@ -64,12 +63,17 @@ L'onboarding di base prevede il provisioning di servizi e l'integrazione di iden
 ![Fase di abilitazione del caricamento: funzionalità di base](./media/ft-enable-phase-core-01.png)
 
 ![Fase di abilitazione del caricamento: funzionalità di base](./media/ft-enable-phase-core-02.png)
+> [!NOTE]
+> Un metodo di autenticazione gestita include, senza limitazioni, la sincronizzazione degli hash delle password.
+
+> [!NOTE]
+> Identity Integration è un'attività da svolgere una sola volta e non include la migrazione o la disattivazione di metodi di autenticazione esistenti, quali l'autenticazione gestita o federata. 
 
 ### <a name="enable-phase---azure-ad-premium"></a>Fase di abilitazione – Azure AD Premium
 
 L'ambiente di Azure AD Premium può essere configurato usando la sincronizzazione delle directory di Azure Active Directory Connect e Active Directory Federation Services (AD FS), se necessario.
 
-Per gli scenari di Azure AD Premium che includono la sincronizzazione delle identità locali nel cloud, Microsoft supporterà l'utente aggiungendo gli amministratori IT e gli utenti alla sottoscrizione, configurando i prerequisiti di gestione, configurando Azure AD Premium, impostando la sincronizzazione delle directory e AD FS con lo strumento Azure AD Connect, configurando gli utenti di test e convalidando i casi di utilizzo di base per il servizio.
+Per gli scenari di Azure AD Premium che includono la sincronizzazione delle identità locali nel cloud, Microsoft supporterà l'utente aggiungendo gli amministratori IT e gli utenti alla sottoscrizione, configurando i prerequisiti di gestione, configurando Azure AD Premium, impostando la sincronizzazione delle directory con l'autenticazione gestita e AD FS mediante lo strumento Azure AD Connect, configurando gli utenti di test e convalidando i casi d'uso di base per il servizio.
 
 La configurazione di Azure AD Premium include l'abilitazione delle funzionalità seguenti:
 
@@ -77,7 +81,7 @@ La configurazione di Azure AD Premium include l'abilitazione delle funzionalità
 
 -   Azure Multi-Factor Authentication (Azure MFA).
 
--   Integrazione di un'applicazione SaaS (Software as a Service) con Single Sign On (SSO) da [Azure Active Directory Marketplace](https://azure.microsoft.com/marketplace/active-directory/).
+-   Fino a 3 o più integrazioni di un'applicazione SaaS (Software as a Service) con Single Sign On (SSO) da [Azure Active Directory Marketplace](https://azure.microsoft.com/marketplace/active-directory/).
 
 -   Schermata di accesso personalizzata, con logo, testo e immagini.
 
@@ -90,6 +94,8 @@ La configurazione di Azure AD Premium include l'abilitazione delle funzionalità
 -   Identity Protection.
 
 -   Privileged Identity Management.
+
+-   Accesso condizionale di Azure Active Directory.
 
 -   Report sull'utilizzo e sulla sicurezza per gli amministratori.
 
