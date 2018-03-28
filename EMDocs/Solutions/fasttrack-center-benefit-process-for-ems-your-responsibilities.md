@@ -1,23 +1,23 @@
 ---
-title: "Responsabilità dell'utente"
-description: "Responsabilità del cliente quando usa FastTrack Center Benefit"
-keywords: 
-author: NathBarn
-ms.author: NathBarn
-manager: angrobe
-ms.date: 02/01/2017
+title: Responsabilità dell'utente
+description: Responsabilità del cliente quando usa FastTrack Center Benefit
+keywords: ''
+author: andredm7
+ms.author: andredm
+manager: ''
+ms.date: 03/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: 0590b7b2-0965-437b-b3ca-bd55de1abb09
-ms.reviewer: 
+ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: 02bbc73649604736bca8c6da167653d904218fad
-ms.sourcegitcommit: f77ccfb11b8ae3105de2bc18a5664ee6c11a553c
+ms.openlocfilehash: fe9ee9f1eeb36e4f1df8d1bd2da63ab08e515098
+ms.sourcegitcommit: ffa46a69834de317e99a58146492e06c6aa4901a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="your-responsibilities"></a>Responsabilità dell'utente
 
@@ -111,6 +111,11 @@ Ecco le responsabilità dell'utente durante il processo di onboarding.
 
 -   Abilitare i vari servizi in base alle linee guida fornite dal team FastTrack.
 
-**Altre informazioni**
+> [!NOTE]
+> **Altre informazioni** Vedere [Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
 
-[Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
+## <a name="see-also"></a>Vedere anche
+
+- [FastTrack Benefit per EMS](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md)
+- [FastTrack Benefit per Office 365](https://technet.microsoft.com/library/office-365-onboarding-benefit.aspx)
+

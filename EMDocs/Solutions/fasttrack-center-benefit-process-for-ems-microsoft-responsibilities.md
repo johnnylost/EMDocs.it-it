@@ -1,23 +1,23 @@
 ---
-title: "Responsabilità di Microsoft"
-description: "Responsabilità di Microsoft quando i clienti usano FastTrack Center Benefit"
-keywords: 
-author: NathBarn
-ms.author: NathBarn
-manager: angrobe
-ms.date: 10/23/2017
+title: Responsabilità di Microsoft
+description: Responsabilità di Microsoft quando i clienti usano FastTrack Center Benefit per EMS
+keywords: ''
+author: andredm7
+ms.author: andredm
+manager: ''
+ms.date: 03/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: c8fd871e-f1bc-43ec-a5f3-ad025df9b026
-ms.reviewer: 
+ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: 102ff22c60aa58cddbc07ddd485a57e9e7340a92
-ms.sourcegitcommit: 024fad70d2c4976f039e3e572c7334927375b17e
+ms.openlocfilehash: c3d2d2cdcd0ac152639c573e776c9d8499b3c659
+ms.sourcegitcommit: ffa46a69834de317e99a58146492e06c6aa4901a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="microsoft-responsibilities"></a>Responsabilità di Microsoft
 
@@ -27,11 +27,9 @@ Ecco le responsabilità di Microsoft durante il processo di onboarding.
 
 -   Viene fornita assistenza remota per le attività di configurazione necessarie, come illustrato nelle descrizioni dettagliate delle fasi.
 
--   All'utente vengono forniti documentazione, strumenti software, console di amministrazione e script disponibili per ridurre o eliminare le attività di configurazione.
+-   All'utente vengono forniti documentazione, strumenti software e console di amministrazione disponibili per ridurre o eliminare le attività di configurazione.
 
 ## <a name="initiate-phase"></a>Fase di avvio
-
--   Contattare l'utente entro 30 giorni dall’acquisto di licenze idonee per un nuovo tenant.
 
 -   Collaborare con l'utente per avviare l'onboarding.
 
@@ -53,18 +51,16 @@ Ecco le responsabilità di Microsoft durante il processo di onboarding.
 
 -   Stabilire la sequenza temporale per le attività di correzione.
 
--   Fornire un elenco di controllo della correzione.
+-   Fornire un elenco di controllo di correzione per Intune e Azure AD Premium.
 
 ## <a name="remediate-phase"></a>Fase di correzione
 
--   Effettuare conferenze telefoniche con l'utente in base a una pianificazione concordata per esaminare lo stato di avanzamento delle attività di correzione.
-
--   Fornire assistenza per l'esecuzione di strumenti allo scopo di identificare e risolvere problemi e per l'interpretazione dei risultati.
+-   Effettuare conferenze telefoniche con l'utente in base alla programmazione già concordata per esaminare l'avanzamento delle attività di correzione, ad esempio offrire informazioni sui prerequisiti di installazione prima di eseguire l'onboarding di un servizio cloud Microsoft.
 
 ## <a name="enable-phase"></a>Fase di abilitazione
 Fornire indicazioni su:
 
--   Attivazione del tenant dei servizi online di Microsoft.
+-   Attivazione del tenant o dell'abbonamento per i servizi online di Microsoft.
 
 -   Configurazione di protocolli TCP/IP e porte del firewall.
 
@@ -74,9 +70,9 @@ Fornire indicazioni su:
 
 -   Per un ambiente a foresta singola:
 
-    -   Installazione di un server di sincronizzazione delle directory tra Servizi di dominio Active Directory (AD DS) e i Microsoft Online Services idonei, se necessario.
+    -   Installazione di un server di sincronizzazione delle directory tra Active Directory Domain Services (AD DS) e Microsoft Online Services (solo materiale sussidiario se necessario).
 
-    -   Configurazione della sincronizzazione delle password (hash della password) in Microsoft Intune (Azure Active Directory) con lo strumento Azure Active Directory Connect.
+    -   Configurazione della sincronizzazione delle password (hash della password) in Microsoft Intune (Azure Active Directory) con lo strumento Azure Active Directory Connect. (solo materiale sussidiario se necessario).
 
         > [!NOTE]
         > Sviluppo e implementazione per estensioni di regole personalizzate non rientrano nell'ambito.
@@ -115,9 +111,9 @@ Fornire indicazioni su:
         > [!NOTE]
         > L'autenticazione pass-through di Azure Active Directory per ambienti a più foreste è supportata se sono presenti trust tra foreste tra le foreste di Active Directory e se il routing dei suffissi nome è configurato correttamente. È possibile installare altri agenti su più server locali per offrire disponibilità elevata per le richieste di accesso. 
 
-    - Per altre informazioni, vedere [Autenticazione pass-through di Azure Active Directory - Avvio rapido] (https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication-quick-start#step-1-check-prerequisites) e [Accesso Single Sign-On facile di Azure Active Directory: guida introduttiva] (https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-sso-quick-start#step-1-check-prerequisites).
-    - Per altre informazioni sui limiti dell'autenticazione pass-through, vedere [Autenticazione pass-through di Azure Active Directory - Limitazioni correnti] (https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication-current-limitations).
-    - Per altre informazioni sui problemi di Single Sign-On facile, vedere [Risolvere i problemi relativi all'accesso Single Sign-On facile di Azure Active Directory] (https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-troubleshoot-sso).
+    - Per altre informazioni, vedere [Autenticazione pass-through di Azure Active Directory: Avvio rapido] (https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication-quick-start#step-1-check-prerequisites) e [Accesso Single Sign-On facile di Azure Active Directory: Avvio rapido] (https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-sso-quick-start#step-1-check-prerequisites).
+    - Per altre informazioni sui limiti dell'autenticazione pass-through, vedere [Autenticazione pass-through di Azure Active Directory: Limitazioni correnti] (https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication-current-limitations).
+    - Per altre informazioni sui problemi con l'accesso Single Sign-On facile, vedere [Risolvere i problemi relativi all'accesso Single Sign-On facile di Azure Active Directory] (https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-troubleshoot-sso).
   
         > [!NOTE]
         > La sincronizzazione hash e il writeback delle password supportano più foreste. Tuttavia, gli altri scenari di writeback non sono supportati.
@@ -169,17 +165,21 @@ Fornire indicazioni sulla configurazione di:
   - Notifiche e avvisi amministrativi.
 
 ### <a name="enable-phase---intune"></a>Fase di abilitazione - Intune
+
+> [!IMPORTANT]
+> FastTrack non supporta la gestione dei PC classica di Windows 10 con Intune. FastTrack supporta solo la gestione di Windows 10 tramite il software MDM (Mobile Device Management) di Intune.
+
 Fornire indicazioni su:
 
--   Concessione di licenze agli utenti finali.
+-   Configurazione delle identità da usare con Intune, tramite Active Directory locale o le identità cloud (Azure Active Directory).
 
--   Configurazione delle identità da usare con Intune, tramite Active Directory locale o le identità cloud.
+-   Concessione di licenze agli utenti finali.
 
 -   Aggiunta di utenti alla sottoscrizione di Intune, definizione dei ruoli di amministratore IT e creazione di gruppi di utenti e di dispositivi.
 
 -   Configurazione dell'autorità di gestione dei dispositivi mobili (MDM, Mobile Device Management) in base alle specifiche esigenze di gestione:
 
-    -   Impostazione di Intune come autorità MDM quando è l'unica soluzione MDM o è in combinazione con Gestione di dispositivi mobili per Office 365.
+    -   Impostazione di Intune come autorità MDM quando Intune è l'unica soluzione MDM.
 
     -   Impostazione di System Center Configuration Manager come autorità MDM se è presente un'implementazione esistente di Configuration Manager e si vogliono espandere le funzionalità di gestione con Intune.
 
@@ -187,33 +187,44 @@ Fornire indicazioni su:
         > Se si vuole solo usare MDM nei dispositivi di proprietà degli utenti finali, nei dispositivi condivisi o nei dispositivi di tipo chiosco multimediale, la configurazione di un'autorità MDM non è necessaria.
 
     -   Configurazione dei gruppi di test da usare per la convalida dei criteri di gestione MDM.
+    
+    -   Esplorazione del portale di amministrazione di Intune per individuare le informazioni su utenti e dispositivi.
+    
+    -   Configurazione dei ruoli di Intune (operatore di help desk, amministratori, ecc.)
 
     -   Configurazione dei servizi e dei criteri di gestione MDM quali:
 
-        -   Distribuzione dell'applicazione per ogni piattaforma supportata tramite collegamenti Web o collegamenti diretti.
-
-        -   Criteri di accesso condizionale.
+        -   Distribuzione dell'app per ogni piattaforma supportata tramite collegamenti Web, MSI e/o collegamenti diretti.
+    
+        -   Distribuzione di Office ProPlus nei dispositivi Windows 10.
+    
+        -   Volume Purchase Program per la distribuzione di app, inclusi VPP di Apple, Windows Store per le aziende e Google Play for Work.
 
         -   Distribuzione di posta elettronica, reti wireless e profili VPN se si ha un'infrastruttura di Autorità di certificazione esistente, Wi-Fi o VPN nella propria organizzazione.
 
         -   Configurazione di Microsoft Intune Exchange Connector, quando applicabile.
+    
+        -   Profili di configurazione dispositivo per le piattaforme per dispositivi supportate.
 
+    -   Configurazione dei criteri di accesso condizionale.
+    
+    -   Configurazione e distribuzione dei criteri di protezione delle app di Intune per ogni piattaforma supportata.
+    
+    -   Preparazione delle app line-of-business (LOB) per i criteri di protezione delle app di Intune, con materiale sussidiario per le opzioni disponibili. 
+    
     -   Registrazione dei dispositivi di ogni piattaforma supportata in Intune o in Configuration Manager con il servizio Microsoft Intune.
+    
+    -   Connessione al data warehouse di Intune.
+    
+    -   Integrazione di Intune con Team Viewer per l'assistenza remota, partner Mobile Threat Defense e partner Telecom Expense (licenza dei prodotti di terze parti non inclusa con l'abbonamento di Intune).
+    
+    -   Configurazione degli aggiornamenti software per le piattaforme supportate applicabili.
+    
+    -   Risorse per la pianificazione dell'adozione da parte degli utenti.
 
-    -   Uso dei report sull'inventario hardware e software.
+> [!NOTE] 
+> **Per altre informazioni** vedere [Enterprise Mobility + Security](https://www.microsoft.com/cloud-platform/enterprise-mobility).
 
-    -   Configurazione dei criteri MAM per ogni piattaforma supportata.
+## <a name="next-steps"></a>Passaggi successivi
 
-    -   Configurazione dei criteri di accesso condizionale per le app gestite.
-
-    -   Indirizzamento ai gruppi di utenti appropriati con i criteri MAM descritti in precedenza.
-
-    -   Uso dei report sull'utilizzo delle applicazioni gestite.
-
-    -   Installazione del software client di Intune, se necessario.
-
-    -   Uso dei report sul software e l'hardware disponibili in Intune.
-
-**Altre informazioni**
-
-[Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
+[FastTrack Benefit per EMS - Responsabilità dell'utente](fasttrack-center-benefit-process-for-ems-your-responsibilities.md)

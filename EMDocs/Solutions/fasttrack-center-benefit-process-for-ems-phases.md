@@ -1,25 +1,26 @@
 ---
 title: Fasi di caricamento e migrazione
 description: Fasi per FastTrack Center Benefit
-keywords: 
-author: NathBarn
-ms.author: NathBarn
-manager: angrobe
-ms.date: 02/01/2017
+keywords: ''
+author: andredm7
+ms.author: andredm
+manager: ''
+ms.date: 03/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: e51f030b-8b08-4fea-96c9-d4ded435a264
-ms.reviewer: 
+ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: 38cb0503eb6444ed577703e2c7ab6c981369ff07
-ms.sourcegitcommit: f77ccfb11b8ae3105de2bc18a5664ee6c11a553c
+ms.openlocfilehash: 7d73513b80778ec91c9b3bee284175aa43751afc
+ms.sourcegitcommit: ffa46a69834de317e99a58146492e06c6aa4901a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 03/22/2018
 ---
-# <a name="onboarding-and-migration-phases"></a>Fasi di onboarding e migrazione
+# <a name="onboarding-phases"></a>Fasi di onboarding
+
 Quando si usano i [Piani e servizi idonei per FastTrack Center Benefit](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md) per preparare Microsoft Azure Active Directory Premium e Microsoft Intune per l'uso, il processo prevede varie fasi. Le sezioni seguenti descrivono ogni fase del processo di onboarding.
 
 Il processo di onboarding prevede quattro fasi principali:
@@ -28,11 +29,21 @@ Il processo di onboarding prevede quattro fasi principali:
 
 
 ## <a name="initiate-phase"></a>Fase di avvio
-Dopo aver acquistato il numero appropriato di licenze, attenersi alle istruzioni nel messaggio di conferma dell'acquisto per associare le licenze al tenant esistente o a un tenant nuovo. Microsoft verifica l'idoneità per FastTrack Center Benefit e tenta di contattare l'utente per offrire assistenza durante il processo di caricamento. È anche possibile richiedere assistenza da parte di [FastTrack Center](http://fasttrack.microsoft.com/) se si è pronti per distribuire questi servizi per l'organizzazione.
 
-Per richiedere assistenza, accedere a [FastTrack Center](http://fasttrack.microsoft.com/) con l'account aziendale o dell'istituto di istruzione, andare al dashboard, espandere **Richiesta di assistenza** a sinistra dello schermo, quindi seguire le istruzioni visualizzate per completare la richiesta. Una volta contattata l'assistenza per il processo di caricamento, verrà definita una programmazione di riunioni online.
+Dopo aver acquistato il numero appropriato di licenze, attenersi alle istruzioni nel messaggio di conferma dell'acquisto per associare le licenze al tenant esistente o a un tenant nuovo. Microsoft verifica l'idoneità per FastTrack Center Benefit e tenta di contattare l'utente per offrire assistenza durante il processo di caricamento.
 
-Durante questa fase viene illustrato il processo di caricamento, vengono verificati i dati e viene organizzata la riunione iniziale.
+> [!NOTE] 
+> È anche possibile richiedere assistenza da parte di [FastTrack Center](http://fasttrack.microsoft.com/) se si è pronti per distribuire questi servizi per l'organizzazione.
+
+### <a name="to-request-assistance"></a>Per richiedere assistenza
+
+1. Passare a [FastTrack Center](http://fasttrack.microsoft.com/) e accedere con l'account aziendale o dell'istituto di istruzione.
+
+2. Nel dashboard clienti scegliere **Vai a FastTrack** nella parte inferiore destra della pagina.
+
+3. Nel dashboard FastTrack espandere **Richiesta di assistenza** nella parte inferiore destra della pagina e seguire le istruzioni visualizzate per completare la richiesta.
+
+Dopo aver avviato l'assistenza per l'onboarding, FastTrack programma le riunioni online con l'utente per discutere del processo di onboarding, verificare i dati e definire una riunione di inizio della collaborazione.
 
 ![Fase di avvio del caricamento](./media/ft-initiate-phase.png)
 
@@ -119,9 +130,6 @@ Per Intune, l'utente viene guidato nei preparativi per l'uso di Microsoft Intune
 
     -   Impostazione di System Center Configuration Manager come autorità MDM se è presente un'implementazione esistente di Configuration Manager e si vogliono espandere le funzionalità di gestione con Intune.
 
-        > [!NOTE]
-        > Se si vuole solo usare MDM per i dispositivi di proprietà degli utenti finali, i dispositivi condivisi o i dispositivi di tipo chiosco multimediale, la configurazione di un'autorità MDM non è necessaria.
-
 -   Distribuzione di indicazioni relative a MDM per le attività seguenti:
 
     -   Configurazione dei gruppi di test da usare per la convalida dei criteri di gestione MDM.
@@ -138,9 +146,9 @@ Per Intune, l'utente viene guidato nei preparativi per l'uso di Microsoft Intune
 
     -   Registrazione dei dispositivi di ogni [piattaforma supportata](https://technet.microsoft.com/library/dn600287.aspx) in Microsoft Intune o in Configuration Manager con il servizio Intune.
 
--   Distribuzione di indicazioni relative alla gestione delle app mobili (MAM) per:
+-   Materiale sussidiario per Protezione app di Intune (gestione app) su:
 
-    -   Configurazione dei criteri MAM per ogni piattaforma supportata.
+    -   Configurazione dei criteri di protezione delle app per ogni piattaforma supportata.
 
     -   Configurazione dei criteri di accesso condizionale per le app gestite.
 
@@ -154,6 +162,9 @@ Per Intune, l'utente viene guidato nei preparativi per l'uso di Microsoft Intune
 
     -   Uso dei report sul software e l'hardware disponibili in Intune.
 
+    > [!IMPORTANT]
+    > FastTrack non supporta la gestione dei PC classica di Windows 10 con Intune. FastTrack supporta solo la gestione dei dispositivi Windows 10 tramite il software MDM (Mobile Device Management) di Intune.
+
 Microsoft offre anche informazioni aggiuntive su come adottare correttamente i servizi idonei.
 
 ![Fase di abilitazione del caricamento: Intune](./media/ft-enable-phase_intune_mam.png)
@@ -162,6 +173,9 @@ Microsoft offre anche informazioni aggiuntive su come adottare correttamente i s
 
 ![Fase di abilitazione del caricamento: Intune](./media/ft-enable-phase-intune-mdm-mam-sccm.png)
 
-**Altre informazioni**
+> [!NOTE]
+> **Per altre informazioni** vedere [Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility).
 
-[Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility)
+## <a name="next-steps"></a>Passaggi successivi
+
+[FastTrack Benefit per EMS - Responsabilità di Microsoft](fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md)
