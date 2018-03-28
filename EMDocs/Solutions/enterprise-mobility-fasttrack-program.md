@@ -1,32 +1,40 @@
 ---
 title: FastTrack Center Benefit per Enterprise Mobility + Security (EMS)
 description: Un programma che consente ai clienti idonei di pianificare e distribuire Intune e Azure Active Directory Premium
-keywords: 
-author: nathbarn
-ms.author: nathbarn
-manager: angrobe
-ms.date: 02/01/2017
+keywords: ''
+author: andredm7
+ms.author: andredm
+manager: ''
+ms.date: 03/09/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: fd951f10-6404-43a3-8f2f-464f5b5003ac
-ms.reviewer: 
+ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: a5f428b822e8b956003920d5996a98c11c403aee
-ms.sourcegitcommit: f77ccfb11b8ae3105de2bc18a5664ee6c11a553c
+ms.openlocfilehash: dde36f538b792c7fed3f432c708a79168c5c5a7a
+ms.sourcegitcommit: 66feadbdfd08565f69bc8ace81dcba9d012fdd0b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 03/20/2018
 ---
 # <a name="fasttrack-center-benefit-for-enterprise-mobility--security-ems"></a>FastTrack Center Benefit per Enterprise Mobility + Security (EMS)
+
 È possibile usufruire di FastTrack Center Benefit per Enterprise Mobility + Security (EMS) quando si acquistano almeno 150 licenze di EMS o uno dei suoi servizi cloud in un piano idoneo. Si potrà quindi collaborare con gli esperti FastTrack per valutare, correggere, abilitare e promuovere l'uso di quei servizi. Questi esperti forniscono anche linee guida per la migrazione.
 
-> [!NOTE]
-> Ai fini del presente documento, gli esperti FastTrack possono includere personale Microsoft, fornitori autorizzati Microsoft e partner autorizzati Microsoft. 
+> [!IMPORTANT]
+> Ai fini del presente documento, gli esperti FastTrack possono includere personale Microsoft, fornitori autorizzati Microsoft e partner autorizzati Microsoft.
 
-Per altre informazioni sui piani e servizi idonei, vedere [Piani e servizi idonei per FastTrack Center Benefit](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md).
+- Per altre informazioni sui piani e servizi idonei, vedere [Piani e servizi idonei per FastTrack Center Benefit](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md).
 
-Per informazioni sul processo FastTrack Center e sulle responsabilità, vedere [Processo FastTrack Center Benefit per Enterprise Mobility + Security (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
+- Per informazioni sul processo FastTrack Center e sulle responsabilità, vedere [Processo FastTrack Center Benefit per Enterprise Mobility + Security (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
 
-Per scaricare un file ZIP contenente le guide e i messaggi di posta elettronica relativi alle procedure di Enterprise Mobility + Security che possono essere personalizzati con il logo della società per promuovere l'adozione di EMS all'interno dell'organizzazione, vedere [FastTrack for EMS How To Guides & Emails to Customize](https://gallery.technet.microsoft.com/FastTrack-for-EMS-How-To-f170da4c) (Guide e messaggi di posta elettronica relativi alle procedure di FastTrack per EMS da personalizzare).
+    > [!TIP]
+    > Se si vuole scaricare un file con estensione zip contenente le **guide procedurali** di Enterprise Mobility + Security e i messaggi di posta elettronica che possono essere personalizzati con il logo dell'organizzazione per promuovere l'adozione di EMS all'interno dell'organizzazione, vedere [FastTrack for EMS How To Guides & Emails to Customize](https://gallery.technet.microsoft.com/FastTrack-for-EMS-How-To-f170da4c) (FastTrack per le guide procedurali di EMS e i messaggi di posta elettronica da personalizzare).
+
+## <a name="next-steps"></a>Passaggi successivi
+
+[Piani e servizi idonei per FastTrack Center Benefit per EMS](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md)
+
+

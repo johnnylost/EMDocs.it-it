@@ -2,10 +2,10 @@
 title: Servizi e piani idonei
 description: Piani e servizi idonei per FastTrack Center Benefit
 keywords: ''
-author: NathBarn
-ms.author: NathBarn
-manager: angrobe
-ms.date: 05/31/2017
+author: andredm7
+ms.author: andredm
+manager: ''
+ms.date: 03/21/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -13,23 +13,33 @@ ms.technology: ''
 ms.assetid: 484156c7-c3c4-469d-b718-9fa33d9d0ec2
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: 097dfcd7b862735a53d629d7e099a68044d590c7
-ms.sourcegitcommit: f77ccfb11b8ae3105de2bc18a5664ee6c11a553c
+ms.openlocfilehash: 31f3afb2954d48d3a13176fade4c3b3ed22ef095
+ms.sourcegitcommit: ffa46a69834de317e99a58146492e06c6aa4901a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="fasttrack-center-benefit-eligible-services-and-plans"></a>Piani e servizi idonei per FastTrack Center Benefit
 È possibile usare il service benefit quando si acquistano almeno 150 licenze di Enterprise Mobility + Security (EMS) o uno dei suoi servizi cloud in un piano idoneo. Con il service benefit è possibile collaborare con gli specialisti FastTrack per valutare, correggere e attivare i servizi idonei.
 
-Per informazioni sul processo FastTrack Center e sulle responsabilità, vedere [Processo FastTrack Center Benefit per Enterprise Mobility + Security (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
+- Per informazioni sul processo FastTrack Center e sulle responsabilità, vedere [Processo FastTrack Center Benefit per Enterprise Mobility + Security (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
 
-Per informazioni su FastTrack per Office 365, vedere [Vantaggio FastTrack Center per Office 365](https://technet.microsoft.com/library/office-365-onboarding-benefit.aspx).
+- Per informazioni su FastTrack per Office 365, vedere [Vantaggio FastTrack Center per Office 365](https://technet.microsoft.com/library/office-365-onboarding-benefit.aspx).
 
 ## <a name="eligible-services"></a>Servizi idonei
-Se si acquista uno dei servizi online Microsoft seguenti tramite un piano idoneo, Microsoft contatta l'utente per offrire l'assistenza necessaria per il caricamento di tali servizi. È anche possibile richiedere assistenza da parte di [FastTrack Center](http://fasttrack.microsoft.com/) se si è pronti per distribuire questi servizi per l'organizzazione. Per richiedere assistenza, accedere a [FastTrack Center](http://fasttrack.microsoft.com/), andare al dashboard, espandere **Richiesta di assistenza** a sinistra dello schermo e quindi seguire le istruzioni visualizzate per completare la richiesta. Una volta contattato il supporto tecnico di onboarding, verrà impostata la pianificazione di riunioni online.
 
-I clienti possono acconsentire esplicitamente al processo di caricamento una volta per ogni servizio online Microsoft idoneo.
+Se si acquista uno dei servizi Microsoft Online Services seguenti tramite un piano idoneo, Microsoft offre assistenza per l'onboarding. È anche possibile richiedere l'assistenza di [FastTrack Center](http://fasttrack.microsoft.com/) se si è pronti a distribuire i servizi nell'organizzazione.
+
+### <a name="to-request-assistance"></a>Per richiedere assistenza
+
+1. Accedere a [FastTrack Center](http://fasttrack.microsoft.com/)
+
+2. Passare al dashboard, espandere **Richiesta di assistenza** a sinistra della schermata e quindi seguire le istruzioni visualizzate per completare la richiesta.
+
+Una volta contattato il supporto tecnico di onboarding, verrà impostata la pianificazione di riunioni online.
+
+> [!NOTE]
+> I clienti possono acconsentire esplicitamente al processo di caricamento una volta per ogni servizio online Microsoft idoneo.
 
 ## <a name="eligible-plans"></a>Piani idonei
 EMS e i servizi cloud inclusi in FastTrack Center Benefit per EMS sono idonei per il service benefit se vengono acquistate almeno 150 licenze per una sottoscrizione in uno dei piani idonei seguenti:
@@ -58,3 +68,7 @@ EMS e i servizi cloud inclusi in FastTrack Center Benefit per EMS sono idonei pe
 |Microsoft Azure Information Protection (E3 e E5)|Limitato</br>Solo piano Success (Success Plan) e uso di **Richiesta di assistenza** in [Fast Track Center](https://fasttrack.microsoft.com/)|
 |Microsoft Advanced Threat Analytics|Limitato</br>Solo piano Success (Success Plan) e uso di **Richiesta di assistenza** in [Fast Track Center](https://fasttrack.microsoft.com/)|
 |Microsoft Cloud App Security|Limitato</br>Solo piano Success (Success Plan) e uso di **Richiesta di assistenza** in [Fast Track Center](https://fasttrack.microsoft.com/)|
+
+## <a name="next-steps"></a>Passaggi successivi
+
+[Processo di FastTrack Center Benefit per EMS](fasttrack-center-benefit-process-for-ems-environment-expectations.md)

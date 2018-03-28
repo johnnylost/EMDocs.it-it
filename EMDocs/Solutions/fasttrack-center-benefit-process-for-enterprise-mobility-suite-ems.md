@@ -1,26 +1,26 @@
 ---
 title: Processo FastTrack
 description: Panoramica del processo di onboarding di FastTrack Center Benefit
-keywords: 
-author: NathBarn
-ms.author: NathBarn
-manager: angrobe
-ms.date: 02/01/2017
+keywords: ''
+author: andredm7
+ms.author: andredm
+manager: ''
+ms.date: 03/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: microsoft-intune
-ms.technology: 
+ms.technology: ''
 ms.assetid: dd221c87-6bf7-4af8-845a-dc4c3a4f2334
-ms.reviewer: 
+ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: f22c4fc117368bc92bed6f9d3e707ef83327abb3
-ms.sourcegitcommit: 024fad70d2c4976f039e3e572c7334927375b17e
+ms.openlocfilehash: 53f96bd0ea1579ef7597d74690a2bac005c132c0
+ms.sourcegitcommit: ffa46a69834de317e99a58146492e06c6aa4901a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="fasttrack-center-benefit-process-for-enterprise-mobility--security-ems"></a>Processo FastTrack Center Benefit per Enterprise Mobility + Security (EMS)
-Se l'organizzazione è idonea per FastTrack Center Benefit per EMS, si può collaborare in remoto con gli esperti Microsoft per preparare Microsoft Azure Active Directory Premium e Microsoft Intune per l'uso. È anche possibile richiedere assistenza dal [sito FastTrack](http://fasttrack.microsoft.com/ems) per Azure Information Protection, Microsoft Cloud App Security e Microsoft Advanced Threat Analytics. Per sapere se l'organizzazione è idonea, vedere [Piani e servizi idonei per FastTrack Center Benefit](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md).
+Se l'organizzazione è idonea per FastTrack Center Benefit per EMS, si può collaborare in remoto con gli esperti di FastTrack per preparare Microsoft Azure Active Directory Premium e Microsoft Intune per l'uso. È anche possibile richiedere assistenza dal [sito FastTrack](http://fasttrack.microsoft.com/ems) per Azure Information Protection, Microsoft Cloud App Security e Microsoft Advanced Threat Analytics. Per sapere se l'organizzazione è idonea, vedere [Piani e servizi idonei per FastTrack Center Benefit](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md).
 
 
 Vengono trattati i seguenti aspetti del processo di onboarding:
@@ -43,7 +43,7 @@ Ecco cosa aspettarsi una volta completato il processo di onboarding:
 
     -   Identità cloud: account univoci EMS.
 
-    -   Identità sincronizzate: gli account EMS sincronizzati dall'istanza locale di Active Directory con Azure Active Directory Connect. Questa opzione è per i clienti con una singola foresta o più foreste di Active Directory.
+    -   Identità sincronizzate: gli account EMS sincronizzati dall'istanza locale di Active Directory con Azure Active Directory Connect (sincronizzazione dell'hash delle password o autenticazione pass-through). Questa opzione è per i clienti con una singola foresta o più foreste di Active Directory.
 
     -   Identità federate: con account Microsoft EMS, che sono:
 
