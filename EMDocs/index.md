@@ -4,7 +4,7 @@ title: Documentazione di Enterprise Mobility + Security | Documenti Microsoft
 description: Documentazione tecnica di Microsoft Enterprise Mobility + Security
 ms.topic: hub-page
 ms.assetid: 961350ed-a3f1-44f1-b239-b46345b8f620
-hide_bc: 
+hide_bc: true
 featureFlags:
 - clicktale
 ms.openlocfilehash: 8b73611d00f6d55e0237ec6f85c6b247e9ca261c
