@@ -1,31 +1,31 @@
 ---
-title: "Migliaia di app, una sola identità"
-description: "Questo articolo descrive come usare Enterprise Mobility + Security per fornire una singola identità da usare in qualsiasi app basata sul Web nel settore, sfruttando gli strumenti di Azure Active Directory."
-keywords: 
+title: Migliaia di app, una sola identità
+description: Questo articolo descrive come usare Enterprise Mobility + Security per fornire una singola identità da usare in qualsiasi app basata sul Web nel settore, sfruttando gli strumenti di Azure Active Directory.
+keywords: ''
 author: andredm7
 ms.author: andredm
 manager: swadhwa
 ms.date: 12/07/2016
 ms.topic: solution
-ms.prod: 
+ms.prod: ''
 ms.service: active-directory
-ms.technology: 
+ms.technology: ''
 ms.assetid: dd879a14-919e-431b-89b9-c035c83a6899
-ROBOTS: 
+ROBOTS: ''
 ms.reviewer: atkladak, jsnow
 ms.suite: ems
-ms.openlocfilehash: b995c17749d1eaf6ae9561980ff87b97f7f5e1a0
-ms.sourcegitcommit: 5cde65a0e614800ebd9c8479437dc9dd846c8cd8
+ms.openlocfilehash: 7710b1465256e99b9a0f7fa05af780af079731ae
+ms.sourcegitcommit: 4401a878f88cc60b3cfd90a915747fe37e333014
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/29/2017
+ms.lasthandoff: 04/06/2018
 ---
 # <a name="thousands-of-apps-one-identity"></a>Migliaia di app, una sola identità
 Azure Active Directory (Azure AD) rende gli utenti più produttivi fornendo un'identità comune per gli utenti di applicazioni SaaS (Software as a Service, software come un servizio) che accedono a risorse sia cloud che locali.
 
 Azure AD si integra con molte delle applicazioni SaaS attualmente più diffuse, come Box, Twitter, ServiceNow, DocuSign, Workday e molte altre. Supporta l'autenticazione Single Sign-On (SSO) e le identità e protegge la gestione degli accessi alle applicazioni da qualsiasi dispositivo in modo sicuro e affidabile.
 
-## <a name="how-can-enterprise-mobility--security-help-you"></a>Come può essere utile Enterprise Mobility + Security?
+## <a name="how-can-enterprise-mobility--security-help-you"></a>Vantaggi di Enterprise Mobility + Security
 Enterprise Mobility + Security (EMS) è l'unica soluzione cloud completa che protegge in modo nativo i dati aziendali nel dispositivo stesso e con quattro livelli di protezione per identità, dispositivi, app e dati. EMS aiuta a rispondere a una delle esigenze principali degli ambienti incentrati su dispositivi mobili e cloud, ovvero fornire una singola identità che funzioni in qualsiasi app basata sul Web nel settore:
 - Esperienza di autenticazione facile con connessione al cloud
 - Accesso Single Sign-On a 1000 app pre-integrate o alle app personalizzate
@@ -102,16 +102,16 @@ Gli utenti finali possono quindi accedere alle applicazioni locali nello stesso 
 ## <a name="how-to-implement-this-solution"></a>Come implementare questa soluzione
 I passaggi seguenti descrivono come implementare ogni funzionalità di Azure AD illustrata in precedenza. Ogni collegamento rappresenta un set diverso di articoli con un set specifico di istruzioni o passaggi da implementare nell'organizzazione:
 1. [Abilitare l'accesso Single Sign-On con il proxy di applicazione.](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-sso-using-kcd/)
-- [Fornire accesso remoto sicuro alle applicazioni locali.](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-get-started/)
-  - [Uso di domini personalizzati nel proxy di applicazione di Azure AD.](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-custom-domains/)
-  - [Uso di app in grado di riconoscere le attestazioni nel proxy di applicazione.](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-claims-aware-apps/)
-  - [Uso dell'accesso condizionale per le app pubblicate usando il proxy di applicazione.](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-conditional-access/)
-- [Usare app personalizzate in Azure AD.](https://blogs.technet.microsoft.com/enterprisemobility/2015/06/17/bring-your-own-app-with-azure-ad-self-service-saml-configuration-now-in-preview/)
+2. [Fornire accesso remoto sicuro alle applicazioni locali.](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-get-started/)
+   - [Uso di domini personalizzati nel proxy di applicazione di Azure AD.](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-custom-domains/)
+   - [Uso di app in grado di riconoscere le attestazioni nel proxy di applicazione.](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-claims-aware-apps/)
+   - [Uso dell'accesso condizionale per le app pubblicate usando il proxy di applicazione.](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-conditional-access/)
+3. [Usare app personalizzate in Azure AD.](https://blogs.technet.microsoft.com/enterprisemobility/2015/06/17/bring-your-own-app-with-azure-ad-self-service-saml-configuration-now-in-preview/)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 - **Raccolta di app in Azure.com**
   - https://azure.microsoft.com/marketplace/active-directory/
 - **Elenco di applicazioni SaaS** (con funzionalità di integrazione)
-  - https://aadappgallery.azurewebsites.NET/default.aspx?Microsoft_Integrated_Synchronization=on
+  - https://aadappgallery.azurewebsites.net/Default.aspx?Microsoft_Integrated_Synchronization=on
 - **Esercitazioni sulle applicazioni SaaS**
   - https://azure.microsoft.com/documentation/articles/active-directory-saas-tutorial-list/

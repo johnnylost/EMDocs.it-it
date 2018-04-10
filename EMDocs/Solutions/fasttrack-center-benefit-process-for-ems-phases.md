@@ -13,11 +13,11 @@ ms.technology: ''
 ms.assetid: e51f030b-8b08-4fea-96c9-d4ded435a264
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: 7d73513b80778ec91c9b3bee284175aa43751afc
-ms.sourcegitcommit: ffa46a69834de317e99a58146492e06c6aa4901a
+ms.openlocfilehash: c12542c9eed9daaa5a76241ce5045751b8473551
+ms.sourcegitcommit: f045537a12763cd6164c4ae42f7b4a45c4ca040b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="onboarding-phases"></a>Fasi di onboarding
 
@@ -32,7 +32,7 @@ Il processo di onboarding prevede quattro fasi principali:
 
 Dopo aver acquistato il numero appropriato di licenze, attenersi alle istruzioni nel messaggio di conferma dell'acquisto per associare le licenze al tenant esistente o a un tenant nuovo. Microsoft verifica l'idoneità per FastTrack Center Benefit e tenta di contattare l'utente per offrire assistenza durante il processo di caricamento.
 
-> [!NOTE] 
+> [!NOTE]
 > È anche possibile richiedere assistenza da parte di [FastTrack Center](http://fasttrack.microsoft.com/) se si è pronti per distribuire questi servizi per l'organizzazione.
 
 ### <a name="to-request-assistance"></a>Per richiedere assistenza
@@ -78,7 +78,7 @@ L'onboarding di base prevede il provisioning di servizi e l'integrazione di iden
 > Un metodo di autenticazione gestita include, senza limitazioni, la sincronizzazione degli hash delle password.
 
 > [!NOTE]
-> Identity Integration è un'attività da svolgere una sola volta e non include la migrazione o la disattivazione di metodi di autenticazione esistenti, quali l'autenticazione gestita o federata. 
+> Identity Integration è un'attività da svolgere una sola volta e non include la migrazione o la disattivazione di metodi di autenticazione esistenti, quali l'autenticazione gestita o federata.
 
 ### <a name="enable-phase---azure-ad-premium"></a>Fase di abilitazione – Azure AD Premium
 
@@ -107,10 +107,6 @@ La configurazione di Azure AD Premium include l'abilitazione delle funzionalità
 -   Privileged Identity Management.
 
 -   Accesso condizionale di Azure Active Directory.
-
--   Report sull'utilizzo e sulla sicurezza per gli amministratori.
-
--   Notifiche e avvisi amministrativi.
 
 ![Fase di abilitazione del caricamento - Azure AD Premium](./media/ft-enable-phase_aad-premium_adconnect_adfed.png)
 
@@ -178,4 +174,4 @@ Microsoft offre anche informazioni aggiuntive su come adottare correttamente i s
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-[FastTrack Benefit per EMS - Responsabilità di Microsoft](fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md)
+[FastTrack Benefit per EMS - Responsabilità di Microsoft](fasttrack-center-benefit-process-for-ems-fasttrack-responsibilities.md)
