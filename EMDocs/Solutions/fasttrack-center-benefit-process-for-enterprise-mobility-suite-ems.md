@@ -13,11 +13,11 @@ ms.technology: ''
 ms.assetid: dd221c87-6bf7-4af8-845a-dc4c3a4f2334
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: 53f96bd0ea1579ef7597d74690a2bac005c132c0
-ms.sourcegitcommit: ffa46a69834de317e99a58146492e06c6aa4901a
+ms.openlocfilehash: e26aa24ea38c9ec2fa0dabe9044256fa5bfd9b4a
+ms.sourcegitcommit: f045537a12763cd6164c4ae42f7b4a45c4ca040b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="fasttrack-center-benefit-process-for-enterprise-mobility--security-ems"></a>Processo FastTrack Center Benefit per Enterprise Mobility + Security (EMS)
 Se l'organizzazione è idonea per FastTrack Center Benefit per EMS, si può collaborare in remoto con gli esperti di FastTrack per preparare Microsoft Azure Active Directory Premium e Microsoft Intune per l'uso. È anche possibile richiedere assistenza dal [sito FastTrack](http://fasttrack.microsoft.com/ems) per Azure Information Protection, Microsoft Cloud App Security e Microsoft Advanced Threat Analytics. Per sapere se l'organizzazione è idonea, vedere [Piani e servizi idonei per FastTrack Center Benefit](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md).
@@ -31,7 +31,7 @@ Vengono trattati i seguenti aspetti del processo di onboarding:
 
 -   [Fasi del processo di onboarding](fasttrack-center-benefit-process-for-ems-phases.md)
 
--   [Responsabilità di Microsoft](fasttrack-center-benefit-process-for-ems-microsoft-responsibilities.md) per ogni fase
+-   [Responsabilità di FastTrack](fasttrack-center-benefit-process-for-ems-fasttrack-responsibilities.md) per ogni fase
 
 -   [Responsabilità dell'utente](fasttrack-center-benefit-process-for-ems-your-responsibilities.md) per ogni fase
 
