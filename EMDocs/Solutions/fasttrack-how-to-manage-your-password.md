@@ -13,11 +13,11 @@ ms.technology: ''
 ms.assetid: 162e59f3-33a2-44b5-a59f-24612dc743f3
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: 0d4d4c9419fb027b87ceb92fcabb8af17f983f63
-ms.sourcegitcommit: 4401a878f88cc60b3cfd90a915747fe37e333014
+ms.openlocfilehash: 0146fc11fb08c1c7d4442cc78a7af8aa8d2dcdab
+ms.sourcegitcommit: 5ce9b7a0ebac0c5f626b0273fa93fd02589a7452
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/06/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="how-to-manage-your-own-password"></a>Come gestire la password
 
@@ -32,7 +32,7 @@ Il modo più rapido di registrazione per la reimpostazione della password consis
 ![Screenshot con blahblah](./media/ft-mngPW-1-setup.png)
 4.  Selezionare il prefisso internazionale del paese/area geografica dall'elenco a discesa e digitare il numero di telefono completo con prefisso.
 ![Screenshot che illustra come selezionare un codice paese. ](./media/ft-mngPW-2-enterNumber.png)![Screenshot che indica dove immettere un numero di telefono.](./media/ft-mngPW-3-enterNumber2.png)
-5.  Selezionare una delle opzioni: **Text me (SMS)** o**Call me (Telefonata)**. In questo esempio, viene selezionata l'opzione **Text me (SMS)**, che invierà un codice di 6 cifre al telefono. Attendere alcuni secondi affinché il codice arrivi al telefono.
+5.  Selezionare una delle opzioni: **Text me (SMS)** o**Call me (Telefonata)**. In questo esempio, viene selezionata l'opzione **Text me (SMS)**, che invierà un codice di 6 cifre al telefono. Attendere alcuni secondi affinché il codice arrivi al telefono.  
 ![Screenshot che illustra un codice a 6 cifre che è stato inviato a un telefono.](./media/ft-mngPW-4-textCode.png)
 6.  Quando arriva il codice, digitarlo nella casella di input e fare clic su "Verifica".
 7.  Se viene visualizzato il testo **Thanks (Grazie)** vuol dire che l'operazione è stata completata correttamente. Ora è possibile usare ciò che è stato registrato per reimpostare la password in qualsiasi momento dal sito [https://passwordreset.microsoftonline.com](https://passwordreset.microsoftonline.com). ![Screenshot che illustra il messaggio di ringraziamento ricevuto quando la registrazione viene completata.](./media/ft-mngPW-5-thanks.png)
@@ -48,7 +48,7 @@ Seguire la procedura illustrata di seguito per reimpostare la password dell'acco
 > 
 > Se questa funzionalità è stata attivata, è necessario innanzitutto registrarsi prima di poterla usare. È possibile farlo qui: [http://aka.ms/ssprsetup](http://aka.ms/ssprsetup).
 
-1. In qualsiasi pagina di accesso all'account aziendale o dell'istituto di istruzione, fare clic sul collegamento "can't access your account? (impossibile accedere all'account?)" o "forgot your password? (password dimenticata?)" o passare direttamente a [https://passwordreset.microsoftonline.com](https://passwordreset.microsoftonline.com).
+1. In qualsiasi pagina di accesso all'account aziendale o dell'istituto di istruzione, fare clic sul collegamento "can't access your account? (impossibile accedere all'account?)" O "forgot your password? (password dimenticata?)" o passare direttamente a [https://passwordreset.microsoftonline.com](https://passwordreset.microsoftonline.com).
    ![Screenshot che illustra il primo messaggio che un utente riceve se l'ID utente o la password non sono stati riconosciuti.](./media/ft-mngPW-6-resetPWbegin.png)
 2. Nella pagina "who are you? (Identificarsi)" immettere l'ID dell'account aziendale o dell'istituto di istruzione e dimostrare di non essere un robot inserendo il captcha.
    ![Screenshot in cui viene richiesto all'utente di immettere l'ID utente e il codice captcha visualizzato.](./media/ft-mngPW-7-enterID.png)
@@ -62,8 +62,8 @@ Seguire la procedura illustrata di seguito per reimpostare la password dell'acco
    ![Screenshot in cui viene richiesto all'utente di scegliere il metodo con cui vuole essere contattato per la verifica.](./media/ft-mngPW-8-answerQuestions.png)
 5. In questo esempio viene usata l'opzione **Invia SMS sul telefono cellulare**. Se si sceglie un'opzione basata su telefono, è necessario verificare il numero di telefono prima di ricevere un SMS. Digitare il numero di telefono completo e fare clic su **Avanti** per verificare che sia corretto e inviare un SMS.
    ![Screenshot che indica che l'utente deve immettere il numero di telefono su cui riceverà un SMS di verifica.](./media/ft-mngPW-9-textNumber.png)
-6. Quando si riceve l'SMS, assicurarsi di usare il codice di verifica incluso nel corpo del messaggio e non il numero di codice del mittente. Potrebbero passare alcuni minuti tra l'invio e la ricezione dell'SMS.
-   ![Screenshot che illustra il codice di verifica ricevuto.](./media/ft-mngPW-10-verificationCode.png)
+6. Quando si riceve l'SMS, assicurarsi di usare il codice di verifica incluso nel corpo del messaggio e non il numero di codice del mittente. Potrebbero passare alcuni minuti tra l'invio e la ricezione dell'SMS.  
+   ![Schermata che illustra il codice di verifica ricevuto.](./media/ft-mngPW-10-verificationCode.png)
 7. Dopo la ricezione dell'SMS, digitare il codice appena ricevuto nella casella di input della pagina.
    ![Screenshot che indica che l'utente deve immettere il codice di verifica appena ricevuto.](./media/ft-mngPW-11-enterCode.png)
 8. È possibile che l'amministratore richieda un secondo passaggio di verifica; nel qual caso ripetere il passaggio 4 con un'altra opzione.
