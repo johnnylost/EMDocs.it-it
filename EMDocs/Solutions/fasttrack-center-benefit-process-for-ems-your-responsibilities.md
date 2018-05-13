@@ -5,7 +5,7 @@ keywords: ''
 author: andredm7
 ms.author: andredm
 manager: ''
-ms.date: 03/21/2018
+ms.date: 04/27/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -13,11 +13,11 @@ ms.technology: ''
 ms.assetid: 0590b7b2-0965-437b-b3ca-bd55de1abb09
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: fe9ee9f1eeb36e4f1df8d1bd2da63ab08e515098
-ms.sourcegitcommit: ffa46a69834de317e99a58146492e06c6aa4901a
+ms.openlocfilehash: bba697474155bbd85927da8af86d72dcc5aad531
+ms.sourcegitcommit: 0863dce817862f00068614f2c62698784eb76d84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="your-responsibilities"></a>Responsabilità dell'utente
 
@@ -66,6 +66,10 @@ Ecco le responsabilità dell'utente durante il processo di onboarding.
 -   Se è necessario per la distribuzione di profili Wi-Fi e VPN con Intune, specificare e configurare le infrastrutture di Autorità di certificazione, Wi-Fi e VPN in base alle esigenze.
 
 -   Scrivere le Condizioni per l'utilizzo dell'organizzazione da configurare e visualizzare nei portali aziendali di Microsoft Intune accessibili agli utenti finali.
+
+-   Iscriversi per ottenere le sottoscrizioni di Team Viewer, Mobile Threat Defense e della soluzione di gestione delle spese per telecomunicazioni.
+
+-   Iscriversi per ottenere le licenze di Windows Defender Advanced Threat Protection (licenze di Windows E5 o Microsoft E5).
 
 ## <a name="initiate-phase"></a>Fase di avvio
 

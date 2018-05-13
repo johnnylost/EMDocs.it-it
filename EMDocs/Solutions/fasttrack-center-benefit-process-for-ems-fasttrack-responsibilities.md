@@ -5,7 +5,7 @@ keywords: ''
 author: andredm7
 ms.author: andredm
 manager: ''
-ms.date: 03/26/2018
+ms.date: 04/27/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -13,11 +13,11 @@ ms.technology: ''
 ms.assetid: c8fd871e-f1bc-43ec-a5f3-ad025df9b026
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: a5fce16f550e3b0e620e2cc6eb1f3d9e9cf7dc32
-ms.sourcegitcommit: 5ce9b7a0ebac0c5f626b0273fa93fd02589a7452
+ms.openlocfilehash: b9fb99c2c5bd640a033684096bd8f189a09b1698
+ms.sourcegitcommit: 0863dce817862f00068614f2c62698784eb76d84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="fasttrack-responsibilities"></a>Responsabilità di FastTrack
 
@@ -159,15 +159,13 @@ Fornire indicazioni sulla configurazione di:
   - Privileged Identity Management.
 
   - Accesso condizionale di Azure Active Directory.
-  
-  - Join ibrido ad Azure AD
 
 ### <a name="enable-phase---intune"></a>Fase di abilitazione - Intune
 
 > [!IMPORTANT]
 > FastTrack non supporta la gestione dei PC classica di Windows 10 con Intune. FastTrack supporta solo la gestione di Windows 10 tramite il software MDM (Mobile Device Management) di Intune.
 
-Fornire indicazioni su:
+Fornire **indicazioni** su:
 
 -   Configurazione delle identità da usare con Intune, tramite Active Directory locale o le identità cloud (Azure Active Directory).
 
@@ -211,7 +209,14 @@ Fornire indicazioni su:
 
     -   Connessione al data warehouse di Intune.
 
-    -   Integrazione di Intune con Team Viewer per l'assistenza remota, partner Mobile Threat Defense e partner Telecom Expense (licenza dei prodotti di terze parti non inclusa con l'abbonamento di Intune).
+    -   Integrazione di Intune con:
+        -   Team Viewer per l'assistenza remota. La sottoscrizione di Team Viewer è obbligatoria.
+
+        -   Soluzioni partner Mobile Threat Defense. La sottoscrizione della soluzione partner Mobile Threat Defense è obbligatoria.
+
+        -   Soluzioni di gestione delle spese per telecomunicazioni. La sottoscrizione delle soluzioni di gestione delle spese per telecomunicazioni è obbligatoria.
+
+        -   Windows Defender Advanced Threat Protection. Le licenze di Windows E5 o Microsoft 365 E5 sono obbligatorie.
 
     -   Configurazione degli aggiornamenti software per le piattaforme supportate applicabili.
 

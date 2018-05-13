@@ -5,7 +5,7 @@ keywords: ''
 author: andredm7
 ms.author: andredm
 manager: ''
-ms.date: 03/21/2018
+ms.date: 04/27/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -13,11 +13,11 @@ ms.technology: ''
 ms.assetid: e51f030b-8b08-4fea-96c9-d4ded435a264
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: c12542c9eed9daaa5a76241ce5045751b8473551
-ms.sourcegitcommit: f045537a12763cd6164c4ae42f7b4a45c4ca040b
+ms.openlocfilehash: e63644b2e8db81f6293dbad4ca4de14dbe40ecac
+ms.sourcegitcommit: 0863dce817862f00068614f2c62698784eb76d84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="onboarding-phases"></a>Fasi di onboarding
 
@@ -75,10 +75,10 @@ L'onboarding di base prevede il provisioning di servizi e l'integrazione di iden
 
 ![Fase di abilitazione del caricamento: funzionalità di base](./media/ft-enable-phase-core-02.png)
 > [!NOTE]
-> Un metodo di autenticazione gestita include, senza limitazioni, la sincronizzazione degli hash delle password.
+> WAP è l'acronimo di Web Application Proxy (proxy applicazione Web). SSL è l'acronimo di Secure Sockets Layer. SDS è l'acronimo di School Data Sync. Per altre informazioni su SDS, vedere [Introduzione a Microsoft School Data Sync](https://go.microsoft.com/fwlink/?linkid=871480).
 
 > [!NOTE]
-> Identity Integration è un'attività da svolgere una sola volta e non include la migrazione o la disattivazione di metodi di autenticazione esistenti, quali l'autenticazione gestita o federata.
+> Un metodo di autenticazione gestita include, senza limitazioni, la sincronizzazione degli hash delle password. Identity Integration è un'attività da svolgere una sola volta e non include la migrazione o la disattivazione di metodi di autenticazione esistenti, quali l'autenticazione gestita o federata.
 
 ### <a name="enable-phase---azure-ad-premium"></a>Fase di abilitazione – Azure AD Premium
 
@@ -139,6 +139,17 @@ Per Intune, l'utente viene guidato nei preparativi per l'uso di Microsoft Intune
         -   Distribuzione di posta elettronica, reti wireless e profili VPN se si ha un'infrastruttura di Autorità di certificazione esistente, Wi-Fi o VPN nella propria organizzazione.
 
         -   Configurazione di Microsoft Intune Exchange Connector, quando applicabile.
+
+        -   Connessione al data warehouse di Intune
+
+        -   Integrazione di Intune con:
+            -   Team Viewer per l'assistenza remota. La sottoscrizione di Team Viewer è obbligatoria.
+
+            -   Soluzioni partner Mobile Threat Defense (MTD). La sottoscrizione di Mobile Threat Defense è obbligatoria.
+
+            -   Soluzione di gestione delle spese per telecomunicazioni. La sottoscrizione della soluzione di gestione delle spese per telecomunicazioni è obbligatoria.
+
+            -   Windows Defender Advanced Threat Protection. Le licenze di Windows E5 o Microsoft 365 E5 sono obbligatorie.
 
     -   Registrazione dei dispositivi di ogni [piattaforma supportata](https://technet.microsoft.com/library/dn600287.aspx) in Microsoft Intune o in Configuration Manager con il servizio Intune.
 
