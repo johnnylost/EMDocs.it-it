@@ -1,24 +1,24 @@
 ---
 title: Gestire l'accesso su larga scala
-description: "Questo articolo descrive come usare Enterprise Mobility + Security per permettere all'organizzazione la gestione dell'accesso alle identità tramite gli strumenti inclusi in Azure Active Directory."
-keywords: 
+description: Questo articolo descrive come usare Enterprise Mobility + Security per permettere all'organizzazione la gestione dell'accesso alle identità tramite gli strumenti inclusi in Azure Active Directory.
+keywords: ''
 author: andredm7
 ms.author: andredm
 manager: swadhwa
 ms.date: 12/07/2016
 ms.topic: solution
-ms.prod: 
+ms.prod: ''
 ms.service: active-directory
-ms.technology: 
+ms.technology: ''
 ms.assetid: 0292919a-af10-4a25-8916-c704aed643f6
-ROBOTS: 
+ROBOTS: ''
 ms.reviewer: atkladak, jsnow
 ms.suite: ems
-ms.openlocfilehash: fa2795fb578c0d278d55cbff9f44c19ca2e13309
-ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.openlocfilehash: aba57397c4e66d03f89a7e9c9d872903520f5c0c
+ms.sourcegitcommit: 573bba4fa70ce651971ec5bafd9967ebdd6bd6c5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/25/2017
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="manage-access-at-scale"></a>Gestire l'accesso su larga scala
 Microsoft offre da sempre gli strumenti necessari alle organizzazioni. Oltre a un'identità che permette di accedere dovunque, Microsoft offre anche un insieme di strumenti per automatizzare, proteggere e gestire le attività IT all'interno dell'organizzazione. Anche dopo l'avvento del cloud computing, esiste tuttora una domanda di gestione e controllo di attività IT come le chiamate del supporto tecnico per la reimpostazione delle password utente, la gestione dei gruppi di utenti e le richieste di applicazioni.
@@ -43,7 +43,7 @@ Azure AD offre una gestione avanzata del ciclo di vita dell'utente automatizzata
 ![Figura che illustra come Azure AD Connect sincronizza utenti e gruppi tra Windows Server Active Directory e Azure Active Directory](./media/manage-access-at-scale/manage-access-at-scale-fig1.png)
 
 ### <a name="application-management"></a>Gestione delle applicazioni
-A quanti utenti piace ricordare le password delle singole applicazioni che usano ogni giorno? Il servizio [Single Sign-On](https://azure.microsoft.com/en-us/documentation/articles/active-directory-appssoaccess-whatis/) risolve questo problema comune. È possibile accedere a diverse applicazioni SaaS con un singolo account utente e una sola password. Il provisioning dell'accesso Single Sign-On per tutte le applicazioni all'interno dell'organizzazione può essere eseguito automaticamente. Questa funzionalità è disponibile per le applicazioni cloud Microsoft, come Office 365, e per le applicazioni di terze parti, come Salesforce, ServiceNow e Workday.
+A quanti utenti piace ricordare le password delle singole applicazioni che usano ogni giorno? Il servizio [Single Sign-On](https://azure.microsoft.com/documentation/articles/active-directory-appssoaccess-whatis/) risolve questo problema comune. È possibile accedere a diverse applicazioni SaaS con un singolo account utente e una sola password. Il provisioning dell'accesso Single Sign-On per tutte le applicazioni all'interno dell'organizzazione può essere eseguito automaticamente. Questa funzionalità è disponibile per le applicazioni cloud Microsoft, come Office 365, e per le applicazioni di terze parti, come Salesforce, ServiceNow e Workday.
 
 Ecco ulteriori dettagli su Single Sign-On:
 
@@ -98,7 +98,7 @@ Per impostazione predefinita, Azure AD include una funzionalità gratuita che co
 
 Quando si usa Azure AD Premium, è possibile evitare l'intervento degli amministratori IT offrendo agli utenti le funzionalità del portale self-service di reimpostazione delle password. È possibile abilitare rapidamente i criteri di reimpostazione delle password utente che estenderanno le stesse funzionalità per gli amministratori a ogni utente all'interno della directory.
 
-Altre informazioni sui [prerequisiti, l'abilitazione e la configurazione del portale self-service di reimpostazione delle password](https://azure.microsoft.com/en-us/documentation/articles/active-directory-accessmanagement-manage-groups/) sono disponibili nel tenant di Azure AD.
+Altre informazioni sui [prerequisiti, l'abilitazione e la configurazione del portale self-service di reimpostazione delle password](https://azure.microsoft.com/documentation/articles/active-directory-accessmanagement-manage-groups/) sono disponibili nel tenant di Azure AD.
 
 ## <a name="how-to-use-azure-ad-connect-health"></a>Come usare Azure AD Connect Health
 Fare riferimento alla [documentazione di Azure AD Connect Health](https://azure.microsoft.com/en-in/documentation/articles/active-directory-aadconnect-health/) per altre informazioni sullo strumento, le funzionalità e i passaggi da eseguire per iniziare a usarlo nell'organizzazione.

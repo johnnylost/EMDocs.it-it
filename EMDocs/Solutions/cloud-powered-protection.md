@@ -1,29 +1,29 @@
 ---
 title: Protezione basata sul cloud
 description: Questo articolo descrive come usare Enterprise Mobility + Security per offrire un set completo di strumenti per la sicurezza in modo da identificare le minacce per la sicurezza in modo proattivo e rispondervi correttamente nell'organizzazione tramite gli strumenti inclusi in Azure Active Directory.
-keywords: 
+keywords: ''
 author: andredm7
 ms.author: andredm
 manager: swadhwa
 ms.date: 10/24/2016
 ms.topic: solution
-ms.prod: 
+ms.prod: ''
 ms.service: active-directory
-ms.technology: 
+ms.technology: ''
 ms.assetid: 46654ab0-0d0a-47ad-8715-b149a1092a37
-ROBOTS: 
+ROBOTS: ''
 ms.reviewer: atkladak, jsnow
 ms.suite: ems
-ms.openlocfilehash: 0ed7704a832f3567f14c6eec5ae7da9ea5e9f22a
-ms.sourcegitcommit: 0541e4aa400a818551469fe9df8929c25c2dd918
+ms.openlocfilehash: 28fc9de2c33972231a3e62c464153de0e202e06b
+ms.sourcegitcommit: 573bba4fa70ce651971ec5bafd9967ebdd6bd6c5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/25/2017
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="cloud-powered-protection"></a>Protezione basata sul cloud
 Microsoft è impegnata nella protezione delle identità basate sul cloud da oltre un decennio e con Azure Active Directory sta rendendo questi stessi sistemi di protezione disponibili ai clienti aziendali, per garantire la responsabilità di utenti e amministratori attraverso livelli migliori di sicurezza e governance.
 
-## <a name="how-can-enterprise-mobility--security-help-you"></a>Come può essere utile Enterprise Mobility + Security?
+## <a name="how-can-enterprise-mobility--security-help-you"></a>Vantaggi di Enterprise Mobility + Security
 Enterprise Mobility + Security (EMS) è l'unica soluzione cloud completa che protegge in modo nativo i dati aziendali nel dispositivo stesso e con quattro livelli di protezione per identità, dispositivi, app e dati. EMS permette di affrontare una delle principali sfide degli scenari incentrati su mobilità e cloud, per offrire un set completo di strumenti per la sicurezza che aiutano a identificare in modo proattivo le minacce per la sicurezza e a rispondervi in modo adeguato nell'organizzazione:
 - Controllare l'accesso alle risorse
 - Proteggere l'autenticazione utente
@@ -76,7 +76,7 @@ Gli eventi di rischio sono eventi contrassegnati come sospetti da Identity Prote
 
 Microsoft sta continuando a investire in questa area e prevede di migliorare continuamente l'accuratezza del rilevamento degli eventi di rischio esistenti e di aggiungere nuovi tipi di evento di rischio regolarmente. Ad esempio, si supponga di poter indagare sull'evento di rischio Comunicazione impossibile.
 
-Per altri dettagli, vedere la [guida ad Azure AD Identity Protection](https://azure.microsoft.com/en-us/documentation/articles/active-directory-identityprotection-playbook/).
+Per altri dettagli, vedere la [guida ad Azure AD Identity Protection](https://azure.microsoft.com/documentation/articles/active-directory-identityprotection-playbook/).
 
 Ecco un esempio di alcuni eventi di rischio nel dashboard di Identity Protection:
 
@@ -87,7 +87,7 @@ Nel pannello Comunicazione impossibile tutti gli eventi imprevisti contrassegnat
 
 ![Screenshot del dashboard di Azure AD Identity Protection che mostra le posizioni degli eventi di rischio "Comunicazione impossibile".](./media/cloud-powered-protection/cloud-powered-protection-fig2.png)
 
-Sono disponibili altri dettagli sui [tipi di eventi di rischio rilevati da Azure AD Identity Protection](https://azure.microsoft.com/en-us/documentation/articles/active-directory-identityprotection-risk-events-types/).
+Sono disponibili altri dettagli sui [tipi di eventi di rischio rilevati da Azure AD Identity Protection](https://azure.microsoft.com/documentation/articles/active-directory-identityprotection-risk-events-types/).
 
 #### <a name="remediation"></a>Soluzione
 Oltre alla gestione degli eventi imprevisti su base individuale, Azure AD Identity Protection permette di risolvere i possibili problemi tramite un approccio proattivo configurando criteri di correzione del rischio utente. All'interno delle impostazioni dei criteri è possibile scegliere come destinazione singoli utenti, gruppi o tutti gli utenti. È anche possibile impostare le condizioni specifiche che attiveranno i criteri.
@@ -99,7 +99,7 @@ Infine, è possibile scegliere se bloccare l'accesso interamente o se consentire
 - Registrazione di Azure MFA
 - Modifica delle password
 
-Altri dettagli sono disponibili in [Azure AD Identity Protection](https://azure.microsoft.com/en-us/documentation/articles/active-directory-identityprotection/) e in questo [post di blog su Enterprise Mobility + Security](https://blogs.technet.microsoft.com/enterprisemobility/2016/09/07/azuread-identity-protection-azure-ad-privileged-identity-management-and-azure-ad-premium-p2-will-be-generally-available-sept-15th/).
+Altri dettagli sono disponibili in [Azure AD Identity Protection](https://azure.microsoft.com/documentation/articles/active-directory-identityprotection/) e in questo [post di blog su Enterprise Mobility + Security](https://blogs.technet.microsoft.com/enterprisemobility/2016/09/07/azuread-identity-protection-azure-ad-privileged-identity-management-and-azure-ad-premium-p2-will-be-generally-available-sept-15th/).
 
 ### <a name="azure-ad-conditional-access"></a>Accesso condizionale di Azure AD
 I collegamenti seguenti offrono informazioni sull'uso dell'accesso condizionale di Azure AD in base a Multi-Factor Authentication (MFA), percorso e criteri dei dispositivi.

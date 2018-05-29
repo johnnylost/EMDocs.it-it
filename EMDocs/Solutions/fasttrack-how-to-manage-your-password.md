@@ -13,11 +13,11 @@ ms.technology: ''
 ms.assetid: 162e59f3-33a2-44b5-a59f-24612dc743f3
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: 0146fc11fb08c1c7d4442cc78a7af8aa8d2dcdab
-ms.sourcegitcommit: 5ce9b7a0ebac0c5f626b0273fa93fd02589a7452
+ms.openlocfilehash: bc2ea11b240fabc94241c9569c8f8df15dd598d4
+ms.sourcegitcommit: 573bba4fa70ce651971ec5bafd9967ebdd6bd6c5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="how-to-manage-your-own-password"></a>Come gestire la password
 
@@ -71,7 +71,7 @@ Seguire la procedura illustrata di seguito per reimpostare la password dell'acco
    ![Screenshot che indica che l'utente deve immettere e confermare una nuova password.](./media/ft-mngPW-12-clickFinish.png)
 10. Viene visualizzata una pagina in cui viene specificato che la procedura è stata completata con esito positivo. È ora possibile accedere con la nuova password.
     ![Screenshot che indica che il processo di reimpostazione della password è stato completato.](./media/ft-mngPW-13-success.png)
-    Problemi durante l'impostazione della password? Leggere le informazioni sui [problemi comuni e relative soluzioni](https://azure.microsoft.com/en-us/documentation/articles/active-directory-passwords-update-your-own-password/#common-problems-and-their-solutions).
+    Problemi durante l'impostazione della password? Leggere le informazioni sui [problemi comuni e relative soluzioni](https://azure.microsoft.com/documentation/articles/active-directory-passwords-update-your-own-password/#common-problems-and-their-solutions).
 
 ### <a name="want-to-learn-more"></a>Altre informazioni
 Vedere [Enterprise Mobility + Security](https://www.microsoft.com/en-us/server-cloud/enterprise-mobility/overview.aspx).

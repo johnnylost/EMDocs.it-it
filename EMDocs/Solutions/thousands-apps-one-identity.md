@@ -14,11 +14,11 @@ ms.assetid: dd879a14-919e-431b-89b9-c035c83a6899
 ROBOTS: ''
 ms.reviewer: atkladak, jsnow
 ms.suite: ems
-ms.openlocfilehash: 7710b1465256e99b9a0f7fa05af780af079731ae
-ms.sourcegitcommit: 4401a878f88cc60b3cfd90a915747fe37e333014
+ms.openlocfilehash: 6aca218a4607579ce97f057ca6f67b344eae7894
+ms.sourcegitcommit: 573bba4fa70ce651971ec5bafd9967ebdd6bd6c5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/06/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="thousands-of-apps-one-identity"></a>Migliaia di app, una sola identità
 Azure Active Directory (Azure AD) rende gli utenti più produttivi fornendo un'identità comune per gli utenti di applicazioni SaaS (Software as a Service, software come un servizio) che accedono a risorse sia cloud che locali.
@@ -95,17 +95,17 @@ La raccolta di applicazioni di Azure AD contiene migliaia di applicazioni che è
 ![Schermata che mostra come usare la raccolta di applicazioni di Azure AD per aggiungere un'applicazione per l'organizzazione.](./media/thousands-apps-one-identity/thousands-apps-one-identity-fig4.png)
 
 ### <a name="secure-remote-access-to-on-premises-apps"></a>Accesso remoto sicuro alle app locali
-Il [proxy di applicazione di Azure AD](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-enable/) offre accesso Single Sign-On (SSO) e accesso remoto sicuro per le applicazioni Web ospitate in locale. Tali applicazioni includono siti di SharePoint, Outlook Web Access o altre applicazioni Web line-of-business in uso. Le applicazioni Web locali vengono integrate con Azure AD, la stessa piattaforma di controllo e identità usata da Office 365.
+Il [proxy di applicazione di Azure AD](https://azure.microsoft.com/documentation/articles/active-directory-application-proxy-enable/) offre accesso Single Sign-On (SSO) e accesso remoto sicuro per le applicazioni Web ospitate in locale. Tali applicazioni includono siti di SharePoint, Outlook Web Access o altre applicazioni Web line-of-business in uso. Le applicazioni Web locali vengono integrate con Azure AD, la stessa piattaforma di controllo e identità usata da Office 365.
 
 Gli utenti finali possono quindi accedere alle applicazioni locali nello stesso modo in cui accedono a Office 365 e ad altre applicazioni SaaS integrate con Azure AD, senza la necessità di una rete VPN o di modificare l'infrastruttura di rete.
 
 ## <a name="how-to-implement-this-solution"></a>Come implementare questa soluzione
 I passaggi seguenti descrivono come implementare ogni funzionalità di Azure AD illustrata in precedenza. Ogni collegamento rappresenta un set diverso di articoli con un set specifico di istruzioni o passaggi da implementare nell'organizzazione:
-1. [Abilitare l'accesso Single Sign-On con il proxy di applicazione.](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-sso-using-kcd/)
-2. [Fornire accesso remoto sicuro alle applicazioni locali.](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-get-started/)
-   - [Uso di domini personalizzati nel proxy di applicazione di Azure AD.](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-custom-domains/)
-   - [Uso di app in grado di riconoscere le attestazioni nel proxy di applicazione.](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-claims-aware-apps/)
-   - [Uso dell'accesso condizionale per le app pubblicate usando il proxy di applicazione.](https://azure.microsoft.com/en-us/documentation/articles/active-directory-application-proxy-conditional-access/)
+1. [Abilitare l'accesso Single Sign-On con il proxy di applicazione.](https://azure.microsoft.com/documentation/articles/active-directory-application-proxy-sso-using-kcd/)
+2. [Fornire accesso remoto sicuro alle applicazioni locali.](https://azure.microsoft.com/documentation/articles/active-directory-application-proxy-get-started/)
+   - [Uso di domini personalizzati nel proxy di applicazione di Azure AD.](https://azure.microsoft.com/documentation/articles/active-directory-application-proxy-custom-domains/)
+   - [Uso di app in grado di riconoscere le attestazioni nel proxy di applicazione.](https://azure.microsoft.com/documentation/articles/active-directory-application-proxy-claims-aware-apps/)
+   - [Uso dell'accesso condizionale per le app pubblicate usando il proxy di applicazione.](https://azure.microsoft.com/documentation/articles/active-directory-application-proxy-conditional-access/)
 3. [Usare app personalizzate in Azure AD.](https://blogs.technet.microsoft.com/enterprisemobility/2015/06/17/bring-your-own-app-with-azure-ad-self-service-saml-configuration-now-in-preview/)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
