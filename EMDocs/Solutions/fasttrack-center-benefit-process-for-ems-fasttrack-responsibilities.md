@@ -5,7 +5,7 @@ keywords: ''
 author: andredm7
 ms.author: andredm
 manager: ''
-ms.date: 04/27/2018
+ms.date: 03/26/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -13,11 +13,12 @@ ms.technology: ''
 ms.assetid: c8fd871e-f1bc-43ec-a5f3-ad025df9b026
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: b9fb99c2c5bd640a033684096bd8f189a09b1698
-ms.sourcegitcommit: 0863dce817862f00068614f2c62698784eb76d84
+ms.openlocfilehash: b984f825ba2c799f7a6e5585e038e017df3ee417
+ms.sourcegitcommit: 4401a878f88cc60b3cfd90a915747fe37e333014
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/28/2018
+ms.lasthandoff: 04/06/2018
+ms.locfileid: "30848241"
 ---
 # <a name="fasttrack-responsibilities"></a>Responsabilità di FastTrack
 
@@ -165,7 +166,7 @@ Fornire indicazioni sulla configurazione di:
 > [!IMPORTANT]
 > FastTrack non supporta la gestione dei PC classica di Windows 10 con Intune. FastTrack supporta solo la gestione di Windows 10 tramite il software MDM (Mobile Device Management) di Intune.
 
-Fornire **indicazioni** su:
+Fornire indicazioni su:
 
 -   Configurazione delle identità da usare con Intune, tramite Active Directory locale o le identità cloud (Azure Active Directory).
 
@@ -209,14 +210,7 @@ Fornire **indicazioni** su:
 
     -   Connessione al data warehouse di Intune.
 
-    -   Integrazione di Intune con:
-        -   Team Viewer per l'assistenza remota. La sottoscrizione di Team Viewer è obbligatoria.
-
-        -   Soluzioni partner Mobile Threat Defense. La sottoscrizione della soluzione partner Mobile Threat Defense è obbligatoria.
-
-        -   Soluzioni di gestione delle spese per telecomunicazioni. La sottoscrizione delle soluzioni di gestione delle spese per telecomunicazioni è obbligatoria.
-
-        -   Windows Defender Advanced Threat Protection. Le licenze di Windows E5 o Microsoft 365 E5 sono obbligatorie.
+    -   Integrazione di Intune con Team Viewer per l'assistenza remota, partner Mobile Threat Defense e partner Telecom Expense (licenza dei prodotti di terze parti non inclusa con l'abbonamento di Intune).
 
     -   Configurazione degli aggiornamenti software per le piattaforme supportate applicabili.
 
