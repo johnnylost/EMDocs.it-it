@@ -5,7 +5,7 @@ keywords: ''
 author: andredm7
 ms.author: andredm
 manager: ''
-ms.date: 04/27/2018
+ms.date: 06/01/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -13,11 +13,12 @@ ms.technology: ''
 ms.assetid: 9048f3e5-cc28-4744-bb5e-36f974abb261
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: c3443b782d852b7fb4bf2148c0f6d7b70e0be9bd
-ms.sourcegitcommit: 0863dce817862f00068614f2c62698784eb76d84
+ms.openlocfilehash: d3faae6afb90ab44af454fa194a7f9f65e14bd80
+ms.sourcegitcommit: 3a51276eebdd8f1f18994a7efdcaa22e394180df
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/28/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34569511"
 ---
 # <a name="source-environment-expectations"></a>Requisiti per l'ambiente di origine
 
@@ -29,11 +30,11 @@ La tabella seguente illustra le previsioni nell'ambiente di origine esistente pe
 
 |Attività|Previsione per l’ambiente di origine|
 |------------|----------------------------------|
-|Onboarding di base|Foreste di Active Directory con il livello di foresta funzionale impostato su Windows Server 2008 o versione successiva, con la configurazione di foresta seguente:<br /><br />-   Foresta singola di Active Directory<br />-   Più foreste di Active Directory </br></br>**Nota**: per tutte le configurazioni a più foreste, la distribuzione di Active Directory Federation Services (AD FS) esula dall'ambito di FastTrack Center Benefit.|
+|Caricamento di base|Foreste di Active Directory con il livello di foresta funzionale impostato su Windows Server 2008 o versione successiva, con la configurazione di foresta seguente:<br /><br />-   Foresta singola di Active Directory<br />-   Più foreste di Active Directory </br></br>**Nota**: per tutte le configurazioni a più foreste, la distribuzione di Active Directory Federation Services (AD FS) esula dall'ambito di FastTrack Center Benefit.|
 |Caricamento di Azure AD Premium|Il servizio Active Directory locale e il relativo ambiente sono stati preparati per Azure AD Premium. Quest'ultimo include la correzione dei problemi identificati che impediscono l'integrazione con le funzionalità di Azure AD e Azure AD Premium.|
-|Caricamento di Intune, solo cloud o integrato con System Center Configuration Manager|Per la gestione di dispositivi con Configuration Manager 2012 R2 o versioni successive con connessione a Intune, gli amministratori IT dovranno seguire l'[Elenco di controllo amministratore: Configurazione di Configuration Manager per la gestione di dispositivi mobili mediante Microsoft Intune](https://technet.microsoft.com/library/jj943763.aspx).</br></br> **Nota**: il service benefit non include l'assistenza per la configurazione o l'aggiornamento di Configuration Manager in base ai requisiti minimi necessari per integrare Microsoft Intune con Configuration Manager.</br></br>Per la distribuzione di profili Wi-Fi e VPN, gli esperti IT hanno bisogno di un'Autorità di certificazione esistente e di infrastrutture Wi-Fi e VPN già funzionanti negli ambienti di produzione.</br></br> **Nota**: il servizio non include l'assistenza per l'installazione o la configurazione di infrastrutture dell'Autorità di certificazione, Wi-Fi o VPN. |
+|Caricamento di Intune, solo cloud o integrato con System Center Configuration Manager|Per la gestione di dispositivi con Configuration Manager 2012 R2 o versioni successive con connessione a Intune, gli amministratori IT dovranno seguire l'[Elenco di controllo amministratore: Configurazione di Configuration Manager per la gestione di dispositivi mobili mediante Microsoft Intune](https://technet.microsoft.com/library/jj943763.aspx).</br></br> **Nota**: il service benefit non include l'assistenza per la configurazione o l'aggiornamento di Configuration Manager in base ai requisiti minimi necessari per integrare Microsoft Intune con Configuration Manager. </br></br>Per la distribuzione di profili Wi-Fi e VPN, gli amministratori IT hanno bisogno di un'Autorità di certificazione esistente e di infrastrutture Wi-Fi e VPN già funzionanti negli ambienti di produzione.</br></br> **Nota**: il servizio non include l'assistenza per l'installazione o la configurazione di infrastrutture di Autorità di certificazione, Wi-Fi o VPN. |
+|Co-gestione|Con la co-gestione, gli amministratori IT sono responsabili della preparazione dell'ambiente locale, che potrebbe includere la risoluzione dei problemi che impediscono di gestire contemporaneamente i dispositivi Windows 10 sia con Configuration Manager che con Intune. </br></br> **Nota**: il vantaggio del servizio FastTrack non include l'assistenza per la configurazione o l'aggiornamento del server del sito di Configuration Manager o del client di Configuration Manager in base ai requisiti minimi necessari per supportare la co-gestione con i dispositivi Windows 10. |
 |Intune integrato con Windows Defender Advanced Threat Protection (Windows Defender ATP)|La sottoscrizione di Windows Defender ATP è stata attivata e configurata in base ai requisiti di sicurezza della società.<br /><br />**Nota**: il vantaggio del servizio FastTrack comprende l'assistenza per l'integrazione di Intune con Windows Defender ATP e per la creazione di criteri di conformità del dispositivo in base alle valutazioni del livello di rischio di Windows 10. Il vantaggio del servizio FastTrack non comprende l'assistenza per l'acquisto, la licenza, l'attivazione o l'uso di Windows Defender ATP e della console Centro sicurezza. |
-
 
 > [!NOTE]
 > **Per altre informazioni**

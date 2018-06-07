@@ -5,7 +5,7 @@ keywords: ''
 author: andredm7
 ms.author: andredm
 manager: ''
-ms.date: 04/27/2018
+ms.date: 06/01/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -13,11 +13,12 @@ ms.technology: ''
 ms.assetid: 0590b7b2-0965-437b-b3ca-bd55de1abb09
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: bba697474155bbd85927da8af86d72dcc5aad531
-ms.sourcegitcommit: 0863dce817862f00068614f2c62698784eb76d84
+ms.openlocfilehash: ef6e0021018087b6550ecff4c01d4aab68b32b15
+ms.sourcegitcommit: 3a51276eebdd8f1f18994a7efdcaa22e394180df
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/28/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34569528"
 ---
 # <a name="your-responsibilities"></a>Responsabilità dell'utente
 
@@ -57,7 +58,7 @@ Ecco le responsabilità dell'utente durante il processo di onboarding.
 
 -   Definire e gestire l'ambiente di test.
 
--   Installare Service Pack e altri aggiornamenti necessari nei server dell'infrastruttura.
+-   Installare Service Pack/aggiornamenti cumulativi e altri aggiornamenti necessari nei server dell'infrastruttura.
 
 -   Specificare e configurare eventuali certificati Secure Sockets Layer (SSL) pubblici.
 
@@ -66,6 +67,10 @@ Ecco le responsabilità dell'utente durante il processo di onboarding.
 -   Se è necessario per la distribuzione di profili Wi-Fi e VPN con Intune, specificare e configurare le infrastrutture di Autorità di certificazione, Wi-Fi e VPN in base alle esigenze.
 
 -   Scrivere le Condizioni per l'utilizzo dell'organizzazione da configurare e visualizzare nei portali aziendali di Microsoft Intune accessibili agli utenti finali.
+
+-   Aggiornare i server del sito di Configuration Manager e i client di Configuration Manager alle versioni di build più recenti (se necessario).
+
+-   Iscriversi per sottoscrizioni di terze parti come Mobile Threat Defense, spese per telecomunicazioni e così via. quando è necessaria l'integrazione con Microsoft Intune.
 
 -   Iscriversi per ottenere le sottoscrizioni di Team Viewer, Mobile Threat Defense e della soluzione di gestione delle spese per telecomunicazioni.
 

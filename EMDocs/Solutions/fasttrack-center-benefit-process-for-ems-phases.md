@@ -5,7 +5,7 @@ keywords: ''
 author: andredm7
 ms.author: andredm
 manager: ''
-ms.date: 04/27/2018
+ms.date: 06/01/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -13,11 +13,12 @@ ms.technology: ''
 ms.assetid: e51f030b-8b08-4fea-96c9-d4ded435a264
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: e63644b2e8db81f6293dbad4ca4de14dbe40ecac
-ms.sourcegitcommit: 0863dce817862f00068614f2c62698784eb76d84
+ms.openlocfilehash: d3d66f6a790140a9b461d5a63398a81a3485f9fc
+ms.sourcegitcommit: 3a51276eebdd8f1f18994a7efdcaa22e394180df
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/28/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34569562"
 ---
 # <a name="onboarding-phases"></a>Fasi di onboarding
 
@@ -172,11 +173,41 @@ Per Intune, l'utente viene guidato nei preparativi per l'uso di Microsoft Intune
     > [!IMPORTANT]
     > FastTrack non supporta la gestione dei PC classica di Windows 10 con Intune. FastTrack supporta solo la gestione dei dispositivi Windows 10 tramite il software MDM (Mobile Device Management) di Intune.
 
-Microsoft offre anche informazioni aggiuntive su come adottare correttamente i servizi idonei.
+#### <a name="co-management"></a>Co-gestione
+
+FastTrack consente di prepararsi in modo guidato per gestire i dispositivi Windows 10 contemporaneamente con Configuration Manager e Intune. La procedura esatta dipende dall'ambiente di origine e può includere:
+
+- Spiegare i vantaggi della co-gestione.
+
+- Concedere le licenze agli utenti finali. FastTrack offre assistenza su come attivare i contratti multilicenza per il tenant del servizio cloud Microsoft, se necessario.
+
+- Configurare le identità da usare con Intune, tramite Active Directory locale e/o le identità cloud.
+
+- Aggiunta di utenti alla sottoscrizione di Intune, definizione dei ruoli di amministratore IT e creazione di gruppi di utenti e di dispositivi.
+
+- Fornire indicazioni su come passare da Intune integrato con System Center Configuration Manager (ibrido) a Intune autonomo.
+
+- Fornire indicazioni per la configurazione di Azure Active Directory per la registrazione automatica MDM.
+
+- Fornire indicazione per la configurazione dell'aggiunta ad Azure Active Directory ibrida.
+
+- Fornire indicazioni su come configurare Cloud Management Gateway.
+
+- Abilitare la co-gestione nella console di Configuration Manager.
+
+- Configurare i carichi di lavoro supportati che si desidera passare a Intune.
+
+- Installare il client di Configuration Manager nei dispositivi registrati in Intune.
+
+- Fornire indicazioni su come monitorare l'attività di co-gestione nel proprio ambiente.
+
+FastTrack offre anche indicazioni su come promuovere l'adozione corretta dei servizi idonei.
 
 ![Fase di abilitazione del caricamento: Intune](./media/ft-enable-phase_intune_mam.png)
 
 ![Fase di abilitazione del caricamento: Intune](./media/ft-enable-phase_intune_mdm-mam_cloudonly.png)
+
+![Fase di abilitazione del caricamento - Co-gestione](./media/ft-9-enable-phase-comanagement.png)
 
 ![Fase di abilitazione del caricamento: Intune](./media/ft-enable-phase-intune-mdm-mam-sccm.png)
 

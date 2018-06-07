@@ -5,7 +5,7 @@ keywords: ''
 author: andredm7
 ms.author: andredm
 manager: ''
-ms.date: 04/27/2018
+ms.date: 06/01/2018
 ms.topic: article
 ms.prod: ''
 ms.service: microsoft-intune
@@ -13,12 +13,12 @@ ms.technology: ''
 ms.assetid: c8fd871e-f1bc-43ec-a5f3-ad025df9b026
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: b9fb99c2c5bd640a033684096bd8f189a09b1698
-ms.sourcegitcommit: 0863dce817862f00068614f2c62698784eb76d84
+ms.openlocfilehash: 212acc335e4c0a21c2a6f72c3df1226ebc21e156
+ms.sourcegitcommit: 3a51276eebdd8f1f18994a7efdcaa22e394180df
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/28/2018
-ms.locfileid: "32045252"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34569545"
 ---
 # <a name="fasttrack-responsibilities"></a>Responsabilità di FastTrack
 
@@ -176,7 +176,7 @@ Fornire **indicazioni** su:
 
 -   Configurazione dell'autorità di gestione dei dispositivi mobili (MDM, Mobile Device Management) in base alle specifiche esigenze di gestione:
 
-    -   Impostazione di Intune come autorità MDM quando Intune è l'unica soluzione MDM.
+    -   Impostare Intune come autorità MDM.
 
     -   Impostazione di System Center Configuration Manager come autorità MDM se è presente un'implementazione esistente di Configuration Manager e si vogliono espandere le funzionalità di gestione con Intune.
 
@@ -222,6 +222,44 @@ Fornire **indicazioni** su:
     -   Configurazione degli aggiornamenti software per le piattaforme supportate applicabili.
 
     -   Risorse per la pianificazione dell'adozione da parte degli utenti.
+
+### <a name="enable-phase---co-management"></a>Fase di abilitazione - Co-gestione
+
+Fornire indicazioni su:
+
+-   Concessione di licenze agli utenti finali.
+
+-   Aggiunta di utenti alla sottoscrizione di Intune, definizione dei ruoli di amministratore IT e creazione di gruppi di utenti e di dispositivi (se Intune non è installato).
+
+-   Configurazione di Azure Active Directory per la registrazione automatica MDM.
+
+-   Configurare l'aggiunta ad Azure Active Directory ibrida.
+
+-   Configurare Cloud Management Gateway.
+
+-   Aggiunta di utenti alla sottoscrizione di Intune, definizione dei ruoli di amministratore IT e creazione di gruppi di utenti e di dispositivi.
+
+-   Preparare Intune (se Intune non è installato):
+
+    -   Configurazione dell'autorità di gestione dei dispositivi mobili (MDM, Mobile Device Management) in base alle specifiche esigenze di gestione:
+
+    -   Impostare Intune come autorità MDM.
+
+    -   Configurazione dei gruppi di test da usare per la convalida dei criteri di gestione MDM.
+
+    -   Esplorazione del portale di amministrazione di Intune per individuare le informazioni su utenti e dispositivi.
+
+    -   Configurazione dei ruoli di Intune (operatore di help desk, amministratori, ecc.)
+
+    -   Configurazione e distribuzione dei criteri di protezione delle app di Intune per ogni piattaforma supportata.
+
+    -   Registrazione di dispositivi Windows 10 in Intune.
+
+- Abilitare la co-gestione nella console di Configuration Manager.
+
+- Passare i carichi di lavoro a Intune.
+
+- Monitorare l'attività di co-gestione nel proprio ambiente.
 
 > [!NOTE]
 > **Per altre informazioni** vedere [Enterprise Mobility + Security](https://www.microsoft.com/cloud-platform/enterprise-mobility).
