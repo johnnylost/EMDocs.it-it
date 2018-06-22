@@ -19,6 +19,7 @@ ms.sourcegitcommit: 573bba4fa70ce651971ec5bafd9967ebdd6bd6c5
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 05/24/2018
+ms.locfileid: "34474021"
 ---
 # <a name="thousands-of-apps-one-identity"></a>Migliaia di app, una sola identità
 Azure Active Directory (Azure AD) rende gli utenti più produttivi fornendo un'identità comune per gli utenti di applicazioni SaaS (Software as a Service, software come un servizio) che accedono a risorse sia cloud che locali.

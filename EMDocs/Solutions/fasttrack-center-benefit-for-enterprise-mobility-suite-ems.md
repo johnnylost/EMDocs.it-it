@@ -18,6 +18,7 @@ ms.sourcegitcommit: f045537a12763cd6164c4ae42f7b4a45c4ca040b
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 04/05/2018
+ms.locfileid: "30817679"
 ---
 # <a name="fasttrack-center-benefit-eligible-services-and-plans"></a>Piani e servizi idonei per FastTrack Center Benefit
 È possibile usare il service benefit quando si acquistano almeno 150 licenze di Enterprise Mobility + Security (EMS) o uno dei suoi servizi cloud in un piano idoneo. Con il service benefit è possibile collaborare con gli specialisti FastTrack per valutare, correggere e attivare i servizi idonei.

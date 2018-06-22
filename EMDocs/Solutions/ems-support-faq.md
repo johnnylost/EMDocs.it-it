@@ -18,6 +18,7 @@ ms.sourcegitcommit: 1fd9d6f672b25c50e7165793b518fe02912338d5
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 03/16/2018
+ms.locfileid: "29925539"
 ---
 # <a name="enterprise-mobility--security-support-faqs"></a>Domande frequenti sul supporto per Enterprise Mobility + Security
 Microsoft fornisce supporto globale pre-vendita, per la fatturazione e per le sottoscrizioni e supporto tecnico per Enterprise Mobility + Security(EMS).  Per altre informazioni dettagliate, vedere di seguito.

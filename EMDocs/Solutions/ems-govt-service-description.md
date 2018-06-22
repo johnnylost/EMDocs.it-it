@@ -1,23 +1,24 @@
 ---
 title: Descrizione del servizio Enterprise Mobility + Security per il governo degli Stati Uniti
 description: I piani EMS GCC High sono sottoscrizioni mensili e vengono concessi in licenza per singoli utenti.
-keywords: 
+keywords: ''
 author: dougeby
 ms.author: dougeby
 manager: dougeby
 ms.date: 3/1/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: ems
-ms.technology: 
+ms.technology: ''
 ms.assetid: de61a788-f45d-47bb-a047-e92b64b1ee03
-ms.reviewer: 
+ms.reviewer: ''
 ms.suite: ems
 ms.openlocfilehash: da6b79835b9891b15fcb97d90f6d6263f231b356
 ms.sourcegitcommit: 6399d25da998e54605082faff5f8b2304a851e4e
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 03/02/2018
+ms.locfileid: "29721445"
 ---
 # <a name="enterprise-mobility--security-for-us-government-service-description"></a>Descrizione del servizio Enterprise Mobility + Security per il governo degli Stati Uniti 
 In risposta ai requisiti unici e in continua evoluzione del settore pubblico degli Stati Uniti d'America, Microsoft ha creato i piani EMS (Enterprise Mobility + Security) per i clienti del governo degli Stati Uniti. Questo documento offre una panoramica delle funzionalità specifiche dei piani EMS.  

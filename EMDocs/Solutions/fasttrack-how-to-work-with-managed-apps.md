@@ -18,6 +18,7 @@ ms.sourcegitcommit: 4401a878f88cc60b3cfd90a915747fe37e333014
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 04/06/2018
+ms.locfileid: "30848156"
 ---
 # <a name="how-to-use-mobile-apps-managed-by-your-organization"></a>Come usare app per dispositivi mobili gestite dall'organizzazione
 

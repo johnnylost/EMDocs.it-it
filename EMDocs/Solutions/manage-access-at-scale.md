@@ -19,6 +19,7 @@ ms.sourcegitcommit: 573bba4fa70ce651971ec5bafd9967ebdd6bd6c5
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 05/24/2018
+ms.locfileid: "34474106"
 ---
 # <a name="manage-access-at-scale"></a>Gestire l'accesso su larga scala
 Microsoft offre da sempre gli strumenti necessari alle organizzazioni. Oltre a un'identità che permette di accedere dovunque, Microsoft offre anche un insieme di strumenti per automatizzare, proteggere e gestire le attività IT all'interno dell'organizzazione. Anche dopo l'avvento del cloud computing, esiste tuttora una domanda di gestione e controllo di attività IT come le chiamate del supporto tecnico per la reimpostazione delle password utente, la gestione dei gruppi di utenti e le richieste di applicazioni.

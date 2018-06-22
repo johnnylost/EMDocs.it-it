@@ -6,7 +6,7 @@ ms.author: yurid
 manager: mbaldwin
 ms.date: 05/18/2017
 ms.topic: solution
-ms.prod: 
+ms.prod: ''
 ms.service: rights-management
 ms.technology: techgroup-identity
 ms.assetid: 2f906e2e-3d99-40e6-b5cc-8d903fcda444
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 9e30dab85116767c71b911827d839a433418b9b5
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 11/09/2017
+ms.locfileid: "24101411"
 ---
 # <a name="the-role-of-azure-information-protection-in-securing-data"></a>Il ruolo di Azure Information Protection nella protezione dei dati
 

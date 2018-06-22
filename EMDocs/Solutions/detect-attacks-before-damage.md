@@ -18,6 +18,7 @@ ms.sourcegitcommit: 573bba4fa70ce651971ec5bafd9967ebdd6bd6c5
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 05/24/2018
+ms.locfileid: "34474089"
 ---
 # <a name="detect-attacks-before-they-cause-damage"></a>Rilevare attacchi prima che possano provocare danni
 Un ambiente di lavoro sicuro richiede un sistema di rilevamento avanzato in grado di identificare minacce prima che possano causare danni importanti. Le organizzazioni possono usufruire facilmente delle funzionalità di sicurezza Microsoft per rilevare attività sospette nel cloud o localmente.

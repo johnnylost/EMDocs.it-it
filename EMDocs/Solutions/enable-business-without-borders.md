@@ -19,6 +19,7 @@ ms.sourcegitcommit: 573bba4fa70ce651971ec5bafd9967ebdd6bd6c5
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 05/24/2018
+ms.locfileid: "34474004"
 ---
 # <a name="enable-business-without-borders"></a>Consentire un business senza confini
 L'identità non è un'opzione, ma un elemento fondamentale per una forza lavoro efficiente. Le organizzazioni devono consentire ai propri dipendenti di accedere a tutti i dati e a tutte le applicazioni da ogni dispositivo e da qualunque luogo. Gli utenti devono poter collaborare tra loro e con i partner e comunicare con i clienti. Gli strumenti usati non si trovano più in un ambiente protetto e controllato, ma in un cloud pubblico.

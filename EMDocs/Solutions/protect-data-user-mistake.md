@@ -1,12 +1,12 @@
 ---
 title: Proteggere i dati dagli errori degli utenti | Microsoft Docs
-description: "Scenario che descrive come usare Enterprise Mobility + Security proteggere i dati aziendali dagli errori degli utenti e impedire la perdita dei dati usando le funzionalità di Cloud App Security e di Azure Information Protection."
+description: Scenario che descrive come usare Enterprise Mobility + Security proteggere i dati aziendali dagli errori degli utenti e impedire la perdita dei dati usando le funzionalità di Cloud App Security e di Azure Information Protection.
 author: yuridio
 ms.author: yurid
 manager: mbaldwin
 ms.date: 05/18/2017
 ms.topic: solution
-ms.prod: 
+ms.prod: ''
 ms.service: cloud-app-security
 ms.technology: techgroup-identity
 ms.assetid: 0af3894c-7b0e-4c0c-8874-31e041d81300
@@ -18,6 +18,7 @@ ms.sourcegitcommit: a7fd3ad8a351e9cc72ea37486342a273ed29b883
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 11/03/2017
+ms.locfileid: "23981107"
 ---
 # <a name="protect-data-against-user-mistakes"></a>Proteggere i dati dagli errori degli utenti
 

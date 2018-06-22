@@ -18,6 +18,7 @@ ms.sourcegitcommit: 66feadbdfd08565f69bc8ace81dcba9d012fdd0b
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 03/20/2018
+ms.locfileid: "30003040"
 ---
 # <a name="fasttrack-center-benefit-for-enterprise-mobility--security-ems"></a>FastTrack Center Benefit per Enterprise Mobility + Security (EMS)
 

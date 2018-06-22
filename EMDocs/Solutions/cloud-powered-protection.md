@@ -19,6 +19,7 @@ ms.sourcegitcommit: 573bba4fa70ce651971ec5bafd9967ebdd6bd6c5
 ms.translationtype: HT
 ms.contentlocale: it-IT
 ms.lasthandoff: 05/24/2018
+ms.locfileid: "34473987"
 ---
 # <a name="cloud-powered-protection"></a>Protezione basata sul cloud
 Microsoft è impegnata nella protezione delle identità basate sul cloud da oltre un decennio e con Azure Active Directory sta rendendo questi stessi sistemi di protezione disponibili ai clienti aziendali, per garantire la responsabilità di utenti e amministratori attraverso livelli migliori di sicurezza e governance.
