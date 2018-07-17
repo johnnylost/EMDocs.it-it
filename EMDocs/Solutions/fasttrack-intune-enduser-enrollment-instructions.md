@@ -13,12 +13,12 @@ ms.technology: ''
 ms.assetid: 5c13446e-aa31-47df-ad9d-373be7660197
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: b7adfe06ba063c9df152eb21d913cb9c43127c6b
-ms.sourcegitcommit: 4401a878f88cc60b3cfd90a915747fe37e333014
+ms.openlocfilehash: 268ab59474a117b2809baec0906ed3738d509914
+ms.sourcegitcommit: b93dc7df0f9978ac7bb8fe8e3d3cc15635ceb0e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/06/2018
-ms.locfileid: "30848105"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38147597"
 ---
 # <a name="end-user-intune-enrollment-instructions-for-it-administrators"></a>Istruzioni di registrazione di Intune (versione utente finale) per gli amministratori IT
 
@@ -38,7 +38,7 @@ Per usare il dispositivo al lavoro, registrarlo in Intune tramite il Portale azi
 
 Queste passaggi sono validi per la registrazione di dispositivi Android Samsung Knox e Android nativi, esclusi i dispositivi Samsung Knox. Per determinare se il dispositivo è di tipo Samsung Knox, aprire **Impostazioni > Informazioni sul telefono**. Se non viene visualizzata la parola Knox qui riportata, significa che il dispositivo è un dispositivo Android nativo. Le schermate che appaiono sul dispositivo potrebbero essere leggermente diverse da quelle illustrate di seguito.
 
-Se si verifica un errore durante la registrazione del dispositivo in Intune, vedere [Inviare gli errori di registrazione all'amministratore IT](https://technet.microsoft.com/en-US/library/mt502762(TechNet.10).aspx#BKMK_andr_send_enroll_errors).
+Se si verifica un errore durante la registrazione del dispositivo in Intune, vedere [Inviare gli errori di registrazione all'amministratore IT](https://technet.microsoft.com/library/mt502762(TechNet.10).aspx#BKMK_andr_send_enroll_errors).
 
 Prima o dopo la registrazione potrebbe essere necessario scegliere la categoria che descrive meglio come viene usato il dispositivo. L'amministratore IT usa questa categoria per determinare a quali app ha accesso l'utente.
 1. Installare l'app gratuita Portale aziendale di Microsoft Intune nel dispositivo da [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.windowsintune.companyportal).
