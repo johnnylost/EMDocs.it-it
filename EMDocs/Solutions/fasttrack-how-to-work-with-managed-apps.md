@@ -13,12 +13,12 @@ ms.technology: ''
 ms.assetid: 174348f0-dbc6-4204-8626-3c6f38b7bbde
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: 30b9009b0321de26d3c78bf8876b3456eec350c6
-ms.sourcegitcommit: 4401a878f88cc60b3cfd90a915747fe37e333014
+ms.openlocfilehash: 99329f3dccd12621a36580ba6538a7e31ad43efc
+ms.sourcegitcommit: 4cea4bc674e4c7946394aa14aab9939e31ed88fe
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/06/2018
-ms.locfileid: "30848156"
+ms.lasthandoff: 07/19/2018
+ms.locfileid: "39149969"
 ---
 # <a name="how-to-use-mobile-apps-managed-by-your-organization"></a>Come usare app per dispositivi mobili gestite dall'organizzazione
 
@@ -68,7 +68,9 @@ In questa sezione viene usato OneDrive for Business come esempio per dimostrare 
    ![Schermata in cui viene richiesto all'utente del dispositivo Android di aprire Google Play Store per scaricare l'app Portale aziendale di Intune.](./media/ft-useMngdApps-7-installPortal.png)
 
    L'app Portale aziendale consente di mantenere i dati sicuri e protetti.
-   ![Screenshot in cui viene richiesto all'utente di Android di installare l'app Portale aziendale di Intune.](./media/ft-useMngdApps-8-intunePortal.png)
+   
+   ![Schermata in cui viene richiesto all'utente di Android di installare l'app Portale aziendale di Intune.](./media/ft-useMngdApps-8-intunePortal.png)
+   
 5. Dopo aver completato l'installazione, scegliere **Accetta** per accettare le condizioni.
 6. L'app **OneDrive for Business** viene avviata automaticamente.
 7. All'apertura successiva di OneDrive for Business, verrà visualizzato il prompt dei comandi per impostare un **PIN**, purché i criteri siano impostati in modo da richiedere un PIN per accedere all'app **OneDrive for Business**.
