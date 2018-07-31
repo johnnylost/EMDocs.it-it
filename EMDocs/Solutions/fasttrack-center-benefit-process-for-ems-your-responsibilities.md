@@ -13,12 +13,12 @@ ms.technology: ''
 ms.assetid: 0590b7b2-0965-437b-b3ca-bd55de1abb09
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: ef6e0021018087b6550ecff4c01d4aab68b32b15
-ms.sourcegitcommit: 3a51276eebdd8f1f18994a7efdcaa22e394180df
+ms.openlocfilehash: 35686bdd73e10fabfbb84ca84152c593473c8a99
+ms.sourcegitcommit: 8209dd3332db21aa1b38f8a6311d8853938e7ad8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34569528"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39320864"
 ---
 # <a name="your-responsibilities"></a>Responsabilità dell'utente
 
@@ -126,5 +126,5 @@ Ecco le responsabilità dell'utente durante il processo di onboarding.
 ## <a name="see-also"></a>Vedere anche
 
 - [FastTrack Benefit per EMS](fasttrack-center-benefit-for-enterprise-mobility-suite-ems.md)
-- [FastTrack Benefit per Office 365](https://technet.microsoft.com/library/office-365-onboarding-benefit.aspx)
+- [FastTrack Benefit per Office 365](https://docs.microsoft.com/fasttrack/fasttrack-benefit-for-office-365)
 

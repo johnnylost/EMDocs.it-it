@@ -13,19 +13,19 @@ ms.technology: ''
 ms.assetid: 484156c7-c3c4-469d-b718-9fa33d9d0ec2
 ms.reviewer: ''
 ms.suite: ems
-ms.openlocfilehash: eb31a82d7b2bc7b2e92a3a7b0b1f41bf07c4e182
-ms.sourcegitcommit: f045537a12763cd6164c4ae42f7b4a45c4ca040b
+ms.openlocfilehash: 5f1e470e32262e65ac9ef7d2d0cb6dce3de9c139
+ms.sourcegitcommit: 8209dd3332db21aa1b38f8a6311d8853938e7ad8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/05/2018
-ms.locfileid: "30817679"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39320898"
 ---
 # <a name="fasttrack-center-benefit-eligible-services-and-plans"></a>Piani e servizi idonei per FastTrack Center Benefit
 È possibile usare il service benefit quando si acquistano almeno 150 licenze di Enterprise Mobility + Security (EMS) o uno dei suoi servizi cloud in un piano idoneo. Con il service benefit è possibile collaborare con gli specialisti FastTrack per valutare, correggere e attivare i servizi idonei.
 
 - Per informazioni sul processo FastTrack Center e sulle responsabilità, vedere [Processo FastTrack Center Benefit per Enterprise Mobility + Security (EMS)](fasttrack-center-benefit-process-for-enterprise-mobility-suite-ems.md).
 
-- Per informazioni su FastTrack per Office 365, vedere [Vantaggio FastTrack Center per Office 365](https://technet.microsoft.com/library/office-365-onboarding-benefit.aspx).
+- Per informazioni su FastTrack per Office 365, vedere [Vantaggio FastTrack Center per Office 365](https://docs.microsoft.com/fasttrack/fasttrack-benefit-for-office-365).
 
 ## <a name="eligible-services"></a>Servizi idonei
 
