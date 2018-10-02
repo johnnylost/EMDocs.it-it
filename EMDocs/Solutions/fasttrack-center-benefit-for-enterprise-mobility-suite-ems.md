@@ -58,7 +58,7 @@ EMS e i servizi cloud inclusi in FastTrack Center Benefit per EMS sono idonei pe
 
 &ast; Disponibile solo per i servizi cloud idonei per i benefit. Vedere la tabella seguente.
 
-**Acquistato come piano autonomo.
+\*\*Acquistato come piano autonomo.
 
 &nbsp;
 
