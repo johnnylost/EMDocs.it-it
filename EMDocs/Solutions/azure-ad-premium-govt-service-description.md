@@ -44,7 +44,7 @@ Azure Active Directory Premium per gli enti pubblici è disponibile per (1) enti
 
 ## <a name="location-of-customer-data"></a>Posizione dei dati del cliente
 
-I servizi Azure Active Directory Premium per enti pubblici sono offerti da data center situati fisicamente negli Stati Uniti. Tutti il contenuti vengono archiviati in data center situati fisicamente solo negli Stati Uniti.
+I servizi Azure Active Directory Premium per enti pubblici sono offerti da data center situati fisicamente negli Stati Uniti. Tutti i contenuti vengono archiviati in data center situati fisicamente solo negli Stati Uniti.
 
 ## <a name="azure-active-directory-premium-government-and-third-party-services"></a>Azure Active Directory Premium per enti pubblici e servizi di terzi
 
@@ -52,7 +52,7 @@ Vari servizi di Azure Active Directory Premium offrono la possibilità di intera
 
 ## <a name="azure-active-directory-premium-government-offers-and-office-365-interoperability"></a>Prodotti Azure Active Directory Premium per enti pubblici e interoperabilità con Office 365
 
-Office 365 è attualmente disponibile sia ambienti GCC sia negli ambienti GCC High. Per altre informazioni su queste offerte, vedere la [descrizione del servizio](https://technet.microsoft.com/library/mt774581.aspx) Office 365 Government. Il prodotto commerciale Azure Active Directory Premium è totalmente compatibile con Office 365 GCC e attualmente è in corso la definizione della conformità alla certificazione FedRAMP-Moderate per questo prodotto. Azure Active Directory Premium GCC High è basato su [Microsoft Azure Government Cloud](https://docs.microsoft.com/azure/azure-government/documentation-government-welcome) e creato per l'interoperabilità con Office 365 GCC High e Office 365 DoD. È previsto l'ottenimento della certificazione FedRAMP-High per Azure Active Directory Premium GCC High.
+Office 365 è attualmente disponibile sia negli ambienti GCC sia negli ambienti GCC High. Per altre informazioni su queste offerte, vedere la [descrizione del servizio](https://technet.microsoft.com/library/mt774581.aspx) Office 365 Government. Il prodotto commerciale Azure Active Directory Premium è totalmente compatibile con Office 365 GCC e attualmente è in corso la definizione della conformità alla certificazione FedRAMP-Moderate per questo prodotto. Azure Active Directory Premium GCC High è basato su [Microsoft Azure Government Cloud](https://docs.microsoft.com/azure/azure-government/documentation-government-welcome) e creato per l'interoperabilità con Office 365 GCC High e Office 365 DoD. È previsto l'ottenimento della certificazione FedRAMP-High per Azure Active Directory Premium GCC High.
 
 |Prodotto Azure Active Directory Premium per enti pubblici|Prodotto Office 365 Government corrispondente|Impegno di conformità|
 |-----------|-----------|-----------|
